@@ -1,0 +1,4 @@
+# Introduction
+**CQ38W-3576** Powered by the Rockchip RK3576, an octa-core 64-bit AIOT processor, Core-3576JD4 features an advanced lithography process to deliver high performance while maintaining low power consumption. It is equipped with an ARM Mali G52 MC3 GPU and a 6 TOPS NPU. This core board supports the private deployment of ultra-large-scale parameter models under the Transformer architecture, custom operator development, and Docker container management technology. With support for 4K@120fps decoding/4K@60fps encoding, it boasts a display capability with 4Kresolution at a high frame rate of 120 fps. With an external watchdog, it provides industrial-grade stability. The backplane reference design is available for deep customization.
+
+![](../../../rk3576_img/CQ38W-3576/CQ38W-3576.png)
