@@ -1,0 +1,1 @@
+AIO-3588Q  has no Recovery button, so there is no hardware method to enter Loader mode, please use the software method.

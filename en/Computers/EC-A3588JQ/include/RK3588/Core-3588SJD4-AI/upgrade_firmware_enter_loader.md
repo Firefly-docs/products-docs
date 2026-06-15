@@ -1,0 +1,1 @@
+EC-A3588JQ has no Recovery button, so there is no hardware method to enter Loader mode, please use the software method.

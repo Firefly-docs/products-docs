@@ -1,0 +1,1 @@
+EC-R3588RT_2G5 has no Recovery button, so there is no hardware method to enter Loader mode, please use the software method.

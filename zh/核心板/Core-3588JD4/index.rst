@@ -1,0 +1,104 @@
+.. Core-3588JD4 Manual documentation master file, created by
+   sphinx-quickstart on Wed May 3 14:17:57 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to Core-3588JD4 Manual
+=====================================
+
+ 
+
+
+.. toctree::
+   :glob:
+   :numbered:
+   :maxdepth: 2
+   :caption: 上手教程
+
+   started
+   serial_debug
+
+
+
+ 
+.. toctree::
+   :glob:
+   :numbered:
+   :maxdepth: 2
+   :caption: 升级固件
+
+   upgrade_bootmode
+   upgrade_firmware
+   upgrade_maskrom_mode
+   upgrade_firmware_sd
+
+.. toctree::
+   :glob:
+   :numbered:
+   :maxdepth: 2
+   :caption: Linux开发
+
+   linux6.1_compile
+   linux_compile
+   linux_firefly_linux_manual
+   linux_technical_cases
+
+
+
+ 
+.. toctree::
+   :glob:
+   :numbered:
+   :maxdepth: 2
+   :caption: 接口使用
+
+   
+   usage_camera
+   usage_can
+   usage_display
+   usage_gpio
+   usage_led
+   usage_rtc
+   usage_sata
+   usage_uart
+   usage_watchdog
+
+.. toctree::
+   :glob:
+   :numbered:
+   :maxdepth: 2
+   :caption: 配件
+
+   module_camera
+   module_wireless
+
+
+
+ 
+.. toctree::
+   :glob:
+   :numbered:
+   :maxdepth: 2
+   :caption: 其他
+
+   usage_rkllm
+   usage_npu
+
+ 
+.. toctree::
+   :glob:
+   :numbered:
+   :maxdepth: 2
+   :caption: 常见问题解答
+
+   linux_dts_manual
+
+ 
+.. toctree::
+   :glob:
+   :numbered:
+   :maxdepth: 2
+   :caption: 参考资料
+
+   interface_definition
+
