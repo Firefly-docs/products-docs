@@ -1,0 +1,6 @@
+## Introduction
+
+**Core-1109-JD4** uses the 14nm low-power AI vision processor RV1126, with a Quad-core 32-bit ARM Cortex-A7 architecture, integrated NEON and FPU, and a main frequency of up to 1.5GHz. It can achieve FastBoot fast startup and supports TrustZone technology and multiple cryptographic engines. Equipped with a quad-core high-performance AI intelligent vision processor, the computing power is up to 2.0Tops, supports 4K video encoding and decoding, multiple AI frameworks and liveness detection, and has high recognition accuracy. It can be applied to scenarios such as face recognition, gate access control, gesture recognition, expression recognition, and face attribute analysis; open supporting materials are convenient for secondary development and help projects land quickly. Equipped with an all-aluminum alloy shell, efficient heat dissipation, ultra-small size, space saving, and can be flexibly embedded in various AI products.
+
+
+![](../../../rv1126_img/Core-1109-JD4/CAM-C1126S2U-front.png)

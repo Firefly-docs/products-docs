@@ -1,1 +1,0 @@
-EC-R3588RT_2G5 There is no recovery button reserved on the hardware, so there is no hardware way to enter Loader mode.

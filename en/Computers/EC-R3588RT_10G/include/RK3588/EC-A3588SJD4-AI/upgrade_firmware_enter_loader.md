@@ -1,1 +1,0 @@
-EC-R3588RT_10G has no Recovery button, so there is no hardware method to enter Loader mode, please use the software method.

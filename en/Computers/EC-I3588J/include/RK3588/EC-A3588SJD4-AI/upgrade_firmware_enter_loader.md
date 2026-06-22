@@ -1,1 +1,0 @@
-ITX-3588J  has no Recovery button, so there is no hardware method to enter Loader mode, please use the software method.

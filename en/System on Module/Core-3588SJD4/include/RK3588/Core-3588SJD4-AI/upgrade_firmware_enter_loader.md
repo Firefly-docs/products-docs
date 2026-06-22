@@ -1,1 +1,0 @@
-AIO-3588SJD4  has no Recovery button, so there is no hardware method to enter Loader mode, please use the software method.

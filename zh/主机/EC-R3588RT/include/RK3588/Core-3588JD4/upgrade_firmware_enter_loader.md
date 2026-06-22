@@ -1,1 +1,0 @@
-EC-R3588RT 硬件上没有预留 recovery 按键，所以没有硬件进入 Loader 模式的办法。

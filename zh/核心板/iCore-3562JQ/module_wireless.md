@@ -1,0 +1,118 @@
+<font color=red>**注意：** 4G模组和5G模组使用的座子不一样，4G模组使用MINI PCIE接口，5G模组使用M.2(NGFF)接口，购买AIO-3562JQ主板时请根据所需的模组选择正确的接口座子</font>
+
+# 无线模块
+## [EC20 4G模组套件](https://store.t-firefly.com/goods.php?id=49)
+### 产品参数
+* **型号**
+  * EC20-C R2.0 Mini PCIe-C
+* **电源电压**
+  * 3.3V~ 3.6V, 典型值： 3.3V
+* **工作频段**
+  * TDD-LTE: B38/B39/B40/B41
+  * FDD-LTE: B1/B3/B8
+  * WCDMA: B1/B8
+  * TD-SCDMA: B34/B39
+  * GSM: 900/1800 MHz
+* **数据传输**
+  * TDD-LTE： Max 130Mbps (DL) Max 35Mbps (UL)
+  * FDD-LTE： Max 150Mbps (DL) Max 50Mbps (UL)
+  * DC-HSPA+： Max 42Mbps (DL) Max 5.76Mbps (UL)
+  * UMTS： Max 384Kbps (DL) Max 384Kbps (UL)
+  * TD-SCDMA： Max 4.2Mbps (DL) Max 2.2Mbps (UL)
+  * CDMA： Max 3.1Mbps (DL) Max 1.8Mbps (UL)
+  * EDGE： Max 236.8Kbps (DL) Max 236.8Kbps (UL)
+  * GPRS： Max 85.6Kbps (DL) Max 85.6Kbps (UL)
+* **接口连接器**
+  * USB：USB 2.0 高速接口, 480Mbps
+  * 数字语音：1个数字语音接口 (可选)
+  * USIM：1.8V/3V
+  * 网络指示：×2, NET_STATUS 和 NET_MODE
+  * UART：×1 UART
+  * 复位：低电平
+  * PWRKEY：低电平
+  * 天线接口：×3 (主天线, 分集天线和GNSS天线接口)
+  * ADC：×2
+* **结构尺寸**
+  * 51.0mm × 30.0mm × 4.9mm
+* **重量**
+  * 约 10.5g
+* **认证**
+  * CCC/ NAL*/ TA
+
+### GNSS 功能
+
+EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组是不支持GNSS的，后缀为`SNNS`，支持GNSS功能的EC20 模组一般带有后缀`SGNS`，公版固件支持GNSS功能，但是默认关闭，使用方法可参考[EC20 GNSS功能](#ec20-gnss-gong-neng)章节。
+
+### 实物图
+
+![](../../../rk3562_img/module_wireless_ec20.png)
+
+### 连接方法
+
+* USB 接口连接
+
+![](../../../rk3562_img/module_wireless_ec20_usb.jpg)
+
+
+* Mini-PCIe 接口连接
+
+![](../../../rk3562_img/iCore-3562JQ/module_wireless_4G-EC20_MiniPCIe_AntWord.jpg)
+
+
+* SIM 卡连接
+
+![](../../../rk3562_img/module_wireless_sim_connection.jpg)
+
+## EC200T 4G模组套件
+
+### 产品参数
+* **型号**
+  * EC200T-CN Mini PCIe-D
+* **电源电压**
+  * 3.4V~ 4.3V, 典型值： 3.8V
+* **工作频段**
+  * TDD-LTE: B34/B38/B39/B40/B41
+  * FDD-LTE: B1/B3/B5/B8
+  * WCDMA: B1/B5/B8
+  * GSM: 900/1800 MHz
+* **数据传输**
+  * TDD-LTE： Max 120Mbps (DL) Max 3Mbps (UL)
+  * FDD-LTE： Max 150Mbps (DL) Max 50Mbps (UL)
+  * DC-HSDPA： Max 21Mbps (DL)
+  * HSDPA: Max 5.76 Mbps (UL)
+  * WCDMA: Max 384Kbps (DL) Max 384Kbps (UL)
+  * EDGE: Max 236.8Kbps (DL) Max 236.8Kbps (UL)
+  * GPRS： Max 85.6Kbps (DL) Max 85.6Kbps (UL)
+* **接口连接器**
+  * USB：USB 2.0 高速接口, 480Mbps
+  * 数字语音：1个数字语音接口 (可选)
+  * USIM：1.8V/3V
+  * UART：×1 UART
+  * UART_DTR (睡眠控制)
+  * W_DISABLE# (飞行模式控制)
+  * LED_WWAN# (网络状态指示)
+  * PERST# (模块复位)
+  * RI (主机唤醒)
+  * WAKEUP_IN (睡眠控制,低电平有效)
+  * WAKEUP_OUT (睡眠状态指示)
+  * 天线接口：×2 (主天线, 分集天线)
+* **结构尺寸**
+  * 51.0mm × 30.0mm × 4.9mm
+* **重量**
+  * 约 10.2g
+* **认证**
+  * CCC/SRRC/NAL
+
+### 实物图
+
+![](../../../rk3562_img/module_wireless_ec200t.jpg)
+
+### 连接方法
+
+参考[EC20 4G模组套件](#ec20-4g-mo-zu-tao-jian)
+
+
+## 参考固件
+
+公版固件默认支持 EC20 4G 模组、EC200T 4G模组 
+[固件下载](https://www.t-firefly.com/doc/download/247.html#other_773)
