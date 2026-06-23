@@ -1,0 +1,2 @@
+# Hardware documents
+* [Product specification.pdf](https://download.t-firefly.com/%E4%BA%A7%E5%93%81%E8%A7%84%E6%A0%BC%E6%96%87%E6%A1%A3/%E5%B5%8C%E5%85%A5%E5%BC%8F%E4%B8%BB%E6%9C%BA/EC-A1684JD4%20FD_Octa%20Core%2017.6TOPS%20High%20Computing%20Power%20AI%20EmbeddedComputer.pdf)
