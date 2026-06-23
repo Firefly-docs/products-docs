@@ -1,0 +1,27 @@
+
+# 简介
+RK182X开发套件 高性能双核心板模组设计, 采用双核心异构。 
+
+## 主模组
+
+|可选模组 |内存 |存储 |AI性能 |
+|----|----|----|----|
+|Core-3588JD4 |LPDDR4/LPDDR4x(4/8/16/32GB)|eMMC(32/64/128/256GB)   |6T|
+|Core-3588SJD4 AI |LPDDR4/LPDDR4x(4/8/16/32GB)|eMMC(32/64/128/256GB)   |6T|
+|Core-3576JD4 |LPDDR4/LPDDR4x(4/8/16/32GB)|eMMC(32/64/128/256GB)   |6T|
+
+|可选模组 |视频解码 |视频编码 |
+|----|----|----|
+|Core-3588JD4 |8K@60fps H.265/VP9/AVS2<br>8K@30fps H.264 AVC/MVC<br>4K@60fps AV1<br>1080P@60fps MPEG-2/-1/VC-1/VP8|8K@30fps H.265/H.264|
+|Core-3588SJD4 AI |8K@60fps H.265/VP9/AVS2<br>8K@30fps H.264 AVC/MVC<br>4K@60fps AV1<br>1080P@60fps MPEG-2/-1/VC-1/VP8|8K@30fps H.265/H.264|
+|Core-3576JD4 |8K@30fps H.265/VP9/AVS2/AV1<br>4K@120fps H.265/VP9/AVS2/AV1<br>4K@60fps H.264/AVC|4K@60fps H.265/H.264|
+
+## 副模组
+* RK1820 SODIMM 
+    * DDR: 2.5GB
+    * PCIe2.1: 1 Lane, EP
+    * NPU: INT4/INT8/INT16/FP8/FP16/BF16, 20 TOPS for INT8
+* RK1828 SODIMM
+    * DDR: 5GB
+    * PCIe2.1: 1 Lane, EP
+    * NPU: INT4/INT8/INT16/FP8/FP16/BF16, 20 TOPS for INT8
