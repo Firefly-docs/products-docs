@@ -8,6 +8,9 @@
 - [AI Tutorial](usage_npu.md)
 # Functions
 - [Video Usage](usage_video.md)
+- [Serial Usage](usage_serial.md)
+- [Watchdog Usage](usage_watchdog.md)
+- [RTC Usage](usage_rtc.md)
 # Linux
 - [Linux Compile](linux_compile.md)
 # Android

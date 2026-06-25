@@ -42,8 +42,11 @@ Welcome to AIBOX-9075 Manual
 
 
 
+   usage_serial
 
+   usage_watchdog
 
+   usage_rtc
 
 .. toctree::
    :glob:

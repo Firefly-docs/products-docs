@@ -8,6 +8,9 @@
 - [AI 教程](usage_npu.md)
 # 功能教程
 - [视频教程](usage_video.md)
+- [串口教程](usage_serial.md)
+- [看门狗教程](usage_watchdog.md)
+- [RTC 教程](usage_rtc.md)
 # Linux 开发
 - [Linux 编译](linux_compile.md)
 # Android 开发
