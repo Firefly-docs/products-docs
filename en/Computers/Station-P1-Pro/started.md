@@ -18,7 +18,7 @@ Station P1 Pro  Geek Mini PC，Based on ROC-RK3399-PC Pro high-performance open 
 # Resorces
 * [Station P1 Pro](https://www.stationpc.com/product/stationp1pro) StationPC details page
 
-* [Wiki](https://wiki.t-firefly.com/en/ROC-RK3399-PC-Pro/started.html) Includes Android & Ubuntu development documents (ROC-RK3399-PC-Pro Wiki)
+* [Wiki](../../Mainboards/ROC-RK3399-PC-Pro/index.md) Includes Android & Ubuntu development documents (ROC-RK3399-PC-Pro Wiki)
 
 * [Station Community](https://bbs.stationpc.com/forum-59-1.html) Play with StationPC
 

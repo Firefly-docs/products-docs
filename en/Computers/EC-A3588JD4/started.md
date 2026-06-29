@@ -8,14 +8,14 @@ Based on Rockchip new generation of flagship AIOT chip -- RK3588, the EC-A3588JD
 ![](../../../rk3588_img/EC-A3588JD4/parameter-en.png)
 
 # Product interface
-![](../../../rk3588_img/EC-A3588JD4/interface.png)
+![](../../../rk3588_img/EC-A3588JD4/interface-en.png)
 
 # Size
 ![](../../../rk3588_img/EC-A3588JD4/size.png)
 
 # Product resources
 
-* [[Development document]](https://wiki.t-firefly.com/en/Core-3588JD4/started.html) 
+* [[Development document]](../../System on Module/Core-3588JD4/index.md) 
 Includes information on Android & Ubuntu driver development (see Core-3588JD4 Wiki)
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

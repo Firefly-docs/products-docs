@@ -20,7 +20,7 @@ Station P1 Pro  嵌入式主机，基于 ROC-RK3399-PC Pro 高性能开源平台
 # 产品资源
 * [[Station P1 Pro]](https://www.stationpc.cn/product/stationp1pro)Station 详情页
 
-* [[Wiki]](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC-Pro/01-bootmode.html)
+* [[Wiki]](../../主板/ROC-RK3399-PC-Pro/index.md)
 包含 Android&Ubuntu 驱动开发等资料(参考 ROC-RK3399-PC-Pro Wiki)
 
 * [[Station 社区]](https://bbs.stationpc.cn/forum-51-1.html)玩转 Station
