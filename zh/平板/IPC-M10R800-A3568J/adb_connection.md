@@ -13,4 +13,4 @@
 adb devices
 adb shell
 ```
-![](../../img/IPC-M10R800-A3568J/otg_interface.jpg)
+![](../../../rk356x_img/IPC-M10R800-A3568J/otg_interface.jpg)

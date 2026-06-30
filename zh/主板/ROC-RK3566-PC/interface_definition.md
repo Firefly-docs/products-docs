@@ -25,8 +25,8 @@ ROC-RK3566-PC 提供了丰富的接口，主要包括：
 
 具体如下图：
 
-![](../../img/ROC-RK3566-PC/front_interface.jpg)
+![](../../../rk356x_img/ROC-RK3566-PC/front_interface.jpg)
 
 
-![](../../img/ROC-RK3566-PC/back_interface.jpg)
+![](../../../rk356x_img/ROC-RK3566-PC/back_interface.jpg)
 

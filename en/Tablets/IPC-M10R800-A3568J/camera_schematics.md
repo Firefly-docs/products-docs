@@ -2,7 +2,7 @@ According to the schematic diagram below, you need to provide: `CIF_PWR`, `DVP_P
 
 * MIPI interface
 
-![](../../img/IPC-M10R800-A3568J/camera_mipi_interface.jpg)
+![](../../../rk356x_img/IPC-M10R800-A3568J/camera_mipi_interface.jpg)
 
 * `DVP_PWR` corresponds to `GPIO1_C1` of RK3399.
 * `CIF_PWR` corresponds to `GPIO1_A1` of RK3399.

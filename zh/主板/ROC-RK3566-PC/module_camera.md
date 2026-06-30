@@ -19,17 +19,17 @@
 
 
 ### 实物图参考
-![](../../img/cam_8ms1m_front.jpg)
-![](../../img/cam_8ms1m_back.jpg)
+![](../../../rk356x_img/cam_8ms1m_front.jpg)
+![](../../../rk356x_img/cam_8ms1m_back.jpg)
 
 
 ### 连接方法
-![](../../img/roc_rk3566_pc_8ms1m.jpg)
+![](../../../rk356x_img/roc_rk3566_pc_8ms1m.jpg)
 
 
 
 ### 实拍图片
-![](../../img/camera_8ms1m_shoot.jpg)
+![](../../../rk356x_img/camera_8ms1m_shoot.jpg)
 
 ## [CAM-2MS2MF 双目摄像头模组](https://item.taobao.com/item.htm?ft=t&id=657886928669) 
 
@@ -48,13 +48,13 @@
 
 
 ### 实物图参考
-![](../../img/cam_2ms2m_front.jpg)
-![](../../img/cam_2ms2m_back.jpg)
+![](../../../rk356x_img/cam_2ms2m_front.jpg)
+![](../../../rk356x_img/cam_2ms2m_back.jpg)
 
 ### 连接方法
-![](../../img/roc_rk3566_pc_2ms2m.jpg)
+![](../../../rk356x_img/roc_rk3566_pc_2ms2m.jpg)
 
 
 
 ### 实拍图片
-![](../../img/camera_2ms2m_shoot.png)
+![](../../../rk356x_img/camera_2ms2m_shoot.png)

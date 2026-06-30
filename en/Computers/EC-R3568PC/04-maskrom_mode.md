@@ -15,8 +15,8 @@ The operation steps are as follows:
 1. Plug in the power supply.
 1. Wait a few seconds, stop shorting.
 
-![](../../img/EC-R3568PC/maskrom_test_points.jpg)
+![](../../../rk356x_img/EC-R3568PC/maskrom_test_points.jpg)
 
 At this point, the device should go into `MaskRom mode`.
 
-![](../../img/maskrom_zh.png)
+![](../../../rk356x_img/maskrom_zh.png)

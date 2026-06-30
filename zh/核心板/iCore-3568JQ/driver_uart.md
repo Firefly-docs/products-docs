@@ -42,10 +42,10 @@ RS232:   /dev/ttyS3
 
 ## PIN 脚定义
 * RS232 & RS485
-	![](../../img/iCore-3568JQ/iCore-3568JQ_RS232-RS485_pins.jpg)
+	![](../../../rk356x_img/iCore-3568JQ/iCore-3568JQ_RS232-RS485_pins.jpg)
 
 * UART9
-	![](../../img/iCore-3568JQ/iCore-3568JQ_uart_pins.jpg)
+	![](../../../rk356x_img/iCore-3568JQ/iCore-3568JQ_uart_pins.jpg)
 
 ## RS232/RS485 使用说明
 

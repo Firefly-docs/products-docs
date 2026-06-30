@@ -34,7 +34,7 @@ u-boot/rk356x_spl_loader_v1.05.108.bin
 ## 烧录
 
 打开烧录工具，按住Recovery 按键，使用 Type-A to Type-C 线连接板子和PC 机上电，两秒后松开recovery按键.
-![](../../img/uboot_download.jpg)
+![](../../../rk356x_img/uboot_download.jpg)
 
 ## 确认是否正确烧写新的 Loader
 

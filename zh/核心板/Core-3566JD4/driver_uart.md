@@ -13,11 +13,11 @@ Core-3566JD4支持UART、RS232、RS485接口
 
 AIO-3566JD4 开发板的串口接口图如下：
 * UART
-![](../../img/Core-3566JD4/uart1_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/uart1_interface.jpg)
 * RS232
-![](../../img/Core-3566JD4/rs232_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/rs232_interface.jpg)
 * RS485
-![](../../img/Core-3566JD4/rs485_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/rs485_interface.jpg)
 
 ## DTS配置
 

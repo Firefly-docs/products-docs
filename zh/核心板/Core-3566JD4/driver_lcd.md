@@ -4,7 +4,7 @@
 ## 简介
 
 AIO-3566JD4开发板默认外置支持了两个MIPI屏接口和一个EDP屏接口，该接口对应板子上的位置如下图：
-![](../../img/Core-3566JD4/lcd_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/lcd_interface.jpg)
 
 ## Config配置
 

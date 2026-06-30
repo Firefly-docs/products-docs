@@ -14,13 +14,13 @@
 Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, please update the latest firmware.
 
 ### Physical map
-![](../../img/cam_8ms1m_front.jpg)
-![](../../img/cam_8ms1m_back.jpg)
+![](../../../rk356x_img/cam_8ms1m_front.jpg)
+![](../../../rk356x_img/cam_8ms1m_back.jpg)
 
 ### Connection method
 
 ### Real pictures
-![](../../img/camera_8ms1m_shoot.jpg)
+![](../../../rk356x_img/camera_8ms1m_shoot.jpg)
 
 ## [CAM-2MS2MF Binocular camera module]() 
 
@@ -34,10 +34,10 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
 CAM-2MS2MF Binocular camera module Android11 Firmware Download.
 
 ### Physical map
-![](../../img/cam_2ms2m_front.jpg)
-![](../../img/cam_2ms2m_back.jpg)
+![](../../../rk356x_img/cam_2ms2m_front.jpg)
+![](../../../rk356x_img/cam_2ms2m_back.jpg)
 
 ### Connection method
 
 ### Real pictures
-![](../../img/camera_2ms2m_shoot.png)
+![](../../../rk356x_img/camera_2ms2m_shoot.png)

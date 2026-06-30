@@ -34,7 +34,7 @@ The official firmware name supporting the 10.1 screen has the word `MIPI`. Below
 
 #### Front
 * MIPI DSI0
-![](../../img/Core-3566JD4/mipi101_v2_M101014_BE45_A1_front0.jpg)
+![](../../../rk356x_img/Core-3566JD4/mipi101_v2_M101014_BE45_A1_front0.jpg)
 * MIPI DSI1
-![](../../img/Core-3566JD4/mipi101_v2_M101014_BE45_A1_front1.jpg)
+![](../../../rk356x_img/Core-3566JD4/mipi101_v2_M101014_BE45_A1_front1.jpg)
 

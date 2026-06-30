@@ -37,7 +37,7 @@ There are two types of firmware files:
 Download [Release_DriverAssistant.zip], extract, and then run the DriverInstall.exe inside .
 In order for all devices to use the updated driver, first select `Driver uninstall` and then select `Driver install`.
 
-![](../../img/upgrade_firmware_install_RK_USB.jpg)
+![](../../../rk356x_img/upgrade_firmware_install_RK_USB.jpg)
 
 ### Connected devices
 
@@ -45,17 +45,17 @@ You can put the device into upgrade mode as follows:
 
 * Disconnect the power adapter first:
 * Dual male usb data cable connects one end to the host and the other end to the development board.
-![](../../img/ROC-RK3568-PC/otg_interface.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/otg_interface.jpg)
 
 * Press the `RECOVERY` button on the device and hold.
-![](../../img/ROC-RK3568-PC/recovery_key.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/recovery_key.jpg)
 
 * Connect to the power supply.
 * About two seconds later, release the `RECOVERY` button.
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and reinstall the driver.
 
-![](../../img/upgrade_firmware_new_equipment.jpg)
+![](../../../rk356x_img/upgrade_firmware_new_equipment.jpg)
 
 ## Upgrade the firmware
 
@@ -71,7 +71,7 @@ LangPath=Language\
 
 Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will display in English.Now, run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
-![](../../img/upgrade_firmware_androidtool.jpg)
+![](../../../rk356x_img/upgrade_firmware_androidtool.jpg)
 
 #### Upgrade unified firmware - update.img
 
@@ -84,7 +84,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 **Note: if the firmware loader you wrote is inconsistent with the original one, please execute `wipe Flash` before upgrading the firmware.**
 
-![](../../img/upgrade_firmware_erase_flash.jpg)
+![](../../../rk356x_img/upgrade_firmware_erase_flash.jpg)
 
 ### Upgrade Partition image
 The steps to upgrade the partition image are as follows:
@@ -93,7 +93,7 @@ The steps to upgrade the partition image are as follows:
 	3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
 	4. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
 
-![](../../img/upgrade_firmware_androidtool.jpg)
+![](../../../rk356x_img/upgrade_firmware_androidtool.jpg)
 
 
 ## FAQs
@@ -109,4 +109,4 @@ The steps to upgrade the partition image are as follows:
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
-![](../../img/upgrade_downloadfail.jpg)
+![](../../../rk356x_img/upgrade_downloadfail.jpg)

@@ -2,11 +2,11 @@
 [iCore-3568JQ]() Onboard RK3568J quad-core 64-bit industrial grade processor, supporting 8GB large memory; Support WiFi6, 5G/4G and other high-speed wireless network communication; BTB interface is adopted, with stronger transmission capacity;
 Industrial-grade stability, stable operation at -40°C to 85°C for a long time; Provide motherboard reference design materials, users can customize independently 
 
-![](../../img/iCore-3568JQ/iCore-3568JQ.jpg)
+![](../../../rk356x_img/iCore-3568JQ/iCore-3568JQ.jpg)
 
 [ITX-3568Q]() is composed of core board iCore-3568JQ and baseboard, standard ITX motherboard size, standard interface specification, can be adapted to general ITX computer case. Provide rich expansion interface, so that users can have more imagination space when creating
 
-![](../../img/iCore-3568JQ/ITX-3568Q.jpg)
+![](../../../rk356x_img/iCore-3568JQ/ITX-3568Q.jpg)
 
 ## The standard package of AIO-3568J includes the following accessories(for reference only):
 *   iCore-3568JQ core board ×1

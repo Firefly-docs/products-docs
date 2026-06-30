@@ -17,15 +17,15 @@
 公版固件默认支持 CAM-8MS1M 单目摄像头模组。若无法使用单目摄像头 CAM-8MS1M，请更新固件
 
 ### 实物图参考
-![](../../img/cam_8ms1m_front.jpg)
-![](../../img/cam_8ms1m_back.jpg)
+![](../../../rk356x_img/cam_8ms1m_front.jpg)
+![](../../../rk356x_img/cam_8ms1m_back.jpg)
 
 
 ### 连接方法
 
 
 ### 实拍图片
-![](../../img/camera_8ms1m_shoot.jpg)
+![](../../../rk356x_img/camera_8ms1m_shoot.jpg)
 
 ## [CAM-2MS2MF 双目摄像头模组](https://item.taobao.com/item.htm?ft=t&id=657886928669) 
 
@@ -42,11 +42,11 @@
 双目摄像头 CAM-2MS2MF Android11 固件下载
 
 ### 实物图参考
-![](../../img/cam_2ms2m_front.jpg)
-![](../../img/cam_2ms2m_back.jpg)
+![](../../../rk356x_img/cam_2ms2m_front.jpg)
+![](../../../rk356x_img/cam_2ms2m_back.jpg)
 
 ### 连接方法
 
 
 ### 实拍图片
-![](../../img/camera_2ms2m_shoot.png)
+![](../../../rk356x_img/camera_2ms2m_shoot.png)

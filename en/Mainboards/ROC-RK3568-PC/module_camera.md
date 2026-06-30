@@ -16,15 +16,15 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
 
 
 ### Physical map
-![](../../img/cam_8ms1m_front.jpg)
-![](../../img/cam_8ms1m_back.jpg)
+![](../../../rk356x_img/cam_8ms1m_front.jpg)
+![](../../../rk356x_img/cam_8ms1m_back.jpg)
 
 ### Connection method
-![](../../img/roc_rk3568_pc_8ms1m.jpg)
+![](../../../rk356x_img/roc_rk3568_pc_8ms1m.jpg)
 
 
 ### Real pictures
-![](../../img/camera_8ms1m_shoot.jpg)
+![](../../../rk356x_img/camera_8ms1m_shoot.jpg)
 
 ## [CAM-2MS2MF Binocular camera module]() 
 
@@ -40,12 +40,12 @@ CAM-2MS2MF Binocular camera module Android11 Firmware Download.
 
 
 ### Physical map
-![](../../img/cam_2ms2m_front.jpg)
-![](../../img/cam_2ms2m_back.jpg)
+![](../../../rk356x_img/cam_2ms2m_front.jpg)
+![](../../../rk356x_img/cam_2ms2m_back.jpg)
 
 ### Connection method
-![](../../img/roc_rk3568_pc_2ms2m.jpg)
+![](../../../rk356x_img/roc_rk3568_pc_2ms2m.jpg)
 
 
 ### Real pictures
-![](../../img/camera_2ms2m_shoot.png)
+![](../../../rk356x_img/camera_2ms2m_shoot.png)

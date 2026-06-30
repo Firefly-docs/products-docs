@@ -2,7 +2,7 @@
 
 ## kernel 编译弹出 “IO-Domain Checklist” 对话框
 kernel 新建了 dts 文件 `arch/arm64/boot/dts/rockchip/rk3566-roc-pc-DEMO.dts`，编译 kernel 时弹出如下对话框
-![](../../img/faq_rk356x_io-domain_checklist.png)
+![](../../../rk356x_img/faq_rk356x_io-domain_checklist.png)
 
 <br>
 
@@ -17,7 +17,7 @@ cp arch/arm64/boot/dts/rockchip/.rk3566-roc-pc.dtb.dts.tmp.domain arch/arm64/boo
 ## ROC-RK3566-PC SPK和MIC的使用问题
 如果需要使用ROC-RK3566-PC来调试 SPK 和 MIC功能，可以使用外部扩展出来的IO口进行调试，软件默认支持，由于硬件信号是直接从codec引出来的，所以SPK只需接上喇叭即可，MIC这部分需要增加偏置电路才可以录音，如下
 
-![](../../img/ROC-RK3566-PC/roc-rk3566-pc-spk_mic.png)
+![](../../../rk356x_img/ROC-RK3566-PC/roc-rk3566-pc-spk_mic.png)
 
 <br>
 
@@ -27,7 +27,7 @@ cp arch/arm64/boot/dts/rockchip/.rk3566-roc-pc.dtb.dts.tmp.domain arch/arm64/boo
 由于RK3566双屏幕显示是使用同一个内部输入源，即`VOP`是`Same Source, Dual Display`,所以如果是使用MIPI屏幕作为主屏，会导致副屏HDMI画面会严重拉伸（如下图)，所以想避免
 这个问题，主副屏幕都应该使用同分辨率同方向（横竖屏一致）的屏幕。
 
-![](../../img/ROC-RK3566-PC/3566_dualscreen.png)
+![](../../../rk356x_img/ROC-RK3566-PC/3566_dualscreen.png)
 
 
 ## 修改 kernel/buildroot 等配置后编译烧录发现不生效

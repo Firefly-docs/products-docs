@@ -13,11 +13,11 @@ AIO-3566JD4 supports  UART3, UART5(disabled by default, Serial port and SPI mult
 
 The serial interface diagram of the AIO-3566JD4 development board is as follows:
 * UART
-![](../../img/Core-3566JD4/uart1_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/uart1_interface.jpg)
 * RS232
-![](../../img/Core-3566JD4/rs232_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/rs232_interface.jpg)
 * RS485
-![](../../img/Core-3566JD4/rs485_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/rs485_interface.jpg)
 
 ## DTS configuration
 

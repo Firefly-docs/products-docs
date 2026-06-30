@@ -20,7 +20,7 @@ SPI bridge/extension chip WK2124 with functions of four enhanced serial ports (U
 
 The serial interface diagram of the AIO-3568J development board is as follows:
 
-![](../../img/EC-A3568J/uart_interface.png)
+![](../../../rk356x_img/EC-A3568J/uart_interface.png)
 
 ## DTS configuration
 

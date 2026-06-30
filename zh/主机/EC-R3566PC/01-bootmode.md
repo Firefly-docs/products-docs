@@ -8,7 +8,7 @@ ROC-RK3566-PC 有2种工作模式。一般情况下，开机直接进入`Normal 
 * 注意：ROC-RK3566-PC出厂默认安装 Android 操作系统，如果用户要运行其他操作系统，需要使用对应的固件烧写到主板。可以前往[固件下载页面](https://www.t-firefly.com/doc/download/109.html)下载更多固件。
 
 
-![](../../img/working_mode.png)
+![](../../../rk356x_img/working_mode.png)
 
 **ROC-RK3566-PC按工作模式进行分类，可以分为二种工作模式：**
 

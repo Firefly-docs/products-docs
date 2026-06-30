@@ -10,11 +10,11 @@
 
 ## 实物图
 
-![](../../img/module_ir.png)
+![](../../../rk356x_img/module_ir.png)
 
 ## 键值码
 
-![](../../img/module_ir_remote_info.png)
+![](../../../rk356x_img/module_ir_remote_info.png)
 
 
 

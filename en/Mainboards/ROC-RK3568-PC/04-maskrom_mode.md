@@ -14,16 +14,16 @@ The operation steps are as follows:
 1. Connect DC power
 1. Wait a few seconds, release the button.
 
-![](../../img/ROC-RK3568-PC/maskrom_test_points.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points.jpg)
 
 Where is the `Maskrom` button?Find in the [Interface Definition](interface_definition.md)
 
 When the board has NOR flash at the same time, if EMMC is empty and there are burned files in NOR flash, it is necessary to short circuit the D0 and GND test points near NOR flash to enter Maskrom mode. And now we have to  refer to the chapter "[Switching Upgrade Storage](03-upgrade_firmware_with_flash)" for upgrade
 
-![](../../img/ROC-RK3568-PC/maskrom_test_points_flash.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points_flash.jpg)
 
 
 
 At this point, the device should go into `MaskRom mode`.
 
-![](../../img/maskrom_zh.png)
+![](../../../rk356x_img/maskrom_zh.png)

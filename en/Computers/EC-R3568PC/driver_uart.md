@@ -20,7 +20,7 @@ SPI bridge/extension chip WK2124 with functions of four enhanced serial ports (U
 
 The serial interface diagram of the ROC-RK3568-PCSE development board is as follows:
 
-![](../../img/EC-R3568PC/uart_interface.png)
+![](../../../rk356x_img/EC-R3568PC/uart_interface.png)
 
 ## DTS configuration
 

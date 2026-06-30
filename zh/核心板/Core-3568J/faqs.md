@@ -2,7 +2,7 @@
 
 ## kernel 编译弹出 “IO-Domain Checklist” 对话框
 kernel 新建了 dts 文件 `arch/arm64/boot/dts/rockchip/rk3568-firefly-aioj-DEMO.dts`，编译 kernel 时弹出如下对话框
-![](../../img/faq_rk356x_io-domain_checklist.png)
+![](../../../rk356x_img/faq_rk356x_io-domain_checklist.png)
 
 <br>
 

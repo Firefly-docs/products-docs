@@ -17,16 +17,16 @@
 * 设备插入电源
 * 稍候片刻，之后松开按键
 
-![](../../img/ROC-RK3568-PC/maskrom_test_points.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points.jpg)
 
 Markrom 按键(短接 EMMC）位置可以查看[《接口定义》](interface_definition.md)
 
 板子同时贴有NOR flash，若EMMC为空，而NOR flash中有烧录过文件，则需要短接NOR flash附近的D0和GND测试点进入Maskrom模式,下图为短接点。此时升级固件需要参考章节[《切换升级存储器》](03-upgrade_firmware_with_flash)
 
-![](../../img/ROC-RK3568-PC/maskrom_test_points_flash.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points_flash.jpg)
 
 
 
 此时设备就会进入 MaskRom 模式。
 
-![](../../img/maskrom_zh.png)
+![](../../../rk356x_img/maskrom_zh.png)

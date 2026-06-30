@@ -50,7 +50,7 @@ LangPath=Language\
 
 Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will display in English.Now, run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
-![](../../img/upgrade_firmware_androidtool_zh.png)
+![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
 
 #### Install RK USB drive
 
@@ -59,7 +59,7 @@ In order for all devices to use the updated driver, first select `Driver uninsta
 
 <center>
 
-![](../../img/upgrade_firmware_install_RK_USB.png)
+![](../../../rk356x_img/upgrade_firmware_install_RK_USB.png)
 </center>
 
 #### Connect devices
@@ -68,9 +68,9 @@ we can put the device into upgrade mode by hardware as follows:
 
 * Disconnect the power adapter first
   * Type-C data cable connects one end to the host and the other end to the development board.
-![](../../img/Core-3566JD4/otg_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/otg_interface.jpg)
   * Press the `RECOVERY` button(on the phone jack side)  on the device and hold.
-![](../../img/Core-3566JD4/recovery_key.jpg)
+![](../../../rk356x_img/Core-3566JD4/recovery_key.jpg)
    * About two seconds later, release the `RECOVERY` button.
 put the device into upgrade mode by software as follows:
 
@@ -83,7 +83,7 @@ reboot loader
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and [reinstall the driver](03-upgrade_firmware.html#install-rk-usb-drive).
 
-![](../../img/upgrade_firmware_new_equipment.png)
+![](../../../rk356x_img/upgrade_firmware_new_equipment.png)
 
 ### Linux
 
@@ -109,7 +109,7 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 
 Determine the board AIO-3566JD4 before upgrading unified firmware update.img whether has Nor Flash, as shown in the figure below: 
 
-![](../../img/Core-3566JD4/nor_flash-position.jpg)
+![](../../../rk356x_img/Core-3566JD4/nor_flash-position.jpg)
 
 If the board has Nor Flash, please refer to chapter [Switching Upgrade Storage](03-upgrade_firmware_with_flash.html#download-to-emmc) for upgrading, else please follow the steps below to continue: 
 
@@ -150,7 +150,7 @@ The steps to upgrade the partition image are as follows:
 
 5. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
 
-![](../../img/upgrade_firmware_androidtool_zh.png)
+![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
 
 ### Linux
 
@@ -213,7 +213,7 @@ sudo fastboot reboot # After the burn is successful, restart
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
-![](../../img/upgrade_downloadfail.png)
+![](../../../rk356x_img/upgrade_downloadfail.png)
 
 ### 3. Has Spi Flash(Nor Flash)，After MaskRom，Download failure
 If board has Spi Flash and eMMC，After MaskRom，need select Storage，See operation method [ "Switching Upgrade Storage" ](03-upgrade_firmware_with_flash.md)。

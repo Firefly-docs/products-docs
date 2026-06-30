@@ -6,7 +6,7 @@
 
 ROC-RK3568-PC supports UART、RS232、RS485 interfaces. They are UART9, two RS232 and one RS485, which are located on the dual expansion interface and RJ45 interface respectively. The serial port interface diagram is as follows:
 
-![](../../img/ROC-RK3568-PC/uart_interface.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/uart_interface.jpg)
 
 **Note**: In this chapter, two RS232 will be defined as `RS232_1`、`RS232_2`, which is used to explains how to use UART.
 

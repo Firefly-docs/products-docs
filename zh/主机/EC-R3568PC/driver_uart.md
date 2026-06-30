@@ -18,7 +18,7 @@ ROC-RK3568-PCSE支持UART、RS232、RS485接口
 
 ROC-RK3568-PCSE开发板的串口接口图如下：
 
-![](../../img/EC-R3568PC/uart_interface.png)
+![](../../../rk356x_img/EC-R3568PC/uart_interface.png)
 
 ## DTS配置
 

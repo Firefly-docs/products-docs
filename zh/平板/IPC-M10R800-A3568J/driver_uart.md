@@ -18,7 +18,7 @@ AIO-3568J支持UART、RS232、RS485接口
 
 AIO-3568J开发板的串口接口图如下：
 
-![](../../img/IPC-M10R800-A3568J/uart_interface.png)
+![](../../../rk356x_img/IPC-M10R800-A3568J/uart_interface.png)
 
 ## DTS配置
 

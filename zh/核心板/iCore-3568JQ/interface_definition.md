@@ -35,5 +35,5 @@ ITX-3568Q 提供了丰富的接口，主要包括：
 
 具体如下图：
 
-![](../../img/iCore-3568JQ/interface_definition_cn.jpg)
+![](../../../rk356x_img/iCore-3568JQ/interface_definition_cn.jpg)
 

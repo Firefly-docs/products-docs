@@ -9,7 +9,7 @@ AIO-3566JD4 has 2 working modes. Under normal circumstances, boot directly into 
 * Note: The small memory version of AIO-3566JD4 is installed with the Ubuntu operating system by default, large memory version is installed with Android by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.You can go to the [Firmware download page](http://en.t-firefly.com/doc/download/123.html) to download more firmware.
 
 
-![](../../img/working_mode_en.png)
+![](../../../rk356x_img/working_mode_en.png)
 
 **AIO-3566JD4 is classified according to the working mode and can be divided into two working modes:**
 

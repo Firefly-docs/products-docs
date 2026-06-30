@@ -93,7 +93,7 @@ index c3e14e5c031..71f39d23c3f 100755
 ### 实物图
 
 #### MIPI_DSI1 正面
-![](../../img/Core-3568J/module_display_mipi_DSI1_front.jpg)
+![](../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_front.jpg)
 #### MIPI_DSI1 背面
-![](../../img/Core-3568J/module_display_mipi_DSI1_back.jpg)
+![](../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_back.jpg)
 

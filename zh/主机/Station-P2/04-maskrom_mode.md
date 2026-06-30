@@ -19,8 +19,8 @@
 1. 稍候片刻，之后松开镊子。
 
 
-![](../../img/Station-P2/maskrom_test_points.jpg)
+![](../../../rk356x_img/Station-P2/maskrom_test_points.jpg)
 
 此时设备就会进入 MaskRom 模式。
 
-![](../../img/maskrom_zh.png)
+![](../../../rk356x_img/maskrom_zh.png)

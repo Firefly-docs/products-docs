@@ -143,4 +143,4 @@ key 66    TV_MEDIA_STOP
 
 如下图是通过按红外遥控器按钮，所产生的波形，主要由 head, Control, information, signed free 这四部分组成，具体可以参考 RC6 Protocol。
 
-![](../../img/ir.jpg)
+![](../../../rk356x_img/ir.jpg)

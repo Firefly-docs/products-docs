@@ -1,19 +1,19 @@
 # [SATA转接板](https://store.t-firefly.com/goods.php?id=154)
 AIO-3568J使用SATA硬盘时需要用到SATA转接板模块，SATA转接板模块适配Firefly具有FPC SATA接口的所有系列主板，可接2.5”或3.5” SSD/HDD。SATA转接板和AIO-3568J采用FPC排线连接，铝箔屏蔽，最大限度减少信号干扰
 
-![](../../img/Core-3568J/TF-SATA-TRA_connection.jpg)
+![](../../../rk356x_img/Core-3568J/TF-SATA-TRA_connection.jpg)
 
 ## SATA转接板模块实物图
 
 * SATA转接板正面
-![](../../img/Core-3568J/TF-SATA-TRA_front.jpg)
+![](../../../rk356x_img/Core-3568J/TF-SATA-TRA_front.jpg)
 
 * SATA转接板背面
-![](../../img/Core-3568J/TF-SATA-TRA_back.jpg)
+![](../../../rk356x_img/Core-3568J/TF-SATA-TRA_back.jpg)
 
 ## AIO-3568J连接SATA硬盘
 
-![](../../img/Core-3568J/TF-SATA-TRA_connect_mainboard.jpg)
+![](../../../rk356x_img/Core-3568J/TF-SATA-TRA_connect_mainboard.jpg)
 
 **注意:** 为防止烧坏的情况发生，板子请先断电再接上SATA硬盘
 

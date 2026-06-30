@@ -16,4 +16,4 @@ adb devices
 adb shell
 ```
 
-![](../../img/Station-M2/otg_interface.jpg)
+![](../../../rk356x_img/Station-M2/otg_interface.jpg)

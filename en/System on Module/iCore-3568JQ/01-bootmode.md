@@ -9,7 +9,7 @@ ITX-3568Q has 2 working modes. Under normal circumstances, boot directly into `N
 * Note: The small memory version of ITX-3568Q is installed with the Ubuntu operating system by default, large memory version is installed with Android by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.You can go to the [Firmware download page](https://en.t-firefly.com/doc/download/150.html) to download more firmware.
 
 
-![](../../img/working_mode_en.png)
+![](../../../rk356x_img/working_mode_en.png)
 
 **ITX-3568Q is classified according to the working mode and can be divided into two working modes:**
 

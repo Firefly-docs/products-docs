@@ -32,7 +32,7 @@ The generated firmware has `rk356x_spl_loader_*.bin` and `uboot.img`.
 
 Under Windows platform, select `Loader`, `Parameter` and `Uboot` and flash:
 
-![](../../img/rkdevtool_to_nor.png)
+![](../../../rk356x_img/rkdevtool_to_nor.png)
 
 Flash `Loader`, `Parameter` and `Uboot` under Linux platform:
 ```bash

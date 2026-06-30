@@ -8,18 +8,18 @@ It is equipped with ARM Cortex-A55 architecture, quad-core 64-bit high-performan
 frequency up to 2.0GHz, integrates GPU, support RKNN NPU AI,supports H.265 HEVC and VP9, H.264 
 encoding, 4K HDR, and has the maximum support of 4K hardware decoding. 
 
-![](../../img/EC-A3568J/ec-a3568j_info01.png)
-![](../../img/EC-A3568J/ec-a3568j_info02.png)
-![](../../img/EC-A3568J/ec-a3568j_info03.png)
+![](../../../rk356x_img/EC-A3568J/ec-a3568j_info01.png)
+![](../../../rk356x_img/EC-A3568J/ec-a3568j_info02.png)
+![](../../../rk356x_img/EC-A3568J/ec-a3568j_info03.png)
 
 ## Product parameters
-![](../../img/EC-A3568J/ec-a3568j_en_args.png)
+![](../../../rk356x_img/EC-A3568J/ec-a3568j_en_args.png)
 
 ## Size
-![](../../img/EC-A3568J/ec-a3568j_size.png)
+![](../../../rk356x_img/EC-A3568J/ec-a3568j_size.png)
 
 ## SATA install
-![](../../img/EC-A3568J/ipc-m10r800-a3568j_sata.png)
+![](../../../rk356x_img/EC-A3568J/ipc-m10r800-a3568j_sata.png)
 
 ## Product resources
 

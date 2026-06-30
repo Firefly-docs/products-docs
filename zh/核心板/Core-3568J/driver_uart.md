@@ -17,7 +17,7 @@ AIO-3568J支持UART、RS232、RS485接口
 
 AIO-3568J开发板的串口接口图如下：
 
-![](../../img/Core-3568J/uart_interface.jpg)
+![](../../../rk356x_img/Core-3568J/uart_interface.jpg)
 
 ## DTS配置
 
@@ -80,18 +80,18 @@ RS232_2:   /dev/ttyS4
 ## PIN 脚定义
 * RS232    
 	详细见下图的红框     
-	![](../../img/Core-3568J/AIO-3568J_RS232_pins.jpg)
+	![](../../../rk356x_img/Core-3568J/AIO-3568J_RS232_pins.jpg)
 
 </br>
 
 * RS485    
 	详细见下图的红框       
-	![](../../img/Core-3568J/AIO-3568J_RS485_pins.jpg)
+	![](../../../rk356x_img/Core-3568J/AIO-3568J_RS485_pins.jpg)
 
 * UART
 
     详细见下图的红框
-	![](../../img/Core-3568J/AIO-3568J_uart_pins.jpg)
+	![](../../../rk356x_img/Core-3568J/AIO-3568J_uart_pins.jpg)
 
 ## 调试方法
 

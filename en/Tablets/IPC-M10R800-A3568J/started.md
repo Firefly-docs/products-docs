@@ -10,15 +10,15 @@ It is equipped with ARM Cortex-A55 architecture, quad-core 64-bit high-performan
 frequency up to 2.0GHz, integrates GPU, support RKNN NPU AI,supports H.265 HEVC and VP9, H.264 
 encoding, 4K HDR, and has the maximum support of 4K hardware decoding. 
 
-![](../../img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info01.png)
-![](../../img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info02.png)
-![](../../img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info03.png)
-![](../../img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info04.png)
+![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info01.png)
+![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info02.png)
+![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info03.png)
+![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info04.png)
 
 ## Product parameters
 
 ## SATA install
-![](../../img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_sata.png)
+![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_sata.png)
 
 ## Product resources
 

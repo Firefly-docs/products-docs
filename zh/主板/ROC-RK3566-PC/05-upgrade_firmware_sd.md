@@ -23,5 +23,5 @@
 
 <center>
 
-![](../../img/SD_Firmware_Tool_zh.png)
+![](../../../rk356x_img/SD_Firmware_Tool_zh.png)
 </center>

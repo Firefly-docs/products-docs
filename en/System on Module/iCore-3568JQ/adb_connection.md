@@ -17,4 +17,4 @@ adb devices
 adb shell
 ```
 
-![](../../img/iCore-3568JQ/otg_interface.jpg)
+![](../../../rk356x_img/iCore-3568JQ/otg_interface.jpg)

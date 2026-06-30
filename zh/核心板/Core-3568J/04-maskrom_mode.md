@@ -20,9 +20,9 @@
 
 短接EMMC附近的D0和GND 测试点
 
-![](../../img/Core-3568J/maskrom_test_points.png)
+![](../../../rk356x_img/Core-3568J/maskrom_test_points.png)
 
 
 此时设备就会进入 MaskRom 模式。
 
-![](../../img/maskrom_zh.png)
+![](../../../rk356x_img/maskrom_zh.png)

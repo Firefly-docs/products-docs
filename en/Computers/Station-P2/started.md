@@ -8,20 +8,20 @@ It is equipped with ARM Cortex-A55 architecture, quad-core 64-bit high-performan
 frequency up to 2.0GHz, integrates GPU, support RKNN NPU AI,supports H.265 HEVC and VP9, H.264 
 encoding, 4K HDR, and has the maximum support of 4K hardware decoding. 
 
-![](../../img/Station-P2/station_p2.png)
+![](../../../rk356x_img/Station-P2/station_p2.png)
 
-![](../../img/Station-P2/station_p2_info1.png)
+![](../../../rk356x_img/Station-P2/station_p2_info1.png)
 
-![](../../img/Station-P2/station_p2_info2.png)
+![](../../../rk356x_img/Station-P2/station_p2_info2.png)
 
 # Product parameters
-![](../../img/Station-P2/station_p2_en_args.jpg)
+![](../../../rk356x_img/Station-P2/station_p2_en_args.jpg)
 
 # Size
-![](../../img/Station-P2/station_p2_size.jpg)
+![](../../../rk356x_img/Station-P2/station_p2_size.jpg)
 
 # SATA install
-![](../../img/Station-P2/station_p2_zh_Install.png)
+![](../../../rk356x_img/Station-P2/station_p2_zh_Install.png)
 
 # Product resources
 * [[Station P2]](https://www.stationpc.com/product/stationP2)StationPC details page

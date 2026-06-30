@@ -29,7 +29,7 @@ Serial port to USB adapter, there are four pins:
 
 AIO-3568J serial port connection diagram:
 
-![](../../img/IPC-M10R800-A3568J/debug_connection.jpg)
+![](../../../rk356x_img/IPC-M10R800-A3568J/debug_connection.jpg)
 
 ## Parameter Setting
 
@@ -57,7 +57,7 @@ If you install the CP210X driver from the official website on the Windows system
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
-![](../../img/debug_find_com.png)
+![](../../../rk356x_img/debug_find_com.png)
 
 ### Install Software
 
@@ -70,8 +70,8 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 * Set `Speed (bsp)` to 1500000.
 * Click `OK` button.
 
-![](../../img/debug_set_MobaXterm1.PNG)
-![](../../img/debug_set_MobaXterm2.PNG)
+![](../../../rk356x_img/debug_set_MobaXterm1.PNG)
+![](../../../rk356x_img/debug_set_MobaXterm2.PNG)
 
 ## Use serial debug on Ubuntu
 

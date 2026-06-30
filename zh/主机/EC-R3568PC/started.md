@@ -4,16 +4,16 @@
 EC-R3568PC 嵌入式主机，基于 ROC-RK3568-PCSE 高性能开源平台，配置工业级外壳，防尘防干扰，长时间稳定运行，支持 4K 硬解，丰富的接口方便连接各种工业设备。
 搭载 ARM 全新 Cortex-A55 架构、四核64位高性能处理器，主频高达 2.0GHz，ARM G52 2EE 图形处理器。RKNN NPU AI 加速器 ( SoC集成 ) 。
 
-![](../../img/EC-R3568PC/ec-r3568pc-back.jpg)
-![](../../img/EC-R3568PC/ec-r3568pc-front.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-back.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-front.jpg)
 
 ## 产品参数
-![](../../img/EC-R3568PC/ec-r3568pc-io.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-io.jpg)
 
-![](../../img/EC-R3568PC/ec-r3568pc-spec-zh.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-spec-zh.jpg)
 
 ## 主机尺寸
-![](../../img/EC-R3568PC/ec-r3568pc-size.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-size.jpg)
 
 
 ## 产品资源

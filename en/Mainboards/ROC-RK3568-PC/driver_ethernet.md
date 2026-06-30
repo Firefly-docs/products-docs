@@ -80,7 +80,7 @@ Android dual ethernet had intranet and outer net.
 * eth0 : extra，as intranet
 * eth1 : main，as outer net
 
-![](../../img/ROC-RK3568-PC/eth0_eth1.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/eth0_eth1.jpg)
 
 Android `Settings -> Network & internet -> Ethernet/Ethernet2`， can view the IP addresses of the mian and extra network.
 

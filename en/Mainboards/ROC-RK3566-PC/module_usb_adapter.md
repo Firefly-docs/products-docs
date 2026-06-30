@@ -12,4 +12,4 @@
 
 ### Real figure
 
-![](../../img/USB_adapter.jpg)
+![](../../../rk356x_img/USB_adapter.jpg)

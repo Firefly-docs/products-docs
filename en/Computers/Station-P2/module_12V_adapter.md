@@ -11,6 +11,6 @@
 
 ### picture
 
-![](../../img/module_power_adapter1.png)
+![](../../../rk356x_img/module_power_adapter1.png)
 
-![](../../img/module_power_adapter2.png)
+![](../../../rk356x_img/module_power_adapter2.png)

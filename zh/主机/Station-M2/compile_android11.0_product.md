@@ -8,15 +8,15 @@
 ### 显示屏 DM-M10R800 V2 编译
 #### MIPI_DSI0+HDMI
 ```
-./FFTools/make.sh -d rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1 -j8 -l rk3568_firefly_roc_pc_mipi-userdebug
-./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc_mipi-userdebug
+./FFTools/make.sh -d rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1 -j8 -l rk3568_firefly_roc_pc-userdebug
+./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc-userdebug
 ```
 
 ### 显示屏 DM-M10R800 V3S 编译
 #### MIPI_DSI0+HDMI
 ```
-./FFTools/make.sh -d rk3568-firefly-roc-pc-se-mipi101_BSD1218_A101KL68 -j8 -l rk3568_firefly_roc_pc_mipi-userdebug
-./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc_mipi-userdebug
+./FFTools/make.sh -d rk3568-firefly-roc-pc-se-mipi101_BSD1218_A101KL68 -j8 -l rk3568_firefly_roc_pc-userdebug
+./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc-userdebug
 ```
 
 ### 双目摄像头 CAM-2MS2MF 编译
@@ -24,16 +24,17 @@
 * 修改 dts
 
     ```
-    diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dts
+    diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dts
     index 7e2a8b2..14fa027 100755
-    --- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dts
-    +++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dts
+    --- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dts
+    +++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dts
     @@ -7,6 +7,15 @@
-    - #include "rk3568-firefly-roc-pc-cam-8ms1m.dtsi"
-    +//#include "rk3568-firefly-roc-pc-cam-8ms1m.dtsi"
-    - //#include "rk3568-firefly-roc-pc-cam-2ms2m.dtsi"
-    + #include "rk3568-firefly-roc-pc-cam-2ms2m.dtsi"
+    - #include "rk3568-firefly-roc-pc-se-cam-8ms1m.dtsi"
+    +//#include "rk3568-firefly-roc-pc-se-cam-8ms1m.dtsi"
+    - //#include "rk3568-firefly-roc-pc-se-cam-2ms2m.dtsi"
+    + #include "rk3568-firefly-roc-pc-se-cam-2ms2m.dtsi"
     ```
+
 * 编译
 
     ```
@@ -45,17 +46,17 @@
 * 修改 dts
 
     ```
-    diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dts
-    index 79ce924..2d4e0c5 100755
-    --- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dts
-    +++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dts
+    diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dts
+    index 9a6d081b..e8e4712 100755
+    --- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dts
+    +++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dts
     @@ -13,9 +13,9 @@
-    * using dual camera gc2053/gc2093   ----> rk3568-firefly-roc-pc-cam-2ms2m.dtsi
-    * using hdmi-in module rk628d   ----> rk3568-firefly-roc-pc-tf-hdmi-mipi-rk628.dtsi
+    * using dual camera gc2053/gc2093   ----> rk3568-firefly-roc-pc-se-cam-2ms2m.dtsi
+    * using rk628d   ----> rk3568-firefly-roc-pc-tf-hdmi-mipi-rk628.dtsi
     */
-    -#include "rk3568-firefly-roc-pc-cam-8ms1m.dtsi"
-    +//#include "rk3568-firefly-roc-pc-cam-8ms1m.dtsi"
-    //#include "rk3568-firefly-roc-pc-cam-2ms2m.dtsi"
+    -#include "rk3568-firefly-roc-pc-se-cam-8ms1m.dtsi"
+    +//#include "rk3568-firefly-roc-pc-se-cam-8ms1m.dtsi"
+    //#include "rk3568-firefly-roc-pc-se-cam-2ms2m.dtsi"
     -//#include "rk3568-firefly-roc-pc-tf-hdmi-mipi-rk628.dtsi"
     +#include "rk3568-firefly-roc-pc-tf-hdmi-mipi-rk628.dtsi"
     ```

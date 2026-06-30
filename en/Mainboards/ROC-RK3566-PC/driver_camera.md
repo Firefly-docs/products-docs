@@ -18,7 +18,7 @@ and split into three logical dphy: csi2_dphy0, csi2_dphy1, csi2_dphy2 (See detai
 * csi2_dphy2 maps to physical dphy lane2/lane3;
 * Maximum speed 2.5Gbps/lane
 
-![](../../img/rk356x_mipi_csi_mode.png)
+![](../../../rk356x_img/rk356x_mipi_csi_mode.png)
 
 In short, if we use single-camera, we can set dphy to full mode, if we use dual-camera, we can set dphy to split mode.
 

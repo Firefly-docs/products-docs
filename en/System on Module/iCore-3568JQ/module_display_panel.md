@@ -13,7 +13,7 @@
 
 ### Refer to the firmware
 
-The official MIPI firmware default support MIPI_DSI0+HDMI display, MIPI screen connected to ITX-3568Q MIPI_DSI0 interfacei. Below is the link to the firmware: [Firmware link](http://en.t-firefly.com/doc/download/109.html#other_419)
+The official MIPI firmware default support MIPI_DSI0+HDMI display, MIPI screen connected to ITX-3568Q MIPI_DSI0 interfacei. Below is the link to the firmware: [Firmware link](https://en.t-firefly.com/doc/download/109.html#other_561)
 
 **NOTE:** When using HDMI display, there may be black edges on both sides of HDMI. The reason is HDMI as a secondary screen, will be scaled according to the aspect ratio of the main screen MIPI. If the aspect ratio of the two is inconsistent, it will lead to black edges.
 
@@ -21,33 +21,31 @@ The official MIPI firmware default support MIPI_DSI0+HDMI display, MIPI screen c
 
 Using official SDK to compile firmware that support 10.1 inches screen firmware need the following command, the default compiled firmware is MIPI_DSI0+HDMI display:
 ```
-./FFTools/make.sh -d rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1 -j8 -l rk3568_firefly_roc_pc_mipi-userdebug
-./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc_mipi-userdebug
+./FFTools/make.sh -d rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1 -j8 -l rk3568_firefly_roc_pc_se-userdebug
+./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc_se-userdebug
 ```
 
 **<font color=red>Note：If need to use CAM-8MS1M camera，first to add patch。** </font>
 
 ```
-diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts
+diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts
 index ae57644a105..0cb9124bec8 100644
---- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts
-+++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts
+--- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts
++++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts
 @@ -7,6 +7,15 @@
   /dts-v1/;
 
- #include "rk3568-firefly-roc-pc.dtsi"
+ #include "rk3568-firefly-roc-pc-se.dtsi"
 +/*
 + * Select one of the three
-+ * using single camera xc7160 ----> rk3568-firefly-roc-pc-cam-8ms1m.dtsi
-+ * using dual camera gc2053/gc2093   ----> rk3568-firefly-roc-pc-cam-2ms2m.dtsi
-+ * using hdmi-in module rk628d   ----> rk3568-firefly-roc-pc-tf-hdmi-mipi-rk628.dtsi
++ * using single camera xc7160 ----> rk3568-firefly-roc-pc-se-cam-8ms1m.dtsi
++ * using dual camera gc2053/gc2093   ----> rk3568-firefly-roc-pc-se-cam-2ms2m.dtsi
 + */
-+#include "rk3568-firefly-roc-pc-cam-8ms1m.dtsi"
-+//#include "rk3568-firefly-roc-pc-cam-2ms2m.dtsi"
-+//#include "rk3568-firefly-roc-pc-tf-hdmi-mipi-rk628.dtsi"
++#include "rk3568-firefly-roc-pc-se-cam-8ms1m.dtsi"
++//#include "rk3568-firefly-roc-pc-se-cam-2ms2m.dtsi"
 
  / {
-     model = "ROC-RK3568-PC MIPI M101014_BE45_A1 + HDMI(Android)";
+     model = "ROC-RK3568-PC-SE MIPI M101014_BE45_A1 + HDMI(Android)";
 ```
 
 ### Reference data
@@ -56,8 +54,4 @@ index ae57644a105..0cb9124bec8 100644
 
 ### Real figure
 
-#### MIPI_DSI0 FRONT
-![](../../img/iCore-3568JQ/module_display_mipi_DSI0_front.jpg)
-#### MIPI_DSI0 BACK
-![](../../img/iCore-3568JQ/module_display_mipi_DSI0_back.jpg)
-
+![](../../../rk356x_img/iCore-3568JQ/module_display_mipi_DSI0.jpg)

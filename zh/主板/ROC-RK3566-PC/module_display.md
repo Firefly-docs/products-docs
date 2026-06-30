@@ -60,8 +60,8 @@ index ebbb5d1123f..71e82f8d9c0 100644
 
 #### 正面
 
-![](../../img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_front.jpg)
+![](../../../rk356x_img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_front.jpg)
 
 #### 背面
 
-![](../../img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_back.jpg)
+![](../../../rk356x_img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_back.jpg)

@@ -13,7 +13,7 @@
 
 ###  参考固件
 
-官方的MIPI固件默认支持MIPI_DSI0 + HDMI显示，MIPI屏连接EC-R3566PC的MIPI_DSI0接口，下面是固件的链接：[固件链接](https://www.t-firefly.com/doc/download/125.html#other_491)
+官方的MIPI固件默认支持MIPI_DSI0 + HDMI显示，MIPI屏连接EC-R3566PC的MIPI_DSI0接口，下面是固件的链接：[固件链接](https://www.t-firefly.com/doc/download/125.html#other_649)
 
 **注意:** 接入HDMI时，HDMI的两边有可能会有黒边的现象，这是因为HDMI作为副屏会根据主屏MIPI的宽高比进行缩放，如果两者的宽高比不一致，就会导致黒边
 
@@ -22,33 +22,31 @@
 用官网 SDK 编译支持的 10.1 寸屏的固件时使用以下命令, 默认编译的固件为MIPI_DSI0+HDMI显示：
 
 ```
-./FFTools/make.sh -d rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1 -j8 -l rk3568_firefly_roc_pc_mipi-userdebug
-./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc_mipi-userdebug
+./FFTools/make.sh -d rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1 -j8 -l rk3568_firefly_roc_pc-userdebug
+./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc-userdebug
 ```
 
 **<font color=red>注意：如果需要支持 CAM-8MS1M 摄像头模组，需要先做如下修改，再编译。** </font>
 
 ```
-diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts
+diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts
 index ae57644a105..0cb9124bec8 100644
---- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts
-+++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts
+--- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts
++++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts
 @@ -7,6 +7,15 @@
   /dts-v1/;
 
- #include "rk3568-firefly-roc-pc.dtsi"
+ #include "rk3568-firefly-roc-pc-se.dtsi"
 +/*
 + * Select one of the three
-+ * using single camera xc7160 ----> rk3568-firefly-roc-pc-cam-8ms1m.dtsi
-+ * using dual camera gc2053/gc2093   ----> rk3568-firefly-roc-pc-cam-2ms2m.dtsi
-+ * using hdmi-in module rk628d   ----> rk3568-firefly-roc-pc-tf-hdmi-mipi-rk628.dtsi
++ * using single camera xc7160 ----> rk3568-firefly-roc-pc-se-cam-8ms1m.dtsi
++ * using dual camera gc2053/gc2093   ----> rk3568-firefly-roc-pc-se-cam-2ms2m.dtsi
 + */
-+#include "rk3568-firefly-roc-pc-cam-8ms1m.dtsi"
-+//#include "rk3568-firefly-roc-pc-cam-2ms2m.dtsi"
-+//#include "rk3568-firefly-roc-pc-tf-hdmi-mipi-rk628.dtsi"
++#include "rk3568-firefly-roc-pc-se-cam-8ms1m.dtsi"
++//#include "rk3568-firefly-roc-pc-se-cam-2ms2m.dtsi"
 
  / {
-     model = "ROC-RK3568-PC MIPI M101014_BE45_A1 + HDMI(Android)";
+     model = "ROC-RK3568-PC-SE MIPI M101014_BE45_A1 + HDMI(Android)";
 ```
 
 ### 参考资料
@@ -57,8 +55,4 @@ index ae57644a105..0cb9124bec8 100644
 
 ### 实物图
 
-#### MIPI_DSI0 正面
-![](../../img/EC-R3566PC/module_display_mipi_DSI0_front.jpg)
-#### MIPI_DSI0 背面
-![](../../img/EC-R3566PC/module_display_mipi_DSI0_back.jpg)
-
+![](../../../rk356x_img/EC-R3566PC/module_display_mipi_DSI0.jpg)

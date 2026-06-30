@@ -47,18 +47,18 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 ### Real figure
 
-![](../../img/module_wireless_ec20.png)
+![](../../../rk356x_img/module_wireless_ec20.png)
 
 ### Connection
 
 * USB connection
 
-![](../../img/module_wireless_ec20_usb.jpg)
+![](../../../rk356x_img/module_wireless_ec20_usb.jpg)
 
 
 * SIM card Connection
 
-![](../../img/module_wireless_sim_connection.jpg)
+![](../../../rk356x_img/module_wireless_sim_connection.jpg)
 
 
 ## EC200T 4G Module suite
@@ -103,7 +103,7 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 ### Real figure
 
-![](../../img/module_wireless_ec200t.jpg)
+![](../../../rk356x_img/module_wireless_ec200t.jpg)
 
 ### Connection
 

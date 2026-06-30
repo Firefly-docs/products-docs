@@ -23,11 +23,11 @@ If we have not compiled, we can download a [MiniLoaderAll.bin](https://www.t-fir
 
 **Step 2:** Click the option `Adanced Function` of the RKDevTool found at directory `RKTools/windows/AndroidTool` in SDK, and then download the file `MiniLoaderAll.bin` to the Boot by clicking the button `Download` when `MiniLoaderAll.bin` has been selected at the Boot text box. The figure shown as following:
 
-![](../../img/Core-3568J/load_emmc_with_flash_en01.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash_en01.png)
 
 **Step 3:** Click the button `List Storage`to get the storage media list, then we select the storage media `Emmc` of the list.
 
-![](../../img/Core-3568J/load_emmc_with_flash_en02.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash_en02.png)
 
 * ` X ` means device does not exist
 * ` 0 ` means the media exist, but is not selected
@@ -35,14 +35,14 @@ If we have not compiled, we can download a [MiniLoaderAll.bin](https://www.t-fir
 
 **Step 4:** Click the button `Switch Storage`, the storage media `Emmc` state of the list  will go from `0` to `√`, indicating EMMC is selected. At this time, the firmware we dowload to the board will be burned into EMMC.
 
-![](../../img/Core-3568J/load_emmc_with_flash_en03.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash_en03.png)
 
 **Step 5:** For sure the whole system firmware will boot start at EMMC, we should click the button `EraseAll` to clear all the storage media.
 
-![](../../img/Core-3568J/load_emmc_with_flash_en04.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash_en04.png)
 
 **Step 6:** Click the option `Upgrade Firmware`，select one system firmware we want to download in and click `Upgrade` done
 
-![](../../img/Core-3568J/load_emmc_with_flash_en05.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash_en05.png)
 
 

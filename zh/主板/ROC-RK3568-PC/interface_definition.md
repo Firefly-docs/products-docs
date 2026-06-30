@@ -30,7 +30,7 @@ ROC-RK3568-PC 提供了丰富的接口，主要包括：
 
 具体如下图：
 
-![](../../img/ROC-RK3568-PC/interface_front.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/interface_front.jpg)
 
-![](../../img/ROC-RK3568-PC/interface_reverse.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/interface_reverse.jpg)
 

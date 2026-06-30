@@ -3,20 +3,20 @@ Station M2 Geek Mini PC. Based on ROC-RK3566-PC, The device features an ultra-sl
 
 With RK3566 quad-core 64-bit Cortex-A55 processor, features 22nm lithography process and frequency of up to 1.8GHz, ARM G52 2EE GPU. Integrated with a 1TOPS AI accelerator RKNN NPU
 
-![](../../img/Station-M2/station_m2.png)
+![](../../../rk356x_img/Station-M2/station_m2.png)
 
 # Product Interfaces
 
-![](../../img/Station-M2/station_m2_interface1.png)
-![](../../img/Station-M2/station_m2_interface2.png)
+![](../../../rk356x_img/Station-M2/station_m2_interface1.png)
+![](../../../rk356x_img/Station-M2/station_m2_interface2.png)
 
 # Product Specification
 
-![](../../img/Station-M2/station_m2_details_en.png)
+![](../../../rk356x_img/Station-M2/station_m2_details_en.png)
 
 # Size
 
-![](../../img/Station-M2/station_m2_size.png)
+![](../../../rk356x_img/Station-M2/station_m2_size.png)
 
 # Resorces
 

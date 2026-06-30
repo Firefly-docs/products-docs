@@ -25,7 +25,7 @@ adb devices
 adb shell
 ```
 
-![](../../img/EC-A3568J/otg_interface.jpg)
+![](../../../rk356x_img/EC-A3568J/otg_interface.jpg)
 
 ### Network the ADB
 

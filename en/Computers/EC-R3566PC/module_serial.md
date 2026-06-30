@@ -14,9 +14,9 @@
 
 ### Picture
 
-![](../../img/module_serial_list.en.jpg)
+![](../../../rk356x_img/module_serial_list.en.jpg)
 
 ### Connection Method
 
-![](../../img/EC-R3566PC/debug_connection.jpg)
+![](../../../rk356x_img/EC-R3566PC/debug_connection.jpg)
 

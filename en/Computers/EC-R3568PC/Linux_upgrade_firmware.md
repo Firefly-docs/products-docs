@@ -123,4 +123,4 @@ sudo upgrade_tool ef update.img	# erase
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
-![](../../img/upgrade_downloadfail.jpg)
+![](../../../rk356x_img/upgrade_downloadfail.jpg)

@@ -14,8 +14,8 @@
 
 ### 实物图
 
-![](../../img/module_serial_list.jpg)
+![](../../../rk356x_img/module_serial_list.jpg)
 
 ### 连接方法
 
-![](../../img/IPC-M10R800-A3568J/debug_connection.jpg)
+![](../../../rk356x_img/IPC-M10R800-A3568J/debug_connection.jpg)

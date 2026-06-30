@@ -9,7 +9,7 @@ ROC-RK3568-PCSE has 2 working modes. Under normal circumstances, boot directly i
 * Note: The ROC-RK3568-PCSE is installed with the Android operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.You can go to the [Firmware download page](https://en.t-firefly.com/doc/download/141.html) to download more firmware.
 
 
-![](../../img/working_mode_en.png)
+![](../../../rk356x_img/working_mode_en.png)
 
 **ROC-RK3568-PCSE is classified according to the working mode and can be divided into two working modes:**
 

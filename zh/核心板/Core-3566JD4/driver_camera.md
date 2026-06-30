@@ -1,7 +1,7 @@
 # Camera 使用
 
 * 接口效果图
-![](../../img/Core-3566JD4/core_3566jd4_mipicsi.jpg)
+![](../../../rk356x_img/Core-3566JD4/core_3566jd4_mipicsi.jpg)
 
 ## MIPI CSI用法
 RK3566/RK3568平台仅有一个标准物理mipi csi2 dphy,可以工作在两个模式: full mode 和split
@@ -20,7 +20,7 @@ mode, 拆分为csi2_dphy0/csi2_dphy1/csi2_dphy2三个逻辑dphy(参见rk3568.dts
 * csi2_dphy2对应物理dphy的lane2/lane3;
 * 最大速率2.5Gbps/lane
 
-![](../../img/rk356x_mipi_csi_mode.png)
+![](../../../rk356x_img/rk356x_mipi_csi_mode.png)
 
 简单点来讲，如果用单目摄像头我们可以配置full mode，若使用双目摄像头我们可以配置split mode
 

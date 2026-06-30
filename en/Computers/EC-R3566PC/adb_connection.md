@@ -16,4 +16,4 @@ adb devices
 adb shell
 ```
 
-![](../../img/EC-R3566PC/otg_interface.jpg)
+![](../../../rk356x_img/EC-R3566PC/otg_interface.jpg)

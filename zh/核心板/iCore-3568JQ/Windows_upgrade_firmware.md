@@ -41,7 +41,7 @@
 
 下载 [Release_DriverAssistant.zip]，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 
-![](../../img/upgrade_firmware_install_RK_USB.jpg)
+![](../../../rk356x_img/upgrade_firmware_install_RK_USB.jpg)
 
 ### 连接设备
 
@@ -49,10 +49,10 @@
 
 * 先断开电源适配器连接
 * 双公头 USB 数据线一端连接主机，一端连接开发板
-![](../../img/iCore-3568JQ/otg_interface.jpg)
+![](../../../rk356x_img/iCore-3568JQ/otg_interface.jpg)
 
 * 按住设备上的 RECOVERY （恢复）键并保持
-![](../../img/iCore-3568JQ/recovery_key.jpg)
+![](../../../rk356x_img/iCore-3568JQ/recovery_key.jpg)
 
 * 接上电源
 * 大约两秒钟后，松开 RECOVERY 键
@@ -62,13 +62,13 @@
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，则需要返回上一步重新安装驱动。
 
-![](../../img/upgrade_firmware_new_equipment.jpg)
+![](../../../rk356x_img/upgrade_firmware_new_equipment.jpg)
 
 ## 烧写固件
 
 下载 [RKDevTool]后解压，运行 `RKDevTool_Release` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
-![](../../img/upgrade_firmware_androidtool.jpg)
+![](../../../rk356x_img/upgrade_firmware_androidtool.jpg)
 
 ### 烧写统一固件 update.img
 
@@ -81,7 +81,7 @@
 
 **注意：如果你烧写的固件 laoder 版本与原来的机器的不一致，请在升级固件前先执行`擦除 Flash `。**
 
-![](../../img/upgrade_firmware_erase_flash.jpg)
+![](../../../rk356x_img/upgrade_firmware_erase_flash.jpg)
 
 ### 烧写分区映像
 
@@ -92,7 +92,7 @@
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击`执行`按钮开始升级，升级结束后设备会自动重启。
 
-![](../../img/upgrade_firmware_androidtool.jpg)
+![](../../../rk356x_img/upgrade_firmware_androidtool.jpg)
 
 
 ## 常见问题
@@ -105,5 +105,5 @@
 ### 2. 烧写失败分析
 
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
-![](../../img/upgrade_downloadfail.jpg)
+![](../../../rk356x_img/upgrade_downloadfail.jpg)
 

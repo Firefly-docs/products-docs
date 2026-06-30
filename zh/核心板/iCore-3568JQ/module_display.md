@@ -59,6 +59,6 @@
 
 ### 连接方式
 
-![](../../img/iCore-3568JQ/module_display_mipi_DSI.jpg)
+![](../../../rk356x_img/iCore-3568JQ/module_display_mipi_DSI.jpg)
 
 

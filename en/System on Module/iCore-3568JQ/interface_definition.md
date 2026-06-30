@@ -35,5 +35,5 @@ ITX-3568Q provides rich interfaces, including:
 
 The details are as follows:
 
-![](../../img/iCore-3568JQ/interface_definition_en.jpg)
+![](../../../rk356x_img/iCore-3568JQ/interface_definition_en.jpg)
 

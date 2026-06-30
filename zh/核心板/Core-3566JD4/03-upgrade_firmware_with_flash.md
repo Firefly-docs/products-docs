@@ -6,7 +6,7 @@
 
 如下图，则设备有贴 Nor Falsh 存储器。
 
-![](../../img/Core-3566JD4/nor_flash-position.jpg)
+![](../../../rk356x_img/Core-3566JD4/nor_flash-position.jpg)
 
 ## Loader 模式 
 
@@ -47,11 +47,11 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 2.点击下载工具的`Advanced Function`，然后将准备好的`MiniLoaderAll.bin`下载到存储器中，见下图
 
-![](../../img/Core-3568J/load_emmc_with_flash01.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash01.png)
 
 3.点击`List Storage`读取存储器，此时存储列表选中的是`SPINOR`，为确保Nor flash为空，我们选择`EraseAll`擦除
 
-![](../../img/Core-3568J/maskrom_erease_spinor_flash.png)
+![](../../../rk356x_img/Core-3568J/maskrom_erease_spinor_flash.png)
 
 * `X` 表示设备不存在该存储器
 * `0` 表示存在该存储器，但未选中
@@ -60,26 +60,26 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 4.在存储列表中选中`Emmc`后点击`Switch Storage`
 
- ![](../../img/Core-3568J/load_emmc_with_flash02.png)
+ ![](../../../rk356x_img/Core-3568J/load_emmc_with_flash02.png)
 
 可以看到存储列表中的`Emmc`状态就会从`0`切到`√`,表示选择将固件下载到eMMC
 
-![](../../img/Core-3568J/load_emmc_with_flash03.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash03.png)
 
 5.点击`EraseAll`擦除
 
-![](../../img/Core-3568J/load_emmc_with_flash04.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash04.png)
 
 6.点击下载工具的`Upgrade Firmware`，然后选择我们想要下载进eMMC中的固件进行升级
 
-![](../../img/Core-3568J/load_emmc_with_flash05.png)
+![](../../../rk356x_img/Core-3568J/load_emmc_with_flash05.png)
 
 
 
 ## FAQ
 ### Maskrom模式烧写失败
 
-![](../../img/Core-3566JD4/maskrom_download_failed_with_flash.png)
+![](../../../rk356x_img/Core-3566JD4/maskrom_download_failed_with_flash.png)
 
 该现象是因为固件直接烧写进NOR flash中引起的，出现该现象时大家可以根据当前的情况进行处理：
 
@@ -87,7 +87,7 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 可以直接点击`EraseFlash`擦除NOR flash
 
-![](../../img/Maskrom_EraseFlash.png)
+![](../../../rk356x_img/Maskrom_EraseFlash.png)
 
 之后按照章节[固件下载到eMMC](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)的步骤进行固件升级即可
 
@@ -96,7 +96,7 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 通过Recovery按键进入Loader模式, 然后点击AndroidTool的`Go maskrom`进入Maskrom模式
 
-![](../../img/Go_maskrom.png)
+![](../../../rk356x_img/Go_maskrom.png)
 
 之后按照章节[固件下载到eMMC](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)的步骤进行固件升级即可。若不清楚如何通过Recovery按键进入Loader模式请参考[使用USB线缆升级固件](03-upgrade_firmware.html#lian-jie-she-bei)章节
 
@@ -139,11 +139,11 @@ Erasing 0x00000000 ... 0x01ffffff (8192 eraseblock(s))
 ### Go Maskrom无效
 点击AndroidTool的`Go Maskrom`无法进入Maskrom模式，rbrom命令同样也不行，原因是部分旧固件不支持从NOR flash的bootloader回到Maskrom模式，此时可通过Recovery按键重新进入Loader模式，点击AndroidTool的`EraseFlash`进行擦除
 
-![](../../img/Loader_EraseFlash.png)
+![](../../../rk356x_img/Loader_EraseFlash.png)
 
 无论是否提示`擦除IDB失败`都重启一下板子，重启后可进入Maskrom模式
 
-![](../../img/EraseFlash_IDB_failed.png)
+![](../../../rk356x_img/EraseFlash_IDB_failed.png)
 
 ### 其它
 烧写异常问题可参考帖子[rk3566/rk3568 烧写异常问题](https://dev.t-firefly.com/forum.php?mod=viewthread&tid=104417&page=1&extra=#pid265132)，若遇到其它问题也可以到社区论坛对应的板块[发帖](https://dev.t-firefly.com/forum.php)

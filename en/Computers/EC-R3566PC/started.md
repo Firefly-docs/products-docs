@@ -8,17 +8,17 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 
 # Product interfaces
 
-![](../../img/EC-R3566PC/ec-r3566pc_info3.jpg)
-![](../../img/EC-R3566PC/ec-r3566pc_info2.png)
-![](../../img/EC-R3566PC/ec-r3566pc_info1.png)
+![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_info3.jpg)
+![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_info2.png)
+![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_info1.png)
 
 # Product parameters
 
-![](../../img/EC-R3566PC/ec-r3566pc_args_en.png)
+![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_args_en.png)
 
 # Size
 
-![](../../img/EC-R3566PC/ec-r3566pc_size.png)
+![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_size.png)
 
 # Product resources
 

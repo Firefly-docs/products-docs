@@ -8,17 +8,17 @@ It is equipped with ARM Cortex-A55 architecture, quad-core 64-bit high-performan
 frequency up to 2.0GHz, integrates GPU, support RKNN NPU AI,supports H.265 HEVC and VP9, H.264 
 encoding, 4K HDR, and has the maximum support of 4K hardware decoding. 
 
-![](../../img/EC-R3568PC/ec-r3568pc-back.jpg)
-![](../../img/EC-R3568PC/ec-r3568pc-front.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-back.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-front.jpg)
 
 
 ## Product parameters
-![](../../img/EC-R3568PC/ec-r3568pc-io.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-io.jpg)
 
-![](../../img/EC-R3568PC/ec-r3568pc-spec-en.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-spec-en.jpg)
 
 ## Size
-![](../../img/EC-R3568PC/ec-r3568pc-size.jpg)
+![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-size.jpg)
 
 ## Product resources
 

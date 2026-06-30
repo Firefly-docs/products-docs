@@ -3,20 +3,20 @@ Station M2 极客主机，基于 ROC-RK3566-PC 超薄机身，小巧便携；支
 
 搭载 ARM 全新 Cortex-A55 架构、四核64位高性能处理器，主频高达 1.8GHz，ARM G52 2EE 图形处理器。RKNN NPU AI 加速器 ( SoC集成 ) 。
 
-![](../../img/Station-M2/station_m2.png)
+![](../../../rk356x_img/Station-M2/station_m2.png)
 
 # 产品接口
 
-![](../../img/Station-M2/station_m2_interface1.png)
-![](../../img/Station-M2/station_m2_interface2.png)
+![](../../../rk356x_img/Station-M2/station_m2_interface1.png)
+![](../../../rk356x_img/Station-M2/station_m2_interface2.png)
 
 # 产品参数
 
-![](../../img/Station-M2/station_m2_details.png)
+![](../../../rk356x_img/Station-M2/station_m2_details.png)
 
 # 主机尺寸
 
-![](../../img/Station-M2/station_m2_size.png)
+![](../../../rk356x_img/Station-M2/station_m2_size.png)
 
 # 产品资源
 

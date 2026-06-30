@@ -19,7 +19,7 @@ SPI bridge/extension chip WK2124 with functions of four enhanced serial ports (U
 
 The serial interface diagram of the AIO-3568J development board is as follows:
 
-![](../../img/Core-3568J/uart_interface.jpg)
+![](../../../rk356x_img/Core-3568J/uart_interface.jpg)
 
 ## DTS configuration
 
@@ -79,15 +79,15 @@ RS232_2:   /dev/ttyS4
 
 ## PINs Definition
 * RS232    
-	![](../../img/Core-3568J/AIO-3568J_RS232_pins.jpg)
+	![](../../../rk356x_img/Core-3568J/AIO-3568J_RS232_pins.jpg)
 
 </br>
 
 * RS485        
-	![](../../img/Core-3568J/AIO-3568J_RS485_pins.jpg)
+	![](../../../rk356x_img/Core-3568J/AIO-3568J_RS485_pins.jpg)
 
 * UART
-	![](../../img/Core-3568J/AIO-3568J_uart_pins.jpg)
+	![](../../../rk356x_img/Core-3568J/AIO-3568J_uart_pins.jpg)
 
 ## Debug method
 

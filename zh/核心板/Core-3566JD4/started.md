@@ -3,11 +3,11 @@
 Core-3566JD4 主控采用Rockchip RK3566四核处理器，集成双核心架构GPU以及高效能NPU,支持8G大内存,板载M.2,支持2.4/5G WIFI,4G无线网络通讯，拥有丰富的接口扩展，支持多种视频输入输出接口，可应用于智能NVR、云终端、物联网网关、工业控制等场景，详细资料可参考[《接口定义》](interface_definition.md)和[《文档》](hardware_doc.md) 
 
 
-![](../../img/Core-3566JD4/front.png)
+![](../../../rk356x_img/Core-3566JD4/front.png)
 
 AIO-3566JD4开发板由核心板Core-3566JD4+底板MB-JD4-RK3566组成, AIO-3566JD4拥有RGMII、PCIE3.0、USB3.0、I2C、SPI、UART、GPIO、MIPI-DSI等丰富接口，可直接应用到各种智能产品中，加速产品落地
 
-![](../../img/Core-3566JD4/AIO-3566JD4.jpg)
+![](../../../rk356x_img/Core-3566JD4/AIO-3566JD4.jpg)
 
 ## AIO-3566JD4标准套装包含以下配件(仅供参考):
 

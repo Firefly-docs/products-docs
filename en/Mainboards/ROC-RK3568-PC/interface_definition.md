@@ -31,7 +31,7 @@ ROC-RK3568-PC provides rich interfaces, including:
 
 The details are as follows:
 
-![](../../img/ROC-RK3568-PC/interface_front.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/interface_front.jpg)
 
-![](../../img/ROC-RK3568-PC/interface_reverse.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/interface_reverse.jpg)
 

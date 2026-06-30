@@ -14,8 +14,8 @@
 
 ### 实物图
 
-![](../../img/module_serial_list.jpg)
+![](../../../rk356x_img/module_serial_list.jpg)
 
 ### 连接方法
 
-![](../../img/ROC-RK3566-PC/debug_connection.jpg)
+![](../../../rk356x_img/ROC-RK3566-PC/debug_connection.jpg)

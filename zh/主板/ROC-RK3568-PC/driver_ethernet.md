@@ -83,7 +83,7 @@
 * eth0 : 副网口，用于内网
 * eth1 : 主网口，用于外网
 
-![](../../img/ROC-RK3568-PC/eth0_eth1.jpg)
+![](../../../rk356x_img/ROC-RK3568-PC/eth0_eth1.jpg)
 
 Android 系统`Settings -> Network & internet -> Ethernet/Ethernet2`， 可以查看主副网口的 IP 地址。
 

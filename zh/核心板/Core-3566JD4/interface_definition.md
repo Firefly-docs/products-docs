@@ -34,7 +34,7 @@ Core-3566JD4 提供了丰富的接口，主要包括：
 
 具体如下图：
 
-![](../../img/Core-3566JD4/front_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/front_interface.jpg)
 
-![](../../img/Core-3566JD4/back_interface.jpg)
+![](../../../rk356x_img/Core-3566JD4/back_interface.jpg)
 

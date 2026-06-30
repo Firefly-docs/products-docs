@@ -46,18 +46,18 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 ### Real figure
 
-![](../../img/module_wireless_ec20.png)
+![](../../../rk356x_img/module_wireless_ec20.png)
 
 ### Connection
 
 * USB connection
 
-![](../../img/module_wireless_ec20_usb.jpg)
+![](../../../rk356x_img/module_wireless_ec20_usb.jpg)
 
 
 * SIM card Connection
 
-![](../../img/module_wireless_sim_connection.jpg)
+![](../../../rk356x_img/module_wireless_sim_connection.jpg)
 
 
 ## EC200T 4G Module suite
@@ -102,7 +102,7 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 ### Real figure
 
-![](../../img/module_wireless_ec200t.jpg)
+![](../../../rk356x_img/module_wireless_ec200t.jpg)
 
 ### Connection
 
@@ -125,7 +125,7 @@ The official website of the public version of the default firmware support EC20 
 
 #### Product Parameter
 
-![](../../img/module_wireless_gps_delincomm_en.jpg)
+![](../../../rk356x_img/module_wireless_gps_delincomm_en.jpg)
 
 The parameters of each module model of this series will be different, please refer to [DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
 
@@ -155,7 +155,7 @@ The baud rate of DELICOMM series serial port is configured as `9600`. By default
 
 #### Product Parameter
 
-![](../../img/module_wireless_gps.en.jpg)
+![](../../../rk356x_img/module_wireless_gps.en.jpg)
 
 #### Interface Definition
 

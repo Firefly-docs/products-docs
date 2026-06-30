@@ -18,11 +18,11 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 2.点击下载工具的`Advanced Function`，然后将准备好的`MiniLoaderAll.bin`下载到存储器中，见下图
 
-![](../../img/ROC-RK3568-PC/load_emmc_with_flash01.png)
+![](../../../rk356x_img/ROC-RK3568-PC/load_emmc_with_flash01.png)
 
 3.点击`List Storage`读取存储器，然后选中存储列表中的`Emmc`
 
-![](../../img/ROC-RK3568-PC/load_emmc_with_flash02.png)
+![](../../../rk356x_img/ROC-RK3568-PC/load_emmc_with_flash02.png)
 
 * `X` 表示设备不存在该存储器
 * `0` 表示存在该存储器，但未选中
@@ -30,14 +30,14 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 4.点击`Switch Storage`，可以看到存储列表中的`Emmc`状态就会从`0`切到`√`,表示选择将固件下载到EMMC
 
-![](../../img/ROC-RK3568-PC/load_emmc_with_flash03.png)
+![](../../../rk356x_img/ROC-RK3568-PC/load_emmc_with_flash03.png)
 
 5.为确保整个固件从EMMC中启动，我们需要点击`EraseAll`清空存储器
 
-![](../../img/ROC-RK3568-PC/load_emmc_with_flash04.png)
+![](../../../rk356x_img/ROC-RK3568-PC/load_emmc_with_flash04.png)
 
 6.点击下载工具的`Upgrade Firmware`，然后选择我们想要下载进EMMC中的固件进行升级
 
-![](../../img/ROC-RK3568-PC/load_emmc_with_flash05.png)
+![](../../../rk356x_img/ROC-RK3568-PC/load_emmc_with_flash05.png)
 
 
