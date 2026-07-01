@@ -6,11 +6,11 @@
 
 ## 准备工作
 
-* ROC-RK3399-PC
+* EC-R3399PC
 * 电脑
 * MicroSD卡(即TF 卡)
 * USB读卡器
-* [SD_Firmware_Tool](http://www.t-firefly.com/doc/download/page/id/53.html#other_541)
+* [SD_Firmware_Tool](http://www.t-firefly.com/doc/download/page/id/216.html#other_541)
 
 ## 操作步骤
 1. 运行`SD_Firmware_Tool.exe`

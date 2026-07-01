@@ -4,7 +4,7 @@
 
 * 64 位 CPU
 * 16GB 物理内存+交换内存
-* 30GB 空闲的磁盘空间用于构建，源码树另外占用大约 25GB
+*  空闲的磁盘空间用于构建，源码树另外占用大约 25GB
 
 官方推荐 Ubuntu 14.04 操作系统，经测试，Ubuntu 12.04 也可以编译运行成功，只需要满足 [http://source.android.com/source/building.html](http://source.android.com/source/building.html) 里的软硬件配置即可。
 

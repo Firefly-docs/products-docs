@@ -10,7 +10,7 @@
 ## adb 使用
 
 ### ADB
-ROC-RK3399-PC用Type-C数据线连接设备和主机;
+EC-R3399PC用Type-C数据线连接设备和主机;
 
 ```
 adb devices
@@ -27,15 +27,15 @@ adb shell
 
 ## 安装linux-headers和linux-image
 DEBIAN包下载链接:
-链接：[https://pan.baidu.com/s/1HH_1M1QqdQQAVIXp3NnPvw](https://pan.baidu.com/s/1HH_1M1QqdQQAVIXp3NnPvw)
-取码：ddd6
+链接：[https://pan.baidu.com/s/1iwXXKEAQZSQ9cNZ3k3UP9A](https://pan.baidu.com/s/1iwXXKEAQZSQ9cNZ3k3UP9A)
+取码：ffly
 
 安装头文件
 ```
-sudo dpkg -i linux-headers-4.4.194+_4.4.194+-5_arm64.deb
-sudo dpkg -i linux-image-4.4.194+_4.4.194+-5_arm64.deb
+sudo dpkg -i linux-headers-4.4.194_4.4.194-3_arm64.deb
+sudo dpkg -i linux-image-4.4.194_4.4.194-3_arm64.deb
 
-cd /usr/src/linux-headers-4.4.194+
+cd /usr/src/linux-headers-4.4.194
 make headers_check
 make headers_install
 
@@ -2001,4 +2001,4 @@ sys     9m29.348s
 * 如果出现插卡开机后设备进入了 recovery 模式却没有自动进行升级操作，请在 recovery 模式下重新拔插 TF 卡，升级操作即可正常继续进行。
 
 [ubuntu_sd_update.zip]: https://download.t-firefly.com/product/RK3399/Tools/ubuntu_sd_update/ubuntu_sd_update.zip
-[SD_Firmware_Tool]: http://www.t-firefly.com/doc/download/page/id/53.html#other_401
+[SD_Firmware_Tool]: http://www.t-firefly.com/doc/download/page/id/216.html#other_401

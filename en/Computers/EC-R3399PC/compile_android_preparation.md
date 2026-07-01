@@ -4,7 +4,7 @@ Compiling Android requires higher configuration requirements for the machine:
 
 * 64 bits CPU.
 * 16GB physical memory + swap memory.
-* 30GB the free disk space is used for the build, and the source tree takes up an additional approximately 25GB.
+*  the free disk space is used for the build, and the source tree takes up an additional approximately 25GB.
 
 The official recommendation of Ubuntu 14.04 operating system, after testing, Ubuntu 12.04 can also compile and run successfully, just need to meet the hardware and software configuration following [http://source.android.com/source/building.html](http://source.android.com/source/building.html)
 

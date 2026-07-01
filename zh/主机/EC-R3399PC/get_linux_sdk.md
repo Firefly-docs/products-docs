@@ -23,5 +23,5 @@
 .repo/repo/repo sync -c --no-tags
 ```
 
-[下载链接]: http://www.t-firefly.com/doc/download/page/id/53.html
-[Firefly_Linux_SDK源码包]: http://www.t-firefly.com/doc/download/page/id/53.html#other_186
+[下载链接]: http://www.t-firefly.com/doc/download/page/id/216.html
+[Firefly_Linux_SDK源码包]: http://www.t-firefly.com/doc/download/page/id/216.html#other_186

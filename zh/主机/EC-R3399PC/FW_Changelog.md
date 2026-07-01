@@ -1,6 +1,6 @@
 # 固件更新日志
 
-[固件下载页面](http://www.t-firefly.com/doc/download/page/id/53.html)
+[固件下载页面](http://www.t-firefly.com/doc/download/page/id/216.html)
 
 ## Linux
 *	[Ubuntu 固件更新日志](FW_UBUNTU.md)

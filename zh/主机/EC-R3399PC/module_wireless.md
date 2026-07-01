@@ -132,41 +132,12 @@ VCC (红线)、GND (黑线)、TX (白线)、RX(绿线)
 
 ##### <font size=3>硬件连接</font>
 
-* 将模组的VCC、GND、TX、RX分别接到 ROC-RK3399-PC **UART?**(<font color = "red">对应节点为`/dev/tty*`</font>)的3.3V、GND、RX、TX，注意避免接错VCC、GND、TX、RX<font color = "red">导致烧坏模组</font>
+* 将模组的VCC、GND、TX、RX分别接到 EC-R3399PC **UART?**(<font color = "red">对应节点为`/dev/tty*`</font>)的3.3V、GND、RX、TX，注意避免接错VCC、GND、TX、RX<font color = "red">导致烧坏模组</font>
 * 对于UART的一些定义和说明可以参考Wiki教程[《UART 使用》](driver_uart.html)
 
 ##### <font size=3>软件配置</font>
 
 DELINCOMM系列串口波特率配置为`9600`，公版固件已经默认配置好，使能GPS后即可使用，详情可以参考[如何使能GPS和修改串口配置](#ru-he-shi-neng-gps-he-xiu-gai-chuan-kou-pei-zhi)。
-
-**注意**:GPS功能会占用到 **UART?**，若需要用 **UART?** 作为其他用途，需要将GPS先禁止掉
-
-#### 参考固件
-
-公版新固件默认支持GPS模组, 但需要手动打开。 或直接下载GPS默认启动固件[百度云](https://www.t-firefly.com/doc/download/135.html)
-
-### DK2635U7F 模块
-
-#### 产品参数
-
-![](../../../rk3399_img/module_wireless_gps.png)
-
-详细产品规格可参考[DK2635U7F规格书.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DK2635U7F%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf)
-
-#### 接口定义
-
-VCC (白线)、GND (黑线)、TX (蓝线)、RX(绿线)
-
-#### 使用说明
-
-##### <font size=3>硬件连接</font>
-
-* 将模组的VCC、GND、TX、RX分别接到 ROC-RK3399-PC **UART?**(<font color = "red">对应节点为`/dev/tty*`</font>)的3.3V、GND、RX、TX，注意避免接错VCC、GND、TX、RX<font color = "red">导致烧坏模组</font>
-* 对于UART的一些定义和说明可以参考Wiki教程[《UART 使用》](driver_uart.html)
-
-##### <font size=3>软件配置</font>
-
-UBLOX模块串口波特率配置为`9600`，公版固件已经默认配置好，使能GPS后即可使用，详情可以参考[如何使能GPS和修改串口配置](#ru-he-shi-neng-gps-he-xiu-gai-chuan-kou-pei-zhi)。
 
 **注意**:GPS功能会占用到 **UART?**，若需要用 **UART?** 作为其他用途，需要将GPS先禁止掉
 
@@ -221,10 +192,9 @@ EC20模组根据[EC20 4G模组套件](#ec20-4g-mo-zu-tao-jian)章节的说明连
     * 修改串口配置(串口节点或者波特率)：将机器上`/system/etc/u-blox.conf`里面`SERIAL_DEVICE`或者`SERIAL_BAUD_RATE`修改成对应模组配置的值，软重启机器后生效。
 
 ##### 代码修改
-
 * 使能GPS
-    * 修改SDK目录下`device/rockchip/rk3399/rk3399_roc_pc.mk`(Android7.1以上的版本为`device/rockchip/rk3399/rk3399_roc_pc/rk3399_roc_pc.mk`)里面`BOARD_HAS_GPS`参数为`true`，实现固件使能GPS功能，修改后重新编译SDK并烧录固件生效。
+    * 修改SDK目录下`device/rockchip/rk3399pro/BoardConfig.mk`里面`BOARD_HAS_GPS`参数为`true`，实现固件使能GPS功能，修改后重新编译SDK并烧录固件生效。
 
 * 修改串口配置(串口节点或者波特率)
-    * 将SDK目录下`device/rockchip/rk3399/gps/u-blox.conf`(Android7.1以上的版本为`device/rockchip/rk3399/rk3399_roc_pc/gps/u-blox.conf`)里面`SERIAL_DEVICE`或者`SERIAL_BAUD_RATE`修改成对应模组配置的值，修改后重新编译SDK并烧录固件生效
+    * 将SDK目录下`device/rockchip/rk3399pro/gps/u-blox.conf`里面`SERIAL_DEVICE`或者`SERIAL_BAUD_RATE`修改成对应模组配置的值，修改后重新编译SDK并烧录固件生效
 

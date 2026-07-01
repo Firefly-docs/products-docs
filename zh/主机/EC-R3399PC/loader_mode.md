@@ -2,17 +2,17 @@
 
 ## 前言
 
-本文介绍了如何将主机上的固件，通过USB数据线烧录到 ROC-RK3399-PC 开发板的存储器中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
+本文介绍了如何将主机上的固件，通过USB数据线烧录到 EC-R3399PC 开发板的存储器中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
 
 ## 准备工具
 
-* ROC-RK3399-PC 开发板
+* EC-R3399PC 开发板
 * 固件
 * 主机
 * 良好的Type-C数据线数据线
 
 ## 准备固件
-固件可以通过编译 SDK 获得，也可以通过[资源下载](http://www.t-firefly.com/doc/download/page/id/53.html)处下载公版固件(统一固件)。固件文件一般有两种：
+固件可以通过编译 SDK 获得，也可以通过[资源下载](http://www.t-firefly.com/doc/download/page/id/216.html)处下载公版固件(统一固件)。固件文件一般有两种：
 
 * 单个统一固件
 
@@ -30,11 +30,11 @@
 
 * 安装RK USB驱动
 
-下载 [Release_DriverAssistant.zip](http://www.t-firefly.com/doc/download/page/id/53.html#other_11)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
+下载 [Release_DriverAssistant.zip](http://www.t-firefly.com/doc/download/page/id/216.html#other_11)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 
 ![](../../../rk3399_img/upgrade_firmware_install_RK_USB.jpg)
 
-* 下载并运行[AndroidTool](http://www.t-firefly.com/doc/download/page/id/53.html#other_248)的RKDevTool.exe
+* 下载并运行[AndroidTool](http://www.t-firefly.com/doc/download/page/id/216.html#other_248)的RKDevTool.exe
 
 **<font color=#ff0000 >注意</font>**:不同固件使用的工具版本可能不同,请根据[《使用USB线烧写须知(重要)》]下载对应的版本
 
@@ -44,11 +44,11 @@
 
 Linux 下无须安装设备驱动
 
-* [Linux_Upgrade_Tool](http://www.t-firefly.com/doc/download/page/id/53.html#windows_375)工具
+* [Linux_Upgrade_Tool](http://www.t-firefly.com/doc/download/page/id/216.html#windows_375)工具
 
 **<font color=#ff0000 >注意</font>**:不同固件使用的工具版本可能不同,请根据[《使用USB线烧写须知(重要)》]下载对应的版本
 
-下载 [Linux_Upgrade_Tool](http://www.t-firefly.com/doc/download/page/id/53.html#windows_375), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_Upgrade_Tool](http://www.t-firefly.com/doc/download/page/id/216.html#windows_375), 并按以下方法安装到系统中，方便调用：
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -224,4 +224,4 @@ sudo upgrade_tool ef update.img	# 擦除
 
 
 [《使用USB线烧写须知(重要)》]: 02-upgrade_table.md
-[RKDevTool]: http://www.t-firefly.com/doc/download/page/id/53.html#other_248
+[RKDevTool]: http://www.t-firefly.com/doc/download/page/id/216.html#other_248

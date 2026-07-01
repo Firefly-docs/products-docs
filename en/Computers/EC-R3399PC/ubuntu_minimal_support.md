@@ -1,6 +1,6 @@
 # Firefly Ubuntu Minimal Introduction
 
-ROC-RK3399-PC The Ubuntu Minimal system is based on the Ubuntu 64bit system. Currently, Ubuntu 18.04 is released. Compared with Ubuntu Desktop, it has the following features:
+EC-R3399PC The Ubuntu Minimal system is based on the Ubuntu 64bit system. Currently, Ubuntu 18.04 is released. Compared with Ubuntu Desktop, it has the following features:
 
 1. There is no desktop environment, occupying less resources, etc. The simplified system memory occupies only 40M.
 1. For embedded platforms, streamline system services.

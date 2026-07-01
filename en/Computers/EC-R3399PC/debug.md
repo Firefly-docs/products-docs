@@ -14,7 +14,7 @@ There are many USB adapter to serial port on the shop, divided by chip, there ar
 | CH340 | 2Mbps | No | Firefly and many customers have found in actual use that the actual baud rate of many CH340s on the market cannot reach 1.5Mbps, which causes a lot of trouble in the development process |  |
 | PL2303 | 1.2Mbps | No | The maximum baud rate is less than 1.5Mbps |  |
 
-<font color=#ff0000>**Note:** The default baud rate of ROC-RK3399-PC is 1500000, some USB to serial chip baud rate can not reach 1500000. The same chip may have different series, so be sure to confirm whether to support before purchasing.</font>
+<font color=#ff0000>**Note:** The default baud rate of EC-R3399PC is 1500000, some USB to serial chip baud rate can not reach 1500000. The same chip may have different series, so be sure to confirm whether to support before purchasing.</font>
 
 ## Hardware Connection
 
@@ -27,13 +27,13 @@ Serial port to USB adapter, there are four pins:
 
 **Note:** If you encounter the problem that TX and RX cannot input and output when using other serial adapters, you can try to exchange TX and RX connections.
 
-ROC-RK3399-PC serial port connection diagram:
+EC-R3399PC serial port connection diagram:
 
 ![](../../../rk3399_img/EC-R3399PC/debug_connection.jpg)
 
 ## Parameter Setting
 
-ROC-RK3399-PC use the following serial parameters:
+EC-R3399PC use the following serial parameters:
 
 * Baud rate: 1500000
 * Data bit: 8

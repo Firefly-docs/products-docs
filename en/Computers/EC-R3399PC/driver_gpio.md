@@ -319,7 +319,7 @@ In a complex system-on-chip (SOC), designers generally divide the power supply o
 * In accordance with the Upstream approach, it is more convenient if you need Upstream in the future;
 * The IO-Domain driver supports dynamic adjustment of the voltage domain during operation. For example, a certain Regulator of the PMIC can dynamically switch between 1.8v and 3.3v. Once the Regulator voltage changes, the IO-Domain driver will be notified to reset the voltage domain.
 
-ROC-RK3399-PC 原理图上的 Power Domain Map 表以及配置如下表所示：
+EC-R3399PC 原理图上的 Power Domain Map 表以及配置如下表所示：
 
 ![](../../../rk3399_img/gpio_power_domain.jpg)
 
@@ -333,7 +333,7 @@ The configuration of other circuits is similar. It should be noted that if it is
 
 ### IO instruction
 
-A very useful tool for GPIO debugging is the IO command. The Android system of ROC-RK3399-PC has built-in IO commands by default. Using IO commands, you can read or write the status of each IO port in real time. Here is a brief introduction The use of IO instructions. First check the help of IO instruction:
+A very useful tool for GPIO debugging is the IO command. The Android system of EC-R3399PC has built-in IO commands by default. Using IO commands, you can read or write the status of each IO port in real time. Here is a brief introduction The use of IO instructions. First check the help of IO instruction:
 
 ```
 #io --help

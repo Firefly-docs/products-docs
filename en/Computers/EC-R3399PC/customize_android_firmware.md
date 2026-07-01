@@ -127,5 +127,5 @@ success!
 **A1 :** In the parameter file, you can find the downward direction and modify it. Note that the version number is a number, and the middle two dots cannot be omitted.
 
 ```
-AND_FW_VER: 8.1
+AND_FW_VER: 
 ```

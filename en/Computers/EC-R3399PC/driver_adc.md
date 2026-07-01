@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The ROC-RK3399-PC development board has two kinds of AD interface, respectively: Temperature Sensor and Successive Approximation Register. Among them:
+The EC-R3399PC development board has two kinds of AD interface, respectively: Temperature Sensor and Successive Approximation Register. Among them:
 
 * TS-ADC (Temperature Sensor): Supports two-channel, clock frequency must be less than 800KHZ.
 * SAR-ADC (Successive Approximation Register): Supports six-channel single-ended 10-bit SAR-ADC. Must have a clock frequency less than 13MHZ.
@@ -12,7 +12,7 @@ The kernel uses the industrial I/O subsystem to control the ADC, which is mainly
 ## DTS configuration
 
 ### Configure DTS nodes
-The SAR-ADC nodes of ROC-RK3399-PC defined in `kernel/arch/arm64/boot/dts/rockchip/rk3399.dtsi` file, as showm below:
+The SAR-ADC nodes of EC-R3399PC defined in `kernel/arch/arm64/boot/dts/rockchip/rk3399.dtsi` file, as showm below:
 
 ```
 saradc: saradc@ff100000 {
@@ -42,11 +42,9 @@ adc_demo: adc_demo{
 
 The user driver can refer to Firefly adc demo:
 
-The path of Android7.1 Industry and Android10.0 is `kernel/drivers/iio/adc/adc-firefly-demo.c`
+The path is `kernel/drivers/iio/adc/adc-firefly-demo.c`
 
-The path of Android8.1 box and Android7.1 box is `kernel/drivers/adc/adc-firefly-demo.c`
-
-Demo is a driver that detects the status of ROC-RK3399-PC's fan. First, define the `of_device_id` structure array in the driver file:
+Demo is a driver that detects the status of EC-R3399PC's fan. First, define the `of_device_id` structure array in the driver file:
 
 ```
 static const struct of_device_id firefly_adc_match[] = {
@@ -177,7 +175,7 @@ adc_demo: adc_demo{
 };
 ```
 
-Compile the kernel, upgrade the kernel to ROC-RK3399-PC development board, and then plug out the fan, the kernel log information will be printed as follows:
+Compile the kernel, upgrade the kernel to EC-R3399PC development board, and then plug out the fan, the kernel log information will be printed as follows:
 
 ```
 [   85.158104] Fan insert! raw= 135 Voltage= 237mV

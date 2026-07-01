@@ -1,6 +1,6 @@
 ### Overall Compilation
 
-**Note: Since the  the Hardware iteration version of ROC-RK3399-PC is [ROC-RK3399-PC Pro](https://wiki.t-firefly.com/en/ROC-RK3399-PC-Pro/started.html), so the compilation method of software is consistent. Finally the generated firmware, such as ROC-RK3399-PC-Pro_xxx.img is compatible with ROC-RK3399-PC.**
+**Note: Since the  the Hardware iteration version of EC-R3399PC is [ROC-RK3399-PC Pro](https://wiki.t-firefly.com/en/ROC-RK3399-PC-Pro/started.html), so the compilation method of software is consistent. Finally the generated firmware, such as ROC-RK3399-PC-Pro_xxx.img is compatible with EC-R3399PC.**
 
 #### Public Compile
 ##### HDMI+DP
@@ -71,7 +71,7 @@ make ARCHV=aarch64 -j8
 ```
 cd ~/proj/EC-R3399PC/
 source build/envsetup.sh
-lunch  ROC_RK3399_PC-userdebug
+lunch  
 make -j8
 ./mkimage.sh
 ```
@@ -80,7 +80,7 @@ make -j8
 
 After compilation, you can use Firefly official scripts to package into unified firmware, execute the following command：
 ```
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 According to different -l XXX-userdebug parameters, the packaged unified firmware will be stored in different directories (rockdev/image-XXX/): product name XXX_XXX_date XXX.img
 

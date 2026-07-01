@@ -2,16 +2,16 @@
 
 
 ```
-./FFTools/make.sh  -d rk3399-roc-pc -j8 -l ROC_RK3399_PC-userdebug
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/make.sh  -d rk3399-roc-pc -j8 -l 
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 * HDMI + EDP display compilation
 
 * Single LVDS
 ```
-./FFTools/make.sh  -d rk3399-roc-pc-edp -j8 -l ROC_RK3399_PC-userdebug
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/make.sh  -d rk3399-roc-pc-edp -j8 -l 
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 ## Manually compile Android 8.1
@@ -44,7 +44,7 @@ make ARCHV=aarch64 -j8
 ```
 cd ~/proj/EC-R3399PC/
 source build/envsetup.sh
-lunch ROC_RK3399_PC-userdebug
+lunch 
 make installclean
 make -j8
 ./mkimage.sh
@@ -84,7 +84,7 @@ cd ~/proj/EC-R3399PC/
 After compiling, you can use Firefly's official script to package into unified firmware, execute the following command：
 
 ```
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 According to different -l XXX-userdebug parameters, the packaged unified firmware will be stored in different directories (rockdev/image-XXX/): product name XXX_XXX_date XXX.img

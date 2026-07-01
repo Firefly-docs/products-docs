@@ -37,4 +37,4 @@ git pull gitlab firefly-rk3399:firefly-rk3399
 [[https://gitlab.com/TeeFirefly/firenow-oreo-rk3399#]](https://gitlab.com/TeeFirefly/firenow-oreo-rk3399#)
 
 
-[Android8.1 源码包]: http://www.t-firefly.com/doc/download/page/id/53.html#other_144
+[Android8.1 源码包]: http://www.t-firefly.com/doc/download/page/id/216.html#other_144

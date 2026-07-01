@@ -3,14 +3,15 @@
 # UART
 
 ## Introduction
-ROC-RK3399-PC supports SPI bridge/extension functions of four enhanced serial ports (UART), namely UART1, UART2, RS232, and RS485. Each UART has a 256-byte FIFO buffer for data receiving and sending. Among them:
+
+EC-R3399PC supports SPI bridge/extension functions of four enhanced serial ports (UART), namely UART1, UART2, RS232, and RS485. Each UART has a 256-byte FIFO buffer for data receiving and sending. Among them:
 
 * UART1, UART2 are TTL level interfaces, RS232 are RS232 level interfaces, and RS485 are RS485 level interfaces.
 * each sub-channel has 256 BYTE FIFO, which can be programmed according to user requirements.
 * has a subserial port to receive FIFO timeout interrupts.
 * supports start bit error detection.
 
-The serial interface diagram of the ROC-RK3399-PC development board is as follows:
+The serial interface diagram of the EC-R3399PC development board is as follows:
 
 ![](../../../rk3399_img/EC-R3399PC/uart_interface.jpg)
 
@@ -20,24 +21,22 @@ File `kernel/arch/arm64/boot/dts/rockchip/rk3399-firefly-port.dtsi` has the defi
 
 ```
 &spi1 {
-    spi_wk2xxx: spi_wk2xxx@00{
-    status = "disabled";
-    compatible = "firefly,spi-wk2xxx";
-    reg = <0x00>;
-    spi-max-frequency = <10000000>;
-    power-gpio = <&gpio2 4 GPIO_ACTIVE_HIGH>;
-    reset-gpio = <&gpio1 17 3 GPIO_ACTIVE_HIGH>;
-    irq-gpio = <&gpio1 2 IRQ_TYPE_EDGE_FALLING>;
-    cs-gpio = <&gpio1 10 GPIO_ACTIVE_HIGH>;
-    /* rk3399 driver support SPI_CPOL | SPI_CPHA | 			SPI_CS_HIGH */
-    //spi-cpha;     /* SPI mode: CPHA=1 */
-    //spi-cpol;     /* SPI mode: CPOL=1 */
-    //spi-cs-high;
-     };
-}
+        status = "okay";
+        max-freq = <48000000>;
+        dev-port = <0>;
+        spi_wk2@00{
+                status = "okay";
+                compatible = "firefly,spi-wk2xxx";
+                reg = <0x00>;
+                spi-max-frequency = <10000000>;
+                reset-gpio = <&gpio2 RK_PA0 GPIO_ACTIVE_HIGH>;
+                irq-gpio = <&gpio3 RK_PB2 IRQ_TYPE_EDGE_FALLING>;
+                cs-gpio = <&gpio1 RK_PB2 GPIO_ACTIVE_HIGH>;
+        };
+};
 ```
 
-As you can see, enabling the node in the `kernel/arch/arm64/boot/dts/rockchip/firefly_roc-rk3399-pc_defconfig.dts` file is available. In addition, SPI1 node needs to be enabled because SPI to UART serial port module used by our board is attached to SPI1. As follows:
+As you can see, enabling the node in the `kernel/arch/arm64/boot/dts/rockchip/firefly_roc-rk3399-pc_defconfig.dtsi` file is available. In addition, SPI1 node needs to be enabled because SPI to UART serial port module used by our board is attached to SPI1. As follows:
 
 ```
 &spi1 {
@@ -67,6 +66,7 @@ RS232：/dev/ttysWK1
 UART2：/dev/ttysWK2
 UART1：/dev/ttysWK3
 ```
+
 
 Users can send and receive data to the serial port of the development board by using the USB to serial port adapter of different host according to different interfaces. For example, the debugging steps of RS485 are as follows:
 

@@ -32,18 +32,39 @@ sudo apt-get install lib32gcc-7-dev g++-7 libstdc++-7-dev
 
 **由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包SDK。用户可以通过如下方式获取 Firefly_Linux_SDK源码包：**[Firefly_Linux_SDK源码包]
 
-下载完成后按照 README 文档操作：
+### 解压 Firefly_Linux_SDK 分卷压缩包
 
+第一次使用SDK需执行3个步骤，如果是后续想更新SDK，只需执行第3步进行网络更新即可
 ```
-└── rk3399_linux_release_xxx
-    ├── linux_sdk_tar
-    │   ├── rk3399_linux_release_xxx.sdk.split00
-    │   ├── rk3399_linux_release_xxx.sdk.split01
-    ├── md5sum.txt
-    ├── README_EN.txt
-    ├── README_ZH.txt
-    └── sdk_tools.sh
+1. 解压SDK
 
+chmod +x ./sdk_tools.sh
+
+创建一个目录以存放SDK：比如我现在这个是3588的SDK，我想解压到上一层文件夹，避免污染当前目录
+
+mkdir ../firefly_rk3588_SDK
+./sdk_tools.sh --unpack -C ../firefly_rk3588_SDK
+
+
+2. 还原工作目录
+
+选择刚才解压后的目录
+
+./sdk_tools.sh --sync -C ../firefly_rk3588_SDK
+
+可以使用上面脚本执行或者手动执行命令，选择其中一种即可
+
+# 进入刚刚解压后的目录，比如我这里是../firefly_rk3588_SDK
+cd ../firefly_rk3588_SDK
+.repo/repo/repo sync -l
+.repo/repo/repo start firefly --all
+
+
+3. 更新SDK
+
+前面2个步骤只在第一次解压SDK时执行，后续更新SDK只需进入SDK目录执行第3步骤，进行网络更新
+
+.repo/repo/repo sync -c --no-tags
 ```
 
 ### 更新 Firefly_Linux_SDK
@@ -53,8 +74,14 @@ sudo apt-get install lib32gcc-7-dev g++-7 libstdc++-7-dev
 .repo/repo/repo sync -c --no-tags
 ```
 
-[下载链接]: http://www.t-firefly.com/doc/download/page/id/53.html
-[Firefly_Linux_SDK源码包]: http://www.t-firefly.com/doc/download/page/id/53.html#other_186
+[下载链接]: http://www.t-firefly.com/doc/download/page/id/216.html
+[Firefly_Linux_SDK源码包]: http://www.t-firefly.com/doc/download/page/id/216.html#other_423
+
+
+
+
+
+
 ### Linux_SDK 目录介绍
 
 目录：
@@ -89,7 +116,7 @@ $ tree -L 1
 ```
 ./build.sh roc-rk3399-pc-ubuntu.mk
 
-#文件路径在 `device/rockchip/rk3399/roc-rk3399-pc-ubuntu.mk`
+#文件路径在 `device/rockchip/rk3399pro/roc-rk3399-pc-ubuntu.mk`
 ```
 
 如果配置文件生效会连接到 `device/rockchip/.BoardConfig.mk` ,检查该文件可以验证是否配置成功
@@ -98,7 +125,7 @@ $ tree -L 1
 
 ```bash
 # uboot defconfig
-export RK_UBOOT_DEFCONFIG=roc-rk3399-pc_defconfig      # 编译 uboot 配置文件
+export RK_UBOOT_DEFCONFIG=      # 编译 uboot 配置文件
 
 # kernel defconfig
 export LINUX_KERNEL_DEFCONFI=firefly_linux_defconfig   # 编译 kernel 配置文件
@@ -118,8 +145,8 @@ export RK_ROOTFS_IMG=xxxx/xxxx.img                       # 根文件系统镜像
 
 **<font color=#ff0000 >注意，以下步骤十分重要！！</font>**
 
-*  [前往下载页面 下载对应的Ubuntu 根文件系统镜像](http://www.t-firefly.com/doc/download/page/id/53.html)
-*  因为RK3399属于64位处理器，所以在对应`Linux Rootfs/arm64`文件夹下选择需要的文件系统，本文用`rk3399_ubuntu18.04.img.7z`进行举例。
+*  [前往下载页面 下载对应的Ubuntu 根文件系统镜像](http://www.t-firefly.com/doc/download/page/id/216.html)
+*  因为RK3399Pro属于64位处理器，所以在对应`Linux Rootfs/arm64`文件夹下选择需要的文件系统，本文用`rk3399_ubuntu18.04.img.7z`进行举例。
 *  把得到的镜像放到 SDK 的指定目录:
 
 ```
@@ -131,7 +158,7 @@ mkdir ubuntu_rootfs
 mv rk3399_ubuntu18.04.img ubuntu_rootfs/
 
 #修改roc-rk3399-pc-ubuntu.mk文件
-vim device/rockchip/rk3399/roc-rk3399-pc-ubuntu.mk
+vim device/rockchip/rk3399pro/roc-rk3399-pc-ubuntu.mk
 
 #把RK_ROOTFS_IMG属性改成ubuntu文件系统镜像得路径(也就是rk3399_ubuntu18.04.img)
 RK_ROOTFS_IMG=ubuntu_rootfs/rk3399_ubuntu18.04.img
@@ -219,7 +246,7 @@ ls -l
 ├── MiniLoaderAll.bin -> ~/project/linux_sdk/u-boot/rk3399_loader_v1.14.115.bin
 ├── misc.img -> ~/project/linux_sdk/device/rockchip/rockimg/wipe_all-misc.img
 ├── oem.img
-├── parameter.txt -> ~/project/linux_sdk/device/rockchip/RK3399/parameter-ubuntu.txt
+├── parameter.txt -> ~/project/linux_sdk/device/rockchip/RK3399Pro/parameter-ubuntu.txt
 ├── recovery.img -> ~/project/linux_sdk/buildroot/output/rockchip_rk3399_recovery/images/recovery.img
 ├── rootfs.img -> ~/project/linux_sdk/ubuntu_rootfs/rk3399_ubuntu18.04.img
 ├── trust.img -> ~/project/linux_sdk/u-boot/trust.img
@@ -331,4 +358,4 @@ backup          RESERVED
 操作方法见[《升级固件》](03-upgrade_firmware.md)
 
 
-[Linux_SDK.7z]: http://www.t-firefly.com/doc/download/page/id/53.html
+[Linux_SDK.7z]: http://www.t-firefly.com/doc/download/page/id/216.html

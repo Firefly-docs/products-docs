@@ -4,7 +4,7 @@
 
 This chapter describes how to configure PWM.
 
-The PWM driver of ROC-RK3399-PC is `kernel/drivers/pwm/pwm-rockchip.c`
+The PWM driver of EC-R3399PC is `kernel/drivers/pwm/pwm-rockchip.c`
 
 ## DTS configure
 

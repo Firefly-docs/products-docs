@@ -46,9 +46,9 @@ The Yocto Project (YP) is an open source collaboration project that helps develo
 
 ## Debian 10
 
-The Debian project was founded by Ian Murdock in 1993 and is a truly free community project. Since then the project has developed into one of the largest and most influential open source projects. Thousands of volunteers from all over the world jointly create and maintain Debian software. Debian provides 70 languages and supports multiple computer types, so it calls itself a universal operating system. **Due to the powerful versatility of Debian, Firefly has adapted [Debian 10](http://en.t-firefly.com/doc/download/51.html#other_117) for developers to use.**
+The Debian project was founded by Ian Murdock in 1993 and is a truly free community project. Since then the project has developed into one of the largest and most influential open source projects. Thousands of volunteers from all over the world jointly create and maintain Debian software. Debian provides 70 languages and supports multiple computer types, so it calls itself a universal operating system. **Due to the powerful versatility of Debian, Firefly has adapted [Debian 10](http://en.t-firefly.com/doc/download/127.html#other_117) for developers to use.**
 
-[![](../../../rk3399_img/logo/debian-logo.png "Shiprock")](http://en.t-firefly.com/doc/download/51.html#other_117)
+[![](../../../rk3399_img/logo/debian-logo.png "Shiprock")](http://en.t-firefly.com/doc/download/127.html#other_117)
 
 <hr />
 
@@ -57,9 +57,9 @@ The Debian project was founded by Ian Murdock in 1993 and is a truly free commun
 
 ## Centos 8
 
-CentOS (Community Enterprise Operating System) is one of the Linux distributions. It is compiled from the source code released by Red Hat Enterprise Linux (RHEL) in accordance with the open source regulations. Since it comes from the same source code, some servers that require high stability use CentOS instead of the commercial version of Red Hat Enterprise Linux. **Due to the powerful versatility of Centos, Firefly has adapted [Centos 8](http://en.t-firefly.com/doc/download/51.html#other_117) for developers to use.**
+CentOS (Community Enterprise Operating System) is one of the Linux distributions. It is compiled from the source code released by Red Hat Enterprise Linux (RHEL) in accordance with the open source regulations. Since it comes from the same source code, some servers that require high stability use CentOS instead of the commercial version of Red Hat Enterprise Linux. **Due to the powerful versatility of Centos, Firefly has adapted [Centos 8](http://en.t-firefly.com/doc/download/127.html#other_117) for developers to use.**
 
-[![](../../../rk3399_img/logo/centos8_logo.png "Shiprock")](http://en.t-firefly.com/doc/download/51.html#other_117)
+[![](../../../rk3399_img/logo/centos8_logo.png "Shiprock")](http://en.t-firefly.com/doc/download/127.html#other_117)
 
 <hr />
 

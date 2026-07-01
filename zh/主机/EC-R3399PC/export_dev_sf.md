@@ -37,7 +37,7 @@
     ```
 
 ### 二次打包完整固件
-* 工具下载：[firefly-linux-repack](http://www.t-firefly.com/doc/download/page/id/53.html#other_396)
+* 工具下载：[firefly-linux-repack](http://www.t-firefly.com/doc/download/page/id/216.html#other_396)
 * 本工具适用于用户需要替换固件中任意一组成部分
 * 在PC端安装必要环境：`sudo apt-get install lib32stdc++6`
 

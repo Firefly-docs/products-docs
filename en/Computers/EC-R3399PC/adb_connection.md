@@ -1,5 +1,5 @@
 Under normal circumstances, `adb` is enabled by default. If it is not enabled, please perform the following steps:
-* ROC-RK3399-PC Connect the device and host with Type-C data cable;
+* EC-R3399PC Connect the device and host with Type-C data cable;
 * Check connect to PC in the corresponding path according to the current Android version
     * For Android 7.1 and Android 8.1, select setting > USB, and then check connect to PC
     * For Android 10.0, select setting > connected devices, and then check connect to PC

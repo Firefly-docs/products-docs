@@ -1,6 +1,6 @@
 ### Overall Compilation
 
-**Note: Since the  the Hardware iteration version of ROC-RK3399-PC is [ROC-RK3399-PC Pro](https://wiki.t-firefly.com/en/ROC-RK3399-PC-Pro/started.html), so the compilation method of software is consistent. Finally the generated firmware, such as ROC-RK3399-PC-Pro_xxx.img is compatible with ROC-RK3399-PC.**
+**Note: Since the  the Hardware iteration version of EC-R3399PC is [ROC-RK3399-PC Pro](https://wiki.t-firefly.com/en/ROC-RK3399-PC-Pro/started.html), so the compilation method of software is consistent. Finally the generated firmware, such as ROC-RK3399-PC-Pro_xxx.img is compatible with EC-R3399PC.**
 
 #### Public Compile
 ##### HDMI+DP

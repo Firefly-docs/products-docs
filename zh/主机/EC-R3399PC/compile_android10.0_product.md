@@ -1,6 +1,6 @@
 ### 整体编译
 
-**注意：由于 ROC-RK3399-PC 的硬件迭代版本是 [ROC-RK3399-PC Pro](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC-Pro/started.html),所以软件的编译方法是一致。最终生成的固件如：ROC-RK3399-PC-Pro_xxx.img 对 ROC-RK3399-PC 也是兼容的。**
+**注意：由于 EC-R3399PC 的硬件迭代版本是 [ROC-RK3399-PC Pro](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC-Pro/started.html),所以软件的编译方法是一致。最终生成的固件如：ROC-RK3399-PC-Pro_xxx.img 对 EC-R3399PC 也是兼容的。**
 
 #### 公版编译
 ##### HDMI+DP

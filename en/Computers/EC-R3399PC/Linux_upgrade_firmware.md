@@ -2,11 +2,11 @@
 
 ## Preface
 
-This article describes how to burn the firmware file on the host computer to the flash memory of the ROC-RK3399-PC development board through Type-C数据线. When upgrading, you need to choose an appropriate upgrade method according to the host operating system and firmware type.
+This article describes how to burn the firmware file on the host computer to the flash memory of the EC-R3399PC development board through Type-C数据线. When upgrading, you need to choose an appropriate upgrade method according to the host operating system and firmware type.
 
 ## Ready to work
 
-* ROC-RK3399-PC board
+* EC-R3399PC board
 * firmware
 * host
 * Good Type-C data cable data cable
@@ -127,8 +127,8 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 ![](../../../rk3399_img/upgrade_downloadfail.jpg)
 
 [烧写须知]: 02-upgrade_table.md
-[ROC-RK3399-PC firmware]: http://en.t-firefly.com/doc/download/51.html
-[Androidtool_xxx (version number)]: http://en.t-firefly.com/doc/download/51.html#other_343
-[Release_DriverAssistant.zip]: http://en.t-firefly.com/doc/download/51.html#windows_341
-[Linux_Upgrade_Tool]: http://en.t-firefly.com/doc/download/51.html#linux_12
-[upgrade_tool_xxx (version number)]: http://en.t-firefly.com/doc/download/51.html#linux_12
+[EC-R3399PC firmware]: http://en.t-firefly.com/doc/download/127.html
+[Androidtool_xxx (version number)]: http://en.t-firefly.com/doc/download/127.html#other_343
+[Release_DriverAssistant.zip]: http://en.t-firefly.com/doc/download/127.html#windows_341
+[Linux_Upgrade_Tool]: http://en.t-firefly.com/doc/download/127.html#linux_12
+[upgrade_tool_xxx (version number)]: http://en.t-firefly.com/doc/download/127.html#linux_12

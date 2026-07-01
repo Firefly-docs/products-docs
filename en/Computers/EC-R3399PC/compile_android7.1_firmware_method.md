@@ -38,7 +38,7 @@ make ARCHV=aarch64 -j8
 ```
 cd ~/proj/EC-R3399PC/
 source build/envsetup.sh
-lunch ROC_RK3399_PC-userdebug
+lunch 
 make -j8
 ./mkimage.sh
 ```
@@ -75,7 +75,7 @@ cd ~/proj/EC-R3399PC/
 After compiling, execute the following command first, then use Firefly official script to package into a unified SD card firmware, execute the following command:
 
 ```
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 According to different -l XXX-userdebug parameters, the packaged unified firmware will be stored in different directories (rockdev/image-XXX/): product name XXX_XXX_date XXX.img
@@ -88,7 +88,7 @@ Packing the unified firmware `update.img` under Windows is also very simple. Cop
 After compiling, execute the following command first, then use Firefly official script to package into a unified SD card firmware, execute the following command:
 ```
 ./mkimage sdboot
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 ## Flash partition image

@@ -1,6 +1,6 @@
 # Firefly Ubuntu Minimal介绍
 
-ROC-RK3399-PC Ubuntu Minimal系统基于Ubuntu 64bit系统构建，目前有发布有Ubuntu18.04这个版本。与Ubuntu Desktop 相比具有以下特性：
+EC-R3399PC Ubuntu Minimal系统基于Ubuntu 64bit系统构建，目前有发布有Ubuntu18.04这个版本。与Ubuntu Desktop 相比具有以下特性：
 
 1.  没有桌面环境，占用资源少，在简化网络管理之后，只需40M内存；
 1.  针对嵌入式平台，精简系统服务。

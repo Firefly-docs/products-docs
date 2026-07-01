@@ -1,6 +1,6 @@
 # Firmware update log
 
-[Firmware download page](http://en.t-firefly.com/doc/download/51.html)
+[Firmware download page](http://en.t-firefly.com/doc/download/127.html)
 
 ## Linux
 *	[Ubuntu firmware changelog](FW_UBUNTU.md)

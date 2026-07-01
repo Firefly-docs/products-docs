@@ -2,7 +2,7 @@
 
 由于 SDK 较大，可以去下载页面选择云盘下载 **Firefly-RK3399_Android10.0_git_20211222.7z**：
 
-[下载链接](http://www.t-firefly.com/doc/download/page/id/53.html#other_399)  
+[下载链接](http://www.t-firefly.com/doc/download/page/id/216.html#other_399)  
 
 注：源码与bundle压缩包均存放在云盘中
 

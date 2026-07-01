@@ -44,7 +44,7 @@ gpio_demo: gpio_demo {
 firefly-gpio GPIO0_B4
 ```
 
-ROC-RK3399-PC 的 dts 对引脚的描述与 Firefly-RK3288 有所区别，GPIO0_B4 被描述为：<&gpio0 12 GPIO_ACTIVE_HIGH>，这里的 12 来源于：8+4=12，其中 8 是因为 GPIO0_B4 是属于 GPIO0 的 B 组，如果是 A 组的话则为 0，如果是 C 组则为 16，如果是 D 组则为 24，以此递推，而 4 是因为 B4 后面的 4。
+EC-R3399PC 的 dts 对引脚的描述与 Firefly-RK3288 有所区别，GPIO0_B4 被描述为：<&gpio0 12 GPIO_ACTIVE_HIGH>，这里的 12 来源于：8+4=12，其中 8 是因为 GPIO0_B4 是属于 GPIO0 的 B 组，如果是 A 组的话则为 0，如果是 C 组则为 16，如果是 D 组则为 24，以此递推，而 4 是因为 B4 后面的 4。
 
 `GPIO_ACTIVE_HIGH` 表示高电平有效，如果想要低电平有效，可以改为：`GPIO_ACTIVE_LOW`，这个属性将被驱动所读取。
 
@@ -319,7 +319,7 @@ int pinctrl_select_state(struct pinctrl *p, struct pinctrl_state *s);
 * 依照的是 Upstream 的做法，以后如果需要 Upstream 比较方便；
 * IO-Domain 的驱动支持运行过程中动态调整电压域，例如 PMIC 的某个 Regulator 可以 1.8v 和 3.3v 的动态切换，一旦 Regulator 电压发生改变，会通知 IO-Domain 驱动去重新设置电压域。
 
-ROC-RK3399-PC 原理图上的 Power Domain Map 表以及配置如下表所示：
+EC-R3399PC 原理图上的 Power Domain Map 表以及配置如下表所示：
 
 ![](../../../rk3399_img/gpio_power_domain.jpg)
 
@@ -333,7 +333,7 @@ ROC-RK3399-PC 原理图上的 Power Domain Map 表以及配置如下表所示：
 
 ### IO指令
 
-GPIO 调试有一个很好用的工具，那就是 IO 指令，ROC-RK3399-PC 的 Android 系统默认已经内置了 IO 指令，使用 IO 指令可以实时读取或写入每个 IO 口的状态，这里简单介绍 IO 指令的使用。首先查看 IO 指令的帮助：
+GPIO 调试有一个很好用的工具，那就是 IO 指令，EC-R3399PC 的 Android 系统默认已经内置了 IO 指令，使用 IO 指令可以实时读取或写入每个 IO 口的状态，这里简单介绍 IO 指令的使用。首先查看 IO 指令的帮助：
 
 ```
 #io --help

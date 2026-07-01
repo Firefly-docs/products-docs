@@ -134,40 +134,13 @@ VCC (red wire),GND (black wire),TX (white wire),RX(green wire)
 #### Instruction
 
 ##### <font size=3>Hardware Connection</font>
-* Connect the VCC, GND, TX and RX of the module to 3.3V, GND, RX and TX of ROC-RK3399-PC **UART?**(<font color = "red">the corresponding node is `/dev/tty*`</font>) respectively. Pay attention to avoid<font color="red"> burning the module </font> due to wrong connection of VCC, GND, TX and RX.
+* Connect the VCC, GND, TX and RX of the module to 3.3V, GND, RX and TX of EC-R3399PC **UART?**(<font color = "red">the corresponding node is `/dev/tty*`</font>) respectively. Pay attention to avoid<font color="red"> burning the module </font> due to wrong connection of VCC, GND, TX and RX.
 
 * For some definitions and descriptions of UART, you can refer to the wiki tutorial [UART](driver_uart.html).
 
 ##### <font size=3>Software Configuration</font>
 
 The baud rate of DELICOMM series serial port is configured as `9600`. By default, it has been configured in the public firmware and can be used after enabling GPS. For details, please refer to [How to enable GPS and modify serial port configuration](#how-to-enable-gps-and-modify-serial-port-configuration).
-
-**Note**: The GPS function will occupy UART?. If UART? needs to be used for other purposes, the GPS needs to be disabled first.
-
-#### Reference firmware
-
-The new firmware of the public version supports GPS module by default, but it needs to be turned on manually. Or directly download the [GPS default startup firmware](https://en.t-firefly.com/doc/download/120.html)
-
-### DK2635U7F Module
-
-#### Product Parameter
-
-![](../../../rk3399_img/module_wireless_gps.en.jpg)
-
-#### Interface Definition
-
-VCC (white wire),GND (black wire),TX (blue wire),RX(green wire)
-
-#### Instruction
-
-##### <font size=3>Hardware Connection</font>
-* Connect the VCC, GND, TX and RX of the module to 3.3V, GND, RX and TX of ROC-RK3399-PC **UART?**(<font color = "red">the corresponding node is `/dev/tty*`</font>) respectively. Pay attention to avoid<font color="red"> burning the module </font> due to wrong connection of VCC, GND, TX and RX.
-
-* For some definitions and descriptions of UART, you can refer to the wiki tutorial [UART](driver_uart.html).
-
-##### <font size=3>Software Configuration</font>
-
-The baud rate of UBLOX module serial port is configured as `9600`. By default, it has been configured in the public firmware and can be used after enabling GPS. For details, please refer to [How to enable GPS and modify serial port configuration](#how-to-enable-gps-and-modify-serial-port-configuration).
 
 **Note**: The GPS function will occupy UART?. If UART? needs to be used for other purposes, the GPS needs to be disabled first.
 
@@ -225,9 +198,9 @@ Ensure that the firmware is the latest [public firmware](). The firmware turns o
 
 ##### Code modification method
 * Enabled GPS
-    * Modify the `BOARD_HAS_GPS` in the SDK directory `device/rockchip/rk3399/rk3399_roc_pc.mk`(The version above Android7.1 is `device/rockchip/rk3399/rk3399_roc_pc/rk3399_roc_pc.mk`) to `true` to enable GPS function. Then, recompile the SDK and upgrad the firmware to take effect.
+    * Modify the `BOARD_HAS_GPS` in the SDK directory `device/rockchip/rk3399pro/BoardConfig.mk` to `true` to enable GPS function. Then, recompile the SDK and upgrad the firmware to take effect.
 
 * Modify serial port configuration (serial port node or baud rate)
-    * Modify the `SERIAL_DEVICE` or `SERIAL_BAUD_RATE` in the SDK directory `device/rockchip/rk3399/gps/u-blox.conf`(The version above Android7.1 is `device/rockchip/rk3399/rk3399_roc_pc/gps/u-blox.conf`)  to the value of the corresponding module configuration. Then, recompile the SDK and upgrad the firmware to take effect.
+    * Modify the `SERIAL_DEVICE` or `SERIAL_BAUD_RATE` in the SDK directory `device/rockchip/rk3399pro/gps/u-blox.conf` to the value of the corresponding module configuration. Then, recompile the SDK and upgrad the firmware to take effect.
 
 

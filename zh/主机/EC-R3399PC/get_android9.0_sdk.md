@@ -1,7 +1,7 @@
 ### 下载 Android SDK
 
 由于 Android SDK 源码包比较大,可以通过如下方式获取Android9.0源码包：
-[下载链接](http://www.t-firefly.com/doc/download/page/id/53.html#other_333)
+[下载链接](http://www.t-firefly.com/doc/download/page/id/216.html#other_333)
 
 下载完成后，在解压前先校验下 MD5 码：
 ```

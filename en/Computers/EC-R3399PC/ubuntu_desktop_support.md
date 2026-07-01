@@ -1,6 +1,6 @@
 # Firefly Ubuntu Desktop Introduction
 
-ROC-RK3399-PC The Ubuntu Desktop system is based on the Ubuntu 64bit system. Currently, two versions of Ubuntu 16.04 and Ubuntu 18.04 have been released. Has the following characteristics:
+EC-R3399PC The Ubuntu Desktop system is based on the Ubuntu 64bit system. Currently, two versions of Ubuntu 16.04 and Ubuntu 18.04 have been released. Has the following characteristics:
 
 1. The desktop environment uses LXDE, Lubuntu+Firefly custom theme, simple and beautiful.
 1. Xserver uses GPU + RGA for 2D acceleration, runs smoothly, and takes up less CPU resources.

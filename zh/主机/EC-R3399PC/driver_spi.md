@@ -36,7 +36,7 @@ SPI 的四种工作模式波形图如下：
 
 ### 硬件连接
 
-ROC-RK3399-PC 与 W25Q128FV 硬件连接可参考下表：
+EC-R3399PC 与 W25Q128FV 硬件连接可参考下表：
 
 ![](../../../rk3399_img/EC-R3399PC/spi_hardware_connection.jpg)
 
@@ -99,7 +99,7 @@ config 中选中所添加的驱动文件，如：
 * spi-demo@00:由于本例子使用 CS0，故此处设为 `00`，如果使用 CS1，则设为 `01`。
 * compatible:这里的属性必须与驱动中的结构体：of_device_id 中的成员 compatible 保持一致。
 * reg:此处与 spi-demo@00 保持一致，本例设为：0x00。
-* spi-max-frequency：此处设置 spi 使用的最高频率。ROC-RK3399-PC 最高支持 48000000。
+* spi-max-frequency：此处设置 spi 使用的最高频率。EC-R3399PC 最高支持 48000000。
 * spi-cpha，spi-cpol：SPI 的工作模式在此设置，本例所用的模块 SPI 工作模式为 SPI_MODE_0 或者 SPI_MODE_3，这里我们选用 SPI_MODE_0，如果使用 SPI_MODE_3，spi_demo 中打开 spi-cpha 和 spi-cpol 即可。
 * spidev0: 由于 spi_demo 与 spidev0 使用一样的硬件资源，需要把 spidev0 关掉才能打开 spi_demo
 
@@ -201,7 +201,7 @@ int spi_write_then_read(struct spi_device *spi, const void *txbuf, unsigned n_tx
 
 ## 接口使用
 
-Linux 提供了一个功能有限的 SPI 用户接口，如果不需要用到 IRQ 或者其他内核驱动接口，可以考虑使用接口 `spidev` 编写用户层程序控制 SPI 设备。在 ROC-RK3399-PC 开发板中对应的路径为： `/dev/spidev0.0`
+Linux 提供了一个功能有限的 SPI 用户接口，如果不需要用到 IRQ 或者其他内核驱动接口，可以考虑使用接口 `spidev` 编写用户层程序控制 SPI 设备。在 EC-R3399PC 开发板中对应的路径为： `/dev/spidev0.0`
 
 spidev 对应的驱动代码：`kernel/drivers/spi/spidev.c`
 

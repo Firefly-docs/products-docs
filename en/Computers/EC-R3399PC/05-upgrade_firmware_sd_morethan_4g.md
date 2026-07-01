@@ -4,7 +4,7 @@ Because the `SD_Firmware_Tool` upgrade tool provided by RK, the upgrade partitio
 
 ## Ready to work
 
-* ROC-RK3399-PC
+* EC-R3399PC
 * computer
 * MicroSD card (ie TF card)
 * Type-C data cable
@@ -12,12 +12,12 @@ Because the `SD_Firmware_Tool` upgrade tool provided by RK, the upgrade partitio
 
 <a id="SD_Firmware_Tool"></a>
 
-Go to [SD Firmware Tool Download Page](http://en.t-firefly.com/doc/download/51.html#other_125) to download `SD_Firmware_Tool` and unzip it.
+Go to [SD Firmware Tool Download Page](http://en.t-firefly.com/doc/download/127.html#other_125) to download `SD_Firmware_Tool` and unzip it.
 
 ### Run `SD_Firmware_Tool.exe`
 ![](../../../rk3399_img/sdfirmwaretool.en.jpg)
 
-1. Download the SD card maker tool: [SD_Firmware_Tool](http://en.t-firefly.com/doc/download/51.html#other_125)
+1. Download the SD card maker tool: [SD_Firmware_Tool](http://en.t-firefly.com/doc/download/127.html#other_125)
 2. You can modify the **config.ini** file, set `Selected=1` to set the language to Chinese, set `Selected=2` to set the language to English.
 3. Download the unified firmware that needs to be upgraded to the motherboard.
 4. Insert the MicroSD into the USB card reader and then into the USB port of the computer.

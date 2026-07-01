@@ -5,8 +5,8 @@
 * Product: 12-KEY Remote Control
 * Version: Firefly Customized
 * Power: 2xAAA Batteries
-* Adapter: ROC-RK3399-PC
-* Description: Support for remote boot capabilities ROC-RK3399-PC
+* Adapter: EC-R3399PC
+* Description: Support for remote boot capabilities EC-R3399PC
 
 ## Picture
 

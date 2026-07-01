@@ -126,5 +126,5 @@ success!
 在 `parameter` 文件中找到下行并修改即可，注意版本号为数字，中间两个点号不能省略。
 
 ```
-AND_FW_VER: 8.1
+AND_FW_VER: 
 ```

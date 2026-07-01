@@ -3,7 +3,7 @@
 
 ## Introduction
 
-RK3399 has 12 Timers (timer0-timer11), 12 Secure Timers (stimer0~stimer11) and 2 Timers (pmutimer0~pmutimer1), we mainly use Timers (timer0-timer11) clock frequency is 24MHZ, working mode There are `free-running` and `user-defined count` modes.
+RK3399Pro has 12 Timers (timer0-timer11), 12 Secure Timers (stimer0~stimer11) and 2 Timers (pmutimer0~pmutimer1), we mainly use Timers (timer0-timer11) clock frequency is 24MHZ, working mode There are `free-running` and `user-defined count` modes.
 
 ## The framework
 
@@ -32,7 +32,7 @@ The registers of Timer0, interrupt number and clock defined therein.
 
 The interrupt numbers corresponding to other Timers can be seen in the following pictures:
 
-![](../../../rk3399_img/include/RK3399/timer_interrupt.jpg)
+![](../../../rk3399_img/include/RK3399Pro/timer_interrupt.jpg)
 
 2. Corresponding driver file `Kernel/drivers/clocksource/rockchip_timer.c`
 
@@ -40,7 +40,7 @@ The interrupt numbers corresponding to other Timers can be seen in the following
 
 1. The register is as follows:
 
-![](../../../rk3399_img/include/RK3399/timer_register.jpg)
+![](../../../rk3399_img/include/RK3399Pro/timer_register.jpg)
 
 2. Use the `io` command to view the corresponding register:
 

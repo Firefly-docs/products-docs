@@ -11,7 +11,7 @@ The operation steps are as follows:
 1. Disconnect all power supplies.
 2. Unplug the SD card.
 3. Connect the equipment and host machine with Type-C data cable.
-4. Use metal tweezers to connect and hold the two test points as shown in the following figure on ROC-RK3399-PC (as shown in the figure below).
+4. Use metal tweezers to connect and hold the two test points as shown in the following figure on EC-R3399PC (as shown in the figure below).
 5. Plug the device into the power supply.
 6. Wait a moment, then loosen the tweezers.
 

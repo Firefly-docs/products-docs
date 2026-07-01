@@ -1281,3 +1281,7 @@ Precautions
 * The client must use the `apt-key add` command to add the GPG key before it can obtain the local warehouse information.
 
 
+## rknn_toolkit_lite
+
+RKNN Toolkit Lite is a stripped-down version of RKNN Toolkit that provides users with a development kit for model inference on PC, RK3399Pro, RK1808, RK1806, V1109, RV1126. Users can easily and quickly complete the development and deployment of AI applications through the Python interface provided by the SDK. Compared with the complicated and time-consuming installation process of RKNN Toolkit, the installation process of RKNN Toolkit Lite takes less than ten minutes.Please read the "3399pro NPU Development Manual" carefully for installation.
+* ["3399pro NPU Development Manual"](https://wiki.t-firefly.com/en/3399pro_npu/npu_intro.html#npu-brief-introduction-to-development)

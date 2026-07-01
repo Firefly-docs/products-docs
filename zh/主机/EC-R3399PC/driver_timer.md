@@ -2,11 +2,11 @@
 
 ## 前言
 
-RK3399有 12 个 Timers (timer0-timer11)，有 12 个 Secure Timers(stimer0~stimer11) 和 2 个 Timers(pmutimer0~pmutimer1)， 我们主要用到的是 Timers(timer0-timer11) 时钟频率为 24MHZ ，工作模式有 `free-running` 和 `user-defined count` 模式。
+RK3399Pro有 12 个 Timers (timer0-timer11)，有 12 个 Secure Timers(stimer0~stimer11) 和 2 个 Timers(pmutimer0~pmutimer1)， 我们主要用到的是 Timers(timer0-timer11) 时钟频率为 24MHZ ，工作模式有 `free-running` 和 `user-defined count` 模式。
 
 ## 框架图
 
-![](../../../rk3399_img/include/RK3399/timer_frame.jpg)
+![](../../../rk3399_img/include/RK3399Pro/timer_frame.jpg)
 
 ## 工作模式
 
@@ -31,7 +31,7 @@ rktimer: rktimer@ff850000 {
 
 其他 Timer 对应的中断号可看如下图片：
 
-![](../../../rk3399_img/include/RK3399/timer_interrupt.jpg)
+![](../../../rk3399_img/include/RK3399Pro/timer_interrupt.jpg)
 
 2.对应的驱动文件 `Kernel/drivers/clocksource/rockchip_timer.c`
 
@@ -39,7 +39,7 @@ rktimer: rktimer@ff850000 {
 
 1. 寄存器如下图片：
 
-![](../../../rk3399_img/include/RK3399/timer_register.jpg)
+![](../../../rk3399_img/include/RK3399Pro/timer_register.jpg)
 
 2. 使用 `io` 命令方式查看对应寄存器：
 

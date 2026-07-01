@@ -37,7 +37,7 @@ sudo apt install fireflydev
     ```
 
 ### Second package complete firmware
-* Tool download: [firefly-linux-repack](http://en.t-firefly.com/doc/download/51.html#other_349)
+* Tool download: [firefly-linux-repack](http://en.t-firefly.com/doc/download/127.html#other_349)
 * This tool is suitable for users who need to replace any part of the firmware349
 * Install the necessary environment on the PC: `sudo apt-get install lib32stdc++6`
 

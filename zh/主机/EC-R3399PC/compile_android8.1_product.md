@@ -1,8 +1,8 @@
 ### HDMI 显示编译
 
 ```
-./FFTools/make.sh  -d rk3399-roc-pc -j8 -l ROC_RK3399_PC-userdebug
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/make.sh  -d rk3399-roc-pc -j8 -l 
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 ### HDMI+EDP 显示编译
@@ -10,8 +10,8 @@
 * 单 LVDS
 
 ```
-./FFTools/make.sh  -d rk3399-roc-pc-edp -j8 -l ROC_RK3399_PC-userdebug
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/make.sh  -d rk3399-roc-pc-edp -j8 -l 
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 
@@ -46,7 +46,7 @@ make ARCHV=aarch64 -j8
 ```
 cd ~/proj/EC-R3399PC/
 source build/envsetup.sh
-lunch ROC_RK3399_PC-userdebug
+lunch 
 make installclean
 make -j8
 ./mkimage.sh
@@ -86,7 +86,7 @@ cd ~/proj/EC-R3399PC/
 编译完可以用 Firefly 官方的脚本打包成统一固件，执行如下命令：
 
 ```
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 根据不同的-l XXX-userdebug参数，打包生成统一固件会存放在不同目录下（rockdev/Image-XXX/）： product名XXX_XXX_日期XXX.img

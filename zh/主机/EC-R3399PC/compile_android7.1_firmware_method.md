@@ -39,7 +39,7 @@ make ARCHV=aarch64 -j8
 ```
 cd ~/proj/EC-R3399PC/
 source build/envsetup.sh
-lunch  ROC_RK3399_PC-userdebug
+lunch  
 make -j8
 ./mkimage.sh
 ```
@@ -76,7 +76,7 @@ cd ~/proj/EC-R3399PC/
 编译完之后，先执行以下命令，然后用Firefly官方的脚本打包成统一的SD卡固件，执行如下命令：
 
 ```
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 根据不同的-l XXX-userdebug参数，打包生成统一固件会存放在不同目录下（rockdev/Image-XXX/）： product名XXX_XXX_日期XXX.img
@@ -89,7 +89,7 @@ cd ~/proj/EC-R3399PC/
 编译完之后，先执行以下命令，然后用Firefly官方的脚本打包成统一的SD卡固件，执行如下命令：
 ```
 ./mkimage sdboot
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 
 ## 烧写分区映像

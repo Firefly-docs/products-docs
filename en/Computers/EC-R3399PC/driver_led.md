@@ -2,7 +2,7 @@
 
 ## Introduction
 
-There are 2 LEDs on the ROC-RK3399-PC development board, as the following table shows:
+There are 2 LEDs on the EC-R3399PC development board, as the following table shows:
 
 ![](../../../rk3399_img/EC-R3399PC/led_pin.jpg)
 
@@ -10,7 +10,7 @@ Both LEDs can be controlled by using the LED device subsystem or by directly ope
 
 ## Controlling LEDs by device
 
-Linux has its own LED subsystem for LED devices. In ROC-RK3399-PC, 2 LEDs are configured as LED class devices.
+Linux has its own LED subsystem for LED devices. In EC-R3399PC, 2 LEDs are configured as LED class devices.
 
 You can control them via `/sys/class/leds/`.
 
@@ -37,34 +37,34 @@ For more information, please read the document `leds-class.txt`.
 
 First of all, we need to know how many LED definition, while the corresponding property of the LED is.
 
-Define LED node in file `kernel/arch/arm64/boot/dts/rockchip/rk3399-firefly-port.dtsi`
+Define LED node in file `kernel/arch/arm64/boot/dts/rockchip/rk3399pro-firefly-port.dts`
 ```
 leds {
-       compatible = "gpio-leds";
-       power_led: power {
-           label = "firefly:blue:power";
-           linux,default-trigger = "ir-power-click";
-           default-state = "on";
-           gpios = <&gpio2 27 GPIO_ACTIVE_HIGH>;
-           pinctrl-names = "default";
-           pinctrl-0 = <&led_power>;
-       };
-       user_led: user {
-           label = "firefly:yellow:user";
-           linux,default-trigger = "ir-user-click";
-           default-state = "off";
-           gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
-           pinctrl-names = "default";
-           pinctrl-0 = <&led_user>;
-       };
-   };
+    compatible = "gpio-leds";
+    power_led: power {
+    label = "firefly:blue:power";
+    linux,default-trigger = "ir-power-click";
+    default-state = "on";
+    gpios = <&gpio0 RK_PB1 GPIO_ACTIVE_HIGH>;
+    pinctrl-names = "default";
+    pinctrl-0 = <&led_power>;
+    };
+    user_led: user {
+    label = "firefly:yellow:user";
+    linux,default-trigger = "ir-user-click";
+    default-state = "off";
+    gpios = <&gpio1 RK_PB5 GPIO_ACTIVE_HIGH>;
+    pinctrl-names = "default";
+    pinctrl-0 = <&led_user>;
+    };
+};
 ```
 
 Note: The value of `compatible` must match the one in `drivers/leds/leds-gpio.c`.
 
 ### Simple trigger LED
 
-It is a simple trigger mode to control LEDs, as follows on the default open yellow LED. And ROC-RK3399-PC's yellow LED will be turned on after boot.
+It is a simple trigger mode to control LEDs, as follows on the default open yellow LED. And EC-R3399PC's yellow LED will be turned on after boot.
 
 (1) Defined LED trigger In the `kernel/drivers/leds/trigger/led-firefly-demo.c` add the following:
 
@@ -114,7 +114,7 @@ Device Drivers
       --->LED Timer Trigger
 ```
 
-Save the configuration and compile the kernel, the `kernel.img` burn ROC-RK3399-PC board. We can use the serial input command, you can see the blue light non-stop interval flashing.
+Save the configuration and compile the kernel, the `kernel.img` burn EC-R3399PC board. We can use the serial input command, you can see the blue light non-stop interval flashing.
 
 ```
 echo "timer" > sys/class/leds/firefly\:blue\:power/trigger

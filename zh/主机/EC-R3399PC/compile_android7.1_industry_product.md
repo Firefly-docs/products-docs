@@ -1,5 +1,5 @@
 ### 整体编译
-**注意：由于 ROC-RK3399-PC 的硬件迭代版本是 [ROC-RK3399-PC-Pro](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC-Pro/started.html),所以软件的编译方法是一致。最终生成的固件如：ROC-RK3399-PC-Pro_xxx.img 对 ROC-RK3399-PC 也是兼容的。**
+**注意：由于 EC-R3399PC 的硬件迭代版本是 [ROC-RK3399-PC-Pro](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC-Pro/started.html),所以软件的编译方法是一致。最终生成的固件如：ROC-RK3399-PC-Pro_xxx.img 对 EC-R3399PC 也是兼容的。**
 
 #### 公版编译
 ##### HDMI+DP
@@ -68,7 +68,7 @@ make ARCHV=aarch64 -j8
 ```
 cd ~/proj/firefly-rk3399-Industry/
 source build/envsetup.sh
-lunch  ROC_RK3399_PC-userdebug
+lunch  
 make -j8
 ./mkimage.sh
 ```
@@ -77,7 +77,7 @@ make -j8
 
 编译完可以用Firefly官方的脚本打包成统一固件，执行如下命令：
 ```
-./FFTools/mkupdate/mkupdate.sh -l ROC_RK3399_PC-userdebug
+./FFTools/mkupdate/mkupdate.sh -l 
 ```
 根据不同的-l XXX-userdebug参数，打包生成统一固件会存放在不同目录下（rockdev/Image-XXX/）： product名XXX_XXX_日期XXX.img
 

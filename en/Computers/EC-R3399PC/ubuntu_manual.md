@@ -10,7 +10,7 @@ This user manual is applicable to Firefly Ubuntu Desktop & Minimal system. Some 
 ## ADB use
 
 ### ADB
-ROC-RK3399-PC use Type-C data cable to connect the device and the PC host;
+EC-R3399PC use Type-C data cable to connect the device and the PC host;
 
 ```
 adb devices
@@ -26,14 +26,14 @@ adb shell
 
 ## Install linux-headers and linux-image
 DEBIAN package download link:
-[Downloads](https://drive.google.com/drive/folders/1FR_2-kTZ08xvFGc2a6vcvxG0TJAIN8G2?usp=sharing)
+[Downloads](https://drive.google.com/drive/folders/1Cx_-QPPjXzTGfSel6Qa4Q_0gdecBWBdB?usp=sharing)
 
 Install header files
 ```
-sudo dpkg -i linux-headers-4.4.194+_4.4.194+-5_arm64.deb
-sudo dpkg -i linux-image-4.4.194+_4.4.194+-5_arm64.deb
+sudo dpkg -i linux-headers-4.4.194_4.4.194-3_arm64.deb
+sudo dpkg -i linux-image-4.4.194_4.4.194-3_arm64.deb
 
-cd /usr/src/linux-headers-4.4.194+
+cd /usr/src/linux-headers-4.4.194
 make headers_check
 make headers_install
 
@@ -1939,4 +1939,4 @@ If the factory firmware of RK3399 board is Android 7.1, when using TF card to up
 * If the device enters recovery mode after the card is turned on, but the upgrade operation is not performed automatically, please re-plug the TF card in recovery mode, and the upgrade operation can continue normally.
 
 [ubuntu_sd_update.zip]: https://download.t-firefly.com/product/RK3399/Tools/ubuntu_sd_update/ubuntu_sd_update.zip
-[SD_Firmware_Tool]: http://www.t-firefly.com/doc/download/page/id/53.html#other_401
+[SD_Firmware_Tool]: http://www.t-firefly.com/doc/download/page/id/216.html#other_401

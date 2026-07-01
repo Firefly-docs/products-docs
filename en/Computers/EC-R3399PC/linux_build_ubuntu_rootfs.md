@@ -12,7 +12,7 @@ sudo apt-get install qemu-user-static
 
 ### Download and extract ubuntu-core
 
-The ROC-RK3399-PC Ubuntu root file system is based on Ubuntu base 16.04. Users can go to [ubuntu cdimg](http://cdimage.ubuntu.com/ubuntu-base/releases/16.04/release/) to download, choose to download `ubuntu-base-16.04.1-base-arm64.tar.gz`.
+The EC-R3399PC Ubuntu root file system is based on Ubuntu base 16.04. Users can go to [ubuntu cdimg](http://cdimage.ubuntu.com/ubuntu-base/releases/16.04/release/) to download, choose to download `ubuntu-base-16.04.1-base-arm64.tar.gz`.
 
 After downloading, create a temporary folder and unzip the root file system:
 

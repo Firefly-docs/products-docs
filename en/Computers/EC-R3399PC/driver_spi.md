@@ -38,7 +38,7 @@ The following W25Q128FV Flash module as an example of a simple introduction to t
 
 ### Hardware connection
 
-The hardware connection between ROC-RK3399-PC and W25Q128FV is shown in the following table:
+The hardware connection between EC-R3399PC and W25Q128FV is shown in the following table:
 
 ![](../../../rk3399_img/EC-R3399PC/spi_hardware_connection.jpg)
 
@@ -101,7 +101,7 @@ Add SPI driver node description in `kernel/arch/arm64/boot/dts/rockchip/rk3399-f
 * **spi-demo@00 :** since `CS0` is used in this example, it is set to `00`; if `CS1` is used, it is set to `01`.
 * **compatible :** the attribute here must be `compatible` with the member of the structure in the driver: `of_device_id`.
 * **reg :** this is consistent with `spi-demo@00`, set to: `0x00` in this example.
-* **spi-max-frequency :** set the highest frequency used by spi here. ROC-RK3399-PC supports up to 48000000.
+* **spi-max-frequency :** set the highest frequency used by spi here. EC-R3399PC supports up to 48000000.
 * **spi-cpha，spi-cpol :** the working mode of spi is set here. The working mode of the module spi used in this example is SPI_MODE_0 or SPI_MODE_3. Here we choose SPI_MODE_0. If SPI_MODE_3 is used, open spi-cpha and spi-cpol in spi_demo.
 * s**pidev0 :** since `spi_demo` uses the same hardware resources as `spidev0`, we need to turn off `spidev0`.
 
@@ -203,7 +203,7 @@ int spi_write_then_read(struct spi_device *spi, const void *txbuf, unsigned n_tx
 
 ## Interface usage
 
-Linux provides a SPI user interface with limited functionality. If IRQ or other kernel driver interfaces are not required, consider using `spidev` interface to write user-level programs to control SPI devices. The corresponding path in the ROC-RK3399-PC development board is `/dev/spidev0.0`.
+Linux provides a SPI user interface with limited functionality. If IRQ or other kernel driver interfaces are not required, consider using `spidev` interface to write user-level programs to control SPI devices. The corresponding path in the EC-R3399PC development board is `/dev/spidev0.0`.
 
 `spidev` corresponding driver code is `kernel/drivers/spi/spidev.c`.
 

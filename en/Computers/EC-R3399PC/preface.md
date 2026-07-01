@@ -1,7 +1,7 @@
 # Preface
 
 ## Overview
-This document mainly introduces the development method based on **ROC-RK3399-PC** platform.
+This document mainly introduces the development method based on **EC-R3399PC** platform.
 
 ## OS version
 
@@ -22,7 +22,7 @@ This document mainly introduces the development method based on **ROC-RK3399-PC*
 
 |            | Current version           |
 | :----------: | :-------------: |
-| File name | **ROC-RK3399-PC Development Manual**  |
+| File name | **EC-R3399PC Development Manual**  |
 | Version number | **V2.0.6**  |
 | Author | **Firefly Team**  |
 | Modified date | **2022-03-10**  |

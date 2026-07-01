@@ -2,7 +2,7 @@
 
 Due to the larger SDK, you can choose the cloud disk to download **Firefly-RK3399_Android10.0_git_20211222.7z** from the download page :
 
-[Download link](http://en.t-firefly.com/doc/download/51.html#other_339)
+[Download link](http://en.t-firefly.com/doc/download/127.html#other_339)
 
 Note: the source code and bundle are stored in the Google Driver
 

@@ -30,19 +30,46 @@ sudo apt-get install lib32gcc-7-dev g++-7 libstdc++-7-dev
 
 ### Download Firefly_Linux_SDK sub-volume compressed package
 
-**Since the Firefly_Linux_SDK source code package is relatively large, some users' computers do not support files above 4G or the network transmission of a single file is slow, so we use the method of sub-volume compression to package the SDK. Users can obtain the Firefly_Linux_SDK source code package in the following ways:**[Firefly_Linux_SDK Source]
+**Since the Firefly_Linux_SDK source code package is relatively large, some users' computers do not support files above 4G or the network transmission of a single file is slow, so we use the method of sub-volume compression to package the SDK. Users can obtain the Firefly_Linux_SDK source code package in the following ways：**[Firefly_Linux_SDK Source]
 
-After downloading, follow the README document:
+### Unpack Firefly_Linux_SDK sub-volume compressed package
 
+The first time you use the SDK, you need to perform 3 steps. If you want to update the SDK later, you only need to perform step 3 to update the network.
 ```
-└── rk3399_linux_release_xxx
-    ├── linux_sdk_tar
-    │   ├── rk3399_linux_release_xxx.sdk.split00
-    │   ├── rk3399_linux_release_xxx.sdk.split01
-    ├── md5sum.txt
-    ├── README_EN.txt
-    ├── README_ZH.txt
-    └── sdk_tools.sh
+1. Unpack the SDK
+
+chmod +x ./sdk_tools.sh
+
+mkdir ../firefly_sdk
+
+
+Create a directory to store the SDK: For example, my current SDK is 3588, and I want to decompress it to the upper folder to avoid polluting the current directory
+
+mkdir ../firefly_rk3588_SDK
+./sdk_tools.sh --unpack -C ../firefly_rk3588_SDK
+
+
+2. Restore the working directory
+
+Select the directory you just decompressed
+
+./sdk_tools.sh --sync -C ../firefly_rk3588_SDK
+
+
+You can use the above script to execute or manually execute the command, choose one of them
+
+
+# Enter the directory just after decompression, for example, here is ../firefly_rk3588_SDK
+cd ../firefly_rk3588_SDK
+.repo/repo/repo sync -l
+.repo/repo/repo start firefly --all
+
+
+3. Update the SDK
+
+The first two steps are only performed when the SDK is decompressed for the first time, and the subsequent update of the SDK only needs to perform the third step for network update
+
+.repo/repo/repo sync -c --no-tags
 
 ```
 
@@ -53,7 +80,11 @@ You can use the following command to update the SDK later
 .repo/repo/repo sync -c --no-tags
 ```
 
-[Firefly_Linux_SDK Source]: http://en.t-firefly.com/doc/download/51.html#other_144
+[Firefly_Linux_SDK Source]: http://en.t-firefly.com/doc/download/127.html#other_358
+
+
+
+
 
 
 ### Linux_SDK catalog
@@ -90,7 +121,7 @@ The configuration file `roc-rk3399-pc-ubuntu.mk`:
 ```
 ./build.sh roc-rk3399-pc-ubuntu.mk
 
-#The file path: `device/rockchip/rk3399/roc-rk3399-pc-ubuntu.mk`
+#The file path: `device/rockchip/rk3399pro/roc-rk3399-pc-ubuntu.mk`
 ```
 
 Effective configuration file will be connected to the `device/rockchip/.BoardConfig.mk`, check the file to verify that the configuration was successful.
@@ -101,7 +132,7 @@ Important configuration information :(if you need diy firmware, you may need to 
 
 ```bash
 #Uboot defconfig
-export RK_UBOOT_DEFCONFIG=roc-rk3399-pc_defconfig    # Compile the uboot configuration file
+export RK_UBOOT_DEFCONFIG=    # Compile the uboot configuration file
 
 #Kernel defconfig
 export RK_KERNEL_DEFCONFIG=firefly_linux_defconfig   # Compile the kernel configuration file
@@ -122,7 +153,7 @@ export RK_ROOTFS_IMG=xxxx/xxxx.img                     # The root file system im
 **<font color=#ff0000 >Attention, the following steps are very important! !</font>**
 
 *  [Download the Ubuntu root filesystem image]
-*  Because RK3399 belongs to a 64-bit processor, so select the required file system under the corresponding `Linux Rootfs/arm64` folder. This article uses `rk3399_ubuntu18.04.img.7z` as an example.
+*  Because RK3399Pro belongs to a 64-bit processor, so select the required file system under the corresponding `Linux Rootfs/arm64` folder. This article uses `rk3399_ubuntu18.04.img.7z` as an example.
 Place the resulting image at the root of the SDK:
 *  Put the resulting image in the specified directory in SDK:
 
@@ -135,7 +166,7 @@ mkdir ubuntu_rootfs
 mv rk3399_ubuntu18.04.img ubuntu_rootfs/
 
 #Modify roc-rk3399-pc-ubuntu.mk :
-vim device/rockchip/rk3399/roc-rk3399-pc-ubuntu.mk
+vim device/rockchip/rk3399pro/roc-rk3399-pc-ubuntu.mk
 
 #Change the RK_ROOTFS_IMG property to the ubuntu file system image path(such as rk3399_ubuntu18.04.img)
 RK_ROOTFS_IMG=ubuntu_rootfs/rk3399_ubuntu18.04.img
@@ -216,7 +247,7 @@ ls -l
 ├── MiniLoaderAll.bin -> ~/project/linux_sdk/u-boot/rk3399_loader_v1.14.115.bin
 ├── misc.img -> ~/project/linux_sdk/device/rockchip/rockimg/wipe_all-misc.img
 ├── oem.img
-├── parameter.txt -> ~/project/linux_sdk/device/rockchip/RK3399/parameter-ubuntu.txt
+├── parameter.txt -> ~/project/linux_sdk/device/rockchip/RK3399Pro/parameter-ubuntu.txt
 ├── recovery.img -> ~/project/linux_sdk/buildroot/output/rockchip_rk3399_recovery/images/recovery.img
 ├── rootfs.img -> ~/project/linux_sdk/ubuntu_rootfs/rk3399_ubuntu18.04.img
 ├── trust.img -> ~/project/linux_sdk/u-boot/trust.img
@@ -267,7 +298,7 @@ RAW firmware is a kind of firmware that can be flashed to the storage device in 
 
 ### parameter
 
-`parameter.txt` contains firmware partition information is very important. You can find some `parameter.txt` files in `device/rockchip/RK3399` directory. The following is introduced with `parameter.txt` as an example:
+`parameter.txt` contains firmware partition information is very important. You can find some `parameter.txt` files in `device/rockchip/RK3399Pro` directory. The following is introduced with `parameter.txt` as an example:
 
 ```
 FIRMWARE_VER: 1.0
@@ -332,5 +363,5 @@ The above is the mirror file generated after SDK compilation. Package only the i
 
 See operation method in [Upgrade firmware](03-upgrade_firmware.md)
 
-[18.04 FS]: http://en.t-firefly.com/doc/download/51.html#other_117
-[Download the Ubuntu root filesystem image]: http://en.t-firefly.com/doc/download/51.html#other_117
+[18.04 FS]: http://en.t-firefly.com/doc/download/127.html#other_117
+[Download the Ubuntu root filesystem image]: http://en.t-firefly.com/doc/download/127.html#other_117

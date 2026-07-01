@@ -68,7 +68,7 @@ Firefly AIO-3399J操作系统使用Firefly定制的Ubuntu18.04.  系统中已经
 
 固件升级方法参照：
 
-[AIO-3399J 固件升级](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC/03-upgrade_firmware.html)
+[AIO-3399J 固件升级](https://wiki.t-firefly.com/zh_CN/EC-R3399PC/03-upgrade_firmware.html)
 
 
 

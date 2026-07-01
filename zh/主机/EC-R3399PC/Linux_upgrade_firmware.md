@@ -2,11 +2,11 @@
 
 ## 前言
 
-本文介绍了如何将主机上的固件文，通过Type-C数据线烧录到 ROC-RK3399-PC 开发板的闪存中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
+本文介绍了如何将主机上的固件文，通过Type-C数据线烧录到 EC-R3399PC 开发板的闪存中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
 
 ## 准备工作
 
-* ROC-RK3399-PC 开发板
+* EC-R3399PC 开发板
 * 固件
 * 主机
 * 良好的Type-C数据线数据线
@@ -123,7 +123,7 @@ sudo upgrade_tool ef update.img	# 擦除
 [《使用USB线烧写须知(重要)》]: 02-upgrade_table.md
 
 
-[RKDevTool]: http://www.t-firefly.com/doc/download/page/id/53.html#other_248
-[Androidtool_xxx(版本号)]: http://www.t-firefly.com/doc/download/page/id/53.html#other_248
-[Release_DriverAssistant.zip]: http://www.t-firefly.com/doc/download/page/id/53.html#windows_11
-[Linux_Upgrade_Tool]: http://www.t-firefly.com/doc/download/page/id/53.html#windows_375
+[RKDevTool]: http://www.t-firefly.com/doc/download/page/id/216.html#other_248
+[Androidtool_xxx(版本号)]: http://www.t-firefly.com/doc/download/page/id/216.html#other_248
+[Release_DriverAssistant.zip]: http://www.t-firefly.com/doc/download/page/id/216.html#windows_11
+[Linux_Upgrade_Tool]: http://www.t-firefly.com/doc/download/page/id/216.html#windows_375

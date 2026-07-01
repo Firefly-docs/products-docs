@@ -2,7 +2,7 @@
 
 ## Introduction
 
-There are 9 on-chip I2C controllers on the ROC-RK3399-PC development board, and the usage of each I2C is shown in the following table:
+There are 9 on-chip I2C controllers on the EC-R3399PC development board, and the usage of each I2C is shown in the following table:
 
 ![](../../../rk3399_img/EC-R3399PC/i2c_list.jpg)
 

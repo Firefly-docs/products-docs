@@ -8,28 +8,9 @@ RK U-Boot based on the open source U-Boot development, work mode has a Boot load
 
 The compiling steps of U-Boot are similar to kernel compiling. Before compiling, you need to write the configuration to `.config`, run the command:
 
-* Android:
-
+* Compile Android U-Boot:
 ```
-make rk3399_box_defconfig
-```
-
-* Linux:
-
-```
-make roc-rk3399-pc_defconfig
-```
-
-If you need to modify the relative option, you can run:
-
-```
-make menuconfig
-```
-
-Run below command to compile:
-
-```
-make ARCHV=aarch64
+./make.sh rk3399pro
 ```
 
 After compiling successfully, there will be a new file created at the follow path:
@@ -37,7 +18,7 @@ After compiling successfully, there will be a new file created at the follow pat
 ```
 u-boot/uboot.img
 u-boot/trust.img
-u-boot/RK3399MiniLoaderAll_Vx.xx.bin
+u-boot/
 ```
 
 ## Flash Image
@@ -86,9 +67,9 @@ U-Boot as a secondary loader mode, then the firmware support all storage devices
 ```
 u-boot/uboot.img
 u-boot/trust.img
-u-boot/RK3399MiniLoaderAll_V1.05.bin
+u-boot/
 ```
 
-Where `V1.05` is the released version number, rockchip defines the version of U-Boot loader, where `1.05` is defined according to the storage version, the customer must not modify this version. `uboot.img` is U-Boot as a secondary loader of packaging. `trust.img` is U-Boot as a secondary loader of packaging.
+Where `V` is the released version number, rockchip defines the version of U-Boot loader, where `1.05` is defined according to the storage version, the customer must not modify this version. `uboot.img` is U-Boot as a secondary loader of packaging. `trust.img` is U-Boot as a secondary loader of packaging.
 
 V1.05 is the version number of the release, rockchip defines the U-Boot loader version, which is based on the 1.05 version of the definition of storage, customers must not modify this version. uboot.img is U-Boot as a secondary loader package. trust.img is U-Boot as a secondary loader package.

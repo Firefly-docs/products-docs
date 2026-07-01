@@ -2,7 +2,7 @@
 
 ## 简介
 
-ROC-RK3399-PC 开发板上的 AD 接口有两种，分别为：温度传感器 (Temperature Sensor)、逐次逼近ADC (Successive Approximation Register)。其中：
+EC-R3399PC 开发板上的 AD 接口有两种，分别为：温度传感器 (Temperature Sensor)、逐次逼近ADC (Successive Approximation Register)。其中：
 
 *    TS-ADC(Temperature Sensor)：支持两通道，时钟频率必须低于800KHZ
 *    SAR-ADC(Successive Approximation Register)：支持六通道单端10位的SAR-ADC，时钟频率必须小于13MHZ。
@@ -13,7 +13,7 @@ ROC-RK3399-PC 开发板上的 AD 接口有两种，分别为：温度传感器 (
 
 ### 配置DTS节点
 
-ROC-RK3399-PC SAR-ADC 的 DTS 节点在 kernel/arch/arm64/boot/dts/rockchip/rk3399.dtsi 文件中定义，如下所示：
+EC-R3399PC SAR-ADC 的 DTS 节点在 kernel/arch/arm64/boot/dts/rockchip/rk3399.dtsi 文件中定义，如下所示：
 
 ```
 saradc: saradc@ff100000 {
@@ -43,12 +43,10 @@ kernel/arch/arm64/boot/dts/rockchip/rk3399-firefly-demo.dtsi :
 ### 在驱动文件中匹配 DTS 节点
 
 用户驱动可参考 Firefly adc demo:
-Android7.1 Industry 与 Android10.0 路径为 kernel/drivers/iio/adc/adc-firefly-demo.c
 
-Android8.1 box 与 Android7.1 box 路径为 kernel/drivers/adc/adc-firefly-demo.c
+路径为 kernel/drivers/iio/adc/adc-firefly-demo.c
 
-
-demo是一个侦测 ROC-RK3399-PC 风扇状态的驱动。首先在驱动文件中定义 `of_device_id` 结构体数组：
+demo是一个侦测 EC-R3399PC 风扇状态的驱动。首先在驱动文件中定义 `of_device_id` 结构体数组：
 
 ```
 static const struct of_device_id firefly_adc_match[] = {
@@ -181,7 +179,7 @@ adc_demo: adc_demo{
     };
 ```
 
-编译内核，烧录内核到 ROC-RK3399-PC 开发板上，然后插拔风扇时，会打印内核 log 信息如下：
+编译内核，烧录内核到 EC-R3399PC 开发板上，然后插拔风扇时，会打印内核 log 信息如下：
 
 ```
 [   85.158104] Fan insert! raw= 135 Voltage= 237mV

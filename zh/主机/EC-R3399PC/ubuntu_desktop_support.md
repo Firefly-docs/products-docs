@@ -1,6 +1,6 @@
 # Firefly Ubuntu Desktop介绍
 
-ROC-RK3399-PC Ubuntu Desktop系统基于Ubuntu 64bit系统构建，目前有发布Ubuntu16.04和Ubuntu18.04两个版本。具有以下特性：
+EC-R3399PC Ubuntu Desktop系统基于Ubuntu 64bit系统构建，目前有发布Ubuntu16.04和Ubuntu18.04两个版本。具有以下特性：
 
 1.  桌面环境采用LXDE，Lubuntu+Firefly定制主题，简洁美观。
 1.  Xserver使用GPU + RGA进行2D加速，运行流畅，占用CPU资源少。

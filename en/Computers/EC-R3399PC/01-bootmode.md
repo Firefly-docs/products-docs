@@ -3,19 +3,19 @@
 ## Preface
 
 
-The ROC-RK3399-PC is installed with the Android operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.
+The EC-R3399PC is installed with the Android operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.
 
-ROC-RK3399-PC has a flexible startup mode. Generally, the ROC-RK3399-PC development board will not turn brick unless the hardware is damaged.
+EC-R3399PC has a flexible startup mode. Generally, the EC-R3399PC development board will not turn brick unless the hardware is damaged.
 
 If the accident appeared in the process of upgrading, bootloader damage, leading to unable to upgrade again, while still can enter `MaskRom` mode to repair.
 
 ## How to get the Firmwares
 
-[Firmware download link](http://en.t-firefly.com/doc/download/51.html)
+[Firmware download link](http://en.t-firefly.com/doc/download/127.html)
 
 ## Upgrade method
 
-ROC-RK3399-PC supports firmware update through the following two methods:
+EC-R3399PC supports firmware update through the following two methods:
 
 * [Upgrade the firmware via USB cable](loader_mode.md)
 
@@ -32,7 +32,7 @@ Use the upgrade card creation tool to make the MicroSD card as an upgrade card, 
 
 ## Boot mode
 
-ROC-RK3399-PC  has three startup modes:
+EC-R3399PC  has three startup modes:
 
 * Normal mode
 * Loader mode

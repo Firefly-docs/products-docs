@@ -1,5 +1,5 @@
 一般情况下`adb`是默认开启的，如果没有开启请执行以下步骤：
-* ROC-RK3399-PC用Type-C数据线连接设备和主机;
+* EC-R3399PC用Type-C数据线连接设备和主机;
 * 根据当前Android版本勾选对应路径下的Connect to PC
    * Android7.1、Android8.1 选择 Setting -> USB，然后勾选 Connect to PC
    * Android10.0 选择 Setting -> Connected devices 然后勾选 Connect to PC
