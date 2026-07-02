@@ -6,7 +6,7 @@
 
 ![](../../../rk3588_img/Core-3588SJD4-AI/core_front.jpg)
 
-[AIO-3588SJD4-AI]() 开发板由核心板 Core-3588SJD4-AI + 底板 MB-JD4-BM1688 组成。AIO-3588SJD4-AI 拥有 HDMI、ETH、CAN、USB3.0、I2C、SPI、UART、GPIO 以及 MIPI-CSI 等丰富接口。可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。
+AIO-3588SJD4-AI 开发板由核心板 Core-3588SJD4-AI + 底板 MB-JD4-BM1688 组成。AIO-3588SJD4-AI 拥有 HDMI、ETH、CAN、USB3.0、I2C、SPI、UART、GPIO 以及 MIPI-CSI 等丰富接口。可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。
   
 ![](../../../rk3588_img/Core-3588SJD4-AI/aio_front.jpg)
   

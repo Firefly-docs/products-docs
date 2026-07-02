@@ -5,7 +5,7 @@
 ![](../../../rk3588_img/Core-3588SJD4-AI/core_front.jpg)  
       
 
-[AIO-3588SJD4-AI]() is made up with Core-3588SJD4-AI and Motherboard MB-JD4-BM1688. AIO-3588SJD4-AI is a complete high-performance industrial mainboard with rich expansion interfaces enabling direct intergration into various smart devices to accelerate product deployment. More interface details at [Interface Definition](interface_definition.md)。
+AIO-3588SJD4-AI is made up with Core-3588SJD4-AI and Motherboard MB-JD4-BM1688. AIO-3588SJD4-AI is a complete high-performance industrial mainboard with rich expansion interfaces enabling direct intergration into various smart devices to accelerate product deployment. More interface details at [Interface Definition](interface_definition.md)。
   
 ![](../../../rk3588_img/Core-3588SJD4-AI/aio_front.jpg)
   
