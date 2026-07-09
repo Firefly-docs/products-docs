@@ -100,3 +100,4 @@ Modify the above patch and [complie kernel](https://wiki.t-firefly.com/en/AIO-33
 
 ![](../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png)
 
+

@@ -44,6 +44,7 @@ The hardware connection between ROC-RK3399-PC and W25Q128FV is shown in the foll
 
 ![](../../../rk3399_img/ROC-RK3399-PC/spi_hardware_connection.jpg)
 
+
 ### Makefile/Kconfig
 
 Add the corresponding driver file configuration in `kernel/drivers/spi/Kconfig`:

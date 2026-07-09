@@ -118,3 +118,4 @@ Modify the above patch and [complie kernel](compile_android10.0_firmware.html#st
 
 ![](../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png)
 
+

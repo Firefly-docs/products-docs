@@ -4,15 +4,20 @@
 
 Firefly-RK3399 开发板上有 一个集成于 RK808 上的RTC(Real Time Clock)，主要功能有时钟，日历，闹钟，周期性中断，双通道 32KHz 时钟输出。
 
-J2 接上 CR2032 纽扣电池后，可以保证板子掉电后 RTC 可以正常运行。J2 位置如下图：
+J2 接上 CR2032 纽扣电池后，可以保证板子掉电后 RTC 可以正常运行。
+
+
+J2 位置如下图：
 
 ![](../../../rk3399_img/Firefly-RK3399/rtc_interface.jpg)
+
 
 ## RTC 驱动
 
 DTS 配置信息存放于 rk808 节点
 
 驱动代码路径：`drivers/rtc/rtc-rk808.c`
+
 
 ## 接口使用
 

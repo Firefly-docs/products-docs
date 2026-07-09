@@ -1,5 +1,3 @@
-# AIO-3399Pro-JD4
-- [Preface](preface.md)
 # Quick Start
 - [](started.md)
 - [Serial debug](debug.md)
@@ -16,8 +14,6 @@
 - [ADB use](adb_use.md)
 - [Compile environment to build](prepare_compile_android.md)
 - [Compile Android9.0](compile_android9.0_firmware.md)
-# Other
-- [U-Boot](uboot_introduction.md)
 - [<font color="red">NPU use</font>](usage_npu.md)
 # Driver
 - [ADC](driver_adc.md)
@@ -37,9 +33,11 @@
 - [Screen module](module_display.md)
 - [Camera Module](module_camera.md)
 - [Wireless module](module_wireless.md)
-- [[Power adapter](https://www.firefly.store/products/12v-2a-power-adapter)](module_12V_adapter.md)
+- [Power adapter](module_12V_adapter.md)
 - [[Remote control](http://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-10068918835.20.iovlJA&id=43749228031)](module_ir.md)
 - [Heat sink](module_cooling.md)
+# Other
+- [U-Boot](uboot_introduction.md)
 # Questions and answers
 - [FAQS](faqs.md)
 # Hardware resources

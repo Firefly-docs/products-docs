@@ -4,15 +4,20 @@
 
 The Firefly-RK3399 development board has an RTC (Real Time Clock) integrated into the RK808. The main functions are Clock, calendar, alarm Clock, periodic interrupt, dual channel 32KHz Clock output.
 
-After *J2* is connected with *CR2032* button battery, it can ensure that the RTC can run normally after the power of the board is lost. The location of J2 is as follows:
+After *J2* is connected with *CR2032* button battery, it can ensure that the RTC can run normally after the power of the board is lost.
+
+
+The location of J2 is as follows:
 
 ![](../../../rk3399_img/Firefly-RK3399/rtc_interface.jpg)
+
 
 ## RTC drive
 
 DTS configuration information is stored on the rk808 node.
 
 Driver code path : `drivers/rtc/rtc-rk808.c`
+
 
 ## Interface usage
 

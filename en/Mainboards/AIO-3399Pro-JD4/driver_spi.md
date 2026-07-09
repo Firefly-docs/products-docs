@@ -42,6 +42,7 @@ The hardware connection between AIO-3399Pro-JD4 and W25Q128FV is shown in the fo
 
 ![](../../../rk3399_img/AIO-3399Pro-JD4/spi_hardware_connection.jpg)
 
+
 ### Makefile/Kconfig
 
 Add the corresponding driver file configuration in `kernel/drivers/spi/Kconfig`:

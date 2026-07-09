@@ -1,5 +1,3 @@
-# ROC-RK3328-PC
-- [前言](preface.md)
 # 上手教程
 - [包装配件](started.md)
 - [串口调试](debug.md)
@@ -17,9 +15,9 @@
 - [ADB 使用](adb_use.md)
 - [编译环境搭建](prepare_compile_android.md)
 - [定制 Android 固件](customize_android_firmware.md)
+# 配件
 # 其他
 - [U-Boot 使用](uboot_introduction.md)
-# 配件
 # 常见问题解答
 - [FAQs](faqs.md)
 # 硬件资料

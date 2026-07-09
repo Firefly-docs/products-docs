@@ -27,7 +27,9 @@
 
 ROC-RK3399-PC Pro 串口连接图：
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/debug_connection.jpg)
+
+ [](../../../rk3399_img/ROC-RK3399-PC-Pro/debug_connection.jpg)
+
 
 ## 串口参数配置
 

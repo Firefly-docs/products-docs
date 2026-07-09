@@ -17,5 +17,7 @@
 
 ### 连接方法
 
+
 ![](../../../rk3399_img/AIO-3399C/debug_connection.jpg)
+
 

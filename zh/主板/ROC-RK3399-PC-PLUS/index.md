@@ -1,5 +1,3 @@
-# ROC-RK3399-PC-PLUS
-- [前言](preface.md)
 # 上手教程
 - [发货清单(仅供参考)](started.md)
 - [串口调试](debug.md)
@@ -20,8 +18,6 @@
 - [编译 Android7.1 Industry 固件](compile_android7.1_industry_firmware.md)
 - [编译 Android10.0 固件](compile_android10.0_firmware.md)
 - [定制 Android 固件](customize_android_firmware.md)
-# 其他
-- [U-Boot 使用](uboot_introduction.md)
 # 驱动开发
 - [ADC 使用](driver_adc.md)
 - [GPIO 使用](driver_gpio.md)
@@ -38,9 +34,11 @@
 - [屏幕模组](module_display.md)
 - [摄像头模组](module_camera.md)
 - [无线模块](module_wireless.md)
-- [[12V电源适配器](https://store.t-firefly.com/goods.php?id=31)](module_12V_adapter.md)
+- [电源适配器](module_12V_adapter.md)
 - [[红外遥控器](https://store.t-firefly.com/goods.php?id=17)](module_ir.md)
 - [散热套件](module_cooling.md)
+# 其他
+- [U-Boot 使用](uboot_introduction.md)
 # 常见问题解答
 - [FAQs](faqs.md)
 # 硬件资料

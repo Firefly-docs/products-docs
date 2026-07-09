@@ -1,5 +1,3 @@
-# ROC-RK3328-PC
-- [Preface](preface.md)
 # Quick Start
 - [Package & Accessories](started.md)
 - [Serial debug](debug.md)
@@ -17,9 +15,9 @@
 - [ADB use](adb_use.md)
 - [Compile environment to build](prepare_compile_android.md)
 - [Customized Android firmware](customize_android_firmware.md)
+# Accessories
 # Other
 - [U-Boot](uboot_introduction.md)
-# Accessories
 # Questions and answers
 - [FAQS](faqs.md)
 # Hardware resources

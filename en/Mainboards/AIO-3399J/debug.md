@@ -10,7 +10,7 @@ There are many USB adapter to serial port on the shop, divided by chip, there ar
 
 | Serial port  | Maximum baud rate | Is it recommended | Evaluation | Purchase link |
 | :--------: | :-------: |:-------: | :-------: | :-------: |
-| [CP2104](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) | 2Mbps | Yes | Support high baud rate communication, good stability and durability | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) |
+| [CP2104](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) | 2Mbps | Yes | Support high baud rate communication, good stability and durability | [Buy now](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) |
 | CH340 | 2Mbps | No | Firefly and many customers have found in actual use that the actual baud rate of many CH340s on the market cannot reach 1.5Mbps, which causes a lot of trouble in the development process |  |
 | PL2303 | 1.2Mbps | No | The maximum baud rate is less than 1.5Mbps |  |
 
@@ -29,7 +29,9 @@ Serial port to USB adapter, there are four pins:
 
 AIO-3399J serial port connection diagram:
 
+
 ![](../../../rk3399_img/AIO-3399J/debug_connection.jpg)
+
 
 ## Parameter Setting
 

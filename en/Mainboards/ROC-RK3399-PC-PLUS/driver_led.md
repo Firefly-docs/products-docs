@@ -60,6 +60,7 @@ leds {
    };
 ```
 
+
 Note: The value of `compatible` must match the one in `drivers/leds/leds-gpio.c`.
 
 ### Simple trigger LED

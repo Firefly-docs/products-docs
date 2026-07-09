@@ -44,6 +44,7 @@ The hardware connection between AIO-3399C and W25Q128FV is shown in the followin
 
 ![](../../../rk3399_img/AIO-3399C/spi_hardware_connection.jpg)
 
+
 ### Makefile/Kconfig
 
 Add the corresponding driver file configuration in `kernel/drivers/spi/Kconfig`:

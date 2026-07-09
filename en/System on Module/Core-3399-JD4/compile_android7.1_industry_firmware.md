@@ -52,7 +52,7 @@ git clone https://gitlab.com/TeeFirefly/rk3399-industry-nougat-bundle.git .bundl
 git rebase FETCH_HEAD
 ```
 
-Google Driver[[bundle download]](http://en.t-firefly.com/doc/download/78.html#other_230)
+Google Drive[[bundle download]](http://en.t-firefly.com/doc/download/60.html#other_230)
 
 
 

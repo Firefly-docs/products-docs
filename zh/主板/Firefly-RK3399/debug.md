@@ -27,7 +27,9 @@
 
 Firefly-RK3399 串口连接图：
 
-![](../../../rk3399_img/Firefly-RK3399/debug_connection.jpg)
+
+ [](../../../rk3399_img/Firefly-RK3399/debug_connection.jpg)
+
 
 ## 串口参数配置
 

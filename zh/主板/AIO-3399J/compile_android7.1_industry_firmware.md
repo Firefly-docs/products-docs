@@ -1,5 +1,4 @@
 # 编译 Android7.1 Industry 固件
-
 ## 下载编译须知
 Android7.1 industry 版本在工业和平板和盒子等领域的使用上范围更加广泛，而且性能稳定大批量生产验证过，
 该版本也作为我司主要维护版本，适用于我司RK3399系统的所有机型。
@@ -50,7 +49,7 @@ git clone https://gitlab.com/TeeFirefly/rk3399-industry-nougat-bundle.git .bundl
 git rebase FETCH_HEAD
 ```
 
-百度云下载[[bundle压缩包]](http://www.t-firefly.com/doc/download/page/id/85.html#other_369)
+百度云下载[[bundle压缩包]](http://www.t-firefly.com/doc/download/page/id/31.html#other_369)
 
 
 ## 编译 Android SDK
@@ -167,4 +166,5 @@ update.img 方便固件的发布，供终端用户升级系统使用。一般开
 * 支持但不维护：
 
    [《编译 Android7.1 固件》](compile_android7.1_firmware.md)     [《编译 Android8.1 固件》](compile_android8.1_firmware.md)  
-[Android7.1 industry源码包]: http://www.t-firefly.com/doc/download/page/id/31.html#other_369
+[Android7.1 industry源码包](http://www.t-firefly.com/doc/download/page/id/31.html#other_369)
+ 

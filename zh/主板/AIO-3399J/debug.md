@@ -27,7 +27,9 @@
 
 AIO-3399J 串口连接图：
 
-![](../../../rk3399_img/AIO-3399J/debug_connection.jpg)
+
+ [](../../../rk3399_img/AIO-3399J/debug_connection.jpg)
+
 
 ## 串口参数配置
 

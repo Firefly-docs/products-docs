@@ -7,7 +7,7 @@ RK3399Pro has 12 Timers (timer0-timer11), 12 Secure Timers (stimer0~stimer11) an
 
 ## The framework
 
-![](../../../rk3399_img/timer_frame.jpg)
+![](../../../rk3399_img/include/RK3399Pro/timer_frame.jpg)
 
 ## Working mode
 

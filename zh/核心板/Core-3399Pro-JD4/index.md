@@ -1,5 +1,3 @@
-# AIO-3399Pro-JD4
-- [前言](preface.md)
 # 上手教程
 - [](started.md)
 - [串口调试](debug.md)
@@ -16,8 +14,6 @@
 - [ADB 使用](adb_use.md)
 - [编译环境搭建](prepare_compile_android.md)
 - [编译 Android9.0 固件](compile_android9.0_firmware.md)
-# 其他
-- [U-Boot 使用](uboot_introduction.md)
 - [<font color="red">NPU使用</font>](usage_npu.md)
 # 驱动开发
 - [ADC 使用](driver_adc.md)
@@ -37,9 +33,11 @@
 - [屏幕模组](module_display.md)
 - [摄像头模组](module_camera.md)
 - [无线模块](module_wireless.md)
-- [[12V电源适配器](https://store.t-firefly.com/goods.php?id=31)](module_12V_adapter.md)
+- [电源适配器](module_12V_adapter.md)
 - [[红外遥控器](https://store.t-firefly.com/goods.php?id=17)](module_ir.md)
 - [散热套件](module_cooling.md)
+# 其他
+- [U-Boot 使用](uboot_introduction.md)
 # 常见问题解答
 - [FAQs](faqs.md)
 # 硬件资料

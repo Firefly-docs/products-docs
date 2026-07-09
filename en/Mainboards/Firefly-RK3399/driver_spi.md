@@ -44,6 +44,7 @@ The hardware connection between Firefly-RK3399 and W25Q128FV is shown in the fol
 
 ![](../../../rk3399_img/Firefly-RK3399/spi_hardware_connection.jpg)
 
+
 ### Makefile/Kconfig
 
 Add the corresponding driver file configuration in `kernel/drivers/spi/Kconfig`:

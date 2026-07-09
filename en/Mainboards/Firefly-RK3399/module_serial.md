@@ -19,7 +19,9 @@ Download driver：[http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41](http:
 
 ### Connection Method
 
+
 ![](../../../rk3399_img/Firefly-RK3399/debug_connection.jpg)
+
 
 ## [PCIe(B-KEY) to SSD Adapter board](https://www.firefly.store/products)
 

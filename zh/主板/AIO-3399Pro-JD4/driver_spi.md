@@ -40,6 +40,7 @@ AIO-3399Pro-JD4 与 W25Q128FV 硬件连接可参考下表：
 
 ![](../../../rk3399_img/AIO-3399Pro-JD4/spi_hardware_connection.jpg)
 
+
 ### 编写Makefile/Kconfig
 
 在 `kernel/drivers/spi/Kconfig` 中添加对应的驱动文件配置：

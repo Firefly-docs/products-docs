@@ -27,7 +27,9 @@
 
 Core-3399-JD4 串口连接图：
 
-![](../../../rk3399_img/Core-3399-JD4/debug_connection.jpg)
+
+ [](../../../rk3399_img/Core-3399-JD4/debug_connection.jpg)
+
 
 ## 串口参数配置
 

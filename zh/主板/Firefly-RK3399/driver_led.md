@@ -61,6 +61,8 @@ leds {
    };
 ```
 
+
+
 注意：`compatible` 的值要跟 `drivers/leds/leds-gpio.c` 中的 `.compatible` 的值要保持一致。
 
 ### Simple trigger LED
