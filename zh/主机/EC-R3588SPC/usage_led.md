@@ -1,0 +1,192 @@
+# LED 使用
+
+## 前言
+
+EC-R3588SPC开发板上有一个三色LED灯，二个单色灯，如下表所示：
+
+| LED     | Pin name  | Pin number |remarks|
+| ----    | ----      | ----       |----|
+| Blue    | GPIO1_D5  | 61         |Tricolor Led| 
+| Red     | GPIO3_B2  | 106        |Tricolor Led|
+| Green   | GPIO3_C0  | 112        |Tricolor Led|
+| Ext Yellow（L2）    | GPIO3_B7  | 111         |Lower Monochrome Led work with Relay| 
+| Ext Green（L1）    | GPIO3_C1  | 113        |Upper Monochrome Led|
+
+![](../../../rk3588_img/EC-R3588SPC/led_position.jpg)
+
+
+可通过使用 LED 设备子系统或者直接操作 GPIO 控制该 LED。
+
+## 以设备的方式控制 LED
+
+标准的 Linux 专门为 LED 设备定义了 LED 子系统。 在 EC-R3588SPC开发板中的LED 均以设备的形式被定义。用户可以通过 `/sys/class/leds/` 目录控制LED。
+
+开发板上的 LED 的默认状态为：
+
+三色灯：
+*   Blue:  系统上电时打开状态
+*   Red:   用户自定义状态 
+*   Green: 用户自定义状态
+
+单色灯：
+*   Ext Yellow : 继电器吸合指示灯(丝印：L2)
+*   Ext Green : 用户自定义状态  (丝印：L1)
+
+
+用户可以通过 `echo` 命令向其 `brightness` 属性输入命令控制每一个 LED：
+
+三色灯：
+```
+echo 1 > sys/class/leds/\:power/brightness //蓝灯亮
+echo 0 > sys/class/leds/\:power/brightness //蓝灯灭
+```
+```
+echo 1 > sys/class/leds/\:user/brightness //红灯亮
+echo 0 > sys/class/leds/\:user/brightness //红灯灭
+```
+```
+echo 1 > sys/class/leds/\:user1/brightness //绿灯亮
+echo 0 > sys/class/leds/\:user1/brightness //绿灯灭
+```
+
+L1单色灯：
+```
+echo 1 > /sys/class/leds/ext_led1/brightness //黄灯亮
+echo 0 > /sys/class/leds/ext_led1/brightness //黄灯灭
+```
+
+L2单色灯：
+```
+echo 1 > /sys/class/leds/ext_led2/brightness //绿灯亮
+echo 0 > /sys/class/leds/ext_led2/brightness //绿灯灭
+```
+
+## 使用 trigger 方式控制 LED
+
+Trigger 包含多种方式可以控制 LED，这里就用两个例子来说明。
+
+*    Simple trigger LED
+*    Complex trigger LED
+
+更详细的说明请参考 `leds-class.txt` 。
+
+首先我们需要知道定义多少个 LED，同时对应的 LED 的属性是什么。
+
+在 `kernel/arch/arm64/boot/dts/rockchip/roc-rk3588s-pc.dtsi` 文件中定义 三色LED 节点，具体定义如下：
+```
+firefly_leds: leds {
+    compatible = "gpio-leds";
+    power_led: power {
+        label = ":power"; //blue led
+        linux,default-trigger = "ir-power-click";
+        default-state = "on";
+        gpios = <&gpio1 RK_PD5 GPIO_ACTIVE_HIGH>;
+        pinctrl-names = "default";
+        pinctrl-0 = <&led_power>;
+    };
+
+    user_led: user {
+        label = ":user"; //red led
+        linux,default-trigger = "ir-user-click";
+        default-state = "off";
+        gpios = <&gpio3 RK_PB2 GPIO_ACTIVE_HIGH>;
+        pinctrl-names = "default";
+        pinctrl-0 = <&led_user>;
+    };
+
+    user1_led: user1 {
+        label = ":user1"; //green led
+        default-state = "off";
+        gpios = <&gpio3 RK_PC0 GPIO_ACTIVE_HIGH>;
+        pinctrl-names = "default";
+        pinctrl-0 = <&led_user1>;
+    };
+};
+
+```
+在 `kernel/arch/arm64/boot/dts/rockchip/roc-rk3588s-pc-ext.dtsi` 文件中定义 单色LED 节点，具体定义如下：
+```
+&firefly_leds {
+		ext_yellow_led: ext_led1 {
+			gpios = <&gpio3 RK_PB7 GPIO_ACTIVE_HIGH>;//yellow led
+			pinctrl-names = "default";
+			pinctrl-0 = <&led_user2>;
+		};
+
+		ext_green_led: ext_led2 {
+			gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;//green led
+			pinctrl-names = "default";
+			pinctrl-0 = <&led_user3>;
+		};
+};
+```
+
+
+注意：`compatible` 的值要跟 `drivers/leds/leds-gpio.c` 中的 `.compatible` 的值要保持一致。
+
+### Simple trigger LED
+
+按名字来是看就是简单的触发方式控制 LED，如下就默认打开黄灯，EC-R3588SPC开机后黄灯就亮。
+
+（1）定义 LED 触发器在 `kernel-5.10/drivers/leds/trigger/led-firefly-demo.c` 文件中有如下添加：
+
+```
+DEFINE_LED_TRIGGER(ledtrig_default_control);
+```
+
+（2）注册该触发器
+
+```
+led_trigger_register_simple("ir-user-click", &ledtrig_default_control);
+```
+
+（3）控制 LED 的亮。
+
+```
+led_trigger_event(ledtrig_default_control, LED_FULL);     #led on
+```
+
+（4）打开LED demo
+
+led-firefly-demo 默认没有打开，如果需要的话可以使用以下补丁打开 demo 驱动：
+
+```
+--- a/kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-demo.dtsi
++++ b/kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-demo.dtsi
+@@ -52,7 +52,7 @@
+led_demo: led_demo {
+-     status = "disabled";
++     status = "okay";
+      compatible = "firefly,rk3588-led";
+};
+```
+
+### Complex trigger LED
+
+如下是 trigger 方式控制 LED 复杂一点的例子，`timer trigger` 就是让 LED 达到不断亮灭的效果：
+
+我们需要在内核把 timer trigger 配置上。
+
+在 `kernel-5.10` 路径下使用 `make menuconfig`，按照如下方法将 timer trigger 驱动选中。
+
+```
+Device Drivers
+--->LED Support
+   --->LED Trigger support
+      --->LED Timer Trigger
+```
+保存配置并编译内核，把 `kernel.img` 烧到 EC-R3588SPC板子上 我们可以使用串口输入命令，就可以看到蓝灯不停的间隔闪烁。
+
+```
+echo "timer" > /sys/class/leds/:user/trigger
+```
+
+用户还可以使用 `cat` 命令获取 trigger 的可用值：
+
+```
+# cat /sys/class/leds/:user/trigger
+none ir-power-click rfkill-any rfkill-none test_ac-online test_battery-charging-or-full 
+test_battery-charging test_battery-full test_battery-charging-blink-full-solid 
+test_usb-online mmc0 [timer] heartbeat backlight default-on ir-user-click mmc1 
+rfkill0 tcpm-source-psy-6-0022-online rfkill1 rfkill2
+```

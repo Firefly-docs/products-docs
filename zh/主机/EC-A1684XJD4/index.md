@@ -1,0 +1,18 @@
+# EC-A1684XJD4
+- [前言](preface.md)
+# 使用手册
+- [简介](started.md)
+- [开发板 wiki](wiki.md)
+- [Sophon SDK 开发](sophon-sdk.md)
+- [接口介绍](interface_definition.md)
+- [登录](login.md)
+- [远程桌面 X11VNC](x11vnc.md)
+- [设备 ID](device_id.md)
+- [风扇工作策略](fan_strategy.md)
+- [HDMI 显示测试](hdmi_test.md)
+- [网络 IP 配置](net_ip.md)
+- [WIFI](usage_wifi.md)
+- [蓝牙](usage_bt.md)
+- [U 盘、TF 卡挂载](usage_disk.md)
+- [RS485/RS232 使用](usage_rs232_rs485.md)
+- [固件升级](fw_upgrade.md)

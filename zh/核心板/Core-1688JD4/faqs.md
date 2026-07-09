@@ -1,0 +1,24 @@
+# FAQs
+
+
+## SDK Release 
+目前可供用户开发的 SDK 在整理中，预计一周后发布。
+
+## 系统默认的用户名和密码是什么？
+
+* 用户名：`linaro`
+* 密码：`linaro`
+* 切换超级用户： `sudo -s`
+
+## 开机异常并循环重启怎么办？
+
+有可能是电源电流不够，请使用电压为 12V，电流为 5A 以上的电源。
+
+
+
+## 内存
+* 查看系统内存 : `free -h`
+* 查看ION内存
+    * NPU : `cat /sys/kernel/debug/ion/cvi_npu_heap_dump/summary`
+    * VPP : `cat /sys/kernel/debug/ion/cvi_vpp_heap_dump/summary`
+
