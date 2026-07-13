@@ -206,7 +206,7 @@ How to check SDK version:
 
 **Do not flash extboot.img into old version firmware!**
 
-Besides, extboot ubuntu support update kernel by deb package, please see [Ubuntu Manual](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/manual_ubuntu.html#linux-headers-and-linux-image)
+Besides, extboot ubuntu support update kernel by deb package, please see [Ubuntu Manual](/en/docs/software/other/Firefly-Linux-Guide/manual-ubuntu#linux-headers-and-linux-image)
 
 #### u-boot
 

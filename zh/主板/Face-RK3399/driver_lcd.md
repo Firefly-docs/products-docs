@@ -137,7 +137,7 @@ static int rockchip_dw_mipi_dsi_enable(struct display_state *state)
 ```
 
 ### EDP屏
-在V2 版本硬件中，Face-rk3399 支持EDP屏幕显示输出。具体接口参考[《接口定义》](http://wiki.t-firefly.com/Face-RK3399/interface_definition.html)章节部分图片。
+在V2 版本硬件中，Face-rk3399 支持EDP屏幕显示输出。具体接口参考[《接口定义》](interface_definition.md)章节部分图片。
 
 客户根据需要在自行添加EDP硬件接口之后，配置EDP屏的 Timing dts文件，在kernel/arch/arm64/boot/dts/rockchip/rk3399-firefly-face-edp15.dts中可以看到以下语句：
 ```

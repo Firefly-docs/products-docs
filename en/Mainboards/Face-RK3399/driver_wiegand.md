@@ -54,7 +54,7 @@ The following is the connection diagram of control relay with D0, D1, IO port. N
 
 ## V2 Wiegand and relay
 
-In Face-RK3399 V2, the Wiegand interface is updated while it using expansion board. You can lookup by [interface definition](http://wiki.t-firefly.com/en/Face-RK3399/interface_definition.html)
+In Face-RK3399 V2, the Wiegand interface is updated while it using expansion board. You can lookup by [interface definition](interface_definition.md)
 
 NOTE：GND connectting is needed
 
@@ -128,7 +128,7 @@ The above program can receive and print the input data of Wiegand.
 
 ### V2 relay
 
-The relay of V2 can control two lines ON/OFF refer to [interface definition](http://wiki.t-firefly.com/en/Face-RK3399/interface_definition.html)
+The relay of V2 can control two lines ON/OFF refer to [interface definition](interface_definition.md)
 
 
 ```

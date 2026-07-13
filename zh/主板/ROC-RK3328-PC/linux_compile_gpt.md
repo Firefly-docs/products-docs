@@ -176,7 +176,7 @@ Linux SDK v2.5.1c 及之后版本采用了 extboot， 编译内核请执行`./bu
 
 **不要将 extboot.img 烧录进旧版本固件!**
 
-除此之外，extboot ubuntu 还支持以安装包的形式更新内核，详情查看[Ubuntu 使用手册](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/manual_ubuntu.html#linux-headers-he-linux-image)
+除此之外，extboot ubuntu 还支持以安装包的形式更新内核，详情查看[Ubuntu 使用手册](/docs/software/other/Firefly-Linux-Guide/manual-ubuntu#linux-headers-he-linux-image)
 
 #### 编译 u-boot
 

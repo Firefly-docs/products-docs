@@ -1,6 +1,6 @@
 ### MaskRom mode
 
-***See startup mode for an introduction [boot mode](bootmode.html#)***
+***See startup mode for an introduction [boot mode](bootmode.md#)***
 
 `MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try ` MaskRom ` mode.
 

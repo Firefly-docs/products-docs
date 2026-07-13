@@ -150,7 +150,7 @@ static int rockchip_dw_mipi_dsi_enable(struct display_state *state)
 ```
 
 ### EDP lcd
-Face-rk3399 V2.0 support EDP display output refer to [interface definition](http://wiki.t-firefly.com/en/Face-RK3399/interface_definition.html)
+Face-rk3399 V2.0 support EDP display output refer to [interface definition](interface_definition.md)
 
 To config Timing dts file，kernel/arch/arm64/boot/dts/rockchip/rk3399-firefly-face-edp15.dts：
 
