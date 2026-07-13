@@ -18,7 +18,7 @@ IPC-M10R800-A3568J 工业级行业平板，基于 AIO-3568J 高性能开源平�
 
 ## 产品资源
 
-* [[Wiki]](https://wiki.t-firefly.com/Core-3568J/started.html) 
+* [[Wiki]](../../核心板/Core-3568J/started.md) 
 包含 Android&Ubuntu 驱动开发等资料(参考 AIO-3568J Wiki)
 
 * [[SDK 下载地址]](https://www.t-firefly.com/doc/download/124.html#other_449) 
