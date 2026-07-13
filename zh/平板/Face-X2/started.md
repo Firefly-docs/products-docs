@@ -56,6 +56,11 @@ Face X2 是由 Firefly 自主研发的一款基于人脸识别的智能门禁终
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)
 超过10万企业客户和用户沟通交流平台
 
+## 相关开发文档
+
+* [红外热成像测温模块](../../主板/Face-RK3399/module_temparature.md)
+* [人脸识别应用开发](../../主板/Face-RK3399/face_sdk_v2_0.md)
+
 
 ## 人脸识别apk源码申请
 

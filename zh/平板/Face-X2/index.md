@@ -1,2 +1,2 @@
-# Station P1 Pro
+# Face-X2
 - [产品简介](started.md)

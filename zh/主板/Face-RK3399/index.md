@@ -2,10 +2,10 @@
 - [入手指南](started.md)
 - [串口调试](debug.md)
 # 升级固件
-- [bootmode](bootmode.md)
-- [upgrade_firmware](upgrade_firmware.md)
-- [upgrade_firmware_face](upgrade_firmware_face.md)
-- [maskrom_mode](maskrom_mode.md)
+- [启动模式说明](bootmode.md)
+- [升级固件](upgrade_firmware.md)
+- [Face-X系列套件升级固件](upgrade_firmware_face.md)
+- [MaskRom模式](maskrom_mode.md)
 # Linux开发
 - [编译 Linux 固件](linux_compile_gpt.md)
 - [Firefly Linux 开发指南](firefly_linux_guide.md)
@@ -16,8 +16,8 @@
 - [编译 Android7.1 Industry 固件](compile_android7.1_industry_firmware.md)
 - [定制 Android 固件](customize_android_firmware.md)
 # 人脸识别API
-- [face_sdk_v1_0](face_sdk_v1_0.md)
-- [face_sdk_v2_0](face_sdk_v2_0.md)
+- [人脸识别API  V1.0](face_sdk_v1_0.md)
+- [人脸识别API V2.0](face_sdk_v2_0.md)
 # 驱动开发
 - [ADC 使用](driver_adc.md)
 - [GPIO 使用](driver_gpio.md)
@@ -29,12 +29,12 @@
 - [SPI 使用](driver_spi.md)
 - [定时器使用](driver_timer.md)
 - [UART 使用](driver_uart.md)
-- [driver_wiegand](driver_wiegand.md)
+- [WIEGAND 使用](driver_wiegand.md)
 # 配件
 - [串口模块](module_serial.md)
 - [摄像头模组](module_camera.md)
 - [电源适配器](module_12V_adapter.md)
-- [module_temparature](module_temparature.md)
+- [红外热像仪测温模块](module_temparature.md)
 # 其他
 - [U-Boot 使用](uboot_introduction.md)
 # 常见问题解答

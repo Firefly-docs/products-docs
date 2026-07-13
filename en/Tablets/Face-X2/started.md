@@ -42,6 +42,11 @@ Includes information on Android & Ubuntu driver development (see Face-RK3399 Wik
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)
 More than 100,000 corporate customers and users communication platform
 
+## Related Development Documents
+
+* [Infrared Thermal Imaging Temperature Measurement Module](../../Mainboards/Face-RK3399/module_temparature.md)
+* [Face Recognition Application Development](../../Mainboards/Face-RK3399/face_sdk_v2_0.md)
+
 ## Facial recognition apk source code supply
 Basic demo is supplyed on resource download page.To send purchase information and order number{sales@t-firefly.com},Firefly will email you with the newest source code.
 
