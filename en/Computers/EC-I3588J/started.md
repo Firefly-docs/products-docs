@@ -12,7 +12,7 @@ EC-I3588J embedded host, based on ITX-3588 high-performance open-source platform
 
 # Product resources
 
-* [[Development document]](../../System on Module/Core-3588J/index.md) 
+* [[Development document]](../../System%20on%20Module/Core-3588J/index.md) 
 Includes information on Android & Ubuntu driver development (see Core-3588J Wiki)
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

@@ -15,7 +15,7 @@ Adopting Rockchip's new AIoT chip RK3588S, 8nm LP process. It is equipped with a
 
 # Product resources
 
-* [[Development document]](../../System on Module/Core-3588SJD4-AI/index.md) 
+* [[Development document]](../../System%20on%20Module/Core-3588SJD4-AI/index.md) 
 Includes SDK building tutorial and function development documents. (see Core-3588SJD4 AI Wiki)
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)
