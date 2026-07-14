@@ -5,7 +5,7 @@
 AIO-1126BJD4 have 6 on-chip I2C controllers on the development board.
 
 `kernel-6.1/arch/arm64/boot/dts/rockchip/rv1126bjd4.dtsi`
-
+```
         i2c0: i2c@21100000 {
             compatible = "rockchip,rv1126b-i2c";
             reg = <0x21100000 0x1000>;
@@ -74,7 +74,7 @@ AIO-1126BJD4 have 6 on-chip I2C controllers on the development board.
             pinctrl-0 = <&i2c5m0_pins>;
             status = "disabled";
         };
-
+```
 
 
 This article mainly describes how to configure I2C on the development board.
