@@ -13,8 +13,8 @@
 - [RK3588/RK3588S/RK3576 平台](ai_rockchip.md)
 - [RK1820/RK1828 平台](ai_rk182x.md)
 # FAQs
-- [faqs](faqs.md)
+- [常见问题](faqs.md)
 # 更新固件
-- [upgrade_rockchip](upgrade_rockchip.md)
+- [ROCKCHIP 平台](upgrade_rockchip.md)
 # Linux开发
 - [编译主核心模组固件](linux6.1_compile_rockchip.md)

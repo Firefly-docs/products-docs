@@ -13,8 +13,8 @@
 - [RK3588/RK3588S/RK3576](ai_rockchip.md)
 - [RK1820/RK1828 ](ai_rk182x.md)
 # FAQs
-- [faqs](faqs.md)
+- [FAQs](faqs.md)
 # Upgrade Firmware
-- [upgrade_rockchip](upgrade_rockchip.md)
+- [ROCKCHIP platform](upgrade_rockchip.md)
 # Linux Build
 - [Compile Main Module Firmware](linux6.1_compile_rockchip.md)
