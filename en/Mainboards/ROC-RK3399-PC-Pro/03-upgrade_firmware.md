@@ -204,3 +204,4 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 [Release_DriverAssistant.zip]: https://en.t-firefly.com/doc/download/127.html#windows_341
 [Linux_Upgrade_Tool]: https://en.t-firefly.com/doc/download/127.html#linux_12
 [upgrade_tool_xxx (version number)]: https://en.t-firefly.com/doc/download/127.html#linux_12
+

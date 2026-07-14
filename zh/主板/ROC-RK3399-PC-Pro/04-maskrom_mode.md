@@ -22,3 +22,4 @@
 此时设备就会进入 MaskRom 模式。
 
 ![](../../../rk3399_img/maskrom.jpg)
+
