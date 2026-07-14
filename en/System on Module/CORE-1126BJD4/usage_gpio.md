@@ -6,7 +6,7 @@ GPIO (General-Purpose Input/Output) is a General pin that can be dynamically con
 
 
 ## GPIO Pin to calculate
-AIO-1126BJD4 have 7  GPIO bank：GPIO0~GPIO7，Each group was numbered A0~A7, B0~B7, C0~C7, and D0~D7, the following formulas are often used to calculate GPIO Pin:
+AIO-1126BJD4 have 7  GPIO bank：GPIO0~GPIO7，Each group was numbered `A0~A7`, `B0~B7`, `C0~C7`, and `D0~D7`, the following formulas are often used to calculate GPIO Pin:
 
 ```
 GPIO pin calculation formula：pin = bank * 32 + number 

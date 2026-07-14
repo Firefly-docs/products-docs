@@ -7,7 +7,7 @@ GPIO，全称 General-Purpose Input/Output（通用输入输出），是一种�
 
 
 ## GPIO引脚计算
-AIO-1126BQ38 有 8 组 GPIO bank：GPIO0~GPIO7，每组又以 A0~A7, B0~B7, C0~C7, D0~D7 作为编号区分，常用以下公式计算引脚：
+AIO-1126BQ38 有 8 组 GPIO bank：GPIO0~GPIO7，每组又以 `A0~A7`, `B0~B7`, `C0~C7`, `D0~D7` 作为编号区分，常用以下公式计算引脚：
 
 ```shell
 GPIO pin脚计算公式：pin = bank * 32 + number
