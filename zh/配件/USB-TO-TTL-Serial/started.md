@@ -1,9 +1,9 @@
 # 一、产品介绍
 ## 产品简介
-![](img/usb-to-ttl-serial.png)
+![](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial.png)
 
 ## 发货清单
-![](img/usb-to-ttl-serial_shop_list.png)
+![](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_shop_list.png)
 
 ## 详细参数
 
@@ -74,7 +74,7 @@
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 
-![](img/debug_find_com.png)
+![](../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png)
 
 #### 安装软件
 
@@ -87,11 +87,11 @@ Windows 上一般用 putty 或 SecureCRT。其中我们推荐使用 MobaXterm �
 3. 设置 `Speed (bsp)` 为 1500000。
 4. 点击 `OK` 按钮。
 
-![](img/debug_set_MobaXterm1.png)  
+![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png)
 
 
 
-![](img/debug_set_MobaXterm2.png)
+![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png)
 
 ### Ubuntu 上使用串口调试
 

@@ -1,9 +1,9 @@
 # 一、Introduction
 ## Product introduction
-![](img/usb-to-ttl-serial_en.png)
+![](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_en.png)
 
 ## Shipping list
-![](img/usb-to-ttl-serial_shop_list_en.png)
+![](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_shop_list_en.png)
 
 ## Detailed parameters
 
@@ -74,7 +74,7 @@ If you install the CP210X driver from the official website on the Windows system
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
-![](img/debug_find_com.png)
+![](../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png)
 
 #### Install Software
 
@@ -87,9 +87,9 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 * Set `Speed (bsp)` to 1500000.
 * Click `OK` button.
 
-![](img/debug_set_MobaXterm1.png)  
+![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png)
 
-![](img/debug_set_MobaXterm2.png)
+![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png)
 
 ### Use serial debug on Ubuntu
 
