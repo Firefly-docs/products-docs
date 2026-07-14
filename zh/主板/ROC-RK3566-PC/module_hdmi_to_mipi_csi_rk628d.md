@@ -2,4 +2,4 @@
 
 **加载中......**     
 
-<meta http-equiv="refresh" content="0; url=https://wiki.t-firefly.com/zh_CN/HDMI-TO-MIPI-CSI-RK628D/rk628d.html" />
+<meta http-equiv="refresh" content="0; url=../../配件/HDMI-TO-MIPI-CSI-RK628D/started.md" />
