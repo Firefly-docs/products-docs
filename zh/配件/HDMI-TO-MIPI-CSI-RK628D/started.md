@@ -1,3 +1,4 @@
+
 # HDMI-TO-MIPI-CSI-RK628D 驱动板
 
 ## 一、产品介绍
@@ -50,8 +51,7 @@ Line Out：将声卡处理后的模拟信号通过此接口输出到音频设备
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection_30p-to-24p.jpg)
 
 
-<font color='red'>注意:<br />1. 请在驱动板和开发板处于断电状态操作此步骤，避免烧坏驱动板和开发板;<br />2. RK3399 系列主板如存在两个MIPI CSI接口，默认接MIPI CSI0。
-</font>
+<font color='red'>注意:<br />1. 请在驱动板和开发板处于断电状态操作此步骤，避免烧坏驱动板和开发板;<br />2. RK3399 系列主板如存在两个MIPI CSI接口，默认接MIPI CSI0。</font>
 
 ### Android 使用HDMI-IN
 系统默认内置HdmiIn2的应用，如图：
