@@ -7,6 +7,7 @@ AIO-1126BJD4开发板上有 6 个片上 I2C 控制器
 
 `kernel-6.1/arch/arm64/boot/dts/rockchip/rv1126bjd4.dtsi`
 
+```
         i2c0: i2c@21100000 {
             compatible = "rockchip,rv1126b-i2c";
             reg = <0x21100000 0x1000>;
@@ -75,7 +76,7 @@ AIO-1126BJD4开发板上有 6 个片上 I2C 控制器
             pinctrl-0 = <&i2c5m0_pins>;
             status = "disabled";
         };
-
+```
 
 本文主要描述如何在该开发板上配置 I2C。
 
