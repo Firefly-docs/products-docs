@@ -20,5 +20,6 @@
 - [ROCKCHIP ](ai.md)
 # Linux Development
 - [Compile Main Module Firmware](linux6.1_compile_rockchip.md)
+- [linux6.1_compile_rk182x.mdpp](linux6.1_compile_rk182x.mdpp.md)
 # Accessories
 - [Communication Module](module_wireless.md)

@@ -15,4 +15,4 @@
 # FAQs
 - [faqs](faqs.md)
 # Upgrade Firmware
-- [ROCKCHIP ](upgrade_rockchip.md)
+- [](upgrade_rockchip.md)

@@ -8,14 +8,14 @@
 - [RTC](usage_rtc.md)
 - [WIFI](usage_wifi.md)
 - [IO ](usage_io.md)
-- [蜂鸣器](usage_others.md)
+- [Others](usage_others.md)
 # AI
 - [RK3588/RK3588S/RK3576 平台](ai_rockchip.md)
 - [RK1820/RK1828 平台](ai_rk182x.md)
 # FAQs
 - [常见问题](faqs.md)
 # 更新固件
-- [ROCKCHIP 平台](upgrade_rockchip.md)
+- [主模组 (Core-3588JD4/Core-3588SJD4 AI/Core-3576JD4)](upgrade_rockchip.md)
 # Linux开发
 - [编译主核心模组固件](linux6.1_compile_rockchip.md)
 - [编译 RK1820/RK1828 安装包](linux6.1_compile_rk182x.md)

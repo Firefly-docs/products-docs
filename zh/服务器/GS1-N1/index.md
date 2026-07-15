@@ -15,4 +15,4 @@
 # FAQs
 - [faqs](faqs.md)
 # 更新固件
-- [ROCKCHIP 平台 ](upgrade_rockchip.md)
+- [](upgrade_rockchip.md)

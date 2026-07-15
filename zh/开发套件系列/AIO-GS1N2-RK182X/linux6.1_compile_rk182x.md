@@ -55,7 +55,7 @@ Select board type:
 
 
 ## 其他
-### 版本 V1.0.0
+### 版本 V1.0.4
 ```
 
 sudo rknn-smi -v
