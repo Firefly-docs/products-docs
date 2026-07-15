@@ -142,6 +142,7 @@ cd ..
 ## 导出主核心模组的 rootfs
 参考 [导出设备系统](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/first_use.html#dao-chu-she-bei-xi-tong)
 
+
 # 编译 RK1820/RK1828 安装包
 ## 获取 SDK
 
@@ -201,12 +202,14 @@ Select board type:
 ## 其他
 ### 版本 V1.0.0
 ```
+
 sudo rknn-smi -v
-rknn-smi version : 1.1.0
-PCIe driver version : 3.3.0
-RC chips connect version : 3.2.0
-EP chips connect version : 3.2.0
-PCIe Device 0 firmware version: 1.0.0
-rknn3 API version : 1.0.0
+  rknn-smi version              : 1.3.0
+  PCIe driver version           : 3.3.0
+  RC chips connect version      : 3.3.1
+  EP chips connect version      : 0.0.2
+  PCIe Device 0 firmware version: 1.0.4
+  rknn3 API version             : 1.0.4
+
 ```
 
