@@ -366,7 +366,7 @@ AIO-3566JD4的SDK有EDP的DTS文件：`kernel/arch/arm64/boot/dts/rockchip/rk356
 | enable-gpios(BL_EN) | GPIO1_A4 | GPIO_ACTIVE_LOW |
 | hpd-gpios(EDP_HPD) | GPIO0_C2 | GPIO_ACTIVE_HIGH |
 
-具体的引脚配置请参考[《GPIO 使用》](driver_gpio.html)一节。
+具体的引脚配置请参考[《GPIO 使用》](driver_gpio.md)一节。
 
 ### EDP背光配置
 因为背光接口是公用的，所以可以参考上述MIPI的配置方法。

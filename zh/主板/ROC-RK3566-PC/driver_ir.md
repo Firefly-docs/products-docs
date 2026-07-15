@@ -109,7 +109,7 @@ Buildroot系统可以添加到`kernel/arch/arm64/configs/firefly_linux_defconfig
 保存后，按照固件编译的方法编译kernel即可
 
 * [编译 Android 固件](compile_android11.0_firmware.md)
-* [编译Buildroot固件](./include/buildroot_compile.md)
+* [编译Buildroot固件](linux_compile_linux5.10.md)
 
 #### Android 键值映射
 
