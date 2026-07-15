@@ -100,7 +100,7 @@ reboot loader
 通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
 ![](../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png)
 
-如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](upgrade_firmware.html#windows-cao-zuo-xi-tong)。
+如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](#windows操作系统)。
 
 ![](../../../rk3576_img/common/upgrade_firmware_new_equipment.jpg)
 

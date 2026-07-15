@@ -1,6 +1,6 @@
 # Quick Start
 - [Product Introduction](started.md)
-- [2. Serial debug](https://wiki.t-firefly.com/en/USB-TO-TTL-Serial/usb-to-ttl-serial.html)
+- [Serial Debug](../../Accessories/USB-TO-TTL-Serial/started.md)
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)

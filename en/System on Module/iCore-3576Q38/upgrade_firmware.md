@@ -107,7 +107,7 @@ The AndroidTool displays the prompt Found One LOADER Device at the bottom
 
 ![](../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png)
 
-if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](upgrade_firmware.html#install-the-upgrade-tool).
+if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](#install-the-upgrade-tool).
 
 ![](../../../rk3576_img/common/upgrade_firmware_new_equipment.jpg)
 

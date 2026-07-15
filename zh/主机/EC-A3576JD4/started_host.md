@@ -16,7 +16,7 @@
 
 # 产品资源
 
-* [开发使用文档](https://wiki.t-firefly.com/zh_CN/Core-3576JD4/index.html) 包含固件编译、系统使用、接口使用等教程 (参考 AIO-3576JD4 wiki)
+* [开发使用文档](../../核心板/Core-3576JD4/index.md) 包含固件编译、系统使用、接口使用等教程 (参考 AIO-3576JD4 wiki)
 * [资源下载页面](https://www.t-firefly.com/doc/download/258.html) 包括固件、文件系统以及各种工具的下载地址
 * [技术交流论坛](http://dev.t-firefly.com/forum.php) 超过 10 万企业客户和用户沟通交流平台
 
