@@ -166,7 +166,7 @@ VCC (白线)、GND (黑线)、TX (蓝线)、RX(绿线)
 ##### <font size=3>硬件连接</font>
 
 * 将模组的VCC、GND、TX、RX分别接到ROC-RK3568-PC-SE **UART7**(<font color = "red">对应节点为`/dev/ttyS7`</font>)的3.3V、GND、RX、TX，注意避免接错VCC、GND、TX、RX<font color = "red">导致烧坏模组</font>
-* 对于UART的一些定义和说明可以参考Wiki教程[《UART 使用》](driver_uart.html)
+* 对于UART的一些定义和说明可以参考Wiki教程[《UART 使用》](driver_uart.md)
 
 
 ##### <font size=3>软件配置</font>
