@@ -1,4 +1,4 @@
-# RK3128 技术参考手册
+#RK3128 技术参考手册
 * [rk3128-chapter-1-introduction.pdf](http://www.t-firefly.com/download/fireprime/docs/rk3128_trm/chapter-1-introduction.pdf)
 * [rk3128-chapter-2-system-overview.pdf](http://www.t-firefly.com/download/fireprime/docs/rk3128_trm/chapter-2-system-overview.pdf)
 * [rk3128-chapter-3-clock-and-reset-unit.pdf](http://www.t-firefly.com/download/fireprime/docs/rk3128_trm/chapter-3-clock-and-reset-unit.pdf)
