@@ -130,7 +130,7 @@ The AndroidTool displays the prompt Found One LOADER Device at the bottom
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
 
-if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](upgrade_firmware.html#install-the-upgrade-tool).
+if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](upgrade_firmware_rockchip.html#install-the-upgrade-tool).
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_new_equipment.jpg)
 
@@ -147,7 +147,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom mode
 
-To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode.md).
+To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode_rockchip.md).
 
 ## Upgrade the firmware
 ### Windows Operating System
@@ -226,7 +226,7 @@ sudo fastboot reboot # After the burn is successful, restart
 
 ### 1. How to forcibly enter MaskRom mode
 
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode.md).
+**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode_rockchip.md).
 
 
 ### 2. Analysis of programming failure
