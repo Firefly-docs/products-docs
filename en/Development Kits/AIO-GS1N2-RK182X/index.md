@@ -18,3 +18,4 @@
 - [Main mod (Core-3588JD4/Core-3588SJD4 AI/Core-3576JD4)](upgrade_rockchip.md)
 # Linux Build
 - [Compile Main Module Firmware](linux6.1_compile_rockchip.md)
+- [linux6.1_compile_rk182x.mdpp](linux6.1_compile_rk182x.mdpp.md)
