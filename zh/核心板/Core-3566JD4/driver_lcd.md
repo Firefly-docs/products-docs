@@ -41,7 +41,7 @@ AIO-3566JD4的SDK有MIPI DSI的DTS文件：`kernel/arch/arm64/boot/dts/rockchip/
 
 在硬件信号上enable引脚高电平有效，而reset引脚是低电平有效。  
 
-具体的引脚配置请参考[《GPIO 使用》](driver_gpio.html)一节。
+具体的引脚配置请参考[《GPIO 使用》](driver_gpio.md)一节。
 ### 背光配置
 
 在DTS文件中配置了背光信息，如下：
