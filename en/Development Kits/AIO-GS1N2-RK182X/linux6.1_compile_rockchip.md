@@ -140,7 +140,7 @@ cd ..
 The generated firmware at `output/update/` , eg: `AIO-GS1N2-3588JD4-RK182X_Ubuntu.XXX.img`
 
 ## Export Main Module Rootfs
-Reference [Export device rootfs](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/first_use.html#export-device-system)
+Reference [Export device rootfs](/docs/tools/development-tool/Rootfs-Export-Tool/ff-export-rootfs)
 
 
 

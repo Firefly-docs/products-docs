@@ -18,7 +18,7 @@ AIO-3566JD4 有2种工作模式。一般情况下，开机直接进入`Normal �
 | 工作模式  | Normal 模式 | 升级模式 |
 | :--------: | :-------: | :------- |
 | 启动介质 | eMMC 接口/SDMMC 接口| | √ |
-| 描述 | Normal 模式就是正常的启动过程，<br />各个组件依次加载，正常进入系统。 | 目前支持3种升级模式，各有优缺点：<br />1. [MaskRom 升级模式](04-maskrom_mode.html)<br />2. [Loader 升级模式](loader_mode.html)<br />3. [SD 升级模式](05-upgrade_firmware_sd.html)|
+| 描述 | Normal 模式就是正常的启动过程，<br />各个组件依次加载，正常进入系统。 | 目前支持3种升级模式，各有优缺点：<br />1. [MaskRom 升级模式](04-maskrom_mode.md)<br />2. [Loader 升级模式](loader_mode.md)<br />3. [SD 升级模式](05-upgrade_firmware_sd.md)|
 
 ## 升级模式
 
@@ -26,11 +26,11 @@ AIO-3566JD4 有2种工作模式。一般情况下，开机直接进入`Normal �
 
 **其中升级模式中，不同升级模式之间的对比：**
 
-| 升级模式  | [MaskRom 升级模式](04-maskrom_mode.html) | [Loader 升级模式](loader_mode.html) | [SD 升级模式](05-upgrade_firmware_sd.html) |
+| 升级模式  | [MaskRom 升级模式](04-maskrom_mode.md) | [Loader 升级模式](loader_mode.md) | [SD 升级模式](05-upgrade_firmware_sd.md) |
 | :--------: | :------- | :------- | :------- |
 | 简单描述 | 1. 使用USB线将主板连接到电脑上；<br />2. 硬件操作使板子进入升级模式；<br />3. 在PC上使用USB升级单板固件。  |  1. 使用USB线将主板连接到电脑上；<br />2. 软件或按键操作使板子进入升级模式；<br />3. 在PC上使用USB升级单板固件。 | 1.通过升级卡制作工具，将MicroSD卡制作为升级卡；<br />2. 将升级卡插入主板，上电开机，机器自动执行升级。|
 | 连接方式 | USB | USB | TF卡（少数为SD卡槽） |
-| 升级工具<br />Windows PC<br />Linux PC | <br />[Windows 上升级固件](Windows_upgrade_firmware.html)<br />[Linux 上升级固件](Linux_upgrade_firmware.html) | <br />[Windows 上升级固件](Windows_upgrade_firmware.html)<br />[Linux 上升级固件](Linux_upgrade_firmware.html) | <br />[Windows 上制作升级卡](05-upgrade_firmware_sd.html)<br />不支持 |
+| 升级工具<br />Windows PC<br />Linux PC | <br />[Windows 上升级固件](Windows_upgrade_firmware.md)<br />[Linux 上升级固件](Linux_upgrade_firmware.md) | <br />[Windows 上升级固件](Windows_upgrade_firmware.md)<br />[Linux 上升级固件](Linux_upgrade_firmware.md) | <br />[Windows 上制作升级卡](05-upgrade_firmware_sd.md)<br />不支持 |
 | 进入方法 | 需要硬件操作 |  按键或软件进入| 上电直接进入|
 | 使用条件 | 硬件操作进入 |  能正常使用uboot| 无|
 | 使用场景推荐 | 1. 当板子无法正常启动时候；<br />2. 在切换烧写Linux和Android固件的情况下。 |  1. 有完整uboot或能正常进入系统；<br />2. 需要单独烧写分区(uboot或boot分区等)。| 1. 工人操作方便，适合产品批量生产时候；<br />2. 产品定型后升级，方便最终客户操作。|
