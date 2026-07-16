@@ -28,7 +28,7 @@ AIO-1126BJD4 back：
 
 The AIO-1126BJD4V0 development board consists of the core board CORE-1126BJD4 and the old baseboard MB-JD4-RV11091126.
 
-Click to jump to the Wikipedia tutorial for the AIO-1126BJD4V0 motherboard:[AIO-1126BJD4V0 Wikipedia](https://wiki.t-firefly.com/en/AIO-1126BJD4V0/started.html)
+Click to jump to the Wikipedia tutorial for the AIO-1126BJD4V0 motherboard:[AIO-1126BJD4V0 Wikipedia](../../Mainboards/AIO-1126BJD4V0/started.md)
 
 AIO-1126BJD4V0 front：
 

@@ -28,7 +28,7 @@ AIO-1126BJD4 背面：
 
 AIO-1126BJD4V0 开发板由核心板 CORE-1126BJD4 + 旧底板 MB-JD4-RV11091126 组成。
 
-点击跳转 AIO-1126BJD4V0 套板的维基教程：[AIO-1126BJD4V0 维基教程](https://wiki.t-firefly.com/zh_CN/AIO-1126BJD4V0/started.html)
+点击跳转 AIO-1126BJD4V0 套板的维基教程：[AIO-1126BJD4V0 维基教程](../../主板/AIO-1126BJD4V0/started.md)
 
 AIO-1126BJD4V0 正面：
 
