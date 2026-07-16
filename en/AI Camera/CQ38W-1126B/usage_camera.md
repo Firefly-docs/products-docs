@@ -113,15 +113,38 @@ rv1126b-evb-dual-cam-csi1.dtsi
 
 
 The camera feed can be previewed using ffmedia. For ffmedia installation instructions, please click here: [ffmedia Tutorial](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/manual_ubuntu.html#ffmedia)
+```
+.
+├── etc
+│   ├── iqfiles
+│   │   ├── imx335_default_default.json
+│   │   └── imx415_CMK-OT2022-PX1_IR0147-50IRC-8M-F20.json
+│   │
+│   └── rc.local
+└── usr
+    ├── lib
+    │   └── aarch64-linux-gnu
+    │       └── libff_media.so
+    └── local
+        └── bin
+            ├── demo
+            └── ffmedia_test.sh
 
-After installing ffmedia, select the video node corresponding to rkisp_mainpath as described above to perform RTSP streaming. Assuming rkisp_mainpath corresponds to the video11 node, the following command uses video11 for RTSP streaming:
-```bash
-./demo /dev/video11 -e h264 --port 8554  --push_type rtsp --push_path /live/test
+7 directories, 7 files
+```
+The above files are already included in the firmware. After connecting to the network, the device will use a fixed IP (eth0): 192.168.1.100, gateway: 192.168.1.1
+
+2. Preview via Linux system command:
+```
+ffplay -rtsp_transport tcp -x 640 -y 480 -an \
+  "rtsp://192.168.1.100:8554/live/test"
 ```
 
-On your PC, use VLC media player to open the following RTSP stream link for preview:
+3. Download VLC media player on Windows/Linux
 ```
-rtsp://<device IP>:8554/live/test
+Open Media -> Open Network Stream
+Enter: rtsp://192.168.1.100:8554/live/test
+Click play to preview
 ```
 
 

@@ -2,34 +2,17 @@
 # Camera 使用
 
 
-* 接口效果图
 
-![](img/AIO-1126BJD4V0/usage_camera_mipicsi.jpg)
-
-
-
-
-
-* 注：摄像头上的红线和黑线用作切换滤光片使用。
-* 命令切换滤光片
-```
-# 关闭滤光片
-v4l2-ctl -d /dev/v4l-subdev4 --set-ctrl 'band_stop_filter=0'
-
-# 打开滤光片
-v4l2-ctl -d /dev/v4l-subdev4 --set-ctrl 'band_stop_filter=1'
-```
 
 
 ## Camera 底层调试
 
 
-* MIPI-CSI 摄像头需要购买转接板
-
-
 * v4l2 接口操作 MIPI-CSI 摄像头
 
 查找摄像头节点
+
+
 ```
 $ grep '' /sys/class/video4linux/video*/name
 /sys/class/video4linux/video0/name:stream_cif_mipi_id0
@@ -62,31 +45,17 @@ $ grep '' /sys/class/video4linux/video*/name
 
 * 确定抓取的节点
 
-  由于一款主板可能存在多个摄像头，分两种情况：
+1. 对于使用 RKISP 的摄像头如 SC3336 需要抓取 rkisp_mainpath 对应的 video 节点。从上述的输出信息来看，rkisp_mainpath 对应 video11 节点。
 
-1. 对于自带 ISP 的摄像头如 CAM-8MS1M 则是抓取 stream_cif_mipi_id0 对应的 video 节点。从上述的输出信息来看，stream_cif_mipi_id0 对应 video0 节点。
-   如果使用 CAM-8MS1M 摄像头，则使用 v4l2-ctl 抓取 camera 数据帧并保存在 /data/out.yuv 。
+   如果使用 IMX415 摄像头，则使用 v4l2-ctl 抓取 camera 数据帧并保存在 /data/out.yuv 。
    ```
-   v4l2-ctl --verbose -d /dev/video0 --set-fmt-video=width=1920,height=1080,pixelformat='NV12' --stream-mmap=3 --stream-skip=3 --stream-to=/data/out.yuv
+   v4l2-ctl --verbose -d /dev/video11 --set-fmt-video=width=1920,height=1080,pixelformat='NV12' --stream-mmap=3 --stream-skip=3 --stream-to=/data/out.yuv
    ```
+
    将 out.yuv 文件拷贝出来通过 ubuntu 去查看
    ```
    ffplay -f rawvideo -video_size 1920x1080 -pix_fmt nv12 out.yuv
    ```
-   
-2. 对于使用 RKISP 的摄像头如 IMX415 需要抓取 rkisp_mainpath 对应的 video 节点。从上述的输出信息来看，rkisp_mainpath 对应 video11 节点。
-
-   如果使用 IMX415 摄像头，则使用 v4l2-ctl 抓取 camera 数据帧并保存在 /data/out.yuv 。
-   ```
-   v4l2-ctl --verbose -d /dev/video11 --set-fmt-video=width=3840,height=2160,pixelformat='NV12' --stream-mmap=3 --stream-skip=3 --stream-to=/data/out.yuv
-   ```
-
-   将 out.yuv 文件拷贝出来通过 ubuntu 去查看
-   ```
-   ffplay -f rawvideo -video_size 3840x2160 -pix_fmt nv12 out.yuv
-   ```
-
-
 
 ## PHY 介绍
 RV1126B 芯片 2 个 DPHY, 两个 DPHY 可以工作在两个模式: full mode 和 split mode。
@@ -141,17 +110,38 @@ rv1126b-evb-dual-cam-csi1.dtsi
 
 ## Linux 系统预览摄像头
 
-
 摄像头画面可以使用 ffmedia 进行预览。ffmedia 安装点击跳转：[ffmedia 教程](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/manual_ubuntu.html#ffmedia)
+```
+.
+├── etc
+│   ├── iqfiles
+│   │   ├── imx335_default_default.json
+│   │   └── imx415_CMK-OT2022-PX1_IR0147-50IRC-8M-F20.json
+│   │   
+│   └── rc.local
+└── usr
+    ├── lib
+    │   └── aarch64-linux-gnu
+    │       └── libff_media.so
+    └── local
+        └── bin
+            ├── demo
+            └── ffmedia_test.sh
 
-安装好 ffmedia 后，根据上述描述选好 rkisp_mainpath 所对应的 video 节点进行 rtsp 推流命令。假设 rkisp_mainpath 对应的是 video11 节点。以 video11 进行推流 rtsp 为例。
-```bash
-./demo /dev/video11 -e h264 --port 8554  --push_type rtsp --push_path /live/test
+7 directories, 7 files
+```
+上述文件在固件中已经添加,连接网络后将会固定IP(eth0)为:192.168.1.100,网关:192.168.1.1
+
+2.Linux系统命令方式打开预览:
+```
+ffplay -rtsp_transport tcp -x 640 -y 480 -an \
+  "rtsp://192.168.1.100:8554/live/test"
 ```
 
-PC 端使用 vlc 软件打开以下 rtsp 流媒体链接进行预览
+3.Windows/Linux系统下载VLC媒体播放器
 ```
-rtsp://<设备IP>:8554/live/test
+打开 媒体 -> 打开网络串流
+输入: rtsp://192.168.1.100:8554/live/test
+点击播放预览
 ```
-
 
