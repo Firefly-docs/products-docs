@@ -10,7 +10,7 @@
 - [WIFI](usage_wifi.md)
 - [RS485](usage_rs232_rs485.md)
 - [Cellular Network](usage_4g.md)
-- [CAN](usage_can.md)
+- [usage_can](usage_can.md)
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode_rockchip.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)
@@ -20,5 +20,6 @@
 - [ROCKCHIP ](ai.md)
 # Linux Development
 - [Compile Main Module Firmware](linux6.1_compile_rockchip.md)
+- [Compile RK1820/RK1828 Installer](linux6.1_compile_rk182x.md)
 # Accessories
 - [Communication Module](module_wireless.md)

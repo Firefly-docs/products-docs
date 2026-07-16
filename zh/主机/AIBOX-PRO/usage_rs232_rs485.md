@@ -1,6 +1,4 @@
 # RS485
-AIBOX-PRO 有一个 RS485 接口，设备名称为 `/dev/ttyS4`，支持半双工，默认波特率为 `9600`。
-
-测试方法可直接参考 AIBOX-PRO 维基页面的《[UART 调试方法](https://wiki.t-firefly.com/CORE-3588JD4/driver_uart.html#tiao-shi-fang-fa)》部分
+AIBOX-PRO 有一个 RS485 接口，如果CPU是3588，则设备名称为 `/dev/ttyS6`， 如果CPU是3576，则为`/dev/ttyS3`，支持半双工，默认波特率为 `9600`。该接口为凤凰端子座，因此需要对应的端子接口接入，接入后，即可按照常规串口方法进行调试。
 
 
