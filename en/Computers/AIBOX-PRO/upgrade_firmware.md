@@ -7,13 +7,13 @@ This article describes how to upgrade the firmware file on the host to the flash
 ## Preparatory Tools
 
 * AIBOX-PRO
-* [Firmware](https://en.t-firefly.com/doc/download/333.html)
+* [Firmware](https://en.t-firefly.com/doc/download/420.html)
 * host computer
 * Type-C Cable
 
 ## Prepare Firmware
 
-The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://en.t-firefly.com/doc/download/333.html). There are two types of firmware files:
+The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://en.t-firefly.com/doc/download/420.html). There are two types of firmware files:
 
 * A single unified firmware
 
