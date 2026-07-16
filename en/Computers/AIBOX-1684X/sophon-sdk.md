@@ -25,7 +25,7 @@ The Advanced Toolkit includes:
 * Tpu-perf provides a complete set of toolkits for model performance and accuracy verification.
 * Tpu-kernel is the underlying development interface to the chip, allowing both dedicated instructions to accelerate deep learning business logic and generic instructions to accelerate various custom algorithms.
 
-![../_images/new_SophonSDK.png](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/_images/new_SophonSDK.png)
+![](../../../bm1684_img/new_SophonSDK.png)
 
 ### SDK Directory Structure
 

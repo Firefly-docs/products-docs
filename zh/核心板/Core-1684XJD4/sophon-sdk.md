@@ -26,7 +26,7 @@ Sophon SDK 包括基础工具包与高阶工具包。
 * tpu-perf 为模型性能和精度验证提供了一套完整工具包。
 * tpu-kernel 是芯片底层开发接口，既可以调用专用指令实现深度学习业务逻辑的加速，又可以调用通用指令实现客制的各种算法加速。
 
-![../_images/new_SophonSDK.png](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/zh/html/_images/new_SophonSDK.png)
+![](../../../bm1684_img/new_SophonSDK.png)
 
 ### Sophon SDK 目录
 
