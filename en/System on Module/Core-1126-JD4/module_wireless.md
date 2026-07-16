@@ -3,7 +3,7 @@
 
 Firefly supports the following Wireless modules:
 
-- [EC20 4G-LTE module](https://wiki.t-firefly.com/en/EC20/ec20.html)
+- [EC20 4G-LTE module](../../Accessories/EC20/started.md)
 
 
 
