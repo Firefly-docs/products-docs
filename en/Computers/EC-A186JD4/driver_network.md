@@ -4,7 +4,7 @@ EC-A186JD4 has three types of networks:
 * Wireless Network (WIFI/BT)
 * Gigabit Ethernet Port
 
-EC-A186JD4 has enabled these three networks by default, depending on user usage. [The location of each interface is shown in the diagram](interface_definition.html#zheng-ji-jie-kou-ding-yi).
+EC-A186JD4 has enabled these three networks by default, depending on user usage. [The location of each interface is shown in the diagram](interface_definition.md).
 
 ## Cellular Network
 

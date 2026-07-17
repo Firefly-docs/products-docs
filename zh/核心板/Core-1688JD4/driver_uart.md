@@ -1,7 +1,7 @@
 
 # UART 使用
 
-AIO-1688JD4 串口[位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  
+AIO-1688JD4 串口[位置如图所示](interface_definition.md)
 
 ## 简介
 AIO-1688JD4 支持 3 个 UART 设备:

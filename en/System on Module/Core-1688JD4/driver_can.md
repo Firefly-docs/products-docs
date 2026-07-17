@@ -6,7 +6,7 @@ CAN (Controller Area Network) bus, also known as the Controller Area Network bus
 
 ### Hardware Connection
 
-CAN on AIO-1688JD4 Development Board [The interface location is shown in the figure](interface_definition.html#zheng-ji-jie-kou-ding-yi)
+CAN on AIO-1688JD4 Development Board [The interface location is shown in the figure](interface_definition.md)
 
 Since there is only one CAN, it is set by default in the kernel that the first created device is `can0`。
 

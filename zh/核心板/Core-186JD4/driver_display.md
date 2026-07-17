@@ -1,6 +1,6 @@
 # DISPLAY 使用
 
-Core-186JD4 引出了一路 HDMI 接口（支持 4K@60fps）以及 MIPS DSI 接口（最大输出能力 1440P (2560 * 1440)@60fps，[接口位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  。
+Core-186JD4 引出了一路 HDMI 接口（支持 4K@60fps）以及 MIPS DSI 接口（最大输出能力 1440P (2560 * 1440)@60fps，[接口位置如图所示](interface_definition.md)  。
 
 需要注意的是，` /mnt/system/ko/soph_drm.ko` 为整个显示框架的驱动，诸如 HDMI以及 MIPI  DSI 等模块驱动都是打包进这个驱动里面的。
 

@@ -1,6 +1,6 @@
 # UART Usage
 
-AIO-186JD4 Serial Port [location as shown in the figure](interface_definition.html#zheng-ji-jie-kou-ding-yi)  
+AIO-186JD4 Serial Port [location as shown in the figure](interface_definition.md)
 
 ## Introduction
 AIO-186JD4 supports 3 UART devices:

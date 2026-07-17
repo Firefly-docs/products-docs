@@ -7,7 +7,7 @@ CAN(Controller Area Network)总线，即控制器局域网总线，是一种有�
 
 ### 硬件连接
 
-EC-Orin NX 的 CAN [接口位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  
+EC-Orin NX 的 CAN [接口位置如图所示](interface_definition.md)
 
 
 

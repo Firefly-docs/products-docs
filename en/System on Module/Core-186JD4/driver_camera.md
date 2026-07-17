@@ -3,7 +3,7 @@
 The Core-186JD4 features 3 `MIPI CSI` interfaces (1*4 lanes / 2*2 lanes), with a single sensor supporting a maximum of 8K@15fps linear input or 12M@60fps HDR input.
 
 ## MIPI CSI
-[Interface location as shown in the diagram](interface_definition.html#zheng-ji-jie-kou-ding-yi)
+[Interface location as shown in the diagram](interface_definition.md)
 
 ### Command for Capturing Images
 

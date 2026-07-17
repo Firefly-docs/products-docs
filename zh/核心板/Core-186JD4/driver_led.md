@@ -1,6 +1,6 @@
 # LED 使用
 
-AIO-186JD4 开发板上有 2 个 LED 灯（[如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi) ）:
+AIO-186JD4 开发板上有 2 个 LED 灯（[如图所示](interface_definition.md) ）:
 
 | 颜色 | 位置 | 标号 | 描述 |
 | ---- | :--: | ---- | ---- |

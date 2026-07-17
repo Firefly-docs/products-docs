@@ -2,7 +2,7 @@
 
 AIO-186JD4 开发板上有 1 个 PCIE3.0 x 1  接口，1 个 SATA 3.0 接口以及一个 TF-Card 接口。
 
-[接口位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  
+[接口位置如图所示](interface_definition.md)
 
 ## PCIE 的使用
 

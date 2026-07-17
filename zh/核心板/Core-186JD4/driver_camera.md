@@ -3,7 +3,7 @@
 Core-186JD4 引出 3 个 `MIPI CSI` 接口（1*4 lanes / 2*2 lanes），单一 sensor 最大支持 8K@15fps 线性输入或 12M@60fps HDR 输入。
 
 ##  MIPI CSI 
-[接口位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  
+[接口位置如图所示](interface_definition.md)
 
 ### 使用命令抓图
 

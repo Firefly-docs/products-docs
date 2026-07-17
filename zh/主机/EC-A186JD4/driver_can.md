@@ -4,7 +4,7 @@ CAN(Controller Area Network)总线，即控制器局域网总线，是一种有�
 如果想了解更多的内容可以参考[CAN应用报告](https://www.ti.com/lit/an/sloa101b/sloa101b.pdf)
 
 ### 硬件连接
-AIO-186JD4 开发板的 CAN [接口位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  
+AIO-186JD4 开发板的 CAN [接口位置如图所示](interface_definition.md)
 
 
 

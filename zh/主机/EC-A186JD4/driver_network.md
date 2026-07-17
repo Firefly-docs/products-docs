@@ -4,7 +4,7 @@ EC-A186JD4  一共有 三种网络：
 * 无线网络（WIFI/BT）
 * 千兆网口
 
-EC-A186JD4 默认使能了这三种网络，取决于用户的使用，[各接口位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  。
+EC-A186JD4 默认使能了这三种网络，取决于用户的使用，[各接口位置如图所示](interface_definition.md)  。
 
 ## 蜂窝网络
 
