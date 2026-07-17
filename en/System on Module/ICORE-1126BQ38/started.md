@@ -28,7 +28,7 @@ CAM-1126BQ38 Back:
 
 The AIO-1126BQ38 development board consists of the ICORE-1126BQ38 core board + BTB adapter board + MB-Q-RK3576 baseboard.
 
-Click to jump to the AIO-1126BQ38 development board wiki tutorial:[AIO-1126BQ38 Wiki](https://wiki.t-firefly.com/en/AIO-1126BQ38/started.html)
+Click to jump to the AIO-1126BQ38 development board wiki tutorial:[AIO-1126BQ38 Wiki](../../Mainboards/AIO-1126BQ38/started.md)
 
 AIO-1126BQ38 Front:
 

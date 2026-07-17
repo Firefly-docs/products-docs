@@ -28,7 +28,7 @@ CAM-1126BQ38 背面：
 
 AIO-1126BQ38 开发板由核心板 ICORE-1126BQ38 + BTB 转接板 + 底板 MB-Q-RK3576 组成。
 
-点击跳转 AIO-1126BQ38 套板的维基教程：[AIO-1126BQ38 维基教程](https://wiki.t-firefly.com/zh_CN/AIO-1126BQ38/started.html)
+点击跳转 AIO-1126BQ38 套板的维基教程：[AIO-1126BQ38 维基教程](../../主板/AIO-1126BQ38/started.md)
 
 AIO-1126BQ38 正面：
 
