@@ -7,7 +7,7 @@ Core-186JD4 引出 3 个 `MIPI CSI` 接口（1*4 lanes / 2*2 lanes），单一 s
 
 ### 使用命令抓图
 
-以 Firelfy 的 [CAM-8MS1M](https://wiki.t-firefly.com/CAM-8MS1M/cam-8ms1m.html])摄像头为例（连接 MIPI CSI0）：
+以 Firefly 的 [CAM-8MS1M](https://wiki.t-firefly.com/CAM-8MS1M/cam-8ms1m.html) 摄像头为例（连接 MIPI CSI0）：
 进入系统之后，通过 `sudo -s`获取 root 权限，并执行以下抓图命令。
 ```
 insmod /mnt/system/ko/v4l2_xc7160.ko # 安装驱动
