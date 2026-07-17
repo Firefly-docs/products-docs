@@ -37,19 +37,19 @@ Select board type:
 #? 
 ```
 
-选择 `2`
+选择 `4`
 
 ## 编译
 ```
 ./build.sh
 ```
 
-生成的软件安装包在 `output/firmware/rknn3_rk182x_sodimm_installer_arm64.tgz`
+生成的软件安装包在 `output/firmware/rknn3_rk182x_m2_installer_arm64.tgz`
 
 ## 安装
 手动安装 RK1820/RK1828 软件包，按如下步骤操作：
-* 拷贝 `rknn3_rk182x_sodimm_installer_arm64.tgz` 到主控端
-* 解压 `tar xzf rknn3_rk182x_sodimm_installer_arm64.tgz`
+* 拷贝 `rknn3_rk182x_m2_installer_arm64.tgz` 到主控端
+* 解压 `tar xzf rknn3_rk182x_m2_installer_arm64.tgz`
 * 安装 `./install.sh`
     * 安装重启后， RK3588 或者 RK3576 端系统会在启动后， ⾃动下载 RK182X 的固件，并启动后台服务程序。
 

@@ -36,19 +36,19 @@ Select board type:
 #?
 ```
 
-Select `2`
+Select `4`
 
 ## Build
 ```
 ./build.sh
 ```
 
-The generated software installation package is located at `output/firmware/rknn3_rk182x_sodimm_installer_arm64.tgz`
+The generated software installation package is located at `output/firmware/rknn3_rk182x_m2_installer_arm64.tgz`
 
 ## Install
 You need to manually install the RK1820/RK1828 software package, follow the steps below:
-* Copy `rknn3_rk182x_sodimm_installer_arm64.tgz` to the main controller (RK3588 or RK3576)
-* Decompress: `tar xzf rknn3_rk182x_sodimm_installer_arm64.tgz`
+* Copy `rknn3_rk182x_m2_installer_arm64.tgz` to the main controller (RK3588 or RK3576)
+* Decompress: `tar xzf rknn3_rk182x_m2_installer_arm64.tgz`
 * Install: `./install.sh`
     * After installation and rebooting, the RK3588 or RK3576 system will automatically download the RK182X firmware and start the background service program upon startup.
 
