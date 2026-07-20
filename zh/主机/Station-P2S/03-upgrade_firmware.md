@@ -139,7 +139,7 @@ MaskRom烧写固件前先确定板子ROC-RK3568-PC-SE是否有贴Nor Flash存储
 
 ![](../../../rk356x_img/ROC-RK3568-PC-SE/nor_flash-position.jpg)
 
-如果有贴Nor Flash请参考[切换升级存储器](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)章节烧写统一固件，没有贴Nor Flash可按以下步骤继续操作
+如果有贴Nor Flash请参考[切换升级存储器](03-upgrade_firmware_with_flash.md)章节烧写统一固件，没有贴Nor Flash可按以下步骤继续操作
 
 ## 烧写固件
 
@@ -166,7 +166,7 @@ MaskRom烧写固件前先确定板子ROC-RK3568-PC-SE是否有贴Nor Flash存储
 1. 切换至`Upgrade Firmware`页。
 2. 按`Firmware`按钮，打开要升级的固件文件。升级工具会显示详细的固件信息。
 3. 按`Upgrade`按钮开始升级。
-4. 如果升级失败，可以尝试使用[切换升级存储器](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)里面的方法
+4. 如果升级失败，可以尝试使用[切换升级存储器](03-upgrade_firmware_with_flash.md)里面的方法
 
 #### 烧写分区映像
 烧写分区映像的步骤如下：
@@ -187,7 +187,7 @@ MaskRom烧写固件前先确定板子ROC-RK3568-PC-SE是否有贴Nor Flash存储
 sudo upgrade_tool uf update.img
 ```
 
-如果升级失败，可以尝试使用[切换升级存储器](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)里面的方法
+如果升级失败，可以尝试使用[切换升级存储器](03-upgrade_firmware_with_flash.md)里面的方法
 
 #### 烧写分区镜像
 

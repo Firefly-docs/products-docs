@@ -114,7 +114,7 @@ Determine the board ROC-RK3568-PC before upgrading unified firmware update.img w
 
 ![](../../../rk356x_img/ROC-RK3568-PC/nor_flash-position.jpg)
 
-If the board has Nor Flash, please refer to chapter [Switching Upgrade Storage](03-upgrade_firmware_with_flash.html#download-to-emmc) for upgrading, else please follow the steps below to continue: 
+If the board has Nor Flash, please refer to chapter [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md) for upgrading, else please follow the steps below to continue: 
 
 Notice：**Linux SDK v1.2.4a** and later using extboot, please use extboot.img instead of boot.img in the following instructions（Linux only, ignore it if using Android）
 
@@ -139,7 +139,7 @@ The steps to update the unified firmware `update.img` are as follows:
 1. Switch to the "upgrade firmware" page.
 2. Press the "firmware" button to open the firmware file to be upgraded. The upgrade tool displays detailed firmware information.
 3. Press the "upgrade" button to start the upgrade.
-4. If the upgrade fails, you can try methods in [Switching Upgrade Storage](03-upgrade_firmware_with_flash.html#download-to-emmc)
+4. If the upgrade fails, you can try methods in [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md)
 
 #### Upgrade Partition image
 The steps to upgrade the partition image are as follows:
@@ -163,7 +163,7 @@ The steps to upgrade the partition image are as follows:
 sudo upgrade_tool uf update.img
 ```
 
-If the upgrade fails, you can try methods in [Switching Upgrade Storage](03-upgrade_firmware_with_flash.html#download-to-emmc)
+If the upgrade fails, you can try methods in [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md)
 
 #### Upgrade Partition image
 

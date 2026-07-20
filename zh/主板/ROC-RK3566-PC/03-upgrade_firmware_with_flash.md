@@ -98,7 +98,7 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 ![](../../../rk356x_img/Go_maskrom.png)
 
-之后按照章节[固件下载到eMMC](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)的步骤进行固件升级即可。若不清楚如何通过Recovery按键进入Loader模式请参考[使用USB线缆升级固件](03-upgrade_firmware.html#lian-jie-she-bei)章节
+之后按照章节[固件下载到eMMC](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)的步骤进行固件升级即可。若不清楚如何通过Recovery按键进入Loader模式请参考[使用USB线缆升级固件](03-upgrade_firmware.md#lian-jie-she-bei)章节
 
 
 如果大家有接串口，可以查看一下log信息，其中`Bootdev(atags): mtd 2`说明系统启动到NOR flash存储器的uboot中
@@ -134,7 +134,7 @@ Erasing 0x00000000 ... 0x01ffffff (8192 eraseblock(s))
 => rbrom
 ```
 
-进入到Maskrom模式后，固件升级都需要按照[固件下载到eMMC](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)的步骤进行操作
+进入到Maskrom模式后，固件升级都需要按照[固件下载到eMMC](03-upgrade_firmware_with_flash.md#gu-jian-xia-zai-dao-emmc)的步骤进行操作
 
 ### Go Maskrom无效
 点击AndroidTool的`Go Maskrom`无法进入Maskrom模式，rbrom命令同样也不行，原因是部分旧固件不支持从NOR flash的bootloader回到Maskrom模式，此时可通过Recovery按键重新进入Loader模式，点击AndroidTool的`EraseFlash`进行擦除
