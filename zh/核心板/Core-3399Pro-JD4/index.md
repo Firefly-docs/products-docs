@@ -1,5 +1,5 @@
 # 上手教程
-- [](started.md)
+- [started](started.md)
 - [串口调试](debug.md)
 # 升级固件
 - [介绍](01-bootmode.md)

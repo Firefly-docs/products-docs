@@ -34,4 +34,4 @@
 - [Linux Device Tree (DTS) Manual](linux_dts_manual.md)
 # Hardware resources
 - [Hardware Interfaces](interface_definition.md)
-- [](hardware_doc.md)
+- [hardware_doc](hardware_doc.md)

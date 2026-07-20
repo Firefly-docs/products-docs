@@ -28,4 +28,4 @@
 - [Linux Device Tree (DTS) Manual](linux_dts_manual.md)
 # Hardware resources
 - [Interface definition](interface_definition.md)
-- [](hardware_doc.md)
+- [hardware_doc](hardware_doc.md)

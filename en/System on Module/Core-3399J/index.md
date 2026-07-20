@@ -1,5 +1,5 @@
 # Quick Start
-- [](started.md)
+- [started](started.md)
 - [Serial debug](debug.md)
 # Upgrade Firmware
 - [Boot mode description](01-bootmode.md)

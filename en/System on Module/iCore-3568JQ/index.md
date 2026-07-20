@@ -18,7 +18,7 @@
 - [ADB use](adb_use.md)
 - [Compile environment to build](prepare_compile_android.md)
 - [Compile Android11.0](compile_android11.0_firmware.md)
-- [](customize_android_firmware.md)
+- [customize_android_firmware](customize_android_firmware.md)
 - [Firefly Android User Manual](firefly_android_manual.md)
 - [FireflyApi2 Manual](fireflyapi2_manual.md)
 # Driver
@@ -48,4 +48,4 @@
 - [FAQS](faqs.md)
 # Hardware resources
 - [Interface definition](interface_definition.md)
-- [](hardware_doc.md)
+- [hardware_doc](hardware_doc.md)

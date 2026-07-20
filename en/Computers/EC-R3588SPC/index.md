@@ -1,5 +1,5 @@
 # Quick Start
-- [](started.md)
+- [started](started.md)
 - [Serial Debug](../../Accessories/USB-TO-TTL-Serial/started.md)
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode.md)
@@ -38,4 +38,4 @@
 - [Linux Device Tree (DTS) Manual](linux_dts_manual.md)
 # Hardware resources
 - [Interface definition](interface_definition.md)
-- [](hardware_doc.md)
+- [hardware_doc](hardware_doc.md)

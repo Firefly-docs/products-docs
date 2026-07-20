@@ -16,4 +16,4 @@
 # FAQs
 - [faqs](faqs.md)
 # 更新固件
-- [](upgrade_rockchip.md)
+- [upgrade_rockchip](upgrade_rockchip.md)

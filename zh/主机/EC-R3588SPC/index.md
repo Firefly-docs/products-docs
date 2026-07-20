@@ -1,5 +1,5 @@
 # 上手教程
-- [](started.md)
+- [started](started.md)
 - [串口调试](../../配件/USB-TO-TTL-Serial/started.md)
 # 升级固件
 - [介绍](upgrade_bootmode.md)

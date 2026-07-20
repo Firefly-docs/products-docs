@@ -13,7 +13,7 @@
 # Android
 - [ADB use](android_adb_use.md)
 - [Compile environment to build](android_prepare_compile_android.md)
-- [](android_compile_android14.0_firmware.md)
+- [android_compile_android14.0_firmware](android_compile_android14.0_firmware.md)
 - [Firefly Android User Manual](android_firefly_android_manual.md)
 - [FireflyApi2 Manual](android_fireflyapi2_manual.md)
 - [Technical Case](android_technical_cases.md)
@@ -31,4 +31,4 @@
 - [Linux Device Tree (DTS) Manual](linux_dts_manual.md)
 # Hardware resources
 - [Hardware Interfaces](interface_definition.md)
-- [](hardware_doc.md)
+- [hardware_doc](hardware_doc.md)

@@ -5,7 +5,7 @@
 - [Senial debug](debug.md)
 # Upgrade Firmware
 - [Introduction to updating firmware](01-bootmode.md)
-- [](02-upgrade_table.md)
+- [02-upgrade_table](02-upgrade_table.md)
 - [Upgrade the firmware via USB cable](03-upgrade_firmware.md)
 - [MaskRom mode](04-maskrom_mode.md)
 - [Upgrade the firmware via SD card](05-upgrade_firmware_sd.md)

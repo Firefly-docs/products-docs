@@ -19,7 +19,7 @@
 - [ADB 使用](adb_use.md)
 - [编译环境搭建](prepare_compile_android.md)
 - [编译 Android11.0 固件](compile_android11.0_firmware.md)
-- [](customize_android_firmware.md)
+- [customize_android_firmware](customize_android_firmware.md)
 - [Firefly Android 开发指南](firefly_android_manual.md)
 - [FireflyApi2 使用手册](fireflyapi2_manual.md)
 # 驱动开发

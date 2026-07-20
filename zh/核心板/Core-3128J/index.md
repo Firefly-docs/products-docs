@@ -23,7 +23,7 @@
 - [接口定义](hardware_interface.md)
 - [硬件文档](hardware_doc.md)
 - [资源下载](resources.md)
-- [](technical_reference.md)
+- [technical_reference](technical_reference.md)
 # 驱动开发
 - [ADC 使用](driver_adc.md)
 - [Camera 使用](driver_camera.md)
