@@ -18,7 +18,7 @@
 如果是通过 [《MaskRom模式》](04-maskrom_mode.md)  章节进入了Maskrom 模式（或设备异常，经过擦除设备进入Maskrom），而板子**同时**存在NOR flash和 eMMC 两种存储器，这个时候想要烧录固件，需要区分存储器：
 
 ### 固件下载到NOR flash
-系统在Maskrom模式下**默认**将固件下载到NOR flash中，不过由于NOR flash 比较小，不足以装载系统镜像，所以一般只会烧写比较小的文件，如MiniLoaderAll.bin。如果不小心将整个固件下载到NOR flash中，会出现`下载固件失败`的现象, 此时大家可以参考[FAQ](03-upgrade_firmware_with_flash.html#maskrom-mo-shi-shao-xie-shi-bai)去处理
+系统在Maskrom模式下**默认**将固件下载到NOR flash中，不过由于NOR flash 比较小，不足以装载系统镜像，所以一般只会烧写比较小的文件，如MiniLoaderAll.bin。如果不小心将整个固件下载到NOR flash中，会出现`下载固件失败`的现象, 此时大家可以参考[FAQ](03-upgrade_firmware_with_flash.md)去处理
 
 
 
@@ -26,7 +26,7 @@
 有两种方法可以将固件烧写进eMMC中，一种是RK原厂提供的烧写方法，需要烧写`MiniLoaderAll.bin`并切换存储器；另一种是Firefly为了方便大家烧写，提供的一种参考烧写方法，该方法操作上无需要切换存储器，也可以使用Linux端的烧写工具upgrade_tool进行烧写
 #### 方法一（Firefly）
 
-<font color="red">此方法仅在官方最新SDK编译或者最新的官方固件中可用。</font>如果在Maskrom模式下不慎将固件下载到NOR flash中，导致重启后无法正常启动， 那么可以进入[《MaskRom模式》](04-maskrom_mode.md)，烧录最新SDK编译或者官方提供的固件；不管烧录成功还是失败，当机器重启后，假如NOR flash 存在数据则自动擦除，擦除时间大概30~60s，擦除成功后，自动进入Loader模式，之后直接[烧录固件](03_upgrade_firmware.md#烧写固件)即可。
+<font color="red">此方法仅在官方最新SDK编译或者最新的官方固件中可用。</font>如果在Maskrom模式下不慎将固件下载到NOR flash中，导致重启后无法正常启动， 那么可以进入[《MaskRom模式》](04-maskrom_mode.md)，烧录最新SDK编译或者官方提供的固件；不管烧录成功还是失败，当机器重启后，假如NOR flash 存在数据则自动擦除，擦除时间大概30~60s，擦除成功后，自动进入Loader模式，之后直接[烧录固件](03_upgrade_firmware.md)即可。
 
 #### 方法二（原厂）
 

@@ -84,7 +84,7 @@ reboot loader
 ```
 
 
-The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and [reinstall the driver](03-upgrade_firmware.html#install-rk-usb-drive).
+The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and [reinstall the driver](03-upgrade_firmware.md).
 
 ![](../../../rk356x_img/upgrade_firmware_new_equipment.png)
 
@@ -128,7 +128,7 @@ How to check SDK version:
 
 **Do not burn extboot.img into old version firmware!**
 
-Besides, extboot ubuntu support update kernel by deb package, please see [Ubuntu Manual](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/manual_ubuntu.html#linux-headers-and-linux-image)
+Besides, extboot ubuntu support update kernel by deb package, please see [Ubuntu Manual](/en/docs/software/os-guide/Ubuntu-Debian/ubuntu-debian)
 
 ### Windows
 

@@ -117,7 +117,7 @@ reboot loader
 通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
 ![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
 
-如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](03-upgrade_firmware.html#windows-cao-zuo-xi-tong)。
+如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](03-upgrade_firmware.md)。
 
 ![](../../../rk356x_img/upgrade_firmware_new_equipment.png)
 
@@ -155,7 +155,7 @@ MaskRom烧写固件前先确定板子ROC-RK3568-PC是否有贴Nor Flash存储器
 
 **不要将 extboot.img 烧录进旧版本固件!**
 
-除此之外，extboot ubuntu 还支持以安装包的形式更新内核，详情查看[Ubuntu 使用手册](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/manual_ubuntu.html#linux-headers-he-linux-image)
+除此之外，extboot ubuntu 还支持以安装包的形式更新内核，详情查看[Ubuntu 使用手册](docs/software/os-guide/Ubuntu-Debian/ubuntu-debian)
 
 ### windows操作系统
 
