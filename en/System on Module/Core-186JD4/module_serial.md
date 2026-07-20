@@ -9,7 +9,7 @@
 
 ### Technical Information
 
-Driver Download: [http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+Driver Download: [https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 ### Physical Image
 

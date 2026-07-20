@@ -170,7 +170,7 @@ Windows systems need to install the adapter driver (Linux does not):
 Download the driver and install it.
 
 * [CH340](https://sparks.gogo.co.nz/ch340.html)
-* [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+* [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 * [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 If you install the CP210X driver from the official website on Windows system, and set the baud rate of serial port to 115200 by using tools such as PUTTY or SecureCRT, and if there is a problem of not being able to set it or it is invalid, you can download the old version of [Driver](http://www.t-firefly.com/share/index/). index/id/a2e8f25f3d53992bf3e04f45b0e6c8e8.html).
