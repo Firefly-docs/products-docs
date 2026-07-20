@@ -173,7 +173,7 @@ Download the driver and install it.
 * [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 * [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
-If you install the CP210X driver from the official website on Windows system, and set the baud rate of serial port to 115200 by using tools such as PUTTY or SecureCRT, and if there is a problem of not being able to set it or it is invalid, you can download the old version of [Driver](http://www.t-firefly.com/share/index/). index/id/a2e8f25f3d53992bf3e04f45b0e6c8e8.html).
+If you install the CP210X driver from the official website on the Windows system, use tools such as PUTTY or SecureCRT to set the serial port baud rate to 115200. If the setting cannot be set or is invalid, you can download the old version [driver](http://www.t-firefly.com/share/index/index/id/a2e8f25f3d53992bf3e04f45b0e6c8e8.html).
 
 After plugging in the adapter, the system will prompt that new hardware is found and initialised, after which you can find the corresponding COM port in Device Manager:
 

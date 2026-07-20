@@ -2,20 +2,20 @@
 
 ## Using Type-C for serial port debugging
 
-The AIO-186JD4 can be connected to a PC using a Type-C cable for serial port debugging:
+The AIO-1688JD4 can be connected to a PC using a Type-C cable for serial port debugging:
 
-![](../../../bm1688_img/EC-A186JD4/type-c_connection.png)
+![](../../../bm1688_img/AIO-1688JD4/type-c_connection.png)
 
 Please note that if you need to enable the Type-C debug port function, you must set the corresponding dip switch to the specified position:
 
-![](../../../bm1688_img/EC-A186JD4/debug_switch.png)
+![](../../../bm1688_img/AIO-1688JD4/debug_switch.png)
 
 * ON: Indicates that the Type-C serial port is enabled
 * 1: Indicates that it is used as a standard USB2.0 (Host only) interface
 
 ### Serial port parameter configuration
 
-The EC-A186JD4 uses the following serial port parameters:
+The AIO-1688JD4 uses the following serial port parameters:
 
 * Baud rate: 115200
 * Data bits: 8
@@ -146,7 +146,7 @@ There are many USB to serial port adapters available online, categorized by chip
 
 Generally speaking, adapters using the CH340 chip have relatively stable performance, but are a bit more expensive.
 
-**Note:** The default baud rate for EC-A186JD4 is 115200.
+**Note:** The default baud rate for AIO-1688JD4 is 115200.
 
 ### Hardware connection
 
@@ -159,9 +159,9 @@ USB to Serial Adapter, with four pins.
 
 **Note:** If you encounter the problem that TX and RX cannot be input and output when using other serial adapters, you can try to swap the TX and RX connections.
 
-AIO-186JD4 DEBUG port:
+AIO-1688JD4 DEBUG port:
 
-![](../../../bm1688_img/EC-A186JD4/debug_connection.png)
+![](../../../bm1688_img/AIO-1688JD4/debug_connection.png)
 
 ### Driver Installation
 
