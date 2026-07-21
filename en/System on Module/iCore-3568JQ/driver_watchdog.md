@@ -19,7 +19,7 @@ echo 1 > /dev/watchdog
 echo V > /dev/watchdog
 ```
 You can also write a programe to control watchdog:
-```C
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

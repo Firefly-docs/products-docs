@@ -12,13 +12,11 @@
 # Linux
 - [#linux_compile](#linux_compile.md)
 - [Compile Linux5.10 firmware](linux_compile_linux5.10.md)
-- [Firefly Linux User Guide](firefly_linux_guide.md)
 - [Technical Case](technical_cases.md)
 # Android
 - [ADB use](adb_use.md)
 - [Compile environment to build](prepare_compile_android.md)
 - [Compile Android11.0](compile_android11.0_firmware.md)
-- [customize_android_firmware](customize_android_firmware.md)
 - [Firefly Android User Manual](firefly_android_manual.md)
 - [FireflyApi2 Manual](fireflyapi2_manual.md)
 # Driver

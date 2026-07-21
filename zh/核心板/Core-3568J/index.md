@@ -13,7 +13,6 @@
 - [#linux_compile](#linux_compile.md)
 - [编译 Linux5.10 固件](linux_compile_linux5.10.md)
 - [编译 Linux AMP 固件](linux_amp_compile.md)
-- [Firefly Linux 开发指南](firefly_linux_guide.md)
 - [技术案例](technical_cases.md)
 # Android开发
 - [ADB 使用](adb_use.md)

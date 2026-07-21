@@ -33,7 +33,7 @@ Using official SDK to compile firmware that support 10.1 inches screen firmware 
 ./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_itx_3568q-userdebug
 ```
 
-**<font color=red>Note：If need to use CAM-8MS1M camera，first to add patch。** </font>
+<font color=red>**Note：If need to use CAM-8MS1M camera，first to add patch。**</font>
 
 ```
 diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-itx-3568q.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-itx-3568q.dts

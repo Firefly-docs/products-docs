@@ -19,7 +19,7 @@ echo 1 > /dev/watchdog
 echo V > /dev/watchdog
 ```
 也可以使用程序来控制：
-```C
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

@@ -13,7 +13,6 @@
 - [#linux_compile](#linux_compile.md)
 - [Compile Linux5.10 firmware](linux_compile_linux5.10.md)
 - [Compile Linux AMP firmware](linux_amp_compile.md)
-- [Firefly Linux User Guide](firefly_linux_guide.md)
 - [Technical Case](technical_cases.md)
 # Android
 - [ADB use](adb_use.md)

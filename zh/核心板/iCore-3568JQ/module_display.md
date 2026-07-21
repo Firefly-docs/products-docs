@@ -35,7 +35,7 @@
 ./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_itx_3568q-userdebug
 ```
 
-**<font color=red>注意：如果需要支持 CAM-8MS1M 摄像头模组，需要先做如下修改，再编译。** </font>
+<font color=red>**注意：如果需要支持 CAM-8MS1M 摄像头模组，需要先做如下修改，再编译。**</font>
 
 ```
     diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-itx-3568q.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-itx-3568q.dts
