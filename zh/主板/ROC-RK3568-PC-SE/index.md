@@ -18,7 +18,7 @@
 - [ADB 使用](adb_use.md)
 - [编译环境搭建](prepare_compile_android.md)
 - [编译 Android11.0 固件](compile_android11.0_firmware.md)
-- [customize_android_firmware](customize_android_firmware.md)
+- [定制 Android 固件](customize_android_firmware.md)
 # 驱动开发
 - [ADC 使用](driver_adc.md)
 - [Camera 使用](driver_camera.md)

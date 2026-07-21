@@ -18,7 +18,7 @@
 - [ADB use](adb_use.md)
 - [Compile environment to build](prepare_compile_android.md)
 - [Compile Android11.0](compile_android11.0_firmware.md)
-- [customize_android_firmware](customize_android_firmware.md)
+- [Customized Android firmware](customize_android_firmware.md)
 # Driver
 - [ADC](driver_adc.md)
 - [Camera](driver_camera.md)
