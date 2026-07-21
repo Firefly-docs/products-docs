@@ -18,7 +18,7 @@
 如果是通过 [《MaskRom模式》](04-maskrom_mode.md)  章节进入了Maskrom 模式（或设备异常，经过擦除设备进入Maskrom），而板子**同时**存在NOR flash和 eMMC 两种存储器，这个时候想要烧录固件，需要区分存储器：
 
 ### 固件下载到NOR flash
-系统在Maskrom模式下**默认**将固件下载到NOR flash中，不过由于NOR flash 比较小，不足以装载系统镜像，所以一般只会烧写比较小的文件，如MiniLoaderAll.bin。如果不小心将整个固件下载到NOR flash中，会出现`下载固件失败`的现象, 此时大家可以参考[FAQ](03-upgrade_firmware_with_flash.md)去处理
+系统在Maskrom模式下**默认**将固件下载到NOR flash中，不过由于NOR flash 比较小，不足以装载系统镜像，所以一般只会烧写比较小的文件，如MiniLoaderAll.bin。如果不小心将整个固件下载到NOR flash中，会出现`下载固件失败`的现象, 此时大家可以参考[FAQ](/docs/products/mainboards/ROC-RK3568-PC-SE/03-upgrade-firmware-with-flash#faq)去处理
 
 
 

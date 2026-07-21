@@ -155,7 +155,7 @@ MaskRom烧写固件前先确定板子ITX-3568Q是否有贴Nor Flash存储器，�
 
 **不要将 extboot.img 烧录进旧版本固件!**
 
-除此之外，extboot ubuntu 还支持以安装包的形式更新内核，详情查看[Ubuntu 使用手册](docs/software/os-guide/Ubuntu-Debian/ubuntu-debian)
+除此之外，extboot ubuntu 还支持以安装包的形式更新内核，详情查看[Ubuntu 使用手册](/docs/software/os-guide/Ubuntu-Debian/ubuntu-debian)
 
 ### windows操作系统
 
