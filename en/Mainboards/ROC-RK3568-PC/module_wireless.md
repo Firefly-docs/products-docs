@@ -216,7 +216,7 @@ Glossary:
 
 Ensure that the firmware is the latest [public firmware](http://en.t-firefly.com/doc/download/94.html#other_407). The firmware turns off the GPS function by default and needs to be enabled manually. The following is the modification method:
 
-* Enable ADB, and how to enable ADB, please refer to wiki tutorial [ADB Use](adb_use.html)
+* Enable ADB, and how to enable ADB, please refer to wiki tutorial [ADB Use](adb_use.md)
 * Set system readable and writable
     ```
     adb shell setprop persist.sys.root_access 3

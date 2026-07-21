@@ -458,7 +458,7 @@ ffplay -f rawvideo -video_size 1920x1080 -pix_fmt nv12 out.yuv
 Android系统使用camera的apk打开摄像头需要配置camera3_profiles*.xml，具体可参考Android SDK `hardware/rockchip/camera/etc/camera`目录下的文件
 
 ## Linux系统预览摄像头
-Buildroot直接使用qcamera打开摄像头，可进行拍摄与录制，详细参考 [ Buildroot使用手册 ](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/manual_buildroot.html)
+Buildroot直接使用qcamera打开摄像头，可进行拍摄与录制，详细参考 [ Buildroot使用手册 ](/docs/software/os-guide/Buildroot/buildroot)
 
 Ubuntu 单目摄像头预览可以使用如下脚本：
 ```bash

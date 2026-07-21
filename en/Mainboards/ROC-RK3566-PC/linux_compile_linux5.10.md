@@ -178,9 +178,9 @@ docker attach ubuntu18
 This chapter introduces the compilation process of Ubuntu firmware. It is recommended to develop under Ubuntu 18.04 system environment. If you use other system versions, you may need to adjust the compilation environment accordingly.
 
 ### A brief introduction to Ubuntu firmware
-[What is Ubuntu Minimal ?](ubuntu_minimal_support.html)
+[What is Ubuntu Minimal ?](ubuntu_minimal_support.md)
 
-[What is Ubuntu Desktop ?](ubuntu_desktop_support.html)
+[What is Ubuntu Desktop ?](ubuntu_desktop_support.md)
 
 ### Build Linux-SDK
 

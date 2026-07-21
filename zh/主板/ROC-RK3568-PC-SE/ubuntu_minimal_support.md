@@ -13,4 +13,4 @@ ROC-RK3568-PC-SE Ubuntu Minimal 系统基于 Ubuntu 64bit 系统构建，目前�
 1. Firefly Linux Minimal 系统开机启动后，自动登录到 root 用户，密码为 firefly
 2. 系统已经添加 OpenGL ES, OpenCL, DRM 支持。
 
-请参照 [《Firefly Ubuntu 使用手册》](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/manual_ubuntu.html)
+请参照 [《Firefly Ubuntu 使用手册》](/docs/software/os-guide/Ubuntu-Debian/ubuntu-debian)

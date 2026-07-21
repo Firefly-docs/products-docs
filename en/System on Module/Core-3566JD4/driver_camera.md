@@ -468,7 +468,7 @@ ffplay -f rawvideo -video_size 1920x1080 -pix_fmt nv12 out.yuv
 To open camera with camera app in Android needs configuring in camera3_profiles*.xml. For details please refer to files in Android SDK under `hardware/rockchip/camera/etc/camera`.
 
 ## Linux Preview Camera
-In Buildroot, you can open camera with qcamera application, it support capturing and recording. For details please refer to [ Buildroot Manual ](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/manual_buildroot.html)
+In Buildroot, you can open camera with qcamera application, it support capturing and recording. For details please refer to [ Buildroot Manual ](/en/docs/software/os-guide/Buildroot/buildroot)
 
 In Ubuntu you can use this script to preview single camera:
 ```bash

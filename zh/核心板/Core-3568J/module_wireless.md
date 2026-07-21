@@ -218,7 +218,7 @@ VCC (红线)、GND (黑线)、TX (白线)、RX(绿线)
 ##### <font size=3>硬件连接</font>
 
 * 将模组的VCC、GND、TX、RX分别接到AIO-3568J **UART1**(<font color = "red">对应节点为`/dev/ttysWK2`</font>)的3.3V、GND、RX、TX，注意避免接错VCC、GND、TX、RX<font color = "red">导致烧坏模组</font>
-* 对于UART的一些定义和说明可以参考Wiki教程[《UART 使用》](driver_uart.html)
+* 对于UART的一些定义和说明可以参考Wiki教程[《UART 使用》](driver_uart.md)
 
 
 ##### <font size=3>软件配置</font>
@@ -291,7 +291,7 @@ EC20模组根据[EC20 4G模组套件](#ec20-4g-mo-zu-tao-jian)章节的说明连
 
 确保固件为最新[公版固件](https://www.t-firefly.com/doc/download/103.html#other_434)，固件默认关闭GPS功能，需要手动使能，以下是修改方法：
 
-* 使能ADB，如何使能ADB参考Wiki教程[《ADB的使用》](adb_use.html)
+* 使能ADB，如何使能ADB参考Wiki教程[《ADB的使用》](adb_use.md)
 * 设置系统可读可写
     ```
     adb shell setprop persist.sys.root_access 3

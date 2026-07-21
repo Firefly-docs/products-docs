@@ -27,7 +27,7 @@
 ./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc-userdebug
 ```
 
-**<font color=red>注意：如果需要支持 CAM-8MS1M 摄像头模组，需要先做如下修改，再编译。** </font>
+<font color=red>**注意：如果需要支持 CAM-8MS1M 摄像头模组，需要先做如下修改，再编译。**</font>
 
 ```
 diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se-mipi101_M101014_BE45_A1.dts
