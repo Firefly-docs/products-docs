@@ -46,4 +46,3 @@
 - [FAQS](faqs.md)
 # Hardware resources
 - [Interface definition](interface_definition.md)
-- [hardware_doc](hardware_doc.md)
