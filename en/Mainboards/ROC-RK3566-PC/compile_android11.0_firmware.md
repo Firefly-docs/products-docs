@@ -159,7 +159,7 @@ make ARCH=arm64 firefly_defconfig android-11.config rk356x.config
 make ARCH=arm64 BOOT_IMG=BOOT_IMG=../rockdev/Image-rk3566_roc_pc/boot.img rk3566-roc-pc.img -j8
 ```
 
-**<font color=#ff0000 size=3>Note: When debugging the kernel, if there is a run error in the single compilation of boot.img, please refer to the [FAQs](faqs.html#problems-encountered-in-compiling-boot-img-of-android)</font>**
+**<font color=#ff0000 size=3>Note: When debugging the kernel, if there is a run error in the single compilation of boot.img, please refer to the [FAQs](faqs.md)</font>**
 
 * Compile uboot：
 

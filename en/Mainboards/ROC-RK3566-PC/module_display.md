@@ -17,7 +17,7 @@
 
 The official firmware name supporting the 10.1 screen has the word `MIPI`. Below is the link to the firmware: [Firmware link](http://en.t-firefly.com/doc/download/109.html#other_421)  
 
-If you need to use the dual screen display function, please refer to the [FAQ](faqs.html#rk3566-dual-display) first
+If you need to use the dual screen display function, please refer to the [FAQ](faqs.md) first
 
 ### Compile command
 
@@ -26,7 +26,7 @@ If you need to use the dual screen display function, please refer to the [FAQ](f
 ./FFTools/mkupdate/mkupdate.sh -l rk3566_roc_pc_mipi-userdebug
 ```
 
-**<font color=red>Note：If need to use CAM-8MS1M camera，first to add patch。** </font>
+<font color=red>**Note: If you need to use the CAM-8MS1M camera, apply the following patch before compiling.**</font>
 
 ```
 diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3566-roc-pc-mipi101_M101014_BE45_A1.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3566-roc-pc-mipi101_M101014_BE45_A1.dts
@@ -51,7 +51,7 @@ index ebbb5d1123f..71e82f8d9c0 100644
 
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](http://en.t-firefly.com/doc/download/109.html#other_417)
+[Screen module datasheet and adapter board schematic](http://en.t-firefly.com/doc/download/109.html#other_417)
 
 ### Real figure
 

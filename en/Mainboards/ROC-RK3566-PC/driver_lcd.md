@@ -35,7 +35,7 @@ The power control pins of the LCD are defined here:
 | reset-gpios  |  GPIO0_C2  |  GPIO_ACTIVE_LOW  |
 | enable-gpios | GPIO0_C7 | GPIO_ACTIVE_HIGH |
 
-On the hardware signal, the enable-gpios is active at high level and reset_gpios is active at low levle. Please refer to the section ["GPIO Usage"](driver_gpio.html) for specific pin configuration. 
+On the hardware signal, the enable-gpios is active at high level and reset_gpios is active at low levle. Please refer to the section ["GPIO Usage"](driver_gpio.md) for specific pin configuration.
 
 ### Backlight Configuration
 
@@ -303,5 +303,4 @@ static int panel_simple_get_timings(struct drm_panel *panel, unsigned int num_ti
 ```
 For details, please refer to the following attachments:
 [Rockchip DRM Panel Porting Guide.pdf](http://download.t-firefly.com/product/Board/Common/Document/Developer/Rockchip_Developer_Guide_DRM_Panel_Porting_CN.pdf)
-
 

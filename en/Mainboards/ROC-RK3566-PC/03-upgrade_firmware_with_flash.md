@@ -78,7 +78,7 @@ the storage media `Emmc` state of the list  will go from `0` to `√`, indicatin
 ### Download Firmware Fail in Maskrom mode
 ![](../../../rk356x_img/Core-3566JD4/maskrom_download_failed_with_flash.png)
 
-This failure is caused by the firmware burning directly into Nor-Flash. We must follow steps of [Download to EMMC](03-upgrade_firmware_with_flash.md#download-to-emmc). 
+This failure is caused by the firmware burning directly into Nor-Flash. We must follow steps of [Download to EMMC](03-upgrade_firmware_with_flash.md).
 
 ### Enter in Uboot by Nor-Flash
 ```shell
@@ -124,6 +124,6 @@ Hit key to stop autoboot('CTRL+C'):  0
 => rbrom
 ```
 
-And then, the mode is Maskrom, we follow steps of [Download to EMMC](03-upgrade_firmware_with_flash.md#download-to-emmc)
+And then, the mode is Maskrom, we follow steps of [Download to EMMC](03-upgrade_firmware_with_flash.md)
 
 

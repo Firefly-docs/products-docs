@@ -18,7 +18,7 @@
 
 支持10.1寸屏的官方固件名带有`MIPI`字样，下面是固件的链接：[固件链接](https://www.t-firefly.com/doc/download/125.html#other_490)  
   
-如需使用双屏显示，请先参考[FAQ](faqs.html#rk3566-shuang-ping-xian-shi-wen-ti)
+如需使用双屏显示，请先参考[FAQ](faqs.md)
 
 ### 编译命令
 
@@ -29,7 +29,7 @@
 ./FFTools/mkupdate/mkupdate.sh -l rk3566_roc_pc_mipi-userdebug
 ```
 
-**<font color=red>注意：如果需要支持 CAM-8MS1M 摄像头模组，需要先做如下修改，再编译。** </font>
+<font color=red>**注意：如果需要支持 CAM-8MS1M 摄像头模组，需要先做如下修改，再编译。**</font>
 
 ```
 diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3566-roc-pc-mipi101_M101014_BE45_A1.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3566-roc-pc-mipi101_M101014_BE45_A1.dts
