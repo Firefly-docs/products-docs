@@ -17,8 +17,6 @@
 - [ADB use](adb_use.md)
 - [Compile environment to build](prepare_compile_android.md)
 - [Compile Android11.0](compile_android11.0_firmware.md)
-- [Firefly Android User Manual](firefly_android_manual.md)
-- [FireflyApi2 Manual](fireflyapi2_manual.md)
 # Driver
 - [ADC](driver_adc.md)
 - [Camera](driver_camera.md)
