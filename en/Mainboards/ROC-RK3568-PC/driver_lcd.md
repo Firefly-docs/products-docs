@@ -109,7 +109,7 @@ The power control pins of the LCD are defined here:
 | LCD_EN  | GPIO0_C7 | GPIO_ACTIVE_HIGH |
 | LCD_RST | GPIO3_B5 | GPIO_ACTIVE_LOW  |
 
-On the hardware signal, the LCD_EN is active at high level and LCD_RST is active at low levle. Please refer to the section ["GPIO Usage"](driver_gpio.html) for specific pin configuration. 
+On the hardware signal, the LCD_EN is active at high level and LCD_RST is active at low levle. Please refer to the section ["GPIO Usage"](driver_gpio.md) for specific pin configuration.
 
 ### Backlight Configuration
 
@@ -436,7 +436,7 @@ The power control pins of the LCD are defined here:
 | BL_EN   | GPIO3_C3 | GPIO_ACTIVE_HIGH |
 | EDP_HPD | GPIO0_C2 | GPIO_ACTIVE_HIGH |
 
-Please refer to the section ["GPIO Usage"](driver_gpio.html) for specific pin configuration.
+Please refer to the section ["GPIO Usage"](driver_gpio.md) for specific pin configuration.
 
 ### Backlight Configuration
 Because the backlight interface is common, you can refer to the above-mentioned MIPI configuration method.

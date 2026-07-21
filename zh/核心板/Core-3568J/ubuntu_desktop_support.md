@@ -24,4 +24,4 @@ Firefly Linux Desktop 系统开机启动后，自动登录到 firefly 用户。
 
 -   root 用户：默认没有设置 root 密码，firefly 用户通过`sudo passwd root`命令自行配置 root 密码。
 
-请参照 [《Firefly Ubuntu 使用手册》](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/manual_ubuntu.html)
+请参照 [《Firefly Ubuntu 使用手册》](/docs/software/os-guide/Ubuntu-Debian/ubuntu-debian)

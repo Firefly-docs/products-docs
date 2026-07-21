@@ -151,7 +151,7 @@ make ARCH=arm64 firefly_defconfig android-11.config rk356x.config firefly_wifi.c
 make ARCH=arm64 BOOT_IMG=../rockdev/Image-rk3568_firefly_roc_pc/boot.img rk3568-firefly-roc-pc.img -j8
 ```
 
-**<font color=#ff0000 size=3>注意：进行内核debug的时候，单编译生成boot.img如果出现运行错误，可参考[FAQs](faqs.html#android-sdk-dan-du-bian-yi-sheng-cheng-de-boot-img-yu-dao-wen-ti)</font>**
+**<font color=#ff0000 size=3>注意：进行内核debug的时候，单编译生成boot.img如果出现运行错误，可参考[FAQs](faqs.md)</font>**
 
 * 编译 uboot：
 
@@ -180,6 +180,5 @@ make -j8
 打包完成后将在rockdev/Image-XXX/ 目录下生成统一固件： product名XXX_XXX_日期XXX.img
 
 在 Windows 下打包统一固件 update.img 也很简单，将编译生成的文件拷贝到 AndroidTool 的 rockdev\Image 目录中，然后运行 rockdev 目录下的 mkupdate.bat 批处理文件即可创建 update.img 并存放到 rockdev\Image 目录里。
-
 
 

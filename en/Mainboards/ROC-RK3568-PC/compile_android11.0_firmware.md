@@ -156,7 +156,7 @@ make ARCH=arm64 firefly_defconfig android-11.config rk356x.config firefly_wifi.c
 make ARCH=arm64 BOOT_IMG=../rockdev/Image-rk3568_firefly_roc_pc/boot.img rk3568-firefly-roc-pc.img -j8
 ```
 
-**<font color=#ff0000 size=3>Note: When debugging the kernel, if there is a run error in the single compilation of boot.img, please refer to the [FAQs](faqs.html#problems-encountered-in-compiling-boot-img-of-android)</font>**
+**<font color=#ff0000 size=3>Note: When debugging the kernel, if there is a run error in the single compilation of boot.img, please refer to the [FAQs](faqs.md)</font>**
 
 * Compile uboot:
 
@@ -186,7 +186,6 @@ After packaging, it will be in rockdev/Image-XXX/ Generate unified firmware unde
 
 It is also very simple to package the unified firmware update.img under Windows. Copy the generated files to the rockdev \ Image directory of AndroidTool, and then run the mkupdate.bat batch file under the rockdev directory to create up
 date.img and store it in rockdev \ Image directory.
-
 
 
 

@@ -26,7 +26,7 @@ Using official SDK to compile firmware that support 10.1 inches screen firmware 
 ./FFTools/mkupdate/mkupdate.sh -l rk3568_firefly_roc_pc_mipi-userdebug
 ```
 
-**<font color=red>Note：If need to use CAM-8MS1M camera，first to add patch。** </font>
+<font color=red>**Note: If you need to use the CAM-8MS1M camera, apply the following patch before compiling.**</font>
 
 ```
 diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-mipi101_M101014_BE45_A1.dts
@@ -53,7 +53,7 @@ index ae57644a105..0cb9124bec8 100644
 
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](http://en.t-firefly.com/doc/download/109.html#other_417)
+[Screen module datasheet and adapter board schematic](http://en.t-firefly.com/doc/download/109.html#other_417)
 
 ### Real figure
 

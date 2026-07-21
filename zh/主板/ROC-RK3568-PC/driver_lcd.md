@@ -108,7 +108,7 @@ ROC-RK3568-PC的SDK有MIPI DSI的DTS文件：
 | LCD_EN | GPIO0_C7 | GPIO_ACTIVE_HIGH |
 | LCD_RST| GPIO3_B5 | GPIO_ACTIVE_LOW  |
 
-在硬件信号上 LCD_EN 引脚高电平有效，而 LCD_RST 引脚是低电平有效，具体的引脚配置请参考[《GPIO 使用》](driver_gpio.html)一节。
+在硬件信号上 LCD_EN 引脚高电平有效，而 LCD_RST 引脚是低电平有效，具体的引脚配置请参考[《GPIO 使用》](driver_gpio.md)一节。
 ### 背光配置
 
 在DTS文件中配置了背光信息，如下：
@@ -433,7 +433,7 @@ ROC-RK3568-PC的SDK有EDP的DTS文件：`kernel/arch/arm64/boot/dts/rockchip/rk3
 | BL_EN   | GPIO3_C3 | GPIO_ACTIVE_HIGH |
 | EDP_HPD | GPIO0_C2 | GPIO_ACTIVE_HIGH |
 
-具体的引脚配置请参考[《GPIO 使用》](driver_gpio.html)一节。
+具体的引脚配置请参考[《GPIO 使用》](driver_gpio.md)一节。
 
 ### EDP背光配置
 因为背光接口是公用的，所以可以参考上述MIPI的配置方法。
