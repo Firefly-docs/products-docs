@@ -77,4 +77,4 @@ The output file is `SDK/kernel/boot.img`
 
 ## Burning
 
-Refer to [Upgrade Partition Image](03-upgrade_firmware.html#upgrade-partition-image)
+Refer to [Upgrade Partition Image](/en/docs/products/mainboards/ROC-RK3566-PC/03-upgrade-firmware#upgrade-partition-image-1)
