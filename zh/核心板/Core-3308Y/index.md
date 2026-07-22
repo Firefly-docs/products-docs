@@ -15,6 +15,7 @@
 - [串口模块](module_serial.md)
 - [屏幕模组](module_display.md)
 - [无线模块](module_wireless.md)
+- [语音模组](module_speech.md)
 # 技术案例
 # 其他
 # 常见问题解答

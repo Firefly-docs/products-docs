@@ -15,6 +15,7 @@
 - [Conversion module](module_serial.md)
 - [screen mod](module_display.md)
 - [Wireless module](module_wireless.md)
+- [Speech Module](module_speech.md)
 # Technical case
 # Other
 # Questions and answers
