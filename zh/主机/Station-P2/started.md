@@ -24,7 +24,7 @@ Station-P2 嵌入式主机，基于 ROC-RK3568-PC 高性能开源平台，配置
 # 产品资源
 * [[Station P2]](https://www.stationpc.cn/product/stationp2)Station 详情页
 
-* [[Wiki]](https://wiki.t-firefly.com/zh_CN/ROC-RK3568-PC/interface_definition.html) 
+* [[Wiki]](../ROC-RK3568-PC/index.md)
 包含 Android&Ubuntu 驱动开发等资料(参考 ROC-3568-PC Wiki)
 
 * [[Station 社区]](https://bbs.stationpc.cn/forum-80-1.html)玩转 Station

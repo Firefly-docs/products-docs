@@ -26,7 +26,7 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 # Product resources
 * [[Station P2]](https://www.stationpc.com/product/stationP2)StationPC details page
 
-* [[Wiki]](https://wiki.t-firefly.com/en/ROC-RK3568-PC/) 
+* [[Wiki]](../ROC-RK3568-PC/index.md)
 Includes information on Android & Ubuntu driver development (see ROC-3568-PC Wiki)
 
 * [[Station Community]](https://bbs.stationpc.com/forum-82-1.html)Play with StationPC
