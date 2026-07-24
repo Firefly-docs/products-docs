@@ -23,7 +23,7 @@ With RK3566 quad-core 64-bit Cortex-A55 processor, features 22nm lithography pro
 * [[Station M2]](https://www.stationpc.com/product/stationm2)
 StationPC details page
 
-* [[Development Documents]](https://wiki.t-firefly.com/en/ROC-RK3566-PC/started.html) 
+* [[Development Documents]](/en/docs/products/mainboards/ROC-RK3566-PC/preface)
 Includes Android & Ubuntu development documents (ROC-RK3566-PC Wiki)
 
 * [[Station Community]](https://bbs.stationpc.com/forum-83-1.html)

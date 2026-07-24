@@ -23,7 +23,7 @@ Station M2 极客主机，基于 ROC-RK3566-PC 超薄机身，小巧便携；支
 * [[Station M2]](https://www.stationpc.cn/product/stationm2)
 Station 详情页
 
-* [[开发使用文档]](https://wiki.t-firefly.com/ROC-RK3566-PC/started.html) 
+* [[开发使用文档]](/docs/products/mainboards/ROC-RK3566-PC/preface)
 包含 Android & Ubuntu 驱动开发等资料(参考 ROC-RK3566-PC Wiki)
 
 * [[Station 社区]](https://bbs.stationpc.cn/forum-83-1.html)
