@@ -223,4 +223,3 @@ sudo fastboot reboot # After the burn is successful, restart
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
 ![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_download_fail.png)
-

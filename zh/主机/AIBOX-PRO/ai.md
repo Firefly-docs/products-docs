@@ -309,8 +309,7 @@ A1：请参考《Rockchip_RKNPU_User_Guide_RKNN_SDK*》文档的精度排查章�
 
 A2：尝试更新 RKNN-Toolkit2 / RKNPU2 至最新版本或者采用 repeat 算子来替代 expand 算子。
 
-**更多转换问题或者报错原因可以参考《Rockchip_RKNPU_User_Guide_RKNN_SDK\*》文档常见问题章节**。
-# RK1820/RK1828 平台
+**更多转换问题或者报错原因可以参考《Rockchip_RKNPU_User_Guide_RKNN_SDK\*》文档常见问题章节**。# RK1820/RK1828 平台
 主控通过 PCIe ⾼速接⼝连接协处理器:
 * RK3588 主控（Host） ：作为系统核⼼，负责任务调度、资源分配和整体控制。
 * RK1820/RK1828 协处理器（Device） ：作为 AI 计算加速单元，专注于⾼性能神经⽹络推理任务。

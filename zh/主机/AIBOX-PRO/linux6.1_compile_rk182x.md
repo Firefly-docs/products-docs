@@ -1,4 +1,3 @@
-# 编译 RK1820/RK1828 安装包
 ## 获取 SDK
 
 请联系销售 (sales@t-firefly.com) 获取 **RK182X SDK** 下载链接。

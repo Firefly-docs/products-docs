@@ -302,8 +302,7 @@ A1：Please refer to the accuracy troubleshooting section in the document《Rock
 
 A2：Try to update RKNN-Toolkit2/RKNPU2 to the latest version or modify the model and use ‘Repeat’ instead of ‘Expand’.
 
-**For more conversion issues or error causes, please refer to the Trouble Shooting section in the document《Rockchip_RKNPU_User_Guide_RKNN_SDK\*》**
-# RK1820/RK1828 
+**For more conversion issues or error causes, please refer to the Trouble Shooting section in the document《Rockchip_RKNPU_User_Guide_RKNN_SDK\*》**# RK1820/RK1828 
 
 * RK3588 Soc(Host) : As the core of the system, responsible for task scheduling, resource allocation, and overall control.
 * RK1820/RK1828 Coprocessor(Device) : As an AI computing acceleration unit, we focus on high-performance neural network inference tasks.

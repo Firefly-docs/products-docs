@@ -16,13 +16,8 @@ AIBOX-PRO 接口丰富，主要包括：
 - CAN
 - DI/DO 光耦隔离
 - 电源指示灯
-- Wi-Fi模块/蓝牙模块(同时只能使用一种)
 - Wi-Fi天线 x 2
 - 4G天线
 - 5G天线 x 4
 
-注意：
-3576核心板，无法使用：Wi-Fi接口，蓝牙接口（与WiFi接口共用），SATA接口， 扩展PCIe接口
-
 ![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-interface.png)
-![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-interface-side.png)

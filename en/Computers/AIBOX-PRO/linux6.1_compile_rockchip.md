@@ -20,72 +20,13 @@ Depand on **Main Module**, Please contact sales@t-firefly.com to get **RK3588 Ke
 ## Compile Debian Firmware
 <font color=red> Download SDK First. </font>
 
-### rootfs
-* Download root filesystem: [Debian Rootfs(64-bit) Kernel6.1](https://en.t-firefly.com/doc/download/301.html), please use the filesystem from the `kernel-6.1` directory.
-* Extract rootfs and link it
-
-#### RK3588
-```
-# Extract
-7z x debian12_xxxx_rootfs_xxxx.7z
-
-# Move the extracted rootfs image to SDK and create a symbolic link
-mkdir ./SDK/prebuilt_rootfs/
-mv debian12_xxxx_rootfs_xxxx.img ./SDK/prebuilt_rootfs/
-cd ./SDK/prebuilt_rootfs/
-ln -sf debian12_xxxx_rtoofs_xxxx.img rk3588_debian_rootfs.img
-cd ..
-```
-
-### Configure
-#### Core-3588JD4
-
-```
-./build.sh firefly_rk3588_aibox-pro-g2-3588jd4_rk182x_debian_defconfig
-```
-
-### Build
-```
-./build.sh all
-```
-
-The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-G2-3588JD4_Debian.XXX.img`
+!INCLUDE "./linux6.1_compile_debian_aibox-pro-3588.mdpp"
 
 ## Compile Ubuntu Firmware
 <font color=red> Download SDK First. </font>
 
-### rootfs
-* Download root filesystem: [Ubuntu Rootfs(64-bit) Kernel6.1](https://en.t-firefly.com/doc/download/301.html), please use the filesystem from the `kernel-6.1` directory.
-* Extract rootfs and link it
-
-#### RK3588
-```
-# Extract
-7z x Ubuntu22.04-xxxx.7z
-
-mkdir ./SDK/prebuilt_rootfs/
-mv Ubuntu22.04-xxxx.img ./SDK/prebuilt_rootfs/
-cd ./SDK/prebuilt_rootfs/
-ln -sf Ubuntu22.04-xxxx.img rk3588_ubuntu_rootfs.img
-cd ..
-```
-
-### Configure
-### RK3588
-
-```
-./build.sh firefly_rk3588_aibox-pro-g2-3588jd4_rk182x_ubuntu_defconfig
-```
-
-### Build
-```
-./build.sh all
-```
-
-The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-G2-3588JD4_Ubuntu.XXX.img`
+!INCLUDE "./linux6.1_compile_ubuntu_aibox-pro-3588.mdpp"
 
 ## Export Main Module Rootfs
-Reference [Export device rootfs](/en/docs/tools/development-tool/Rootfs-Export-Tool/ff-export-rootfs)
-
-
+Reference [Export device rootfs](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/first_use.html#export-device-system)
 
