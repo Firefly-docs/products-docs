@@ -21,6 +21,6 @@
 - [RK1820/RK1828 平台](ai_rk182x.md)
 # Linux开发
 - [编译主核心模组固件](linux6.1_compile_rockchip.md)
-- [获取 SDK](linux6.1_compile_rk182x.md)
+- [编译 RK1820/RK1828 安装包](linux6.1_compile_rk182x.md)
 # 配件
 - [通信模组](module_wireless.md)

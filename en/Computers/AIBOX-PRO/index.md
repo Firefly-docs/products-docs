@@ -21,6 +21,6 @@
 - [RK1820/RK1828 ](ai_rk182x.md)
 # Linux Development
 - [Compile Main Module Firmware](linux6.1_compile_rockchip.md)
-- [Download SDK](linux6.1_compile_rk182x.md)
+- [Compile RK1820/RK1828 Installer](linux6.1_compile_rk182x.md)
 # Accessories
 - [Communication Module](module_wireless.md)

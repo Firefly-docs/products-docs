@@ -1,3 +1,5 @@
+# 编译 RK1820/RK1828 安装包
+
 ## 获取 SDK
 
 请联系销售 (sales@t-firefly.com) 获取 **RK182X SDK** 下载链接。
@@ -118,4 +120,5 @@ rknn3 API version             : NA
 | YOLOv5s | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov5/yolov5s_rknn3.onnx |
 | YOLOv6s | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov6/yolov6s_rknn3.onnx |
 | YOLOv8s | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov8/yolov8s_rknn3.onnx |
+
 具体可参考SDK中 SDK_Path/rknn/rknn3-runtime/doc/00_Rockchip_RKNPU3_ReleaseNote_RKNN3_SDK_V1.0.4_CN.pdf , 里面有详细说明。
