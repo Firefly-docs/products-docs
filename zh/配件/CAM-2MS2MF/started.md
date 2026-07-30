@@ -177,16 +177,16 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 | 系统 | 板卡型号 | 
 | ---- | ---- | 
 | Android11.0 | [AIO-3566JD4](../../主板/AIO-3566JD4/compile_android11.0_firmware.md#shuang-mu-she-xiang-tou-cam-2ms2mf-bian-yi), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/compile_android11.0_firmware.md#shuang-mu-she-xiang-tou-cam-2ms2mf-bian-yi) | 
-| Ubuntu | [AIO-3566JD4](../../主板/AIO-3566JD4/linux_compile.md#bian-yi-ubuntu-gu-jian), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/linux_compile.md#bian-yi-ubuntu-gu-jian) |
-| Buildroot | [AIO-3566JD4](../../主板/AIO-3566JD4/linux_compile.md#bian-yi-buildroot-gu-jian), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/linux_compile.md#bian-yi-buildroot-gu-jian) |
+| Ubuntu | [AIO-3566JD4](../../主板/AIO-3566JD4/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian) |
+| Buildroot | [AIO-3566JD4](../../主板/AIO-3566JD4/linux_compile_linux5.10.md#bian-yi-buildroot-gu-jian), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/linux_compile_linux5.10.md#bian-yi-buildroot-gu-jian) |
 
 ### RK3568 系列
 
 | 系统 | 板卡型号 | 
 | ---- | ---- | 
 | Android11.0 | [AIO-3568J](../../主板/AIO-3568J/compile_android11.0_firmware.md#shuang-mu-she-xiang-tou-cam-2ms2mf-bian-yi), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/compile_android11.0_firmware.md#shuang-mu-she-xiang-tou-cam-2ms2mf-bian-yi), [ROC-RK3568-PC-SE](../../主板/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#shuang-mu-she-xiang-tou-cam-2ms2mf-bian-yi) | 
-| Ubuntu | [AIO-3568J](../../主板/AIO-3568J/linux_compile.md#bian-yi-ubuntu-gu-jian), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/linux_compile.md#bian-yi-ubuntu-gu-jian) |
-| Buildroot | [AIO-3568J](../../主板/AIO-3568J/linux_compile.md#bian-yi-buildroot-gu-jian), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/linux_compile.md#bian-yi-buildroot-gu-jian) |
+| Ubuntu | [AIO-3568J](../../主板/AIO-3568J/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian) |
+| Buildroot | [AIO-3568J](../../主板/AIO-3568J/linux_compile_linux5.10.md#bian-yi-buildroot-gu-jian), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/linux_compile_linux5.10.md#bian-yi-buildroot-gu-jian) |
 
 ### RK3588 系列
 

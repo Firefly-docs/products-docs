@@ -178,16 +178,16 @@ Related documents and firmware download, see the official website [Resource Down
 | CPU | board | 
 | ---- | ---- | 
 | Android11.0 | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile) | 
-| Ubuntu | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile.md#compile-ubuntu-firmware) |
-| Buildroot | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile.md#compile-buildroot-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile.md#compile-buildroot-firmware) |
+| Ubuntu | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Buildroot | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
 
 ### RK3568 platform
 
 | CPU | board | 
 | ---- | ---- | 
 | Android11.0 | [AIO-3568J](../../Mainboards/AIO-3568J/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3568-PC-SE](../../Mainboards/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile) | 
-| Ubuntu | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile.md#compile-ubuntu-firmware) |
-| Buildroot | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile.md#compile-buildroot-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile.md#compile-buildroot-firmware) |
+| Ubuntu | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Buildroot | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
 
 ### RK3588 platform
 
