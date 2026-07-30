@@ -106,14 +106,14 @@ wait
 |  系统   |  板卡型号 | 
 |  ----  | ----  | 
 | Android11.0 | [AIO-3566JD4](../../核心板/Core-3566JD4/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi) |
-| Ubuntu20.04 | [AIO-3566JD4](../../核心板/Core-3566JD4/linux_compile.md#xuan-ze-bian-yi-pei-jian), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/linux_compile.md#xuan-ze-bian-yi-pei-jian) |
+| Ubuntu20.04 | [AIO-3566JD4](../../核心板/Core-3566JD4/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian) |
 
 #### RK3568 系列
 
 |  系统   |  板卡型号 | 
 |  ----  | ----  | 
 | Android11.0 | [AIO-3568J](../../核心板/Core-3568J/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi) |
-| Ubuntu20.04 | [AIO-3568J](../../核心板/Core-3568J/linux_compile.md#xuan-ze-bian-yi-pei-jian), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/linux_compile.md#xuan-ze-bian-yi-pei-jian), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/linux_compile.md#xuan-ze-bian-yi-pei-jian) |
+| Ubuntu20.04 | [AIO-3568J](../../核心板/Core-3568J/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian) |
 
 #### RK3588 系列
 

@@ -137,4 +137,4 @@ Supports GPS, GLONASS, GALILEO and BEIDOU, and is compatible with standard NMEA 
 * Passive antenna gain: > 0dBi
 
 ### How to enable GPS and modify serial port Configuration
-[Reference EC20](../EC20/ec20.md#how-to-enable-gps-and-modify-serial-port-configuration)
+[Reference EC20](../EC20/started.md#how-to-enable-gps-and-modify-serial-port-configuration)

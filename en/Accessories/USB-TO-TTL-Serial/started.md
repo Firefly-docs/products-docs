@@ -31,7 +31,7 @@
 | RK3566 | [AIO-3566JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3566JD4.png), [ROC-RK3566-PC](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-RK3566-PC.png) | 
 | RK3568 | [AIO-3568J](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3568J.png), [ROC-RK3568-PC](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-RK3568-PC.png), [ROC-RK3568-PC SE](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-RK3568-PC-SE.jpg)|
 | RV1106 | [CT36L](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_CT36L.png)|
-| RV1126_RV1109 | [AIO-1126B-JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-1126B-JD4.jpg),[AIO-1126-JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-1126-JD4_AIO-1109-JD4.jpg), [AIO-1109-JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-1126-JD4_AIO-1109-JD4.jpg), [CAM-C1126S2U](https://wiki.t-firefly.com/en/CAM-C11262U/usage.html#serial-debug), [CAM-C1109S2U](https://wiki.t-firefly.com/en/CAM-C11092U/usage.html#serial-debug)  | 
+| RV1126_RV1109 | [AIO-1126B-JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-1126B-JD4.jpg),[AIO-1126-JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-1126-JD4_AIO-1109-JD4.jpg), [AIO-1109-JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-1126-JD4_AIO-1109-JD4.jpg), [CAM-C1126S2U](../../AI Camera/CAM-C1126S2U/quick_usage.md#serial-port-debugging), [CAM-C1109S2U](../../AI Camera/CAM-C1109S2U/quick_usage.md#serial-port-debugging)  |
 | RK3588 | [AIO-3588SJD4 AI](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_MB-JD4.png),[AIO-3588JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_MB-JD4.png),[ITX-3588J](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ITX-3588J.png),[ROC-RK3588S-PC](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-RK3588S-PC.jpg),[AIO-3588SJD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3588SJD4.jpg),[ROC-RK3588-PC](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-RK3588-PC.jpg),[AIO-3588Q](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3588Q.jpg),[AIO-3588SG](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3588SG.jpg),[AIO-3588L](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3588L.png),[ROC-RK3588-RT](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-RK3588-RT.png)  |
 | RK3576 | [ROC-3576-PC](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-3576-PC.png), [CAM-3576Q38](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_CAM-3576Q38.png), [AIO-3576Q](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3576Q.png), [AIO-3576JD4](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3576JD4.png),[AIO-3576C](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3576C.jpg) |
 | RK3506 | [ROC-RK3506B-CC](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-RK3506B-CC.png),[ROC-RK3506J-CC](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_ROC-RK3506B-CC.png) |
@@ -61,12 +61,12 @@
 
 Our usb-to-ttl module is using CP2104, so download driver here:
 
-* [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+* [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
 If you bought the module using the CH340 or PL2303 from elsewhere, you can download drivers here:
 
 * [CH340](https://sparks.gogo.co.nz/ch340.html)
-* [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+* PL2303
 
 If you can’t use PL2303 normally on Win8, use 3.3.5.122 or older version of the old driver, please refer to [This article](https://blog.csdn.net/ropai/article/details/19619951). Please find drivers with version 3.3.5.122 or before.
 
@@ -186,5 +186,5 @@ After finishing the setting, go back to the previous menu and select `Save setup
 
 
 # 三、Resource download
-[Firefly USB to UART Module (driver)](http://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+[Firefly USB to UART Module (driver)](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 

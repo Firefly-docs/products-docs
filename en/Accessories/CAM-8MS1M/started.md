@@ -100,25 +100,25 @@ Related documents and firmware download, see the official website [Resource Down
 | System | Board | 
 | ---- | ---- | 
 | Android11.0 | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/compile_android11.0_firmware.md#public-compile), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/compile_android11.0_firmware.md#public-compile) | 
-| Ubuntu | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/ubuntu_compile.md#select-accessories-to-compile), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/ubuntu_compile.md#select-accessories-to-compile) |
-| Buildroot | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/buildroot_compile.md#select-accessories-to-compile), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/buildroot_compile.md#select-accessories-to-compile) |
+| Ubuntu | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Buildroot | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
 
 ### RK3568 platform
 
 | System | Board | 
 | ---- | ---- | 
 | Android11.0 | [AIO-3568J](../../Mainboards/AIO-3568J/compile_android11.0_firmware.md#public-compile), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/compile_android11.0_firmware.md#public-compile), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#public-compile) | 
-| Ubuntu | [AIO-3568J](../../Mainboards/AIO-3568J/ubuntu_compile.md#select-accessories-to-compile), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/ubuntu_compile.md#select-accessories-to-compile) |
-| Buildroot | [AIO-3568J](../../Mainboards/AIO-3568J/buildroot_compile.md#select-accessories-to-compile), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/buildroot_compile.md#select-accessories-to-compile) |
+| Ubuntu | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Buildroot | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
 
 ### RK3588 platform
 
 | System | Board | 
 | ---- | ---- | 
 | Android12.0 | [ITX-3588J](../../Mainboards/ITX-3588J/android_compile_android12.0_firmware.md),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/android_compile_android12.0_firmware.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/android_compile_android12.0_firmware.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/android_compile_android12.0_firmware.md)|
-| Buildroot | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_buildroot.md),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile_buildroot.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_buildroot.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_buildroot.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_buildroot.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_buildroot.md)|
-| Ubuntu20.04 | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_ubuntu.md),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile_ubuntu.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_ubuntu.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_ubuntu.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_ubuntu.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_buildroot.md)|
-| Debian11 | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_debian.md),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile_debian.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_debian.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_debian.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_debian.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_debian.md)|
+| Buildroot | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile.md#compile-buildroot-firmware),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile.md#compile-buildroot-firmware),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile.md#compile-buildroot-firmware),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile.md#compile-buildroot-firmware),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile.md#compile-buildroot-firmware),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile.md#compile-buildroot-firmware)|
+| Ubuntu20.04 | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile.md#compile-ubuntu-firmware),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile.md#compile-ubuntu-firmware),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile.md#compile-ubuntu-firmware),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile.md#compile-ubuntu-firmware),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile.md#compile-ubuntu-firmware),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile.md#compile-ubuntu-firmware)|
+| Debian11 | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile.md#compile-debian-firmware),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile.md#compile-debian-firmware),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile.md#compile-debian-firmware),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile.md#compile-debian-firmware),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile.md#compile-debian-firmware),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile.md#compile-debian-firmware)|
 
 ### RK3576 platform
 

@@ -137,4 +137,4 @@
 注意: GPS 天线需要使用**无源天线**
 
 ### 如何使能 GPS 和修改串口配置
-[参考EC20](../EC20/ec20.md#ru-he-shi-neng-gps-he-xiu-gai-chuan-kou-pei-zhi)
+[参考EC20](../EC20/started.md#ru-he-shi-neng-gps-he-xiu-gai-chuan-kou-pei-zhi)
