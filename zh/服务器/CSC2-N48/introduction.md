@@ -1,7 +1,7 @@
 # 简介
 CSC2-N48 是一款1U机架式的ARM准系统高密度阵列式服务器。该服务器面向互联网、AI边缘计算、云计算、大数据和视频边缘计算等领域，具有高性能计算、低能耗、易管理和易部署等优点。
 
-![perspective view](../../../img/servers/CSC2-N48/perspective_view.png)
+![perspective view](../../../img/servers_img/CSC2-N48/perspective_view.png)
 功能亮点
 
 
@@ -20,9 +20,8 @@ CSC2-N48 是一款1U机架式的ARM准系统高密度阵列式服务器。该服
 
 ## 物理视图
 ### 正面图
-![perspective view](../../../img/servers/CSC2-N48/front_view.png)
+![perspective view](../../../img/servers_img/CSC2-N48/front_view.png)
 ### 背面图
-![perspective view](../../../img/servers/CSC2-N48/rear_view.png)
+![perspective view](../../../img/servers_img/CSC2-N48/rear_view.png)
 ### 透视图
-![perspective view](../../../img/servers/CSC2-N48/perspective_view.png)
-
+![perspective view](../../../img/servers_img/CSC2-N48/perspective_view.png)
