@@ -15,8 +15,8 @@
 | **串行接口** | - 1 个 RS232 DB9 接口<br/>- 1 个 RS485 DB9 接口 |
 | **Console 接口** | 1 个用于调试的 RJ45 Console 接口 |
 | **灯和按键** | - 1 个 UID 按键灯<br/>- 1 个 POWER 按键灯<br/>- 10 个计算节点系统指示灯<br/>- 2 个 SFP+ 指示灯<br/>- 1 个交换机指示灯<br/>- 1 个 BMC 系统指示灯 |
-| **风扇** | 6 个冗余风扇 |
-| **电源** | 单路 550W AC 电源 |
+| **风扇** | 4 个冗余风扇 |
+| **电源** | 双路 550W AC 电源 |
 | **系统管理** | - 适配 aBMC 管理系统（支持 Redfish、VNC、NTP、监控高级及虚拟媒体）<br/>- 1 个 10/100/1000Mbps RJ45 管理网口 |
 | **安全特性** | - 管理员密码<br/>- 故障告警<br/>- 应急 recovery 模式 |
 
@@ -32,8 +32,8 @@
 | **串行接口** | - 1 个 RS232 DB9 接口<br/>- 1 个 RS485 DB9 接口 |
 | **Console 接口** | 1 个用于调试的 RJ45 Console 接口 |
 | **灯和按键** | - 1 个 UID 按键灯<br/>- 1 个 POWER 按键灯<br/>-  10 个计算节点系统指示灯<br/>- 2 个 SFP+ 指示灯<br/>- 1 个交换机指示灯<br/>- 1 个 BMC 系统指示灯 |
-| **风扇** | 6 个冗余风扇 |
-| **电源** | 单路 550W AC 电源 |
+| **风扇** | 4 个冗余风扇 |
+| **电源** | 2 个单路 550W AC 电源 |
 | **系统管理** | - 适配 aBMC 管理系统（支持 Redfish、VNC、NTP、监控高级及虚拟媒体）<br/>- 1 个 10/100/1000Mbps RJ45 管理网口 |
 | **安全特性** | - 管理员密码<br/>-  故障告警<br/>-  应急 recovery 模式 |
 | **温度** | - 工作温度：5℃～40℃（41℉～104℉）<br/>-  存储温度（24H）：-40℃～+65℃<br/>-  存储温度（3个月以内）：-30℃～+60℃（-22℉～+140℉）<br/>-  存储温度（6个月以内）：-15℃～+45℃（5℉～113℉）<br/>-  存储温度（1年以内）：-10℃～+35℃（14℉～95℉）<br/>-  最大温度变化率：20℃（36℉）/小时、5℃（9℉）/15分钟 |
@@ -74,14 +74,14 @@
 | nic0_5G | 以太网卡（速度 5 Gbps） | 支持 VLAN 划分 |
 | Layer 3 switch | 内部三层交换机 | 支持 VLAN 划分、网络聚合和 QoS 等功能 |
 
-![perspective view](../../../servers_img/CSB1-N10/hw_logical_topology.png)
+![perspective view](../../../servers_img/CSB2-N10/hw_logical_topology.png)
 
 #### 网络拓扑图
 根据硬件结构逻辑图可知，阵列式服务器中集成的ARM核心板与BMC是通过一个三层交换机实现告诉网络互联的，该三层交换机支持VLAN划分和网络聚合，这就可以方便用户根据实际业务需求灵活配置网络隔离策略。
 
 由于网络隔离策略的灵活性，所以本产品内部没有固定的网络拓扑。图6为默认的出厂网络拓扑示意图，该拓扑的好处是nic0_5G可以通过VLAN划分出2个虚拟网卡，可分别定义为WAN口和LAN口。
 
-![perspective view](../../../servers_img/CSB1-N10/default_network_topology.png)
+![perspective view](../../../servers_img/CSB2-N10/default_network_topology.png)
 
 ## 组件
 ### 前面板按键及指示灯
@@ -130,7 +130,7 @@
 ### 硬盘及指示灯
 
 #### 硬盘位置
-![perspective view](../../../servers_img/CSB1-N10/harddisk_location.png)
+![perspective view](../../../servers_img/CSB2-N10/harddisk_location.png)
 #### 硬盘配置
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
@@ -152,7 +152,7 @@
           <li>计算子节点可通过BMC提供的网络共享方式，间接的访问硬盘。</li>
         </ul>
       </td>
-      <td>1（SATA硬盘）</td>
+      <td>6（SATA硬盘）</td>
       <td>BMC直出SATA</td>
     </tr>
   </tbody>
@@ -161,7 +161,7 @@
 
 #### SATA硬盘指示灯
 
-![SATA Hard Disk Indicator Location Diagram](../../../servers_img/CSB1-N10/sata_hdd_indicator.png)
+![SATA Hard Disk Indicator Location Diagram](../../../servers_img/CSB2-N10/sata_hdd_indicator.png)
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
   <thead>
