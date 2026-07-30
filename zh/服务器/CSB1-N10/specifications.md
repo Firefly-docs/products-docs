@@ -74,14 +74,14 @@
 | nic2_5G | 以太网卡（速度 5 Gbps） | 支持 VLAN 划分 |
 | Layer 3 switch | 内部三层交换机 | 支持 VLAN 划分、网络聚合和 QoS 等功能 |
 
-![perspective view](../../../img/servers_img/CSB1-N10/hw_logical_topology.png)
+![perspective view](../../../servers_img/CSB1-N10/hw_logical_topology.png)
 
 #### 网络拓扑图
 根据硬件结构逻辑图可知，阵列式服务器中集成的ARM核心板与BMC是通过一个三层交换机实现告诉网络互联的，该三层交换机支持VLAN划分和网络聚合，这就可以方便用户根据实际业务需求灵活配置网络隔离策略。
 
 由于网络隔离策略的灵活性，所以本产品内部没有固定的网络拓扑。图6为默认的出厂网络拓扑示意图，该拓扑的好处是nic2_5G可以通过VLAN划分出2个虚拟网卡，可分别定义为WAN口和LAN口。
 
-![perspective view](../../../img/servers_img/CSB1-N10/default_network_topology.png)
+![perspective view](../../../servers_img/CSB1-N10/default_network_topology.png)
 
 ## 组件
 ### 前面板按键及指示灯
@@ -130,7 +130,7 @@
 ### 硬盘及指示灯
 
 #### 硬盘位置
-![perspective view](../../../img/servers_img/CSB1-N10/harddisk_location.png)
+![perspective view](../../../servers_img/CSB1-N10/harddisk_location.png)
 #### 硬盘配置
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
@@ -161,7 +161,7 @@
 
 #### SATA硬盘指示灯
 
-![SATA Hard Disk Indicator Location Diagram](../../../img/servers_img/CSB1-N10/sata_hdd_indicator.png)
+![SATA Hard Disk Indicator Location Diagram](../../../servers_img/CSB1-N10/sata_hdd_indicator.png)
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
   <thead>
