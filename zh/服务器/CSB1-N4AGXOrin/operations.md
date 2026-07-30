@@ -25,7 +25,7 @@
 - 机房内的人员在进行服务器组件安装、插拔等接触操作时必须佩戴防静电腕带，并将接地端插入机架上的 ESD 插孔。
 - 在接触设备前，应当穿上防静电工作服、佩戴防静电手套或防静电腕带、去除身体上携带的易导电物体（如首饰、手表等），以免被电击或灼伤，如图所示。
 
-    ![ESD Prohibited Conductive Objects Diagram](../../../img/servers_img/common/esd_remove_conductive_items.png)
+    ![ESD Prohibited Conductive Objects Diagram](../../../servers_img/common/esd_remove_conductive_items.png)
 
 - 防静电腕带的两端必须接触良好，一端接触您的皮肤，另一端牢固地连接到机箱的 ESD 接口。佩戴防静电腕带的具体步骤请参见佩戴防静电腕带。
 - 在更换的过程中，应将所有还没有安装的服务器组件保留在带有防静电屏蔽功能的包装袋中，将暂时拆下来的服务器组件放置在具有防静电功能的泡沫塑料垫上。
@@ -38,7 +38,7 @@
 
 1. 如图所示，将手伸进防静电腕带。
 
-    ![ESD Wrist Strap Wearing Diagram](../../../img/servers_img/common/esd_wrist_strap.png)
+    ![ESD Wrist Strap Wearing Diagram](../../../servers_img/common/esd_wrist_strap.png)
 
 2. 拉紧锁扣，确认防静电腕带与皮肤接触良好。
 
@@ -111,9 +111,9 @@
 **方式三：通过远程虚拟控制台将服务器上电**
 
 1. 通过浏览器远程登录 aBMC。
- ![aBMC dashboard View](../../../img/servers_img/common/abmc_dashboard_view.png)
+ ![aBMC dashboard View](../../../servers_img/common/abmc_dashboard_view.png)
 2. 通过aBMC WebUI首页右上角的电源按钮设置为“ON”，服务器完成整机上电。
- ![aBMC Web Power Button View](../../../img/servers_img/common/abmc_power_button_view.png)
+ ![aBMC Web Power Button View](../../../servers_img/common/abmc_power_button_view.png)
 
 
 ## 服务器下电
@@ -187,14 +187,14 @@ aBMC 提供 Web 界面，通过可视化、友好的界面来帮助用户完成�
 #### 1. 将服务器连接到网络
 
 登录 aBMC 前，请先将 aBMC 管理接口连接到网络，确保本地 PC 和服务器路由可达，如下图所示。
- ![PC-Switch-Server Basic Network Connection Topology Diagram](../../../img/servers_img/common/pc_switch_server_basic_network_topology.png)
+ ![PC-Switch-Server Basic Network Connection Topology Diagram](../../../servers_img/common/pc_switch_server_basic_network_topology.png)
 
 服务器支持以下两种 aBMC 管理接口，详情请参考网络设置，你可以根据业务需求，选择合适的 aBMC 管理接口。
 
 - **aBMC 共享网口**：可以同时处理 aBMC 管理流量和服务器业务数据流量的网络接口。
 - **aBMC 专用网口**：专门用于处理 aBMC 管理流量的网络接口，如下图所示。
 
- ![MGMT Management Port Wiring Diagram](../../../img/servers_img/common/mgmt_port_cable_connection.png)
+ ![MGMT Management Port Wiring Diagram](../../../servers_img/common/mgmt_port_cable_connection.png)
 
 #### 2. 获取 aBMC 管理 IP 地址
 
@@ -202,7 +202,7 @@ aBMC 提供 Web 界面，通过可视化、友好的界面来帮助用户完成�
 
 > （此处为命令执行示例图）
 
- ![MGMT Port IP Query Command Output Screenshot](../../../img/servers_img/common/mgnt_ip_query_terminal_screenshot.png)
+ ![MGMT Port IP Query Command Output Screenshot](../../../servers_img/common/mgnt_ip_query_terminal_screenshot.png)
 
 #### 3. 访问aBMC
 通过Web浏览器即可访问aBMC。aBMC支持的浏览器版本及客户端分辨率如下表所示。
@@ -238,17 +238,17 @@ aBMC 提供 Web 界面，通过可视化、友好的界面来帮助用户完成�
 #### 5.4.2.2 登录aBMC Web页面
 本指南以Chrome浏览器为例介绍登录 aBMC 界面的操作步骤。
 1.  打开Chrome浏览器，在地址栏使用HTTPS方式输入 aBMC 管理IP地址（如https://192.168.1.2），弹出告警窗口，如下图所示。
-    ![aBMC Certificate Warning Operation Schematic Diagram](../../../img/servers_img/common/abmc_chrome_cert_warning_schematic.png)
+    ![aBMC Certificate Warning Operation Schematic Diagram](../../../servers_img/common/abmc_chrome_cert_warning_schematic.png)
 2. 点击“Advanced”按钮：当你看到类似于 “Your connection is not private”（你的连接不是私人连接）或者 “Warning: Potential Security Risk Ahead”（警告：潜在的安全风险）时，点击页面底部的 “Advanced” 按钮。
 3. 点击“Proceed to (site) (unsafe)”：通常在警告信息下方会有这个选项，点击它就能继续访问该网站。
 下图为aBMC登录页面
-    ![aBMC Login Page Schematic Diagram](../../../img/servers_img/common/abmc_login_page.png)
+    ![aBMC Login Page Schematic Diagram](../../../servers_img/common/abmc_login_page.png)
 4. 成功登录后可以看到aBMC整机设备概览，用户对服务器运行状态进行监控分析和健康检查。
 下图为设备列表页面，用户可以在可以通过此页面查看ARM计算单元运行信息和Shell命令行操作。
-![aBMC dashboard View](../../../img/servers_img/common/abmc_device_list.png)
+![aBMC dashboard View](../../../servers_img/common/abmc_device_list.png)
 下图为aBMC的“固件升级”页面，方便用户对ARM计算单元进行固件升级操作。
-![Add Firmware Upgrade Popup Schematic Diagram](../../../img/servers_img/common/abmc_fw_upgrade_popup.png)
-![Firmware Upgrade Task Monitoring Page Schematic Diagram](../../../img/servers_img/common/abmc_fw_upgrade_monitor_page.png)
+![Add Firmware Upgrade Popup Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_popup.png)
+![Firmware Upgrade Task Monitoring Page Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_monitor_page.png)
 5. 更多aBMC的操作请查看《aBMC用户指南》
 
 
@@ -274,7 +274,7 @@ aBMC 提供 Web 界面，通过可视化、友好的界面来帮助用户完成�
 3. 呼叫成功后输入用户名和密码。
 4. 登录成功。
 
-![BMC OS Release Query Command Line Schematic Diagram](../../../img/servers_img/common/cmd_os_release_info.png)
+![BMC OS Release Query Command Line Schematic Diagram](../../../servers_img/common/cmd_os_release_info.png)
 
 #### 5.4.3.2 使用 SSH 登录
 
