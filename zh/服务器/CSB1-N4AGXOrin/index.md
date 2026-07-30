@@ -3,3 +3,5 @@
 - [简介](introduction.md)
 - [specifications](specifications.md)
 - [软件兼容性](operations.md)
+# 常用操作
+- [服务器安装](op_server_installation.md)
