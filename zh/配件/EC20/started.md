@@ -79,7 +79,7 @@ EC20 是移远通信推出的 LTE Cat 4 无线通信模块，采用 LTE 3GPP Rel
 | 主控 | USB 线刷 | SD 卡升级 |
 | ---- | ---- | ---- |
 | PX30 | [AIO-PX30-JD4](../../核心板/Core-PX30-JD4/programming_firmware.md) | |
-| RK3128 | [Firefly-RK3128](../../主板/Firefly-RK3128/upgrade_firmware.md), [AIO-3128C](../../主板/AIO-3128C/upgrade_firmware.md)  |  |
+| RK3128 | [Firefly-RK3128](../../核心板/Core-3128J/upgrade_firmware.md), [AIO-3128C](../../主板/AIO-3128C/upgrade_firmware.md)  |  |
 | RK3288 | [Firefly-RK3288](../../主板/Firefly-RK3288/upgrade_firmware.md), [AIO-3288J](../../主板/AIO-3288J/upgrade_firmware.md),  [AIO-3288C](../../主板/AIO-3288C/upgrade_firmware.md) | [Firefly-RK3288](../../主板/Firefly-RK3288/upgrade_firmware_sd.md), [AIO-3288J](../../主板/AIO-3288J/upgrade_firmware_sd.md), [AIO-3288C](../../主板/AIO-3288C/upgrade_firmware_sd.md) |
 |RK3308| [ROC-RK3308-CC](../../主板/ROC-RK3308-CC/burning_firmware.md), [ROC-RK3308B-CC-PLUS](../../主板/ROC-RK3308B-CC-PLUS/03-upgrade_firmware.md) ||
 | RK3328 | [ROC-RK3328-CC](../../主板/ROC-RK3328-CC/flash_emmc.md), [ROC-RK3328-PC](../../主板/ROC-RK3328-PC/03-upgrade_firmware.md)  | [ROC-RK3328-CC](../../主板/ROC-RK3328-CC/flash_sd.md) |

@@ -61,7 +61,7 @@ Related documents and firmware download, see the official website [Resource Down
 | CPU | USB upgrade | SD upgrade |
 | ---- | ---- | ---- |
 | PX30 | [AIO-PX30-JD4](../../System%20on%20Module/Core-PX30-JD4/programming_firmware.md) | |
-| RK3128 | [Firefly-RK3128](../../Mainboards/Firefly-RK3128/Flash_Image.md), [AIO-3128C](../../Mainboards/AIO-3128C/upgrade_firmware.md)  |  |
+| RK3128 | [Firefly-RK3128](../../System%20on%20Module/Core-3128J/upgrade_firmware.md), [AIO-3128C](../../Mainboards/AIO-3128C/upgrade_firmware.md)  |  |
 | RK3288 | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/upgrade_firmware.md), [AIO-3288J](../../Mainboards/AIO-3288J/upgrade_firmware.md),  [AIO-3288C](../../Mainboards/AIO-3288C/upgrade_firmware.md) | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/upgrade_firmware_sd.md), [AIO-3288J](../../Mainboards/AIO-3288J/upgrade_firmware_sd.md), [AIO-3288C](../../Mainboards/AIO-3288C/upgrade_firmware_sd.md) |
 |RK3308| [ROC-RK3308-CC](../../Mainboards/ROC-RK3308-CC/burning_firmware.md), [ROC-RK3308B-CC-PLUS](../../Mainboards/ROC-RK3308B-CC-PLUS/03-upgrade_firmware.md) ||
 | RK3328 | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/flash_emmc.md), [ROC-RK3328-PC](../../Mainboards/ROC-RK3328-PC/03-upgrade_firmware.md)  | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/flash_sd.md) |
