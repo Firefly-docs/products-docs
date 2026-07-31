@@ -7,3 +7,5 @@
 - [电源操作](op_power.md)
 - [访问服务器（BMC）](op_login_bmc.md)
 - [访问子节点](op_login_sub.md)
+# 开发指南
+# 更多资料
