@@ -8,4 +8,5 @@
 - [访问服务器（BMC）](op_login_bmc.md)
 - [访问子节点](op_login_sub.md)
 # 开发指南
+- [dev_sub_firmware](dev_sub_firmware.md)
 # 更多资料
