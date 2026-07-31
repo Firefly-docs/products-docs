@@ -89,7 +89,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 
 | 主控 | USB 线刷 | SD 卡升级 |
 | ---- | ---- | ---- |
-|RK3399|[ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/03-upgrade_firmware.md), [AIO-3399JD4](../../主板/AIO-3399JD4/03-upgrade_firmware.md)<br> [AIO-3399J](../../主板/AIO-3399J/03-upgrade_firmware.md), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/03-upgrade_firmware.md)| [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/05-upgrade_firmware_sd.md), [AIO-3399JD4](../../主板/AIO-3399JD4/05-upgrade_firmware_sd.md)<br> [AIO-3399J](../../主板/AIO-3399J/05-upgrade_firmware_sd.md), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/05-upgrade_firmware_sd.md) | 
+|RK3399|[ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/03-upgrade_firmware.md), [AIO-3399JD4](../../核心板/Core-3399-JD4/03-upgrade_firmware.md)<br> [AIO-3399J](../../主板/AIO-3399J/03-upgrade_firmware.md), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/03-upgrade_firmware.md)| [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/05-upgrade_firmware_sd.md), [AIO-3399JD4](../../核心板/Core-3399-JD4/05-upgrade_firmware_sd.md)<br> [AIO-3399J](../../主板/AIO-3399J/05-upgrade_firmware_sd.md), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/05-upgrade_firmware_sd.md) |
 |RK3399Pro|[AIO-3399Pro-JD4](../../主板/AIO-3399Pro-JD4/03-upgrade_firmware.md), [AIO-3399ProC](../../主板/AIO-3399ProC/03-upgrade_firmware.md)| [AIO-3399Pro-JD4](../../主板/AIO-3399Pro-JD4/05-upgrade_firmware_sd.md), [AIO-3399ProC](../../主板/AIO-3399ProC/05-upgrade_firmware_sd.md) |
 |RK3566|[AIO-3566JD4](../../主板/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../主板/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
 |RK3568|[AIO-3568J](../../主板/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/03-upgrade_firmware.md) | [AIO-3568J](../../主板/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)| 
@@ -144,9 +144,9 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 
 | 系统 | 板卡型号 | 
 | ---- | ---- | 
-| Android7.1 Industry | [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/compile_android7.1_industry_firmware.md#gong-ban-bian-yi), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/compile_android7.1_industry_firmware.md#gong-ban-bian-yi), [AIO-3399JD4](../../主板/AIO-3399JD4/compile_android7.1_industry_firmware.md#gong-ban-bian-yi), [AIO-3399J](../../主板/AIO-3399J/compile_android7.1_industry_firmware.md#gong-ban-bian-yi) | 
+| Android7.1 Industry | [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/compile_android7.1_industry_firmware.md#gong-ban-bian-yi), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/compile_android7.1_industry_firmware.md#gong-ban-bian-yi), [AIO-3399JD4](../../核心板/Core-3399-JD4/compile_android7.1_industry_firmware.md#gong-ban-bian-yi), [AIO-3399J](../../主板/AIO-3399J/compile_android7.1_industry_firmware.md#gong-ban-bian-yi) |
 | Android10.0 | [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/compile_android10.0_firmware.md#gong-ban-bian-yi), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/compile_android10.0_firmware.md#gong-ban-bian-yi),[AIO-3399J](../../主板/AIO-3399J/compile_android10.0_firmware.md#gong-ban-bian-yi) | 
-| Ubuntu | [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/linux_compile_gpt.md), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/linux_compile_gpt.md), [AIO-3399JD4](../../主板/AIO-3399JD4/linux_compile_gpt.md), [AIO-3399J](../../主板/AIO-3399J/linux_compile_gpt.md) | 
+| Ubuntu | [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/linux_compile_gpt.md), [ROC-RK3399-PC-Pro](../../主板/ROC-RK3399-PC-Pro/linux_compile_gpt.md), [AIO-3399JD4](../../核心板/Core-3399-JD4/linux_compile_gpt.md), [AIO-3399J](../../主板/AIO-3399J/linux_compile_gpt.md) |
 
 ### RK3399Pro 系列
 
