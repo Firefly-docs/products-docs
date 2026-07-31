@@ -5,4 +5,5 @@
 - [远程登录服务器](operations.md)
 # 常用操作
 - [服务器安装](op_server_installation.md)
-- [op_power](op_power.md)
+- [电源操作](op_power.md)
+- [访问服务器（BMC）](op_login_bmc.md)
