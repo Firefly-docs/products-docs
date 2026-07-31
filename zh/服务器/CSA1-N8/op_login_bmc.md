@@ -1,8 +1,7 @@
-
 # 访问服务器（BMC）
-
 ## 登录须知
-BMC默认设置了缺省参数以方便用户操作，参数如下表所示。为了保证系统的安全性，建议在首次操作时修改缺省值，并定期更新。
+aBMC 出厂预设默认参数便于初次调试，下表为默认登录、网络、串口配置。出于设备安全，首次登录务必修改默认账号密码，并定期轮换更新。
+
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
   <thead>
@@ -47,105 +46,63 @@ BMC默认设置了缺省参数以方便用户操作，参数如下表所示。�
   </tbody>
 </table>
 
-## 登录 aBMC Web 远程虚拟控制台
+## 1 Web远程控制台登录
+aBMC 提供可视化Web管理界面，可完成服务器整机监控、硬件运维、固件升级等操作。
 
-aBMC 提供 Web 界面，通过可视化、友好的界面来帮助用户完成服务器的管理。
+### 1.1 环境准备
+#### 1.1.1 服务器网络接线
+登录前将 aBMC 管理网口接入局域网，保证操作PC与BMC管理IP三层互通。
+![PC-Switch-Server Basic Network Connection Topology Diagram](../../../servers_img/common/pc_switch_server_basic_network_topology.png)
 
-### 环境准备
+支持两类管理网口，按需选用：
+- **共享网口**：复用服务器业务网卡，同时承载业务流量与BMC管理流量；
+- **专用MGMT网口**：独立硬件网口，仅传输BMC管理指令，隔离业务网络。
 
-#### 1. 将服务器连接到网络
+![MGMT Management Port Wiring Diagram](../../../servers_img/common/mgmt_port_cable_connection.png)
 
-登录 aBMC 前，请先将 aBMC 管理接口连接到网络，确保本地 PC 和服务器路由可达，如下图所示。
- ![PC-Switch-Server Basic Network Connection Topology Diagram](../../../servers_img/common/pc_switch_server_basic_network_topology.png)
+#### 1.1.2 查询aBMC管理IP
+可在服务器本地Linux系统执行 `ip` / `ifconfig` 命令，读取MGMT网口IP地址。
+![MGMT Port IP Query Command Output Screenshot](../../../servers_img/common/mgnt_ip_query_terminal_screenshot.png)
 
-服务器支持以下两种 aBMC 管理接口，详情请参考网络设置，你可以根据业务需求，选择合适的 aBMC 管理接口。
+### 1.2 Web客户端环境要求
+浏览器兼容性与分辨率标准如下：
+| 浏览器 | 最低版本 | 分辨率要求 |
+| :--- | :--- | :--- |
+| Google Chrome | 48.0 及以上 | ≥1366*768，推荐 1600*900 及以上 |
+| Mozilla Firefox | 50.0 及以上 | ≥1366*768，推荐 1600*900 及以上 |
+| Internet Explorer | 11 及以上 | ≥1366*768，推荐 1600*900 及以上 |
+| Microsoft Edge | 97 及以上 | ≥1366*768，推荐 1600*900 及以上 |
 
-- **aBMC 共享网口**：可以同时处理 aBMC 管理流量和服务器业务数据流量的网络接口。
-- **aBMC 专用网口**：专门用于处理 aBMC 管理流量的网络接口，如下图所示。
-
- ![MGMT Management Port Wiring Diagram](../../../servers_img/common/mgmt_port_cable_connection.png)
-
-#### 2. 获取 aBMC 管理 IP 地址
-
-登录 aBMC 前，需要先获取 aBMC 管理 IP（aBMC 专用网口/共享网卡的 IP 地址）。可以通过 Linux 系统的网络命令（`ip` 或 `ifconfig`）来获取 aBMC 管理 IP 地址，如下图所示使用 `ip` 命令获取 MGMT 网卡 IP 地址：
-
-> （此处为命令执行示例图）
-
- ![MGMT Port IP Query Command Output Screenshot](../../../servers_img/common/mgnt_ip_query_terminal_screenshot.png)
-
-### 3. 访问aBMC
-通过Web浏览器即可访问aBMC。aBMC支持的浏览器版本及客户端分辨率如下表所示。
-**WEB客户端配置需求**
-
-<table border="1" cellPadding="8" cellSpacing="0" width="100%">
-  <thead>
-    <tr>
-      <th>浏览器版本</th>
-      <th>默认值分辨率</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Google Chrome 48.0 及以上</td>
-      <td rowSpan="4">要求不低于 1366*768，推荐设置为 1600*900 或更高</td>
-    </tr>
-    <tr>
-      <td>Mozilla Firefox 50.0 及以上</td>
-    </tr>
-    <tr>
-      <td>Internet Explorer 11 及以上</td>
-    </tr>
-    <tr>
-      <td>Microsoft Edge 97 及以上</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### 登录aBMC Web页面
-本指南以Chrome浏览器为例介绍登录 aBMC 界面的操作步骤。
-1.  打开Chrome浏览器，在地址栏使用HTTPS方式输入 aBMC 管理IP地址（如https://192.168.1.2），弹出告警窗口，如下图所示。
+### 1.3 Web页面登录步骤
+以Chrome浏览器为例：
+1. 浏览器地址栏输入 `https://aBMC管理IP`，访问时弹出证书安全告警。
     ![aBMC Certificate Warning Operation Schematic Diagram](../../../servers_img/common/abmc_chrome_cert_warning_schematic.png)
-2. 点击“Advanced”按钮：当你看到类似于 “Your connection is not private”（你的连接不是私人连接）或者 “Warning: Potential Security Risk Ahead”（警告：潜在的安全风险）时，点击页面底部的 “Advanced” 按钮。
-3. 点击“Proceed to (site) (unsafe)”：通常在警告信息下方会有这个选项，点击它就能继续访问该网站。
-下图为aBMC登录页面
+2. 点击页面 `Advanced（高级）`；
+3. 选择 `Proceed to (site) (unsafe)` 忽略证书告警，跳转登录页。
     ![aBMC Login Page Schematic Diagram](../../../servers_img/common/abmc_login_page.png)
-4. 成功登录后可以看到aBMC整机设备概览，用户对服务器运行状态进行监控分析和健康检查。
-下图为设备列表页面，用户可以在可以通过此页面查看ARM计算单元运行信息和Shell命令行操作。
-![aBMC dashboard View](../../../servers_img/common/abmc_device_list.png)
-下图为aBMC的“固件升级”页面，方便用户对ARM计算单元进行固件升级操作。
-![Add Firmware Upgrade Popup Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_popup.png)
-![Firmware Upgrade Task Monitoring Page Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_monitor_page.png)
-5. 更多aBMC的操作请查看《aBMC用户指南》
+4. 输入默认账号密码登录，进入整机总览面板：
+    - 设备面板：查看ARM计算单元硬件运行状态、执行底层Shell命令；
+    ![aBMC dashboard View](../../../servers_img/common/abmc_device_list.png)
+    - 固件升级页面：批量更新各计算单元固件；
+    ![Add Firmware Upgrade Popup Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_popup.png)
+    ![Firmware Upgrade Task Monitoring Page Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_monitor_page.png)
 
+> 安全提示：首次登录请立即修改默认账号密码，并定期更新，降低设备入侵风险。
+> 完整功能说明参考配套《aBMC用户指南》。
 
-
-### 登录aBMC 命令行
-<div>
-  <h3>Explanation</h3>
-  <ul style="padding-left: 24px; margin: 10px 0;">
-    <li>为保证系统的安全性，初次登录时，请及时修改初始密码，并定期更新。</li>
-  </ul>
-</div>
-
-
-### 通过 Console 串口登录
-
-1. 使用 RJ45 串口线连接 Console。
-2. 通过超级终端登录串口命令行，需要设置的参数有：
-   - 波特率：115200
-   - 数据位：8
-   - 奇偶校验：无
-   - 停止位：1
-   - 数据流控制：无
-3. 呼叫成功后输入用户名和密码。
-4. 登录成功。
+## 2 Console串口登录
+1. 使用RJ45串口线连接服务器Console口与调试终端；
+2. 终端软件参数配置：
+    - 波特率：115200
+    - 数据位：8
+    - 奇偶校验：无
+    - 停止位：1
+    - 流控：无
+3. 连接建立后输入BMC Linux账号密码；
+4. 登录完成，可执行底层系统查询命令。
 
 ![BMC OS Release Query Command Line Schematic Diagram](../../../servers_img/common/cmd_os_release_info.png)
 
-#### 使用 SSH 登录
-
-1. 可以使用系统 `ssh` 命令或者 MobaXterm 通过 SSH 登录 BMC。
-2. 输入默认账号密码。
+## 3 SSH远程登录
+1. 本地使用系统自带 `ssh` 工具或MobaXterm等终端软件；
+2. 填入aBMC管理IP、默认账号密码完成登录。
