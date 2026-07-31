@@ -64,7 +64,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 | RK3566 | [AIO-3566JD4](../../../modules_img/IMX415/imx415_AIO-3566-JD4.jpg), [ROC-RK3566-PC](../../../modules_img/IMX415/imx415_ROC-RK3566-PC.jpg) |
 | RK3568 | [AIO-3568J](../../../modules_img/IMX415/imx415_AIO-3568J.jpg), [ROC-RK3568-PC](../../../modules_img/IMX415/imx415_ROC-3568-PC.jpg), [ROC-RK3568-PC SE](../../../modules_img/IMX415/imx415_ROC-3568-PC%20SE.jpg) |
 | RK3588 | [ITX-3588J](../../../modules_img/IMX415/imx415_ITX-3588J.jpg),[ROC-RK3588S-PC](../../../modules_img/IMX415/imx415_ROC-RK3588S-PC.jpg), [AIO-3588SJD4](../../../modules_img/IMX415/imx415_AIO-3588SJD4.jpg),[AIO-3588Q](../../../modules_img/IMX415/imx415_AIO-3588Q.jpg), [AIO-3588JD4](../../主板/AIO-3588JD4/usage_camera.md) |
-| RK3576 | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/usage_camera.md)，[AIO-3576-JD4](../../主板/AIO-3576-JD4/usage_camera.md)，[AIO-3576Q](../../主板/AIO-3576Q/usage_camera.md), [AIO-3576C](../../主板/AIO-3576C/usage_camera.md)|
+| RK3576 | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/usage_camera.md)，[AIO-3576JD4](../../主板/AIO-3576JD4/usage_camera.md)，[AIO-3576Q](../../主板/AIO-3576Q/usage_camera.md), [AIO-3576C](../../主板/AIO-3576C/usage_camera.md)|
 
 
 # 三、固件与资料下载
@@ -87,7 +87,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 |RK3566|[AIO-3566JD4](../../主板/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../主板/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/05-upgrade_firmware_sd.md) |
 |RK3568|[AIO-3568J](../../主板/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/03-upgrade_firmware.md) | [AIO-3568J](../../主板/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)|
 |RK3588|[ITX-3588J](../../主板/ITX-3588J/upgrade_firmware.md), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/upgrade_firmware.md), [AIO-3588SJD4](../../主板/AIO-3588SJD4/upgrade_firmware.md),[AIO-3588Q](../../主板/AIO-3588Q/upgrade_firmware.md), [AIO-3588JD4](../../主板/AIO-3588JD4/upgrade_firmware.md)|[ITX-3588J](../../主板/ITX-3588J/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/upgrade_firmware_sd.md), [AIO-3588SJD4](../../主板/AIO-3588SJD4/upgrade_firmware_sd.md) , [AIO-3588Q](../../主板/AIO-3588Q/upgrade_firmware_sd.md), [AIO-3588JD4](../../主板/AIO-3588JD4/upgrade_firmware_sd.md)|
-|RK3576|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/upgrade_firmware.md),[AIO-3576-JD4](../../主板/AIO-3576-JD4/upgrade_firmware.md),[AIO-3576Q](../../主板/AIO-3576Q/upgrade_firmware.md)|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/upgrade_firmware_sd.md),[AIO-3576-JD4](../../主板/AIO-3576-JD4/upgrade_firmware_sd.md),[AIO-3576Q](../../主板/AIO-3576Q/upgrade_firmware_sd.md),[AIO-3576C](../../主板/AIO-3576C/upgrade_firmware_sd.md)|
+|RK3576|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/upgrade_firmware.md),[AIO-3576JD4](../../主板/AIO-3576JD4/upgrade_firmware.md),[AIO-3576Q](../../主板/AIO-3576Q/upgrade_firmware.md)|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/upgrade_firmware_sd.md),[AIO-3576JD4](../../主板/AIO-3576JD4/upgrade_firmware_sd.md),[AIO-3576Q](../../主板/AIO-3576Q/upgrade_firmware_sd.md),[AIO-3576C](../../主板/AIO-3576C/upgrade_firmware_sd.md)|
 
 ## 固件制作
 
@@ -120,5 +120,5 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 
 | 系统 | 板卡型号 | 
 | ---- | ---- | 
-| Android14.0 | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/android_compile_android14.0_firmware.md)，[AIO-3576-JD4](../../主板/AIO-3576-JD4/android_compile_android14.0_firmware.md)，[AIO-3576Q](../../主板/AIO-3576Q/android_compile_android14.0_firmware.md), [AIO-3576C](../../主板/AIO-3576C/android_compile_android14.0_firmware.md)|
-| Linux | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/linux_compile.md)，[AIO-3576-JD4](../../主板/AIO-3576-JD4/linux_compile.md)，[AIO-3576Q](../../主板/AIO-3576Q/linux_compile.md)，[AIO-3576C](../../主板/AIO-3576C/linux_compile.md)|
+| Android14.0 | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/android_compile_android14.0_firmware.md)，[AIO-3576JD4](../../主板/AIO-3576JD4/android_compile_android14.0_firmware.md)，[AIO-3576Q](../../主板/AIO-3576Q/android_compile_android14.0_firmware.md), [AIO-3576C](../../主板/AIO-3576C/android_compile_android14.0_firmware.md)|
+| Linux | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/linux_compile.md)，[AIO-3576JD4](../../主板/AIO-3576JD4/linux_compile.md)，[AIO-3576Q](../../主板/AIO-3576Q/linux_compile.md)，[AIO-3576C](../../主板/AIO-3576C/linux_compile.md)|

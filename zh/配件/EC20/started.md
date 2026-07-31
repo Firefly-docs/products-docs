@@ -78,7 +78,7 @@ EC20 是移远通信推出的 LTE Cat 4 无线通信模块，采用 LTE 3GPP Rel
 
 | 主控 | USB 线刷 | SD 卡升级 |
 | ---- | ---- | ---- |
-| PX30 | [AIO-PX30-JD4](../../主板/AIO-PX30-JD4/programming_firmware.md) | |
+| PX30 | [AIO-PX30-JD4](../../核心板/Core-PX30-JD4/programming_firmware.md) | |
 | RK3128 | [Firefly-RK3128](../../主板/Firefly-RK3128/upgrade_firmware.md), [AIO-3128C](../../主板/AIO-3128C/upgrade_firmware.md)  |  |
 | RK3288 | [Firefly-RK3288](../../主板/Firefly-RK3288/upgrade_firmware.md), [AIO-3288J](../../主板/AIO-3288J/upgrade_firmware.md),  [AIO-3288C](../../主板/AIO-3288C/upgrade_firmware.md) | [Firefly-RK3288](../../主板/Firefly-RK3288/upgrade_firmware_sd.md), [AIO-3288J](../../主板/AIO-3288J/upgrade_firmware_sd.md), [AIO-3288C](../../主板/AIO-3288C/upgrade_firmware_sd.md) |
 |RK3308| [ROC-RK3308-CC](../../主板/ROC-RK3308-CC/burning_firmware.md), [ROC-RK3308B-CC-PLUS](../../主板/ROC-RK3308B-CC-PLUS/03-upgrade_firmware.md) ||
@@ -87,7 +87,7 @@ EC20 是移远通信推出的 LTE Cat 4 无线通信模块，采用 LTE 3GPP Rel
 |RK3399Pro|[AIO-3399Pro-JD4](../../主板/AIO-3399Pro-JD4/03-upgrade_firmware.md), [AIO-3399ProC](../../主板/AIO-3399ProC/03-upgrade_firmware.md)| [AIO-3399Pro-JD4](../../主板/AIO-3399Pro-JD4/05-upgrade_firmware_sd.md), [AIO-3399ProC](../../主板/AIO-3399ProC/05-upgrade_firmware_sd.md) |
 |RK3566|[AIO-3566JD4](../../主板/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../主板/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
 |RK3568|[AIO-3568J](../../主板/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/03-upgrade_firmware.md) | [AIO-3568J](../../主板/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)| 
-| RV1126_RV1109|[AIO-1126-JD4](../../主板/AIO-1126-JD4/upgrade.md), [AIO-1109-JD4](../../主板/AIO-1109-JD4/upgrade.md), [CAM-C1126S2U](../../AI摄像机/CAM-C1126S2U/upgrade_firmware.md), [CAM-C1109S2U](../../AI摄像机/CAM-C1109S2U/upgrade_firmware.md) | [AIO-1126-JD4](../../主板/AIO-1126-JD4/upgrade.md#shi-yong-sd-ka-sheng-ji-gu-jian), [AIO-1109-JD4](../../主板/AIO-1109-JD4/upgrade.md#shi-yong-sd-ka-sheng-ji-gu-jian)
+| RV1126_RV1109|[AIO-1126-JD4](../../核心板/Core-1126-JD4/upgrade_firmware.md), [AIO-1109-JD4](../../核心板/Core-1109-JD4/upgrade_firmware.md), [CAM-C1126S2U](../../AI摄像机/CAM-C1126S2U/upgrade_firmware.md), [CAM-C1109S2U](../../AI摄像机/CAM-C1109S2U/upgrade_firmware.md) | [AIO-1126-JD4](../../核心板/Core-1126-JD4/upgrade_firmware_sd.md), [AIO-1109-JD4](../../核心板/Core-1109-JD4/upgrade_firmware_sd.md)
 |RK3588|[ITX-3588J](../../主板/ITX-3588J/upgrade_firmware.md), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/upgrade_firmware.md), [AIO-3588SJD4](../../主板/AIO-3588SJD4/upgrade_firmware.md),[AIO-3588Q](../../主板/AIO-3588Q/upgrade_firmware.md)|[ITX-3588J](../../主板/ITX-3588J/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/upgrade_firmware_sd.md), [AIO-3588SJD4](../../主板/AIO-3588SJD4/upgrade_firmware_sd.md) ,[AIO-3588Q](../../主板/AIO-3588Q/upgrade_firmware_sd.md)|
 |RK3576|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/upgrade_firmware.md), [AIO-3576Q](../../主板/AIO-3576Q/upgrade_firmware.md), [AIO-3576C](../../主板/AIO-3576C/upgrade_firmware.md)|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/upgrade_firmware_sd.md), [AIO-3576Q](../../主板/AIO-3576Q/upgrade_firmware_sd.md), [AIO-3576C](../../主板/AIO-3576C/upgrade_firmware_sd.md)|
 
