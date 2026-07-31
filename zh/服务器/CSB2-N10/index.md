@@ -2,8 +2,8 @@
 - [前言](preface.md)
 - [简介](introduction.md)
 - [产品规格和组件](specifications.md)
-- [远程登录服务器](operations.md)
 # 常用操作
 - [服务器安装](op_server_installation.md)
 - [电源操作](op_power.md)
 - [访问服务器（BMC）](op_login_bmc.md)
+- [访问子节点](op_login_sub.md)
