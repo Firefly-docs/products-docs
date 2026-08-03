@@ -878,3 +878,122 @@ sudo python3 example.py
 ```
 
 Use the output address to check the result.
+
+## AidVoice
+
+AidVoice SDK is an AI inference SDK specifically designed for voice-related models launched by Aplux. It aims to simplify the development of core voice processing functions based on edge AI technology, allowing for flexible and rapid integration into intelligent applications. The SDK provides a unified and efficient API, supporting industry-leading voice processing AI models to meet the requirements of various business scenarios.
+
+* Install requirements
+```bash
+sudo apt install aid-pkg
+sudo aid-pkg -i -d aidvoice-sdk_1.4.0.68_arm64_22.04.aid.gpg #You'll need to get the installation package from the relevant person.
+```
+
+* development flow diagram
+
+* ASR
+ASR: Recognizing Audio Files on Linux System
+
+![](../../../qcom_img/AIBOX-9075/aidvoice-workflow-asr-en.png)
+
+* TTS
+TTS: Text-to-Speech on Linux System
+
+![](../../../qcom_img/AIBOX-9075/aidvoice-workflow-tts_en.png)
+
+* demo
+
+### Whisper-small（ASR）
+
+Whisper-small is a mid-sized model in OpenAI’s Whisper series, striking a strong balance between model size and recognition accuracy. Compared to the tiny and base versions, Whisper-small includes more parameters and improved modeling capacity, resulting in higher transcription accuracy, especially in noisy environments, multilingual settings, and long-form speech. It is well-suited for use cases that demand higher recognition quality—such as meeting transcription, customer service, and speech-to-text platforms—while maintaining efficient performance for deployment on mid-tier computing devices.
+
+* Use mms command to download Whisper-small model, need Model Farm account.
+```bash
+# login, enter the account and password of the Model Farm according to the prompt
+mms login
+
+# list and download model
+mms list | grep Whisper-small
+mms get -m Whisper-small -p fp16 -c qcs8550 -b qnn2.31 -d ./
+```
+
+* extract model
+```bash
+mkdir Whisper-small
+unzip Whisper-small_qcs8550_fp16.zip.zip -d ./Whisper-small/
+cd Whisper-small
+```
+
+* Test Code Compilation
+```bash
+# Copy test code：
+cp -r /usr/local/share/aidvoice/examples ./
+
+# Compile
+cd examples/asr/cpp
+mkdir build && cd build
+cmake ..
+make
+```
+
+* Run Example
+```bash
+# -m model path   
+# -a Audio path, optional if there's a default value
+./test_asr -m ../../../../models/QCS8550/FP16
+```
+
+* check the result.
+
+![](../../../qcom_img/AIBOX-9075/Whisper-small_result.png)
+
+### MeloTTS-English（TTS）
+MeloTTS-English is a high-quality multilingual text-to-speech (TTS) model jointly developed by MIT and MyShell.ai, supporting various English accents, including American, British, Indian, Australian, and default accents. The model leverages advanced Transformer architecture, integrating technologies such as VITS, VITS2, and Bert-VITS2, aiming to provide natural and fluent speech synthesis.
+Key Features
+1. Multi-accent Support: Includes American, British, Indian, Australian, and default accents.
+2. Real-time Inference: Optimized for real-time inference on CPUs without the need for GPU acceleration.
+3. High-Quality Speech Output: Generates natural and clear speech suitable for various applications.
+4. Easy Integration: Provides a Python API for seamless integration into applications.
+5. Open Source License: Licensed under MIT, supporting both commercial and non-commercial use.
+Technical Architecture
+MeloTTS-English is based on Transformer architecture, combined with advanced technologies such as VITS, VITS2, and Bert-VITS2, enabling the generation of high-quality speech output.
+
+* Use mms command to download MeloTTS-English model, need Model Farm account.
+```bash
+# login, enter the account and password of the Model Farm according to the prompt
+mms login
+
+# list and download model
+mms list | grep MeloTTS-English
+mms get -m MeloTTS-English -p fp16 -c qcs8550 -b qnn2.31 -d ./
+```
+
+* extract model
+```bash
+mkdir MeloTTS-English
+unzip MeloTTS-English_qcs8550_fp16.zip -d ./MeloTTS-English/
+cd MeloTTS-English
+```
+
+* Test Code Compilation
+```bash
+# Copy test code：
+cp -r /usr/local/share/aidvoice/examples ./
+
+# Compile
+cd examples/tts/cpp
+mkdir build && cd build
+cmake ..
+make
+```
+
+* Run Example
+```bash
+# -m model path   
+# -a Audio path, optional if there's a default value
+./test_tts -m ../../../../models/QCS8550/FP16
+```
+
+* check the result
+
+![](../../../qcom_img/AIBOX-9075/MeloTTS-English_result.png)

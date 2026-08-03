@@ -880,3 +880,120 @@ sudo python3 example.py
 ```
 
 然后通过视频输出地址查看处理结果。
+
+## AidVoice
+
+AidVoice SDK 是阿加犀推出的专门针对语音类模型的 AI 推理 SDK，旨在简化开发者开发基于端侧 AI 技术的语音处理核心功能，灵活快速的集成到智能应用中。SDK 提供了统一高效的 API，支持业界领先的语音处理 AI 模型，可满足不同业务场景需求。
+
+* 安装依赖
+```bash
+sudo apt install aid-pkg
+sudo aid-pkg -i -d aidvoice-sdk_1.4.0.68_arm64_22.04.aid.gpg #安装包需要找相关人员获取
+```
+
+* 开发流程图
+
+* ASR
+ASR：在Linux 系统中识别音频文件
+
+![](../../../qcom_img/AIBOX-9075/aidvoice-workflow-asr_zh.png)
+
+* TTS
+TTS：在Linux 系统中文字转语音
+
+![](../../../qcom_img/AIBOX-9075/aidvoice-workflow-tts_zh.png)
+
+* 例子
+
+### Whisper-small（ASR）
+Whisper-small 是 OpenAI Whisper 系列中的中等体积模型，在模型大小与识别精度之间实现了良好平衡。相比 tiny 和 base 版本，Whisper-small 拥有更多的参数和更强的建模能力，能提供更高的语音识别准确率，尤其在嘈杂环境、多语种语音以及长语音序列中表现更稳定。该模型适用于对识别质量有较高要求的场景，如会议记录、客户服务、语音转写平台等，同时依然具备较好的运行效率，适合中端计算设备部署。
+
+* 通过 mms 命令下载对应的 Whisper-small 模型，需要提前注册模型广场的账号。
+```bash
+# 登录，根据提示输入模型广场的账户和密码
+mms login
+
+# 列举并下载模型
+mms list | grep Whisper-small
+mms get -m Whisper-small -p fp16 -c qcs8550 -b qnn2.31 -d ./
+```
+
+* 解压模型
+```bash
+mkdir Whisper-small
+unzip Whisper-small_qcs8550_fp16.zip.zip -d ./Whisper-small/
+cd Whisper-small
+```
+
+* 拷贝示例工程目录到模型目录并编译
+```bash
+# 拷贝工程目录到模型目录：
+cp -r /usr/local/share/aidvoice/examples ./
+
+# 编译
+cd examples/asr/cpp
+mkdir build && cd build
+cmake ..
+make
+```
+
+* 调用执行
+```bash
+# -m 模型路径   
+# -a 音频路径，有默认值可不传
+./test_asr -m ../../../../models/QCS8550/FP16
+```
+
+* 检查生成的结果
+
+![](../../../qcom_img/AIBOX-9075/Whisper-small_result.png)
+
+### MeloTTS-English（TTS）
+MeloTTS-English 是由 MIT 和 MyShell.ai 联合开发的高质量多语言文本转语音（TTS）模型，支持多种英语口音，包括美式、英式、印度式、澳大利亚式和默认口音。该模型采用先进的 Transformer 架构，融合了 VITS、VITS2 和 Bert-VITS2 等技术，旨在提供自然、流畅的语音合成体验。
+核心特性
+1. 多口音支持：包括美式、英式、印度式、澳大利亚式和默认口音。
+2. 实时推理：优化为支持 CPU 上的实时推理，无需 GPU 加速。
+3. 高质量语音输出：生成自然、清晰的语音，适用于多种应用场景。
+4. 易于集成：提供 Python API，方便开发者集成到各种应用中。
+5. 开源许可：采用 MIT 许可证，支持商业和非商业用途。
+技术架构
+MeloTTS-English 基于 Transformer 架构，结合了 VITS、VITS2 和 Bert-VITS2 等先进技术，能够生成高质量的语音输出。
+* 通过 mms 命令下载对应的 Whisper-small 模型，需要提前注册模型广场的账号。
+```bash
+# 登录，根据提示输入模型广场的账户和密码
+mms login
+
+# 列举并下载模型
+mms list | grep MeloTTS-English
+mms get -m MeloTTS-English -p fp16 -c qcs8550 -b qnn2.31 -d ./
+```
+
+* 解压模型
+```bash
+mkdir MeloTTS-English
+unzip MeloTTS-English_qcs8550_fp16.zip -d ./MeloTTS-English/
+cd MeloTTS-English
+```
+
+* 拷贝示例工程目录到模型目录并编译
+```bash
+# 拷贝工程目录到模型目录：
+cp -r /usr/local/share/aidvoice/examples ./
+
+# 编译
+cd examples/tts/cpp
+mkdir build && cd build
+cmake ..
+make
+```
+
+* 调用执行
+```bash
+# -m 模型路径   
+# -a 音频路径，有默认值可不传
+./test_tts -m ../../../../models/QCS8550/FP16
+```
+
+* 检查生成的结果
+
+![](../../../qcom_img/AIBOX-9075/MeloTTS-English_result.png)
