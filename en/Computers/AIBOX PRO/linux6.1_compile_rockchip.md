@@ -20,12 +20,12 @@ Depand on **Main Module**, Please contact sales@t-firefly.com to get **RK3588 Ke
 ## Compile Debian Firmware
 <font color=red> Download SDK First. </font>
 
-!INCLUDE "./linux6.1_compile_debian_aibox-pro-3588.mdpp"
+!INCLUDE "./linux6.1_compile_debian_aibox-pro-3588.md"
 
 ## Compile Ubuntu Firmware
 <font color=red> Download SDK First. </font>
 
-!INCLUDE "./linux6.1_compile_ubuntu_aibox-pro-3588.mdpp"
+!INCLUDE "./linux6.1_compile_ubuntu_aibox-pro-3588.md"
 
 ## Export Main Module Rootfs
 Reference [Export device rootfs](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/first_use.html#export-device-system)

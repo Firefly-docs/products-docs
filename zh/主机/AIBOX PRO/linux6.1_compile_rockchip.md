@@ -20,12 +20,12 @@
 ## 编译 Debian 固件
 <font color=red> 先获取 SDK。 </font>
 
-!INCLUDE "./linux6.1_compile_debian_aibox-pro-3588.mdpp"
+!INCLUDE "./linux6.1_compile_debian_aibox-pro-3588.md"
 
 ## 编译 Ubuntu 固件
 <font color=red> 先获取 SDK。 </font>
 
-!INCLUDE "./linux6.1_compile_ubuntu_aibox-pro-3588.mdpp"
+!INCLUDE "./linux6.1_compile_ubuntu_aibox-pro-3588.md"
 
 ## 导出主核心模组的 rootfs
 参考 [导出设备系统](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/first_use.html#dao-chu-she-bei-xi-tong)
