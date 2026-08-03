@@ -116,8 +116,8 @@
           <li>计算子节点可通过BMC提供的网络共享方式，间接的访问硬盘。</li>
         </ul>
       </td>
-      <td>6（SATA硬盘）</td>
-      <td>BMC PCIE 转 SATA</td>
+      <td>1（SATA硬盘）</td>
+      <td>BMC直出SATA</td>
     </tr>
   </tbody>
 </table>
@@ -172,12 +172,9 @@
     </tr>
   </tbody>
 </table>
+### 后面板接口
 
-###  后面板接口及按键
-
-| 标识 | 接口/按键 | 说明 |
+| 标识 | 接口名称 | 说明 |
 | :--- | :--- | :--- |
-| USB 3.0 | USB 3.0 接口 | 可连接键盘、鼠标或 U 盘等设备 |
-| Type-C | Type-C 接口 | 用于 OTG 功能 |
-| Recovery | Recovery 键 | 用于进入 Recovery 模式 |
-| Reset | Reset 键 | 用于复位系统 |
+| 232 | DB9 | - 波特率为 115200 |
+| 485 | DB9 | - 波特率为 115200 |

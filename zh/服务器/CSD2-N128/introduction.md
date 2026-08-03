@@ -2,13 +2,8 @@
 CSD2-N128 是一款2U机架式的ARM准系统高密度阵列式服务器。该服务器面向互联网、AI边缘计算、云计算、大数据和视频边缘计算等领域，具有高性能计算、低能耗、易管理和易部署等优点。
 
 ![perspective view](../../../servers_img/CSD2-N128/perspective_view.png)
+
 功能亮点
-
-
-| 功能亮点 | 描述 |
-| :--- | :--- |
-| **服务器形态** | 描述 |
-
 - 服务器准系统 aBMC
     搭载Firefly自研BMC管理系统，萤火服务器高级管理系统（Firefly Advanced Baseboard Management Controller，以下简称aBMC）是专门面向阵列式服务器设计开发的服务器嵌入式管理系统。通过它可以高效实现阵列式服务器的监控、简化配置、异常告警、远程运维（如软件KVM）和虚拟换管理等功能。aBMC提供CLI命令行和Redfish等系列管理工具，为二次开发提供了丰富的潜力。
 - 灵活配置
