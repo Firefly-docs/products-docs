@@ -1,7 +1,7 @@
 # 产品文档
 - [前言](preface.md)
 - [简介](introduction.md)
-- [specifications](specifications.md)
+- [产品规格和组件](specifications.md)
 # 常用操作
 - [服务器安装](op_server_installation.md)
 - [电源操作](op_power.md)
