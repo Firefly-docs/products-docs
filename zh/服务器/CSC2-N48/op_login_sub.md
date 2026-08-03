@@ -79,3 +79,82 @@
 3. 终端显示类似 `CS_B1_rk3576_jd4_sub:/ #` 的提示符时，表示已经进入目标子节点的 ADB Shell，可以执行所需的节点维护命令。
 
 ![子节点 ADB 终端](../../../servers_img/common/abmc_subnode_adb_terminal_en.png)
+
+
+## SSH 登录
+
+### 配置子板静态 IPv4 地址
+
+1. 在左侧导航栏中选择 **Devices**。
+2. 在设备菜单中选择 **Network**。也可以直接访问 `http://172.16.100.172:443/#/deviceManage/boardNetManage`；实际使用时请替换为设备的管理地址和端口。
+3. 根据 **Device Name**、**Net Card** 和 **MAC Address** 找到目标子板共享网口对应的网卡，然后单击该行的 **Configure**。
+
+![打开子板网络配置](../../../servers_img/common/abmc_configure_subboard_network_en.png)
+
+<Callout title="网卡选择" type="warn">
+  必须选择与服务器共享网口对应的子板网卡。不要修改 `bmc/MGMT` 管理口或子板内部互联使用的网卡；如果无法确认接口，请结合产品网口说明、网卡名称和 MAC 地址进行核对。
+</Callout>
+
+1. 在 **IPv4 Configuration** 页签中，将 **IPv4 Mode** 设置为 **Manual**。
+2. 按网络规划填写 **Address** 和 **Subnet Mask**；需要跨网段访问时，再填写 **Gateway** 和 **Gateway Priority**。
+3. 检查地址没有被其他设备占用后，单击 **Confirm** 保存配置。
+
+![配置子板静态 IPv4](../../../servers_img/common/abmc_set_subboard_static_ipv4_en.png)
+
+图中使用以下示例配置，实际部署时必须替换为现场规划的地址：
+
+| 参数 | 示例值 | 说明 |
+| --- | --- | --- |
+| Address | `192.168.10.10` | 目标子板共享网口的静态 IPv4 地址。 |
+| Subnet Mask | `255.255.255.0` | 对应 `/24` 网络前缀。 |
+| Gateway | `192.168.10.1` | 跨网段访问时使用；电脑与子板位于同一二层网络时可以不配置。 |
+| Gateway Priority | `100` | 多个网关或默认路由并存时使用，取值应符合现场网络规划。 |
+| DNS | `114.114.114.114` | 使用 IP 地址进行 SSH 登录时不是必填项。 |
+
+保存后返回 **Network** 页面，确认目标网卡的 **IPv4 Address** 已更新。网络配置生效期间，该子板的网络连接可能会短暂中断。
+
+### 接入服务器共享网口
+
+1. 使用网线将维护电脑接入交换机。
+2. 确认电脑端口与服务器端口属于同一交换网络和 VLAN。
+3. 使用网线将服务器共享网口接入同一交换机。
+
+![共享网口网络连接](../../../servers_img/common/pc_switch_shared_network_topology_steps.png)
+
+将维护电脑设置为与子板静态 IP 相同的网段，且地址不能重复。例如子板为 `192.168.10.10/24` 时，电脑可以设置为 `192.168.10.100/24`。
+
+在电脑终端中测试网络连通性：
+
+```bash
+ping 192.168.10.10
+```
+
+能够收到子板回复后，再执行 SSH 登录。如果无法连通，请检查共享网口接线、交换机 VLAN、电脑 IP、子板静态 IP 和防火墙配置。
+
+### 在电脑上执行 SSH 登录
+
+1. 打开电脑的终端、PowerShell 或其他 SSH 客户端。
+2. 使用子板操作系统的用户名和静态 IP 建立连接。SSH 默认端口为 `22`。
+3. 首次连接时核对主机指纹，确认无误后输入 `yes`，再输入子板操作系统密码。
+
+```bash
+ssh <SUBBOARD_USER>@<SUBBOARD_STATIC_IP>
+```
+
+以下命令使用本节示例 IP：
+
+```bash
+ssh <SUBBOARD_USER>@192.168.10.10
+```
+
+SSH 服务使用非默认端口时，通过 `-p` 指定端口：
+
+```bash
+ssh -p <SSH_PORT> <SUBBOARD_USER>@192.168.10.10
+```
+
+终端显示目标子板的命令提示符时，表示 SSH 登录成功。
+
+<Callout title="SSH 登录凭据" type="warn">
+  SSH 使用的是子板操作系统账号和密码，不是 aBMC Web 的 `admin/admin`。登录前应确认子板已经启用 SSH 服务、目标账号允许远程登录，并且防火墙允许对应的 SSH 端口。
+</Callout>
