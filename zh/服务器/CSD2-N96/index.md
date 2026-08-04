@@ -10,4 +10,4 @@
 # 开发指南
 - [定制子节点固件](dev_sub_firmware.md)
 # 更多资料
-- [使用文档](usage.md)
+- [aBMC使用文档](aBMC_usage.md)
