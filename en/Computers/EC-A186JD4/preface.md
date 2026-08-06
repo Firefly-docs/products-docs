@@ -9,6 +9,7 @@ This document mainly introduces the development methods based on the **EC-A186JD
 | :-----------: | :------------: | :-------------: | :----------------: |
 | Ubuntu 20.04 | 5.10          | √               | Main Maintenance    |
 
+
 ## Current Version of Document
 
 |               | Current Version            |

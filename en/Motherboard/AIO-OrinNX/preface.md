@@ -5,9 +5,10 @@ This document mainly introduces the development methods based on the **AIO-Orin 
 
 ## OS Version
 
-| OS Name      | Kernel Version | Support Status | Maintenance Status |
-| :-----------: | :------------: | :-------------: | :----------------: |
-| Ubuntu 20.04 | 5.10          | √               | Main Maintenance    |
+| OS Name      | SDK Version | Kernel Version | Support Status | Maintenance Status |
+| :--------: | :-------: | :-------: | :-------: | :-------: |
+| Ubuntu 22.04 | Jetson Linux 36.4.3 (JetPack 6.2) | 5.15 | √ | Main Maintenance  |
+
 
 ## Current Version of Document
 

@@ -4,7 +4,7 @@
 This document mainly introduces the development method based on the **EC-AGXOrin** platform.
 | OS Name | SDK Version | Kernel Version | Support | Maintenance |
 | :--------: | :-------: | :-------: | :-------: | :-------: |
-| Ubuntu 22.04 | Jetson Linux 36.4.3 | 5.15 | √ | Major maintenance |
+| Ubuntu 22.04 | Jetson Linux 36.4.3 (JetPack 6.2) | 5.15 | √ | Major maintenance |
 
 
 ## Document current version

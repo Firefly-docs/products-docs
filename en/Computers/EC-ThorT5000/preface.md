@@ -5,7 +5,7 @@ This document mainly introduces the development method based on the **EC-ThorT50
 
 | OS Name | SDK Version | Kernel Version | Support | Maintenance |
 | :--------: | :-------: | :-------: | :-------: | :-------: |
-| Ubuntu 24.04 | Jetson Linux 38.4 | 6.8 | √ | Major maintenance |
+| Ubuntu 24.04 | Jetson Linux 38.4 (JetPack 7.1) | 6.8 | √ | Major maintenance |
 
 ## Document current version
 
