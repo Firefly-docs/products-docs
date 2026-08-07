@@ -6,23 +6,22 @@
 <font color=red>不要执行 `sudo apt upgrade` 和 `sudo apt dist-upgrade` 。</font>
 
 
-为了防止被 upgrade，可以注释掉英伟达官方的 jetson apt 源： 
+
+为了防止被自动 upgrade : 
+* 修改 `/etc/apt/apt.conf.d/20auto-upgrades` (如果文件不存在，就创建它)
 
 ```
-cat /etc/apt/sources.list.d/nvidia-l4t-apt-source.list 
-# SPDX-FileCopyrightText: Copyright (c) 2019-2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
-# SPDX-License-Identifier: LicenseRef-NvidiaProprietary
-#
-# NVIDIA CORPORATION, its affiliates and licensors retain all intellectual
-# property and proprietary rights in and to this material, related
-# documentation and any modifications thereto. Any use, reproduction,
-# disclosure or distribution of this material and related documentation
-# without an express license agreement from NVIDIA CORPORATION or
-# its affiliates is strictly prohibited.
+APT::Periodic::Update-Package-Lists "0";
+APT::Periodic::Unattended-Upgrade "0";
+```
 
-#deb https://repo.download.nvidia.com/jetson/common r36.4 main
-#deb https://repo.download.nvidia.com/jetson/t234 r36.4 main
-#deb https://repo.download.nvidia.com/jetson/ffmpeg r36.4 main
+* 关闭和停止 apt-daily timers 服务
+
+```
+sudo systemctl disable apt-daily.timer
+sudo systemctl disable apt-daily-upgrade.timer
+sudo systemctl stop apt-daily.timer
+sudo systemctl stop apt-daily-upgrade.timer
 ```
 
 ## Jetpack 
