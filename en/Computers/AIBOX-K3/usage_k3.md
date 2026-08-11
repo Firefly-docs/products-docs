@@ -1,3 +1,6 @@
+## Software Upgrade
+
+**AIBOX-K3 does not currently support full system software upgrades using `apt upgrade`.** Regular software packages can be installed and updated using `apt update` and `apt install`. Executing the `apt update` and `apt install` commands works without issue. To upgrade critical packages such as esos, uboot, and kernel, you need to download the official Firefly SDK package and update it by compiling and flashing it.
 ## Documentation
 
 The following links contain the "Product Brief," "Datasheet," and "User Manual."

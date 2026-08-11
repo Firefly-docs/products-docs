@@ -13,7 +13,7 @@ The operation steps are as follows:
 ![](../../../aibox_img/AIBOX-K3/upgrade_en.png)
 
 1. Connect the PC to the Type-C USB 3.0 port on the board using a Type-C cable. Be careful not to connect it to the USB serial port.
-2. Press the boot button and then power on the device.
+2. Press and hold the boot button, then connect the 12V power supply.
 3. The device will then enter hardware programming mode.
 4. Click "Scan Device" in the programming tool to identify the device.
 

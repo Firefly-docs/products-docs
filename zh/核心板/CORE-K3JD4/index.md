@@ -14,4 +14,4 @@
 # AI
 - [AI 教程](usage_ai_cpu_spacemit.md)
 # Linux开发
-- [文档](usage_k3.md)
+- [软件升级](usage_k3.md)

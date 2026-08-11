@@ -14,4 +14,4 @@
 # AI
 - [AI Tutorial](usage_ai_cpu_spacemit.md)
 # Linux
-- [Documentation](usage_k3.md)
+- [Software Upgrade](usage_k3.md)

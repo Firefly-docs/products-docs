@@ -1,3 +1,7 @@
+## 软件升级
+
+**AIBOX-K3 暂时不支持 `apt upgrade` 进行系统软件全量升级**。普通的软件包可以通过 apt update 和 apt install 进行安装更新。执行 apt update 和 apt install 命令是没有问题的。若想要升级 esos / uboot / kernel 等重要软件包，则需要下载 Firefly 官方提供的 SDK 软件包并通过编译烧录的方式进行更新。
+
 ## 文档
 
 下面链接文档包含《产品介绍》、《数据手册》和《用户手册》。
