@@ -277,6 +277,7 @@ expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
 qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib \
 unzip \
 device-tree-compiler ncurses-dev \
+```
 
 ### Compile SDK
 
