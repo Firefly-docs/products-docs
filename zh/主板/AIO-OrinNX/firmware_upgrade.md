@@ -42,7 +42,7 @@ Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 ## R36.3 (JetPack 6.0)
 ### 下载固件包
 
-可直接在 Firefly [下载页面](https://www.t-firefly.com/doc/download/321.html)进行下载
+可直接在 Firefly [下载页面](https://community.t-firefly.com/download/233)进行下载
 
 下载后，执行 tar 解压：
 ```
@@ -92,7 +92,7 @@ Log is saved to Linux_for_Tegra/initrdlog/flash_1-2_0_20250527-153418.log
 * Orin NX 的底板硬件版本至少是 **V1.1**
 
 ### 下载 fireflyFlash.tbz2
-[下载地址](https://www.t-firefly.com/doc/download/321.html)
+[下载地址](https://community.t-firefly.com/download/233)
 <br>
 `固件` --> `Jetson Linux`
 

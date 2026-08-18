@@ -42,7 +42,7 @@ Notice: If do not found `0955:7523 NVIDIA Corp. APX`, board need to change to `O
 ## R36.3 (JetPack 6.0)
 ### Download Firmware
 
-You can directly download it from Firefly [Download Page](https://en.t-firefly.com/doc/download/335.html)
+You can directly download it from Firefly [Download Page](https://community.t-firefly.com/en/download/233)
 
 After downloading, perform tar decompression:
 ```
@@ -89,7 +89,7 @@ Log is saved to Linux_for_Tegra/initrdlog/flash_1-2_0_20250527-153418.log
 * Orin NX carrier board hardware at least **V1.1**
 
 ### Download fireflyFlash.tbz2
-[Download](https://en.t-firefly.com/doc/download/335.html)
+[Download](https://community.t-firefly.com/en/download/233)
 <br>
 `Firmware` --> `Jetson Linux`
 
