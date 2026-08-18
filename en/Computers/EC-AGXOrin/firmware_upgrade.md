@@ -21,7 +21,7 @@ PC OS: Ubuntu22.04, support for NFS services is required, and there may be some 
 ## R36.4 (JetPack 6.2)
 ### Download Firmware
 
-You can directly download it from Firefly [Download Page](https://en.t-firefly.com/doc/download/348.html)
+You can directly download it from Firefly [Download Page](https://community.t-firefly.com/en/download/348)
 
 After downloading, perform tar decompression:
 
