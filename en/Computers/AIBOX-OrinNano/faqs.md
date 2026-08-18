@@ -84,8 +84,7 @@ sudo snap install snapd_24724.snap
 * Orin NX carrier board hardware at least **V1.2**
 
 ## Download fireflyFlash.tbz2
-[Download](https://en.t-firefly.com/doc/download/236.html)
-<br>
+[Download](https://community.t-firefly.com/en/download/236)
 `Firmware` --> `Jetson Linux`
 
 ## Unzip fireflyFlash.tbz2

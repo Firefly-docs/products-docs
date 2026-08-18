@@ -85,8 +85,7 @@ sudo snap install snapd_24724.snap
 * Orin NX 的底板硬件版本至少是 **V1.2**
 
 ## 下载 fireflyFlash.tbz2
-[下载地址](https://www.t-firefly.com/doc/download/264.html)
-<br>
+[下载地址](https://community.t-firefly.com/download/236)
 `固件` --> `Jetson Linux`
 
 ## 解压 fireflyFlash.tbz2
