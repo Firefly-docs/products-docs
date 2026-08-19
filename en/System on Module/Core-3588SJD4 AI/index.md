@@ -8,7 +8,6 @@
 - [Upgrade the firmware via SD card](upgrade_firmware_sd.md)
 # Linux
 - [Compile Linux Firmware (kernel-6.1)](linux6.1_compile.md)
-- [Firefly Linux User Guide](linux_firefly_linux_manual.md)
 - [Technical Case](linux_technical_cases.md)
 # Port Usage
 - [Camera](usage_camera.md)

@@ -8,7 +8,6 @@
 - [使用SD卡升级固件](upgrade_firmware_sd.md)
 # Linux开发
 - [编译 Linux 固件](linux_compile.md)
-- [Firefly Linux 开发指南](linux_firefly_linux_manual.md)
 # 接口使用
 - [ADC 使用](usage_adc.md)
 - [Camera 使用](usage_camera.md)

@@ -9,7 +9,6 @@
 # Linux
 - [Compile Linux Firmware (kernel-6.1)](linux6.1_compile.md)
 - [Compile Linux Firmware (kernel-5.10)](linux_compile.md)
-- [Firefly Linux User Guide](linux_firefly_linux_manual.md)
 - [Technical Case](linux_technical_cases.md)
 # Port Usage
 - [Camera](usage_camera.md)

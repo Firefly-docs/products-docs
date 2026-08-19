@@ -8,7 +8,6 @@
 - [Upgrade the firmware via SD card](upgrade_firmware_sd.md)
 # Linux
 - [Compile Linux firmware](linux_compile.md)
-- [Firefly Linux User Guide](linux_firefly_linux_manual.md)
 - [#linux_technical_cases](#linux_technical_cases.md)
 # Android
 - [ADB use](android_adb_use.md)

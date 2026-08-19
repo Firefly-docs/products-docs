@@ -7,7 +7,6 @@
 - [MaskRom mode](upgrade_maskrom_mode.md)
 # Linux
 - [Compile Linux firmware](linux_compile.md)
-- [Firefly Linux User Guide](linux_firefly_linux_manual.md)
 - [#linux_technical_cases](#linux_technical_cases.md)
 # Port Usage
 - [ADC](usage_adc.md)

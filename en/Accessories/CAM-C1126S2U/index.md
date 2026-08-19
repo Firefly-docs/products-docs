@@ -7,7 +7,6 @@
 - [MaskRom mode](upgrade_maskrom_mode.md)
 # Linux
 - [Compile Linux firmware](linux_compile.md)
-- [Firefly Linux User Guide](linux_firefly_linux_manual.md)
 - [Firefly Debian Manual](debian10.md)
 - [Quick Use](quick_usage.md)
 - [RKMedia](rkmedia.md)

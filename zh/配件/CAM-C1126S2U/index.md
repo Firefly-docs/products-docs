@@ -7,7 +7,6 @@
 - [MaskRom模式](upgrade_maskrom_mode.md)
 # Linux开发
 - [编译 Linux 固件](linux_compile.md)
-- [Firefly Linux 开发指南](linux_firefly_linux_manual.md)
 - [Firefly Debian 使用手册](debian10.md)
 - [快速使用](quick_usage.md)
 - [RKMedia](rkmedia.md)
