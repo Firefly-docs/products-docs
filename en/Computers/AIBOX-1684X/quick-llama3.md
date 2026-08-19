@@ -15,4 +15,4 @@ One command to deploy Llama3: `./talk_to_llama3.sh`.
 
 Note: Networking is not required during the deployment. The first deployment of Llama3 requires a long period of time (3-5 minutes) for software installation.
 
-[Download Center]: https://en.t-firefly.com/doc/download/224.html
+[Download Center]: https://community.t-firefly.com/en/doc/download/224.html

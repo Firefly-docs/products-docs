@@ -127,7 +127,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/rk3308-ubuntu_rootfs.img # root file system p
 
 #### Download Ubuntu root filesystem
 
-* Download the root file system: [Ubuntu root file system (64-bit)](https://en.t-firefly.com/doc/download/67.html#other_528), put it under the SDK path
+* Download the root file system: [Ubuntu root file system (64-bit)](https://community.t-firefly.com/en/doc/download/67.html#other_528), put it under the SDK path
 
 * Put the root file system in the `ubuntu_rootfs/` directory of the SDK
 

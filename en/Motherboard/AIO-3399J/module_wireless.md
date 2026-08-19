@@ -66,7 +66,7 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 ### Reference firmware
 
-The official website of the public version of the default firmware support EC20 4G dongle module [[link]](https://en.t-firefly.com/doc/download/119.html).
+The official website of the public version of the default firmware support EC20 4G dongle module [[link]](https://community.t-firefly.com/en/doc/download/119.html).
 
 
 ## EC200T 4G Module suite
@@ -119,7 +119,7 @@ Please refer to [EC20 4G module suite](#ec20-4g-module-suite).
 
 ### Reference firmware
 
-The official website of the public version of the default firmware support EC200T 4G dongle module [[link]](https://en.t-firefly.com/doc/download/125.html).
+The official website of the public version of the default firmware support EC200T 4G dongle module [[link]](https://community.t-firefly.com/en/doc/download/125.html).
 
 
 
@@ -159,7 +159,7 @@ The baud rate of DELICOMM series serial port is configured as `9600`. By default
 
 #### Reference firmware
 
-The new firmware of the public version supports GPS module by default, but it needs to be turned on manually. Or directly download the [GPS default startup firmware](https://en.t-firefly.com/doc/download/120.html)
+The new firmware of the public version supports GPS module by default, but it needs to be turned on manually. Or directly download the [GPS default startup firmware](https://community.t-firefly.com/en/doc/download/120.html)
 
 ### DK2635U7F Module
 
@@ -186,7 +186,7 @@ The baud rate of UBLOX module serial port is configured as `9600`. By default, i
 
 #### Reference firmware
 
-The new firmware of the public version supports GPS module by default, but it needs to be turned on manually. Or directly download the [GPS default startup firmware](https://en.t-firefly.com/doc/download/120.html)
+The new firmware of the public version supports GPS module by default, but it needs to be turned on manually. Or directly download the [GPS default startup firmware](https://community.t-firefly.com/en/doc/download/120.html)
 
 
 ### EC20 GNSS Function
@@ -223,7 +223,7 @@ Glossary:
 
 ##### Temporary modification method
 
-Ensure that the firmware is the latest [public firmware](https://en.t-firefly.com/doc/download/31.html). The firmware turns off the GPS function by default and needs to be enabled manually. The following is the modification method:
+Ensure that the firmware is the latest [public firmware](https://community.t-firefly.com/en/doc/download/31.html). The firmware turns off the GPS function by default and needs to be enabled manually. The following is the modification method:
 
 * Enable ADB, and how to enable ADB, please refer to wiki tutorial [ADB Use](adb_use.html)
 * Set system readable and writable

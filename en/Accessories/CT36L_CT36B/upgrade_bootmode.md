@@ -10,8 +10,8 @@ If an accident occurs during the upgrade process and the bootloader is damaged, 
 
 
 ## Firmware acquisition
-* CT36L [Download link](https://en.t-firefly.com/doc/download/214.html)
-* CT36B [Download link](https://en.t-firefly.com/doc/download/214.html)
+* CT36L [Download link](https://community.t-firefly.com/en/doc/download/214.html)
+* CT36B [Download link](https://community.t-firefly.com/en/doc/download/214.html)
 
 ## Upgrade method
 CT36L/CT36B supports firmware upgrade through the following two methods:

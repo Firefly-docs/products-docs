@@ -12,7 +12,7 @@ To upgrade firmware using MicroSD, you need to use a card creation tool to write
 * computer
 * SD card
 * USB card reader
-* [**SocToolKit**](https://en.t-firefly.com/doc/download/214.html#other_664)
+* [**SocToolKit**](https://community.t-firefly.com/en/doc/download/214.html#other_664)
 
 ## Steps
 

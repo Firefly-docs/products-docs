@@ -43,7 +43,7 @@ sudo apt-get install gcc-arm-linux-gnueabihf \
 
 Due to the huge size of the Android SDK, please download SDK`firefly_rk3328_android7.1_git_20211216`:
 
-* [Download](https://en.t-firefly.com/doc/download/34.html#other_70)
+* [Download](https://community.t-firefly.com/en/doc/download/34.html#other_70)
 
 After the download completes, verify the MD5 checksum before extraction:
 

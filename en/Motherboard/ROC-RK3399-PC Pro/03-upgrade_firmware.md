@@ -199,9 +199,9 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 ![](../../../rk3399_img/upgrade_downloadfail.jpg)
 
 [烧写须知]: 02-upgrade_table.md
-[ROC-RK3399-PC Pro firmware]: https://en.t-firefly.com/doc/download/127.html
-[Androidtool_xxx (version number)]: https://en.t-firefly.com/doc/download/127.html#other_343
-[Release_DriverAssistant.zip]: https://en.t-firefly.com/doc/download/127.html#windows_341
-[Linux_Upgrade_Tool]: https://en.t-firefly.com/doc/download/127.html#linux_12
-[upgrade_tool_xxx (version number)]: https://en.t-firefly.com/doc/download/127.html#linux_12
+[ROC-RK3399-PC Pro firmware]: https://community.t-firefly.com/en/doc/download/127.html
+[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/127.html#other_343
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/127.html#windows_341
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/127.html#linux_12
+[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/127.html#linux_12
 

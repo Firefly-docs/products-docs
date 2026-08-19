@@ -24,10 +24,10 @@ between -40°C and 85°C , satisfying the industrial-grade needs.
 * [[Wiki]](https://wiki.t-firefly.com/en/iCore-3588JQ) 
 Includes information on Android & Ubuntu driver development (see iCore-3588JQ Wiki)
 
-* [[SDK link]](https://en.t-firefly.com/doc/download/161.html) 
+* [[SDK link]](https://community.t-firefly.com/en/doc/download/161.html) 
 Android SDK source code
 
-* [[Firmware link]](https://en.t-firefly.com/doc/download/161.html) 
+* [[Firmware link]](https://community.t-firefly.com/en/doc/download/161.html) 
 Android Firmware
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

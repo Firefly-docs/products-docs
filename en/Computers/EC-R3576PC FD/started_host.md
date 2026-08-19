@@ -19,7 +19,7 @@
 # Resources
 
 * [Manual](https://wiki.t-firefly.com/en/ROC-RK3576-PC/index.html) Includes building instructions, system usage, interfaces usage, etc. (ROC-RK3576-PC wiki)
-* [Download Page](https://en.t-firefly.com/doc/download/231.html) Includes firmware, rootfs and tools download links.
+* [Download Page](https://community.t-firefly.com/en/doc/download/231.html) Includes firmware, rootfs and tools download links.
 * [Forum](https://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100) Tech communication platform for over 100K company and individual customers.
 
 # Support

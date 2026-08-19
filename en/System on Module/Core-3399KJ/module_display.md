@@ -52,7 +52,7 @@ Using official SDK to compile firmware that support 7.85 inch screen firmware ne
 
 ### Refer to the firmware
 
-* Note: The official firmware name supporting the 10.1 screen has the word "LVDS". Below is the link to the firmware: [Firmware link](https://en.t-firefly.com/doc/download/31.html#other_233)
+* Note: The official firmware name supporting the 10.1 screen has the word "LVDS". Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/31.html#other_233)
 
 ### Compile command
 

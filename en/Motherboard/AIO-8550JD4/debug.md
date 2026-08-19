@@ -38,7 +38,7 @@ The serial-to-USB chip is PL2303GL.
 
 Linux PC don't need to install driver.
 
-Windows PC needs driver, please download `PL23XX-M_LogoDriver_Setup_4500.zip` from [Download Link](https://en.t-firefly.com/doc/download/381.html#other_815)
+Windows PC needs driver, please download `PL23XX-M_LogoDriver_Setup_4500.zip` from [Download Link](https://community.t-firefly.com/en/doc/download/381.html#other_815)
 
 Extract the archive and double click the exe file to install, accept the EULA and always click "next", then click "finish".
 

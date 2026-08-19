@@ -1,10 +1,10 @@
 # NPU
-RK3588 has a NPU(*Neural Process Unit*) that Neural network acceleration engine with processing performance up to 6 TOPS. Using this NPU module needs to download [RKNN SDK](https://en.t-firefly.com/doc/download/301.html) which provides programming interfaces for RK series chips platforms with NPU. This SDK can help users deploy RKNN models exported by RKNN-Toolkit2 and accelerate the implementation of AI applications. The specific list of supported platforms can be found in the README document included with the SDK or by visiting [airockchip](https://github.com/airockchip/rknn-toolkit2/). It is recommended to refer to the official updates provided by [airockchip](https://github.com/airockchip/rknn-toolkit2/) for development purposes.
+RK3588 has a NPU(*Neural Process Unit*) that Neural network acceleration engine with processing performance up to 6 TOPS. Using this NPU module needs to download [RKNN SDK](https://community.t-firefly.com/en/doc/download/301.html) which provides programming interfaces for RK series chips platforms with NPU. This SDK can help users deploy RKNN models exported by RKNN-Toolkit2 and accelerate the implementation of AI applications. The specific list of supported platforms can be found in the README document included with the SDK or by visiting [airockchip](https://github.com/airockchip/rknn-toolkit2/). It is recommended to refer to the official updates provided by [airockchip](https://github.com/airockchip/rknn-toolkit2/) for development purposes.
 
 ## RKNN Model
 RKNN is the model type used by the Rockchip NPU platform. It is a model file ending with the suffix `.rknn `. RKNN SDK provides a complete model transformation Python tool for users to convert their self-developed algorithm model into RKNN model
 
-The RKNN model can run directly on the RK3588 platform. There are demos under `rknpu2/examples`. Refer to the `README.md` to compile Android or Linux Demo (Need cross-compile environment). You can also just download compiled [demo](https://en.t-firefly.com/doc/download/301.html).
+The RKNN model can run directly on the RK3588 platform. There are demos under `rknpu2/examples`. Refer to the `README.md` to compile Android or Linux Demo (Need cross-compile environment). You can also just download compiled [demo](https://community.t-firefly.com/en/doc/download/301.html).
 
 Run yolov5 demo on the AIO-3588JD4 as follows:
 ```shell

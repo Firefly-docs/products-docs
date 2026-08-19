@@ -11,7 +11,7 @@
 
 ### Reference firmware
 Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, please update the latest firmware.
-[Firmware Download: CAM-8MS1M](https://en.t-firefly.com/doc/download/222.html#other_670)
+[Firmware Download: CAM-8MS1M](https://community.t-firefly.com/en/doc/download/222.html#other_670)
 
 ### Product Images
 ![](../../../rk3562_img/cam_8ms1m_front.jpg)

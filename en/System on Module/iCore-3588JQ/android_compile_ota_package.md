@@ -46,4 +46,4 @@ Put update.zip to the machine sdcard directory reboot, it will automatically rec
 
 ### OTA server setup
 
-Refer to [OTA Documentation](https://en.t-firefly.com/doc/download/161.html#other_549) to setup the sever.
+Refer to [OTA Documentation](https://community.t-firefly.com/en/doc/download/161.html#other_549) to setup the sever.

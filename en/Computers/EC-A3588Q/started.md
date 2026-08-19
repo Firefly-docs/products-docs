@@ -22,10 +22,10 @@ cloud servers, industrial control, smart vehicles, and more.
 * [[Wiki]](https://wiki.t-firefly.com/en/iCore-3588Q) 
 Includes information on Android & Ubuntu driver development (see iCore-3588Q Wiki)
 
-* [[SDK link]](https://en.t-firefly.com/doc/download/158.html) 
+* [[SDK link]](https://community.t-firefly.com/en/doc/download/158.html) 
 Android SDK source code
 
-* [[Firmware link]](https://en.t-firefly.com/doc/download/158.html) 
+* [[Firmware link]](https://community.t-firefly.com/en/doc/download/158.html) 
 Android Firmware
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

@@ -215,7 +215,7 @@ Glossary:
 
 ##### Temporary modification method
 
-Ensure that the firmware is the latest [public firmware](https://en.t-firefly.com/doc/download/123.html#other_444). The firmware turns off the GPS function by default and needs to be enabled manually. The following is the modification method:
+Ensure that the firmware is the latest [public firmware](https://community.t-firefly.com/en/doc/download/123.html#other_444). The firmware turns off the GPS function by default and needs to be enabled manually. The following is the modification method:
 
 * Enable ADB, and how to enable ADB, please refer to wiki tutorial [ADB Use](adb_use.md)
 * Set system readable and writable

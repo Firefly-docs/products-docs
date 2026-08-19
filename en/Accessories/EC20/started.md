@@ -52,7 +52,7 @@ This module does not support voice calls and SMS, if you need support, please co
 ![](../../../modules_img/EC20/ec20_sim.png)
 
 # 三、Firmware and Resource download
-Related documents and firmware download, see the official website [Resource Download](https://en.t-firefly.com/doc/download/119.html)
+Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/119.html)
 
 
 # 四、Tutorial

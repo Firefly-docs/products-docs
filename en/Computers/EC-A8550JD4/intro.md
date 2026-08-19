@@ -19,7 +19,7 @@
 # Resources
 
 * [Manual](../../Mainboards/AIO-8550JD4/index.md) Includes building instructions, system usage, interfaces usage, etc. (AIO-8550JD4 wiki)
-* [Download Page](https://en.t-firefly.com/doc/download/381.html) Includes firmware, rootfs and tools download links.
+* [Download Page](https://community.t-firefly.com/en/doc/download/381.html) Includes firmware, rootfs and tools download links.
 * [Forum](https://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100) Tech communication platform for over 100K company and individual customers.
 
 # Support
