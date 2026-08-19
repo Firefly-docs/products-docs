@@ -6,7 +6,7 @@
 
 ITX-3568Q has 2 working modes. Under normal circumstances, boot directly into `Normal mode` to start the system normally. If you need to upgrade the board subsystem, you can choose the appropriate `Upgrade mode` to upgrade the firmware according to the situation.
 
-* Note: The small memory version of ITX-3568Q is installed with the Ubuntu operating system by default, large memory version is installed with Android by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.You can go to the [Firmware download page](https://community.t-firefly.com/en/doc/download/150.html) to download more firmware.
+* Note: The small memory version of ITX-3568Q is installed with the Ubuntu operating system by default, large memory version is installed with Android by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.You can go to the [Firmware download page](https://en.t-firefly.com/doc/download/150.html) to download more firmware.
 
 
 ![](../../../rk356x_img/working_mode_en.png)

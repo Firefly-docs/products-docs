@@ -10,7 +10,7 @@ Core-3308Y有灵活的启动方式。一般情况下，除非硬件损坏，Core
 
 
 ## 固件获取
-*	[下载链接](https://community.t-firefly.com/doc/download/67.html)
+*	[下载链接](https://www.t-firefly.com/doc/download/73.html)
 
 ## 升级方式
 Core-3308Y 支持通过以下方式升级固件：

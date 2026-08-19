@@ -36,7 +36,7 @@ XXXX_Android11_HDMI_XXXX
 
 ### Windows
 
-* Tool: Use tools in the firmware package or download here [Androidtool_xxx (version number)](https://community.t-firefly.com/en/doc/download/157.html#other_343)
+* Tool: Use tools in the firmware package or download here [Androidtool_xxx (version number)](https://en.t-firefly.com/doc/download/157.html#other_343)
 
 AndroidTool defaults to display in Chinese. We need to change it to English. Open `config.ini` with an text editor (like notepad). The starting lines are:
 
@@ -54,7 +54,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 #### Install RK USB drive
 
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/157.html#other_11), extract, and then run the DriverInstall.exe inside .
+Download [Release_DriverAssistant.zip](https://en.t-firefly.com/doc/download/157.html#other_11), extract, and then run the DriverInstall.exe inside .
 In order for all devices to use the updated driver, first select `Driver uninstall`(`驱动卸载`) and then select `Driver install`(`驱动安装`).
 
 <center>
@@ -92,7 +92,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.
 
-* Tool : Use tools in the firmware package or download here [upgrade_tool_xxx (version number)](https://community.t-firefly.com/en/doc/download/157.html#other_367)
+* Tool : Use tools in the firmware package or download here [upgrade_tool_xxx (version number)](https://en.t-firefly.com/doc/download/157.html#other_367)
 * Tool : [Linux_adb_fastboot]
 
 
@@ -180,7 +180,7 @@ sudo upgrade_tool ul bootloader.bin #upgrade bootloader
 
 #### Android fastboot
 
-Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/157.html#other_536), And according to the following method to install into the system, easy to call：
+Download [Linux_adb_fastboot](https://en.t-firefly.com/doc/download/157.html#other_536), And according to the following method to install into the system, easy to call：
 
 ```
 sudo mv adb /usr/local/bin
@@ -222,8 +222,8 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 If board has Spi Flash and eMMC，After MaskRom，need select Storage，See operation method [ "Switching Upgrade Storage" ](03-upgrade_firmware_with_flash.md)。
 
 [烧写须知]: 02-upgrade_table.md
-[ROC-RK3568-PC-SE firmware]: https://community.t-firefly.com/en/doc/download/157.html
-[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/157.html#windows_12
-[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/157.html#windows_341
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/157.html#linux_12
-[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/157.html#linux_12
+[ROC-RK3568-PC-SE firmware]: https://en.t-firefly.com/doc/download/157.html
+[Androidtool_xxx (version number)]: https://en.t-firefly.com/doc/download/157.html#windows_12
+[Release_DriverAssistant.zip]: https://en.t-firefly.com/doc/download/157.html#windows_341
+[Linux_Upgrade_Tool]: https://en.t-firefly.com/doc/download/157.html#linux_12
+[upgrade_tool_xxx (version number)]: https://en.t-firefly.com/doc/download/157.html#linux_12

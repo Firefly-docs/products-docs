@@ -10,7 +10,7 @@ ROC-RK3576-PC有灵活的启动方式。一般情况下，除非硬件损坏，R
 
 
 ## 固件获取
-* [下载链接](https://community.t-firefly.com/doc/download/229.html)
+* [下载链接](https://www.t-firefly.com/doc/download/254.html)
 
 ## 升级方式
 ROC-RK3576-PC 支持通过以下两种方式升级固件：

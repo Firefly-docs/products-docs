@@ -10,8 +10,8 @@ CT36L/CT36B有灵活的启动方式。一般情况下，除非硬件损坏，CT3
 
 
 ## 固件获取
-*	CT36L[下载链接](https://community.t-firefly.com/doc/download/214.html)
-*	CT36B[下载链接](https://community.t-firefly.com/doc/download/214.html)
+*	CT36L[下载链接](https://www.t-firefly.com/doc/download/238.html)
+*	CT36B[下载链接](https://www.t-firefly.com/doc/download/238.html)
 ## 升级方式
 CT36L/CT36B 支持通过以下两种方式升级固件：
 

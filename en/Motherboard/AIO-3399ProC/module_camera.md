@@ -43,7 +43,7 @@ CMK-OV13850 camera module is supported by default in public firmware.
 
 ### Reference firmware
 Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, please update the latest firmware.
-[Android 9.0 Download link](https://community.t-firefly.com/en/doc/download/page/id/69.html#other_228)
+[Android 9.0 Download link](https://en.t-firefly.com/doc/download/page/id/69.html#other_228)
 
 
 

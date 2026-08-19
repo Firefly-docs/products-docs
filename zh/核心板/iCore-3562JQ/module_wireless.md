@@ -115,4 +115,4 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 ## 参考固件
 
 公版固件默认支持 EC20 4G 模组、EC200T 4G模组 
-[固件下载](https://community.t-firefly.com/doc/download/222.html)
+[固件下载](https://www.t-firefly.com/doc/download/247.html#other_773)

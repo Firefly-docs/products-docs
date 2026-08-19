@@ -124,7 +124,7 @@ html_theme_options = {
 
 
 		#{'name':'FireflyApi','href':'http://wiki.t-firefly.com/zh_CN/FireflyApi/FireflyApi.html'},
-        {'name':'资源下载','href':'https://community.t-firefly.com/doc/download/214.html'},
+        {'name':'资源下载','href':'https://www.t-firefly.com/doc/download/238.html'},
 	]
 }
 

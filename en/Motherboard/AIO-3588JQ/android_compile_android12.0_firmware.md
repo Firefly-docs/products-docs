@@ -5,7 +5,7 @@
 SDK source code and bundle compression package are stored in the Google Drive.
 
 ### Download Android SDK
-* The SDK can be obtained by email. Send the order number to <font color=red>sales@t-firefly.com</font> and indicate the required SDK name [firefly_rk3588_android12_git_20240704](https://community.t-firefly.com/en/doc/download/161.html)
+* The SDK can be obtained by email. Send the order number to <font color=red>sales@t-firefly.com</font> and indicate the required SDK name [firefly_rk3588_android12_git_20240704](https://en.t-firefly.com/doc/download/161.html)
 
 * After downloading, verify the MD5 code:
    ```
@@ -59,7 +59,7 @@ git rebase FETCH_HEAD
 
 ```
 
-Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/download/161.html#other_509)。
+Google Driver [Android12.0 Bundle](https://en.t-firefly.com/doc/download/161.html#other_509)。
 
 
 

@@ -21,10 +21,10 @@ GPU。与Cortex-A57 相比，处理性能提升 100%，速度更快，性能更�
 * [[Wiki]](../../主板/AIO-3399C/started.md)
 包含Android&Ubuntu 驱动开发等资料(参考AIO-3399C Wiki)
  
-* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/175.html) 
+* [[SDK 下载地址]](https://www.t-firefly.com/doc/download/200.html#other_369) 
 Android SDK 源码
 
-* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/175.html)
+* [[SDK 下载地址]](https://www.t-firefly.com/doc/download/200.html#other_186)
 Linux SDK 源码
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)

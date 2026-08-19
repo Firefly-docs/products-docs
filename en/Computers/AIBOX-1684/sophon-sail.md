@@ -23,4 +23,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-[Download Center]: https://community.t-firefly.com/en/doc/download/290.html
+[Download Center]: https://en.t-firefly.com/doc/download/290.html

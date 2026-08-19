@@ -10,7 +10,7 @@ ICORE-1126BQ38有灵活的启动方式。一般情况下，除非硬件损坏，
 
 
 ## 固件获取
-*	[下载链接](https://community.t-firefly.com/doc/download/377.html)
+*	[下载链接](https://www.t-firefly.com/doc/download/367.html)
 
 ## 升级方式
 ICORE-1126BQ38 支持通过以下两种方式升级固件：

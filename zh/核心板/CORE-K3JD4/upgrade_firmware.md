@@ -10,13 +10,13 @@
 
 ## 准备工具
 * AIBOX-K3
-* [固件](https://community.t-firefly.com/doc/download/386.html)
+* [固件](https://www.t-firefly.com/doc/download/376.html)
 * 主机
 * 良好的Type-C 数据线
 
 ## 准备固件
 
-固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/386.html)处下载公版固件（统一固件）。固件文件一般有两种：
+固件可以通过编译SDK获得，也可以通过[资源下载](https://www.t-firefly.com/doc/download/376.html)处下载公版固件（统一固件）。固件文件一般有两种：
 
 * 单个统一固件
 
@@ -48,9 +48,9 @@
 ![](../../../aibox_img/AIBOX-K3/upgrade_firmware_titanflasher_zh.png)
 
 
-* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/338.html)工具
+* [Linux_adb_fastboot](https://www.t-firefly.com/doc/download/324.html)工具
 
-下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/338.html), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_adb_fastboot](https://www.t-firefly.com/doc/download/324.html), 并按以下方法安装到系统中，方便调用：
 
 ```
 sudo mv fastboot /usr/local/bin

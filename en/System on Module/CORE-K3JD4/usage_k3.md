@@ -142,7 +142,7 @@ The default username for the firmware is `root`, and the password is `firefly`.
 
 ##### Preparation
 
-Download the root filesystem: [Bianbu Root Filesystem (64-bit)](https://community.t-firefly.com/en/doc/download/386.html)
+Download the root filesystem: [Bianbu Root Filesystem (64-bit)](https://en.t-firefly.com/doc/download/386.html)
 
 After downloading, extract the filesystem to SDK/buildroot-ext/board/spacemit/k3/ and rename it.
 

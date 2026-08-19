@@ -45,7 +45,7 @@ Due to the huge size of the Android SDK, it is not possible to directly host it 
 
 Please download `firefly_rk3328_android8.1_git_20211221` first:
 
-* [Download](https://community.t-firefly.com/en/doc/download/34.html#other_197)
+* [Download](https://en.t-firefly.com/doc/download/34.html#other_197)
 
 After the download completes, verify the MD5 checksum before extraction:
 

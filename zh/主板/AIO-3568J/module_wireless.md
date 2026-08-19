@@ -289,7 +289,7 @@ EC20模组根据[EC20 4G模组套件](#ec20-4g-mo-zu-tao-jian)章节的说明连
 
 ##### 临时修改
 
-确保固件为最新[公版固件](https://community.t-firefly.com/doc/download/89.html)，固件默认关闭GPS功能，需要手动使能，以下是修改方法：
+确保固件为最新[公版固件](https://www.t-firefly.com/doc/download/103.html#other_434)，固件默认关闭GPS功能，需要手动使能，以下是修改方法：
 
 * 使能ADB，如何使能ADB参考Wiki教程[《ADB的使用》](adb_use.md)
 * 设置系统可读可写

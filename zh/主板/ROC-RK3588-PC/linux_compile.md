@@ -210,7 +210,7 @@ device-tree-compiler ncurses-dev \
 
 ##### 全自动编译
 
-* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/140.html)，放到 SDK 路径下
+* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://www.t-firefly.com/doc/download/161.html)，放到 SDK 路径下
 
 ```bash
 7z x ubuntu-aarch64-rootfs.7z
@@ -245,7 +245,7 @@ mv ubuntu-aarch64-rootfs.img ubuntu_rootfs/rootfs.img
 ./build.sh recovery
 ```
 
-* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/140.html)，放到 SDK 路径下
+* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://www.t-firefly.com/doc/download/161.html)，放到 SDK 路径下
 
 ```bash
 7z x ubuntu-aarch64-rootfs.7z
@@ -482,7 +482,7 @@ device-tree-compiler ncurses-dev \
 
 ##### 全自动编译
 
-* 下载根文件系统：[Debian 根文件系统(64位)](https://community.t-firefly.com/doc/download/140.html)，放到 SDK 路径下
+* 下载根文件系统：[Debian 根文件系统(64位)](https://www.t-firefly.com/doc/download/161.html)，放到 SDK 路径下
 
 ```bash
 7z x debian_rk3588_rootfs_xxx.7z
@@ -517,7 +517,7 @@ mv debianxx-rootfs.img debian/debian-rootfs.img
 ./build.sh recovery
 ```
 
-* 下载根文件系统：[Debian 根文件系统(64位)](https://community.t-firefly.com/doc/download/140.html)，放到 SDK 路径下
+* 下载根文件系统：[Debian 根文件系统(64位)](https://www.t-firefly.com/doc/download/161.html)，放到 SDK 路径下
 
 ```bash
 7z x debian_rk3588_rootfs_xxx.7z

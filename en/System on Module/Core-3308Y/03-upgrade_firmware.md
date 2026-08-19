@@ -27,11 +27,11 @@ There are two types of firmware files:
 
 ## Windows
 
-* Tool: [Androidtool_xxx (version number)](https://community.t-firefly.com/en/doc/download/page/id/67.html#other_294)
+* Tool: [Androidtool_xxx (version number)](https://en.t-firefly.com/doc/download/page/id/67.html#other_294)
 
 ### Install RK USB drive
 
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/page/id/67.html#other_11), extract, and then run the DriverInstall.exe inside .
+Download [Release_DriverAssistant.zip](https://en.t-firefly.com/doc/download/page/id/67.html#other_11), extract, and then run the DriverInstall.exe inside .
 In order for all devices to use the updated driver, first select `Driver uninstall`(`驱动卸载`) and then select `Driver install`(`驱动安装`).
 
 <center>
@@ -67,7 +67,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 ### Upgrade the firmware
 
-Download [Androidtool_xxx (version number)](https://community.t-firefly.com/en/doc/download/page/id/67.html#other_294). AndroidTool defaults to display in Chinese. We need to change it to English. Open `config.ini` with an text editor (like notepad). The starting lines are:
+Download [Androidtool_xxx (version number)](https://en.t-firefly.com/doc/download/page/id/67.html#other_294). AndroidTool defaults to display in Chinese. We need to change it to English. Open `config.ini` with an text editor (like notepad). The starting lines are:
 
 
 ```
@@ -113,12 +113,12 @@ The steps to upgrade the partition image are as follows:
 
 There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.
 
-* Tool : [upgrade_tool_xxx (version number)](https://community.t-firefly.com/en/doc/download/page/id/67.html#other_367)
+* Tool : [upgrade_tool_xxx (version number)](https://en.t-firefly.com/doc/download/page/id/67.html#other_367)
 
 
 ### Upgrade_tool
 
-Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/page/id/67.html#other_367), And install it into the system as follows for easy invocation:
+Download [Linux_Upgrade_Tool](https://en.t-firefly.com/doc/download/page/id/67.html#other_367), And install it into the system as follows for easy invocation:
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -175,8 +175,8 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 
 [烧写须知]: 02-upgrade_table.md
-[Core-3308Y firmware]: https://community.t-firefly.com/en/doc/download/67.html
-[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/67.html#windows_12
-[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/67.html#windows_341
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/67.html#linux_12
-[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/67.html#linux_12
+[Core-3308Y firmware]: https://en.t-firefly.com/doc/download/67.html
+[Androidtool_xxx (version number)]: https://en.t-firefly.com/doc/download/67.html#windows_12
+[Release_DriverAssistant.zip]: https://en.t-firefly.com/doc/download/67.html#windows_341
+[Linux_Upgrade_Tool]: https://en.t-firefly.com/doc/download/67.html#linux_12
+[upgrade_tool_xxx (version number)]: https://en.t-firefly.com/doc/download/67.html#linux_12

@@ -24,7 +24,7 @@ xxxxxxxxxxxx   aidlux_lu_ubun2204:xxx   "/lib/systemd/systemd"   5 minutes ago  
 
 ## Aidlux Web Desktop 安装
 
-前往 [下载地址](https://community.t-firefly.com/doc/download/366.html) 下载，将压缩包传到设备上，解压后执行里面的 setup.sh 即可。
+前往 [下载地址](https://www.t-firefly.com/doc/download/356.html#other_931) 下载，将压缩包传到设备上，解压后执行里面的 setup.sh 即可。
 ```bash
 # 解压
 tar -zxf aidlux_docker.tgz

@@ -18,10 +18,10 @@ EC-A3588Q 采用Rockchip RK3588八核64位处理器，最大可配32GB超大内�
 * [[Wiki]](https://wiki.t-firefly.com/zh_CN/iCore-3588Q)
 包含 Android&Ubuntu 驱动开发等资料(参考 iCore-3588Q Wiki)
 
-* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/158.html) 
+* [[SDK 下载地址]](https://www.t-firefly.com/doc/download/181.html) 
 Android12.0 SDK 源码
 
-* [[固件 下载地址]](https://community.t-firefly.com/doc/download/158.html) 
+* [[固件 下载地址]](https://www.t-firefly.com/doc/download/181.html) 
 Android12.0 固件
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)

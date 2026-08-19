@@ -117,4 +117,4 @@ Please refer to [EC20 4G module suite](#ec20-4g-module-suite).
 ## Reference firmware
 
 The official website of the public version of the default firmware support EC20 4G dongle module, EC200T 4G module 
-[Firmware Download](https://community.t-firefly.com/en/doc/download/222.html#other_670)
+[Firmware Download](https://en.t-firefly.com/doc/download/222.html#other_670)

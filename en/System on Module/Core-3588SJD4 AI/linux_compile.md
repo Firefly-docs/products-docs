@@ -43,7 +43,7 @@ repo init --no-clone-bundle --repo-url https://github.com/Firefly-rk-linux-utils
 
 * Method Two
 
-Download Firefly_Linux_SDK sub-volume compressed package: [Linux SDK](https://community.t-firefly.com/en/doc/download/337.html), follow the README document:
+Download Firefly_Linux_SDK sub-volume compressed package: [Linux SDK](https://en.t-firefly.com/doc/download/337.html), follow the README document:
 
 ```bash
 └── rk3588_linux_release_xxx
@@ -293,7 +293,7 @@ There are configuration files for different board in `device/rockchip/rk3588/`, 
 
 ##### Automatic compilation
 
-* Download: [Debian rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/337.html)，put in SDK path
+* Download: [Debian rootfs(64-bit)](https://en.t-firefly.com/doc/download/337.html)，put in SDK path
 
 ```bash
 7z x debian_rk3588_rootfs_xxx.7z

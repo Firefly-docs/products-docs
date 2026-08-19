@@ -70,7 +70,7 @@ Please refer to [LCD driver section](https://wiki.t-firefly.com/en/ROC-RK3399-PC
 
 ### Refer to the firmware
 
-* Note: The official firmware name supporting the 10.1 MIPI screen has the word "MIPI". Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/109.html#other_428)
+* Note: The official firmware name supporting the 10.1 MIPI screen has the word "MIPI". Below is the link to the firmware: [Firmware link](https://en.t-firefly.com/doc/download/109.html#other_428)
 
 ### Compile command
 ```

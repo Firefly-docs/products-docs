@@ -68,7 +68,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 
 
 # 三、固件与资料下载
-相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/235.html)。
+相关文档和固件下载，见官网的[资料下载](https://www.t-firefly.com/doc/download/261.html)。
 
 <!--
 

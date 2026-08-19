@@ -26,10 +26,10 @@ HD image.
 * [[Wiki]](../../Mainboards/AIO-3399C/started.md)
 Includes information on Android & Ubuntu driver development (see AIO-3399C Wiki)
  
-* [[SDK link]](https://community.t-firefly.com/en/doc/download/175.html#other_230) 
+* [[SDK link]](https://en.t-firefly.com/doc/download/175.html#other_230) 
 Android SDK source code
 
-* [[SDK link]](https://community.t-firefly.com/en/doc/download/175.html#other_144)
+* [[SDK link]](https://en.t-firefly.com/doc/download/175.html#other_144)
 Linux SDK source code
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

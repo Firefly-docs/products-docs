@@ -123,7 +123,7 @@ ff_export_rootfs /media/firefly/AC91-C4AE/
 ```
 
 ### Second package complete firmware
-* Tool download: [firefly-linux-repack](https://community.t-firefly.com/en/doc/download/62.html#other_349)
+* Tool download: [firefly-linux-repack](https://en.t-firefly.com/doc/download/62.html#other_349)
 * This tool is suitable for users who need to replace any part of the firmware349
 * Install the necessary environment on the PC: `sudo apt-get install lib32stdc++6`
 
@@ -1926,4 +1926,4 @@ If the factory firmware of RK3399 board is Android 7.1, when using TF card to up
 * If the device enters recovery mode after the card is turned on, but the upgrade operation is not performed automatically, please re-plug the TF card in recovery mode, and the upgrade operation can continue normally.
 
 [ubuntu_sd_update.zip]: https://download.t-firefly.com/product/RK3399/Tools/ubuntu_sd_update/ubuntu_sd_update.zip
-[SD_Firmware_Tool]: https://community.t-firefly.com/en/doc/download/62.html
+[SD_Firmware_Tool]: https://en.t-firefly.com/doc/download/62.html

@@ -14,7 +14,7 @@ Debug 串口在调试和排查问题时非常有用，特别是在图形界面�
 
 Linux 电脑无需安装驱动。
 
-Windows 电脑需要安装驱动，前往 [下载地址](https://community.t-firefly.com/doc/download/366.html) 下载 `PL23XX-M_LogoDriver_Setup_4500.zip`
+Windows 电脑需要安装驱动，前往 [下载地址](https://www.t-firefly.com/doc/download/356.html#other_924) 下载 `PL23XX-M_LogoDriver_Setup_4500.zip`
 
 解压后双击其中的 exe 文件运行，同意用户协议并一直点击 next 即可，最后点击 finish 完成。
 

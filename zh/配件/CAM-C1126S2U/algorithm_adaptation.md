@@ -22,7 +22,7 @@
 
 ### 纯净版
 
-1. 点击下载 ArcFace Linux RV1109 SDK 版本软件包：[ArcFace_RV1109_SDK.zip](https://community.t-firefly.com/doc/download/86.html)
+1. 点击下载 ArcFace Linux RV1109 SDK 版本软件包：[ArcFace_RV1109_SDK.zip](https://www.t-firefly.com/doc/download/99.html#other_416)
 
 2. 解压 ArcFace_RV1109_SDK.zip
 
@@ -34,7 +34,7 @@
 
 官方固件默认内置完整版，所以直接开机使用就可以了，以下步骤除了可以用于完整版部署外，还可以用于更新版本。
 
-1. 点击下载 ArcFace Linux RV1109 版本软件包，[ArcFaceGo_RV1109_App.zip](https://community.t-firefly.com/doc/download/86.html)。
+1. 点击下载 ArcFace Linux RV1109 版本软件包，[ArcFaceGo_RV1109_App.zip](https://www.t-firefly.com/doc/download/99.html#other_416)。
 
 2. 解压 ArcFaceGo_RV1109_App.zip。
 

@@ -10,7 +10,7 @@
 * 良好的双公头 USB 数据线
 
 ## 准备固件
-固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/222.html)处下载公版固件（统一固件）。
+固件可以通过编译SDK获得，也可以通过[资源下载](https://www.t-firefly.com/doc/download/247.html)处下载公版固件（统一固件）。
 
 * 统一固件
 
@@ -30,7 +30,7 @@ SDK 可编译出分区镜像
 ### Windows操作系统
 * 安装RK USB驱动
 
-下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/222.html)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
+下载 [Release_DriverAssistant.zip](https://www.t-firefly.com/doc/download/247.html#other_779)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 <center>
 
 ![](../../../rk3562_img/upgrade_firmware_install_RK_USB.png)
@@ -41,15 +41,15 @@ SDK 可编译出分区镜像
 
 为避免由下载工具版本引起的烧写问题，推荐使用公版固件压缩包内部打包好的工具进行烧写。
 
-也可以单独下载 [RKDevTool](https://community.t-firefly.com/doc/download/222.html)，解压，运行 `RKDevTool_Release_v2.xx` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
+也可以单独下载 [RKDevTool](https://www.t-firefly.com/doc/download/247.html#other_777)，解压，运行 `RKDevTool_Release_v2.xx` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
 ![](../../../rk3562_img/upgrade_firmware_rkdevtool_zh.png)
 
 ### Linux操作系统
 Linux 下无须安装设备驱动
-* [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/222.html)工具
+* [Linux_Upgrade_Tool](https://www.t-firefly.com/doc/download/247.html#other_776)工具
 
-下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/222.html), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_Upgrade_Tool](https://www.t-firefly.com/doc/download/247.html#other_776), 并按以下方法安装到系统中，方便调用：
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip

@@ -123,7 +123,7 @@ lrwxrwxrwx 1 root root 9 4月  16  2018 /usr/bin/python -> python2.7*
 
 * Method Two
 
-Download Firefly_Linux_SDK sub-volume compressed package: [Linux SDK](https://community.t-firefly.com/en/doc/download/88.html)
+Download Firefly_Linux_SDK sub-volume compressed package: [Linux SDK](https://en.t-firefly.com/doc/download/88.html)
 
 Note: This method can only obtain the complete SDK. The BSP SDK needs to be obtained using method 1.
 
@@ -365,7 +365,7 @@ In the `device/rockchip/rv1126_rv1109/` directory, there are configuration files
 
 ##### Automatic compilation
 
-* Download: [Debian rootfs(32-bit)](https://community.t-firefly.com/en/doc/download/88.html)，put in SDK path
+* Download: [Debian rootfs(32-bit)](https://en.t-firefly.com/doc/download/88.html)，put in SDK path
 
 ```bash
 7z x debian10_rootfs_2022_12_22.7z

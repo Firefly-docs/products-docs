@@ -22,7 +22,7 @@ The full version includes the face recognition gate UI and face backend manageme
 
 ### Pure version
 
-1. Click to download the ArcFace Linux RV1109 SDK version package: [ArcFace_RV1109_SDK.zip](https://community.t-firefly.com/en/doc/download/86.html#other_688)
+1. Click to download the ArcFace Linux RV1109 SDK version package: [ArcFace_RV1109_SDK.zip](https://en.t-firefly.com/doc/download/86.html#other_688)
 
 2. Unzip ArcFace_RV1109_SDK.zip
 
@@ -34,7 +34,7 @@ The full version includes the face recognition gate UI and face backend manageme
 
 The official firmware has a built-in complete version by default, so you can use it directly after booting. The following steps can be used for full version deployment as well as update versions.
 
-1. Click to download the ArcFace Linux RV1109 version package, [ArcFaceGo_RV1109_App.zip](https://community.t-firefly.com/en/doc/download/86.html#other_688).
+1. Click to download the ArcFace Linux RV1109 version package, [ArcFaceGo_RV1109_App.zip](https://en.t-firefly.com/doc/download/86.html#other_688).
 
 2. Unzip ArcFaceGo_RV1109_App.zip.
 

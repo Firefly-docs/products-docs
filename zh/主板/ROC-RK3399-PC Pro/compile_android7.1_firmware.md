@@ -169,5 +169,5 @@ cd ~/proj/ROC-RK3399-PC-Pro/
 如果使用的是 Windows 系统，将上述映像文件拷贝到 AndroidTool（Windows 下的固件升级工具）的 `rockdev/Image` 目录中，之后参照升级文档烧写分区映像即可，这>样的好处是使用默认配置即可，不用修改文件的路径。
 
 update.img 方便固件的发布，供终端用户升级系统使用。一般开发时使用分区映像比较方便。
-[下载链接]: https://community.t-firefly.com/doc/download/127.html
-[Android7.1 源码包]: https://community.t-firefly.com/doc/download/127.html#other_18
+[下载链接]: https://www.t-firefly.com/doc/download/145.html
+[Android7.1 源码包]: https://www.t-firefly.com/doc/download/145.html#other_18

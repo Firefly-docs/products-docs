@@ -10,7 +10,7 @@ ROC-RK3588S-PC有灵活的启动方式。一般情况下，除非硬件损坏，
 
 
 ## 固件获取
-*	[下载链接](https://community.t-firefly.com/doc/download/142.html)
+*	[下载链接](https://www.t-firefly.com/doc/download/164.html)
 
 ## 升级方式
 ROC-RK3588S-PC 支持通过以下两种方式升级固件：

@@ -74,7 +74,7 @@ wait
 ```
 
 ## 3. Firmware and Resource Download
-Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/page/id/178.html)
+Related documents and firmware download, see the official website [Resource Download](https://en.t-firefly.com/doc/download/page/id/178.html)
 
 ## 4. Tutorial
 ### Flash firmware

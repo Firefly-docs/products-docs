@@ -23,8 +23,8 @@ This chapter mainly introduces **The relationship between system firmware and up
 
 Download the corresponding version of the upgrade tool according to the table above:
 
-* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/127.html#other_367)
-* [Androidtool_xxx](https://community.t-firefly.com/en/doc/download/127.html#other_343)
+* [Linux_Upgrade_Tool](https://en.t-firefly.com/doc/download/127.html#other_367)
+* [Androidtool_xxx](https://en.t-firefly.com/doc/download/127.html#other_343)
 
 ## Considerations for cross-system upgrade
 ### Explanation of noun
@@ -56,6 +56,6 @@ The steps are as follows:
 
 
 
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/127.html#linux_12
-[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/127.html#linux_12
-[RK3399_Android7.1_EraseIDB.7z]: https://community.t-firefly.com/en/doc/download/127.html#windows_341
+[Linux_Upgrade_Tool]: https://en.t-firefly.com/doc/download/127.html#linux_12
+[upgrade_tool_xxx (version number)]: https://en.t-firefly.com/doc/download/127.html#linux_12
+[RK3399_Android7.1_EraseIDB.7z]: https://en.t-firefly.com/doc/download/127.html#windows_341

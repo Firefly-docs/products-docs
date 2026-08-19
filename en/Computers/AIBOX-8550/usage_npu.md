@@ -24,7 +24,7 @@ Otherwise you need to install it.
 
 ## Install Aidlux Web Desktop
 
-Download archive form [here](https://community.t-firefly.com/en/doc/download/366.html#other_822), transfer it to the device, extract and run "setup.sh":
+Download archive form [here](https://en.t-firefly.com/doc/download/366.html#other_822), transfer it to the device, extract and run "setup.sh":
 ```bash
 # Extract
 tar -zxf aidlux_docker.tgz

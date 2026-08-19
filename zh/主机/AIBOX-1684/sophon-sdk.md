@@ -350,4 +350,4 @@ Sophon SDK 提供了十一个文件夹模块，具体如下表所示：
   
 更多资料的，请参考：[https://developer.sophgo.com/site/index/document/all/all.html](https://developer.sophgo.com/site/index/document/all/all.html)    
 
-[下载中心]: https://community.t-firefly.com/doc/download/290.html
+[下载中心]: https://www.t-firefly.com/doc/download/280.html

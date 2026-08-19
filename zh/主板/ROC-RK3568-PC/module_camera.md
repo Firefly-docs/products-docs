@@ -11,11 +11,11 @@
 * **像素**: 800W(当前仅支持1080P，4K仍在适配中)
 
 ### 规格书
-[CAM-8MS1M_800万单目MIPI摄像模组_规格书](https://community.t-firefly.com/doc/download/114.html)
+[CAM-8MS1M_800万单目MIPI摄像模组_规格书](https://www.t-firefly.com/doc/download/131.html#other_515)
 
 ### 参考固件
 公版固件默认支持 CAM-8MS1M 单目摄像头模组。若无法使用单目摄像头 CAM-8MS1M，请更新固件
-[固件下载: CAM-8MS1M](https://community.t-firefly.com/doc/download/94.html)
+[固件下载: CAM-8MS1M](https://www.t-firefly.com/doc/download/107.html#other_474)
 
 
 ### 实物图参考
@@ -40,11 +40,11 @@
 * **像素**: 200W
 
 ### 规格书
-[CAM-2MS2MF_200万双目MIPI摄像模组_规格书](https://community.t-firefly.com/doc/download/115.html)
+[CAM-2MS2MF_200万双目MIPI摄像模组_规格书](https://www.t-firefly.com/doc/download/130.html#other_511)
 
 ### 参考固件
 双目摄像头 CAM-2MS2MF Android11 固件下载
-[固件下载: CAM-2MS2MF](https://community.t-firefly.com/doc/download/115.html)
+[固件下载: CAM-2MS2MF](https://www.t-firefly.com/doc/download/130.html#other_503)
 
 
 ### 实物图参考

@@ -126,7 +126,7 @@ Wi-Fi设置：
 	```
 
 ### 二次打包完整固件
-* 工具下载：[firefly-linux-repack](https://community.t-firefly.com/doc/download/62.html)
+* 工具下载：[firefly-linux-repack](https://www.t-firefly.com/doc/download/68.html#other_396)
 * 本工具适用于用户需要替换固件中任意一组成部分
 * 在PC端安装必要环境：`sudo apt-get install lib32stdc++6`
 
@@ -1985,4 +1985,4 @@ sys     9m29.348s
 * 如果出现插卡开机后设备进入了 recovery 模式却没有自动进行升级操作，请在 recovery 模式下重新拔插 TF 卡，升级操作即可正常继续进行。
 
 [ubuntu_sd_update.zip]: https://download.t-firefly.com/product/RK3399/Tools/ubuntu_sd_update/ubuntu_sd_update.zip
-[SD_Firmware_Tool]: https://community.t-firefly.com/doc/download/62.html
+[SD_Firmware_Tool]: https://www.t-firefly.com/doc/download/68.html#other_275

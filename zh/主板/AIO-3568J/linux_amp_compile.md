@@ -36,7 +36,7 @@ sudo apt install -y repo git python
 
 * 方法一（推荐）
 
-**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[rk356x_amp_release_20240607_v0.0.1a](https://community.t-firefly.com/doc/download/89.html)
+**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[rk356x_amp_release_20240607_v0.0.1a](https://www.t-firefly.com/doc/download/103.html#other_447)
 
 下载完成后，提取 SDK：
 
@@ -231,7 +231,7 @@ docker attach ubuntu18
 
 #### 下载 Ubuntu 根文件系统
 
-* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/89.html)，放到 SDK 路径下
+* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://www.t-firefly.com/doc/download/103.html#other_448)，放到 SDK 路径下
 
 * 解压文件
 
