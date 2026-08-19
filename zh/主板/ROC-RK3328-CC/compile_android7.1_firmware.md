@@ -43,7 +43,7 @@ sudo apt-get install gcc-arm-linux-gnueabihf \
 
 由于 SDK 较大，请选择以下链接下载SDK `firefly_rk3328_android7.1_git_20211216`：
 
-* [下载链接](https://www.t-firefly.com/doc/download/34.html#other_67)
+* [下载链接](https://community.t-firefly.com/doc/download/34.html)
 
 下载完成后，在解压前先校验下 MD5 码：
 

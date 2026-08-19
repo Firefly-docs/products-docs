@@ -148,7 +148,7 @@ Successfully generated at /firefly-k3/images/Buildroot-firefly-k3-20260508163419
 
 ##### 准备工作
 
-下载根文件系统：[Bianbu 根文件系统(64位)](https://www.t-firefly.com/doc/download/376.html#other_942) 
+下载根文件系统：[Bianbu 根文件系统(64位)](https://community.t-firefly.com/doc/download/386.html) 
 
 下载后将文件系统解压到 SDK/buildroot-ext/board/spacemit/k3/ 下，并重命名
 

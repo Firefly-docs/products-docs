@@ -54,6 +54,6 @@ ROC-RK3399-PC Pro 官方可能支持多种系统，因此会有烧写不同系�
 
 
 
-[Linux_Upgrade_Tool]: https://www.t-firefly.com/doc/download/145.html#windows_375
-[Androidtool_xxx(版本号)]: https://www.t-firefly.com/doc/download/145.html#other_248
-[RK3399_Android7.1_EraseIDB.7z]: https://www.t-firefly.com/doc/download/145.html#other_397
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/doc/download/127.html#windows_375
+[Androidtool_xxx(版本号)]: https://community.t-firefly.com/doc/download/127.html#other_248
+[RK3399_Android7.1_EraseIDB.7z]: https://community.t-firefly.com/doc/download/127.html#other_397

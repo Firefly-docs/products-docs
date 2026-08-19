@@ -14,7 +14,7 @@
 
 ###  参考固件
 
-官方的 MIPI 固件默认支持 MIPI_DSI1 + HDMI显示，MIPI屏连接 ITX-3568Q 的MIPI_DSI1接口，下面是固件的链接：[固件链接](https://www.t-firefly.com/doc/download/125.html#other_604)
+官方的 MIPI 固件默认支持 MIPI_DSI1 + HDMI显示，MIPI屏连接 ITX-3568Q 的MIPI_DSI1接口，下面是固件的链接：[固件链接](https://community.t-firefly.com/doc/download/109.html)
 
 **注意:** 接入HDMI时，HDMI的两边有可能会有黒边的现象，这是因为HDMI作为副屏会根据主屏MIPI的宽高比进行缩放，如果两者的宽高比不一致，就会导致黒边。
 
@@ -55,7 +55,7 @@
 
 ### 参考资料
 
-[屏幕模组 Datasheet & 转接板原理图](https://www.t-firefly.com/doc/download/125.html#other_489)
+[屏幕模组 Datasheet & 转接板原理图](https://community.t-firefly.com/doc/download/109.html)
 
 ### 连接方式
 

@@ -21,7 +21,7 @@ unzip device-tree-compiler python-pip ncurses-dev python-pyelftools
 
 * Method 1 (recommended)
 
-**Because the Firefly_Linux_SDK source code package is relatively large, some users' computers do not support files above 4G or the network transmission of a single file is slow, so we use the method of volume compression to package the SDK. Users can obtain the Firefly_Linux_SDK source package in the following ways: **[Firefly_Linux_SDK source package](https://www.t-firefly.com/doc/download/73.html#other_300)
+**Because the Firefly_Linux_SDK source code package is relatively large, some users' computers do not support files above 4G or the network transmission of a single file is slow, so we use the method of volume compression to package the SDK. Users can obtain the Firefly_Linux_SDK source package in the following ways: **[Firefly_Linux_SDK source package](https://community.t-firefly.com/doc/download/67.html)
 
 After the download is complete, verify the MD5 code first:
 

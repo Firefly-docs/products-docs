@@ -1,12 +1,12 @@
 # Firefly Debian 使用手册
 
 ## 固件下载
-在[资源下载](https://www.t-firefly.com/doc/download/99.html)页面下载` Debian10 `固件。
+在[资源下载](https://community.t-firefly.com/doc/download/86.html)页面下载` Debian10 `固件。
 
 ## 系统介绍
 
 Debian10 系统内置资源：
-1. 系统没有内置 rockchip 配套的 IPC 应用。也没有内置虹软 ArcSoft Facial_Gate 和 UVC 的 demo 示例应用。如果需要使用上述配套资源，请在[资源下载](https://www.t-firefly.com/doc/download/99.html)页面下载对应的 buildroot 固件。
+1. 系统没有内置 rockchip 配套的 IPC 应用。也没有内置虹软 ArcSoft Facial_Gate 和 UVC 的 demo 示例应用。如果需要使用上述配套资源，请在[资源下载](https://community.t-firefly.com/doc/download/86.html)页面下载对应的 buildroot 固件。
 2. 系统内置了 rockchip npu 的库文件和虹软 ArcSoft 人脸识别算法的库文件。并且在系统 `/home/firefly/` 目录内置了配套的 rkmedia 开发实例 demo 。帮助用户快速上手开发产品应用。
 
 ### 软件包

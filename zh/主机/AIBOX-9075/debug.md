@@ -14,7 +14,7 @@ Debug 串口在调试和排查问题时非常有用，特别是在图形界面�
 
 Linux 电脑无需安装驱动。
 
-Windows 电脑需要安装驱动，前往 [下载地址](https://www.t-firefly.com/doc/download/407.html#other_924) 下载 `CH343SER.EXE`
+Windows 电脑需要安装驱动，前往 [下载地址](https://community.t-firefly.com/doc/download/413.html) 下载 `CH343SER.EXE`
 
 双击运行，点击安装驱动即可。
 

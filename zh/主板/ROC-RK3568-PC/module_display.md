@@ -14,7 +14,7 @@
 
 ###  参考固件
 
-官方的MIPI固件默认支持MIPI_DSI0 + HDMI显示，MIPI屏连接ROC-RK3568-PC的MIPI_DSI0接口，下面是固件的链接：[固件链接](https://www.t-firefly.com/doc/download/125.html#other_491)
+官方的MIPI固件默认支持MIPI_DSI0 + HDMI显示，MIPI屏连接ROC-RK3568-PC的MIPI_DSI0接口，下面是固件的链接：[固件链接](https://community.t-firefly.com/doc/download/109.html)
 
 **注意:** 接入HDMI时，HDMI的两边有可能会有黒边的现象，这是因为HDMI作为副屏会根据主屏MIPI的宽高比进行缩放，如果两者的宽高比不一致，就会导致黒边
 
@@ -54,7 +54,7 @@ index ae57644a105..0cb9124bec8 100644
 
 ### 参考资料
 
-[屏幕模组 Datasheet & 转接板原理图](https://www.t-firefly.com/doc/download/125.html#other_489)
+[屏幕模组 Datasheet & 转接板原理图](https://community.t-firefly.com/doc/download/109.html)
 
 ### 实物图
 

@@ -289,7 +289,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-下载根文件系统：[Debian 根文件系统(64位)](https://www.t-firefly.com/doc/download/333.html#other_717)，请使用网盘中 kernel-6.1 目录下的文件系统。
+下载根文件系统：[Debian 根文件系统(64位)](https://community.t-firefly.com/doc/download/346.html)，请使用网盘中 kernel-6.1 目录下的文件系统。
 
 下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 

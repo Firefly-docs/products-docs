@@ -10,7 +10,7 @@ IHC-3308GW有灵活的启动方式。一般情况下，除非硬件损坏，IHC-
 
 
 ## 固件获取
-*	[下载链接](https://www.t-firefly.com/doc/download/102.html)
+*	[下载链接](https://community.t-firefly.com/doc/download/92.html)
 
 ## 升级方式
 IHC-3308GW 支持通过以下方式升级固件：

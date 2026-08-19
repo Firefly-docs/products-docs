@@ -5,7 +5,7 @@
 
 ROC-RK3568-PC 有2种工作模式。一般情况下，开机直接进入`Normal 模式`正常启动系统。如需对板子系统进行升级，可以根据情况选择合适的`升级模式`进行固件升级。
 
-* 注意：ROC-RK3568-PC出厂默认安装 Android 操作系统，如果用户要运行其他操作系统，需要使用对应的固件烧写到主板。可以前往[固件下载页面](https://www.t-firefly.com/doc/download/107.html)下载更多固件。
+* 注意：ROC-RK3568-PC出厂默认安装 Android 操作系统，如果用户要运行其他操作系统，需要使用对应的固件烧写到主板。可以前往[固件下载页面](https://community.t-firefly.com/doc/download/94.html)下载更多固件。
 
 
 ![](../../../rk356x_img/working_mode.png)

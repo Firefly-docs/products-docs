@@ -27,4 +27,4 @@ arecord -Dhw:0,0 -f cd -d 10 /path-to/audio.wav	#Select the sound card and recor
 #Note: Mic only supports mono recording
 ```
 
-For more detailed configuration information about the RV1126B acodec, please download the "RV1126B acodec Configuration Document" (https://www.t-firefly.com/doc/download/333.html#other_932) for reference.
+For more detailed configuration information about the RV1126B acodec, please download the "RV1126B acodec Configuration Document" (https://community.t-firefly.com/doc/download/346.html) for reference.

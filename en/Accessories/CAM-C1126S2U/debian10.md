@@ -1,7 +1,7 @@
 # Firefly Debian Manual
 
 ## Firmware Download
-Download the `Debian10` firmware from the [Resource Download](https://www.t-firefly.com/doc/download/101.html) page.
+Download the `Debian10` firmware from the [Resource Download](https://community.t-firefly.com/doc/download/88.html) page.
 
 ## System Introduction
 

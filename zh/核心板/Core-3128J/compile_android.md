@@ -56,7 +56,7 @@ libssl1.0.0 libssl-dev
 
 由于 SDK 比较大，请选择以下云盘下载文件夹`firefly_rk3288_rk3128_android5.1_git_20211216 `：  
 
-* [下载链接](https://www.t-firefly.com/doc/download/page/id/6.html#other_35)
+* [下载链接](https://community.t-firefly.com/doc/download/id/32.html)
 
 
 下载完成后先验证一下 MD5 码：  

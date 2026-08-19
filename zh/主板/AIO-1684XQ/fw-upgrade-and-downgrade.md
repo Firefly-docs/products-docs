@@ -48,4 +48,4 @@ cat /sys/bus/i2c/devices/1-0017/information  | grep "board type"
 
 升级需下载 `Public-1684-Ubuntu2004-Sdk230501-Build20230915.zip`，降级需下载 `EC-A1684XJD4-Ubuntu2004-20230317.zip`，按照[使用 TF 卡升级系统固件](fw-upgrade-by-sdcard.md)的说明去制作 TF 升级卡，完成 SOC 固件的升级。
 
-[下载中心]: https://www.t-firefly.com/doc/download/220.html
+[下载中心]: https://community.t-firefly.com/doc/download/195.html

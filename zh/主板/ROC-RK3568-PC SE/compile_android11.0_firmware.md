@@ -7,7 +7,7 @@
 ### Android SDK
 SDK 源码与 bundle 压缩包均存放在云盘中。
 #### 第一步，下载 SDK
-* 由于 SDK 较大，可以去下载页面选择云盘下载 [Firefly-RK356X_Android11.0_git](https://www.t-firefly.com/doc/download/107.html#other_449)
+* 由于 SDK 较大，可以去下载页面选择云盘下载 [Firefly-RK356X_Android11.0_git](https://community.t-firefly.com/doc/download/94.html)
 
 * 下载完成后，在解压前先校验下 MD5 码：
 
@@ -59,7 +59,7 @@ git clone https://gitlab.com/TeeFirefly/rk356x-android11-bundle.git .bundle
 git rebase FETCH_HEAD
 ```
 
-随着 SDK 的更新，bundle 也会随之越来越大，可以去下载页面选择云盘下载 [bundle](https://www.t-firefly.com/doc/download/107.html#other_449)。
+随着 SDK 的更新，bundle 也会随之越来越大，可以去下载页面选择云盘下载 [bundle](https://community.t-firefly.com/doc/download/94.html)。
 ## ROC-RK3568-PC-SE 产品编译方法
 
 **<font color=#ff0000 size=3>注意：若是第一次编译该Android Product，请使用公版编译命令进行一次完整编译</font>**

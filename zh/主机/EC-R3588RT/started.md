@@ -19,10 +19,10 @@ EC-R3588RT 采用Rockchip RK3588旗舰级八核64位处理器，主频高达2.4G
 * [[Wiki]](https://wiki.t-firefly.com/zh_CN/ROC-RK3588-RT)
 包含 Android&Ubuntu 驱动开发等资料(参考 ROC-RK3588-RT Wiki)
 
-* [[SDK 下载地址]](https://www.t-firefly.com/doc/download/240.html) 
+* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/216.html) 
 Android/Linux SDK 源码
 
-* [[固件 下载地址]](https://www.t-firefly.com/doc/download/240.html) 
+* [[固件 下载地址]](https://community.t-firefly.com/doc/download/216.html) 
 Android 固件/ Linux 固件
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)

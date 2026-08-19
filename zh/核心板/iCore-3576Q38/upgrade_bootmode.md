@@ -10,7 +10,7 @@ EXT-iCore-3576Q38有灵活的启动方式。一般情况下，除非硬件损坏
 
 
 ## 固件获取
-* [下载链接](https://www.t-firefly.com/doc/download/327.html)
+* [下载链接](https://community.t-firefly.com/doc/download/341.html)
 
 ## 升级方式
 EXT-iCore-3576Q38 支持通过以下两种方式升级固件：

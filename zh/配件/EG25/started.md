@@ -66,7 +66,7 @@ EG25-G 是移远通信专为 M2M 和 IoT 领域而设计的 LTE Cat 4 无线通�
 
 
 # 三、固件与资料下载
-相关文档和固件下载，见官网的[资料下载](https://www.t-firefly.com/doc/download/171.html)。
+相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/201.html)。
 
 
 <!--

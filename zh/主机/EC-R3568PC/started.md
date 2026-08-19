@@ -19,7 +19,7 @@ EC-R3568PC 嵌入式主机，基于 ROC-RK3568-PCSE 高性能开源平台，配�
 ## 产品资源
 
 * [开发使用文档](/docs/products/mainboards/ROC-RK3568-PC-SE/preface) 包含固件编译、系统使用、接口使用等教程 (参考ROC-RK3568-PCSE wiki)
-* [资源下载页面](https://www.t-firefly.com/doc/download/162.html) 包括固件、文件系统以及各种工具的下载地址
+* [资源下载页面](https://community.t-firefly.com/doc/download/141.html) 包括固件、文件系统以及各种工具的下载地址
 * [技术交流论坛](http://dev.t-firefly.com/forum.php) 超过 10 万企业客户和用户沟通交流平台
 
 ## 产品技术支持

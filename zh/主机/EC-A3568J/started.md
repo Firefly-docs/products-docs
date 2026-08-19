@@ -22,10 +22,10 @@ EC-A3568J 嵌入式主机，基于 AIO-3568J 高性能开源平台，配置工�
 * [[Wiki]](/docs/products/mainboards/AIO-3568J/preface)
 包含 Android&Ubuntu 驱动开发等资料(参考 AIO-3568J Wiki)
 
-* [[SDK 下载地址]](https://www.t-firefly.com/doc/download/108.html#other_449) 
+* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/95.html) 
 Android11.0 SDK 源码
 
-* [[固件 下载地址]](https://www.t-firefly.com/doc/download/108.html#other_434) 
+* [[固件 下载地址]](https://community.t-firefly.com/doc/download/95.html) 
 Android11.0 固件
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)

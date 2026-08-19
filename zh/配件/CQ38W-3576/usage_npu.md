@@ -1,11 +1,11 @@
 # NPU使用
 
-RK3576 内置 NPU 模块, 处理性能最高可达6TOPS。使用该NPU需要下载[RKNN SDK](https://www.t-firefly.com/doc/download/344.html)，RKNN SDK 为带有 NPU 的 RK 系列芯片提供编程接口，能够帮助用户部署使用 RKNN-Toolkit2 导出的 RKNN 模型，加速 AI 应用的落地，具体支持平台列表可通过 SDK 中 README 文档或者访问[airockchip](https://github.com/airockchip/rknn-toolkit2/) 查看，开发建议以[airockchip](https://github.com/airockchip/rknn-toolkit2/)官方更新版本作为参考。
+RK3576 内置 NPU 模块, 处理性能最高可达6TOPS。使用该NPU需要下载[RKNN SDK](https://community.t-firefly.com/doc/download/356.html)，RKNN SDK 为带有 NPU 的 RK 系列芯片提供编程接口，能够帮助用户部署使用 RKNN-Toolkit2 导出的 RKNN 模型，加速 AI 应用的落地，具体支持平台列表可通过 SDK 中 README 文档或者访问[airockchip](https://github.com/airockchip/rknn-toolkit2/) 查看，开发建议以[airockchip](https://github.com/airockchip/rknn-toolkit2/)官方更新版本作为参考。
 
 ## RKNN 模型
 RKNN 是 Rockchip NPU 平台使用的模型类型，以`.rknn`后缀结尾的模型文件。用户可以通过RKNN SDK提供的工具将自主研发的算法模型转换成 RKNN 模型
 
-RKNN 模型可以直接运行在 RK3576 平台上，在`rknpu2/examples`中有例子，根据`README.md`编译生成 Android 或 Linux Demo（需要交叉编译环境）。也可以直接下载编译好的 [Demo](https://www.t-firefly.com/doc/download/344.html)。
+RKNN 模型可以直接运行在 RK3576 平台上，在`rknpu2/examples`中有例子，根据`README.md`编译生成 Android 或 Linux Demo（需要交叉编译环境）。也可以直接下载编译好的 [Demo](https://community.t-firefly.com/doc/download/356.html)。
 
 在 CQ38W-3576 上运行yolov5 demo如下:
 ```shell

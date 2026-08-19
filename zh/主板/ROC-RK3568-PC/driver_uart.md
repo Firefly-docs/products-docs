@@ -22,7 +22,7 @@ UART9的TX、RX引脚存在复用的情况，实际`UART9 TX`和`UART9 RX` 分�
 
 ### RS232和RS485
 
-RS232_1、RS232_2和RS485分别从主控的UART2、UART3、UART4转换而来，其中由于UART2默认作为DEBUG串口，RS232_1无法直接使用，需要将[UART2配置为普通串口](#ru-he-jiang-uart2-pei-zhi-wei-pu-tong-chuan-kou)后才可使用。相关的硬件连接及定义可以参考[ROC-RK3568-PC原理图](https://www.t-firefly.com/doc/download/107.html#other_465)，以下是RJ45接口的部分PIN脚定义：
+RS232_1、RS232_2和RS485分别从主控的UART2、UART3、UART4转换而来，其中由于UART2默认作为DEBUG串口，RS232_1无法直接使用，需要将[UART2配置为普通串口](#ru-he-jiang-uart2-pei-zhi-wei-pu-tong-chuan-kou)后才可使用。相关的硬件连接及定义可以参考[ROC-RK3568-PC原理图](https://community.t-firefly.com/doc/download/94.html)，以下是RJ45接口的部分PIN脚定义：
 
 | RJ45引脚 |    定义    | RJ45引脚 |    定义    |
 | :------: | :--------: | :------: | :--------: |

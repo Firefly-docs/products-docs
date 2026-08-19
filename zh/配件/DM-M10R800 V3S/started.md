@@ -55,7 +55,7 @@
 |RK3399|[AIO-3399C](../../主板/AIO-3399C/interface_definition.md), [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/started.md)| 
 
 # 三、固件与资料下载
-相关文档和固件下载，见官网的[资料下载](https://www.t-firefly.com/doc/download/291.html)。
+相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/303.html)。
 
 <!--
 ## 文档下载
