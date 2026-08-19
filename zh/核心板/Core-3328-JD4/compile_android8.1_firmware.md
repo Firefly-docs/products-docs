@@ -43,7 +43,7 @@ sudo apt-get install gcc-arm-linux-gnueabihf \
 
 由于 SDK 较大，请在云盘下载 `RK3328_Android8.1_git_20190719.7z`：
 
-* [下载链接](http://www.t-firefly.com/doc/download/page/id/68.html#other_276)
+* [下载链接](https://community.t-firefly.com/doc/download/62)
 
 下载完成后，在解压前先校验下 MD5 码：
 
@@ -216,7 +216,7 @@ make -j8
 [upgrade_tool]:03-upgrade_firmware.md#upgrade-tool
 [AndroidTool]:03-upgrade_firmware.md#androidtool
 [CORE-RK3328-JD4]:http://www.t-firefly.com/product/coreboard/core_3328_jd4.html?theme=pc
-[下载页面]: http://www.t-firefly.com/doc/download/page/id/34.html
+[下载页面]: https://community.t-firefly.com/doc/download/34
 [论坛]: http://bbs.t-firefly.com
 [脸书]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

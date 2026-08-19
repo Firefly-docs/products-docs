@@ -25,7 +25,7 @@
 
 ## 下载固件
 
-- [固件下载页面](http://www.t-firefly.com/doc/download/page/id/34.html)
+- [固件下载页面](https://community.t-firefly.com/doc/download/34)
 
 **固件说明：固件分为[原始固件]与[RK 固件]，已经分类到不同的文件夹中，固件命名的日期最新则为最新的固件，其稳定性更好，请根据你所需要的固件类型选择正确的烧写工具。**
 
@@ -143,7 +143,7 @@
 [Maskrom 模式]: flash_emmc.md#maskrom-mode
 [Rockusb 驱动]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://www.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC 官网"
-[下载页面]: http://www.t-firefly.com/doc/download/page/id/34.html
+[下载页面]: https://community.t-firefly.com/doc/download/34
 [论坛]: http://bbs.t-firefly.com
 [脸书]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

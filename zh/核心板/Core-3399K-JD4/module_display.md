@@ -45,7 +45,7 @@
 
 ###  参考固件
 
-**注意：** 支持 10.1 寸屏的官方固件名带有 `LVDS` 字样，下面是固件的链接：[固件链接](http://www.t-firefly.com/doc/download/page/id/48.html#other_373)
+**注意：** 支持 10.1 寸屏的官方固件名带有 `LVDS` 字样，下面是固件的链接：[固件链接](https://community.t-firefly.com/doc/download/45)
 
 ### 编译命令
 
@@ -66,7 +66,7 @@
 
 ### 参考资料
 
-[屏幕模组 Datasheet & 转接板原理图](http://www.t-firefly.com/doc/download/page/id/48.html#other_137)
+[屏幕模组 Datasheet & 转接板原理图](https://community.t-firefly.com/doc/download/45)
 
 ### 实物图
 

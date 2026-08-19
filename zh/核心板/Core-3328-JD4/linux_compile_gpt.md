@@ -68,8 +68,8 @@ ls -al
 .repo/repo/repo sync -c --no-tags
 ```
 
-[下载链接]: https://www.t-firefly.com/doc/download/34.html
-[Firefly_Linux_SDK源码包]: https://www.t-firefly.com/doc/download/34.html#other_486
+[下载链接]: https://community.t-firefly.com/doc/download/34
+[Firefly_Linux_SDK源码包]: https://community.t-firefly.com/doc/download/34
 
 ### Linux_SDK 目录介绍
 
@@ -138,7 +138,7 @@ export RK_ROOTFS_IMG=xxxx/xxxx.img                   根文件系统镜像路径
 
 默认配置编译 Buildroot 固件，如果想编译其他固件（如 Ubuntu 固件）请执行一下操作:
 
-*  [前往下载页面 下载对应的Ubuntu 根文件系统镜像](https://www.t-firefly.com/doc/download/34.html)
+*  [前往下载页面 下载对应的Ubuntu 根文件系统镜像](https://community.t-firefly.com/doc/download/34)
 *  把得到的镜像放到 SDK 的指定目录:
 
 ```
@@ -244,7 +244,7 @@ vim device/rockchip/RK3328/firefly-rk3328-ubuntu.mk
 RK_ROOTFS_IMG=distro/linaro-rootfs.img
 ```
 
-* Ubuntu18.04文件系统，可以通过云盘下载：[下载链接](https://www.t-firefly.com/doc/download/34.html#other_184)
+* Ubuntu18.04文件系统，可以通过云盘下载：[下载链接](https://community.t-firefly.com/doc/download/34)
 
 
 

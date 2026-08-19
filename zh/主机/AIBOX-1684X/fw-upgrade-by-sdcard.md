@@ -29,4 +29,4 @@
 - TF 卡如果超过 32GB，可能因 Windows 系统的限制而无法格式化成 FAT32 格式，故最好选择 32GB 以下大小的 TF 卡。
 - 升级时间有点长，大概要六分钟左右，请耐心等待。
 
-[下载中心]: https://www.t-firefly.com/doc/download/248.html
+[下载中心]: https://community.t-firefly.com/doc/download/224

@@ -45,7 +45,7 @@ Due to the huge size of the Android SDK, it is not possible to directly host it 
 
 Please download `firefly_rk3328_android8.1_git_20211221` first:
 
-* [Download](https://en.t-firefly.com/doc/download/34.html#other_197)
+* [Download](https://community.t-firefly.com/en/doc/download/34)
 
 After the download completes, verify the MD5 checksum before extraction:
 
@@ -215,7 +215,7 @@ Reference: [《Flashing to the eMMC》](flash_emmc.md)
 [Maskrom Mode]: flash_emmc.md#maskrom-mode
 [Rockusb Driver]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://en.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC Official Website"
-[Download Page]: http://en.t-firefly.com/doc/download/34.html
+[Download Page]: https://community.t-firefly.com/en/doc/download/34
 [Forum]: http://bbs.t-firefly.com/
 [Facebook]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

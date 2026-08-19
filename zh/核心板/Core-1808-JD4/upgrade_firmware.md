@@ -16,7 +16,7 @@
 
 * 单个统一固件 update.img, 将启动加载器、参数和所有分区镜像都打包到一起，用于固件发布。
 * 多个分区镜像,如 boot.img, rootfs.img, recovery.img 等，在开发阶段生成。
-* 可以在这里找到已编译好的固件[Core-1808-JD4固件下载页](http://www.t-firefly.com/doc/download/page/id/83.html)，选择你所需要的固件，下载后解压。也可以参考编译固件的说明自行编译。
+* 可以在这里找到已编译好的固件[Core-1808-JD4固件下载页](https://community.t-firefly.com/doc/download/73)，选择你所需要的固件，下载后解压。也可以参考编译固件的说明自行编译。
 
 主机操作系统支持：
 > * Windows XP （32/64位）

@@ -11,7 +11,7 @@ AIO-3288C 有灵活的启动方式。一般情况下，除非硬件损坏，AIO-
 ## 固件信息
 
 * [固件更新说明](https://github.com/T-Firefly/firmware_doc)
-* [固件下载链接](http://www.t-firefly.com/doc/download/page/id/51.html)
+* [固件下载链接](https://community.t-firefly.com/doc/download/47)
 
 ## 升级方式
 

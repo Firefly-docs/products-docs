@@ -13,7 +13,7 @@ This article describes how to upgrade the firmware file on the host to the flash
 
 ## Prepare Firmware
 
-The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](http://en.t-firefly.com/doc/download/52.html).There are two types of firmware files:
+The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/52).There are two types of firmware files:
 
 * A single unified firmware
 
@@ -30,11 +30,11 @@ That is, files with independent functions, such as partition table, bootloader, 
 
 * Install RK USB driver
 
-Download [Release_DriverAssistant.zip](http://en.t-firefly.com/doc/download/52.html#windows_341), extract, and then run the DriverInstall.exe inside . In order for all devices to use the updated driver, first select `Driver uninstall`(`驱动卸载`) and then select `Driver install`(`驱动安装`).
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/52#windows_341), extract, and then run the DriverInstall.exe inside . In order for all devices to use the updated driver, first select `Driver uninstall`(`驱动卸载`) and then select `Driver install`(`驱动安装`).
 
 ![](../../../rk3399_img/upgrade_firmware_install_RK_USB.jpg)
 
-* Download and run [AndroidTool](http://en.t-firefly.com/doc/download/52.html#other_343)'s RKDevTool.exe
+* Download and run [AndroidTool](https://community.t-firefly.com/en/doc/download/52#other_343)'s RKDevTool.exe
 
 **<font color=#ff0000 >Note :</font>** Different firmware may use different versions of tools, please download the corresponding version according to the [Instructions for writing with USB cable (important)](02-upgrade_table.md).
 
@@ -44,11 +44,11 @@ Download [Release_DriverAssistant.zip](http://en.t-firefly.com/doc/download/52.h
 
 There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.
 
-* [Linux_Upgrade_Tool](http://en.t-firefly.com/doc/download/52.html#other_367)
+* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/52#other_367)
 
 **<font color=#ff0000 >Note :</font>** Different firmware may use different versions of tools, please download the corresponding version according to the [Instructions for writing with USB cable (important)](02-upgrade_table.md).
 
-Download [Linux_Upgrade_Tool](http://en.t-firefly.com/doc/download/52.html#other_367), And install it into the system as follows for easy invocation:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/52#other_367), And install it into the system as follows for easy invocation:
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip

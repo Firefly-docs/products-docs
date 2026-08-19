@@ -4,7 +4,7 @@
 
 **Android SDK 源码包比较大(约6.3G),可以通过如下方式获取源码包：**
 
-* [[下载链接]](http://www.t-firefly.com/doc/download/51.html#other_35)
+* [[下载链接]](https://community.t-firefly.com/doc/download/47)
 
 下载完成后先验证一下 MD5 码：
 

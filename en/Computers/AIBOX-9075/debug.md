@@ -14,7 +14,7 @@ The serial-to-USB chip is CH342.
 
 Linux PC don't need to install driver.
 
-Windows PC needs driver, please download `CH343SER.EXE` from [Download Link](https://en.t-firefly.com/doc/download/413.html#other_815)
+Windows PC needs driver, please download `CH343SER.EXE` from [Download Link](https://community.t-firefly.com/en/doc/download/413)
 
 Double click the exe file to install.
 

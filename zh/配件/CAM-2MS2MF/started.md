@@ -88,7 +88,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 | RK3588S | [AIO-3588SJD4](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588SJD4.png), [ROC-RK3588S-PC](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_ROC-RK3588S-PC.png) |
 
 # 三、资料与固件下载
-相关文档和固件下载，见官网的[资料下载](https://www.t-firefly.com/doc/download/130.html)。
+相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/115)。
 
 <!--
 ## 文档下载

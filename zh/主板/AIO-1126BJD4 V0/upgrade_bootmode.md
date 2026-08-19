@@ -10,7 +10,7 @@ AIO-1126BJD4V0有灵活的启动方式。一般情况下，除非硬件损坏，
 
 
 ## 固件获取
-*	[下载链接](https://www.t-firefly.com/doc/download/333.html)
+*	[下载链接](https://community.t-firefly.com/doc/download/346)
 
 ## 升级方式
 AIO-1126BJD4V0 支持通过以下两种方式升级固件：

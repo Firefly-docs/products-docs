@@ -27,14 +27,14 @@ Yocto项目是一个开源协作项目，可帮助开发人员创建基于Linux�
 
 ## Debian 10
 
-Debian 项目由 Ian Murdock 于1993年创立，是一个真正的免费社区项目。从那时起该项目已发展成为最大和最有影响力的开源项目之一。来自世界各地的数千名志愿者共同创建和维护 Debian 软件。Debian提供70种语言，支持多种计算机类型，因此其自称为通用操作系统。**因 Debian 强大的的通用性，Firefly为此适配了[Debian 10](https://www.t-firefly.com/doc/download/68.html)以供开发者使用。**
+Debian 项目由 Ian Murdock 于1993年创立，是一个真正的免费社区项目。从那时起该项目已发展成为最大和最有影响力的开源项目之一。来自世界各地的数千名志愿者共同创建和维护 Debian 软件。Debian提供70种语言，支持多种计算机类型，因此其自称为通用操作系统。**因 Debian 强大的的通用性，Firefly为此适配了[Debian 10](https://community.t-firefly.com/doc/download/62)以供开发者使用。**
 
-[![](../../../rk3328_img/ROC-RK3328-CC/logo/debian-logo.png "Shiprock")](https://www.t-firefly.com/doc/download/68.html)
+[![](../../../rk3328_img/ROC-RK3328-CC/logo/debian-logo.png "Shiprock")](https://community.t-firefly.com/doc/download/62)
 
 
 
 ## Centos 8
 
-CentOS（Community Enterprise Operating System）是Linux发行版之一，它是来自于Red Hat Enterprise Linux（RHEL）依照开放源代码规定发布的源代码所编译而成。由于出自同样的源代码，因此有些要求高度稳定性的服务器以CentOS替代商业版的Red Hat Enterprise Linux使用。**因 Centos 强大的的通用性，Firefly为此适配了[Centos 8](https://www.t-firefly.com/doc/download/68.html)以供开发者使用。**
+CentOS（Community Enterprise Operating System）是Linux发行版之一，它是来自于Red Hat Enterprise Linux（RHEL）依照开放源代码规定发布的源代码所编译而成。由于出自同样的源代码，因此有些要求高度稳定性的服务器以CentOS替代商业版的Red Hat Enterprise Linux使用。**因 Centos 强大的的通用性，Firefly为此适配了[Centos 8](https://community.t-firefly.com/doc/download/62)以供开发者使用。**
 
-[![](../../../rk3328_img/ROC-RK3328-CC/logo/centos8_logo.png "Shiprock")](https://www.t-firefly.com/doc/download/68.html)
+[![](../../../rk3328_img/ROC-RK3328-CC/logo/centos8_logo.png "Shiprock")](https://community.t-firefly.com/doc/download/62)

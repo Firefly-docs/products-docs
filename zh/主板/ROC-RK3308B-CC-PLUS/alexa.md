@@ -4,7 +4,7 @@
 
 ## 参考固件
 
-固件：[ROC-RK3308B-CC Alexa](http://www.t-firefly.com/doc/download/55.html#other_185)
+固件：[ROC-RK3308B-CC Alexa](https://community.t-firefly.com/doc/download/53)
 -->
 
 ## Amazon授权

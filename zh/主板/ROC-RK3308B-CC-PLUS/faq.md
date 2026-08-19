@@ -270,7 +270,7 @@ CONFIG_USB_VIDEO_CLASS_INPUT_EVDEV=y
 ### Windows方式
 
 * 安装RKDevInfoWriteTool
-  * [下载地址](http://www.t-firefly.com/doc/download/73.html)
+  * [下载地址](https://community.t-firefly.com/doc/download/67)
 * RKDevInfoWriteTool的**设置**里选中"RPMB"
 * 根据需要在RKDevInfoWriteTool的**设置**里配置"SN"，"WIFI MAC"，"LAN MAC"，"BT MAC"等
 * 开发板进入loader模式

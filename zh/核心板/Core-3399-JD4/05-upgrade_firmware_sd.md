@@ -10,7 +10,7 @@
 * 电脑
 * MicroSD卡(即TF 卡)
 * USB读卡器
-* [SD_Firmware_Tool](http://www.t-firefly.com/doc/download/page/id/66.html#other_541)
+* [SD_Firmware_Tool](https://community.t-firefly.com/doc/download/101#other_541)
 
 ## 操作步骤
 1. 运行`SD_Firmware_Tool.exe`

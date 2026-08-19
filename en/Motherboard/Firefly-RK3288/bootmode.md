@@ -11,7 +11,7 @@ If the accident appeared in the process of upgrading, bootloader damage, leading
 ## Firmware information
 
 * [Firmware update instructions](https://github.com/T-Firefly/firmware_doc)
-* [Firmware download link](http://en.t-firefly.com/doc/download/page/id/4.html)
+* [Firmware download link](https://community.t-firefly.com/en/doc/download/4)
 
 ## Upgrade method
 

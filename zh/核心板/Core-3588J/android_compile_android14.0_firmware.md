@@ -8,7 +8,7 @@ SDK 源码与 bundle 压缩包均存放在云盘中。如有需要请联系商�
 
 ### 下载 SDK
 * SDK通过邮件的方式获取，把订单号发送到<font color=red>sales@t-firefly.com</font>邮箱并注明需要的SDK名称  
-[firefly_rk3588_android14_git_20240822](https://www.t-firefly.com/doc/download/160.html)
+[firefly_rk3588_android14_git_20240822](https://community.t-firefly.com/doc/download/139)
 
 * 下载完成后，在解压前先校验下 MD5 码：
 
@@ -70,7 +70,7 @@ git clone https://gitlab.com/T-Firefly/rk3588-android14.0-bundle.git .bundle
 git rebase FETCH_HEAD
 ```
 
-下载页面选择云盘下载 [Android14.0 Bundle](https://www.t-firefly.com/doc/download/160.html#other_871)。
+下载页面选择云盘下载 [Android14.0 Bundle](https://community.t-firefly.com/doc/download/139)。
 ## Core-3588J 产品编译方法
 
 ### 整体编译

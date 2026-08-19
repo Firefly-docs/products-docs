@@ -30,8 +30,8 @@ Then choose the flashing tool according to your host PC's OS:
 
 
 * Tools download:
-  - [upgrade_tool](http://en.t-firefly.com/doc/download/62.html#other_189)
-  - [Android_tool](http://en.t-firefly.com/doc/download/62.html#other_190)  
+  - [upgrade_tool](https://community.t-firefly.com/en/doc/download/62)
+  - [Android_tool](https://community.t-firefly.com/en/doc/download/62)  
 * Firmware
   - <font color=#ff0000>Official firmware:</font> The Linux firmware provided by the official cloud disk,This includes firmware such as Ubuntu,Buildroot,Debian.the GPT firmware compiled with the new Linux SDK for GPT.
   - <font color=#ff0000>DIY firmware:</font>The firmware compiled according to [Compile Linux Firmware] is GPT Firmware  
@@ -58,7 +58,7 @@ Note:Loader mode is preferred when both Loader mode and Maskrom mode can burn fi
 [Flashing Notes]:02-upgrade_table.md
 [Boot Mode]:01-bootmode.md
 [ROC-RK3328-PC]: http://en.t-firefly.com/product/rocrk3328pc.html "ROC-RK3328-PC Official Website"
-[Download Page]: http://en.t-firefly.com/doc/download/34.html
+[Download Page]: https://community.t-firefly.com/en/doc/download/34
 [Forum]: http://bbs.t-firefly.com/
 [Facebook]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

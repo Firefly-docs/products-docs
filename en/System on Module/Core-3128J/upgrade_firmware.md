@@ -10,7 +10,7 @@ When upgrading, you need to choose a suitable upgrade method in line with the ho
 What you need:
 
 * [Firefly-RK3128 development board](https://www.firefly.store/products/core-3128j-quad-core-a7-high-performance-core-board-fireprime)
-* [Firmware](http://en.t-firefly.com/doc/download/page/id/6.html)
+* [Firmware](https://community.t-firefly.com/en/doc/download/6)
 * Host
 * Good Micro USB OTG Cable
 
@@ -38,7 +38,7 @@ Then RK released the AndroidTool tool, starting to support unified firmware (upd
 
 ### RK USB driver installation
 
-Download [Release_DriverAssistant.zip](http://en.t-firefly.com/doc/download/page/id/6.html#windows_43), uncompress it, then run DriverInstall.exe inside.  
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/6), uncompress it, then run DriverInstall.exe inside.  
 In order to use new driver for all the rockchip devices, please select "驱动卸载"(Driver uninstall), then "驱动安装"(Driver install).  
 
 ![](../../../rk3128_img/Core-3128J/win_tool_devices.png)
@@ -70,7 +70,7 @@ The host will prompt to have new device detected and configured. Open the Device
 
 ### Firmware burning
 
-Download [AndroidTool_Release_v2.35.rar](http://en.t-firefly.com/doc/download/page/id/6.html#windows_44). Uncompress it and change to directory AndroidTool_Release_v2.33.  
+Download [AndroidTool_Release_v2.35.rar](https://community.t-firefly.com/en/doc/download/6). Uncompress it and change to directory AndroidTool_Release_v2.33.  
 AndroidTool defaults to display in Chinese. We need to change it to English. Open config.ini with an text editor (like notepad). The starting lines are:
 
 ```
@@ -123,7 +123,7 @@ There is no need to install device driver. Just connect the device and host as d
 
 ### upgrade_tool
 
-Download [Linux_Upgrade_Tool](http://en.t-firefly.com/doc/download/page/id/6.html#linux_44),  and install it into the system as indicated below, so that it is available for calling:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/6),  and install it into the system as indicated below, so that it is available for calling:
 
 ```
 unzip Linux_Upgrade_Tool_v1.24.zip

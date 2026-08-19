@@ -12,7 +12,7 @@ AIO-3399J 有灵活的启动方式。一般情况下，除非硬件损坏，AIO-
 
 ## 固件获取
 
-* [下载链接](http://www.t-firefly.com/doc/download/page/id/31.html)
+* [下载链接](https://community.t-firefly.com/doc/download/31)
 
 ## 升级方式
 

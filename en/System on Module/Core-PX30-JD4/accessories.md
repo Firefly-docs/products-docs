@@ -179,13 +179,13 @@ Product parameters
 
 Reference materials
 
-* [Datasheet&Schematic](http://en.t-firefly.com/doc/download/page/id/45.html#other_101)
+* [Datasheet&Schematic](https://community.t-firefly.com/en/doc/download/45)
 
 Reference firmware
 
 **Note: The official firmware name supporting 10.1 inch screen has the word "LVDS". The following is the firmware link:**
 
-* [Firmware link](http://en.t-firefly.com/doc/download/page/id/45.html)
+* [Firmware link](https://community.t-firefly.com/en/doc/download/45)
 
 Picture
 

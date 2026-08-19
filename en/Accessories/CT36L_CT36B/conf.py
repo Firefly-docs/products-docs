@@ -107,7 +107,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
     'product_show': True,
     'product_name': 'CT36L',
-    'product_img': 'https://www.t-firefly.com/upload/portal/20231218/0021b6d6c11ced71bd0cba175063da81.png',
+    'product_img': '',
     'product_des_one': '',
 
     'product_buy': 'https://www.firefly.store/products/ct36b-ai-smart-camera',
@@ -122,7 +122,7 @@ html_theme_options = {
     'sidebar_ext':[
 
 
-        {'name':'Resource download','href':'https://en.t-firefly.com/doc/download/214.html'},
+        {'name':'Resource download','href':'https://community.t-firefly.com/en/doc/download/214'},
     ]
 }
 

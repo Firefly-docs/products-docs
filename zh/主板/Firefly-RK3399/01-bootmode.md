@@ -12,7 +12,7 @@ Firefly-RK3399 有灵活的启动方式。一般情况下，除非硬件损坏�
 
 ## 固件获取
 
-* [下载链接](http://www.t-firefly.com/doc/download/page/id/3.html)
+* [下载链接](https://community.t-firefly.com/doc/download/3)
 
 ## 升级方式
 

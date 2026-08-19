@@ -12,7 +12,7 @@ In addition to the general I/O functions, each GPIO port may have additional reu
 * ts0_data4
 * uart4exp_ctsn
 
-The drive current, pull-up and pull-down and initial states after resetting of each GPIO port are different. For details, please refer to [TRM document](http://en.t-firefly.com/doc/download/47.html#other_317).
+The drive current, pull-up and pull-down and initial states after resetting of each GPIO port are different. For details, please refer to [TRM document](https://community.t-firefly.com/en/doc/download/47).
 
 The GPIO drivers for the Firefly-RK3288 are implemented in the following pinctrl file:
 

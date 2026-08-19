@@ -294,7 +294,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-Download the root filesystem: [Debian Root Filesystem (64-bit)](https://en.t-firefly.com/doc/download/346.html#other_623). Please use the filesystem located in the kernel-6.1 directory of the cloud drive.
+Download the root filesystem: [Debian Root Filesystem (64-bit)](https://community.t-firefly.com/en/doc/download/346). Please use the filesystem located in the kernel-6.1 directory of the cloud drive.
 
 After downloading, extract the file system to SDK/prebuilt_rootfs/ and create a symbolic link:
 

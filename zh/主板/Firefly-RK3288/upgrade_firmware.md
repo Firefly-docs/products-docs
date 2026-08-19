@@ -27,13 +27,13 @@
 
 ## Windows
 
-* 工具: [Androidtool_xxx(版本号)](http://www.t-firefly.com/doc/download/4.html#windows_22)
+* 工具: [Androidtool_xxx(版本号)](https://community.t-firefly.com/doc/download/4)
 
 **<font color=#ff0000 >注意</font>**：不同固件使用的工具版本可能不同,请根据[《烧写须知》]下载对应的版本。
 
 ### 安装 RK USB 驱动
 
-下载 [Release_DriverAssistant.zip](http://www.t-firefly.com/doc/download/4.html#other_23)，解压，然后运行里面的 DriverInstall.exe。为了所有设备都使用更新的驱动，请先选择 `驱动卸载`，然后再选择 `驱动安装`。
+下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/4)，解压，然后运行里面的 DriverInstall.exe。为了所有设备都使用更新的驱动，请先选择 `驱动卸载`，然后再选择 `驱动安装`。
 
 ![](../../../rk3288_img/upgrade_firmware_install_RK_USB.jpg)
 
@@ -72,7 +72,7 @@ Firefly-RK3288-Reload：
 
 ## 烧写固件
 
-下载 [AndroidTool](http://www.t-firefly.com/doc/download/4.html#windows_22)，解压，运行 `AndroidTool_Release_vxx` 目录里面的 `AndroidTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
+下载 [AndroidTool](https://community.t-firefly.com/doc/download/4)，解压，运行 `AndroidTool_Release_vxx` 目录里面的 `AndroidTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
 ![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
 
@@ -106,7 +106,7 @@ Firefly-RK3288-Reload：
 
 Linux 下无须安装设备驱动，参照 Windows 章节连接设备则可。
 
-* 工具：[upgrade_tool_xxx(版本号)](http://www.t-firefly.com/doc/download/4.html#linux_22)
+* 工具：[upgrade_tool_xxx(版本号)](https://community.t-firefly.com/doc/download/4)
 
 **<font color=#ff0000 >注意</font>**:不同固件使用的工具版本可能不同，请根据[《烧写须知》]下载对应的版本。
 

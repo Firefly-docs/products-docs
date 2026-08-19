@@ -14,7 +14,7 @@
 
 ### Refer to the firmware
 
-The official MIPI firmware default support MIPI_DSI0+HDMI display, MIPI screen connected to ROC-RK3568-PC-SE MIPI_DSI0 interfacei. Below is the link to the firmware: [Firmware link](https://en.t-firefly.com/doc/download/109.html#other_561)
+The official MIPI firmware default support MIPI_DSI0+HDMI display, MIPI screen connected to ROC-RK3568-PC-SE MIPI_DSI0 interfacei. Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/109)
 
 **NOTE:** When using HDMI display, there may be black edges on both sides of HDMI. The reason is HDMI as a secondary screen, will be scaled according to the aspect ratio of the main screen MIPI. If the aspect ratio of the two is inconsistent, it will lead to black edges.
 
@@ -51,7 +51,7 @@ index ae57644a105..0cb9124bec8 100644
 
 ### Reference data
 
-[Screen module datasheet and adapter board schematic](http://en.t-firefly.com/doc/download/109.html#other_417)
+[Screen module datasheet and adapter board schematic](https://community.t-firefly.com/en/doc/download/109)
 
 ### Real figure
 

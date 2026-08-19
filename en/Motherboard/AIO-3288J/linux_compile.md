@@ -45,7 +45,7 @@ repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo
 
 Download the SDK source code package.
 
-Download: [Firefly_Linux_SDK](http://en.t-firefly.com/doc/download/16.html#other_306)
+Download: [Firefly_Linux_SDK](https://community.t-firefly.com/en/doc/download/16)
 
 After downloading, verify the MD5 code:
 
@@ -261,7 +261,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/rk3288_ubuntu_rootfs.img     # filesystem pat
 
 #### Download Ubuntu filesystem
 
-* Download: [Ubuntu rootfs(32-bit)](http://en.t-firefly.com/doc/download/16.html#other_122)，put in SDK path
+* Download: [Ubuntu rootfs(32-bit)](https://community.t-firefly.com/en/doc/download/16)，put in SDK path
 
 * Unzip
 

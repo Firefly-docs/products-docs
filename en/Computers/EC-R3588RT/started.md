@@ -20,10 +20,10 @@ such as M.2 SATA, PCIe, and USB3.0/2.0.
 * [[Wiki]](https://wiki.t-firefly.com/en/ROC-RK3588-RT) 
 Includes information on Android & Ubuntu driver development (see ROC-RK3588-RT Wiki)
 
-* [[SDK link]](https://en.t-firefly.com/doc/download/207.html) 
+* [[SDK link]](https://community.t-firefly.com/en/doc/download/207) 
 Android SDK source code
 
-* [[Firmware link]](https://en.t-firefly.com/doc/download/207.html) 
+* [[Firmware link]](https://community.t-firefly.com/en/doc/download/207) 
 Android Firmware
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

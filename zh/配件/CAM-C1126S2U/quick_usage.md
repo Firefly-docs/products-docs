@@ -89,7 +89,7 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 
 官方测试使用 Windows10 系统。测试步骤如下：
 
-1. 点击下载 Windows 上位机工具：[ArcAICameraSetup](https://www.t-firefly.com/doc/download/99.html#other_798) 。
+1. 点击下载 Windows 上位机工具：[ArcAICameraSetup](https://community.t-firefly.com/doc/download/86) 。
 
 2. CAM-C1126S2U 接入 Windows 主机主板出来的机箱后置` USB 3.0 `接口。
 
@@ -119,7 +119,7 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 
 官方测试使用 RK3399 Andorid 7.1。测试步骤如下：
 
-1. 点击下载 Android 上位机 APP 工具：[Android APK](https://www.t-firefly.com/doc/download/99.html#other_799) 。
+1. 点击下载 Android 上位机 APP 工具：[Android APK](https://community.t-firefly.com/doc/download/86) 。
 
 2. 接上 Android 设备的 ` USB 3.0 `接口。
 

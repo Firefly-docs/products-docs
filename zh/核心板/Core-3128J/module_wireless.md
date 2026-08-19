@@ -47,5 +47,5 @@
 ![](../../../rk3128_img/Core-3128J/module_wireless2.png)
 
 ### 参考固件
-[Firefly-RK3128公版固件](http://www.t-firefly.com/doc/download/page/id/6.html#other_45)
+[Firefly-RK3128公版固件](https://community.t-firefly.com/doc/download/6)
 

@@ -5,9 +5,9 @@ FireflyChat is a graphical application platform for LLM developed by the Firefly
 ![](../../../aibox_img/fireflychat.png)
 
 ## Installation
-Note: The system firmware of AIBOX-3576 has preconfigured FireflyChat and imported the basic model. You can use it directly.If FireflyChat does not exist in the firmware, you can download the corresponding [AI firmware](https://en.t-firefly.com/doc/download/page/id/241.html) or install FireflyChat yourself.
+Note: The system firmware of AIBOX-3576 has preconfigured FireflyChat and imported the basic model. You can use it directly.If FireflyChat does not exist in the firmware, you can download the corresponding [AI firmware](https://community.t-firefly.com/en/doc/download/241) or install FireflyChat yourself.
 
-You need to obtain the required installation package from the [Download Center](https://en.t-firefly.com/doc/download/page/id/241.html) to install FireflyChat. There are two installation packages, which are `fireflychat_x.x.x_arm64.deb` and `libfirefly-ai_x.x.x_arm64.deb`.
+You need to obtain the required installation package from the [Download Center](https://community.t-firefly.com/en/doc/download/241) to install FireflyChat. There are two installation packages, which are `fireflychat_x.x.x_arm64.deb` and `libfirefly-ai_x.x.x_arm64.deb`.
 
 After obtaining the installation package, transfer it to AIBOX-3576 and run the following command to install it:
 
@@ -27,7 +27,7 @@ After installing FireflyChat, you need to import the model file to FireflyChat t
 
 ### LLM
 
-Users can obtain the model files (.rkllm) provided by the Firefly team from the LLM model resource in the [Download Center](https://en.t-firefly.com/doc/download/page/id/241.html).
+Users can obtain the model files (.rkllm) provided by the Firefly team from the LLM model resource in the [Download Center](https://community.t-firefly.com/en/doc/download/241).
 
 After obtaining the model file, transfer it to AIBOX-3576 and run the following command to import it:
 
@@ -65,4 +65,4 @@ sudo systemctl disable FireflyChat
 sudo journalctl -u FireflyChat
 ```
 
-[Download Center]: https://en.t-firefly.com/doc/download/page/id/241.html
+[Download Center]: https://community.t-firefly.com/en/doc/download/241

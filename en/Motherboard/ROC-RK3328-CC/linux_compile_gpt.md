@@ -68,7 +68,7 @@ You can use the following command to update the SDK later
 .repo/repo/repo sync -c --no-tags
 ```
 
-[Firefly_Linux_SDK Source]: http://en.t-firefly.com/doc/download/34.html#other_414
+[Firefly_Linux_SDK Source]: https://community.t-firefly.com/en/doc/download/34
 
 
 

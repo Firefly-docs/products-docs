@@ -50,5 +50,5 @@
 
 ### Reference firmware
 
-[Firefly-RK3128 public firmware](http://en.t-firefly.com/doc/download/page/id/6.html#other_47)
+[Firefly-RK3128 public firmware](https://community.t-firefly.com/en/doc/download/6)
  

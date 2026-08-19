@@ -227,7 +227,7 @@ pip3 install ruamel.yaml==0.15.81
 
 二、 安装 ` opencv-python ` 。用 pip3 安装会一直失败，所以直接在网上下载包。
 
-点击：[资源下载](https://www.t-firefly.com/doc/download/99.html)下载 rknn-toolkit-lite.rar 并拷贝到 rv1126 系统上解压。
+点击：[资源下载](https://community.t-firefly.com/doc/download/86)下载 rknn-toolkit-lite.rar 并拷贝到 rv1126 系统上解压。
 
 ```
 # 先装以下依赖，两个 deb 包已经放在 rknn-toolkit-lite-v1.7.0.dev_0cfb22/requires/ 目录下

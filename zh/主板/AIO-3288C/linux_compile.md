@@ -27,7 +27,7 @@ sudo apt install -y repo git python
 
 * 方法一（推荐）
 
-**Firefly_Linux_SDK 源码包比较大，可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[下载链接](http://www.t-firefly.com/doc/download/51.html#other_207)
+**Firefly_Linux_SDK 源码包比较大，可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[下载链接](https://community.t-firefly.com/doc/download/47)
 
 下载完成后先验证一下 MD5 码：
 
@@ -266,7 +266,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/rk3288_ubuntu_rootfs.img     # 根文件系�
 
 #### 下载 Ubuntu 根文件系统
 
-* 下载根文件系统：[Ubuntu 根文件系统(32位)](http://www.t-firefly.com/doc/download/51.html#other_193)，放到 SDK 路径下
+* 下载根文件系统：[Ubuntu 根文件系统(32位)](https://community.t-firefly.com/doc/download/47)，放到 SDK 路径下
 
 * 解压文件
 

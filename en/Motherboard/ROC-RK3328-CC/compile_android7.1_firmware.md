@@ -43,7 +43,7 @@ sudo apt-get install gcc-arm-linux-gnueabihf \
 
 Due to the huge size of the Android SDK, please download SDK`firefly_rk3328_android7.1_git_20211216`:
 
-* [Download](https://en.t-firefly.com/doc/download/34.html#other_70)
+* [Download](https://community.t-firefly.com/en/doc/download/34)
 
 After the download completes, verify the MD5 checksum before extraction:
 
@@ -219,7 +219,7 @@ The following is a list of the image files:
 [Maskrom Mode]: flash_emmc.md#maskrom-mode
 [Rockusb Driver]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://en.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC Official Website"
-[Download Page]: http://en.t-firefly.com/doc/download/34.html
+[Download Page]: https://community.t-firefly.com/en/doc/download/34
 [Forum]: http://bbs.t-firefly.com/
 [Facebook]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

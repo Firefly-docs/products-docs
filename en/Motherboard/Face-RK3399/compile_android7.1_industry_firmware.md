@@ -52,7 +52,7 @@ git clone https://gitlab.com/TeeFirefly/rk3399-industry-nougat-bundle.git .bundl
 git rebase FETCH_HEAD
 ```
 
-Google Drive[[bundle download]](http://en.t-firefly.com/doc/download/3.html#other_230)
+Google Drive[[bundle download]](https://community.t-firefly.com/en/doc/download/3#other_230)
 
 
 
@@ -174,4 +174,4 @@ If you are using Windows system, copy the above image files to `rockdev\Image` d
 
 
 
-[Android7.1 industry SDK]: http://en.t-firefly.com/doc/download/3.html#other_230
+[Android7.1 industry SDK]: https://community.t-firefly.com/en/doc/download/3#other_230

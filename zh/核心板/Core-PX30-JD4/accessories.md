@@ -142,7 +142,7 @@
 
 注意：
 支持10.1寸屏的官方固件名带有“LVDS”字样，下面是固件的链接：
-[固件链接](http://www.t-firefly.com/doc/download/page/id/48.html#other_147)
+[固件链接](https://community.t-firefly.com/doc/download/45)
 
 
 ### 编译命令
@@ -156,7 +156,7 @@
 
 ### 参考资料
 
-[[屏幕模组Datasheet&转接板原理图]](http://www.t-firefly.com/doc/download/54.html#other_152)
+[[屏幕模组Datasheet&转接板原理图]](https://community.t-firefly.com/doc/download/52)
 
 ### 实物图
 ![](../../../px30_img/module_display12.jpg)

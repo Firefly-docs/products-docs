@@ -23,7 +23,7 @@
 
 ### 使用官方固件
 
-官方发布的固件都是支持使用SD卡升级的, 请到[Core-1808-JD4固件下载页](http://www.t-firefly.com/doc/download/page/id/83.html)下载相应的固件。
+官方发布的固件都是支持使用SD卡升级的, 请到[Core-1808-JD4固件下载页](https://community.t-firefly.com/doc/download/73)下载相应的固件。
 
 ## 制作SD升级卡
 

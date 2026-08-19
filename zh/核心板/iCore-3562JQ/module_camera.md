@@ -12,7 +12,7 @@
 
 ### 参考固件
 公版固件默认支持 CAM-8MS1M 单目摄像头模组。若无法使用单目摄像头 CAM-8MS1M，请更新固件
-[固件下载: CAM-8MS1M](https://www.t-firefly.com/doc/download/247.html#other_773)
+[固件下载: CAM-8MS1M](https://community.t-firefly.com/doc/download/222)
 
 ### 实物图参考
 ![](../../../rk3562_img/cam_8ms1m_front.jpg)

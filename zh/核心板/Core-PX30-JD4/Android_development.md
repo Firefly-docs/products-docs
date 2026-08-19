@@ -376,7 +376,7 @@ libssl1.0.0 libssl-dev
 ### 下载 Android 8.1 SDK  
 
 **Android SDK 源码包比较大,可以通过如下方式获取Android8.1源码包：**
-* [[下载链接]](http://www.t-firefly.com/doc/download/67.html#other_267)
+* [[下载链接]](https://community.t-firefly.com/doc/download/63)
 
 下载完成后先验证一下 MD5 码：
 ```

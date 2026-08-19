@@ -12,7 +12,7 @@ RK3288 有 9 组 GPIO bank： GPIO0，GPIO1, ..., GPIO8。每组又以 A0~A7, B0
 * ts0_data4
 * uart4exp_ctsn
 
-每个 GPIO 口的驱动电流、上下拉和重置后的初始状态都不尽相同，详细情况请参考[TRM 文档](http://www.t-firefly.com/doc/download/51.html#other_143)。
+每个 GPIO 口的驱动电流、上下拉和重置后的初始状态都不尽相同，详细情况请参考[TRM 文档](https://community.t-firefly.com/doc/download/47)。
 
 RK3288 的 GPIO 驱动是在以下 pinctrl 文件中实现的：
 

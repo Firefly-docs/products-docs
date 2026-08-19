@@ -48,4 +48,4 @@ out/host/linux-x86/bin/ota_from_target_files --block -v -i ~/ota/v1.zip -p out/h
 
 ### OTA 服务器搭建
 
-参考[OTA 文档](https://www.t-firefly.com/doc/download/161.#other_638)搭建服务器。
+参考[OTA 文档](https://community.t-firefly.com/doc/download/140)搭建服务器。

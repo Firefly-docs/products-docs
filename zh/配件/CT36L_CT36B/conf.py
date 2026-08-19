@@ -106,7 +106,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
     'product_show': True,
      'product_name': 'CT36L',
-    'product_img': 'https://www.t-firefly.com/upload/portal/20231218/0021b6d6c11ced71bd0cba175063da81.png',
+    'product_img': '',
     'product_des_one': '',
     'product_buy': 'https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-25219462819.11.881346e26KssTD&id=756730350500',
     'product_regula': 'https://download.t-firefly.com/%E4%BA%A7%E5%93%81%E8%A7%84%E6%A0%BC%E6%96%87%E6%A1%A3/%E8%A1%8C%E4%B8%9A%E5%A5%97%E4%BB%B6/AI%E6%99%BA%E8%83%BD%E6%91%84%E5%83%8F%E6%9C%BA%EF%BC%88POE%EF%BC%89CT36L.pdf?v=1703062973',
@@ -124,7 +124,7 @@ html_theme_options = {
 
 
 		#{'name':'FireflyApi','href':'http://wiki.t-firefly.com/zh_CN/FireflyApi/FireflyApi.html'},
-        {'name':'资源下载','href':'https://www.t-firefly.com/doc/download/238.html'},
+        {'name':'资源下载','href':'https://community.t-firefly.com/doc/download/214'},
 	]
 }
 

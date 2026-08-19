@@ -29,7 +29,7 @@ Ubuntu 系统下，在多媒体菜单下运行 PluseAudio Volume Control，在�
 [Maskrom 模式]: flash_emmc.md#maskrom-mode
 [Rockusb 驱动]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://www.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC 官网"
-[下载页面]: http://www.t-firefly.com/doc/download/page/id/34.html
+[下载页面]: https://community.t-firefly.com/doc/download/34
 [论坛]: http://bbs.t-firefly.com
 [脸书]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761
@@ -65,7 +65,7 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 <font color=red>**注意:**</font>如果开发板进行了eMMC擦除操作，之前写入的数据也会被清除。
 ### Windows方式
 * 安装RKDevInfoWriteTool
-    * [下载地址](https://www.t-firefly.com/doc/download/34.html#other_379)
+    * [下载地址](https://community.t-firefly.com/doc/download/34#other_379)
 * RKDevInfoWriteTool的**设置**里选中"RPMB"
 * 根据需要在RKDevInfoWriteTool的**设置**里配置"SN"，"WIFI MAC"，"LAN MAC"，"BT MAC"等
 * 开发板进入loader模式
@@ -76,7 +76,7 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 开发板自身写号方式
 * buildroot使能`BR2_PACKAGE_VENDOR_STORAGE`
 * 通过vendor_storage命令进行读写操作
-    * [下载地址](https://www.t-firefly.com/doc/download/34.html#other_379)
+    * [下载地址](https://community.t-firefly.com/doc/download/34#other_379)
      * SN
      ```shell
      vendor_storage -w VENDOR_SN_ID -t string -i cad895bedb8ee15f

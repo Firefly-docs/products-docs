@@ -16,7 +16,7 @@
 
 **Note**: The official firmware name supporting the 10.1 MIPI screen has the word "MIPI". Below is the link to the firmware: 
 
-* [Download](http://en.t-firefly.com/doc/download/109.html)
+* [Download](https://community.t-firefly.com/en/doc/download/109)
 
 
 ### Compile command
@@ -34,5 +34,5 @@
 ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg)
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](http://en.t-firefly.com/doc/download/109.html#other_417)
+[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/109)
 

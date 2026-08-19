@@ -111,7 +111,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-下载根文件系统：[Ubuntu 根文件系统](https://www.t-firefly.com/doc/download/257.html#other_791)，一般选择日期最新的文件系统。
+下载根文件系统：[Ubuntu 根文件系统](https://community.t-firefly.com/doc/download/232)，一般选择日期最新的文件系统。
 
 下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 
@@ -385,7 +385,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-下载根文件系统：[Debian 根文件系统](https://www.t-firefly.com/doc/download/257.html#other_791)，一般选择日期最新的文件系统。
+下载根文件系统：[Debian 根文件系统](https://community.t-firefly.com/doc/download/232)，一般选择日期最新的文件系统。
 
 下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 

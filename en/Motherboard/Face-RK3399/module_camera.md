@@ -19,7 +19,7 @@ The public firmware supports SV-TAYSH-90 camera module by default.
 
 ### Datasheet
 
-[SV-TAYSH-90 Camera Module DataSheet](http://en.t-firefly.com/doc/download/66.html#other_227)
+[SV-TAYSH-90 Camera Module DataSheet](https://community.t-firefly.com/en/doc/download/66)
 
 ### Picture
 
@@ -49,7 +49,7 @@ For face payment, access security, gesture, body recognition, high precision 3D 
 [RMSL201-1301 User manuals and interfaces use the SDK](http://www.t-firefly.com/share/index/index/id/7885e56933fef8aefd086e02412643fc.html)
 
 ### Firmware
-[RMSL201-1301 structured light firmware](http://www.t-firefly.com/doc/download/page/id/80.html#other_388)
+[RMSL201-1301 structured light firmware](https://community.t-firefly.com/doc/download/75)
 
 ### Picture
 

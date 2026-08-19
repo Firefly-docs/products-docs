@@ -10,7 +10,7 @@ CAM-C1126S2U有灵活的启动方式。一般情况下，除非硬件损坏，CA
 
 
 ## 固件获取
-*	[下载链接](https://www.t-firefly.com/doc/download/99.html)
+*	[下载链接](https://community.t-firefly.com/doc/download/86)
 
 ## 升级方式
 CAM-C1126S2U 支持通过以下两种方式升级固件：

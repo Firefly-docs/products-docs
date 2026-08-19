@@ -14,8 +14,8 @@
 
 ### 烧写工具
 
-* **[Upgrade_tool](http://www.t-firefly.com/doc/download/16.html#linux_22)**
-* **[Android_tool](http://www.t-firefly.com/doc/download/16.html#windows_22)**
+* **[Upgrade_tool](https://community.t-firefly.com/doc/download/16)**
+* **[Android_tool](https://community.t-firefly.com/doc/download/16)**
 
 ## 烧写 Android 固件须知
 

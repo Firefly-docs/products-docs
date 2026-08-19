@@ -56,7 +56,7 @@ libssl1.0.0 libssl-dev
 
 The size of SDK is huge. Please download folder firefly_rk3288_rk3128_android5.1_git_20211216 from one of the following cloud storage:
 
-* [Download](https://en.t-firefly.com/doc/download/37.html#other_35)
+* [Download](https://community.t-firefly.com/en/doc/download/37)
 
 Please check the md5 checksum before proceeding：
 

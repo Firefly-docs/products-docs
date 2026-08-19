@@ -3,7 +3,7 @@
 
 ## HDMI can’t display 4K?
 
-The default firmware of the AIO-3399ProC is a dual-screen display that supports LVDS+HDMI 1080P. The HDMI resolution can only be up to 1080P. HDMI to support 4K resolution needs to re-upgrade the [default firmware](http://en.t-firefly.com/doc/download/52.html#other_118), or recompile the kernel `make ARCH=arm64 rk3399pro-firefly-aioc.img`, re-upgrade `resource.img`.
+The default firmware of the AIO-3399ProC is a dual-screen display that supports LVDS+HDMI 1080P. The HDMI resolution can only be up to 1080P. HDMI to support 4K resolution needs to re-upgrade the [default firmware](https://community.t-firefly.com/en/doc/download/52), or recompile the kernel `make ARCH=arm64 rk3399pro-firefly-aioc.img`, re-upgrade `resource.img`.
 
 ## How to confirm whether the firmware supports 4K?
 
@@ -67,7 +67,7 @@ out/target/product/rk3399pro_firefly_aiojd4/vendor/lib64/hw/audio.primary.defaul
 
 ### Windows way
 * Install RKDevInfoWriteTool
-    * [Download link](http://en.t-firefly.com/doc/download/69.html#other_297)
+    * [Download link](https://community.t-firefly.com/en/doc/download/69#other_297)
 * Select "RPMB" in **Settings** of RKDevInfoWriteTool
 * Configure "SN", "WIFI MAC", "LAN MAC", "BT MAC", etc. in the **Settings** of RKDevInfoWriteTool as needed
 * The development board enters loader mode
@@ -81,7 +81,7 @@ How to write the number of the development board itself
 
 * Buildroot enable `BR2_PACKAGE_VENDOR_STORAGE`
 * Read and write operations through the vendor_storage command
-    * [Download link](http://en.t-firefly.com/doc/download/69.html#other_297)
+    * [Download link](https://community.t-firefly.com/en/doc/download/69#other_297)
      * SN
      ```shell
      vendor_storage -w VENDOR_SN_ID -t string -i cad895bedb8ee15f

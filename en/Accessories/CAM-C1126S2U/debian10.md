@@ -1,12 +1,12 @@
 # Firefly Debian Manual
 
 ## Firmware Download
-Download the `Debian10` firmware from the [Resource Download](https://www.t-firefly.com/doc/download/101.html) page.
+Download the `Debian10` firmware from the [Resource Download](https://community.t-firefly.com/doc/download/88) page.
 
 ## System Introduction
 
 Debian10 system built-in resources:
-1. The system does not have built-in rockchip supporting IPC applications. There is no built-in ArcSoft Facial_Gate and UVC demo sample applications. If you need to use the above supporting resources, please download the corresponding buildroot firmware on the [Resource Download](https://en.t-firefly.com/doc/download/86.html) page.
+1. The system does not have built-in rockchip supporting IPC applications. There is no built-in ArcSoft Facial_Gate and UVC demo sample applications. If you need to use the above supporting resources, please download the corresponding buildroot firmware on the [Resource Download](https://community.t-firefly.com/en/doc/download/86) page.
 2. The system has built-in rockchip npu library files and ArcSoft face recognition algorithm library files. And the supporting rkmedia development example demo is built in the system `/home/firefly/` directory. Help users quickly get started with developing product applications.
 
 ### Packages

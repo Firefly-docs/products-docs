@@ -14,7 +14,7 @@
 
 ### Refer to the firmware
 
-The official MIPI firmware default support MIPI_DSI1+HDMI display, MIPI screen connected to AIO-3568J MIPI_DSI1 interface. Below is the link to the firmware: [Firmware link](http://en.t-firefly.com/doc/download/109.html#other_420)
+The official MIPI firmware default support MIPI_DSI1+HDMI display, MIPI screen connected to AIO-3568J MIPI_DSI1 interface. Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/109)
 
 **NOTE:** When using HDMI display, there may be black edges on both sides of HDMI. The reason is HDMI as a secondary screen, will be scaled according to the aspect ratio of the main screen MIPI. If the aspect ratio of the two is inconsistent, it will lead to black edges.
 
@@ -87,7 +87,7 @@ If you need to use MIPI_DSI0, then select one of the following mk files:
 
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](http://en.t-firefly.com/doc/download/109.html#other_417)
+[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/109)
 
 ### Real figure
 

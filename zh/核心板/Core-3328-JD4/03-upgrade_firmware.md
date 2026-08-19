@@ -51,15 +51,15 @@
 
 ### 固件下载
 
-* [固件下载页面](http://www.t-firefly.com/doc/download/68.html)
+* [固件下载页面](https://community.t-firefly.com/doc/download/62)
 
 ### 烧录工具下载
 
 Windows下：
-[AndroidTool_v2.58](http://www.t-firefly.com/doc/download/68.html#other_271)
+[AndroidTool_v2.58](https://community.t-firefly.com/doc/download/62)
 
 Linux下：  
-[Upgrade_Tool_v1.34](http://www.t-firefly.com/doc/download/68.html#other_272)
+[Upgrade_Tool_v1.34](https://community.t-firefly.com/doc/download/62)
 
 <a id="androidtool"></a>
 
@@ -186,7 +186,7 @@ sudo upgrade_tool ef update.img	# 擦除
 [upgrade_tool]:03-upgrade_firmware.md#upgrade-tool
 [AndroidTool]:03-upgrade_firmware.md#androidtool
 [CORE-RK3328-JD4]:http://www.t-firefly.com/product/coreboard/core_3328_jd4.html?theme=pc
-[下载页面]: http://www.t-firefly.com/doc/download/page/id/34.html
+[下载页面]: https://community.t-firefly.com/doc/download/34
 [论坛]: http://bbs.t-firefly.com
 [脸书]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

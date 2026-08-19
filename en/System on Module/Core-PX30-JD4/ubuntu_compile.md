@@ -53,7 +53,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/px30_ubuntu_rootfs.img       # filesystem pat
 
 ### Download Ubuntu filesystem
 
-* Download: [Ubuntu rootfs](http://en.t-firefly.com/doc/download/page/id/63.html#other_214)，put in SDK path
+* Download: [Ubuntu rootfs](https://community.t-firefly.com/en/doc/download/63)，put in SDK path
 
 * Unzip
 

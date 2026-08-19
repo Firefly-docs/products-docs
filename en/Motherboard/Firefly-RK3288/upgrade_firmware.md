@@ -197,9 +197,9 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 ![](../../../rk3288_img/upgrade_downloadfail.jpg)
 
 ["Instruction of upgrade"]: upgrade_table.md
-[Firefly-RK3288 firmware]: http://en.t-firefly.com/doc/download/page/id/4.html
-[Androidtool_xxx (version number)]: http://en.t-firefly.com/doc/download/4.html#windows_22
-[Androidtool]: http://en.t-firefly.com/doc/download/4.html#windows_22
-[Release_DriverAssistant.zip]: http://en.t-firefly.com/doc/download/4.html#other_23
-[Linux_Upgrade_Tool]: http://en.t-firefly.com/doc/download/4.html#linux_22
-[upgrade_tool_xxx (version number)]: http://en.t-firefly.com/doc/download/4.html#linux_22
+[Firefly-RK3288 firmware]: https://community.t-firefly.com/en/doc/download/4
+[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/4
+[Androidtool]: https://community.t-firefly.com/en/doc/download/4
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/4
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/4
+[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/4

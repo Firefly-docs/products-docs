@@ -21,7 +21,7 @@ unzip device-tree-compiler python-pip ncurses-dev python-pyelftools
 
 * 方法一（推荐）
 
-**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[Firefly_Linux_SDK源码包](https://www.t-firefly.com/doc/download/102.html#other_300)
+**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[Firefly_Linux_SDK源码包](https://community.t-firefly.com/doc/download/92)
 
 下载完成后先验证一下 MD5 码：
 
@@ -127,7 +127,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/rk3308-ubuntu_rootfs.img # 根文件系统路
 
 #### 下载 Ubuntu 根文件系统
 
-* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://www.t-firefly.com/doc/download/102.html#other_601)，放到 SDK 路径下
+* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/92)，放到 SDK 路径下
 
 * 将根文件系统放到SDK的 `ubuntu_rootfs/` 目录下
 

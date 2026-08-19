@@ -14,7 +14,7 @@
 
 ### Refer to the firmware
 
-The official MIPI firmware default support MIPI_DSI1 + HDMI display, MIPI screen connected to ITX-3568Q MIPI_DSI1 interface. Below is the link to the firmware: [Firmware link](https://en.t-firefly.com/doc/download/109.html#other_531)
+The official MIPI firmware default support MIPI_DSI1 + HDMI display, MIPI screen connected to ITX-3568Q MIPI_DSI1 interface. Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/109)
 
 **NOTE:** When using HDMI display, there may be black edges on both sides of HDMI. The reason is HDMI as a secondary screen, will be scaled according to the aspect ratio of the main screen MIPI. If the aspect ratio of the two is inconsistent, it will lead to black edges.
 
@@ -53,7 +53,7 @@ index d784287..fbe7b6b 100755
 
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](http://en.t-firefly.com/doc/download/109.html#other_417)
+[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/109)
 
 ### Connection methods
 

@@ -48,4 +48,4 @@ Download `STM32L071C8-mcu-v5-2022-11-11-10-24-11.bin`, and update with the flash
 
 To upgrade, you need to download the `Public-1684-Ubuntu2004-Sdk230501-Build20230915.zip`, To downgrade, you need to download the `EC-A1684XJD4-Ubuntu2004-20230317.zip`, and follow instructions in: [Use TF card to upgrade firmware](fw-upgrade-by-sdcard.md)
 
-[Download Center]: https://en.t-firefly.com/doc/download/181.html
+[Download Center]: https://community.t-firefly.com/en/doc/download/181

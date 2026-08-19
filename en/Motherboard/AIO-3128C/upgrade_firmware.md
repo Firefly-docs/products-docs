@@ -10,7 +10,7 @@ Please choose the right way according to the host OS and image file type.
 What you need:
 
 * [AIO-3128C board](https://www.firefly.store/products/aio-3128c-quad-core-high-performance-board)
-* [Firmware](http://en.t-firefly.com/doc/download/page/id/37.html#other_94)
+* [Firmware](https://community.t-firefly.com/en/doc/download/37)
 * Dual male USB data cable
 
 Typically firmware files comprise two kinds:
@@ -38,7 +38,7 @@ Before using the flashing utility, you need to install RK USB driver. If the dri
 
 ### RK USB driver installation
 
-Download [Release_DriverAssistant.zip](http://en.t-firefly.com/doc/download/page/id/37.html#windows_43), uncompress it, then run DriverInstall.exe inside.  
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/37), uncompress it, then run DriverInstall.exe inside.  
 In order to use new driver for all the rockchip devices, please select "驱动卸载"(Driver uninstall), then "驱动安装"(Driver install).  
 
 ![](../../../rk3128_img/AIO-3128C/win_tool_devices.png)
@@ -74,7 +74,7 @@ The host will prompt to have new device detected and configured. Open the Device
 
 ### Firmware burning
 
-Download [AndroidTool_Release_v2.35.rar](http://en.t-firefly.com/doc/download/page/id/37.html#windows_44). Uncompress it and change to directory AndroidTool_Release_v2.35.  
+Download [AndroidTool_Release_v2.35.rar](https://community.t-firefly.com/en/doc/download/37). Uncompress it and change to directory AndroidTool_Release_v2.35.  
  
 Now, run AndroidTool.exe: (Note: If using Windows 7/8, you'll need to right click it, select to run it as Administrator)
 
@@ -117,7 +117,7 @@ There is no need to install device driver. Just connect the device and host as d
 
 ### upgrade_tool
 
-Download [Linux_Upgrade_Tool](http://en.t-firefly.com/doc/download/page/id/37.html#linux_44), and install it to host filesystem:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/37), and install it to host filesystem:
 
 ```
 unzip Linux_Upgrade_Tool_v1.21.zip

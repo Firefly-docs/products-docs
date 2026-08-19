@@ -7,13 +7,13 @@ This article describes how to upgrade the firmware file on the host to the flash
 ## Preparatory Tools
 
 * AIO-1126BJD4V0 development board
-* [Firmware](https://en.t-firefly.com/doc/download/346.html)
+* [Firmware](https://community.t-firefly.com/en/doc/download/346)
 * host computer
 * USB data cable
 
 ## Prepare Firmware
 
-The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://en.t-firefly.com/doc/download/346.html). There are two types of firmware files:
+The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/346). There are two types of firmware files:
 
 * A single unified firmware
 
@@ -30,7 +30,7 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
 
 * Install RK USB driver
 
-Download [Release_DriverAssistant.zip](https://en.t-firefly.com/doc/download/346.html#other_11), extract, and then run the DriverInstall.exe inside . 
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/346), extract, and then run the DriverInstall.exe inside . 
 In order for all devices to use the updated driver, first select Driver uninstall(驱动卸载) and then select Driver install(驱动安装).
 
 <center>
@@ -44,9 +44,9 @@ In order for all devices to use the updated driver, first select Driver uninstal
 
 There is no need to install device driver under Linux.
 
-* [Linux_Upgrade_Tool](https://en.t-firefly.com/doc/download/346.html#other_502)
+* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/346)
 
-Download [Linux_Upgrade_Tool](https://en.t-firefly.com/doc/download/346.html#other_502), And install it into the system as follows for easy invocation:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/346), And install it into the system as follows for easy invocation:
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -56,9 +56,9 @@ sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
-* [Linux_adb_fastboot](https://en.t-firefly.com/doc/download/140.html#other_565)
+* [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/140)
 
-Download [Linux_adb_fastboot](https://en.t-firefly.com/doc/download/140.html#other_565), And install it into the system as follows for easy invocation:
+Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/140), And install it into the system as follows for easy invocation:
 
 ```
 sudo mv adb /usr/local/bin
@@ -273,8 +273,8 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 ![](../../../rv1126b_img/common/upgrade_firmware_download_fail.png)
 
 [烧写须知]: 02-upgrade_table.md
-[AIO-1126BJD4V0 firmware]: https://en.t-firefly.com/doc/download/346.html
-[Androidtool_xxx (version number)]: https://en.t-firefly.com/doc/download/346.html#windows_12
-[Release_DriverAssistant.zip]: https://en.t-firefly.com/doc/download/346.html#windows_341
-[Linux_Upgrade_Tool]: https://en.t-firefly.com/doc/download/346.html#linux_12
-[upgrade_tool_xxx (version number)]: https://en.t-firefly.com/doc/download/346.html#linux_12
+[AIO-1126BJD4V0 firmware]: https://community.t-firefly.com/en/doc/download/346
+[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/346#windows_12
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/346#windows_341
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/346#linux_12
+[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/346#linux_12

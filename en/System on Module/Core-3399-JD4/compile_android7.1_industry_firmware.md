@@ -52,7 +52,7 @@ git clone https://gitlab.com/TeeFirefly/rk3399-industry-nougat-bundle.git .bundl
 git rebase FETCH_HEAD
 ```
 
-Google Drive[[bundle download]](http://en.t-firefly.com/doc/download/60.html#other_230)
+Google Drive[[bundle download]](https://community.t-firefly.com/en/doc/download/60#other_230)
 
 
 
@@ -172,4 +172,4 @@ Please refer to [Instructions for writing with USB cable (important)](02-upgrade
 
    ["Compile Android7.1 firmware"](compile_android7.1_firmware.md)  
 
-[Android7.1 industry SDK]: http://en.t-firefly.com/doc/download/60.html#other_230
+[Android7.1 industry SDK]: https://community.t-firefly.com/en/doc/download/60#other_230

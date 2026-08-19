@@ -1400,7 +1400,7 @@ Firefly AIO-3399J操作系统使用Firefly定制的Ubuntu18.04.  系统中已经
 
 固件下载地址如下：
 
-[AIO-3399J Ubuntu18.04 MLU220固件](https://www.t-firefly.com/doc/download/31.html#other_174)
+[AIO-3399J Ubuntu18.04 MLU220固件](https://community.t-firefly.com/doc/download/31)
 
 选择AIO-3399J-UBUNTU18.04-MLU220-GPT-**.img.7z
 

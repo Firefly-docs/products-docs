@@ -10,7 +10,7 @@ AIO-3588L有灵活的启动方式。一般情况下，除非硬件损坏，AIO-3
 
 
 ## 固件获取
-*	[下载链接](https://www.t-firefly.com/doc/download/224.html)
+*	[下载链接](https://community.t-firefly.com/doc/download/209)
 
 ## 升级方式
 AIO-3588L 支持通过以下两种方式升级固件：

@@ -10,7 +10,7 @@ To use MicroSD to update the firmware, you need to write the unified firmware in
 * computer
 * MicroSD card (ie TF card)
 * USB card reader
-* [SD_Firmware_Tool](http://en.t-firefly.com/doc/download/52.html#other_125)
+* [SD_Firmware_Tool](https://community.t-firefly.com/en/doc/download/52#other_125)
 
 
 ## Run `SD_Firmware_Tool.exe`

@@ -165,5 +165,5 @@ If you are using a Windows system, copy the above image file to the `rockdev/Ima
 
 update.img facilitates the release of firmware for end users to upgrade the system. It is more convenient to use partition image during development.
 
-[Android7.1 SDK]: http://en.t-firefly.com/doc/download/51.html#other_18
+[Android7.1 SDK]: https://community.t-firefly.com/en/doc/download/51#other_18
 

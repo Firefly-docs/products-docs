@@ -2,7 +2,7 @@
 
 ## Reference firmware
 
-Firmware: [ROC-RK3308B-CC Alexa](http://en.t-firefly.com/doc/download/page/id/53.html#other_156)
+Firmware: [ROC-RK3308B-CC Alexa](https://community.t-firefly.com/en/doc/download/53)
 
 ## Amazon authorization
 

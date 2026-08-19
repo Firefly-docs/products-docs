@@ -11,7 +11,7 @@ AIBOX-K3有灵活的启动方式。一般情况下，除非硬件损坏，AIBOX-
 
 ## 固件获取
 
-*	[下载链接](https://www.t-firefly.com/doc/download/376.html)
+*	[下载链接](https://community.t-firefly.com/doc/download/386)
 
 ## 升级方式
 

@@ -49,7 +49,7 @@ git clone https://gitlab.com/TeeFirefly/rk3399-nougat-bundle.git .bundle
 git rebase FETCH_HEAD
 ```
 
-百度云下载[[bundle压缩包]](http://www.t-firefly.com/doc/download/page/id/3.html#other18)
+百度云下载[[bundle压缩包]](https://community.t-firefly.com/doc/download/3)
 
 
 
@@ -169,5 +169,5 @@ cd ~/proj/ROC-RK3399-PC/
 如果使用的是 Windows 系统，将上述映像文件拷贝到 AndroidTool（Windows 下的固件升级工具）的 `rockdev/Image` 目录中，之后参照升级文档烧写分区映像即可，这>样的好处是使用默认配置即可，不用修改文件的路径。
 
 update.img 方便固件的发布，供终端用户升级系统使用。一般开发时使用分区映像比较方便。
-[下载链接]: http://www.t-firefly.com/doc/download/page/id/53.html
-[Android7.1 源码包]: http://www.t-firefly.com/doc/download/page/id/53.html#other_18
+[下载链接]: https://community.t-firefly.com/doc/download/51
+[Android7.1 源码包]: https://community.t-firefly.com/doc/download/51#other_18

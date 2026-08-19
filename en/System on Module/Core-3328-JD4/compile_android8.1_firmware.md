@@ -45,7 +45,7 @@ Due to the huge size of the Android SDK, it is not possible to directly host it 
 
 Please download `RK3328_Android8.1_git_20190719.7z` first:
 
-- [Google Drive](http://en.t-firefly.com/doc/download/page/id/62.html#other_194)
+- [Google Drive](https://community.t-firefly.com/en/doc/download/62)
 
 After the download completes, verify the MD5 checksum before extraction:
 
@@ -213,7 +213,7 @@ Reference: [《Flash Image》](03-upgrade_firmware.md)
 [Flashing Notes]:02-upgrade_table.md
 [Boot Mode]:01-bootmode.md
 [ROC-RK3328-PC]: http://en.t-firefly.com/product/rocrk3328pc.html "ROC-RK3328-PC Official Website"
-[Download Page]: http://en.t-firefly.com/doc/download/34.html
+[Download Page]: https://community.t-firefly.com/en/doc/download/34
 [Forum]: http://bbs.t-firefly.com/
 [Facebook]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

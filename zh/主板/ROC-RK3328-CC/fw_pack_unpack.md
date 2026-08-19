@@ -217,7 +217,7 @@ resize2fs Image/system.img
 [Maskrom 模式]: flash_emmc.md#maskrom-mode
 [Rockusb 驱动]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://www.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC 官网"
-[下载页面]: http://www.t-firefly.com/doc/download/page/id/34.html
+[下载页面]: https://community.t-firefly.com/doc/download/34
 [论坛]: http://bbs.t-firefly.com
 [脸书]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

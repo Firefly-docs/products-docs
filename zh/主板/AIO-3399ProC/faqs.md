@@ -2,7 +2,7 @@
 
 ## HDMI 无法 4K 显示？
 
-AIO-3399ProC 默认出厂固件是支持 LVDS+HDMI 1080P 的双屏显示，HDMI 分辨率最高只能到 1080P。HDMI 要支持到 4K 分辨率需要重新烧写[默认固件](http://www.t-firefly.com/doc/download/31.html#other_80)，或者重新编译内核 `make ARCH=arm64 rk3399pro-firefly-aioc.img` ，重新烧写 `resource.img` 即可。
+AIO-3399ProC 默认出厂固件是支持 LVDS+HDMI 1080P 的双屏显示，HDMI 分辨率最高只能到 1080P。HDMI 要支持到 4K 分辨率需要重新烧写[默认固件](https://community.t-firefly.com/doc/download/31)，或者重新编译内核 `make ARCH=arm64 rk3399pro-firefly-aioc.img` ，重新烧写 `resource.img` 即可。
 
 ## 如何确认固件是否支持 4K？
 
@@ -66,7 +66,7 @@ out/target/product/rk3399pro_firefly_aiojd4/vendor/lib64/hw/audio.primary.defaul
 <font color=red>**注意:**</font>如果开发板进行了eMMC擦除操作，之前写入的数据也会被清除。
 ### Windows方式
 * 安装RKDevInfoWriteTool
-    * [下载地址](http://www.t-firefly.com/doc/download/page/id/76.html#other_379)
+    * [下载地址](https://community.t-firefly.com/doc/download/69#other_379)
 * RKDevInfoWriteTool的**设置**里选中"RPMB"
 * 根据需要在RKDevInfoWriteTool的**设置**里配置"SN"，"WIFI MAC"，"LAN MAC"，"BT MAC"等
 * 开发板进入loader模式
@@ -77,7 +77,7 @@ out/target/product/rk3399pro_firefly_aiojd4/vendor/lib64/hw/audio.primary.defaul
 开发板自身写号方式
 * buildroot使能`BR2_PACKAGE_VENDOR_STORAGE`
 * 通过vendor_storage命令进行读写操作
-    * [下载地址](http://www.t-firefly.com/doc/download/page/id/76.html#other_379)
+    * [下载地址](https://community.t-firefly.com/doc/download/69#other_379)
      * SN
      ```shell
      vendor_storage -w VENDOR_SN_ID -t string -i cad895bedb8ee15f

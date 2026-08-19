@@ -5,7 +5,7 @@
 
 ## 安装
 
-到[资源下载](https://www.t-firefly.com/doc/download/83.html)页面，下载` linux-header `和` linux-image `的 deb 包：
+到[资源下载](https://community.t-firefly.com/doc/download/73)页面，下载` linux-header `和` linux-image `的 deb 包：
 
 ```
 linux-4.4.185_4.4.185-8_arm64.changes

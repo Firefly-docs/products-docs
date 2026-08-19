@@ -8,7 +8,7 @@ The device comes with AI-IPC scene firmware by default.
 1. Connect to `DC 12V` power supply, or `POE` power supply.
 2. After powering on, the two LED lights next to Ethernet will be on.
 3. Connect the device to the network cable and make sure it is in the same LAN as the `windows` computer used for debugging. The computer and 1126 board are required to be in the same network segment.
-4. Download [RK_IPCamera_Tool-Vx.x.zip](http://www.t-firefly.com/doc/download/101.html) on windows, unzip and run the software.
+4. Download [RK_IPCamera_Tool-Vx.x.zip](https://community.t-firefly.com/doc/download/88) on windows, unzip and run the software.
 5. Use the software to search for the IP of the AI ​​network camera device.
 ![](../../../rv1126_img/Core-1126-JD4/iptool.png)
 6. Enter the device IP address on the browser to enter the management page. The default account and password are both `admin`.

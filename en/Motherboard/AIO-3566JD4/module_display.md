@@ -15,7 +15,7 @@
 
 ### Refer to the firmware
 
-The official firmware name supporting the 10.1 screen has the word `MIPI`. Below is the link to the firmware: [Dual MIPI Firmware link](https://en.t-firefly.com/doc/download/109.html#other_447)  
+The official firmware name supporting the 10.1 screen has the word `MIPI`. Below is the link to the firmware: [Dual MIPI Firmware link](https://community.t-firefly.com/en/doc/download/109)  
 
 <font color="#dd0000">Note: </font><br />Because RK3566 Dual screen Display uses the same internal input Source, that is, `VOP` is the `Same Source, Dual Display`, so if MIPI screen is used as the main screen, the HDMI screen of the secondary screen will stretch, so if you  want to avoid this problem.  Both the primary and secondary screens should be in the same direction (horizontal and vertical) with the same resolution.  
 
@@ -28,7 +28,7 @@ The official firmware name supporting the 10.1 screen has the word `MIPI`. Below
 
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](http://en.t-firefly.com/doc/download/109.html#other_417)
+[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/109)
 
 ### Real figure
 

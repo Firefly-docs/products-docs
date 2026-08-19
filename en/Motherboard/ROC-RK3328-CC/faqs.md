@@ -30,7 +30,7 @@ In Ubuntu system, run PluseAudio Volume Control in Multimedia menu. Then in Conf
 [Maskrom Mode]: flash_emmc.md#maskrom-mode
 [Rockusb Driver]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://en.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC Official Website"
-[Download Page]: http://en.t-firefly.com/doc/download/34.html
+[Download Page]: https://community.t-firefly.com/en/doc/download/34
 [Forum]: http://bbs.t-firefly.com/
 [Facebook]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761
@@ -67,7 +67,7 @@ It may be that the power supply current is not enough. Please use a power supply
 
 ### Windows way
 * Install RKDevInfoWriteTool
-    * [Download link](https://en.t-firefly.com/doc/download/34.html#other_297)
+    * [Download link](https://community.t-firefly.com/en/doc/download/34#other_297)
 * Select "RPMB" in **Settings** of RKDevInfoWriteTool
 * Configure "SN", "WIFI MAC", "LAN MAC", "BT MAC", etc. in the **Settings** of RKDevInfoWriteTool as needed
 * The development board enters loader mode
@@ -81,7 +81,7 @@ How to write the number of the development board itself
 
 * Buildroot enable `BR2_PACKAGE_VENDOR_STORAGE`
 * Read and write operations through the vendor_storage command
-    * [Download link](https://en.t-firefly.com/doc/download/34.html#other_297)
+    * [Download link](https://community.t-firefly.com/en/doc/download/34#other_297)
      * SN
      ```shell
      vendor_storage -w VENDOR_SN_ID -t string -i cad895bedb8ee15f

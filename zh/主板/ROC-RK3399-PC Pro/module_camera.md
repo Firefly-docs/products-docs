@@ -70,13 +70,13 @@
 * **像素**: 800W(当前仅支持1080P，4K仍在适配中)
 
 ### 规格书
-[CAM-8MS1M_800万单目MIPI摄像模组_规格书](https://www.t-firefly.com/doc/download/131.html#other_515)
+[CAM-8MS1M_800万单目MIPI摄像模组_规格书](https://community.t-firefly.com/doc/download/114)
 
 ### 参考固件
 公版固件默认支持 CAM-8MS1M 单目摄像头模组。若无法使用单目摄像头 CAM-8MS1M，请更新固件
-[Android7.1固件下载](https://www.t-firefly.com/doc/download/145.html#other_339)
+[Android7.1固件下载](https://community.t-firefly.com/doc/download/127)
 
-[Android10.0固件下载](https://www.t-firefly.com/doc/download/145.html#other_400)
+[Android10.0固件下载](https://community.t-firefly.com/doc/download/127)
 
 ### 实物图参考
 ![](../../../rk3399_img/cam_8ms1m_front.jpg)

@@ -53,7 +53,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/px30_ubuntu_rootfs.img       # 根文件系�
 
 ### 下载 Ubuntu 根文件系统
 
-* 下载根文件系统：[Ubuntu 根文件系统](http://www.t-firefly.com/doc/download/page/id/67.html#other_358)，放到 SDK 路径下
+* 下载根文件系统：[Ubuntu 根文件系统](https://community.t-firefly.com/doc/download/63)，放到 SDK 路径下
 
 * 解压文件
 

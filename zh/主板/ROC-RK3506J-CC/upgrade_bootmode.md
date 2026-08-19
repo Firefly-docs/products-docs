@@ -10,7 +10,7 @@ ROC-RK3506J-CC有灵活的启动方式。一般情况下，除非硬件损坏，
 
 
 ## 固件获取
-* [下载链接](https://www.t-firefly.com/doc/download/296.html)
+* [下载链接](https://community.t-firefly.com/doc/download/309)
 
 ## 升级方式
 ROC-RK3506J-CC 支持通过以下方式升级固件：

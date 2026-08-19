@@ -4,7 +4,7 @@ Users may need to compile the driver for the peripherals. There are usually two 
 
 ## Install
 
-Go to the resource [download page](http://en.t-firefly.com/doc/download/73.html) and download the DEB packages of `Linux header` and `Linux image`:
+Go to the resource [download page](https://community.t-firefly.com/en/doc/download/73) and download the DEB packages of `Linux header` and `Linux image`:
 
 ```
 linux-4.4.185_4.4.185-8_arm64.changes

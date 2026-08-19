@@ -193,7 +193,7 @@ sudo upgrade_tool ef update.img	# 擦除
 [《使用USB线烧写须知(重要)》]: 02-upgrade_table.md
 
 
-[RKDevTool]: http://www.t-firefly.com/doc/download/page/id/53.html#other_248
-[Androidtool_xxx(版本号)]: http://www.t-firefly.com/doc/download/page/id/53.html#other_248
-[Release_DriverAssistant.zip]: http://www.t-firefly.com/doc/download/page/id/53.html#windows_11
-[Linux_Upgrade_Tool]: http://www.t-firefly.com/doc/download/page/id/53.html#windows_375
+[RKDevTool]: https://community.t-firefly.com/doc/download/51#other_248
+[Androidtool_xxx(版本号)]: https://community.t-firefly.com/doc/download/51#other_248
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/doc/download/51#windows_11
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/doc/download/51#windows_375

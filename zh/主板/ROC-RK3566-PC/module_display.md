@@ -16,7 +16,7 @@
 ###  参考固件
 
 
-支持10.1寸屏的官方固件名带有`MIPI`字样，下面是固件的链接：[固件链接](https://www.t-firefly.com/doc/download/125.html#other_490)  
+支持10.1寸屏的官方固件名带有`MIPI`字样，下面是固件的链接：[固件链接](https://community.t-firefly.com/doc/download/109)  
   
 如需使用双屏显示，请先参考[FAQ](faqs.md)
 
@@ -54,7 +54,7 @@ index ebbb5d1123f..71e82f8d9c0 100644
 
 ### 参考资料
 
-[屏幕模组 Datasheet & 转接板原理图](https://www.t-firefly.com/doc/download/125.html#other_489)
+[屏幕模组 Datasheet & 转接板原理图](https://community.t-firefly.com/doc/download/109)
 
 ### 实物图
 

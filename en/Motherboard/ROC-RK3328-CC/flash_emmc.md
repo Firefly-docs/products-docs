@@ -71,7 +71,7 @@ Steps:
 
 ## Download Firmware
 
-[Firmware Download Page](http://en.t-firefly.com/doc/download/page/id/34.html)
+[Firmware Download Page](https://community.t-firefly.com/en/doc/download/34)
 
 ***Firmware description***: the firmware is classified into [Raw Firmware] and [RK Firmware], which are placed into different folders. The latest firmware is the one with the latest date, which is often more stable. Please choose the correct tool to flash according to the type of firmware you need.
 
@@ -570,7 +570,7 @@ userdata             0x003ae000 -
 [Maskrom Mode]: flash_emmc.md#maskrom-mode
 [Rockusb Driver]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://en.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC Official Website"
-[Download Page]: http://en.t-firefly.com/doc/download/34.html
+[Download Page]: https://community.t-firefly.com/en/doc/download/34
 [Forum]: http://bbs.t-firefly.com/
 [Facebook]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

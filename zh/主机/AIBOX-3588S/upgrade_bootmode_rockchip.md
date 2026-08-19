@@ -10,7 +10,7 @@ AIBOX-3588S有灵活的启动方式。一般情况下，除非硬件损坏，AIB
 
 
 ## 固件获取
-*	[下载链接](https://www.t-firefly.com/doc/download/324.html#other_912)
+*	[下载链接](https://community.t-firefly.com/doc/download/338)
 
 ## 升级方式
 AIBOX-3588S 支持通过以下两种方式升级固件：

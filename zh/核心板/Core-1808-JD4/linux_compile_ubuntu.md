@@ -10,7 +10,7 @@
 
 #### 方式一（国内用户）
 
-* 从[资源下载](http://www.t-firefly.com/doc/download/83.html)页面下载 `REPO_SDK` 软件包。</br>
+* 从[资源下载](https://community.t-firefly.com/doc/download/73)页面下载 `REPO_SDK` 软件包。</br>
 * 比较 REPO_SDK 软件包的 MD5 码校验完整性，然后解压。
 ```
 md5sum rk1808_linux_release_20210306.tgz
@@ -123,7 +123,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/rk1808_ubuntu18.04_rootfs.img  根文件系�
 ```
 **<font color=#ff0000 >注意,十分重要！！</font>**
 
-*  [下载 Ubuntu 根文件系统镜像](http://www.t-firefly.com/doc/download/page/id/83.html)
+*  [下载 Ubuntu 根文件系统镜像](https://community.t-firefly.com/doc/download/73)
 *  把得到的镜像放到 firefly-sdk 的指定目录：
 
 ```
@@ -176,7 +176,7 @@ RK_ROOTFS_IMG=ubuntu_rootfs/xxxxx_rootfs.img
 
 * Ubuntu18.04 根文件系统通过网盘下载。
 
-1. [下载 Ubuntu 根文件系统镜像](http://www.t-firefly.com/doc/download/page/id/83.html)
+1. [下载 Ubuntu 根文件系统镜像](https://community.t-firefly.com/doc/download/73)
 2. 把得到的镜像放到 firefly-sdk 的指定目录：
 
 ```

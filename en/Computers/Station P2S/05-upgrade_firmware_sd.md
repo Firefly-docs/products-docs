@@ -11,7 +11,7 @@ This article mainly introduced how to upgrade the firmware on the host to the SD
 * host computer
 * USB Card Reader 
 * MIrcoSD card
-* [**SD_Firmware_Tool**](http://en.t-firefly.com/doc/download/93.html#other_368)
+* [**SD_Firmware_Tool**](https://community.t-firefly.com/en/doc/download/93)
 ## Operation Steps
  
 * Insert microSD card into USB card reader and then into USB port of host computer 

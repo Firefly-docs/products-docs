@@ -6,12 +6,12 @@
 
 ## 准备工具
 * AIBOX-PRO
-* [固件](https://www.t-firefly.com/doc/download/414.html)
+* [固件](https://community.t-firefly.com/doc/download/420)
 * 主机
 * 良好的Type-C 数据线
 
 ## 准备固件
-固件可以通过编译SDK获得，也可以通过[资源下载](https://www.t-firefly.com/doc/download/414.html)处下载公版固件（统一固件）。固件文件一般有两种：
+固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/420)处下载公版固件（统一固件）。固件文件一般有两种：
 
 * 单个统一固件
 
@@ -29,7 +29,7 @@
 ### Windows操作系统
 * 安装RK USB驱动
 
-下载 [Release_DriverAssistant.zip](https://www.t-firefly.com/doc/download/268.html#other_572)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
+下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/241)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 <center>
 
 ![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_install_rk_usb.jpg)
@@ -43,9 +43,9 @@
 
 ### Linux操作系统
 Linux 下无须安装设备驱动
-* [Linux_Upgrade_Tool](https://www.t-firefly.com/doc/download/414.html#other_954)工具
+* [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/420)工具
 
-下载 [Linux_Upgrade_Tool](https://www.t-firefly.com/doc/download/414.html#other_954), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/420), 并按以下方法安装到系统中，方便调用：
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -56,9 +56,9 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
 
-* [Linux_adb_fastboot](https://www.t-firefly.com/doc/download/268.html)工具
+* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/241)工具
 
-下载 [Linux_adb_fastboot](https://www.t-firefly.com/doc/download/268.html), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/241), 并按以下方法安装到系统中，方便调用：
 
 ```
 sudo mv adb /usr/local/bin

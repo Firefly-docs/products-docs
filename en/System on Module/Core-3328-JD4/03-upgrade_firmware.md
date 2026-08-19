@@ -24,7 +24,7 @@ Supported host OS:
  * Linux (32/64bit)
 
 ### Install RK USB Driver
-Download [Release_DriverAssistant.zip](http://en.t-firefly.com/doc/download/page/id/65.html#other_160), then "驱动安装"(Driver install).), uncompress it, then run DriverInstall.exe inside.  
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/65), then "驱动安装"(Driver install).), uncompress it, then run DriverInstall.exe inside.  
 
 In order to use new driver for all the rockchip devices, please select "驱动卸载"(Driver uninstall), then "驱动安装"(Driver install).  
 
@@ -52,16 +52,16 @@ The host will prompt to have new device detected and configured. Open the Device
 
 ### Download Firmware
 
-* [Firmware Download Page](http://en.t-firefly.com/doc/download/page/id/62.html)
+* [Firmware Download Page](https://community.t-firefly.com/en/doc/download/62)
 
 ### Download Tool for upgrade
 Windows OS:
 
-Linux(GPT) or Android8.1： [AndroidTool_v2.58](http://en.t-firefly.com/doc/download/page/id/62.html#other_190)
+Linux(GPT) or Android8.1： [AndroidTool_v2.58](https://community.t-firefly.com/en/doc/download/62)
 
 Linux OS:
 
-Linux(GPT) or Android8.1： [Upgrade_tool_v1.34](http://en.t-firefly.com/doc/download/page/id/62.html#other_189)
+Linux(GPT) or Android8.1： [Upgrade_tool_v1.34](https://community.t-firefly.com/en/doc/download/62)
 
 ## Flash Image in Windows
 Download AndroidTool,and Uncompress it . AndroidTool defaults to display in Chinese. We need to change it to English. Open config.ini with an text editor (like notepad). The starting lines are:
@@ -186,7 +186,7 @@ If Loader mode is unavailable, force the device into MaskRom mode as described i
 [Flashing Notes]:02-upgrade_table.md
 [Boot Mode]:01-bootmode.md
 [ROC-RK3328-PC]: http://en.t-firefly.com/product/rocrk3328pc.html "ROC-RK3328-PC Official Website"
-[Download Page]: http://en.t-firefly.com/doc/download/34.html
+[Download Page]: https://community.t-firefly.com/en/doc/download/34
 [Forum]: http://bbs.t-firefly.com/
 [Facebook]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

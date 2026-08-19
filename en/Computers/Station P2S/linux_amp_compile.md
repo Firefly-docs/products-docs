@@ -50,7 +50,7 @@ repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo
 
 * Method Two
 
-Download Firefly_Linux_SDK sub-volume compressed package: [rk356x_amp_release_20240607_v0.0.1a](https://en.t-firefly.com/doc/download/157.html#other_378)
+Download Firefly_Linux_SDK sub-volume compressed package: [rk356x_amp_release_20240607_v0.0.1a](https://community.t-firefly.com/en/doc/download/157)
 
 Extract the SDK:
 
@@ -219,7 +219,7 @@ Return to SDK root directory to select the configuration file:
 
 #### Download Ubuntu filesystem
 
-* Download: [Ubuntu rootfs(64-bit)](https://en.t-firefly.com/doc/download/157.html#other_379)，put in SDK path
+* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/157)，put in SDK path
 
 * Unzip
 

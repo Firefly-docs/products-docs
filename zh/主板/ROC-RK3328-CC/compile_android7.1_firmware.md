@@ -43,7 +43,7 @@ sudo apt-get install gcc-arm-linux-gnueabihf \
 
 由于 SDK 较大，请选择以下链接下载SDK `firefly_rk3328_android7.1_git_20211216`：
 
-* [下载链接](https://www.t-firefly.com/doc/download/34.html#other_67)
+* [下载链接](https://community.t-firefly.com/doc/download/34)
 
 下载完成后，在解压前先校验下 MD5 码：
 
@@ -218,7 +218,7 @@ RK固件需使用 `SD_Firmware_Tool` 工具，功能模式选择`SD启动`，来
 [Maskrom 模式]: flash_emmc.md#maskrom-mode
 [Rockusb 驱动]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://www.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC 官网"
-[下载页面]: http://www.t-firefly.com/doc/download/page/id/34.html
+[下载页面]: https://community.t-firefly.com/doc/download/34
 [论坛]: http://bbs.t-firefly.com
 [脸书]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

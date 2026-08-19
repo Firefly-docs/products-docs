@@ -409,7 +409,7 @@ libssl1.0.0 libssl-dev
 
 ### Download Android8.1 SDK
 
-**Android SDK source package is relatively large, you can obtain the Android8.1 source package through the following ways:** [Download link](http://en.t-firefly.com/doc/download/page/id/63.html#other_206)
+**Android SDK source package is relatively large, you can obtain the Android8.1 source package through the following ways:** [Download link](https://community.t-firefly.com/en/doc/download/63)
 
 * Verify MD5 code after downloading:
 

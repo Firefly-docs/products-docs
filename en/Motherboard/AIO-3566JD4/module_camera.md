@@ -12,7 +12,7 @@
 
 ### Reference firmware
 Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, please update the latest firmware.
-[Download link](http://en.t-firefly.com/doc/download/123.html#other_444)
+[Download link](https://community.t-firefly.com/en/doc/download/123)
 
 
 ### Physical map

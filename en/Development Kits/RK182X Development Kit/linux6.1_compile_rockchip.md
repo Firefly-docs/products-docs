@@ -23,7 +23,7 @@ Depand on **Main Module**, Please contact sales@t-firefly.com to get **RK3588 Ke
 <font color=red> Download SDK First. </font>
 
 ### Rootfs
-* Download rootfs here [Debian rootfs(64-bit) Kernel6.1](https://en.t-firefly.com/doc/download/140.html), please use rootfs under kernel-6.1 folder.
+* Download rootfs here [Debian rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/140), please use rootfs under kernel-6.1 folder.
 * Decompress rootfs and create a symbolic link
 
 #### RK3588 
@@ -84,7 +84,7 @@ The generated firmware at `output/update/` , eg: `AIO-GS1N2-3588JD4-RK182X_Debia
 <font color=red> Download SDK First. </font>
 
 ### Rootfs
-* Download rootfs here [Ubuntu rootfs(64-bit) Kernel6.1](https://en.t-firefly.com/doc/download/140.html), please use rootfs under kernel-6.1 folder.
+* Download rootfs here [Ubuntu rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/140), please use rootfs under kernel-6.1 folder.
 * Decompress rootfs and create a symbolic link
 
 #### RK3588 

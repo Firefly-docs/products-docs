@@ -27,7 +27,7 @@ make -j8 firefly-rk3288-aio-3288c_lvds.img
 
 ### Reference firmware
 
-[AIO-3288C_LVDS](http://en.t-firefly.com/doc/download/page/id/45.html)
+[AIO-3288C_LVDS](https://community.t-firefly.com/en/doc/download/45)
 
 ### Wiring method
 

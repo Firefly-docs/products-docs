@@ -12,12 +12,12 @@
 
 ***注意：***   
 
-1.支持10.1寸屏的官方固件[[AIO-3128C LVDS 固件]](http://www.t-firefly.com/doc/download/page/id/48.html#other_141)  
+1.支持10.1寸屏的官方固件[[AIO-3128C LVDS 固件]](https://community.t-firefly.com/doc/download/45)  
 
 2.更新AIO-3128C最新代码后，支持使用10.1寸屏。
 
 ### 技术资料
-[[10.1寸屏幕模组DataSheet&转接板原理图]](http://www.t-firefly.com/doc/download/page/id/48.html#other_137)  
+[[10.1寸屏幕模组DataSheet&转接板原理图]](https://community.t-firefly.com/doc/download/45)  
 
 ### 连接方法
 ![](../../../rk3128_img/AIO-3128C/aio-3128c_lvds.png)

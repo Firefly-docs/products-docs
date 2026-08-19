@@ -8,7 +8,7 @@
 ## 准备工作
 
 * [Firefly-RK3128 开发板](https://store.t-firefly.com/goods.php?id=26)
-* [固件](http://www.t-firefly.com/doc/download/page/id/6.html#other_45)
+* [固件](https://community.t-firefly.com/doc/download/6)
 * 主机
 * 良好的 Micro USB OTG 线
 
@@ -38,7 +38,7 @@
 
 ### 安装 RK USB 驱动
 
-下载[ Release_DriverAssistant.zip](http://www.t-firefly.com/doc/download/page/id/6.html#other_94) ，解压，然后运行里面的 DriverInstall.exe 。  
+下载[ Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/6) ，解压，然后运行里面的 DriverInstall.exe 。  
 为了所有设备都使用更新的驱动，请先选择"驱动卸载"，然后再选择"驱动安装"。
 
 ![](../../../rk3128_img/Core-3128J/win_tool_devices.png)
@@ -69,7 +69,7 @@ RCOVERY按键和RESET按键和OTG接口如图所示：
 
 ### 烧写固件
 
-下载 [AndroidTool](http://www.t-firefly.com/doc/download/page/id/6.html#windows_134)，解压，运行 AndroidTool_Release_v2.33 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
+下载 [AndroidTool](https://community.t-firefly.com/doc/download/6)，解压，运行 AndroidTool_Release_v2.33 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_download.png)
 
@@ -112,7 +112,7 @@ Linux 下无须安装设备驱动，参照 Windows 章节连接设备则可。
 
 #### upgrade_tool
 
-下载 [Linux_Upgrade_Tool](http://www.t-firefly.com/doc/download/page/id/6.html#linux_134), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/6), 并按以下方法安装到系统中，方便调用：
 
 ```
 unzip Linux_Upgrade_Tool_v1.24.zip

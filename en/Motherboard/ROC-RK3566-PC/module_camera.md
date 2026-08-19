@@ -12,7 +12,7 @@
 
 ### Reference firmware
 Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, please update the latest firmware.
-[Download link](http://en.t-firefly.com/doc/download/93.html#other_382)
+[Download link](https://community.t-firefly.com/en/doc/download/93)
 
 
 ### Physical map
@@ -36,7 +36,7 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
 
 ### Reference firmware
 CAM-2MS2MF Binocular camera module Android11 Firmware Download.
-[GoogleDriver Download](http://en.t-firefly.com/doc/download/115.html#other_442)
+[GoogleDriver Download](https://community.t-firefly.com/en/doc/download/115)
 
 
 ### Physical map

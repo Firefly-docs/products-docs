@@ -84,7 +84,7 @@ AI_UVC requires different host computer APP tools to be installed depending on t
 
 Official test uses Windows 10 system. Test steps are as follows:
 
-1. Click to download Windows host computer tool: [ArcAICameraSetup](https://en.t-firefly.com/doc/download/86.html#other_357) .
+1. Click to download Windows host computer tool: [ArcAICameraSetup](https://community.t-firefly.com/en/doc/download/86) .
 
 2. CAM-C1126S2U connects to the rear `USB 3.0` interface of the chassis that comes out of the Windows host motherboard.
 
@@ -114,7 +114,7 @@ Official test uses Windows 10 system. Test steps are as follows:
 
 Official test uses RK3399 Andorid 7.1. Test steps are as follows:
 
-1. Click to download Android host computer APP tool: [Android APK](https://en.t-firefly.com/doc/download/86.html#other_692).
+1. Click to download Android host computer APP tool: [Android APK](https://community.t-firefly.com/en/doc/download/86).
 
 2. Connect to the `USB 3.0` interface of the Android device.
 

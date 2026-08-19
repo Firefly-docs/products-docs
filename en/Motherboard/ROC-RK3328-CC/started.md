@@ -74,7 +74,7 @@ The following accessories are highly recommended, especially when you are doing 
 [Maskrom Mode]: flash_emmc.md#maskrom-mode
 [Rockusb Driver]: flash_emmc.md#rockusb-driver
 [ROC-RK3328-CC]: http://en.t-firefly.com/product/rocrk3328cc.html "ROC-RK3328-CC Official Website"
-[Download Page]: http://en.t-firefly.com/doc/download/34.html
+[Download Page]: https://community.t-firefly.com/en/doc/download/34
 [Forum]: http://bbs.t-firefly.com/
 [Facebook]: https://www.facebook.com/TeeFirefly
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761

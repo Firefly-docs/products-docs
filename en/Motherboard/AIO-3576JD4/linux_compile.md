@@ -110,7 +110,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-Download rootfs here [Ubuntu rootfs](https://www.t-firefly.com/doc/download/257.html#other_791), in general, choose the filesystem with latest date.
+Download rootfs here [Ubuntu rootfs](https://community.t-firefly.com/doc/download/232), in general, choose the filesystem with latest date.
 
 After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/, then create a symbolic link.
 ```bash
@@ -382,7 +382,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-Download rootfs here [Debian rootfs](https://www.t-firefly.com/doc/download/257.html#other_791), in general, choose the filesystem with latest date.
+Download rootfs here [Debian rootfs](https://community.t-firefly.com/doc/download/232), in general, choose the filesystem with latest date.
 
 After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/, then create a symbolic link.
 ```bash
