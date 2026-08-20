@@ -20,6 +20,3 @@
 - [FAQS](faqs.md)
 # Hardware resources
 - [Interface definition](interface_definition.md)
-- [Related documents](hardware_doc.md)
-# Resources
-- [Documents and Reference](resource.md)

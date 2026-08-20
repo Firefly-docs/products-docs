@@ -17,7 +17,7 @@
 - [Compile Android14.0 firmware](android_compile_android14.0_firmware.md)
 - [Firefly Android User Manual](android_firefly_android_manual.md)
 - [FireflyApi2 Manual](android_fireflyapi2_manual.md)
-- [Technical Case](android_technical_cases.md)
+- [#android_technical_cases](#android_technical_cases.md)
 # Port Usage
 - [Ethernet](usage_ethernet.md)
 - [LED](usage_led.md)

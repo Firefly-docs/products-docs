@@ -21,4 +21,3 @@
 # Questions and answers
 - [FAQS](faqs.md)
 # Hardware resources
-- [hardware_doc](hardware_doc.md)

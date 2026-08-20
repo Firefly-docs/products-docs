@@ -23,5 +23,3 @@
 - [U-Boot Use](uboot_introduction.md)
 # Questions and answers
 - [FAQ](faqs.md)
-# Hardware
-- [Hardware information](hardware_doc.md)

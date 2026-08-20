@@ -23,5 +23,3 @@
 - [U-Boot使用](uboot_introduction.md)
 # 常见问题解答
 - [FAQs](faqs.md)
-# 硬件资料
-- [硬件资料](hardware_doc.md)

@@ -19,6 +19,3 @@
 # Questions and answers
 - [FAQS](faqs.md)
 # Hardware resources
-- [Related documents](hardware_doc.md)
-# Resources
-- [Firmware and Tools](resource.md)

@@ -19,10 +19,10 @@
 - [Wireless module](module_wireless.md)
 - [Remote Control](module_ir.md)
 # Hardware
-- [Hardware Documents](hardware_doc.md)
+- [#hardware_doc](#hardware_doc.md)
 - [Interface Definition](hardware_interface.md)
-- [Resource downloads](resources.md)
-- [RK3128 Technical Reference Manual](technical_reference.md)
+- [#resources](#resources.md)
+- [#technical_reference](#technical_reference.md)
 # Drivers
 - [ADC Use](driver_adc.md)
 - [Camera Use](driver_camera.md)

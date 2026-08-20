@@ -576,7 +576,6 @@ userdata             0x003ae000 -
 [Google+]: https://plus.google.com/u/0/communities/115232561394327947761
 [Youtube]: https://www.youtube.com/channel/UCk7odZvUrTG0on8HXnBT7gA
 [Twitter]: https://twitter.com/TeeFirefly
-[Shop]: http://shop.t-firefly.com/
 [USB Serial Adapter]: https://www.firefly.store/products/usb-to-uart-module-cp2104 
 [5V2A US Adapter]: https://www.firefly.store/products/5v2a-us-adapter-3c-fcc-ce 
 [eMMC Flash]: https://www.firefly.store/products

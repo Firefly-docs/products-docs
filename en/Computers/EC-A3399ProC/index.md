@@ -32,4 +32,3 @@
 - [faqs](faqs.md)
 # Hardware resources
 - [interface_definition](interface_definition.md)
-- [hardware_doc](hardware_doc.md)

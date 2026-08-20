@@ -19,6 +19,3 @@
 # 常见问题解答
 - [FAQs](faqs.md)
 # 硬件资料
-- [硬件文档](hardware_doc.md)
-# 资源
-- [固件和工具](resource.md)

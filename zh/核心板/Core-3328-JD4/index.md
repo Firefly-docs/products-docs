@@ -20,6 +20,3 @@
 - [FAQs](faqs.md)
 # 硬件资料
 - [接口定义](interface_definition.md)
-- [硬件文档](hardware_doc.md)
-# 资源
-- [文档和参考](resource.md)

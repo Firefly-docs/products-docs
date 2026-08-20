@@ -39,4 +39,3 @@
 # Questions and answers
 - [FAQS](faqs.md)
 # Hardware resources
-- [Related document](hardware_doc.md)

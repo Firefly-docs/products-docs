@@ -15,7 +15,7 @@
 - [编译 Android14.0 固件](android_compile_android14.0_firmware.md)
 - [Firefly Android 开发指南](android_firefly_android_manual.md)
 - [FireflyApi2 使用手册](android_fireflyapi2_manual.md)
-- [技术案例](android_technical_cases.md)
+- [#android_technical_cases](#android_technical_cases.md)
 # 接口使用
 - [CAN 使用](usage_can.md)
 - [Display 使用](usage_display.md)

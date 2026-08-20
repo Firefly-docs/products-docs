@@ -32,4 +32,3 @@
 - [faqs](faqs.md)
 # 硬件资料
 - [interface_definition](interface_definition.md)
-- [硬件文档](hardware_doc.md)
