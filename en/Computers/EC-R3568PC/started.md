@@ -22,7 +22,7 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 
 ## Product resources
 
-* [Manual](/en/docs/products/mainboards/ROC-RK3568-PC-SE/preface) Includes building instructions, system usage, interfaces usage, etc. (ROC-RK3568-PCSE wiki)
+* [Manual](/en/docs/products/motherboard/ROC-RK3568-PC-SE/preface) Includes building instructions, system usage, interfaces usage, etc. (ROC-RK3568-PCSE wiki)
 * [Download Page](https://community.t-firefly.com/en/doc/download/141) Includes firmware, rootfs and tools download links.
 * [Forum](https://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100) Tech communication platform for over 100K company and individual customers.
 

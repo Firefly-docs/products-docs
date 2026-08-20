@@ -22,7 +22,7 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 
 # Product resources
 
-* [[Development Documents]](/en/docs/products/mainboards/ROC-RK3566-PC/preface)
+* [[Development Documents]](/en/docs/products/motherboard/ROC-RK3566-PC/preface)
 Includes information on Android & Ubuntu driver development (see ROC-RK3566-PC Wiki)
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

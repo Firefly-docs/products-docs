@@ -77,4 +77,4 @@ mv defconfig arch/arm64/configs/firefly_linux_defconfig (Android 为 firefly_def
 
 ## 烧录
 
-参考[分区烧写](/docs/products/mainboards/ROC-RK3566-PC/03-upgrade-firmware#烧写分区映像)
+参考[分区烧写](/docs/products/motherboard/ROC-RK3566-PC/03-upgrade-firmware#烧写分区映像)

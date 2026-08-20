@@ -19,7 +19,7 @@ EC-R3566PC 嵌入式主机，基于 ROC-RK3566-PC 高性能开源平台，配置
 
 # 产品资源
 
-* [[开发使用文档]](/docs/products/mainboards/ROC-RK3566-PC/preface)
+* [[开发使用文档]](/docs/products/motherboard/ROC-RK3566-PC/preface)
 包含 Android & Ubuntu 驱动开发等资料(参考 ROC-RK3566-PC Wiki)
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)
