@@ -12,6 +12,8 @@
 
 可以按maskrom 按键，然后进行上电
 
+![](../../../aibox_img/AIBOX-PRO/maskrom.png)
+
 此时设备就会进入 MaskRom 模式。
 
 ![](../../../aibox_img/AIBOX-PRO/upgrade_maskrom_zh.png)

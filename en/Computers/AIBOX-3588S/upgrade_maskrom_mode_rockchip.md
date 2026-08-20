@@ -9,6 +9,7 @@
 
 You can press the maskrom button and then power on.
 
+
 The device will then enter MaskRom mode.
 
 ![](../../../aibox_img/AIBOX-3588S/upgrade_maskrom_zh.png)
