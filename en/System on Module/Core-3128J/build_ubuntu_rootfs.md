@@ -51,7 +51,8 @@ ubuntu-core is the minimum root file system. You can setup desktop or server env
 Download and extract to /mnt:
 ```
 miniroot# cd /mnt
-miniroot# wget -P /mnt http://cdimage.ubuntu.com/ubuntu-core/releases/15.04/release/ubuntu-core-15.04-core-armhf.tar.gzminiroot# mkdir /mnt/ubuntu
+miniroot# wget -P /mnt https://old-releases.ubuntu.com/releases/15.04/ubuntu-core-15.04-core-armhf.tar.gz
+miniroot# mkdir /mnt/ubuntu
 miniroot# tar -xpzf /mnt/ubuntu-core-15.04-core-armhf.tar.gz -C /mnt/ubuntu
 ```
 

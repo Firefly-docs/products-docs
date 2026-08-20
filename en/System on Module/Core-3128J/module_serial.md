@@ -11,8 +11,8 @@
 
 ### Reference material  
 
-* Download driver: [http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)  
-* Senial debug tutorial: [http://en.t-firefly.com/doc/product/info/232.html](http://en.t-firefly.com/doc/product/info/232.html)
+* [Download driver](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)  
+* [Senial debug tutorial](../../Accessories/USB-TO-TTL-Serial/started.md)
 
 ### Picture
 

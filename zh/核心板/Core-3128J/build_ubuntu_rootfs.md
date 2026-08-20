@@ -54,7 +54,7 @@ ubuntu-core 是最小的根文件系统，在安装之后根据需要再设置�
 
 ```
 miniroot# cd /mnt
-miniroot# wget -P /mnt http://cdimage.ubuntu.com/ubuntu-core/releases/15.04/release/ubuntu-core-15.04-core-armhf.tar.gz
+miniroot# wget -P /mnt https://old-releases.ubuntu.com/releases/15.04/ubuntu-core-15.04-core-armhf.tar.gz
 miniroot# mkdir /mnt/ubuntu
 miniroot# tar -xpzf /mnt/ubuntu-core-15.04-core-armhf.tar.gz -C /mnt/ubuntu
 ```
