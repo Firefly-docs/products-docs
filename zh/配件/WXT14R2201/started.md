@@ -17,11 +17,3 @@ WXT14R2201 是一款基于 RTL8852BE-CG 芯片的双频 WiFi 和蓝牙 5.2 模�
 | 接口 | WiFi: PCIe；蓝牙: USB |
 | 尺寸 | 22.0 mm x 30.0 mm x 2.3 mm |
 | 卡型 | M.2 2230-S3-A-E |
-
-## 适配板卡
-
-| CPU | 板卡 |
-| ---- | ---- |
-| RK3588 | ROC-RK3588-RT |
-
-相关文档和固件请查看官网[资料下载](https://community.t-firefly.com/doc/download/207)。
