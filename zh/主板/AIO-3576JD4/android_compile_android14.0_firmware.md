@@ -56,7 +56,7 @@ cd ~/proj/RK3576_Android14.0
 git rebase FETCH_HEAD
 ```
 
-下载页面选择云盘下载 [Android14.0 Bundle](https://community.t-firefly.com/doc/download/232)。
+下载页面选择云盘下载 [Android14.0 Bundle](https://community.t-firefly.com/doc/download/230)。
 
 <!-- #2. 下载远程 bundle 仓库
 git clone https://gitlab.com/T-Firefly/rk3576-android14.0-bundle.git .bundle 
@@ -167,7 +167,7 @@ msk ARCH=arm64 BOOT_IMG=../rockdev/Image-rk3576_firefly_aio_3576_jd4/boot.img rk
 
 ### git clone 远程 bundle 仓库失败
 
-Q：[更新SDK](android_compile_Android14.0_firmware.html#geng-xin-sdk)时，git clone 远程 bundle 仓库出错：
+Q：[更新SDK](#更新-sdk)时，git clone 远程 bundle 仓库出错：
 
 ```
 $ git clone https://gitlab.com/T-Firefly/rk3588-Android14.0-bundle.git .bundle

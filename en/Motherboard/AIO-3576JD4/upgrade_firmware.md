@@ -7,13 +7,13 @@ This article describes how to upgrade the firmware file on the host to the flash
 ## Preparatory Tools
 
 * AIO-3576JD4 development board
-* [Firmware](https://community.t-firefly.com/en/doc/download/232)
+* [Firmware](https://community.t-firefly.com/en/doc/download/230)
 * host computer
 * Type-C data cable
 
 ## Prepare Firmware
 
-The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/232). There are two types of firmware files:
+The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/230). There are two types of firmware files:
 
 * A single unified firmware
 

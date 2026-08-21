@@ -44,7 +44,7 @@ Connection between two CAN devices, only need CAN_H to CAN_H, CAN_L to CAN_L.
 #### CAN communication test
 Use the "candump" and "cansend" tools directly to send and receive messages, Ubuntu can use "apt update && apt install can-utils" to install them.
 
-Android can push tools into /system/bin/ . Tools "candump/cansend" are included with the SDK and download from [Officail link](http://www.t-firefly.com/share/index/index/id/3cacb04c663f9fe97bf494ca55763dcd.html) or [github](https://github.com/linux-can/can-utils).
+Android can push tools into /system/bin/ . Tools "candump/cansend" are included with the SDK and download from [github](https://github.com/linux-can/can-utils).
 
 ```
 #Close the can0 device at the transceiver

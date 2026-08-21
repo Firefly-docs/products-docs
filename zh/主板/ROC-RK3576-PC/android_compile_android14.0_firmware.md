@@ -208,7 +208,7 @@ msk ARCH=arm64 BOOT_IMG=../rockdev/Image-rk3576_firefly_roc_rk3576_pc/boot.img r
 
 ### git clone 远程 bundle 仓库失败
 
-Q：[更新SDK](android_compile_Android14.0_firmware.html#geng-xin-sdk)时，git clone 远程 bundle 仓库出错：
+Q：[更新SDK](#更新-sdk)时，git clone 远程 bundle 仓库出错：
 
 ```
 $ git clone https://gitlab.com/T-Firefly/rk3588-Android14.0-bundle.git .bundle

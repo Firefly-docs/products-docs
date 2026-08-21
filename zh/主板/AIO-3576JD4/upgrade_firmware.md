@@ -6,12 +6,12 @@
 
 ## 准备工具
 * AIO-3576JD4 开发板
-* [固件](https://community.t-firefly.com/doc/download/232)
+* [固件](https://community.t-firefly.com/doc/download/230)
 * 主机
 * 良好的Type-C 数据线
 
 ## 准备固件
-固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/232)处下载公版固件（统一固件）。固件文件一般有两种：
+固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/230)处下载公版固件（统一固件）。固件文件一般有两种：
 
 * 单个统一固件
 

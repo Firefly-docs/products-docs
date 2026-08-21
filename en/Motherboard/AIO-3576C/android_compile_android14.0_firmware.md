@@ -192,7 +192,7 @@ Refer to the [OTA Compilation](android_compile_ota_package.md) section
 
 ### git clone remote bundle repository failed
 
-Q: Error occurred in git clone remote bundle repository while [updating SDK](android_compile_Android14.0_firmware.html#second-update-sdk):
+Q: Error occurred in git clone remote bundle repository while [updating SDK](#second-update-sdk):
 
 ```
 $ git clone https://gitlab.com/T-Firefly/rk3588-Android14.0-bundle.git .bundle
