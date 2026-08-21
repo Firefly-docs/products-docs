@@ -34,16 +34,11 @@ adb shell
 
 ## Adb Installation under Windows
 
-First, please reference [Install RK USB driver](03-upgrade_firmware.html#windows) to get the driver ready.
+First, please reference [Install RK USB driver](03-upgrade_firmware.md#windows) to get the driver ready.
 
-Download the [adb.zip](http://www.t-firefly.com/share/index/index/id/6afafdf7c54b8eb95e81156d94e54db5.html), uncompress it to `C:\adb` to ease later use.
+Download the [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools).
 
-Open a cmd window, input:
-
-```
-cd C:\adb
-adb shell
-```
+Open a terminal, change to the extracted `platform-tools` directory, and run `./adb <command>` as needed.
 
 If everything works, you have entered `adb shell`, and can run all kinds of commands available in device.
 
