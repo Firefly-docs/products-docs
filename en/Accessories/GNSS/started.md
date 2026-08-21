@@ -1,4 +1,4 @@
-# 一、Introduction
+# Introduction
 ## Product introduction
 ### DELINCOMM
 * Single GPS receiver RG4538

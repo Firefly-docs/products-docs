@@ -1,4 +1,4 @@
-# 一、Introduction
+# Introduction
 ## Product introduction
 
 ### WXT14R2201

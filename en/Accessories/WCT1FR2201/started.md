@@ -1,4 +1,4 @@
-# 一、Introduction
+# Introduction
 ## Product introduction
 
 ### WCT1FR2201
