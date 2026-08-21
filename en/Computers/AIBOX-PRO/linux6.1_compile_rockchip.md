@@ -95,5 +95,5 @@ cd ..
 
 The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-3588JD4_Ubuntu.XXX.img`
 ## Export Main Module Rootfs
-Reference [Export device rootfs](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/first_use.html#export-device-system)
+Reference [Export device rootfs](/en/docs/tools/development-tool/Rootfs-Export-Tool/ff-export-rootfs)
 

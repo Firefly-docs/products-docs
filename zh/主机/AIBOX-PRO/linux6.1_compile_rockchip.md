@@ -95,5 +95,5 @@ cd ..
 
 生成的固件在 `output/update/` 目录下，比如 ``AIBOX-PRO-3588JD4_Ubuntu.XXX.img`
 ## 导出主核心模组的 rootfs
-参考 [导出设备系统](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/first_use.html#dao-chu-she-bei-xi-tong)
+参考 [导出设备系统](/docs/tools/development-tool/Rootfs-Export-Tool/ff-export-rootfs)
 
