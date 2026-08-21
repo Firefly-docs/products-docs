@@ -10,7 +10,7 @@ AIO-8550JD4 的调试串口提供两种接口
 
 ![](../../../qcom_img/AIO-8550JD4/debug_console.jpg)
 
-需要额外的 usb 转串口模块，详情请查看 [串口模块](https://wiki.t-firefly.com/USB-TO-TTL-Serial/usb-to-ttl-serial.html)
+需要额外的 usb 转串口模块，详情请查看 [串口模块](../../配件/USB-TO-TTL-Serial/started.md)
 
 * Type-C 接口
 
@@ -30,7 +30,7 @@ AIO-8550JD4 的调试串口提供两种接口
 
 Linux 电脑无需安装驱动。
 
-Windows 电脑驱动的安装方法也在详情链接中 [串口模块](https://wiki.t-firefly.com/USB-TO-TTL-Serial/usb-to-ttl-serial.html)
+Windows 电脑驱动的安装方法也在详情链接中 [串口模块](../../配件/USB-TO-TTL-Serial/started.md)
 
 * 如果选择 Type-C 接口
 
