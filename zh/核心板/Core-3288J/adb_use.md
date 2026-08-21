@@ -36,16 +36,11 @@ adb shell
 
 ## Windows下的 ADB 安装
 
-首先参照[安装 RK USB 驱动](upgrade_firmware.html#an-zhuang-rk-usb-qu-dong)一节安装好驱动。
+首先参照[安装 RK USB 驱动](upgrade_firmware.md#an-zhuang-rk-usb-qu-dong)一节安装好驱动。
 
-然后到 [adb download](http://www.t-firefly.com/share/index/index/id/6afafdf7c54b8eb95e81156d94e54db5.html) 下载 `adb.zip`，解压到 `C:\adb` 以方便调用。
+然后下载 [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools)。
 
-打开命令行窗口，输入：
-
-```bash
-cd C:\adb
-adb shell
-```
+打开终端，进入解压后的 `platform-tools` 文件夹目录下，使用 `./adb <command>` 命令运行 ADB 工具。
 
 如果一切正常，就可以进入 `adb shell`，在设备上面运行命令。
 
