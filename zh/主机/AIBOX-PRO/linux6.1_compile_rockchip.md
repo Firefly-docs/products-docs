@@ -41,7 +41,13 @@ cd ..
 #### Core-3588JD4
 
 ```
-./build.sh firefly_rk3588_aibox-pro-g2-3588jd4_rk182x_debian_defconfig
+./build.sh firefly_rk3588_aibox-pro-3588jd4_rk182x_debian_defconfig
+```
+
+#### Core-3576JD4
+
+```
+./build.sh firefly_rk3576_aibox-pro-3576jd4-rk182x-m2_debian_defconfig
 ```
 
 ### 编译
@@ -49,7 +55,7 @@ cd ..
 ./build.sh all
 ```
 
-生成的固件在 `output/update/` 目录下，比如 `AIBOX-PRO-G2-3588JD4_Debian.XXX.img` 
+生成的固件在 `output/update/` 目录下，比如 `AIBOX-PRO-3588JD4_Debian.XXX.img` 
 
 ## 编译 Ubuntu 固件
 <font color=red> 先获取 SDK。 </font>
@@ -74,7 +80,13 @@ cd ..
 ### RK3588
 
 ```
-./build.sh firefly_rk3588_aibox-pro-g2-3588jd4_rk182x_ubuntu_defconfig
+./build.sh firefly_rk3588_aibox-pro-3588jd4_rk182x_ubuntu_defconfig
+```
+
+### RK3576
+
+```
+./build.sh firefly_rk3576_aibox-pro-3576jd4-rk182x-m2_ubuntu_defconfig
 ```
 
 ### 编译
@@ -82,7 +94,7 @@ cd ..
 ./build.sh all
 ```
 
-生成的固件在 `output/update/` 目录下，比如 ``AIBOX-PRO-G2-3588JD4_Ubuntu.XXX.img`
+生成的固件在 `output/update/` 目录下，比如 ``AIBOX-PRO-3588JD4_Ubuntu.XXX.img`
 
 ## 导出主核心模组的 rootfs
 参考 [导出设备系统](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/first_use.html#dao-chu-she-bei-xi-tong)

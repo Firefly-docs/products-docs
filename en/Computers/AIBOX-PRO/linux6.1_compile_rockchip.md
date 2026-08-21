@@ -41,7 +41,13 @@ cd ..
 #### Core-3588JD4
 
 ```
-./build.sh firefly_rk3588_aibox-pro-g2-3588jd4_rk182x_debian_defconfig
+./build.sh firefly_rk3588_aibox-pro-3588jd4_rk182x_debian_defconfig
+```
+
+#### Core-3576JD4
+
+```
+./build.sh firefly_rk3576_aibox-pro-3576jd4-rk182x-m2_debian_defconfig
 ```
 
 ### Build
@@ -49,7 +55,7 @@ cd ..
 ./build.sh all
 ```
 
-The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-G2-3588JD4_Debian.XXX.img`
+The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-3588JD4_Debian.XXX.img`
 
 ## Compile Ubuntu Firmware
 <font color=red> Download SDK First. </font>
@@ -74,7 +80,13 @@ cd ..
 ### RK3588
 
 ```
-./build.sh firefly_rk3588_aibox-pro-g2-3588jd4_rk182x_ubuntu_defconfig
+./build.sh firefly_rk3588_aibox-pro-3588jd4_rk182x_ubuntu_defconfig
+```
+
+### RK3576
+
+```
+./build.sh firefly_rk3576_aibox-pro-3576jd4-rk182x-m2_ubuntu_defconfig
 ```
 
 ### Build
@@ -82,7 +94,7 @@ cd ..
 ./build.sh all
 ```
 
-The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-G2-3588JD4_Ubuntu.XXX.img`
+The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-3588JD4_Ubuntu.XXX.img`
 
 ## Export Main Module Rootfs
 Reference [Export device rootfs](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/first_use.html#export-device-system)
