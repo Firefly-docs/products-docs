@@ -29,7 +29,7 @@
 ### Windows操作系统
 * 安装RK USB驱动
 
-下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/241)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
+下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/420)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 <center>
 
 ![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_install_rk_usb.jpg)
@@ -56,9 +56,9 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
 
-* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/241)工具
+* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/420)工具
 
-下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/241), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/420), 并按以下方法安装到系统中，方便调用：
 
 ```
 sudo mv adb /usr/local/bin
@@ -201,10 +201,3 @@ sudo fastboot reboot # 烧写成功后,重启
 
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 ![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_download_fail.png)
-
-
-[Androidtool_xxx(版本号)]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.
-[AndroidTool]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.html
-[Release_DriverAssistant.zip]: http://www.t-firefly.com/share/index/index/id/1f98ebd663ed09a32e9ebf3fa893dfc0.html
-[Linux_Upgrade_Tool]: http://www.t-firefly.com/share/index/index/id/f756718dd2bbf82eb405926549e75ef3.html
-[Linux_adb_fastboot]: http://www.t-firefly.com/share/index/index/id/c64b7d743d9368de521a6ced87813dc5.html

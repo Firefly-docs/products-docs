@@ -102,7 +102,7 @@ RKNPU driver: v0.9.8
 若所查询的 NPU 内核版本低于 v0.9.8，请前往官方固件地址下载最新固件进行更新
 
 ###### 3.1.2.2 RKLLM Runtime 的编译要求
-在使用 RKLLM Runtime 的过程中，需要注意gcc交叉编译工具的版本。推荐下载交叉编译工具[gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu](https://developer.arm.com/downloads/-/gnu-a/10-2-2020-11)
+在使用 RKLLM Runtime 的过程中，需要注意gcc交叉编译工具的版本。推荐使用交叉编译工具 `gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu`
 ```
 cd deploy
 # 修改 build-linux.sh，设置交叉编译器路径为本地工具所在路径

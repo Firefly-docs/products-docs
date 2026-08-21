@@ -21,7 +21,7 @@
 <font color=red> 先获取 SDK。 </font>
 
 ### rootfs
-* 下载根文件系统：[Debian 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/301)，请使用网盘中 kernel-6.1 目录下的文件系统。
+* 下载根文件系统：[Debian 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/420)，请使用网盘中 kernel-6.1 目录下的文件系统。
 * 解压 rootfs 并链接 rootfs
 
 #### RK3588 
@@ -56,12 +56,11 @@ cd ..
 ```
 
 生成的固件在 `output/update/` 目录下，比如 `AIBOX-PRO-3588JD4_Debian.XXX.img` 
-
 ## 编译 Ubuntu 固件
 <font color=red> 先获取 SDK。 </font>
 
 ### rootfs
-* 下载根文件系统：[Ubuntu 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/301)，请使用网盘中 kernel-6.1 目录下的文件系统。
+* 下载根文件系统：[Ubuntu 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/420)，请使用网盘中 kernel-6.1 目录下的文件系统。
 * 解压 rootfs 并链接 rootfs
 
 #### RK3588 
@@ -95,7 +94,6 @@ cd ..
 ```
 
 生成的固件在 `output/update/` 目录下，比如 ``AIBOX-PRO-3588JD4_Ubuntu.XXX.img`
-
 ## 导出主核心模组的 rootfs
 参考 [导出设备系统](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/first_use.html#dao-chu-she-bei-xi-tong)
 

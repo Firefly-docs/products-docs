@@ -21,7 +21,7 @@ Depand on **Main Module**, Please contact sales@t-firefly.com to get **RK3588 Ke
 <font color=red> Download SDK First. </font>
 
 ### rootfs
-* Download root filesystem: [Debian Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/333), please use the filesystem from the `kernel-6.1` directory.
+* Download root filesystem: [Debian Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/420), please use the filesystem from the `kernel-6.1` directory.
 * Extract rootfs and link it
 
 #### RK3588
@@ -56,12 +56,11 @@ cd ..
 ```
 
 The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-3588JD4_Debian.XXX.img`
-
 ## Compile Ubuntu Firmware
 <font color=red> Download SDK First. </font>
 
 ### rootfs
-* Download root filesystem: [Ubuntu Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/333), please use the filesystem from the `kernel-6.1` directory.
+* Download root filesystem: [Ubuntu Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/420), please use the filesystem from the `kernel-6.1` directory.
 * Extract rootfs and link it
 
 #### RK3588
@@ -95,7 +94,6 @@ cd ..
 ```
 
 The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-3588JD4_Ubuntu.XXX.img`
-
 ## Export Main Module Rootfs
 Reference [Export device rootfs](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/first_use.html#export-device-system)
 

@@ -105,7 +105,7 @@ RKNPU driver: v0.9.8
 ```
 If the NPU kernel version is lower than v0.9.8, please go to the official firmware address to download the latest firmware
 ##### 3.1.2.2 Compilation Requirements for RKLLM Runtime
-When using RKLLM Runtime, pay attention to the version of the GCC cross-compilation toolchain. It is recommended to use cross-compilation toolchain [gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu](https://developer.arm.com/downloads/-/gnu-a/10-2-2020-11)
+When using RKLLM Runtime, pay attention to the version of the GCC cross-compilation toolchain. It is recommended to use the `gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu` cross-compilation toolchain.
 ```
 cd deploy
 # Modify build-linux.sh
@@ -151,7 +151,6 @@ For more demo and api usage, refer to RKLLM SDK routines and documentation
 **Q1: Failed to convert model?**
 
 A1: Check the available RAM on your PC.Models with larger parameter sizes require more memory for conversion or execution. You might consider increasing the swapfile size or using a PC with more memory.
-
 ## Artificial Intelligence Algorithm Deployment
 AIBOX-PRO supports the deployment of a range of mainstream artificial intelligence algorithms, including but not limited to the following categories of algorithms:
 

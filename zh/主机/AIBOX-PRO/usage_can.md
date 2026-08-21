@@ -6,7 +6,7 @@ CAN(Controller Area Network)总线，即控制器局域网总线，是一种有�
 如果想了解更多的内容可以参考[CAN应用报告](https://www.ti.com/lit/an/sloa101b/sloa101b.pdf)
 
 ### 硬件连接
-AIBOX-PRO 开发板的 CAN [接口位置如图所示](interface_definition.html#zheng-ji-jie-kou-ding-yi)  
+AIBOX-PRO 开发板的 CAN [接口位置如图所示](interface_definition.md)
 
 
 
@@ -14,7 +14,7 @@ AIBOX-PRO 开发板的 CAN [接口位置如图所示](interface_definition.html#
 
 
 ### CAN 通信测试    
-使用 candump 和 cansend 工具进行收发报文测试即可，将工具push到/system/bin/目录下执行。工具包含在SDK中,也可以在 [官方](http://www.t-firefly.com/share/index/index/id/3cacb04c663f9fe97bf494ca55763dcd.html) 或者 [github](https://github.com/linux-can/can-utils) 下载。    
+使用 candump 和 cansend 工具进行收发报文测试即可，将工具push到/system/bin/目录下执行。工具包含在SDK中，也可以从 [GitHub](https://github.com/linux-can/can-utils) 下载。
 
 ```
 #在收发端关闭can0设备
