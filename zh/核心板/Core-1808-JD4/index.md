@@ -24,4 +24,3 @@
 - [FAQs](faqs.md)
 # 硬件资料
 - [接口定义](interface_definition.md)
-- [相关文档](hardware_doc.md)

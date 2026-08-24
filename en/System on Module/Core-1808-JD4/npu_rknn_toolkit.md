@@ -13,7 +13,7 @@ Users can easily complete the following functions through the provided Python in
 **RKNN Tookit only supports Linux system and can be used on 3399pro development board or PC.**
 
 ## Program installation
-RKNN Toolkit can be downloaded from this link: [LINK](http://git.t-firefly.com:8081/rk-linux/external/rknn-toolkit/tree/rk1808/firefly)
+RKNN Toolkit can be downloaded from SDK
 
 ### Install on PC
 <!-- #### Fedora 28

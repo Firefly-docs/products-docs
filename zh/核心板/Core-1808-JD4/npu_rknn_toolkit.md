@@ -13,7 +13,7 @@ Rockchip提供RKNN-Toolkit开发套件进行模型转换、推理运行和性能
 **RKNN Tookit仅支持Linux系统，可在PC上使用。**
 
 ## 程序安装
-RKNN Toolkit可从此链接中下载：[下载链接](http://git.t-firefly.com:8081/rk-linux/external/rknn-toolkit/tree/rk1808/firefly),或者使用SDK中的`/external/rknn-toolkit`目录。
+RKNN Toolkit 使用SDK中的`/external/rknn-toolkit`目录。
 
 ### 在PC中安装
 

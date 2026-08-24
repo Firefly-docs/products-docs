@@ -33,14 +33,11 @@ Firmware comes in two formats:
  * Original firmware(raw firmware)
  * RK firmware(Rockchip firmware)
 
-<a id="raw-firmware-format"></a>
-    [Original firmware][原始固件] is a firmware that can be upgraded to a storage device in a bit-by-bit replication mode. It is the original image of the storage device. Raw firmware is generally upgraded to an SD card, but it can also be upgraded to an eMMC. There are many tools available to upgrade the original firmware:
+    Original firmware is a firmware that can be upgraded to a storage device in a bit-by-bit replication mode. It is the original image of the storage device. Raw firmware is generally upgraded to an SD card, but it can also be upgraded to an eMMC. There are many tools available to upgrade the original firmware:
 		
-<a id="rk-firmware-format"></a>
-    [RK firmware][RK固件] is a firmware packaged in Rockchip proprietary format and upgraded to eMMC flash memory using *upgrade_tool(Linux)* or *AndroidTool(Windows)* tools provided by Rockchip. RK firmware is Rockchip's traditional firmware packaging format and is often used on Android devices. In addition, Android's RK Firmware can be upgraded to an SD card using the SD Firmware Tool.
+    RK firmware  is a firmware packaged in Rockchip proprietary format and upgraded to eMMC flash memory using *upgrade_tool(Linux)* or *AndroidTool(Windows)* tools provided by Rockchip. RK firmware is Rockchip's traditional firmware packaging format and is often used on Android devices. In addition, Android's RK Firmware can be upgraded to an SD card using the SD Firmware Tool.
 
-<a id="partition-image"></a>
-    [Partition image][分区映像] is the image data of a partition and is used to store the upgrade of the corresponding partition of the device. For example, the compilation of the Android SDK will construct `boot.img`, ` kernel.img ` and ` system.img ` etc. Partition image file ,the `kernel.img` will be written in eMMC or SD card "the kernel" partition.
+    Partition image is the image data of a partition and is used to store the upgrade of the corresponding partition of the device. For example, the compilation of the Android SDK will construct `boot.img`, ` kernel.img ` and ` system.img ` etc. Partition image file ,the `kernel.img` will be written in eMMC or SD card "the kernel" partition.
 
 ## Download and update firmware
 
@@ -66,13 +63,7 @@ After confirming the correct connection of motherboard accessories, insert the p
 
 When the machine is turned on, the blue power indicator light will be on.
 
-[RK固件]:started.html#rk-firmware-format
-[原始固件]:started.html#raw-firmware-format
-[分区映像]:started.html#partition-image
-[固件类型]:started.html#firmware-format
-[SD Firmware Tool]: upgrade_firmware_rk.html#SD_Firmware_Tool
-[Etcher]: upgrade_firmware_sd.html#Etcher
-[dd]: upgrade_firmware_sd.html#dd
-[AndroidTool]: upgrade_firmware.html#Androidtool
-[upgrade_tool]: upgrade_firmware.html#upgrade_and_upgrade_tool
-[rkdeveloptool]: upgrade_firmware.html#upgrade_and_rkdeveloptoo
+[SD Firmware Tool]: https://community.t-firefly.com/en/doc/download/73
+[AndroidTool]: https://community.t-firefly.com/en/doc/download/73
+[upgrade_tool]: https://community.t-firefly.com/en/doc/download/73
+[rkdeveloptool]: https://community.t-firefly.com/en/doc/download/73

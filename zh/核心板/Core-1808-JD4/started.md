@@ -35,17 +35,13 @@ AIO-1808-JD4 的标准套装包含以下配件：
  * 原始固件(raw firmware)
  * RK固件(Rockchip firmware)
 
-<a id="raw-firmware-format"></a>
-    [原始固件]是一种能以逐位复制的方式烧写到存储设备的固件，是存储设备的原始映像。原始固件一般烧写到SD卡中，但也可以烧写到eMMC中。烧写原始固件有许多工具可以选用：
+    原始固件是一种能以逐位复制的方式烧写到存储设备的固件，是存储设备的原始映像。原始固件一般烧写到SD卡中，但也可以烧写到eMMC中。烧写原始固件有许多工具可以选用：
 		
-<a id="rk-firmware-format"></a>
-    [RK固件]是以Rockchip专有格式打包的固件，使用Rockchip提供的upgrade_tool(Linux)或AndroidTool(Windows)工具烧写到eMMC闪存中。RK固件是Rockchip的传统固件打包格式，常用于Android设备上。另外，Android的RK固件也可以使用SD Firmware Tool工具烧写到SD卡中。
+    RK固件是以Rockchip专有格式打包的固件，使用Rockchip提供的upgrade_tool(Linux)或AndroidTool(Windows)工具烧写到eMMC闪存中。RK固件是Rockchip的传统固件打包格式，常用于Android设备上。另外，Android的RK固件也可以使用SD Firmware Tool工具烧写到SD卡中。
 
-<a id="partition-image"></a>
-    [分区映像]是分区的映像数据，用于存储设备对应分区的烧写。例如，编译Android SDK会构建出`boot.img`、`kernel.img`和`system.img`等分区映像文件，`kernel.img`会被写到eMMC或SD卡的“kernel”分区。
+    分区映像是分区的映像数据，用于存储设备对应分区的烧写。例如，编译Android SDK会构建出`boot.img`、`kernel.img`和`system.img`等分区映像文件，`kernel.img`会被写到eMMC或SD卡的“kernel”分区。
 
 ## 下载和烧写固件
-
 
 以下是支持的系统列表：
 
@@ -73,13 +69,7 @@ AIO-1808-JD4 的标准套装包含以下配件：
 
 开机时，蓝色的电源指示灯会亮起。
 
-[RK固件]:started.html#rk-firmware-format
-[原始固件]:started.html#raw-firmware-format
-[分区映像]:started.html#partition-image
-[固件类型]:started.html#firmware-format
-[SD Firmware Tool]: upgrade_firmware_rk.html#SD_Firmware_Tool
-[Etcher]: upgrade_firmware_sd.html#Etcher
-[dd]: upgrade_firmware_sd.html#dd
-[AndroidTool]: upgrade_firmware.html#Androidtool
-[upgrade_tool]: upgrade_firmware.html#upgrade_and_upgrade_tool
-[rkdeveloptool]: upgrade_firmware.html#upgrade_and_rkdeveloptoo
+[SD Firmware Tool]: https://www.t-firefly.com.cn/doc/download/83.html
+[AndroidTool]: https://www.t-firefly.com.cn/doc/download/83.html
+[upgrade_tool]: https://www.t-firefly.com.cn/doc/download/83.html
+[rkdeveloptool]: https://www.t-firefly.com.cn/doc/download/83.html

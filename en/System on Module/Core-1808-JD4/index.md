@@ -24,4 +24,3 @@
 # FAQs
 # Hardware resources
 - [Interface definition](interface_definition.md)
-- [Related Document](hardware_doc.md)

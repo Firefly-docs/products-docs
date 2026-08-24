@@ -31,7 +31,7 @@
 
 ## Windows
 
-* 工具: [Androidtool_xxx(版本号)](http://download.t-firefly.com/product/RK1808/Tools/AndroidTool/AndroidTool_Release_v2.69.zip)
+* 工具: [Androidtool_xxx(版本号)](https://community.t-firefly.com/doc/download/73)
 
 ### 安装 RK USB 驱动
 
@@ -92,7 +92,7 @@
 
 ### upgrade_tool
 
-下载 [Linux_Upgrade_Tool](http://download.t-firefly.com/product/RK1808/Tools/Linux_Upgrade_Tool/Linux_Upgrade_Tool_v1.38.zip), 并按以下方法安装到系统中，方便调用：   
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/73), 并按以下方法安装到系统中，方便调用：   
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
 cd Linux_UpgradeTool_xxxx

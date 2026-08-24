@@ -9,8 +9,6 @@
 
 ### 参考固件
 公版固件默认支持CMK-OV13850摄像头模组
-### 技术资料
-[OV13850摄像头DataSheet](http://download.t-firefly.com/product/RK3288/Docs/Peripherals/OV13850%20datasheet/Sensor_OV13850-G04A_OmniVision_SpecificationV1.pdf)
 ### 实物图
 ![](../../../rk1808_img/module_camera1.png)
 ### 连接方法
