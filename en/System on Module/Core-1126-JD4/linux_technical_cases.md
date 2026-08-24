@@ -21,8 +21,7 @@ Facial recognition gate web management interface
 
 ## Cluster Edge Computing
 
-In addition to being able to adapt to `MB-1126-JD4` for standalone use, `CORE-1126-JD4/CORE-1109-JD4` also adapts to the official CS-R1/CS-R2 series cluster servers. About
-Cluster server related WIKI ([CS-R1](https://en.t-firefly.com/product/clusterserver.html?theme=pc)/[CS-R2](https://en.t-firefly.com/product/cluster/r2.html)).
+In addition to being able to adapt to `MB-1126-JD4` for standalone use, `CORE-1126-JD4/CORE-1109-JD4` also adapts to the official CS-R1/CS-R2 series cluster servers.
 
 * CS-R1
 ![](../../../rv1126_img/Core-1126-JD4/CS-R1.png)

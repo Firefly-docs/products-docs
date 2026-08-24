@@ -28,7 +28,6 @@
 - [POE](usage_poe.md)
 # Accessories
 - [Camera module](module_camera.md)
-- [Screen module](module_display.md)
 - [Wireless module](module_wireless.md)
 # Other
 - [NPU](usage_npu.md)
