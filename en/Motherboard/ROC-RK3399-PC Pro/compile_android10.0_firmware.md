@@ -61,7 +61,7 @@ git rebase FETCH_HEAD
 
 ### Overall Compilation
 
-**Note:** Since ROC-RK3399-PC Pro is the Hardware iteration version of [ROC-RK3399-PC-PLUS](https://wiki.t-firefly.com/en/ROC-RK3399-PC-PLUS/started.html), so the compilation method of software is consistent. Finally generated firmware, such as `ROC-RK3399-PC-Pro_ xxx.img` is compatible with [ROC-RK3399-PC-PLUS](https://wiki.t-firefly.com/en/ROC-RK3399-PC-PLUS/started.html).
+**Note:** Since ROC-RK3399-PC Pro is the Hardware iteration version of [ROC-RK3399-PC-PLUS](https://community.t-firefly.com/en/docs/products/motherboard/ROC-RK3399-PC-PLUS/started), so the compilation method of software is consistent. Finally generated firmware, such as `ROC-RK3399-PC-Pro_ xxx.img` is compatible with [ROC-RK3399-PC-PLUS](https://community.t-firefly.com/en/docs/products/motherboard/ROC-RK3399-PC-PLUS/started).
 
 #### Public Compile
 ##### HDMI+DP

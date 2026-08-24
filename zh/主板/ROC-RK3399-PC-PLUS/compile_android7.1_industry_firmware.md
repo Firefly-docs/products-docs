@@ -55,7 +55,7 @@ git rebase FETCH_HEAD
 ## 编译 Android SDK
 
 ### 整体编译
-**注意：由于 ROC-RK3399-PC-PLUS 的硬件迭代版本是 [ROC-RK3399-PC-Pro](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC-Pro/started.html),所以软件的编译方法是一致。最终生成的固件如：ROC-RK3399-PC-Pro_xxx.img 对 ROC-RK3399-PC-PLUS 也是兼容的。**
+**注意：由于 ROC-RK3399-PC-PLUS 的硬件迭代版本是 [ROC-RK3399-PC-Pro](https://community.t-firefly.com/docs/products/motherboard/ROC-RK3399-PC-Pro/started),所以软件的编译方法是一致。最终生成的固件如：ROC-RK3399-PC-Pro_xxx.img 对 ROC-RK3399-PC-PLUS 也是兼容的。**
 
 #### 公版编译
 ##### HDMI+DP

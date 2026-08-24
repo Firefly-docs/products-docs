@@ -61,7 +61,7 @@ Google Drive[[bundle download]](https://community.t-firefly.com/en/doc/download/
 
 ### Overall Compilation
 
-**Note: Since the  the Hardware iteration version of ROC-RK3399-PC-PLUS is [ROC-RK3399-PC Pro](https://wiki.t-firefly.com/en/ROC-RK3399-PC-Pro/started.html), so the compilation method of software is consistent. Finally the generated firmware, such as ROC-RK3399-PC-Pro_xxx.img is compatible with ROC-RK3399-PC-PLUS.**
+**Note: Since the  the Hardware iteration version of ROC-RK3399-PC-PLUS is [ROC-RK3399-PC Pro](https://community.t-firefly.com/en/docs/products/motherboard/ROC-RK3399-PC-Pro/started), so the compilation method of software is consistent. Finally the generated firmware, such as ROC-RK3399-PC-Pro_xxx.img is compatible with ROC-RK3399-PC-PLUS.**
 
 #### Public Compile
 ##### HDMI+DP

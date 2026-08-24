@@ -12,7 +12,7 @@ EC-R3588SPC 嵌入式主机，基于 ROC-3588S-PC 高性能开源平台，长时
 
 # 产品资源
 
-* [[开发使用文档]](https://wiki.t-firefly.com/zh_CN/EC-R3588SPC/started.html) 
+* [[开发使用文档]](https://community.t-firefly.com/docs/products/motherboard/EC-R3588SPC/started)
 包含 Android&Ubuntu 驱动开发等资料(参考 EC-R3588SPC Wiki)
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)

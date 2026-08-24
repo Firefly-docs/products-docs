@@ -56,7 +56,7 @@ git rebase FETCH_HEAD
 
 ### 整体编译
 
-**注意**：由于 ROC-RK3399-PC Pro 是对 [ROC-RK3399-PC-PLUS](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC-PLUS/started.html) 硬件上的迭代，所以软件的编译方法是一致。最终生成的固件如：`ROC-RK3399-PC-Pro_xxx.img` 对 [ROC-RK3399-PC-PLUS](https://wiki.t-firefly.com/zh_CN/ROC-RK3399-PC-PLUS/started.html) 也是兼容的。
+**注意**：由于 ROC-RK3399-PC Pro 是对 [ROC-RK3399-PC-PLUS](https://community.t-firefly.com/docs/products/motherboard/ROC-RK3399-PC-PLUS/started) 硬件上的迭代，所以软件的编译方法是一致。最终生成的固件如：`ROC-RK3399-PC-Pro_xxx.img` 对 [ROC-RK3399-PC-PLUS](https://community.t-firefly.com/docs/products/motherboard/ROC-RK3399-PC-PLUS/started) 也是兼容的。
 
 #### 公版编译
 ##### HDMI+DP
@@ -150,7 +150,6 @@ make -j8
 
 ### 烧写固件
 请参考：[《升级固件》](03-upgrade_firmware.md) 
-
 
 ## 其他安卓版本
 * <font color=#ff0000 size=3>主要维护：</font>

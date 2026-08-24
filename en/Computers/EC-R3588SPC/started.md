@@ -12,7 +12,7 @@ Based on Rockchip new generation of flagship AIOT chip -- RK3588S, the 3588S fea
 
 # Product resources
 
-* [[Development document]](https://wiki.t-firefly.com/en/EC-R3588SPC/started.html) 
+* [[Development document]](https://community.t-firefly.com/en/docs/products/motherboard/EC-R3588SPC/started)
 Includes information on Android & Ubuntu driver development (see EC-R3588SPC Wiki)
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)
