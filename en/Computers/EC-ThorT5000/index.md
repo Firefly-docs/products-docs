@@ -4,6 +4,8 @@
 - [Introduction](started.md)
 - [Serial debug](debug.md)
 - [First Use](usage_first.md)
+# Upgrade Firmware
+- [Update Firmware](upgrade_firmware.md)
 # Port Usage
 - [CAN](usage_can.md)
 - [UART ](usage_uart_rs232_rs485.md)

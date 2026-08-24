@@ -4,6 +4,8 @@
 - [简介](started.md)
 - [串口调试](debug.md)
 - [初次使用](usage_first.md)
+# 更新固件
+- [更新固件](upgrade_firmware.md)
 # 接口使用
 - [CAN 使用](usage_can.md)
 - [UART 使用](usage_uart_rs232_rs485.md)
