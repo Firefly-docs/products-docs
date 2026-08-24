@@ -10,7 +10,7 @@
 ![](../../../rv1126_img/Core-1126-JD4/Core-1126-JD4-front.png)  
       
 
-[AIO-1126JD4](https://item.taobao.com/item.htm?id=670519903322) 开发板由核心板 Core-1126-JD4 + 底板 MB-JD4-RV11091126 组成,。AIO-1126JD4 拥有 RGMII、USB2.0、I2C、UART、GPIO、MIPI-DSI 以及 MIPI-CSI 等丰富接口，可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。
+AIO-1126JD4 开发板由核心板 Core-1126-JD4 + 底板 MB-JD4-RV11091126 组成,。AIO-1126JD4 拥有 RGMII、USB2.0、I2C、UART、GPIO、MIPI-DSI 以及 MIPI-CSI 等丰富接口，可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。
 
 ![](../../../rv1126_img/Core-1126-JD4/AIO-1126JD4.png)
  <a id="firmware-format"></a>

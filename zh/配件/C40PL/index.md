@@ -29,7 +29,6 @@
 - [IR 使用](usage_ir.md)
 # 配件
 - [摄像头模组](module_camera.md)
-- [显示屏模组](module_display.md)
 - [通信模组](module_wireless.md)
 # 其他
 - [NPU 使用](usage_npu.md)

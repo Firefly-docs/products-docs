@@ -23,7 +23,6 @@
 - [Sound Card](usage_sound_card.md)
 # Accessories
 - [Camera module](module_camera.md)
-- [Screen module](module_display.md)
 # Other
 - [NPU](usage_npu.md)
 # Questions and answers

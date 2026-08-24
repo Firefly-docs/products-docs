@@ -23,7 +23,6 @@
 - [Sound Card 使用](usage_sound_card.md)
 # 配件
 - [摄像头模组](module_camera.md)
-- [显示屏模组](module_display.md)
 # 其他
 - [NPU 使用](usage_npu.md)
 # 常见问题解答
