@@ -178,7 +178,7 @@ AIO-3588L There are two MIPI DSI display output interfaces, both support DPHY2.0
 
 #### Software configuration
 
-Since DSI0 and DSI1 are similar in software configuration, here the configuration of DSI0 is taken as an example. The external screen is  [Firefly V2 Version](https://wiki.t-firefly.com/DM-M10R800-V2/dm-m10r800-v2.html), and the DSI0 software is represented as `dsi0`.
+Since DSI0 and DSI1 are similar in software configuration, here the configuration of DSI0 is taken as an example. The external screen is  [Firefly V2 Version](../../Accessories/DM-M10R800-V3S/started.md), and the DSI0 software is represented as `dsi0`.
 
 Combining AIO-3588L  DSI0 interface and screen timing
 

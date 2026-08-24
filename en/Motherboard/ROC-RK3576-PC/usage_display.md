@@ -132,7 +132,7 @@ ROC-RK3576-PC There are two MIPI DSI display output interfaces, both support DPH
 
 #### Software configuration
 
-The external screen is  [Firefly V2 Version](https://wiki.t-firefly.com/DM-M10R800-V2/dm-m10r800-v2.html)
+The external screen is  [Firefly V2 Version](../../Accessories/DM-M10R800-V3S/started.md)
 
 Combining ROC-RK3576-PC  DSI interface and screen timing
 

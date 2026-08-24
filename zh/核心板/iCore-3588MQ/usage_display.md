@@ -210,7 +210,7 @@ AIO-3588MQ  有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 Lane
 
 #### 软件配置
 
-由于 DSI0 和 DSI1 在软件配置上类似，这里以 DSI0 的配置为例，外接的屏幕是 [Firefly V2 版本屏幕](https://wiki.t-firefly.com/DM-M10R800-V2/dm-m10r800-v2.html)，DSI0 软件上表示为 `dsi0`。
+由于 DSI0 和 DSI1 在软件配置上类似，这里以 DSI0 的配置为例，外接的屏幕是 [Firefly V2 版本屏幕](../../配件/DM-M10R800-V3S/started.md)，DSI0 软件上表示为 `dsi0`。
 
 结合 AIO-3588MQ  的 DSI0 接口和屏幕时序
 

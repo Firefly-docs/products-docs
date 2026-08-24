@@ -15,7 +15,7 @@
 - [Compile environment to build](android_prepare_compile_android.md)
 - [Compile Android12.0 firmware](android_compile_android12.0_firmware.md)
 - [Compile Android14.0 firmware](android_compile_android14.0_firmware.md)
-- [Firefly Android User Manual](android_firefly_android_manual.md)
+- [#android_firefly_android_manual](#android_firefly_android_manual.md)
 - [FireflyApi2 Manual](android_fireflyapi2_manual.md)
 - [#android_technical_cases](#android_technical_cases.md)
 # Port Usage

@@ -131,7 +131,7 @@ ROC-RK3576-PC 有一路 MIPI DSI 显示输出接口，支持 DPHY2.0 和 4 Lane 
 
 #### 软件配置
 
-外接的屏幕是 [Firefly V2 版本屏幕](https://wiki.t-firefly.com/DM-M10R800-V2/dm-m10r800-v2.html)，
+外接的屏幕是 [Firefly V2 版本屏幕](../../配件/DM-M10R800-V3S/started.md)，
 
 结合 ROC-RK3576-PC 的 DSI 接口和屏幕时序
 

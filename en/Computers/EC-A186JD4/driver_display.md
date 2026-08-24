@@ -19,4 +19,4 @@ systemctl restart SophonHDMI.service  # 恢复 HDMI 的显示界面
 Currently, the system can only have one display; when you connect HDMI, the MIPI DSI does not output by default.&#x20;
 However, if you unplug the HDMI, the connected MIPI display module will show a test pattern in the form of color bars.
 
-Currently adapted for Firefly's [DM-M10R800 V2](https://wiki.t-firefly.com/DM-M10R800-V2/dm-m10r800-v2.html) display module.
+Currently adapted for Firefly's [DM-M10R800 V2](../../Accessories/DM-M10R800-V3S/started.md) display module.

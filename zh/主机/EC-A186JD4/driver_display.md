@@ -17,4 +17,4 @@ systemctl restart SophonHDMI.service  # 恢复 HDMI 的显示界面
 目前系统只能存在一个显示，当你接着 HDMI 的时候，MIPI DSI 默认没有输出。
 但你拔掉 HDMI ，你所接入的 MIPI 显示模组会以播放彩条的形式进行显示。
 
-目前已适配 Firelfy 的 [DM-M10R800 V2](https://wiki.t-firefly.com/DM-M10R800-V2/dm-m10r800-v2.html) 显示模组。
+目前已适配 Firelfy 的 [DM-M10R800 V2](../../配件/DM-M10R800-V3S/started.md) 显示模组。
