@@ -14,7 +14,7 @@ ROC-RK3506J-CC has one MIPI DSI display output interface, supports 2 Lane data o
 
 #### Software Configuration
 
-The external screen is [DM-M10R800 V3S Monitor Module](https://wiki.t-firefly.com/en/DM-M10R800-V3S/dm-m10r800-v3s.html)，
+The external screen is [DM-M10R800 V3S Monitor Module](https://community.t-firefly.com/docs/products/accessories/DM-M10R800-V3S/started)，
 
 * DSI interface
 ![](../../../rk3506_img/ROC-RK3506J-CC/usage_display_mipi_v3_interface.png)
