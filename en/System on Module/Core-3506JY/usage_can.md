@@ -81,7 +81,7 @@ can1: can@ff330000 {
 #### CAN communication test
 Use the candump and cansend tools directly to send and receive messages, Ubuntu can use "apt update && apt install can-utils" to install them.
 
- Tools candump/cansend are included with the SDK and download from [Officail link](http://www.t-firefly.com/share/index/index/id/3cacb04c663f9fe97bf494ca55763dcd.html) or [github](https://github.com/linux-can/can-utils).
+ Tools candump/cansend are included with the SDK and download from [github](https://github.com/linux-can/can-utils).
 
 ```
 #Close the can0 device at the transceiver

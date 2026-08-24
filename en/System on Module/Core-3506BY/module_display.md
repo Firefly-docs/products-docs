@@ -2,4 +2,4 @@
 
 Firefly supports the following displays:
 
-- [DM-M10R800 V3S screen module](https://wiki.t-firefly.com/en/DM-M10R800-V3S/dm-m10r800-v3s.html)
+- [DM-M10R800 V3S screen module](https://community.t-firefly.com/docs/products/accessories/DM-M10R800-V3S/started)

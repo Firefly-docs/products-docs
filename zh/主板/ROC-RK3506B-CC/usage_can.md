@@ -81,7 +81,7 @@ can1: can@ff330000 {
 #### CAN 通信测试
 使用 candump 和 cansend 工具进行收发报文测试即可，Ubuntu 系统可使用 apt update && apt install can-utils 安装。
 
-工具包含在 SDK 中,也可以在 [官方](http://www.t-firefly.com/share/index/index/id/3cacb04c663f9fe97bf494ca55763dcd.html) 或者 [github](https://github.com/linux-can/can-utils) 下载。
+工具包含在 SDK 中,也可以在 [github](https://github.com/linux-can/can-utils) 下载。
 
 ```
 #在收发端关闭can0设备
