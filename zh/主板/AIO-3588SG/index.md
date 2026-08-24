@@ -16,7 +16,7 @@
 - [编译 Android12.0 固件](android_compile_android12.0_firmware.md)
 - [编译 Android14.0 固件](android_compile_android14.0_firmware.md)
 - [#android_firefly_android_manual](#android_firefly_android_manual.md)
-- [FireflyApi2 使用手册](android_fireflyapi2_manual.md)
+- [#android_fireflyapi2_manual](#android_fireflyapi2_manual.md)
 - [#android_technical_cases](#android_technical_cases.md)
 # 接口使用
 - [ADC 使用](usage_adc.md)
