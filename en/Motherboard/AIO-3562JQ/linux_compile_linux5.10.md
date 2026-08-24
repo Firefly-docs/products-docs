@@ -113,7 +113,7 @@ unzip device-tree-compiler python-pip ncurses-dev python-pyelftools
 
 Use dockerfile to create a container, build SDK in the container, it will perfectly solve environment problems and isolate with host environments.
 
-First install docker in the host PC, you can refer to [Docker instructions](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/first_use.html#install-docker)
+Please install docker in the host PC in advance.
 
 Create an empty folder as docker work dir, like `~/docker/`, then touch a dockerfile with contents:
 ```dockerfile
@@ -179,11 +179,6 @@ docker attach ubuntu18
 ## Compile Ubuntu firmware
 
 This chapter introduces the compilation process of Ubuntu firmware. It is recommended to develop under Ubuntu 18.04 system environment. If you use other system versions, you may need to adjust the compilation environment accordingly.
-
-### A brief introduction to Ubuntu firmware
-[What is Ubuntu Minimal ?](ubuntu_minimal_support.md)
-
-[What is Ubuntu Desktop ?](ubuntu_desktop_support.md)
 
 ### Build Linux-SDK
 

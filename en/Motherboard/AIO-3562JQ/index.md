@@ -13,7 +13,7 @@
 # Linux
 - [Compile Linux Firmware (kernel-6.1)](linux6.1_compile.md)
 - [Compile Linux firmware (kernel-5.10)](linux_compile_linux5.10.md)
-- [Firefly Linux User Guide](firefly_linux_guide.md)
+- [#firefly_linux_guide](#firefly_linux_guide.md)
 # Android
 # Driver
 - [driver_adc](driver_adc.md)

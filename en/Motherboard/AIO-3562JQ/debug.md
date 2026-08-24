@@ -8,11 +8,11 @@ If you are doing U-Boot or kernel development, the USB serial adapter (short for
 There are many USB adapter to serial port on the shop, divided by chip, there are the following:
 
 
-| Serial port  | Maximum baud rate | Is it recommended | Evaluation | Purchase link |
-| :--------: | :-------: |:-------: | :-------: | :-------: |
-| [CP2104](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) | 2Mbps | Yes | Support high baud rate communication, good stability and durability | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) |
-| CH340 | 2Mbps | No | Firefly and many customers have found in actual use that the actual baud rate of many CH340s on the market cannot reach 1.5Mbps, which causes a lot of trouble in the development process |  |
-| PL2303 | 1.2Mbps | No | The maximum baud rate is less than 1.5Mbps |  |
+| Serial port  | Maximum baud rate | Is it recommended | Evaluation |
+| :--------: | :-------: |:-------: | :-------: |
+| CP2104 | 2Mbps | Yes | Support high baud rate communication, good stability and durability |
+| CH340 | 2Mbps | No | Firefly and many customers have found in actual use that the actual baud rate of many CH340s on the market cannot reach 1.5Mbps, which causes a lot of trouble in the development process |
+| PL2303 | 1.2Mbps | No | The maximum baud rate is less than 1.5Mbps |
 
 <font color=#ff0000>**Note:** The default baud rate of AIO-3562JQ is 1500000, some USB to serial chip baud rate can not reach 1500000. The same chip may have different series, so be sure to confirm whether to support before purchasing.</font>
 
@@ -50,10 +50,6 @@ Download driver and install:
 * [CH340](https://sparks.gogo.co.nz/ch340.html)
 * [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
 * [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-
-If you can’t use PL2303 normally on Win8, use 3.3.5.122 or older version of the old driver, please refer to [This article](https://blog.csdn.net/ropai/article/details/19619951). Please find drivers with version 3.3.5.122 or before.
-
-If you install the CP210X driver from the official website on the Windows system, you can set the serial port baud rate to 1500000 using tools such as PUTTY or SecureCRT. If you cannot set the baud rate or it is invalid, you can download the [old version driver](http://www.t-firefly.com/share/index/index/id/a2e8f25f3d53992bf3e04f45b0e6c8e8.html).
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 

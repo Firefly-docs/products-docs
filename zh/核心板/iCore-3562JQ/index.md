@@ -12,7 +12,7 @@
 # Linux开发
 - [编译 Linux 固件 (内核版本 6.1)](linux6.1_compile.md)
 - [编译 Linux 固件 (内核版本 5.10)](linux_compile_linux5.10.md)
-- [Firefly Linux 开发指南](firefly_linux_guide.md)
+- [#firefly_linux_guide](#firefly_linux_guide.md)
 # Android开发
 # 驱动开发
 - [driver_adc](driver_adc.md)

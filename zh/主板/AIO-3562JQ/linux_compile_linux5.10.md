@@ -119,7 +119,7 @@ unzip device-tree-compiler python-pip ncurses-dev python-pyelftools
 
 使用 dockerfile 创建容器，在容器中进行编译，完美解决编译环境问题，并且与主机环境隔离，互不影响。
 
-首先在主机中安装 docker，请参考：[安装教程](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/first_use.html#an-zhuang-docker)
+请提前先在主机中安装好 docker。
 
 创建一个目录作为 docker 工作目录，例如`~/docker/`，在其中创建文件`dockerfile`，内容如下：
 ```dockerfile
@@ -188,12 +188,6 @@ docker attach ubuntu18
 ## 编译 Ubuntu 固件
 
 本章介绍 Ubuntu 固件的编译流程，推荐在 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
-
-### Ubuntu 固件简单介绍
-
-[什么是 Ubuntu Minimal ？](ubuntu_minimal_support.md)
-
-[什么是 Ubuntu Desktop ？](ubuntu_desktop_support.md)
 
 ### 编译 SDK
 

@@ -6,11 +6,11 @@
 
 网店上有许多 USB 转串口的适配器，按芯片来分，有以下几种：
 
-| 串口  | 最高波特率 | 是否推荐 | 评价 | 购买链接 |
-| :--------: | :-------: |:-------: | :-------: | :-------: |
-| [CP2104](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) | 2Mbps | 推荐 | 支持高波特率通信，稳定性好耐用 | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) |
-| CH340 | 2Mbps | 不推荐 | firefly和许多客户在实际使用中发现，市面上很多CH340的实际波特率达不到1.5Mbps，这给开发过程造成很多麻烦 |  |
-| PL2303 | 1.2Mbps | 不推荐 | 最高波特率达不到1.5Mbps |  |
+| 串口  | 最高波特率 | 是否推荐 | 评价 |
+| :--------: | :-------: |:-------: | :-------: |
+| CP2104 | 2Mbps | 推荐 | 支持高波特率通信，稳定性好耐用 |
+| CH340 | 2Mbps | 不推荐 | firefly和许多客户在实际使用中发现，市面上很多CH340的实际波特率达不到1.5Mbps，这给开发过程造成很多麻烦 |
+| PL2303 | 1.2Mbps | 不推荐 | 最高波特率达不到1.5Mbps |
 
 **注意：**  AIO-3562JQ 默认的波特率是 1500000，有些USB转串口芯片波特率无法达到 1500000，同一芯片的不同系列也可能会有差异，所以在选购之前一定要确认是否支持。
 
@@ -48,10 +48,6 @@ AIO-3562JQ 使用以下串口参数：
 * [CH340](https://sparks.gogo.co.nz/ch340.html)
 * [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
 * [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-
-如果在 Win8 上不能正常使用 PL2303，参考[这篇文章](http://blog.csdn.net/ropai/article/details/19619951)， 采用 3.3.5.122 或更老版本的旧驱动即可。
-
-如果在 Windows 系统上安装官网的 CP210X 驱动，使用 PUTTY 或 SecureCRT 等工具设置串口波特率为 1500000，如果出现设置不了或无效的问题，可以下载旧版本[驱动](http://www.t-firefly.com/share/index/index/id/a2e8f25f3d53992bf3e04f45b0e6c8e8.html)。
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 
