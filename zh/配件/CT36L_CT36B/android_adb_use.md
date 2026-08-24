@@ -32,7 +32,7 @@ adb shell
 
 首先参照[安装 RK USB 驱动](upgrade_firmware.html#an-zhuang-shao-xie-gong-ju)一节安装好驱动。
 
-然后下载 [adb.zip](http://www.t-firefly.com/share/index/index/id/6afafdf7c54b8eb95e81156d94e54db5.html)，解压到 `C:\adb` 以方便调用。
+然后下载 [adb](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)，解压到 `C:\adb` 以方便调用。
 
 打开命令行窗口，输入：
 
