@@ -12,7 +12,7 @@ EC-R3399PC Mini PC，Based on ROC-RK3399-PC high-performance open source platfor
 
 # Product resources
 
-* [[Development document]](../../Mainboards/ROC-RK3399-PC-Pro/index.md)
+* [[Development document]](../../motherboard/ROC-RK3399-PC Pro/index.md)
 Includes information on Android & Ubuntu driver development (see ROC-RK3399-PC-Pro Wiki)
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

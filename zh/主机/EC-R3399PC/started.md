@@ -14,8 +14,7 @@ EC-R3399PC 嵌入式主机，基于 ROC-RK3399-PC 高性能开源平台，配置
 
 # 产品资源
 
-* [[开发使用文档]](../../主板/ROC-RK3399-PC-Pro/index.md) 
-包含 Android&Ubuntu 驱动开发等资料(参考 ROC-RK3399-PC-Pro Wiki)
+* [[开发使用文档]](../../主板/ROC-RK3399-PC Pro/index.md)
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)
 超过10万企业客户和用户沟通交流平台
