@@ -1,2 +1,2 @@
 # EC-R3399PC
-- [started](started.md)
+- [产品简介](started.md)
