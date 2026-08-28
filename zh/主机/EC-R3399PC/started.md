@@ -3,9 +3,7 @@
 EC-R3399PC 嵌入式主机，基于 ROC-RK3399-PC 高性能开源平台，配置工业级外壳，防尘防干扰，长时间稳定运行，支持 4K 硬解。
 搭载Rockchip RK3399六核处理器，采用“服务器级”（双核Cortex-A72+四核Cortex-A53）大小核构架，主频高达1.8GHz，支持OpenGL ES1.1/2.0/3.0/3.1，内置 VPU视频处理器。
 
-![](../../../rk3399_img/EC-R3399PC/EC-R3399PC-info01.png)
-
-![](../../../rk3399_img/EC-R3399PC/EC-R3399PC-info02.png)
+![](../../../rk3399_img/EC-R3399PC/EC-R3399PC-info.png)
 
 # 产品参数
 ![](../../../rk3399_img/EC-R3399PC/EC-R3399PC_zh_args.png)
@@ -16,8 +14,8 @@ EC-R3399PC 嵌入式主机，基于 ROC-RK3399-PC 高性能开源平台，配置
 
 # 产品资源
 
-* [[开发使用文档]](../../主板/ROC-RK3399-PC/index.md) 
-包含 Android&Ubuntu 驱动开发等资料(参考 ROC-RK3399-PC Wiki)
+* [[开发使用文档]](../../主板/ROC-RK3399-PC-Pro/index.md) 
+包含 Android&Ubuntu 驱动开发等资料(参考 ROC-RK3399-PC-Pro Wiki)
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)
 超过10万企业客户和用户沟通交流平台

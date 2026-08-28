@@ -2,10 +2,7 @@
 
 EC-R3399PC Mini PC，Based on ROC-RK3399-PC high-performance open source platform, industrial shell configuration, dust and interference prevention, long-term stable operation, support 4K hard solution.Equipped with Rockchip RK3399 six-core processor, using "server level" (dual-core Cortex-A72+ quad-core Cortex-A53) size core architecture, the main frequency up to 1.8GHz, support OpenGL ES1.1/2.0/3.0/3.1, built-in VPU video processor.
 
-![](../../../rk3399_img/EC-R3399PC/EC-R3399PC-info01.png)
-
-![](../../../rk3399_img/EC-R3399PC/EC-R3399PC-info02.png)
-
+![](../../../rk3399_img/EC-R3399PC/EC-R3399PC-info.png)
 
 # Product Specification
 ![](../../../rk3399_img/EC-R3399PC/EC-R3399PC_en_args.png)
@@ -15,8 +12,8 @@ EC-R3399PC Mini PC，Based on ROC-RK3399-PC high-performance open source platfor
 
 # Product resources
 
-* [[Development document]](../../Mainboards/ROC-RK3399-PC/index.md) 
-Includes information on Android & Ubuntu driver development (see ROC-RK3399-PC Wiki)
+* [[Development document]](../../Mainboards/ROC-RK3399-PC-Pro/index.md)
+Includes information on Android & Ubuntu driver development (see ROC-RK3399-PC-Pro Wiki)
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)
 More than 100,000 corporate customers and users communication platform
