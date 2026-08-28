@@ -1,5 +1,6 @@
-# 编译 RK1820/RK1828 安装包
-## 获取 SDK
+# RK1820/RK1828
+## 编译安装包
+### 获取 SDK
 
 请联系销售 (sales@t-firefly.com) 获取 **RK182X SDK** 下载链接。
 
@@ -24,7 +25,7 @@ tar xf rk182x_linux_release_20260611_v1.0.4a.tgz
 .repo/repo/repo sync -l
 ```
 
-## 配置 
+### 配置
 通过 `./build.sh config` 配置。
 
 ```
@@ -39,14 +40,14 @@ Select board type:
 
 选择 `2`
 
-## 编译
+### 编译
 ```
 ./build.sh
 ```
 
 生成的软件安装包在 `output/firmware/rknn3_rk182x_sodimm_installer_arm64.tgz`
 
-## 安装
+### 安装
 手动安装 RK1820/RK1828 软件包，按如下步骤操作：
 * 拷贝 `rknn3_rk182x_sodimm_installer_arm64.tgz` 到 RK3588 或者 RK3576 端
 * 解压 `tar xzf rknn3_rk182x_sodimm_installer_arm64.tgz`
@@ -54,7 +55,7 @@ Select board type:
     * 安装重启后， RK3588 或者 RK3576 端系统会在启动后， ⾃动下载 RK182X 的固件，并启动后台服务程序。
 
 
-## 其他
+### 其他
 ### 版本 V1.0.4
 ```
 

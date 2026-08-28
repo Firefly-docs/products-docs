@@ -2,7 +2,7 @@
 
 ## Introduction
 
-RK182X开发套件 has an external RTC powered by a capacitor on the external motherboard, which ensures the RTC continues to run for a short period after power loss. In the kernel, it is represented as `rtc0`.
+RK182X Developer Kit has an external RTC powered by a capacitor on the external motherboard, which ensures the RTC continues to run for a short period after power loss. In the kernel, it is represented as `rtc0`.
 ## Interface Usage
 
 Linux provides three user-space interfaces for interacting with the RTC. The paths are:

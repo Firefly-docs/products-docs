@@ -1,50 +1,31 @@
-# Main mod (Core-3588JD4/Core-3588SJD4 AI/Core-3576JD4)
+# Boot Modes
 
-## Preface
+RK182X Developer Kit is shipped with an operating system. To run another operating system, download the corresponding firmware from the [firmware download page](https://community.t-firefly.com/en/doc/download/369).
 
-The RK182X Developer Kit is installed with the an operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.
+If an upgrade damages the bootloader and normal upgrades no longer work, use `MaskRom` mode to repair the board.
+For complete upgrade procedures, see [Upgrade Firmware via USB Cable](upgrade_firmware_rockchip.md) or [Upgrade the firmware via SD card](upgrade_firmware_sd_rockchip.md).
 
-RK182X Developer Kit has a flexible startup mode. Generally, the RK182X Developer Kit development board will not turn brick unless the hardware is damaged.
+## Boot Media
 
-If the accident appeared in the process of upgrading, bootloader damage, leading to unable to upgrade again, while still can enter ` MaskRom ` mode to repair.
-
-
-## How to get the Firmwares
-*   [Firmware download link](https://community.t-firefly.com/en/doc/download/369)
-
-
-## Upgrade method
-RK182X Developer Kit supports firmware update through the following two methods:
-
-* [Upgrade the firmware via USB cable](upgrade_firmware_rockchip.md)<br><br>     Use the USB cable to connect the mainboard to the computer, and use the upgrade tool to program the firmware to the mainboard.<br><br>
-* [Upgrade the firmware via SD card](upgrade_firmware_sd_rockchip.md)<br><br>    Use the upgrade card creation tool to make the MicroSD card(Suggest using a card with a capacity of 32GB or less) as an upgrade card, insert the upgrade card into the mainboard, power on, and the machine will automatically perform the upgrade.
-## Boot media
+RK182X Developer Kit loads the system from the following media:
 
 * eMMC interface
 * SDMMC interface
 
-## Boot mode
+## Boot Modes
 
-RK182X Developer Kit has three startup modes:
+RK182X Developer Kit has two boot modes:
 
 * Normal mode
-* Loader mode
 * MaskRom mode
 
+### Normal Mode
 
-### Normal mode
-
-Normal mode is the Normal startup process. Each component loads in turn and enters the system normally.
+Normal mode is the regular startup process. Each component loads in sequence and the system starts normally.
 
 
-### Loader mode
+### MaskRom Mode
 
-In Loader mode, the bootloader will enter the upgrade state, waiting for the host command for firmware upgrade, etc.
+MaskRom mode is used to write firmware or repair the system when the bootloader is damaged. For this development kit, USB firmware upgrade always uses the board's `MaskRom` key.
 
-### MaskRom mode
-
-MaskRom mode is used for system repair when the bootloader is damaged.
-
-Under normal circumstances, it is not necessary to enter `MaskRom mode`. Only when the bootloader verification fails (IDB block cannot be read, or the bootloader is damaged), the BootRom code will enter `MaskRom mode`. At this time, the BootRom code waits for the host to transmit the bootloader code through the USB interface, load and run it.
-
-***Forcibly enter `MaskRom mode`, please refer to the chapter [MaskRom Mode](upgrade_maskrom_mode_rockchip.md).***
+For the hardware operation, see [MaskRom mode](upgrade_maskrom_mode_rockchip.md).

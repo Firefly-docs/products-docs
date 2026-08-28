@@ -31,15 +31,15 @@
 | IO5 | 128 | OUTPUT(relay) |
 
 ## Use
-For example, to operate `486`, you need:
+For example, to operate `IO1` on the Core-3588JD4 main module (`GPIO 36`), you need:
 
 1. Export the GPIO, run as root user:
     ```
-    echo 486 > /sys/class/gpio/export
+    echo 36 > /sys/class/gpio/export
     ```
 2. Operate GPIO, set to read input or output specified value:
     ```
-    cd /sys/class/gpio/gpio486
+    cd /sys/class/gpio/gpio36
     # set input mode
     echo in > direction
     cat value

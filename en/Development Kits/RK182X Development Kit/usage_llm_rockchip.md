@@ -1,6 +1,7 @@
-# Large Language Model
+# RK3588/RK3588S/RK3576 - Large Language Model
+> **Scope:** This guide applies to the RK3588/RK3588S/RK3576 main modules installed on the RK182X development kit. RK1820/RK1828-specific AI development is documented separately.
 ## 1.RKLLM Introduction
-The RKLLM SDK helps users quickly deploy large language models onto RK182X开发套件.
+The RKLLM SDK helps users quickly deploy large language models onto the RK3588/RK3588S/RK3576 main modules.
 [SDK Download](https://github.com/airockchip/rknn-llm)
 
 ### 1.1 RKLLM-Toolkit Functions Introduction
@@ -9,7 +10,7 @@ The RKLLM-Toolkit is a development suite designed for users to perform quantizat
 * Quantization: Supports quantizing floating-point models to fixed-point models. Currently supported quantization types include w4a16 and w8a8.
 
 ### 1.2 RKLLM Runtime Functions Introduction
-The RKLLM Runtime is primarily responsible for loading RKLLM models converted using the RKLLM-Toolkit and performing inference on the Rockchip NPU by invoking the NPU driver on the RK182X开发套件 board. During the inference of RKLLM models, users can customize the inference parameters, define various text generation methods, and continuously receive inference results through predefined callback functions.
+The RKLLM Runtime is primarily responsible for loading RKLLM models converted using the RKLLM-Toolkit and performing inference on the Rockchip NPU of the RK3588/RK3588S/RK3576 main modules. During inference, users can customize the inference parameters, define different text generation methods, and continuously receive inference results through predefined callback functions.
 
 ## 2.RKLLM-Toolkit Installation
 The RKLLM-Toolkit is currently only available for Linux PC, with `Ubuntu 20.04(x64)` recommended. Since multiple versions of Python environments might be present on the system, it is advisable to use miniforge3 to manage Python environments.
@@ -93,7 +94,7 @@ INFO: Exporting the model, please wait ....
 [=================================================>] 597/597 (100%)
 INFO: Model has been saved to ./DeepSeek-R1-Distill-Qwen-1.5B_W8A8_RK3588.rkllm!
 ```
-#### 3.1.2 Deploy And Run The RKLLM Model On RK182X开发套件.
+#### 3.1.2 Deploy And Run The RKLLM Model On The RK3588/RK3588S/RK3576 Main Module.
 
 ##### 3.1.2.1 Kernel Requirements
 Before performing model inference with RKLLM Runtime, you must first verify that the NPU kernel on the board is version `v0.9.8` or higher.
@@ -113,7 +114,7 @@ chmod +x ./build-linux.sh
 # Compilation
 ./build-linux.sh
 ```
-##### 3.1.2.3 Running Inference On RK182X开发套件
+##### 3.1.2.3 Running Inference On The RK3588/RK3588S/RK3576 Main Module
 After compiling, generate the executable program `install/demo_Linux_aarch64/llm_demo`. Transfer the compiled `llm_demo` executable and the library file `rkllm-runtime/runtime/Linux/librkllm_api/aarch64/librkllmrt.so` and fixed frequency script `rknn-llm/scripts/fix_freq_rk3588.sh` to the board using `scp` command.
 ```
 firefly@firefly:~$ ./fix_freq_rk3588.sh

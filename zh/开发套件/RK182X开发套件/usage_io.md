@@ -32,14 +32,14 @@
 
 
 ## 使用 
-比如要操作GPIO编号是 470
+比如要操作 Core-3588JD4 主模组的 IO1（GPIO 编号为 `36`）
 1. 导出该 GPIO, 以 root 用户运行:
     ```
-    echo 470 > /sys/class/gpio/export
+     echo 36 > /sys/class/gpio/export
     ```
 2. 操作 GPIO，设定读取输入或输出指定值：
     ```
-    cd /sys/class/gpio/gpio470
+     cd /sys/class/gpio/gpio36
     # 设置输入模式
     echo in > direction
     cat value

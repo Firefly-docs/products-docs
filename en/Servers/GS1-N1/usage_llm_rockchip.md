@@ -1,17 +1,18 @@
 # Large Language Model
-## 1.RKLLM Introduction
+
+### 1.RKLLM Introduction
 The RKLLM SDK helps users quickly deploy large language models onto GS1-N1.
 [SDK Download](https://github.com/airockchip/rknn-llm)
 
-### 1.1 RKLLM-Toolkit Functions Introduction
+#### 1.1 RKLLM-Toolkit Functions Introduction
 The RKLLM-Toolkit is a development suite designed for users to perform quantization and conversion of large language models on their computers. Through the Python interface provided by this tool, users can conveniently achieve the following functions:
 * Model Conversion: Supports converting large language models in Hugging Face format to RKLLM models. The converted RKLLM models can be loaded and used on the Rockchip NPU platform.
 * Quantization: Supports quantizing floating-point models to fixed-point models. Currently supported quantization types include w4a16 and w8a8.
 
-### 1.2 RKLLM Runtime Functions Introduction
+#### 1.2 RKLLM Runtime Functions Introduction
 The RKLLM Runtime is primarily responsible for loading RKLLM models converted using the RKLLM-Toolkit and performing inference on the Rockchip NPU by invoking the NPU driver on the GS1-N1 board. During the inference of RKLLM models, users can customize the inference parameters, define various text generation methods, and continuously receive inference results through predefined callback functions.
 
-## 2.RKLLM-Toolkit Installation
+### 2.RKLLM-Toolkit Installation
 The RKLLM-Toolkit is currently only available for Linux PC, with `Ubuntu 20.04(x64)` recommended. Since multiple versions of Python environments might be present on the system, it is advisable to use miniforge3 to manage Python environments.
 ```
 # Check if miniforge3 and conda are installed, and if they are, you can skip this section.
@@ -35,7 +36,7 @@ If the following command executes without errors, the installation was successfu
 python
 from rkllm.api import RKLLM
 ```
-## 3.Large Language Model Deployment Example
+### 3.Large Language Model Deployment Example
 
 The large language models supported by RKLLM are as follows:
 
@@ -54,9 +55,9 @@ The large language models supported by RKLLM are as follows:
 | Qwen2-VL            | [LINK](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct)                                               |
 | MiniCPM-V           | [LINK](https://huggingface.co/openbmb/MiniCPM-V-2_6)                                                   |
 
-### 3.1 Large Language Model Conversion And Execution Demo
+#### 3.1 Large Language Model Conversion And Execution Demo
 Below is an example demonstrating how to convert, quantize, export a large language model, and finally deploy and run it on the board, using the `DeepSeek-R1-Distill-Qwen-1.5B_Demo` provided by the RKLLM SDK.
-#### 3.1.1 Convert The Model On The PC
+##### 3.1.1 Convert The Model On The PC
 Using DeepSeek-R1-Distill-Qwen-1.5B as an example, click the table link and find the corresponding repository to clone the [complete repository](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B/tree/main).
 
 With RKLLM-Toolkit properly installed, activate the Conda base environment and execute `generate_data_quant.py`. This will generation results as the quantization calibration data.
@@ -93,9 +94,9 @@ INFO: Exporting the model, please wait ....
 [=================================================>] 597/597 (100%)
 INFO: Model has been saved to ./DeepSeek-R1-Distill-Qwen-1.5B_W8A8_RK3588.rkllm!
 ```
-#### 3.1.2 Deploy And Run The RKLLM Model On GS1-N1.
+##### 3.1.2 Deploy And Run The RKLLM Model On GS1-N1.
 
-##### 3.1.2.1 Kernel Requirements
+###### 3.1.2.1 Kernel Requirements
 Before performing model inference with RKLLM Runtime, you must first verify that the NPU kernel on the board is version `v0.9.8` or higher.
 ```
 root@firefly:/# cat /sys/kernel/debug/rknpu/version
@@ -113,7 +114,7 @@ chmod +x ./build-linux.sh
 # Compilation
 ./build-linux.sh
 ```
-##### 3.1.2.3 Running Inference On GS1-N1
+###### 3.1.2.3 Running Inference On GS1-N1
 After compiling, generate the executable program `install/demo_Linux_aarch64/llm_demo`. Transfer the compiled `llm_demo` executable and the library file `rkllm-runtime/runtime/Linux/librkllm_api/aarch64/librkllmrt.so` and fixed frequency script `rknn-llm/scripts/fix_freq_rk3588.sh` to the board using `scp` command.
 ```
 firefly@firefly:~$ ./fix_freq_rk3588.sh
@@ -141,10 +142,10 @@ Greetings! I'm DeepSeek-R1, an artificial intelligence assistant created by Deep
 
 user: 
 ```
-## 4.Others
+### 4.Others
 For more demo and api usage, refer to RKLLM SDK routines and documentation
 
-## 5.FAQs
+### 5.FAQs
 
 **Q1: Failed to convert model?**
 

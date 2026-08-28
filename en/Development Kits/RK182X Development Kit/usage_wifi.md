@@ -1,6 +1,6 @@
 # WIFI
 
-RK182X开发套件 supports wireless WIFI, and the default name of the network card in the system is `wlanx` or `wlPxp1s0` (depending on different wifi modules). Taking wlan0 as an example:
+RK182X Developer Kit supports wireless WIFI, and the default name of the network card in the system is `wlanx` or `wlPxp1s0` (depending on different wifi modules). Taking wlan0 as an example:
 
 ```shell
 # ifconfig wlan0
@@ -67,8 +67,9 @@ described as follows:
 - `password`: the password of the created AP hotspot, defined here as `12345678`
 - `channel`: the pass through of the created AP hotspot, defined as `5` here
 
-After creating a wireless AP hotspot, if you want to turn on/off the WIFI hotspot:
+After creating a wireless AP hotspot, use the following commands to turn the hotspot on or off:
 
 ```shell
-sudo nmcli connection up [down] my-hostapt
+sudo nmcli connection up my-hostapt
+sudo nmcli connection down my-hostapt
 ```

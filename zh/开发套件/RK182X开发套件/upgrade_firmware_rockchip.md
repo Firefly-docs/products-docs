@@ -1,61 +1,57 @@
-# 使用USB线缆升级固件
+# 使用 USB 线升级固件
 
-* 拨码开关 `USB SEL` 拨到 `1`
+本文包含完整的 USB 固件升级流程，所有步骤都可以在本页完成，无需再打开其他指南。
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_sel.png)
+## 1. 准备固件和烧写工具
 
+### 准备设备
 
-* OTG 口 
-
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png)
-
-## 前言
-
-本文介绍了如何将主机上的固件，通过Type-A 数据线烧录到 AIO-GS1N2-RK182X 开发板的存储器中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
-
-## 准备工具
 * RK182X开发套件 开发板
 * [固件](https://community.t-firefly.com/doc/download/369)
-* 主机
-* 良好的Type-A 数据线
+* 主机电脑
+* Type-A 数据线
 
-## 准备固件
-固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/369)处下载公版固件（统一固件）。固件文件一般有两种：
+固件可以通过编译 SDK 获得，也可以从[资源下载页面](https://community.t-firefly.com/doc/download/369)下载公版统一固件。
 
-* 单个统一固件
+### 固件格式
 
-    统一固件是由分区表、bootloader、uboot、kernel、system等所有文件打包合并成的单个文件。Firefly正式发布的固件都是采用统一固件格式，升级统一固件将会更新主板上所有分区的数据和分区表，并且擦除主板上所有数据。
+固件文件一般有以下两种格式：
 
-* 多个分区镜像
+* **单个统一固件**：将分区表、bootloader、uboot、kernel、system 等分区文件打包成一个文件。烧写后会更新主板上的全部分区，并擦除主板原有数据。
+* **多个分区镜像**：开发阶段生成的分区表、bootloader、kernel 等独立文件。烧写单个镜像只会更新对应分区，适合开发调试。
 
-    即各个功能独立的文件，如分区表、bootloader、kernel等，在开发阶段生成。独立分区镜像可以只更新指定的分区，而保持其它分区数据不被破坏，在开发过程中会很方便调试。
+> 通过统一固件打包工具，可以将统一固件解包为多个分区镜像，也可以将多个分区镜像合并为统一固件。
 
->    通过统一固件解包/打包工具，可以把统一固件解包为多个分区镜像，也可以将多个分区镜像合并为一个统一固件。
+### 安装烧写工具
 
+#### Windows
 
-
-## 安装烧写工具
-### Windows操作系统
-* 安装RK USB驱动
-
-下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/369)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
-<center>
+1. 下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/369)，解压后运行 `DriverInstall.exe`。
+2. 为确保所有设备使用更新后的驱动，请先选择“驱动卸载”，再选择“驱动安装”。
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_install_rk_usb.jpg)
-</center>
 
+3. 可以单独下载 [AndroidTool](https://community.t-firefly.com/doc/download/369)，解压后运行 `RKDevTool_Release_v2.xx` 目录中的 `RKDevTool.exe`。如果使用 Windows 7/8，请以管理员身份运行。
 
-* 运行AndroidTool的RKDevTool.exe
+为避免烧写工具版本导致烧写失败，建议优先使用公版固件压缩包中自带的工具：
 
-
+```
+ITX-3588J_Android12_HDMI_220308
+├── ITX-3588J_Android12_HDMI_220308.img
+├── linux
+│   └── Linux_Upgrade_Tool_v1.65.zip
+└── windows
+    ├── DriverAssitant_v5.1.1.zip
+    └── RKDevTool_Release_v2.84.zip
+```
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
 
-### Linux操作系统
-Linux 下无须安装设备驱动
-* [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/369)工具
+#### Linux
 
-下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/369), 并按以下方法安装到系统中，方便调用：
+Linux 下无需安装设备驱动。
+
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/369)，并安装到系统中：
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -65,149 +61,120 @@ sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
-
-* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/369)工具
-
-下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/369), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/369)，并安装到系统中：
 
 ```
 sudo mv adb /usr/local/bin
 sudo chown root:root /usr/local/bin/adb
 sudo chmod a+x /usr/local/bin/adb
-```
-```
+
 sudo mv fastboot /usr/local/bin
 sudo chown root:root /usr/local/bin/fastboot
 sudo chmod a+x /usr/local/bin/fastboot
 ```
 
+## 2. 进入并检查 MaskRom 模式
 
-## 进入升级模式
-通常我们升级固件的模式有两种，分别是Loader模式和MaskRom模式。烧写固件前，我们需要连接好设备，并让板子进入到可升级模式。
+RK182X 开发套件不支持 Loader 模式。通过 USB 升级固件时，需要使用主板上的 `MaskRom` 按键。
 
-### Loader模式
+### 进入 MaskRom 模式
 
+1. 断开开发套件电源。
+2. 将拨码开关 `USB SEL` 切换到 `1`。
+3. 使用 Type-A 数据线连接 OTG 接口和主机电脑。
+4. 按住主板上的 `MaskRom` 按键。
+5. 保持按键按下，同时给开发套件上电。
+6. 使用烧写工具检查是否发现 MaskRom 设备。
+7. 设备被识别后，松开按键。
 
-#### 软件方式进入Loader模式
-Type-A 数据线接好后在串口调试终端给板子运行以下命令
+![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_sel.png)
+
+![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png)
+
+![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+
+### 检查 MaskRom 模式
+
+#### Windows
+
+AndroidTool 的设备列表中应显示 MaskRom 设备。如果没有识别，请检查 USB 驱动、Type-A 数据线、`USB SEL` 拨码开关和 OTG 连接。
+
+#### Linux
+
+运行 `upgrade_tool`，检查连接设备是否显示为 MaskRom：
 
 ```shell
-reboot loader
+sudo upgrade_tool
 ```
 
-#### 查看Loader模式
-如何确定板子是否进入Loader模式，我们可以通过工具去查看
+## 3. 烧写固件
 
-**Windows操作系统**
+### Windows
 
-通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
-![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+#### 烧写统一固件 `update.img`
 
-如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](upgrade_firmware_rockchip.html#windows-cao-zuo-xi-tong)。
-
-![](../../../gs1-n2_img/common/upgrade_firmware_new_equipment.jpg)
-
-**Linux操作系统**
-
-运行upgrade_tool后可以看到连接设备中有个`Loader`的提示
-
-```shell
-firefly@T-chip:~/severdir/down_firmware$ sudo upgrade_tool
-List of rockusb connected
-DevNo=1 Vid=0x2207,Pid=0x330c,LocationID=106    Loader
-Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
-```
-
-### MaskRom模式
-进入MaskRom模式的方法，请参考[《MaskRom模式》](upgrade_maskrom_mode_rockchip.md)
-
-
-## 烧写固件
-### windows操作系统
-
-#### 烧写统一固件 update.img
-
-烧写统一固件 update.img 的步骤如下:
-
-1. 切换至`Upgrade Firmware`页。
-2. 按`Firmware`按钮，打开要升级的固件文件。升级工具会显示详细的固件信息。
-3. 按`Upgrade`按钮开始升级。
-4. <font color=#ff0000 >如果升级失败，可以尝试先按`EraseFlash `按钮来擦除 Flash，然后再升级。</font>
+1. 切换到 **Upgrade Firmware** 页面。
+2. 点击 **Firmware**，打开待烧写的固件文件。
+3. 点击 **Upgrade** 开始烧写。
+4. 如果升级失败，可以先点击 **EraseFlash** 擦除 Flash，再重新升级。
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_erase_flash_zh.png)
 
-#### 烧写分区映像
-烧写分区映像的步骤如下：
+#### 烧写分区镜像
 
-1. 切换至`Upgrade Firmware`页。
-2. 勾选需要烧录的分区，可以多选。
-3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
-4. 点击`Run`按钮开始升级，升级结束后设备会自动重启。
+1. 切换到 **Download Image** 页面。
+2. 勾选需要烧写的分区。
+3. 确认每个镜像文件的路径正确。
+4. 点击 **Run** 开始升级，升级结束后设备会自动重启。
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
 
-### Linux操作系统
+### Linux
 
-#### 烧写统一固件 update.img
+#### 烧写统一固件 `update.img`
 
-```
+```shell
 sudo upgrade_tool uf update.img
 ```
 
-<font color=#ff0000 >如果升级失败，可以尝试先擦除后再升级。 </font>
+如果升级失败，可以先擦除 Flash，再重新烧写：
 
-```
-# 擦除 flash 使用 ef 参数需要指定 loader 文件或者对应的 update.img
-sudo upgrade_tool ef update.img   #update.img :你需要烧写的 Ubuntu 固件
-# 重新烧写
+```shell
+# ef 参数需要指定 bootloader 文件或对应的 update.img。
+sudo upgrade_tool ef update.img
 sudo upgrade_tool uf update.img
 ```
 
 #### 烧写分区镜像
 
-```
+```shell
 sudo upgrade_tool di -b /path/to/boot.img
 sudo upgrade_tool di -r /path/to/recovery.img
 sudo upgrade_tool di -m /path/to/misc.img
 sudo upgrade_tool di -u /path/to/uboot.img
 sudo upgrade_tool di -dtbo /path/to/dtbo.img
-sudo upgrade_tool di -p paramater   #烧写 parameter
-sudo upgrade_tool ul bootloader.bin # 烧写 bootloader
+sudo upgrade_tool di -p parameter
+sudo upgrade_tool ul bootloader.bin
 ```
 
+如果因 Flash 问题导致升级失败，可以尝试低级格式化并擦除 eMMC：
 
-如果因 flash 问题导致升级时出错，可以尝试低级格式化、擦除 emmc：
+```shell
+sudo upgrade_tool lf update.img
+sudo upgrade_tool ef update.img
 ```
-sudo upgrade_tool lf update.img	# 低级格式化
-sudo upgrade_tool ef update.img	# 擦除
-```
 
+#### Fastboot 烧写动态分区
 
-fastboot 烧写动态分区
-
-```
-adb reboot fastboot # 进入bootloader
+```shell
+adb reboot fastboot
 sudo fastboot flash vendor vendor.img
 sudo fastboot flash system system.img
-sudo fastboot reboot # 烧写成功后,重启
+sudo fastboot reboot
 ```
 
+## 烧写失败排查
 
+如果烧写过程中出现 `Download Boot Fail` 或其他错误，请先检查 USB 线缆和电脑 USB 接口。线材质量差或 USB 接口供电能力不足都可能导致烧写失败。
 
-## 常见问题
-### 1. 如何强行进入 MaskRom 模式
-
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom模式》](upgrade_maskrom_mode_rockchip.md)。
-
-
-### 2. 烧写失败分析
-
-如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 ![](../../../gs1-n2_img/common/upgrade_firmware_download_fail.png)
-
-
-[Androidtool_xxx(版本号)]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.
-[AndroidTool]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.html
-[Release_DriverAssistant.zip]: http://www.t-firefly.com/share/index/index/id/1f98ebd663ed09a32e9ebf3fa893dfc0.html
-[Linux_Upgrade_Tool]: http://www.t-firefly.com/share/index/index/id/f756718dd2bbf82eb405926549e75ef3.html
-[Linux_adb_fastboot]: http://www.t-firefly.com/share/index/index/id/c64b7d743d9368de521a6ced87813dc5.html

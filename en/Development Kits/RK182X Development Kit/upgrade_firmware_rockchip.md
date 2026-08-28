@@ -1,56 +1,39 @@
-# Upgrade the firmware via USB cable
+# Upgrade Firmware via USB Cable
 
-* set `USB SEL` to `1`
+This page contains the complete USB firmware upgrade procedure. All steps can be completed on this page without opening another guide.
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_sel.png)
+## 1. Prepare the Firmware and Upgrade Tools
 
-
-* OTG 
-
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png)
-
-
-## Introduction
-
-This article describes how to upgrade the firmware file on the host to the flash memory of the development board through the Type-A Cable. When upgrading, you need to choose the appropriate upgrade mode according to the host operating system and firmware type.
-
-## Preparatory Tools
+### Required Equipment
 
 * RK182X Developer Kit development board
 * [Firmware](https://community.t-firefly.com/en/doc/download/369)
-* host computer
+* Host computer
 * Type-A Cable
 
-## Prepare Firmware
+The firmware can be obtained by compiling the SDK or downloaded as public unified firmware from the [resource download page](https://community.t-firefly.com/en/doc/download/369).
 
-The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/369). There are two types of firmware files:
+### Firmware Formats
 
-* A single unified firmware
+There are two types of firmware files:
 
-	The unified firmware is a single file packaged and merged by all files such as the partition table, bootloader, uboot, kernel, system and so on. The firmware officially released by Firefly adopts a unified firmware format. Upgrading the unified firmware will update the data and partition table of all partitions on the motherboard, and erase all data on the motherboard.
+* **A single unified firmware**: a single file containing the partition table, bootloader, uboot, kernel, system, and other partitions. Upgrading it updates all partition data and erases the existing data on the board.
+* **Multiple partition images**: independent files such as the partition table, bootloader, and kernel. An individual image updates only its corresponding partition, which is useful during development.
 
-* Multiple partition images
+> The unified firmware packing tool can unpack a unified firmware into partition images or merge partition images into a unified firmware.
 
-	That is, files with independent functions, such as partition table, bootloader, and kernel, are generated during the development phase. The independent partition image can only update the specified partition, while keeping other partition data from being destroyed, it will be very convenient to debug during the development process.
+### Install the Upgrade Tool
 
->    Through the unified firmware unpacking / packing tool, the unified firmware can be unpacked into multiple partition images, or multiple partition images can be merged into a unified firmware.
+#### Windows
 
-## Install the Upgrade Tool
-### Windows Operating System
-
-* Install RK USB driver
-
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/369), extract, and then run the DriverInstall.exe inside . 
-In order for all devices to use the updated driver, first select Driver uninstall(驱动卸载) and then select Driver install(驱动安装).
-
-<center>
+1. Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/369), extract it, and run `DriverInstall.exe`.
+2. Select **Driver uninstall** first, then select **Driver install** so all devices use the updated driver.
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_install_rk_usb.jpg)
-</center>
 
-* Run AndroidTool's RKDevTool.exe
+3. Download [AndroidTool](https://community.t-firefly.com/en/doc/download/369) separately, extract it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory. On Windows 7/8, run it as administrator.
 
-In order to avoid the burning problem caused by the Androidtool_xxx version, it is recommended to use the tool packaged inside the public firmware package for burning. After decompressing the public firmware package, it is as follows: 
+To avoid version-related burning problems, use the tool packaged inside the public firmware package when possible:
 
 ```
 ITX-3588J_Android12_HDMI_220308
@@ -62,17 +45,13 @@ ITX-3588J_Android12_HDMI_220308
     └── RKDevTool_Release_v2.84.zip
 ```
 
-You can also download [AndroidTool](https://community.t-firefly.com/en/doc/download/369) separately, unzip it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory (note that if you are running Windows 7/8, you need to right-click and select Run as administrator), as shown below:
-
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
 
-### Linux Operating System
+#### Linux
 
-There is no need to install device driver under Linux.
+Linux does not require a device driver.
 
-* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/369)
-
-Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/369), And install it into the system as follows for easy invocation:
+Install [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/369) so it can be called from any directory:
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -82,162 +61,120 @@ sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
-* [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/369)
-
-Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/369), And install it into the system as follows for easy invocation:
+Install [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/369):
 
 ```
 sudo mv adb /usr/local/bin
 sudo chown root:root /usr/local/bin/adb
 sudo chmod a+x /usr/local/bin/adb
-```
 
-```
 sudo mv fastboot /usr/local/bin
 sudo chown root:root /usr/local/bin/fastboot
 sudo chmod a+x /usr/local/bin/fastboot
 ```
 
-## Enter Upgrade mode
+## 2. Enter and Check MaskRom Mode
 
-Usually we upgrade firmware in two modes, namely `Loader` mode and `MaskRom` mode. Before we can write the firmware, we need to connect the device and put the board into upgradable mode.
+The RK182X development kit does not provide a Loader mode. USB firmware upgrades use the board's `MaskRom` key.
 
-### Loader mode
+### Enter MaskRom Mode
 
+1. Disconnect the development kit from the power supply.
+2. Set the `USB SEL` switch to `1`.
+3. Connect the OTG port to the host computer with a Type-A data cable.
+4. Press and hold the board's `MaskRom` key.
+5. Power on the development kit while holding the key.
+6. Check the upgrade tool for a MaskRom device.
+7. Release the key after the device is detected.
 
-#### Hardware way into Loader mode
+![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_sel.png)
 
-Connect the device and press the **RECOVERY** button to enter the Loader mode. The steps are as follows:
+![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png)
 
-1. Set the `USB SEL` switch to `1`.
-2. Connect the device's OTG port to the host with a Type-A data cable.
-3. Run `reboot loader` from the serial console.
-4. Verify that the upgrade tool detects a Loader device.
-#### Software way into Loader mode
-Type-A Cable is connected, use the command in the serial debugging terminal:
+![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+
+### Check MaskRom Mode
+
+#### Windows
+
+AndroidTool should display a MaskRom device in the device list. If the device is not detected, check the USB driver, the Type-A data cable, the `USB SEL` switch, and the OTG connection.
+
+#### Linux
+
+Run `upgrade_tool` and check whether the connected device is listed as MaskRom:
 
 ```shell
-reboot loader
+sudo upgrade_tool
 ```
 
-#### Check the Loader mode
+## 3. Write the Firmware
 
-How to determine whether the board is in Loader mode, we can check through the tool
+### Windows
 
-**Windows Operating System**
+#### Write a Unified Firmware - `update.img`
 
-The AndroidTool displays the prompt Found One LOADER Device at the bottom
-
-![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
-
-if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](upgrade_firmware_rockchip.html#install-the-upgrade-tool).
-
-![](../../../gs1-n2_img/common/upgrade_firmware_new_equipment.jpg)
-
-**Linux Operating System**
-
-After running upgrade_tool, you can see a Loader prompt in the connected device:
-
-```
-firefly@T-chip:~/severdir/down_firmware$ sudo upgrade_tool
-List of rockusb connected
-DevNo=1 Vid=0x2207,Pid=0x330c,LocationID=106    Loader
-Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
-```
-
-### MaskRom mode
-
-To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode_rockchip.md).
-
-## Upgrade the firmware
-### Windows Operating System
-#### Upgrade unified firmware - update.img
-
-The steps to update the unified firmware `update.img` are as follows:
-
-1. Switch to the `Upgrade Firmware` page.
-2. Press the `Firmware` button to open the firmware file to be upgraded. The upgrade tool displays detailed firmware information.
-3. Press the `Upgrade` button to start the upgrade.
-4. <font color=#ff0000 >If the upgrade fails, you can try to erase the Flash by pressing the `EraseFlash` button first, and then upgrade. </font>
+1. Switch to the **Upgrade Firmware** page.
+2. Click **Firmware** and open the firmware file.
+3. Click **Upgrade** to start writing.
+4. If the upgrade fails, click **EraseFlash** first and then upgrade again.
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_erase_flash_zh.png)
 
-#### Upgrade Partition image
+#### Write Partition Images
 
-The steps to upgrade the partition image are as follows:
-1. Switch to the `Download Image` page.
-
-2. Check the partition to be burned, and select multiple.
-
-3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
-
-4. Click `Run` button to start the upgrade, and the device will restart automatically after the upgrade.
+1. Switch to the **Download Image** page.
+2. Select the partitions to write.
+3. Confirm that each image path is correct.
+4. Click **Run**. The device restarts automatically after the upgrade.
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
 
+### Linux
 
-### Linux Operating System
-#### Upgrade unified firmware - update.img
+#### Write a Unified Firmware - `update.img`
 
-```
+```shell
 sudo upgrade_tool uf update.img
 ```
 
-If the upgrade fails, try erasing before upgrading. 
+If the upgrade fails, erase the flash and try again:
 
-```
-# erase flash : Using the ef parameter requires the loader file or the corresponding update.img to be specified.
-# update.img :The ubuntu firmware you need to upgrade.
+```shell
+# The ef parameter requires a bootloader file or the corresponding update.img.
 sudo upgrade_tool ef update.img
-# upgrade again
 sudo upgrade_tool uf update.img
 ```
 
-#### Upgrade Partition image
+#### Write Partition Images
 
-```
+```shell
 sudo upgrade_tool di -b /path/to/boot.img
 sudo upgrade_tool di -r /path/to/recovery.img
 sudo upgrade_tool di -m /path/to/misc.img
 sudo upgrade_tool di -u /path/to/uboot.img
 sudo upgrade_tool di -dtbo /path/to/dtbo.img
-sudo upgrade_tool di -p paramater   #upgrade parameter
-sudo upgrade_tool ul bootloader.bin #upgrade bootloader
+sudo upgrade_tool di -p parameter
+sudo upgrade_tool ul bootloader.bin
 ```
 
-If the upgrade fails due to flash problems, you can try low-level formatting and erase nand flash:
+If the upgrade fails because of flash errors, try low-level formatting and erasing the eMMC:
 
-```
-sudo upgrade_tool lf update.img	# low-level formatting
-sudo upgrade_tool ef update.img	# erase
+```shell
+sudo upgrade_tool lf update.img
+sudo upgrade_tool ef update.img
 ```
 
-fastboot Burn dynamic partitions:
+#### Fastboot Dynamic Partitions
 
-```
-adb reboot fastboot # enter bootloader
+```shell
+adb reboot fastboot
 sudo fastboot flash vendor vendor.img
 sudo fastboot flash system system.img
-sudo fastboot reboot # After the burn is successful, restart
+sudo fastboot reboot
 ```
 
+## Upgrade Failure
 
-## FAQs
-
-### 1. How to forcibly enter MaskRom mode
-
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode_rockchip.md).
-
-
-### 2. Analysis of programming failure
-
-If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
+If `Download Boot Fail` or another error appears during the upgrade, check the USB cable and the computer USB port first. Poor-quality cables and insufficient USB power can cause the failure.
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_download_fail.png)
-
-[烧写须知]: 02-upgrade_table.md
-[AIO-GS1N2-RK182X firmware]: https://community.t-firefly.com/en/doc/download/369
-[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/369#windows_12
-[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/369#windows_341
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/369#linux_12
-[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/369#linux_12

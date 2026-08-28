@@ -14,6 +14,6 @@
 - [NVIDIA 平台](ai_nvidia.md)
 - [SOPHGO 平台](ai_sophgo.md)
 # FAQs
-- [faqs](faqs.md)
+- [常见问题](faqs.md)
 # 更新固件
-- [upgrade_rockchip](upgrade_rockchip.md)
+- [ROCKCHIP 平台 ](upgrade_rockchip.md)

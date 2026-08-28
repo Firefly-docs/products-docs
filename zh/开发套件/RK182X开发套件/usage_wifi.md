@@ -72,8 +72,9 @@ sudo nmcli device wifi hotspot ifname wlan0 con-name my-hostapt ssid zouxftest7 
 - `password`：创建的 AP 热点的密码，这里定义为 `12345678`
 - `channel`：创建的 AP 热点的通过，这里定义为 `5`
 
-在创建了无线 AP 热点以后，如果要打开/关闭 WIFI 热点：
+创建无线 AP 热点后，可以使用以下命令打开或关闭 WIFI 热点：
 
 ```shell
-sudo nmcli connection up[down] my-hostapt
+sudo nmcli connection up my-hostapt
+sudo nmcli connection down my-hostapt
 ```

@@ -13,6 +13,6 @@
 - [ROCKCHIP ](ai_rockchip.md)
 - [NVIDIA ](ai_nvidia.md)
 # FAQs
-- [faqs](faqs.md)
+- [FAQs](faqs.md)
 # Upgrade Firmware
-- [upgrade_rockchip](upgrade_rockchip.md)
+- [ROCKCHIP ](upgrade_rockchip.md)

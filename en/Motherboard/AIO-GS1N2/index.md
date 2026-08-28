@@ -14,6 +14,6 @@
 - [NVIDIA ](ai_nvidia.md)
 - [SOPHGO ](ai_sophgo.md)
 # FAQs
-- [faqs](faqs.md)
+- [FAQs](faqs.md)
 # Upgrade Firmware
-- [upgrade_rockchip](upgrade_rockchip.md)
+- [ROCKCHIP ](upgrade_rockchip.md)
