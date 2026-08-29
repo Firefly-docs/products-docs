@@ -8,7 +8,7 @@
 - [RTC](usage_rtc.md)
 # 固件升级
 - [介绍](upgrade_bootmode_rockchip.md)
-- [upgrade_firmware](upgrade_firmware.md)
+- [使用USB线缆升级固件](upgrade_firmware.md)
 - [MaskRom模式](upgrade_maskrom_mode_rockchip.md)
 - [使用SD卡升级固件](upgrade_firmware_sd_rockchip.md)
 # NPU使用

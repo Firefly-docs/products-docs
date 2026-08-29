@@ -19,7 +19,7 @@ cloud servers, industrial control, smart vehicles, and more.
 
 ## Product resources
 
-* [[Wiki]](https://wiki.t-firefly.com/en/iCore-3588Q) 
+* [[Wiki]](../../System%20on%20Module/iCore-3588Q/index.md)
 Includes information on Android & Ubuntu driver development (see iCore-3588Q Wiki)
 
 * [[SDK link]](https://community.t-firefly.com/en/doc/download/158) 

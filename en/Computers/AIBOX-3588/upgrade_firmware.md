@@ -93,19 +93,8 @@ sudo chmod a+x /usr/local/bin/fastboot
 Usually we upgrade firmware in two modes, namely `Loader` mode and `MaskRom` mode. Before we can write the firmware, we need to connect the device and put the board into upgradable mode.
 
 ### Loader mode
-#### Hardware way into Loader mode
+AIBOX-3588 only support software way enter the Loader mode.
 
-Connect the device and press the **RECOVERY** button to enter the Loader mode. The steps are as follows:
-
-* Disconnect the power adapter first:
-* Type-C data cable connects one end to the host and the other end to the development board.
-![](../../../aibox_img/ROC-RK3576-PC/upgrade_otg_interface.jpg)
-
-* Press the `RECOVERY` button on the device and hold.
-![](../../../aibox_img/ROC-RK3576-PC/upgrade_recovery_reset.jpg)
-
-* Connect to the power supply.
-* About two seconds later, release the `RECOVERY` button.
 #### Software way into Loader mode
 
 Type-C data cable is connected, use the command in the serial debugging terminal or `adb shell`:
@@ -228,4 +217,3 @@ sudo fastboot reboot # After the burn is successful, restart
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
 ![](../../../aibox_img/AIBOX-3588/upgrade_firmware_download_fail.png)
-
