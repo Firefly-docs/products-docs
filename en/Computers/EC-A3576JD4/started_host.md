@@ -4,29 +4,5 @@
 
 ![](../../../rk3576_img/EC-A3576JD4/ec-a3576jd4-front.png)
 
-# Specification
 
-![](../../../rk3576_img/EC-A3576JD4/ec-a3576jd4-io.png)
-
-![](../../../rk3576_img/EC-A3576JD4/ec-a3576jd4-spec-en.png)
-
-# Size
-
-![](../../../rk3576_img/EC-A3576JD4/ec-a3576jd4-size.png)
-
-# Resources
-
-* [Manual](../../System%20on%20Module/Core-3576JD4/index.md) Includes building instructions, system usage, interfaces usage, etc. (AIO-3576JD4 wiki)
-* [Download Page](https://community.t-firefly.com/en/doc/download/230) Includes firmware, rootfs and tools download links.
-* [Forum](https://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100) Tech communication platform for over 100K company and individual customers.
-
-# Support
-
-Contact E-commerce customer service or post on forum for general supports. Professional tech supports or detail informations please contact us:
-
-* Email: sales@t-firefly.com
-* Mobile: (+86) 186 8811 7175
-* Landline: 0760-89881218
-* Service Hotline: 4001-511-533
-* Address: Room 2101, Hongyu Building, No. 57 Zhongshan 4th Road, East District, Zhongshan City, Guangdong Province
  <a id="firmware-format"></a>

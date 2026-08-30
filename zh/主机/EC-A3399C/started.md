@@ -10,27 +10,5 @@ EC-A3399C 支持 H.265/HEVC、VP9 硬件解码和 H.264 编码，支持 4K HDR �
 
 ![](../../../rk3399_img/EC-A3399C/ec-a3399c_more.png)
 
-# 产品参数
 
-![](../../../rk3399_img/EC-A3399C/ec-a3399c_paramter.png)
-
-# 外壳结构
-
-![](../../../rk3399_img/EC-A3399C/ec-a3399c_paramter2.png)
-
-# 产品资源
-
-* [开发使用文档](../../主板/AIO-3399C/index.md)  
-  Android、Ubuntu、驱动开发及固件编译等资料请参考 AIO-3399C Wiki。
-* [技术交流论坛](http://dev.t-firefly.com/forum.php)
-
-# 联系方式
-
-如需专业技术支持或更详细的产品资料，请联系商务人员。
-
-* 邮箱：sales@t-firefly.com
-* 手机：(+86) 186 8811 7175
-* 座机：0760-89881218
-* 全国服务热线：4001-511-533
-* 地址：广东省中山市东区中山四路 57 号宏宇大厦 2101 室
  <a id="firmware-format"></a>

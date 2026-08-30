@@ -14,33 +14,5 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 
 ![](../../../rk356x_img/Station-P2/station_p2_info2.png)
 
-# Product parameters
-![](../../../rk356x_img/Station-P2/station_p2_en_args.jpg)
 
-# Size
-![](../../../rk356x_img/Station-P2/station_p2_size.jpg)
-
-# SATA install
-![](../../../rk356x_img/Station-P2/station_p2_zh_Install.png)
-
-# Product resources
-* [[Station P2]](https://www.stationpc.com/product/stationP2)StationPC details page
-
-* [[Wiki]](/en/docs/products/motherboard/ROC-RK3568-PC/preface)
-Includes information on Android & Ubuntu driver development (see ROC-3568-PC Wiki)
-
-* [[Station Community]](https://bbs.stationpc.com/forum-82-1.html)Play with StationPC
-
-* [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)
-More than 100,000 corporate customers and users communication platform
-
-# Contact information
-
-General support can consult e-commerce customer service, exchange group questions or post in the forum. For technical support and more details please contact Business
-
-* Email: sales@t-firefly.com
-* Mobile: (+86) 186 8811 7175
-* Landline: 0760-89881218
-* National Service Hotline: 4001-511-533
-* Address: Room 2101, Hongyu Building, No. 57 Zhongshan 4th Road, East District, Zhongshan City, Guangdong Province
  <a id="firmware-format"></a>

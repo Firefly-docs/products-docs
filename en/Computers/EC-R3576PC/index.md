@@ -1,6 +1,6 @@
 # Quick Start
 - [Product Introduction](started.md)
-- [Serial Debug](../../Accessories/USB-TO-TTL-Serial/started.md)
+- [Serial Debug](../../Accessories/USB-TO-TTL-Serial/index.md)
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)
