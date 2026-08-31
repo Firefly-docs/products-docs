@@ -4,7 +4,7 @@
 
 Please contact sales@t-firefly.com to get SDK download link and read the readme file
 
-<font color=red>
+<font color="red">
 
 **Notice:**
 
@@ -15,7 +15,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 **3. Do not place or decompress the SDK archive in Virtual Machine share folder or non-english folder**
 
 **4. Please use the regular user to get/compile the SDK, use root privilege may cause building failure**
-</font>## SDK Introduction
+</font>
+
+## SDK Introduction
 
 ### SDK Structure
 

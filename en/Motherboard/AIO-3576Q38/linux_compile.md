@@ -4,8 +4,6 @@
 
 Please contact sales@t-firefly.com to get SDK download link and read the readme file
 
-<font color=red>
-
 **Notice:**
 
 **1. SDK use cross-compilation, so use SDK in x86_64 PC, do not download SDK to the device**
@@ -15,7 +13,8 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 **3. Do not place or decompress the SDK archive in Virtual Machine share folder or non-english folder**
 
 **4. Please use the regular user to get/compile the SDK, use root privilege may cause building failure**
-</font>## SDK Introduction
+
+## SDK Introduction
 
 ### SDK Structure
 
@@ -215,7 +214,7 @@ The Yocto project provides some images that can be used without layers. The foll
 
 **The process of building with the bitbake command needs to ensure that the network connection is normal. If it is a customer in inland China, you need to ensure that it can ping the external network**
 
-* Enter the directory <path/to/yocto/poky> and execute the following commands in sequence
+* Enter the directory `<path/to/yocto/poky>` and execute the following commands in sequence
 ```bash
 # Install the required environment packages
 # sudo apt install zstd

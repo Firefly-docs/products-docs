@@ -4,7 +4,7 @@
 
 请联系销售(sales@t-firefly.com)获取 SDK 下载链接, 并且阅读下载链接的 readme 文档。
 
-<font color=red>
+<font color="red">
 
 **注意：**
 
@@ -15,7 +15,9 @@
 **3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**
 
 **4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
-</font>## SDK 配置介绍
+</font>
+
+## SDK 配置介绍
 
 ### 目录介绍
 
