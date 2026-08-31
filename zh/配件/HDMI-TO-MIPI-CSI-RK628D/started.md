@@ -1,5 +1,5 @@
 
-# HDMI-TO-MIPI-CSI-RK628D 驱动板
+# HDMI TO MIPI CSI RK628D 驱动板
 
 ## 一、产品介绍
 ### 产品简介
@@ -34,13 +34,12 @@ HDMI TO MIPI CSI驱动板，采用视频桥接芯片RK628D，可实现HDMI视频
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_interface.jpg)
 
 Line Out：将声卡处理后的模拟信号通过此接口输出到音频设备上。
-
 ## 二、使用方法
 
 <!--
 ### 使用说明
 -->
-<font color='red'>主板支持列表详见[固件制作](#gu-jian-zhi-zuo)章节</font>
+<font color='red'>主板支持列表详见[固件制作](#固件制作)章节</font>
 
 ### 硬件连接
 
@@ -77,7 +76,6 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=${WIDT
 
 wait
 ```
-
 ## 三、固件与资料下载
 相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/178)。
 
@@ -87,14 +85,13 @@ wait
 ### 软件工具
 ### 固件下载
 -->
-
 ## 四、入门教程
 ### 固件烧写
 
 | 主控 | USB 线刷 | SD 卡升级 |
 | ---- | ---- | ---- |
 |RK3566|[AIO-3566JD4](../../核心板/Core-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../核心板/Core-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
-|RK3568|[AIO-3568J](../../核心板/Core-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/03-upgrade_firmware.md) | [AIO-3568J](../../核心板/Core-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)| 
+|RK3568|[AIO-3568J](../../核心板/Core-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC%20SE/03-upgrade_firmware.md) | [AIO-3568J](../../核心板/Core-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC%20SE/05-upgrade_firmware_sd.md)| 
 |RK3588|[ITX-3588J](../../核心板/Core-3588J/upgrade_firmware.md), [AIO-3588Q](../../核心板/iCore-3588Q/upgrade_firmware.md) | [ITX-3588J](../../核心板/Core-3588J/upgrade_firmware_sd.md), [AIO-3588Q](../../核心板/iCore-3588Q/upgrade_firmware_sd.md) |
 |RK3588S| [AIO-3588SJD4](../../核心板/Core-3588SJD4/upgrade_firmware.md), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/upgrade_firmware.md),[AIO-3588SG](../../核心板/Core-3588SG/upgrade_firmware.md) | [AIO-3588SJD4](../../核心板/Core-3588SJD4/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/upgrade_firmware_sd.md), [AIO-3588SG](../../核心板/Core-3588SG/upgrade_firmware_sd.md)|
 |RK3576|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/upgrade_firmware.md),[AIO-3576Q](../../核心板/iCore-3576Q/upgrade_firmware.md) | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/upgrade_firmware_sd.md),[AIO-3576Q](../../核心板/iCore-3576Q/upgrade_firmware_sd.md) |
@@ -105,21 +102,21 @@ wait
 
 |  系统   |  板卡型号 | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3566JD4](../../核心板/Core-3566JD4/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi) |
+| Android11.0 | [AIO-3566JD4](../../核心板/Core-3566JD4/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi) |
 | Ubuntu20.04 | [AIO-3566JD4](../../核心板/Core-3566JD4/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian) |
 
 #### RK3568 系列
 
 |  系统   |  板卡型号 | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3568J](../../核心板/Core-3568J/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi) |
-| Ubuntu20.04 | [AIO-3568J](../../核心板/Core-3568J/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian) |
+| Android11.0 | [AIO-3568J](../../核心板/Core-3568J/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC%20SE/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi) |
+| Ubuntu20.04 | [AIO-3568J](../../核心板/Core-3568J/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC%20SE/linux_compile_linux5.10.md#bian-yi-ubuntu-gu-jian) |
 
 #### RK3588 系列
 
 |  系统   |  板卡型号 |
 |  ----  | ----  |
-| Android12.0 | [ITX-3588J](../../核心板/Core-3588J/android_compile_android12.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi), [AIO-3588Q](../../核心板/iCore-3588Q/android_compile_android12.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi) |
+| Android12.0 | [ITX-3588J](../../核心板/Core-3588J/android_compile_android12.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi), [AIO-3588Q](../../核心板/iCore-3588Q/android_compile_android12.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi) |
 | Android14.0 | [ITX-3588J](../../核心板/Core-3588J/android_compile_android14.0_firmware.md#core-3588j-chan-pin-bian-yi-fang-fa), [AIO-3588Q](../../核心板/iCore-3588Q/android_compile_android14.0_firmware.md#icore-3588q-chan-pin-bian-yi-fang-fa)|
 | Linux-kernel6.1 | [ITX-3588J](../../核心板/Core-3588J/linux6.1_compile.md), [AIO-3588Q](../../核心板/iCore-3588Q/linux6.1_compile.md)|
 
@@ -127,7 +124,7 @@ wait
 
 |  系统   |  板卡型号 |
 |  ----  | ----  |
-| Android12.0 | [AIO-3588SJD4](../../核心板/Core-3588SJD4/android_compile_android12.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/android_compile_android12.0_firmware.md#hdmi-to-mipi-csi-rk628d-bian-yi) |
+| Android12.0 | [AIO-3588SJD4](../../核心板/Core-3588SJD4/android_compile_android12.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/android_compile_android12.0_firmware.md#hdmi-to-mipi_csi-rk628d-bian-yi) |
 | Android14.0 | [AIO-3588SJD4](../../核心板/Core-3588SJD4/android_compile_android14.0_firmware.md#core-3588sjd4-chan-pin-bian-yi-fang-fa), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/android_compile_android14.0_firmware.md#roc-rk3588s-pc-chan-pin-bian-yi-fang-fa), [AIO-3588SG](../../核心板/Core-3588SG/android_compile_android14.0_firmware.md#core-3588sg-chan-pin-bian-yi-fang-fa) |
 | Linux-kernel6.1 | [AIO-3588SJD4](../../核心板/Core-3588SJD4/linux6.1_compile.md), [ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/linux6.1_compile.md), [AIO-3588SG](../../核心板/Core-3588SG/linux6.1_compile.md) |
 

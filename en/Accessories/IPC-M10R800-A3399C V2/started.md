@@ -23,7 +23,7 @@ HD image.
 
 ## Product resources
 
-* [[Wiki]](../../Mainboards/AIO-3399C/started.md)
+* [[Wiki]](../../Motherboard/AIO-3399C/started.md)
 Includes information on Android & Ubuntu driver development (see AIO-3399C Wiki)
  
 * [[SDK link]](https://community.t-firefly.com/en/doc/download/175) 
@@ -36,9 +36,9 @@ Linux SDK source code
 More than 100,000 corporate customers and users communication platform
 
 ## Compile
-[[Android 10.1 MIPI complie]](../../Mainboards/AIO-3399C/compile_android7.1_industry_firmware.md#display-dm-m10r800-v2-compile)
+[[Android 10.1 MIPI complie]](../../Motherboard/AIO-3399C/compile_android7.1_industry_firmware.md#display-dm-m10r800-v2-compile)
 
-[[Linux   10.1 MIPI complie]](../../Mainboards/AIO-3399C/linux_compile_gpt.md)
+[[Linux   10.1 MIPI complie]](../../Motherboard/AIO-3399C/linux_compile_gpt.md)
 
 ## Product technical support
 IPC-M10R800-A3399C V2 can realize the different needs of customers in a variety of scenarios. It has been widely used in game equipment, advertising machines, vending machines, robots, etc. The quality and performance have already had a very good reputation in the industry, professional technical team.Solve a variety of problems in hardware design and software functions for our customers.Please contact us for professional technical support and more detailed information.

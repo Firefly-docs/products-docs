@@ -1,10 +1,10 @@
-# HDMI-TO-MIPI-CSI-RK628D Drive Board
+# HDMI TO MIPI CSI RK628D Driver Board
 
 ## 1. Introduction
 ### Product Introduction
-#### HDMI-TO-MIPI-CSI Drive Board
+#### HDMI TO MIPI CSI Driver Board
 
-The HDMI-TO-MIPI-CSI drive board uses the video bridge chip RK628D, which can realize the conversion requirements of HDMI video signal to MIPI CSI signal, greatly simplify the hardware design, improve the hardware design efficiency, and save the overall cost. It can be applied to intelligent micro projector, intelligent display screen, video acquisition and conversion products.
+The HDMI TO MIPI CSI Driver board uses the video bridge chip RK628D, which can realize the conversion requirements of HDMI video signal to MIPI CSI signal, greatly simplify the hardware design, improve the hardware design efficiency, and save the overall cost. It can be applied to intelligent micro projector, intelligent display screen, video acquisition and conversion products.
 
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_front.jpg)
 
@@ -31,7 +31,6 @@ The HDMI-TO-MIPI-CSI drive board uses the video bridge chip RK628D, which can re
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_interface.jpg)
 
 Line Out:  Output the analog signal processed by the sound card to the audio device through this interface.
-
 ## 2. Usage
 
 <font color='red'>See the [Compile the firmware](#compile-the-firmware) section for the embedded board support list.</font>
@@ -44,7 +43,7 @@ Line Out:  Output the analog signal processed by the sound card to the audio dev
 #### RK3399 Series Embedded Board
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection_30p-to-24p.jpg)
 
-<font color='red'>Note:<br />1. Operate this step when the drive board and development board are in power off state to avoid burning them.<br /> 2.If the RK3399 series embedded board has two MIPI CSI interfaces, it is connected to MIPI CSI0 by default.</font>
+<font color='red'>Note:<br />1. Operate this step when the Driver board and development board are in power off state to avoid burning them.<br /> 2.If the RK3399 series embedded board has two MIPI CSI interfaces, it is connected to MIPI CSI0 by default.</font>
 
 ### Android uses HDMI-IN
 
@@ -72,20 +71,18 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=${WIDT
 
 wait
 ```
-
 ## 3. Firmware and Resource Download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/178)
-
 ## 4. Tutorial
 ### Flash firmware
 
 | CPU | USB upgrade | SD upgrade |
 | ---- | ---- | ---- |
-|RK3566|[AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
-|RK3568|[AIO-3568J](../../System%20on%20Module/Core-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/03-upgrade_firmware.md)  | [AIO-3568J](../../System%20on%20Module/Core-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)| 
+|RK3566|[AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
+|RK3568|[AIO-3568J](../../System%20on%20Module/Core-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/03-upgrade_firmware.md)  | [AIO-3568J](../../System%20on%20Module/Core-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/05-upgrade_firmware_sd.md)| 
 |RK3588|[ITX-3588J](../../System%20on%20Module/Core-3588J/upgrade_firmware.md), [AIO-3588Q](../../System%20on%20Module/iCore-3588Q/upgrade_firmware.md)| [ITX-3588J](../../System%20on%20Module/Core-3588J/upgrade_firmware_sd.md), [AIO-3588Q](../../System%20on%20Module/iCore-3588Q/upgrade_firmware_sd.md),[AIO-3588SG](../../System%20on%20Module/Core-3588SG/upgrade_firmware.md) |
-|RK3588S| [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/upgrade_firmware.md), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/upgrade_firmware.md)| [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/upgrade_firmware_sd.md), [AIO-3588SG](../../System%20on%20Module/Core-3588SG/upgrade_firmware_sd.md) |
-|RK3576|[ROC-RK3576-PC](../../Mainboards/ROC-RK3576-PC/upgrade_firmware.md),[AIO-3576Q](../../System%20on%20Module/iCore-3576Q/upgrade_firmware.md) | [ROC-RK3576-PC](../../Mainboards/ROC-RK3576-PC/upgrade_firmware_sd.md),[AIO-3576Q](../../System%20on%20Module/iCore-3576Q/upgrade_firmware_sd.md) |
+|RK3588S| [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/upgrade_firmware.md), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/upgrade_firmware.md)| [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/upgrade_firmware_sd.md), [AIO-3588SG](../../System%20on%20Module/Core-3588SG/upgrade_firmware_sd.md) |
+|RK3576|[ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/upgrade_firmware.md),[AIO-3576Q](../../System%20on%20Module/iCore-3576Q/upgrade_firmware.md) | [ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/upgrade_firmware_sd.md),[AIO-3576Q](../../System%20on%20Module/iCore-3576Q/upgrade_firmware_sd.md) |
 
 
 ### Compile the firmware
@@ -94,21 +91,21 @@ Related documents and firmware download, see the official website [Resource Down
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile) |
-| Ubuntu20.04 | [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Android11.0 | [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile) |
+| Ubuntu20.04 | [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
 
 #### RK3568 platform
 
 |  System  |  Board | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3568J](../../System%20on%20Module/Core-3568J/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile) |
-| Ubuntu20.04 | [AIO-3568J](../../System%20on%20Module/Core-3568J/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Android11.0 | [AIO-3568J](../../System%20on%20Module/Core-3568J/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile) |
+| Ubuntu20.04 | [AIO-3568J](../../System%20on%20Module/Core-3568J/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
 
 #### RK3588 platform
 
 |  System   |  Board |
 |  ----  | ----  |
-| Android12.0 | [ITX-3588J](../../System%20on%20Module/Core-3588J/android_compile_android12.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile), [AIO-3588Q](../../System%20on%20Module/iCore-3588Q/android_compile_android12.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile) |
+| Android12.0 | [ITX-3588J](../../System%20on%20Module/Core-3588J/android_compile_android12.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [AIO-3588Q](../../System%20on%20Module/iCore-3588Q/android_compile_android12.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile) |
 | Android14.0 | [ITX-3588J](../../System%20on%20Module/Core-3588J/android_compile_android14.0_firmware.md#core-3588j-chan-pin-bian-yi-fang-fa), [AIO-3588Q](../../System%20on%20Module/iCore-3588Q/android_compile_android14.0_firmware.md#icore-3588q-chan-pin-bian-yi-fang-fa)|
 | Linux-kernel6.1 | [ITX-3588J](../../System%20on%20Module/Core-3588J/linux6.1_compile.md), [AIO-3588Q](../../System%20on%20Module/iCore-3588Q/linux6.1_compile.md)|
 
@@ -116,12 +113,12 @@ Related documents and firmware download, see the official website [Resource Down
 
 |  System   |  Board |
 |  ----  | ----  |
-| Android12.0 | [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/android_compile_android12.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/android_compile_android12.0_firmware.md#hdmi-to-mipi-csi-rk628d-compile) |
-| Android14.0 | [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/android_compile_android14.0_firmware.md#core-3588sjd4-chan-pin-bian-yi-fang-fa), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/android_compile_android14.0_firmware.md#roc-rk3588s-pc-chan-pin-bian-yi-fang-fa), [AIO-3588SG](../../System%20on%20Module/Core-3588SG/android_compile_android14.0_firmware.md#core-3588sg-chan-pin-bian-yi-fang-fa) |
-| Linux-kernel6.1 | [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/linux6.1_compile.md), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux6.1_compile.md), [AIO-3588SG](../../System%20on%20Module/Core-3588SG/linux6.1_compile.md) |
+| Android12.0 | [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/android_compile_android12.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/android_compile_android12.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile) |
+| Android14.0 | [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/android_compile_android14.0_firmware.md#core-3588sjd4-chan-pin-bian-yi-fang-fa), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/android_compile_android14.0_firmware.md#roc-rk3588s-pc-chan-pin-bian-yi-fang-fa), [AIO-3588SG](../../System%20on%20Module/Core-3588SG/android_compile_android14.0_firmware.md#core-3588sg-chan-pin-bian-yi-fang-fa) |
+| Linux-kernel6.1 | [AIO-3588SJD4](../../System%20on%20Module/Core-3588SJD4/linux6.1_compile.md), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/linux6.1_compile.md), [AIO-3588SG](../../System%20on%20Module/Core-3588SG/linux6.1_compile.md) |
 
 #### RK3576 platform
 
 |  System   |  Board |
 |  ----  | ----  |
-| Android14.0 | [ROC-RK3576-PC](../../Mainboards/ROC-RK3576-PC/android_compile_android14.0_firmware.md#roc-rk3576-pc-chan-pin-bian-yi-fang-fa), [AIO-3576Q](../../System%20on%20Module/iCore-3576Q/android_compile_android14.0_firmware.md#icore-3576q-chan-pin-bian-yi-fang-fa) |
+| Android14.0 | [ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/android_compile_android14.0_firmware.md#roc-rk3576-pc-chan-pin-bian-yi-fang-fa), [AIO-3576Q](../../System%20on%20Module/iCore-3576Q/android_compile_android14.0_firmware.md#icore-3576q-chan-pin-bian-yi-fang-fa) |

@@ -23,7 +23,7 @@ video hard decoding.
 
 ## Product resources
 
-* [[Wiki]](../../../en/Mainboards/AIO-3288C/index.md)
+* [[Wiki]](../../../en/Motherboard/AIO-3288C/index.md)
 Includes information on Android & Ubuntu driver development (see AIO-3288C Wiki)
  
 * [[Git link]](https://bitbucket.org/T-Firefly/firenow-lollipop) 

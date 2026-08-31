@@ -61,109 +61,109 @@ Related documents and firmware download, see the official website [Resource Down
 | CPU | USB upgrade | SD upgrade |
 | ---- | ---- | ---- |
 | PX30 | [AIO-PX30-JD4](../../System%20on%20Module/Core-PX30-JD4/programming_firmware.md) | |
-| RK3128 | [Firefly-RK3128](../../System%20on%20Module/Core-3128J/upgrade_firmware.md), [AIO-3128C](../../Mainboards/AIO-3128C/upgrade_firmware.md)  |  |
-| RK3288 | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/upgrade_firmware.md), [AIO-3288J](../../Mainboards/AIO-3288J/upgrade_firmware.md),  [AIO-3288C](../../Mainboards/AIO-3288C/upgrade_firmware.md) | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/upgrade_firmware_sd.md), [AIO-3288J](../../Mainboards/AIO-3288J/upgrade_firmware_sd.md), [AIO-3288C](../../Mainboards/AIO-3288C/upgrade_firmware_sd.md) |
-|RK3308| [ROC-RK3308B-CC-PLUS](../../Mainboards/ROC-RK3308B-CC-PLUS/03-upgrade_firmware.md) ||
-| RK3328 | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/flash_emmc.md), [ROC-RK3328-PC](../../Mainboards/ROC-RK3328-PC/03-upgrade_firmware.md)  | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/flash_sd.md) |
-|RK3399|[Firefly-RK3399](../../Mainboards/Firefly-RK3399/02-upgrade_table.md), [ROC-RK3399-PC](../../Mainboards/ROC-RK3399-PC/03-upgrade_firmware.md) <br> [ROC-RK3399-PC-PLUS](../../Mainboards/ROC-RK3399-PC-PLUS/03-upgrade_firmware.md), [AIO-3399JD4](../../System%20on%20Module/Core-3399-JD4/03-upgrade_firmware.md), [AIO-3399J](../../Mainboards/AIO-3399J/03-upgrade_firmware.md) <br> [AIO-3399C](../../Mainboards/AIO-3399C/03-upgrade_firmware.md) | [Firefly-RK3399](../../Mainboards/Firefly-RK3399/05-upgrade_firmware_sd.md), [ROC-RK3399-PC](../../Mainboards/ROC-RK3399-PC/05-upgrade_firmware_sd.md) <br> [ROC-RK3399-PC-PLUS](../../Mainboards/ROC-RK3399-PC-PLUS/05-upgrade_firmware_sd.md), [AIO-3399JD4](../../System%20on%20Module/Core-3399-JD4/05-upgrade_firmware_sd.md), [AIO-3399J](../../Mainboards/AIO-3399J/05-upgrade_firmware_sd.md) <br> [AIO-3399C](../../Mainboards/AIO-3399C/05-upgrade_firmware_sd.md) |
-|RK3399Pro|[AIO-3399Pro-JD4](../../Mainboards/AIO-3399Pro-JD4/03-upgrade_firmware.md), [AIO-3399ProC](../../Mainboards/AIO-3399ProC/03-upgrade_firmware.md)| [AIO-3399Pro-JD4](../../Mainboards/AIO-3399Pro-JD4/05-upgrade_firmware_sd.md), [AIO-3399ProC](../../Mainboards/AIO-3399ProC/05-upgrade_firmware_sd.md) |
-|RK3566|[AIO-3566JD4](../../Mainboards/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../Mainboards/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
-|RK3568|[AIO-3568J](../../Mainboards/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/03-upgrade_firmware.md)  | [AIO-3568J](../../Mainboards/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)| 
+| RK3128 | [Firefly-RK3128](../../System%20on%20Module/Core-3128J/upgrade_firmware.md), [AIO-3128C](../../Motherboard/AIO-3128C/upgrade_firmware.md)  |  |
+| RK3288 | [Firefly-RK3288](../../Motherboard/Firefly-RK3288/upgrade_firmware.md), [AIO-3288J](../../Motherboard/AIO-3288J/upgrade_firmware.md),  [AIO-3288C](../../Motherboard/AIO-3288C/upgrade_firmware.md) | [Firefly-RK3288](../../Motherboard/Firefly-RK3288/upgrade_firmware_sd.md), [AIO-3288J](../../Motherboard/AIO-3288J/upgrade_firmware_sd.md), [AIO-3288C](../../Motherboard/AIO-3288C/upgrade_firmware_sd.md) |
+|RK3308| [ROC-RK3308B-CC-PLUS](../../Motherboard/ROC-RK3308B-CC-PLUS/03-upgrade_firmware.md) ||
+| RK3328 | [ROC-RK3328-CC](../../Motherboard/ROC-RK3328-CC/flash_emmc.md), [ROC-RK3328-PC](../../Motherboard/ROC-RK3328-PC/03-upgrade_firmware.md)  | [ROC-RK3328-CC](../../Motherboard/ROC-RK3328-CC/flash_sd.md) |
+|RK3399|[Firefly-RK3399](../../Motherboard/Firefly-RK3399/02-upgrade_table.md), [ROC-RK3399-PC](../../Motherboard/ROC-RK3399-PC/03-upgrade_firmware.md) <br> [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/03-upgrade_firmware.md), [AIO-3399JD4](../../System%20on%20Module/Core-3399-JD4/03-upgrade_firmware.md), [AIO-3399J](../../Motherboard/AIO-3399J/03-upgrade_firmware.md) <br> [AIO-3399C](../../Motherboard/AIO-3399C/03-upgrade_firmware.md) | [Firefly-RK3399](../../Motherboard/Firefly-RK3399/05-upgrade_firmware_sd.md), [ROC-RK3399-PC](../../Motherboard/ROC-RK3399-PC/05-upgrade_firmware_sd.md) <br> [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/05-upgrade_firmware_sd.md), [AIO-3399JD4](../../System%20on%20Module/Core-3399-JD4/05-upgrade_firmware_sd.md), [AIO-3399J](../../Motherboard/AIO-3399J/05-upgrade_firmware_sd.md) <br> [AIO-3399C](../../Motherboard/AIO-3399C/05-upgrade_firmware_sd.md) |
+|RK3399Pro|[AIO-3399Pro-JD4](../../Motherboard/AIO-3399Pro-JD4/03-upgrade_firmware.md), [AIO-3399ProC](../../Motherboard/AIO-3399ProC/03-upgrade_firmware.md)| [AIO-3399Pro-JD4](../../Motherboard/AIO-3399Pro-JD4/05-upgrade_firmware_sd.md), [AIO-3399ProC](../../Motherboard/AIO-3399ProC/05-upgrade_firmware_sd.md) |
+|RK3566|[AIO-3566JD4](../../Motherboard/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../Motherboard/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
+|RK3568|[AIO-3568J](../../Motherboard/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/03-upgrade_firmware.md)  | [AIO-3568J](../../Motherboard/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)| 
 | RV1126_RV1109|[AIO-1126-JD4](../../System%20on%20Module/Core-1126-JD4/upgrade_firmware.md), [AIO-1109-JD4](../../System%20on%20Module/Core-1109-JD4/upgrade_firmware.md), [CAM-C1126S2U](../../AI Camera/CAM-C1126S2U/upgrade_firmware.md), [CAM-C1109S2U](../../AI Camera/CAM-C1109S2U/upgrade_firmware.md) | [AIO-1126-JD4](../../System%20on%20Module/Core-1126-JD4/upgrade_firmware_sd.md), [AIO-1109-JD4](../../System%20on%20Module/Core-1109-JD4/upgrade_firmware_sd.md)
-|RK3588|[ITX-3588J](../../Mainboards/ITX-3588J/upgrade_firmware.md), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/upgrade_firmware.md), [AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/upgrade_firmware.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/upgrade_firmware.md)|[ITX-3588J](../../Mainboards/ITX-3588J/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/upgrade_firmware_sd.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/upgrade_firmware_sd.md) ,[AIO-3588Q](../../Mainboards/AIO-3588Q/upgrade_firmware_sd.md)|
-|RK3576|[ROC-RK3576-PC](../../Mainboards/ROC-RK3576-PC/upgrade_firmware.md), [AIO-3576Q](../../Mainboards/AIO-3576Q/upgrade_firmware.md), [AIO-3576C](../../Mainboards/AIO-3576C/upgrade_firmware.md)|[ROC-RK3576-PC](../../Mainboards/ROC-RK3576-PC/upgrade_firmware_sd.md) ,[AIO-3576Q](../../Mainboards/AIO-3576Q/upgrade_firmware_sd.md), [AIO-3576C](../../Mainboards/AIO-3576C/upgrade_firmware_sd.md)|
+|RK3588|[ITX-3588J](../../Motherboard/ITX-3588J/upgrade_firmware.md), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/upgrade_firmware.md), [AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/upgrade_firmware.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/upgrade_firmware.md)|[ITX-3588J](../../Motherboard/ITX-3588J/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/upgrade_firmware_sd.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/upgrade_firmware_sd.md) ,[AIO-3588Q](../../Motherboard/AIO-3588Q/upgrade_firmware_sd.md)|
+|RK3576|[ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/upgrade_firmware.md), [AIO-3576Q](../../Motherboard/AIO-3576Q/upgrade_firmware.md), [AIO-3576C](../../Motherboard/AIO-3576C/upgrade_firmware.md)|[ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/upgrade_firmware_sd.md) ,[AIO-3576Q](../../Motherboard/AIO-3576Q/upgrade_firmware_sd.md), [AIO-3576C](../../Motherboard/AIO-3576C/upgrade_firmware_sd.md)|
 
 <!-- ## Compile the firmware
 ### PX30 platform
 
 |  System  |  Board |
 |  ----  | ----  |
-| Android8.1 | [AIO-PX30-JD4](../../Mainboards/AIO-PX30-JD4/Android_development.md#aio-px30-jd4-compiling-method) |
-| Ubuntu | [AIO-PX30-JD4](../../Mainboards/AIO-PX30-JD4/linux_compile.md) |
-| Buildroot | [AIO-PX30-JD4](../../Mainboards/AIO-PX30-JD4/buildroot_compile.md) |
+| Android8.1 | [AIO-PX30-JD4](../../Motherboard/AIO-PX30-JD4/Android_development.md#aio-px30-jd4-compiling-method) |
+| Ubuntu | [AIO-PX30-JD4](../../Motherboard/AIO-PX30-JD4/linux_compile.md) |
+| Buildroot | [AIO-PX30-JD4](../../Motherboard/AIO-PX30-JD4/buildroot_compile.md) |
 
 ### RK3128 platform
 
 |  System  |  Board | 
 |  ----  | ----  | 
-| Android5.1  | [Firefly-RK3128](../../Mainboards/Firefly-RK3128/Build_Android.md#hdmi), [AIO-3128C](../../Mainboards/AIO-3128C/Build_Android.md#hdmi) | 
+| Android5.1  | [Firefly-RK3128](../../Motherboard/Firefly-RK3128/Build_Android.md#hdmi), [AIO-3128C](../../Motherboard/AIO-3128C/Build_Android.md#hdmi) | 
 
 ### RK3288 platform
 
 |  System  |  Board | 
 |  ----  | ----  | 
-| Android5.1  | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/compile_android_firmware.md#hdmi), [AIO-3288J](../../Mainboards/AIO-3288J/compile_android_firmware.md#hdmi), [AIO-3288C](../../Mainboards/AIO-3288C/compile_android_firmware.md#hdmi) | 
-| Ubuntu | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/linux_compile_gpt.md), [AIO-3288J](../../Mainboards/AIO-3288J/linux_compile_gpt.md), [AIO-3288C](../../Mainboards/AIO-3288C/linux_compile_gpt.md) | 
-| Buildroot | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/buildroot_compile.md), [AIO-3288J](../../Mainboards/AIO-3288J/buildroot_compile.md), [AIO-3288C](../../Mainboards/AIO-3288C/buildroot_compile.md) |
+| Android5.1  | [Firefly-RK3288](../../Motherboard/Firefly-RK3288/compile_android_firmware.md#hdmi), [AIO-3288J](../../Motherboard/AIO-3288J/compile_android_firmware.md#hdmi), [AIO-3288C](../../Motherboard/AIO-3288C/compile_android_firmware.md#hdmi) | 
+| Ubuntu | [Firefly-RK3288](../../Motherboard/Firefly-RK3288/linux_compile_gpt.md), [AIO-3288J](../../Motherboard/AIO-3288J/linux_compile_gpt.md), [AIO-3288C](../../Motherboard/AIO-3288C/linux_compile_gpt.md) | 
+| Buildroot | [Firefly-RK3288](../../Motherboard/Firefly-RK3288/buildroot_compile.md), [AIO-3288J](../../Motherboard/AIO-3288J/buildroot_compile.md), [AIO-3288C](../../Motherboard/AIO-3288C/buildroot_compile.md) |
 
 ### RK3308 platform
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Buildroot | [ROC-RK3308-CC](../../Mainboards/ROC-RK3308-CC/buildroot_development.md), [ROC-RK3308B-CC-PLUS](../../Mainboards/ROC-RK3308B-CC-PLUS/sdkbuilding.md) |
+| Buildroot | [ROC-RK3308-CC](../../Motherboard/ROC-RK3308-CC/buildroot_development.md), [ROC-RK3308B-CC-PLUS](../../Motherboard/ROC-RK3308B-CC-PLUS/sdkbuilding.md) |
 
 ### RK3328 platform
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Android7.1 | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/android_compile_android7.md)|
-|Android8.1 | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/android_compile_android8.md) |
-| Android10.0  | [ROC-RK3328-PC](../../Mainboards/ROC-RK3328-PC/android_compile_android10.md) | 
-| Ubuntu | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/linux_compile.md), [ROC-RK3328-PC](../../Mainboards/ROC-RK3328-PC/linux_compile.md) |
+| Android7.1 | [ROC-RK3328-CC](../../Motherboard/ROC-RK3328-CC/android_compile_android7.md)|
+|Android8.1 | [ROC-RK3328-CC](../../Motherboard/ROC-RK3328-CC/android_compile_android8.md) |
+| Android10.0  | [ROC-RK3328-PC](../../Motherboard/ROC-RK3328-PC/android_compile_android10.md) | 
+| Ubuntu | [ROC-RK3328-CC](../../Motherboard/ROC-RK3328-CC/linux_compile.md), [ROC-RK3328-PC](../../Motherboard/ROC-RK3328-PC/linux_compile.md) |
 
 ### RK3399 platform
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Android7.1 Industry | [Firefly-RK3399](../../Mainboards/Firefly-RK3399/compile_android7.1_industry_firmware.md#public-compile), [ROC-RK3399-PC](../../Mainboards/ROC-RK3399-PC/compile_android7.1_industry_firmware.md#public-compile), [ROC-RK3399-PC-PLUS](../../Mainboards/ROC-RK3399-PC-PLUS/compile_android7.1_industry_firmware.md#public-compile), [ROC-RK3399-PC-Pro](../../Mainboards/ROC-RK3399-PC-Pro/compile_android7.1_industry_firmware.md#public-compile), [AIO-3399JD4](../../Mainboards/AIO-3399JD4/compile_android7.1_industry_firmware.md#public-compile), [AIO-3399J](../../Mainboards/AIO-3399J/compile_android7.1_industry_firmware.md#public-compile), [AIO-3399C](../../Mainboards/AIO-3399C/compile_android7.1_industry_firmware.md#public-compile), [Face-RK3399](../../Mainboards/Face-RK3399/compile_android_firmware.md#wan-zheng-bian-yi-face-rk3399) | 
-| Android10.0 | [ROC-RK3399-PC-PLUS](../../Mainboards/ROC-RK3399-PC-PLUS/compile_android10.0_firmware.md#public-compile), [ROC-RK3399-PC-Pro](../../Mainboards/ROC-RK3399-PC-Pro/compile_android10.0_firmware.md#public-compile),[AIO-3399J](../../Mainboards/AIO-3399J/compile_android10.0_firmware.md#public-compile), [AIO-3399C](../../Mainboards/AIO-3399C/compile_android10.0_firmware.md#public-compile) | 
-| Ubuntu | [Firefly-RK3399](../../Mainboards/Firefly-RK3399/linux_compile_gpt.md), [ROC-RK3399-PC](../../Mainboards/ROC-RK3399-PC/linux_compile_gpt.md), [ROC-RK3399-PC-PLUS](../../Mainboards/ROC-RK3399-PC-PLUS/linux_compile_gpt.md), [AIO-3399JD4](../../Mainboards/AIO-3399JD4/linux_compile_gpt.md), [AIO-3399J](../../Mainboards/AIO-3399J/linux_compile_gpt.md), [AIO-3399C](../../Mainboards/AIO-3399C/linux_compile_gpt.md) | 
-| Buildroot | [Firefly-RK3399](../../Mainboards/Firefly-RK3399/buildroot_compile.md), [ROC-RK3399-PC](../../Mainboards/ROC-RK3399-PC/buildroot_compile.md), [ROC-RK3399-PC-PLUS](../../Mainboards/ROC-RK3399-PC-PLUS/buildroot_compile.md), [AIO-3399JD4](../../Mainboards/AIO-3399JD4/buildroot_compile.md), [AIO-3399J](../../Mainboards/AIO-3399J/buildroot_compile.md), [AIO-3399C](../../Mainboards/AIO-3399C/buildroot_compile.md) | 
+| Android7.1 Industry | [Firefly-RK3399](../../Motherboard/Firefly-RK3399/compile_android7.1_industry_firmware.md#public-compile), [ROC-RK3399-PC](../../Motherboard/ROC-RK3399-PC/compile_android7.1_industry_firmware.md#public-compile), [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/compile_android7.1_industry_firmware.md#public-compile), [ROC-RK3399-PC-Pro](../../Motherboard/ROC-RK3399-PC-Pro/compile_android7.1_industry_firmware.md#public-compile), [AIO-3399JD4](../../Motherboard/AIO-3399JD4/compile_android7.1_industry_firmware.md#public-compile), [AIO-3399J](../../Motherboard/AIO-3399J/compile_android7.1_industry_firmware.md#public-compile), [AIO-3399C](../../Motherboard/AIO-3399C/compile_android7.1_industry_firmware.md#public-compile), [Face-RK3399](../../Motherboard/Face-RK3399/compile_android_firmware.md#wan-zheng-bian-yi-face-rk3399) | 
+| Android10.0 | [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/compile_android10.0_firmware.md#public-compile), [ROC-RK3399-PC-Pro](../../Motherboard/ROC-RK3399-PC-Pro/compile_android10.0_firmware.md#public-compile),[AIO-3399J](../../Motherboard/AIO-3399J/compile_android10.0_firmware.md#public-compile), [AIO-3399C](../../Motherboard/AIO-3399C/compile_android10.0_firmware.md#public-compile) | 
+| Ubuntu | [Firefly-RK3399](../../Motherboard/Firefly-RK3399/linux_compile_gpt.md), [ROC-RK3399-PC](../../Motherboard/ROC-RK3399-PC/linux_compile_gpt.md), [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/linux_compile_gpt.md), [AIO-3399JD4](../../Motherboard/AIO-3399JD4/linux_compile_gpt.md), [AIO-3399J](../../Motherboard/AIO-3399J/linux_compile_gpt.md), [AIO-3399C](../../Motherboard/AIO-3399C/linux_compile_gpt.md) | 
+| Buildroot | [Firefly-RK3399](../../Motherboard/Firefly-RK3399/buildroot_compile.md), [ROC-RK3399-PC](../../Motherboard/ROC-RK3399-PC/buildroot_compile.md), [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/buildroot_compile.md), [AIO-3399JD4](../../Motherboard/AIO-3399JD4/buildroot_compile.md), [AIO-3399J](../../Motherboard/AIO-3399J/buildroot_compile.md), [AIO-3399C](../../Motherboard/AIO-3399C/buildroot_compile.md) | 
 
 ### RK3399Pro platform
 
 |  System  |  Board | 
 |  ----  | ----  | 
-| Android9.0 | [AIO-3399Pro-JD4](../../Mainboards/AIO-3399Pro-JD4/compile_android9.0_firmware.md#public-compile), [AIO-3399ProC](../../Mainboards/AIO-3399ProC/compile_android9.0_firmware.md#public-compile) | 
-| Ubuntu | [AIO-3399Pro-JD4](../../Mainboards/AIO-3399Pro-JD4/linux_compile_gpt.md), [AIO-3399ProC](../../Mainboards/AIO-3399ProC/linux_compile_gpt.md) | 
+| Android9.0 | [AIO-3399Pro-JD4](../../Motherboard/AIO-3399Pro-JD4/compile_android9.0_firmware.md#public-compile), [AIO-3399ProC](../../Motherboard/AIO-3399ProC/compile_android9.0_firmware.md#public-compile) | 
+| Ubuntu | [AIO-3399Pro-JD4](../../Motherboard/AIO-3399Pro-JD4/linux_compile_gpt.md), [AIO-3399ProC](../../Motherboard/AIO-3399ProC/linux_compile_gpt.md) | 
 
 ### RK3566 platform
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/compile_android11.0_firmware.md#public-compile), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/compile_android11.0_firmware.md#public-compile) | 
-| Ubuntu | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile_gpt.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile_gpt.md) | 
-| Buildroot | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/buildroot_compile.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/buildroot_compile.md) |
+| Android11.0 | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/compile_android11.0_firmware.md#public-compile), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/compile_android11.0_firmware.md#public-compile) | 
+| Ubuntu | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/linux_compile_gpt.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/linux_compile_gpt.md) | 
+| Buildroot | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/buildroot_compile.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/buildroot_compile.md) |
 
 ### RK3568 platform
 
 |  System  |  Board | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3568J](../../Mainboards/AIO-3568J/compile_android11.0_firmware.md#public-compile), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/compile_android11.0_firmware.md#public-compile), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#public-compile) | 
-| Ubuntu | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile_gpt.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile_gpt.md) | 
-| Buildroot | [AIO-3568J](../../Mainboards/AIO-3568J/buildroot_compile.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/buildroot_compile.md) |
+| Android11.0 | [AIO-3568J](../../Motherboard/AIO-3568J/compile_android11.0_firmware.md#public-compile), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/compile_android11.0_firmware.md#public-compile), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#public-compile) | 
+| Ubuntu | [AIO-3568J](../../Motherboard/AIO-3568J/linux_compile_gpt.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/linux_compile_gpt.md) | 
+| Buildroot | [AIO-3568J](../../Motherboard/AIO-3568J/buildroot_compile.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/buildroot_compile.md) |
 
 ### RV1126_RV1109 platform
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Buildroot | [AIO-1126-JD4](../../Mainboards/AIO-1126-JD4/Source_code.md#bian-yi-pei-zhi), [AIO-1109-JD4](../../Mainboards/AIO-1109-JD4/Source_code.md#bian-yi-pei-zhi), [CAM-C1126S2U](../../AI Camera/CAM-C1126S2U/Source_code.md#bian-yi-pei-zhi), [CAM-C1109S2U](../../AI Camera/CAM-C1109S2U/Source_code.md#bian-yi-pei-zhi) |
+| Buildroot | [AIO-1126-JD4](../../Motherboard/AIO-1126-JD4/Source_code.md#bian-yi-pei-zhi), [AIO-1109-JD4](../../Motherboard/AIO-1109-JD4/Source_code.md#bian-yi-pei-zhi), [CAM-C1126S2U](../../AI Camera/CAM-C1126S2U/Source_code.md#bian-yi-pei-zhi), [CAM-C1109S2U](../../AI Camera/CAM-C1109S2U/Source_code.md#bian-yi-pei-zhi) |
 
 ### RK3588 platform
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Android12.0 | [ITX-3588J](../../Mainboards/ITX-3588J/android_compile_android12.0_firmware.md),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/android_compile_android12.0_firmware.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/android_compile_android12.0_firmware.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/android_compile_android12.0_firmware.md)| 
-| Buildroot | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_buildroot.md),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile_buildroot.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_buildroot.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_buildroot.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_buildroot.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_buildroot.md)|
-| Ubuntu20.04 | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_ubuntu.md),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile_ubuntu.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_ubuntu.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_ubuntu.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_ubuntu.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_ubuntu.md)|
-| Debian11 | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_debian.md),[ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/linux_compile_debian.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_debian.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_debian.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_debian.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_debian.md)|
+| Android12.0 | [ITX-3588J](../../Motherboard/ITX-3588J/android_compile_android12.0_firmware.md),[ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/android_compile_android12.0_firmware.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/android_compile_android12.0_firmware.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/android_compile_android12.0_firmware.md)| 
+| Buildroot | [ITX-3588J](../../Motherboard/ITX-3588J/linux_compile_buildroot.md),[ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/linux_compile_buildroot.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/linux_compile_buildroot.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/linux_compile_buildroot.md),[AIO-3588MQ](../../Motherboard/AIO-3588MQ/linux_compile_buildroot.md),[AIO-3588JQ](../../Motherboard/AIO-3588JQ/linux_compile_buildroot.md)|
+| Ubuntu20.04 | [ITX-3588J](../../Motherboard/ITX-3588J/linux_compile_ubuntu.md),[ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/linux_compile_ubuntu.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/linux_compile_ubuntu.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/linux_compile_ubuntu.md),[AIO-3588MQ](../../Motherboard/AIO-3588MQ/linux_compile_ubuntu.md),[AIO-3588JQ](../../Motherboard/AIO-3588JQ/linux_compile_ubuntu.md)|
+| Debian11 | [ITX-3588J](../../Motherboard/ITX-3588J/linux_compile_debian.md),[ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/linux_compile_debian.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/linux_compile_debian.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/linux_compile_debian.md),[AIO-3588MQ](../../Motherboard/AIO-3588MQ/linux_compile_debian.md),[AIO-3588JQ](../../Motherboard/AIO-3588JQ/linux_compile_debian.md)|
 
 ### RK3576 platform
 
 |  System   |  Board |
 |  ----  | ----  |
-| Android14.0 | [ROC-RK3576-PC](../../Mainboards/ROC-RK3576-PC/android_compile_android14.0_firmware.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/android_compile_android14.0_firmware.md),[AIO-3576C](../../Mainboards/AIO-3576C/android_compile_android14.0_firmware.md)| 
-| Ubuntu22.04 | [ROC-RK3576-PC](../../Mainboards/ROC-RK3576-PC/linux_compile_ubuntu.md),[AIO-3576Q](../../Mainboards/AIO-3576Q/linux_compile_ubuntu.md),[AIO-3576C](../../Mainboards/AIO-3576C/linux_compile_ubuntu.md)| -->
+| Android14.0 | [ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/android_compile_android14.0_firmware.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/android_compile_android14.0_firmware.md),[AIO-3576C](../../Motherboard/AIO-3576C/android_compile_android14.0_firmware.md)| 
+| Ubuntu22.04 | [ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/linux_compile_ubuntu.md),[AIO-3576Q](../../Motherboard/AIO-3576Q/linux_compile_ubuntu.md),[AIO-3576C](../../Motherboard/AIO-3576C/linux_compile_ubuntu.md)| -->
 
 ### EC20 GNSS Function(optional)
 

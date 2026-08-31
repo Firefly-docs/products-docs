@@ -104,22 +104,22 @@ Related documents and firmware download, see the official website [Resource Down
 <!--
 | 主控 | USB 线刷 | SD 卡升级 |
 | ---- | ---- | ---- |
-| RK3128 | [Firefly-RK3128](../../Mainboards/Firefly-RK3128/upgrade_firmware.md), [AIO-3128C](../../Mainboards/AIO-3128C/upgrade_firmware.md)  |  |
-| RK3288 | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/upgrade_firmware.md), [AIO-3288J](../../Mainboards/AIO-3288J/upgrade_firmware.md),  [AIO-3288C](../../Mainboards/AIO-3288C/upgrade_firmware.md) | [Firefly-RK3288](../../Mainboards/Firefly-RK3288/upgrade_firmware_sd.md), [AIO-3288J](../../Mainboards/AIO-3288J/upgrade_firmware_sd.md), [AIO-3288C](../../Mainboards/AIO-3288C/upgrade_firmware_sd.md) |
-|RK3308| [ROC-RK3308-CC](../../Mainboards/ROC-RK3308-CC/burning_firmware.md), [ROC-RK3308B-CC-PLUS](../../Mainboards/ROC-RK3308B-CC-PLUS/burning_firmware.md) ||
-| RK3328 | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/flash_emmc.md), [ROC-RK3328-PC](../../Mainboards/ROC-RK3328-PC/upgrade_firmware.md)  | [ROC-RK3328-CC](../../Mainboards/ROC-RK3328-CC/flash_sd.md) |
-|RK3399|[Firefly-RK3399](../../Mainboards/Firefly-RK3399/02-upgrade_table.md), [ROC-RK3399-PC](../../Mainboards/ROC-RK3399-PC/03-upgrade_firmware.md) <br> [ROC-RK3399-PC-PLUS](../../Mainboards/ROC-RK3399-PC-PLUS/03-upgrade_firmware.md), [AIO-3399JD4](../../Mainboards/AIO-3399JD4/03-upgrade_firmware.md)<br> [AIO-3399J](../../Mainboards/AIO-3399J/03-upgrade_firmware.md), [AIO-3399C](../../Mainboards/AIO-3399C/03-upgrade_firmware.md)<br> [ROC-RK3399-PC-Pro](../../Mainboards/ROC-RK3399-PC-Pro/03-upgrade_firmware.md)| [Firefly-RK3399](../../Mainboards/Firefly-RK3399/05-upgrade_firmware_sd.md), [ROC-RK3399-PC](../../Mainboards/ROC-RK3399-PC/05-upgrade_firmware_sd.md) <br> [ROC-RK3399-PC-PLUS](../../Mainboards/ROC-RK3399-PC-PLUS/05-upgrade_firmware_sd.md), [AIO-3399JD4](../../Mainboards/AIO-3399JD4/05-upgrade_firmware_sd.md)<br> [AIO-3399J](../../Mainboards/AIO-3399J/05-upgrade_firmware_sd.md), [AIO-3399C](../../Mainboards/AIO-3399C/05-upgrade_firmware_sd.md)<br> [ROC-RK3399-PC-Pro](../../Mainboards/ROC-RK3399-PC-Pro/05-upgrade_firmware_sd.md) | 
-|RK3399Pro|[AIO-3399Pro-JD4](../../Mainboards/AIO-3399Pro-JD4/03-upgrade_firmware.md), [AIO-3399ProC](../../Mainboards/AIO-3399ProC/03-upgrade_firmware.md)| [AIO-3399Pro-JD4](../../Mainboards/AIO-3399Pro-JD4/05-upgrade_firmware_sd.md), [AIO-3399ProC](../../Mainboards/AIO-3399ProC/05-upgrade_firmware_sd.md) |
-|RK3566|[AIO-3566JD4](../../Mainboards/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../Mainboards/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
-|RK3568|[AIO-3568J](../../Mainboards/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/03-upgrade_firmware.md) | [AIO-3568J](../../Mainboards/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/05-upgrade_firmware_sd.md)| 
+| RK3128 | [Firefly-RK3128](../../Motherboard/Firefly-RK3128/upgrade_firmware.md), [AIO-3128C](../../Motherboard/AIO-3128C/upgrade_firmware.md)  |  |
+| RK3288 | [Firefly-RK3288](../../Motherboard/Firefly-RK3288/upgrade_firmware.md), [AIO-3288J](../../Motherboard/AIO-3288J/upgrade_firmware.md),  [AIO-3288C](../../Motherboard/AIO-3288C/upgrade_firmware.md) | [Firefly-RK3288](../../Motherboard/Firefly-RK3288/upgrade_firmware_sd.md), [AIO-3288J](../../Motherboard/AIO-3288J/upgrade_firmware_sd.md), [AIO-3288C](../../Motherboard/AIO-3288C/upgrade_firmware_sd.md) |
+|RK3308| [ROC-RK3308-CC](../../Motherboard/ROC-RK3308-CC/burning_firmware.md), [ROC-RK3308B-CC-PLUS](../../Motherboard/ROC-RK3308B-CC-PLUS/burning_firmware.md) ||
+| RK3328 | [ROC-RK3328-CC](../../Motherboard/ROC-RK3328-CC/flash_emmc.md), [ROC-RK3328-PC](../../Motherboard/ROC-RK3328-PC/upgrade_firmware.md)  | [ROC-RK3328-CC](../../Motherboard/ROC-RK3328-CC/flash_sd.md) |
+|RK3399|[Firefly-RK3399](../../Motherboard/Firefly-RK3399/02-upgrade_table.md), [ROC-RK3399-PC](../../Motherboard/ROC-RK3399-PC/03-upgrade_firmware.md) <br> [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/03-upgrade_firmware.md), [AIO-3399JD4](../../Motherboard/AIO-3399JD4/03-upgrade_firmware.md)<br> [AIO-3399J](../../Motherboard/AIO-3399J/03-upgrade_firmware.md), [AIO-3399C](../../Motherboard/AIO-3399C/03-upgrade_firmware.md)<br> [ROC-RK3399-PC-Pro](../../Motherboard/ROC-RK3399-PC-Pro/03-upgrade_firmware.md)| [Firefly-RK3399](../../Motherboard/Firefly-RK3399/05-upgrade_firmware_sd.md), [ROC-RK3399-PC](../../Motherboard/ROC-RK3399-PC/05-upgrade_firmware_sd.md) <br> [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/05-upgrade_firmware_sd.md), [AIO-3399JD4](../../Motherboard/AIO-3399JD4/05-upgrade_firmware_sd.md)<br> [AIO-3399J](../../Motherboard/AIO-3399J/05-upgrade_firmware_sd.md), [AIO-3399C](../../Motherboard/AIO-3399C/05-upgrade_firmware_sd.md)<br> [ROC-RK3399-PC-Pro](../../Motherboard/ROC-RK3399-PC-Pro/05-upgrade_firmware_sd.md) | 
+|RK3399Pro|[AIO-3399Pro-JD4](../../Motherboard/AIO-3399Pro-JD4/03-upgrade_firmware.md), [AIO-3399ProC](../../Motherboard/AIO-3399ProC/03-upgrade_firmware.md)| [AIO-3399Pro-JD4](../../Motherboard/AIO-3399Pro-JD4/05-upgrade_firmware_sd.md), [AIO-3399ProC](../../Motherboard/AIO-3399ProC/05-upgrade_firmware_sd.md) |
+|RK3566|[AIO-3566JD4](../../Motherboard/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../Motherboard/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
+|RK3568|[AIO-3568J](../../Motherboard/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/03-upgrade_firmware.md) | [AIO-3568J](../../Motherboard/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/05-upgrade_firmware_sd.md)| 
 -->
 
 | CPU | USB upgrade | SD upgrade |
 | ---- | ---- | ---- |
-|RK3566|[AIO-3566JD4](../../Mainboards/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../Mainboards/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
-|RK3568|[AIO-3568J](../../Mainboards/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/03-upgrade_firmware.md) | [AIO-3568J](../../Mainboards/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../Mainboards/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)| 
-|RK3588|[ITX-3588J](../../Mainboards/ITX-3588J/upgrade_firmware.md), [AIO-3588Q](../../Mainboards/AIO-3588Q/upgrade_firmware.md), [AIO-3588JQ](../../Mainboards/AIO-3588JQ/upgrade_firmware.md), [AIO-3588MQ](../../Mainboards/AIO-3588MQ/upgrade_firmware.md)|[ITX-3588J](../../Mainboards/ITX-3588J/upgrade_firmware_sd.md), [AIO-3588Q](../../Mainboards/AIO-3588Q/upgrade_firmware_sd.md), [AIO-3588JQ](../../Mainboards/AIO-3588JQ/upgrade_firmware_sd.md), [AIO-3588MQ](../../Mainboards/AIO-3588MQ/upgrade_firmware_sd.md) |
-|RK3588S|[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/upgrade_firmware.md), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/upgrade_firmware.md)| [AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/upgrade_firmware_sd.md) |
+|RK3566|[AIO-3566JD4](../../Motherboard/AIO-3566JD4/03-upgrade_firmware.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/03-upgrade_firmware.md)| [AIO-3566JD4](../../Motherboard/AIO-3566JD4/05-upgrade_firmware_sd.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/05-upgrade_firmware_sd.md) | 
+|RK3568|[AIO-3568J](../../Motherboard/AIO-3568J/03-upgrade_firmware.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/03-upgrade_firmware.md), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/03-upgrade_firmware.md) | [AIO-3568J](../../Motherboard/AIO-3568J/05-upgrade_firmware_sd.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/05-upgrade_firmware_sd.md), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/05-upgrade_firmware_sd.md)| 
+|RK3588|[ITX-3588J](../../Motherboard/ITX-3588J/upgrade_firmware.md), [AIO-3588Q](../../Motherboard/AIO-3588Q/upgrade_firmware.md), [AIO-3588JQ](../../Motherboard/AIO-3588JQ/upgrade_firmware.md), [AIO-3588MQ](../../Motherboard/AIO-3588MQ/upgrade_firmware.md)|[ITX-3588J](../../Motherboard/ITX-3588J/upgrade_firmware_sd.md), [AIO-3588Q](../../Motherboard/AIO-3588Q/upgrade_firmware_sd.md), [AIO-3588JQ](../../Motherboard/AIO-3588JQ/upgrade_firmware_sd.md), [AIO-3588MQ](../../Motherboard/AIO-3588MQ/upgrade_firmware_sd.md) |
+|RK3588S|[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/upgrade_firmware.md), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/upgrade_firmware.md)| [AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/upgrade_firmware_sd.md), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/upgrade_firmware_sd.md) |
 
 ## Compile the firmware
 
@@ -177,26 +177,26 @@ Related documents and firmware download, see the official website [Resource Down
 
 | CPU | board | 
 | ---- | ---- | 
-| Android11.0 | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile) | 
-| Ubuntu | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
-| Buildroot | [AIO-3566JD4](../../Mainboards/AIO-3566JD4/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3566-PC](../../Mainboards/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
+| Android11.0 | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile) | 
+| Ubuntu | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Buildroot | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
 
 ### RK3568 platform
 
 | CPU | board | 
 | ---- | ---- | 
-| Android11.0 | [AIO-3568J](../../Mainboards/AIO-3568J/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3568-PC-SE](../../Mainboards/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile) | 
-| Ubuntu | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
-| Buildroot | [AIO-3568J](../../Mainboards/AIO-3568J/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3568-PC](../../Mainboards/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
+| Android11.0 | [AIO-3568J](../../Motherboard/AIO-3568J/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3568-PC-SE](../../Motherboard/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#dual-camera-cam-2ms2mf-compile) | 
+| Ubuntu | [AIO-3568J](../../Motherboard/AIO-3568J/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Buildroot | [AIO-3568J](../../Motherboard/AIO-3568J/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
 
 ### RK3588 platform
 
 | CPU | board |
 | ---- | ---- |
-| Android12.0 | [ITX-3588J](../../Mainboards/ITX-3588J/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile), [AIO-3588Q](../../Mainboards/AIO-3588Q/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile), [AIO-3588JQ](../../Mainboards/AIO-3588JQ/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile), [AIO-3588MQ](../../Mainboards/AIO-3588MQ/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile) |
+| Android12.0 | [ITX-3588J](../../Motherboard/ITX-3588J/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile), [AIO-3588Q](../../Motherboard/AIO-3588Q/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile), [AIO-3588JQ](../../Motherboard/AIO-3588JQ/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile), [AIO-3588MQ](../../Motherboard/AIO-3588MQ/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile) |
 
 ### RK3588S platform
 
 | CPU | board |
 | ---- | ---- |
-| Android12.0 | [AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3588S-PC](../../Mainboards/ROC-RK3588S-PC/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile) |
+| Android12.0 | [AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile), [ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/android_compile_android12.0_firmware.md#dual-camera-cam-2ms2mf-compile) |

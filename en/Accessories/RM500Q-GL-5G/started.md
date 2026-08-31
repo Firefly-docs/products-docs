@@ -100,8 +100,8 @@ Related documents and firmware download, see the official website [Resource Down
 
 | CPU | USB upgrade | SD upgrade |
 | ---- | ---- | ---- |
-|RK3568|[AIO-3568J](../../Mainboards/AIO-3568J/03-upgrade_firmware.md) | [AIO-3568J](../../Mainboards/AIO-3568J/05-upgrade_firmware_sd.md)| 
-|RK3588|[ITX-3588J](../../Mainboards/ITX-3588J/upgrade_firmware.md), [AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/upgrade_firmware.md) ,[AIO-3588Q](../../Mainboards/AIO-3588Q/upgrade_firmware.md)| [ITX-3588J](../../Mainboards/ITX-3588J/upgrade_firmware_sd.md), [AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/upgrade_firmware_sd.md) ,[AIO-3588Q](../../Mainboards/AIO-3588Q/upgrade_firmware_sd.md)|
+|RK3568|[AIO-3568J](../../Motherboard/AIO-3568J/03-upgrade_firmware.md) | [AIO-3568J](../../Motherboard/AIO-3568J/05-upgrade_firmware_sd.md)| 
+|RK3588|[ITX-3588J](../../Motherboard/ITX-3588J/upgrade_firmware.md), [AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/upgrade_firmware.md) ,[AIO-3588Q](../../Motherboard/AIO-3588Q/upgrade_firmware.md)| [ITX-3588J](../../Motherboard/ITX-3588J/upgrade_firmware_sd.md), [AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/upgrade_firmware_sd.md) ,[AIO-3588Q](../../Motherboard/AIO-3588Q/upgrade_firmware_sd.md)|
 
 <!-- ## Compile the firmware
 
@@ -109,18 +109,18 @@ Related documents and firmware download, see the official website [Resource Down
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3568J](../../Mainboards/AIO-3568J/compile_android11.0_firmware.md)
-| Ubuntu | [AIO-3568J](../../Mainboards/AIO-3568J/ubuntu_compile.md) | 
-| Buildroot | [AIO-3568J](../../Mainboards/AIO-3568J/buildroot_compile.md)
+| Android11.0 | [AIO-3568J](../../Motherboard/AIO-3568J/compile_android11.0_firmware.md)
+| Ubuntu | [AIO-3568J](../../Motherboard/AIO-3568J/ubuntu_compile.md) | 
+| Buildroot | [AIO-3568J](../../Motherboard/AIO-3568J/buildroot_compile.md)
 
 ### RK3588 系列
 
 |  系统   |  板卡型号 | 
 |  ----  | ----  | 
-| Android12.0 | [ITX-3588J](../../Mainboards/ITX-3588J/android_compile_android12.0_firmware.md) , [AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/android_compile_android12.0_firmware.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/android_compile_android12.0_firmware.md)|
-| Buildroot | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_buildroot.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_buildroot.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_buildroot.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_buildroot.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_buildroot.md)|
-| Ubuntu20.04 | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_ubuntu.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_ubuntu.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_ubuntu.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_ubuntu.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_buildroot.md)|
-| Debian11 | [ITX-3588J](../../Mainboards/ITX-3588J/linux_compile_debian.md),[AIO-3588SJD4](../../Mainboards/AIO-3588SJD4/linux_compile_debian.md),[AIO-3588Q](../../Mainboards/AIO-3588Q/linux_compile_debian.md),[AIO-3588MQ](../../Mainboards/AIO-3588MQ/linux_compile_debian.md),[AIO-3588JQ](../../Mainboards/AIO-3588JQ/linux_compile_debian.md)| -->
+| Android12.0 | [ITX-3588J](../../Motherboard/ITX-3588J/android_compile_android12.0_firmware.md) , [AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/android_compile_android12.0_firmware.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/android_compile_android12.0_firmware.md)|
+| Buildroot | [ITX-3588J](../../Motherboard/ITX-3588J/linux_compile_buildroot.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/linux_compile_buildroot.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/linux_compile_buildroot.md),[AIO-3588MQ](../../Motherboard/AIO-3588MQ/linux_compile_buildroot.md),[AIO-3588JQ](../../Motherboard/AIO-3588JQ/linux_compile_buildroot.md)|
+| Ubuntu20.04 | [ITX-3588J](../../Motherboard/ITX-3588J/linux_compile_ubuntu.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/linux_compile_ubuntu.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/linux_compile_ubuntu.md),[AIO-3588MQ](../../Motherboard/AIO-3588MQ/linux_compile_ubuntu.md),[AIO-3588JQ](../../Motherboard/AIO-3588JQ/linux_compile_buildroot.md)|
+| Debian11 | [ITX-3588J](../../Motherboard/ITX-3588J/linux_compile_debian.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/linux_compile_debian.md),[AIO-3588Q](../../Motherboard/AIO-3588Q/linux_compile_debian.md),[AIO-3588MQ](../../Motherboard/AIO-3588MQ/linux_compile_debian.md),[AIO-3588JQ](../../Motherboard/AIO-3588JQ/linux_compile_debian.md)| -->
 
 
 ## GNSS Function(optional)

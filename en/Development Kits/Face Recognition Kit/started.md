@@ -65,9 +65,9 @@ A: The crash issue generally only appears in version 1.0.7.1, mainly because the
 
 Q: Can't connect with adb for debugging?
 
-A: [AIO-3399J ADB usage](../../Mainboards/AIO-3399J/adb_use.md)
+A: [AIO-3399J ADB usage](../../Motherboard/AIO-3399J/adb_use.md)
 
-A: [AIO-3399C ADB usage](../../Mainboards/AIO-3399C/adb_use.md)
+A: [AIO-3399C ADB usage](../../Motherboard/AIO-3399C/adb_use.md)
 
 Q: The upper USB3.0 port cannot be recognized?
 

@@ -35,7 +35,7 @@ Face X2 is an intelligent access control terminal based on face recognition inde
 
 ## Product resources
 
-* [[Wiki]](../../Mainboards/Face-RK3399/started.md)
+* [[Wiki]](../../Motherboard/Face-RK3399/started.md)
 Includes information on Android & Ubuntu driver development (see Face-RK3399 Wiki)
  
 
@@ -44,8 +44,8 @@ More than 100,000 corporate customers and users communication platform
 
 ## Related Development Documents
 
-* [Infrared Thermal Imaging Temperature Measurement Module](../../Mainboards/Face-RK3399/module_temparature.md)
-* [Face Recognition Application Development](../../Mainboards/Face-RK3399/face_sdk_v2_0.md)
+* [Infrared Thermal Imaging Temperature Measurement Module](../../Motherboard/Face-RK3399/module_temparature.md)
+* [Face Recognition Application Development](../../Motherboard/Face-RK3399/face_sdk_v2_0.md)
 
 ## Facial recognition apk source code supply
 Basic demo is supplyed on resource download page.To send purchase information and order number{sales@t-firefly.com},Firefly will email you with the newest source code.
