@@ -42,11 +42,10 @@ AIO-3288C use the following serial parameters:
 
 Download driver and install:
 
-* [CH340](https://sparks.gogo.co.nz/ch340.html)
-* [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
-* [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+* [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+* [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+* [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
-If you can’t use PL2303 normally on Win8, use 3.3.5.122 or older version of the old driver, please refer to [This article](https://blog.csdn.net/ropai/article/details/19619951). Please find drivers with version 3.3.5.122 or before.
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 

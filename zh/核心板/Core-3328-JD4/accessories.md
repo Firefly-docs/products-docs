@@ -7,7 +7,7 @@
 * 尺寸：29mm*19mm
 
 #### 技术资料 
-驱动下载：[http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+驱动下载：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 #### 实物图
 ![](../../../rk3328_img/Core-3328-JD4/module_transform1.jpg)
 #### 连接方法

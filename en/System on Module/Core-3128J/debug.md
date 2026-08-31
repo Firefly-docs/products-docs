@@ -39,11 +39,10 @@ The following serial port parameters are used by the Firefly-RK3128:
 
 Download the driver and install it:
 
-* [CP2104](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-* CH340 [[1]](https://sparks.gogo.co.nz/ch340.html)
-* PL2303 [[2]](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+* [CP2104](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
+* CH340 [[1]](https://www.wch.cn/downloads/CH341SER_EXE.html)
+* PL2303 [[2]](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
-If PL2303 does not works under Win8, please find drivers with version 3.3.5.122 or before.  
 Once the adapter is plugged in, you are prompted to discover the new hardware and initialize it, then you can find the corresponding COM port in the device manager: 
 ![](../../../rk3128_img/Core-3128J/win_com.png)
 

@@ -162,11 +162,10 @@ AIO-1684XJD4 DEBUG port:
 
 Download the driver and install:
 
-* [CH340](https://sparks.gogo.co.nz/ch340.html)
+* [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
 * [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
-* [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+* [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
-If you install the CP210X driver from the official website on the Windows system, use tools such as PUTTY or SecureCRT to set the serial port baud rate to 115200. If the setting cannot be set or is invalid, you can download the old version [driver](http://www.t-firefly.com/share/index/index/id/a2e8f25f3d53992bf3e04f45b0e6c8e8.html).
 
 After inserting the adapter, the system will prompt to discover new hardware and initialize it, and then you can find the corresponding COM port in the device manager:
 

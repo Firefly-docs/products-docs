@@ -32,13 +32,10 @@ AIO-1808-JD4 uses the following serial port parameters:
 ## Use serial debuge on Windows
 ### Install the driver
 Download driver and install:
-* [CH340](https://sparks.gogo.co.nz/ch340.html)
-* [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
-* [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+* [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+* [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+* [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
-If you can't use PL2303 normally on Win8, use 3.3.5.122 or older version of the old driver, please refer to [This article](http://blog.csdn.net/ropai/article/details/19619951).
-
-If you install the CP210X driver from the official website on the Windows system, you can set the serial port baud rate to 1500000 using tools such as PUTTY or SecureCRT. If you cannot set the baud rate or it is invalid, you can download the old version [driver](http://t-firefly.oss-cn-hangzhou.aliyuncs.com/product/Tools/Driver/CP210X/CP210x_VCP_Windows.zip).
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
@@ -47,7 +44,7 @@ After the adapter is inserted, the system will prompt for the discovery of new h
 ### Install software
 
 Putty or SecureCRT are commonly used for Windows. Putty is open source software and SecureCRT is used in a similar way.
-Here to [Download putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)(Recommended download ` putty.zip `, it contains other useful tools.)
+Here to [Download putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)(Recommended download ` putty.zip `, it contains other useful tools.)
 
 Extract and run `PUTTY.exe`.
   * Select "Connection type" to "Serial".

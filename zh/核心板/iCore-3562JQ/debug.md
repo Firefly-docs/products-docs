@@ -45,9 +45,9 @@ AIO-3562JQ 使用以下串口参数：
 
 下载驱动并安装:
 
-* [CH340](https://sparks.gogo.co.nz/ch340.html)
-* [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
-* [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+* [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+* [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+* [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 

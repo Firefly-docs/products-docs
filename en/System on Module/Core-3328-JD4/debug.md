@@ -101,11 +101,9 @@ Next, depending on the OS you are using, we'll guide you through the detailed st
 
 Use the recommended driver from your USB serial adapter vendor. If not available, you can check the chipset and try the following drivers:
 
-- [CH340](http://www.wch.cn/downloads.php?name=pro&proid=5)
-- [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
-- [CP210X](http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx)
-
-> Tips: If PL2303 does not work under Win8, you can try to downgrade the driver to version 3.3.5.122 or before.
+- [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+- [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+- [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
 After installing the driver, connect the adapter to the USB port. The OS will prompt that a new hardware is detected. When it finishes, you can find the new COM port in the device manager.
 
@@ -115,7 +113,7 @@ After installing the driver, connect the adapter to the USB port. The OS will pr
 
 There are many serial console utilities in Windows, such as putty and SecureCRT. Putty, a popular opensource software, is taken as an example here.
 
-> [Putty Download Page](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+> [Putty Download Page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 Download `putty.zip`, extract it and run `PUTTY.exe`.
 

@@ -39,13 +39,11 @@ AIO-1808-JD4 使用以下串口参数：
 
 下载驱动并安装:
 
-* [CH340](https://sparks.gogo.co.nz/ch340.html)
-* [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
-* [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+* [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+* [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+* [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
-如果在 Win8 上不能正常使用 PL2303，参考[这篇文章](http://blog.csdn.net/ropai/article/details/19619951)， 采用 3.3.5.122 或更老版本的旧驱动即可。  
 
-如果在 Windows 系统上安装官网的CP210X驱动，使用PUTTY或SecureCRT等工具设置串口波特率为1500000，如果出现设置不了或无效的问题，可以下载旧版本[驱动](http://t-firefly.oss-cn-hangzhou.aliyuncs.com/product/Tools/Driver/CP210X/CP210x_VCP_Windows.zip)
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：   
 ![](../../../rk1808_img/debug2.png)
@@ -53,7 +51,7 @@ AIO-1808-JD4 使用以下串口参数：
 ### 安装软件
 
 Windows 上一般用 putty 或 SecureCRT。其中 putty 是开源软件，在这里介绍一下，SecureCRT 的使用方法与之类似。
-到这里[下载 putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)，建议下载 `putty.zip`，它包含了其它有用的工具。
+到这里[下载 putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)，建议下载 `putty.zip`，它包含了其它有用的工具。
 
 解压后运行 PUTTY.exe，选择 Connection type（连接类型）为 Serial（串口），将 Serial line（串口线）设置成设备管理器所看到的  COM 口，并将 Speed（波特率）设置为 1500000，按 Open（打开）即可:
 

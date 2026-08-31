@@ -11,7 +11,7 @@ Product Parameter
 
 ### Reference material
 
-Download driver：[http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+Download driver：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 ### Picture
 

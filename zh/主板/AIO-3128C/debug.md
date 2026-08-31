@@ -36,11 +36,10 @@ AIO-3128C 使用以下串口参数：
 ## Windows 上使用串口调试
 ### 安装驱动
 下载驱动并安装:  
-* [CP2104](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) 
-* CH340 [[1]](https://sparks.gogo.co.nz/ch340.html) 
-* PL2303 [[2]](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41) 
+* [CP2104](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
+* CH340 [[1]](https://www.wch.cn/downloads/CH341SER_EXE.html)
+* PL2303 [[2]](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
-如果在 Win8 上不能正常使用 PL2303，参考这篇[文章](https://blog.csdn.net/ropai/article/details/19619951)， 采用 3.3.5.122 或更老版本的旧驱动即可。  
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：  
 ![](../../../rk3128_img/AIO-3128C/win_com.png) 
 
@@ -102,4 +101,4 @@ Terminal ready
 * Ctrl-y ：切换奇偶校验 （偶 even, 奇 odd, 无 none）  
 * Ctrl-b : 切换数据位 （5, 6, 7, 8）  
 * Ctrl-c ：切换本地回显（local-echo）开关  
-* Ctrl-v ：显示当前串口参数和状态  
+* Ctrl-v ：显示当前串口参数和状态

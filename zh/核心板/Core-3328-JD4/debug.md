@@ -108,11 +108,9 @@ fiq-debugger {
 
 安装卖家推荐的 USB 串口适配器驱动。如果没有，可以检查芯片组并尝试以下驱动
 
-- [CH340](http://www.wch.cn/downloads.php?name=pro&proid=5)
-- [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
-- [CP210X](http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx)
-
-> 提示：如果 PL2303 在 Win8 下无法工作，则可以尝试将驱动程序降级到版本 3.3.5.122 或之前。
+- [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+- [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+- [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
 安装驱动后，将适配器连接到主机的 USB 端口。操作系统将提示检测到新硬件。完成后，可以在设备管理器中找到新的COM端口：
 
@@ -122,7 +120,7 @@ fiq-debugger {
 
 Windows 中有很多串口终端工具，例如 putty 和 SecureCRT。以下介绍Putty这款流行的开源软件的使用。
 
-> [Putty 下载地址](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+> [Putty 下载地址](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 下载 `putty.zip`，解压并运行 `PUTTY.exe`：
 

@@ -9,7 +9,7 @@ Product Parameter
 
 Reference material
 
-* [Driver link](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+* [Driver link](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 Picture
 

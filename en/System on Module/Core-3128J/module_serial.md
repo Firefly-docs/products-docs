@@ -11,7 +11,7 @@
 
 ### Reference material  
 
-* [Download driver](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)  
+* [Download driver](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 * [Senial debug tutorial](../../Accessories/USB-TO-TTL-Serial/started.md)
 
 ### Picture
@@ -21,5 +21,4 @@
 ### Connection Method
 
 ![](../../../rk3128_img/Core-3128J/module_serial3.jpg)
-
 

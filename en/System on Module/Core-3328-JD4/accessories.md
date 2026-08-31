@@ -8,7 +8,7 @@
 * **size:** 29mm*19mm
 
 #### Technical data
-Driver download: [http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+Driver download: [https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 #### Real figure
 ![](../../../rk3328_img/Core-3328-JD4/module_transform1.jpg)

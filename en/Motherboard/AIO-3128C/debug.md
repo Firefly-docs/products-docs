@@ -44,11 +44,10 @@ The following serial port parameters are used by the AIO-3128C:
 
 Download driver and install:
 
-* [CP2104](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-* CH340 [[1]](https://sparks.gogo.co.nz/ch340.html)
-* PL2303 [[2]](http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41)
+* [CP2104](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
+* CH340 [[1]](https://www.wch.cn/downloads/CH341SER_EXE.html)
+* PL2303 [[2]](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
-If PL2303 does not works under Win8, please find drivers with version 3.3.5.122 or before.  
 Plug in the adapter. OS will prompt that new hardware is found and being initialized. When it finish, you can find the new COM port in the Device Manager:  
 ![](../../../rk3128_img/AIO-3128C/win_com.png)
 
