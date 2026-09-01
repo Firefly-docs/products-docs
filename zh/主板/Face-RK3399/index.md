@@ -8,7 +8,6 @@
 - [MaskRom模式](maskrom_mode.md)
 # Linux开发
 - [编译 Linux 固件](linux_compile_gpt.md)
-- [Firefly Linux 开发指南](firefly_linux_guide.md)
 - [技术案例](more_technical_cases_show.md)
 # Android开发
 - [ADB 使用](adb_use.md)

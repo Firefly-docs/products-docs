@@ -9,7 +9,6 @@
 - [Instructions for writing with USB cable (important)](02-upgrade_table.md)
 # Linux
 - [Compile Linux firmware](linux_compile_gpt.md)
-- [Firefly Linux User Guide](firefly_linux_guide.md)
 - [Technical cases](more_technical_cases_show.md)
 # Android
 - [ADB use](adb_use.md)

@@ -34,7 +34,7 @@ adb shell
 
 ## Adb Installation under Windows
 
-First, please reference [Install RK USB driver](03-upgrade_firmware.html#windows) to get the driver ready.
+First, please reference [Install RK USB driver](upgrade_firmware.html#windows) to get the driver ready.
 
 Then download [adb.zip](https://drive.google.com/file/d/1ySJ4De-Lmo3MhsXLfGc28yfXihW3ahtP/view?usp=sharing), and uncompress it to `C:\adb` to ease later use.
 

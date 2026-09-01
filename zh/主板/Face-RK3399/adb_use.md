@@ -35,8 +35,7 @@ adb shell
 ```
 
 ## Windows下的 ADB 安装
-
-首先参照[安装 RK USB 驱动](03-upgrade_firmware.html#an-zhuang-rk-usb-qu-dong)一节安装好驱动。
+首先参照[安装 RK USB 驱动](upgrade_firmware.md#an-zhuang-rk-usb-qu-dong)一节安装好驱动。
 
 然后下载 [adb.zip](https://pan.baidu.com/s/1CpbEy7yFnyRsXPqeekgL9A?pwd=1234)，解压到 `C:\adb` 以方便调用。
 
