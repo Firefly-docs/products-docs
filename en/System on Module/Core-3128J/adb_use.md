@@ -12,7 +12,7 @@ Use a micro USB OTG cable to connnect development board and host.
 ## ADB installation for Windows
 
 First, please reference Install RK USB driver to get the  driver ready.  
-Then go to [http://adbshell.com/download/download-adb-for-windows.html]( http://adbshell.com/download/download-adb-for-windows.html) to download adb.zip , uncompress it to `C:\adb` to ease later use.    
+Then download [adb.zip](https://drive.google.com/file/d/1ySJ4De-Lmo3MhsXLfGc28yfXihW3ahtP/view?usp=sharing), and uncompress it to `C:\adb` to ease later use.
 Open a cmd window, input:  
 
 ```

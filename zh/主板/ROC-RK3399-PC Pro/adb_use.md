@@ -38,7 +38,7 @@ adb shell
 
 首先参照[安装 RK USB 驱动](03-upgrade_firmware.html#an-zhuang-rk-usb-qu-dong)一节安装好驱动。
 
-然后到 [http://www.t-firefly.com/share/index/index/id/6afafdf7c54b8eb95e81156d94e54db5.html](http://www.t-firefly.com/share/index/index/id/6afafdf7c54b8eb95e81156d94e54db5.html) 下载 `adb.zip`，解压到 `C:\adb` 以方便调用。
+然后下载 [adb.zip](https://pan.baidu.com/s/1CpbEy7yFnyRsXPqeekgL9A?pwd=1234)，解压到 `C:\adb` 以方便调用。
 
 打开命令行窗口，输入：
 

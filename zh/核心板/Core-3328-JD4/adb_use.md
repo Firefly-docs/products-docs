@@ -13,7 +13,7 @@
 ### Adb 在 Windows 下的安装
 
 1. 安装 [Rockusb 驱动]。
-2. 下载 [adb.zip](http://adbshell.com/upload/adb.zip)，然后解压到 `C:\adb`。
+2. 下载 [adb.zip](https://pan.baidu.com/s/1CpbEy7yFnyRsXPqeekgL9A?pwd=1234)，然后解压到 `C:\adb`。
 
 打开 `cmd` 窗口然后运行:
 

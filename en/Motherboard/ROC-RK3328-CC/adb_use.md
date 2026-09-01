@@ -16,7 +16,7 @@ In order to use `adb`, you need to:
 ### Adb Installation in Windows
 
 1. Install [Rockusb Driver].
-2. Download [adb.zip](http://adbshell.com/upload/adb.zip), then unzip it to `C:\adb` for convenience.
+2. Download [adb.zip](https://drive.google.com/file/d/1ySJ4De-Lmo3MhsXLfGc28yfXihW3ahtP/view?usp=sharing), then unzip it to `C:\adb` for convenience.
 
 Open a `cmd` window and run:
 

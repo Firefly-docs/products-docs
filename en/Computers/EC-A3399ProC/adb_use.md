@@ -23,7 +23,7 @@ adb shell
 
 First, please reference [Install RK USB driver](03-upgrade_firmware.html#windows) to get the driver ready.
 
-Then go to [http://www.t-firefly.com/share/index/index/id/6afafdf7c54b8eb95e81156d94e54db5.html](http://www.t-firefly.com/share/index/index/id/6afafdf7c54b8eb95e81156d94e54db5.html) to download `adb.zip`, uncompress it to `C:\adb` to ease later use.
+Then download [adb.zip](https://drive.google.com/file/d/1ySJ4De-Lmo3MhsXLfGc28yfXihW3ahtP/view?usp=sharing), and uncompress it to `C:\adb` to ease later use.
 
 Open a cmd window, input:
 

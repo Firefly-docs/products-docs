@@ -24,7 +24,7 @@ adb shell
 ### Windows下的 ADB 安装
 
 首先参照[安装 RK USB 驱动](upgrade_firmware.html#windows)一节安装好驱动。  
-然后到 [http://adbshell.com/download/download-adb-for-windows.html](http://adbshell.com/download/download-adb-for-windows.html) 下载 adb.zip，解压到`C:\adb`以方便调用。
+然后下载 [adb.zip](https://pan.baidu.com/s/1CpbEy7yFnyRsXPqeekgL9A?pwd=1234)，解压到`C:\adb`以方便调用。
 打开命令行窗口，输入：  
 ```
 cd C:\adb
