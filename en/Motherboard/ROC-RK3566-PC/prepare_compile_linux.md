@@ -8,7 +8,9 @@ This chapter introduces the compilation environment of the Linux SDK
 
 **(1) It is recommended to develop in the Ubuntu 18.04 system environment. If other system versions are used, the compilation environment may need to be adjusted accordingly.**
 
-**(2) Compile with ordinary user, do not compile with root user authority.** </font>
+**(2) Compile with ordinary user, do not compile with root user authority.**
+
+</font>
 
 ### Download Firefly_Linux_SDK
 

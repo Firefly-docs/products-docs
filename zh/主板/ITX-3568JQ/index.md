@@ -10,9 +10,6 @@
 - [切换升级存储器](03-upgrade_firmware_with_flash.md)
 - [使用SD卡升级固件](05-upgrade_firmware_sd.md)
 # Linux开发
-- [<!--](<!--.md)
-- [编译 Linux4.19 固件](linux_compile.md)
-- [-->](-->.md)
 - [编译 Linux5.10 固件](linux_compile_linux5.10.md)
 - [技术案例](technical_cases.md)
 # Android开发

@@ -10,9 +10,6 @@
 - [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md)
 - [Upgrade the firmware via SD card](05-upgrade_firmware_sd.md)
 # Linux
-- [<!--](<!--.md)
-- [Compile Linux4.19 firmware](linux_compile.md)
-- [-->](-->.md)
 - [Compile Linux5.10 firmware](linux_compile_linux5.10.md)
 - [Technical Case](technical_cases.md)
 # Android
