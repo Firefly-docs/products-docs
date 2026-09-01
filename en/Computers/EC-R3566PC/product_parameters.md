@@ -1,6 +1,5 @@
 # Product interfaces
 
-![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_info3.jpg)
 ![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_info2.png)
 ![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_info1.png)
 
