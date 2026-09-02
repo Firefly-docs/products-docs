@@ -9,7 +9,7 @@ Compiling Android requires high machine configuration:
 * 16GB physical memory + swap memory
 * 30GB of free disk space is used for building, the source tree occupies another 25GB, if you want to compile the source code, you need 150GB of disk space.
 
-Rockchip officially recommends the Ubuntu 14.04 operating system, but the system is relatively old and no longer maintained, so Ubuntu 16.04 or 18.04 is recommended here. It only needs to meet [http://source.android.com/source/building.html](http ://source.android.com/source/building.html) can be configured in the software and hardware.
+Rockchip officially recommends the Ubuntu 14.04 operating system, but the system is relatively old and no longer maintained, so Ubuntu 16.04 or 18.04 is recommended here. It only needs to meet [http://source.android.com/source/building.html](http://source.android.com/source/building.html) can be configured in the software and hardware.
 
 The initialization of the compilation environment can refer to [http://source.android.com/source/initializing.html](http://source.android.com/source/initializing.html) 。
 
