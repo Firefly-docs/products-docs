@@ -25,4 +25,4 @@ Notes:
 
 - Ensure that the cooling fan is installed correctly.
 
-[Download Center]: https://community.t-firefly.com/doc/download/226
+[Download Center]: https://community.t-firefly.com/doc/download/250

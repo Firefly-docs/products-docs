@@ -20,7 +20,7 @@ There are two types of firmware files:
 
 * A single unified firmware `update.img` that packs the boot loader, parameters, and all partition images together for firmware publishing.
 * Multiple partition images, such as `kernel.img`, `rootfs.img`, `recovery.img`, etc. are generated in the development stage.
-* You can find the compiled unified [Face-RK3399 firmware](https://community.t-firefly.com/en/doc/download/66) here, download it and unpack it. You can also refer to the instructions for compiling firmware to compile by yourself.
+* You can find the compiled unified [Face-RK3399 firmware](https://community.t-firefly.com/en/doc/download/72) here, download it and unpack it. You can also refer to the instructions for compiling firmware to compile by yourself.
 
 Host operating system support:
 
@@ -31,11 +31,11 @@ Host operating system support:
 
 ### Windows
 
-* Tool: [AndroidTool_Release_v2.63](https://community.t-firefly.com/en/doc/download/66)
+* Tool: [AndroidTool_Release_v2.63](https://community.t-firefly.com/en/doc/download/72)
 
 #### Install RK USB drive
 
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/66), extract, and then run the `DriverInstall.exe` inside .
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/72), extract, and then run the `DriverInstall.exe` inside .
 
 In order for all devices to use the updated driver, first select `驱动卸载(Driver uninstall)` and then select `驱动安装(Driver install)`.
 
@@ -57,7 +57,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 ### Upgrade firmware
 
-Download [AndroidTool](https://community.t-firefly.com/en/doc/download/66). AndroidTool defaults to display in Chinese. We need to change it to English. Open `config.ini` with an text editor (like notepad). The starting lines are:
+Download [AndroidTool](https://community.t-firefly.com/en/doc/download/72). AndroidTool defaults to display in Chinese. We need to change it to English. Open `config.ini` with an text editor (like notepad). The starting lines are:
 
 ```
 #选择工具语言:Selected=1(Chinese);Selected=2(English)
@@ -111,7 +111,7 @@ There is no need to install device driver under Linux. Please refer to the Windo
 
 #### Upgrade_tool
 
-Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/66), And install it into the system as follows for easy invocation:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/72), And install it into the system as follows for easy invocation:
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip

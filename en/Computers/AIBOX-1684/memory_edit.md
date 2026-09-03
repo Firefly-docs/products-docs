@@ -81,4 +81,4 @@ sync
 sudo reboot
 ```
 
-[Download Center]: https://community.t-firefly.com/en/doc/download/290
+[Download Center]: https://community.t-firefly.com/en/doc/download/280

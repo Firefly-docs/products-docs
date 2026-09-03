@@ -57,7 +57,7 @@ This module does not support voice calls and SMS, if you need support, please co
 ![](../../../modules_img/EG25/EG25_sim.png)
 
 # 三、Firmware and Resource download
-Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/201)
+Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/171)
 
 
 # 四、Tutorial

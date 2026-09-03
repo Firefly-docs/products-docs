@@ -3,7 +3,7 @@
 ### 下载 Android SDK
 
 由于 Android SDK 源码包比较大,可以通过如下方式获取Android9.0源码包：
-[下载链接](https://community.t-firefly.com/doc/download/61#other_333)
+[下载链接](https://community.t-firefly.com/doc/download/65#other_333)
 
 下载完成后，在解压前先校验下 MD5 码：
 ```
@@ -139,7 +139,7 @@ lunch rk3399pro_firefly_aiojd4-userdebug
 make -j8
 ./mkimage.sh
 ```
-[下载链接]:https://community.t-firefly.com/doc/download/61
+[下载链接]:https://community.t-firefly.com/doc/download/65
 
 
 ## 分区镜像

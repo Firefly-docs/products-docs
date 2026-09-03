@@ -72,7 +72,7 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=${WIDT
 wait
 ```
 ## 3. Firmware and Resource Download
-Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/178)
+Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/206)
 ## 4. Tutorial
 ### Flash firmware
 

@@ -24,7 +24,7 @@ Supported host OS:
  * Linux (32/64bit)
 
 ### Install RK USB Driver
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/65), then "驱动安装"(Driver install).), uncompress it, then run DriverInstall.exe inside.  
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/71), then "驱动安装"(Driver install).), uncompress it, then run DriverInstall.exe inside.  
 
 In order to use new driver for all the rockchip devices, please select "驱动卸载"(Driver uninstall), then "驱动安装"(Driver install).  
 
@@ -52,16 +52,16 @@ The host will prompt to have new device detected and configured. Open the Device
 
 ### Download Firmware
 
-* [Firmware Download Page](https://community.t-firefly.com/en/doc/download/62)
+* [Firmware Download Page](https://community.t-firefly.com/en/doc/download/68)
 
 ### Download Tool for upgrade
 Windows OS:
 
-Linux(GPT) or Android8.1： [AndroidTool_v2.58](https://community.t-firefly.com/en/doc/download/62)
+Linux(GPT) or Android8.1： [AndroidTool_v2.58](https://community.t-firefly.com/en/doc/download/68)
 
 Linux OS:
 
-Linux(GPT) or Android8.1： [Upgrade_tool_v1.34](https://community.t-firefly.com/en/doc/download/62)
+Linux(GPT) or Android8.1： [Upgrade_tool_v1.34](https://community.t-firefly.com/en/doc/download/68)
 
 ## Flash Image in Windows
 Download AndroidTool,and Uncompress it . AndroidTool defaults to display in Chinese. We need to change it to English. Open config.ini with an text editor (like notepad). The starting lines are:

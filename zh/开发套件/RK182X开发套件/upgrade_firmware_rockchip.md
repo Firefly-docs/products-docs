@@ -7,11 +7,11 @@
 ### 准备设备
 
 * RK182X开发套件 开发板
-* [固件](https://community.t-firefly.com/doc/download/369)
+* [固件](https://community.t-firefly.com/doc/download/358)
 * 主机电脑
 * Type-A 数据线
 
-固件可以通过编译 SDK 获得，也可以从[资源下载页面](https://community.t-firefly.com/doc/download/369)下载公版统一固件。
+固件可以通过编译 SDK 获得，也可以从[资源下载页面](https://community.t-firefly.com/doc/download/358)下载公版统一固件。
 
 ### 固件格式
 
@@ -26,12 +26,12 @@
 
 #### Windows
 
-1. 下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/369)，解压后运行 `DriverInstall.exe`。
+1. 下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/358)，解压后运行 `DriverInstall.exe`。
 2. 为确保所有设备使用更新后的驱动，请先选择“驱动卸载”，再选择“驱动安装”。
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_install_rk_usb.jpg)
 
-3. 可以单独下载 [AndroidTool](https://community.t-firefly.com/doc/download/369)，解压后运行 `RKDevTool_Release_v2.xx` 目录中的 `RKDevTool.exe`。如果使用 Windows 7/8，请以管理员身份运行。
+3. 可以单独下载 [AndroidTool](https://community.t-firefly.com/doc/download/358)，解压后运行 `RKDevTool_Release_v2.xx` 目录中的 `RKDevTool.exe`。如果使用 Windows 7/8，请以管理员身份运行。
 
 为避免烧写工具版本导致烧写失败，建议优先使用公版固件压缩包中自带的工具：
 
@@ -51,7 +51,7 @@ ITX-3588J_Android12_HDMI_220308
 
 Linux 下无需安装设备驱动。
 
-下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/369)，并安装到系统中：
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/358)，并安装到系统中：
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -61,7 +61,7 @@ sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
-下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/369)，并安装到系统中：
+下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/358)，并安装到系统中：
 
 ```
 sudo mv adb /usr/local/bin

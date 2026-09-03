@@ -4,7 +4,7 @@
 
 **The source code package of the Android SDK is large (approximately 6.3G), and the source code package can be obtained by:**
 
-* [[Download Link]](https://community.t-firefly.com/en/doc/download/47)
+* [[Download Link]](https://community.t-firefly.com/en/doc/download/51)
 
 verify the MD5 code when the download is complete:  
 

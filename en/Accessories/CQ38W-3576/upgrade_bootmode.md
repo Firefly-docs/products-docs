@@ -10,7 +10,7 @@ If the accident appeared in the process of upgrading, bootloader damage, leading
 
 
 ## How to get the Firmwares
-*   [Firmware download link](https://community.t-firefly.com/en/doc/download/354)
+*   [Firmware download link](https://community.t-firefly.com/en/doc/download/342)
 
 
 ## Upgrade method

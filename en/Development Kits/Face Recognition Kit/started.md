@@ -19,8 +19,8 @@ For more information about the development kit platform, search for [Baidu Face 
 
 No compilation is required. You can directly download and use ready-made firmware.
 
-* [AIO-3399J 10.1-inch screen firmware download](https://community.t-firefly.com/en/doc/download/45)
-* [AIO-3399C 10.1-inch screen firmware download](https://community.t-firefly.com/en/doc/download/45)
+* [AIO-3399J 10.1-inch screen firmware download](https://community.t-firefly.com/en/doc/download/48)
+* [AIO-3399C 10.1-inch screen firmware download](https://community.t-firefly.com/en/doc/download/48)
 * [Face Recognition App Download](http://www.t-firefly.com/share/index/index/id/a6d7830a6f4f1146159b49a324172c67.html)
 
 Notice:

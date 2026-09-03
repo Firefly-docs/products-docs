@@ -72,7 +72,7 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/45)
+[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/48)
 
 ### Real figure
 

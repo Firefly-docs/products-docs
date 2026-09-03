@@ -56,7 +56,7 @@ cd ~/proj/RK3576_Android14.0
 git rebase FETCH_HEAD
 ```
 
-下载页面选择云盘下载 [Android14.0 Bundle](https://community.t-firefly.com/doc/download/142)。
+下载页面选择云盘下载 [Android14.0 Bundle](https://community.t-firefly.com/doc/download/164)。
 
 <!-- #2. 下载远程 bundle 仓库
 git clone https://gitlab.com/T-Firefly/rk3576-android14.0-bundle.git .bundle 

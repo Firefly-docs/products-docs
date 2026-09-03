@@ -30,8 +30,8 @@ Then choose the flashing tool according to your host PC's OS:
 
 
 * Tools download:
-  - [upgrade_tool](https://community.t-firefly.com/en/doc/download/62)
-  - [Android_tool](https://community.t-firefly.com/en/doc/download/62)  
+  - [upgrade_tool](https://community.t-firefly.com/en/doc/download/68)
+  - [Android_tool](https://community.t-firefly.com/en/doc/download/68)  
 * Firmware
   - <font color=#ff0000>Official firmware:</font> The Linux firmware provided by the official cloud disk,This includes firmware such as Ubuntu,Buildroot,Debian.the GPT firmware compiled with the new Linux SDK for GPT.
   - <font color=#ff0000>DIY firmware:</font>The firmware compiled according to [Compile Linux Firmware] is GPT Firmware  

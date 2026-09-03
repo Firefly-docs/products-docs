@@ -41,7 +41,7 @@ repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo
 
 * Method Two
 
-Download Firefly_Linux_SDK sub-volume compressed package: [Firefly_Linux_SDK Source](https://community.t-firefly.com/en/doc/download/89)
+Download Firefly_Linux_SDK sub-volume compressed package: [Firefly_Linux_SDK Source](https://community.t-firefly.com/en/doc/download/103)
 
 After downloading, verify the MD5 code:
 

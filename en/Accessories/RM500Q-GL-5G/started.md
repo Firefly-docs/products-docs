@@ -86,7 +86,7 @@
 ![](../../../modules_img/RM500Q-GL-5G/ec20_sim.png)
 
 # 三、Firmware and Resource download
-Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/118)。
+Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/133)。
 
 <!--
 ## 文档下载

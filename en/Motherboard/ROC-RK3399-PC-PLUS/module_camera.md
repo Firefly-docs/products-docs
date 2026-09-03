@@ -71,7 +71,7 @@ Modify according to the patch, recompile the kernel, then burn boot.img and rebo
 
 ### Reference firmware
 Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, please update the latest firmware.
-[Android7.1 Download link](https://community.t-firefly.com/en/doc/download/78)
+[Android7.1 Download link](https://community.t-firefly.com/en/doc/download/131)
 
 ### Physical map
 ![](../../../rk3399_img/cam_8ms1m_front.jpg)

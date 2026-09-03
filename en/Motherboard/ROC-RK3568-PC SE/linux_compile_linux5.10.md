@@ -45,7 +45,7 @@ repo init --no-clone-bundle --repo-url https://github.com/Firefly-rk-linux-utils
 
 * Method Two
 
-Download Firefly_Linux_SDK sub-volume compressed package: [rk356x_linux5.10_release_20241220_v1.4.0c](https://community.t-firefly.com/en/doc/download/157), follow the README document:
+Download Firefly_Linux_SDK sub-volume compressed package: [rk356x_linux5.10_release_20241220_v1.4.0c](https://community.t-firefly.com/en/doc/download/180), follow the README document:
 
 ```bash
 └── rk356x_linux5.10_release_xxx
@@ -248,7 +248,7 @@ Chose the configuration file you like, execute `build.sh` to make it effective:
 
 #### Download Ubuntu filesystem
 
-* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/157)，put in SDK path
+* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/180)，put in SDK path
 
 * Unzip
 

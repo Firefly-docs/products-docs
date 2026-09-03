@@ -21,7 +21,7 @@ EC-A3399ProC six-core 64-bit AI embedded host, based on AIO-3399ProC artificial 
 # Resources
 
 * [Manual](../../Motherboard/AIO-3399ProC/index.md) Includes firmware building, system usage, interface usage, and other tutorials (see the AIO-3399ProC Wiki)
-* [Download Page](https://community.t-firefly.com/en/doc/download/69) Includes firmware, root filesystems, and tool download links.
+* [Download Page](https://community.t-firefly.com/en/doc/download/76) Includes firmware, root filesystems, and tool download links.
 * [Forum](https://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100) Technical communication platform for over 100K corporate and individual users.
 
 ## Product technical support

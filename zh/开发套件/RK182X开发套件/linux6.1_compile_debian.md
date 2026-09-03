@@ -3,7 +3,7 @@
 本文介绍主核心模组 Debian 12 固件的编译方法。
 
 ### rootfs
-* 下载根文件系统：[Debian 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/301)，请使用网盘中 kernel-6.1 目录下的文件系统。
+* 下载根文件系统：[Debian 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/290)，请使用网盘中 kernel-6.1 目录下的文件系统。
 * 解压 rootfs 并链接 rootfs
 
 #### RK3588 

@@ -14,7 +14,7 @@
 
 ### Refer to the firmware
 
-* Note: The official firmware name supporting the 10.1 screen has the word "LVDS". Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/45)
+* Note: The official firmware name supporting the 10.1 screen has the word "LVDS". Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/48)
 
 ### Compile command
 
@@ -25,7 +25,7 @@
 
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/45)
+[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/48)
 
 ### Real figure
 
@@ -46,7 +46,7 @@
 
 ### Refer to the firmware
 
-* Note: The official firmware name supporting the 10.1 MIPI screen has the word "MIPI". Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/109)
+* Note: The official firmware name supporting the 10.1 MIPI screen has the word "MIPI". Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/125)
 
 ### Compile command
 
@@ -57,7 +57,7 @@
 
 ### Reference data
 
-[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/109)
+[[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/125)
 
 ### Real figure
 

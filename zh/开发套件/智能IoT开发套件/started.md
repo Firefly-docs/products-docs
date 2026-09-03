@@ -9,8 +9,8 @@
 ### Qt应用开发
 微型IoT主板搭配高分辨率显示屏进行Qt应用开发，SDK提供开源Qt应用程序包含音乐应用、视频应用、图片应用、设置应用
 * [Qt开发](../../../zh/核心板/Core-3308Y/qt_development.md)
-* [ROC-RK3308B-CC Qt固件下载](https://community.t-firefly.com/doc/download/67)
-* [ROC-RK3308B-CC-PLUS Qt固件下载](https://community.t-firefly.com/doc/download/67)
+* [ROC-RK3308B-CC Qt固件下载](https://community.t-firefly.com/doc/download/97)
+* [ROC-RK3308B-CC-PLUS Qt固件下载](https://community.t-firefly.com/doc/download/97)
 * [智能IoT套件购买链接](https://store.t-firefly.com/goods.php?id=125)
 
 ### 语音开发
@@ -25,7 +25,7 @@
 * [EC20模组购买链接](https://store.t-firefly.com/goods.php?id=49)
 
 ## 资源
-* [SDK下载](https://community.t-firefly.com/doc/download/67)
+* [SDK下载](https://community.t-firefly.com/doc/download/97)
 * 套件开发问题可到[Firefly智能IoT开发套件社区论坛](http://dev.t-firefly.com/forum-572-1.html)发帖
 * 主板平台问题可到[Firefly Core-3308Y社区论坛](http://dev.t-firefly.com/forum-499-1.html)发帖
 

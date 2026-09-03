@@ -20,7 +20,7 @@
 
 * 单个统一固件 update.img, 将启动加载器、参数和所有分区镜像都打包到一起，用于固件发布。
 * 多个分区镜像,如 kernel.img, rootfs.img, recovery.img 等，在开发阶段生成。
-* 可以在这里找到已编译好的统一[[Face-RK3399固件]](https://community.t-firefly.com/doc/download/66)，下载后解压。也可以参考编译固件的说明自行编译。
+* 可以在这里找到已编译好的统一[[Face-RK3399固件]](https://community.t-firefly.com/doc/download/72)，下载后解压。也可以参考编译固件的说明自行编译。
 
 主机操作系统支持：
 > * Windows XP （32/64位）
@@ -30,11 +30,11 @@
 
 ### Windows
 
-* 工具: [AndroidTool_Release_v2.63](https://community.t-firefly.com/doc/download/66)
+* 工具: [AndroidTool_Release_v2.63](https://community.t-firefly.com/doc/download/72)
 
 #### 安装 RK USB 驱动
 
-下载 [ Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/66) ，解压，然后运行里面的 DriverInstall.exe 。   
+下载 [ Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/72) ，解压，然后运行里面的 DriverInstall.exe 。   
 为了所有设备都使用更新的驱动，请先选择"驱动卸载"，然后再选择"驱动安装"。   
 
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware1.png)
@@ -55,7 +55,7 @@
 
 ### 烧写固件
 
-下载 [AndroidTool](https://community.t-firefly.com/doc/download/66)，解压，运行 AndroidTool_Release_v2.63 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图:
+下载 [AndroidTool](https://community.t-firefly.com/doc/download/72)，解压，运行 AndroidTool_Release_v2.63 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图:
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
 
 #### 烧写统一固件 update.img
@@ -92,11 +92,11 @@
 
  Linux 下无须安装设备驱动，参照 Windows 章节连接设备则可。
 
-* 工具:[Linux_Upgrade_Tool_1.34](https://community.t-firefly.com/doc/download/66)
+* 工具:[Linux_Upgrade_Tool_1.34](https://community.t-firefly.com/doc/download/72)
 
 #### upgrade_tool
 
-下载 [Linux_Upgrade_Tool_1.34](https://community.t-firefly.com/doc/download/66), 并按以下方法安装到系统中，方便调用：   
+下载 [Linux_Upgrade_Tool_1.34](https://community.t-firefly.com/doc/download/72), 并按以下方法安装到系统中，方便调用：   
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
 cd Linux_UpgradeTool_xxxx

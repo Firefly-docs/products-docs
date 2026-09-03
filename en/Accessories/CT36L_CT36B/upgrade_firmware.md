@@ -6,12 +6,12 @@ This article describes how to burn the firmware on the host computer into the me
 
 ## Preparation tools
 * CT36L/CT36B
-* [Firmware](https://community.t-firefly.com/en/doc/download/214)
+* [Firmware](https://community.t-firefly.com/en/doc/download/238)
 * Host
 * Good USB data cable
 
 ## Prepare firmware
-The firmware can be obtained by compiling the SDK, or you can download the public version firmware (unified firmware) from [Resource Download](https://community.t-firefly.com/en/doc/download/214). There are generally two types of firmware files:
+The firmware can be obtained by compiling the SDK, or you can download the public version firmware (unified firmware) from [Resource Download](https://community.t-firefly.com/en/doc/download/238). There are generally two types of firmware files:
 
 * Single unified firmware
 
@@ -31,7 +31,7 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
 
 * Install RK USB driver
 
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/214), unzip it, and then run DriverInstall.exe inside. In order for all devices to use updated drivers, please select `Driver Uninstall` first, and then select `Driver Installation`.
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/238), unzip it, and then run DriverInstall.exe inside. In order for all devices to use updated drivers, please select `Driver Uninstall` first, and then select `Driver Installation`.
 
 ![](../../../rv1106_img/common/upgrade_firmware_install_rk_usb.jpg)
 
@@ -43,9 +43,9 @@ Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/do
 
 ### Linux operating system
 No need to install device driver under Linux
-* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/214) tool
+* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/238) tool
 
-Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/214), and install it into the system as follows for easy calling:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/238), and install it into the system as follows for easy calling:
 
 ```
 cd Linux_Upgrade_Tool

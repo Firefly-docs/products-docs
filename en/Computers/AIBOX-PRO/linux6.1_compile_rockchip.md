@@ -21,7 +21,7 @@ Depand on **Main Module**, Please contact sales@t-firefly.com to get **RK3588 Ke
 <font color=red> Download SDK First. </font>
 
 ### rootfs
-* Download root filesystem: [Debian Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/420), please use the filesystem from the `kernel-6.1` directory.
+* Download root filesystem: [Debian Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/414), please use the filesystem from the `kernel-6.1` directory.
 * Extract rootfs and link it
 
 #### RK3588
@@ -60,7 +60,7 @@ The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-35
 <font color=red> Download SDK First. </font>
 
 ### rootfs
-* Download root filesystem: [Ubuntu Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/420), please use the filesystem from the `kernel-6.1` directory.
+* Download root filesystem: [Ubuntu Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/414), please use the filesystem from the `kernel-6.1` directory.
 * Extract rootfs and link it
 
 #### RK3588

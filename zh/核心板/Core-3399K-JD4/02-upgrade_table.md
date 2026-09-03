@@ -54,6 +54,6 @@ Core-3399-JD4 官方可能支持多种系统，因此会有烧写不同系统的
 
 
 
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/doc/download/101#windows_375
-[Androidtool_xxx(版本号)]: https://community.t-firefly.com/doc/download/101#other_248
-[RK3399_Android7.1_EraseIDB.7z]: https://community.t-firefly.com/doc/download/101#other_397
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/doc/download/66#windows_375
+[Androidtool_xxx(版本号)]: https://community.t-firefly.com/doc/download/66#other_248
+[RK3399_Android7.1_EraseIDB.7z]: https://community.t-firefly.com/doc/download/66#other_397

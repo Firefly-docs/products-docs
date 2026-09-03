@@ -14,11 +14,11 @@
 
 ### 参考固件
 
-官方的固件默认就是 MIPI_DSI 显示，下面是固件的链接：[固件链接](https://community.t-firefly.com/doc/download/222)
+官方的固件默认就是 MIPI_DSI 显示，下面是固件的链接：[固件链接](https://community.t-firefly.com/doc/download/247)
 
 ### 参考资料
 
-[屏幕模组 Datasheet & 转接板原理图](https://community.t-firefly.com/doc/download/109)
+[屏幕模组 Datasheet & 转接板原理图](https://community.t-firefly.com/doc/download/125)
 
 ### 实物图
 

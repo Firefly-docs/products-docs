@@ -20,7 +20,7 @@ Core-PX30-JD4 adopts px30 industrial grade 64-bit low-power processor, with powe
 
 ## Product sources
 
-* [Source address](https://community.t-firefly.com/en/doc/download/61)
+* [Source address](https://community.t-firefly.com/en/doc/download/65)
 
 * [Community Forum](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)
 

@@ -27,7 +27,7 @@ EC-A3399ProC 六核 64 位 AI 嵌入式主机，基于 AIO-3399ProC 人工智能
 # 产品资源
 
 * [开发使用文档](../../主板/AIO-3399ProC/index.md) 包含固件编译、系统使用、接口使用等教程（参考 AIO-3399ProC Wiki）
-* [资源下载页面](https://community.t-firefly.com/doc/download/69) 包括固件、文件系统以及各种工具的下载地址
+* [资源下载页面](https://community.t-firefly.com/doc/download/76) 包括固件、文件系统以及各种工具的下载地址
 * [技术交流论坛](http://dev.t-firefly.com/forum.php) 超过 10 万企业客户和用户沟通交流平台
 
 ## 产品技术支持

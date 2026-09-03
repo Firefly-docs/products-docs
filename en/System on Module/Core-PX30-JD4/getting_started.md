@@ -74,8 +74,8 @@ After confirming the correct connection of motherboard accessories, insert the p
 [Partition image]:getting_started.html#partition-image
 [Etcher]: upgrade_firmware_sd.html#Etcher
 [dd]: upgrade_firmware_sd.html#dd
-[AndroidTool]: https://community.t-firefly.com/en/doc/download/63
-[upgrade_tool]: https://community.t-firefly.com/en/doc/download/63
+[AndroidTool]: https://community.t-firefly.com/en/doc/download/67
+[upgrade_tool]: https://community.t-firefly.com/en/doc/download/67
 
 
 ## Senial debug

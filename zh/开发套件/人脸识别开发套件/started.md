@@ -19,8 +19,8 @@
 
 无需编译可以直接下载使用现成固件。
 
-* [AIO-3399J 10.1 寸屏固件下载](https://community.t-firefly.com/doc/download/45)
-* [AIO-3399C 10.1 寸屏固件下载](https://community.t-firefly.com/doc/download/45)
+* [AIO-3399J 10.1 寸屏固件下载](https://community.t-firefly.com/doc/download/48)
+* [AIO-3399C 10.1 寸屏固件下载](https://community.t-firefly.com/doc/download/48)
 * [人脸识别 APP 下载](http://www.t-firefly.com/share/index/index/id/a6d7830a6f4f1146159b49a324172c67.html)
 
 注意：

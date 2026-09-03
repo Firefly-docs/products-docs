@@ -11,7 +11,7 @@ If an accident occurs during the upgrade process and the bootloader is corrupted
 
 ## Firmware Acquisition
 
-* [Download](https://community.t-firefly.com/en/doc/download/386)
+* [Download](https://community.t-firefly.com/en/doc/download/376)
 
 ## Upgrade Method
 

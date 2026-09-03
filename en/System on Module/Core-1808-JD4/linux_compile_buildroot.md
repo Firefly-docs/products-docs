@@ -16,7 +16,7 @@ repo sync -c
 
 #### Method 2
 
-* Download the `REPO_SDK` package from the [download page](https://community.t-firefly.com/en/doc/download/73)</br>
+* Download the `REPO_SDK` package from the [download page](https://community.t-firefly.com/en/doc/download/83)</br>
 * Compare the MD5 code of the REPO_SDK package to verify the integrity, and then decompress it.</br>
 ```
 md5sum rk1808_linux_release_20210306.tgz

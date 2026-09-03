@@ -43,9 +43,9 @@
 
 * 烧写工具下载地址(根据下表下载对应版本)
 
-	- [upgrade_tool](https://community.t-firefly.com/doc/download/62) 
+	- [upgrade_tool](https://community.t-firefly.com/doc/download/68) 
 	
-	- [Android_tool](https://community.t-firefly.com/doc/download/62)
+	- [Android_tool](https://community.t-firefly.com/doc/download/68)
 
 
 ## 烧写须知

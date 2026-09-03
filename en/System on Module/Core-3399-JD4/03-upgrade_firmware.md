@@ -209,9 +209,9 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 ![](../../../rk3399_img/upgrade_downloadfail.jpg)
 
 [烧写须知]: 02-upgrade_table.md
-[Core-3399-JD4 firmware]: https://community.t-firefly.com/en/doc/download/60
-[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/60#other_343
-[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/60#windows_341
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/60#linux_12
-[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/60#linux_12
+[Core-3399-JD4 firmware]: https://community.t-firefly.com/en/doc/download/134
+[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/134#other_343
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/134#windows_341
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/134#linux_12
+[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/134#linux_12
 

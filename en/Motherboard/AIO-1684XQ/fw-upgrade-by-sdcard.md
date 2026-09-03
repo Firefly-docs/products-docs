@@ -28,4 +28,4 @@ Precautions:
 - The upgrade time is a bit long, about six minutes, please be patient.
 - The cooling fan must be installed correctly.
 
-[Download Center]: https://community.t-firefly.com/en/doc/download/195
+[Download Center]: https://community.t-firefly.com/en/doc/download/220

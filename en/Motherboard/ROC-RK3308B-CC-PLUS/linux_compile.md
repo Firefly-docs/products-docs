@@ -21,7 +21,7 @@ unzip device-tree-compiler python-pip ncurses-dev python-pyelftools
 
 * Method 1 (recommended)
 
-**Because the Firefly_Linux_SDK source code package is relatively large, some users' computers do not support files above 4G or the network transmission of a single file is slow, so we use the method of volume compression to package the SDK. Users can obtain the Firefly_Linux_SDK source package in the following ways: **[Firefly_Linux_SDK source package](https://community.t-firefly.com/doc/download/84)
+**Because the Firefly_Linux_SDK source code package is relatively large, some users' computers do not support files above 4G or the network transmission of a single file is slow, so we use the method of volume compression to package the SDK. Users can obtain the Firefly_Linux_SDK source package in the following ways: **[Firefly_Linux_SDK source package](https://community.t-firefly.com/doc/download/97)
 
 After the download is complete, verify the MD5 code first:
 
@@ -127,7 +127,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/rk3308-ubuntu_rootfs.img # root file system p
 
 #### Download Ubuntu root filesystem
 
-* Download the root file system: [Ubuntu root file system (64-bit)](https://community.t-firefly.com/en/doc/download/84), put it under the SDK path
+* Download the root file system: [Ubuntu root file system (64-bit)](https://community.t-firefly.com/en/doc/download/97), put it under the SDK path
 
 * Put the root file system in the `ubuntu_rootfs/` directory of the SDK
 

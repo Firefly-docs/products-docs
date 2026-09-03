@@ -3,7 +3,7 @@
 ### Download Android SDK
 
 Since the Android SDK source code package is relatively large, you can obtain the Android 9.0 source code package in the following ways:
-[Download link](https://community.t-firefly.com/en/doc/download/69#other_247)
+[Download link](https://community.t-firefly.com/en/doc/download/76#other_247)
 
 After the download is complete, verify the MD5 code before decompression：
 ```
@@ -139,7 +139,7 @@ lunch rk3399pro_firefly_aiojd4-userdebug
 make -j8
 ./mkimage.sh
 ```
-[EN_DOW_LINK]: https://community.t-firefly.com/en/doc/download/69
+[EN_DOW_LINK]: https://community.t-firefly.com/en/doc/download/76
 
 ## Partition mirroring
 

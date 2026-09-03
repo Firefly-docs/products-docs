@@ -3,10 +3,10 @@
 * [[Wiki]](../../Motherboard/ROC-RK3588-RT/index.md)
 Includes information on Android & Ubuntu driver development (see ROC-RK3588-RT Wiki)
 
-* [[SDK link]](https://community.t-firefly.com/en/doc/download/207) 
+* [[SDK link]](https://community.t-firefly.com/en/doc/download/233) 
 Android SDK source code
 
-* [[Firmware link]](https://community.t-firefly.com/en/doc/download/207) 
+* [[Firmware link]](https://community.t-firefly.com/en/doc/download/233) 
 Android Firmware
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

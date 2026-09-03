@@ -18,7 +18,7 @@ SD_Firmware_Tool 1.xx  为瑞芯微官方发布的SD卡烧录工具。
 
 
 ### 操作步骤如下：
-* 下载SD卡制作工具：[SD_Firmware_Tool](https://community.t-firefly.com/doc/download/47)
+* 下载SD卡制作工具：[SD_Firmware_Tool](https://community.t-firefly.com/doc/download/51)
 * 下载需要升级到主板上的统一固件。
 * 将MicroSD插入USB读卡器，再插入到电脑USB口上。
 * 打开SD_Firmware_Tool，勾选“固件升级”框，选择正确的可移动磁盘设备和升级固件。

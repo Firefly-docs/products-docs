@@ -12,7 +12,7 @@ AIO-3399ProC 有灵活的启动方式。一般情况下，除非硬件损坏，A
 
 ## 固件获取
 
-* [下载链接](https://community.t-firefly.com/doc/download/69)
+* [下载链接](https://community.t-firefly.com/doc/download/76)
 
 ## 升级方式
 

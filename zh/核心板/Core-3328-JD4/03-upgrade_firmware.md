@@ -51,15 +51,15 @@
 
 ### 固件下载
 
-* [固件下载页面](https://community.t-firefly.com/doc/download/62)
+* [固件下载页面](https://community.t-firefly.com/doc/download/68)
 
 ### 烧录工具下载
 
 Windows下：
-[AndroidTool_v2.58](https://community.t-firefly.com/doc/download/62)
+[AndroidTool_v2.58](https://community.t-firefly.com/doc/download/68)
 
 Linux下：  
-[Upgrade_Tool_v1.34](https://community.t-firefly.com/doc/download/62)
+[Upgrade_Tool_v1.34](https://community.t-firefly.com/doc/download/68)
 
 <a id="androidtool"></a>
 

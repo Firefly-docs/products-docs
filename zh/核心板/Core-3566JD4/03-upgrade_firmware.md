@@ -10,7 +10,7 @@
 * 良好的Type-C 数据线
 
 ## 准备固件
-固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/123)处下载公版固件（统一固件）。固件文件一般有两种：
+固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/136)处下载公版固件（统一固件）。固件文件一般有两种：
 
 * 单个统一固件
 
@@ -28,7 +28,7 @@
 ### Windows操作系统
 * 安装RK USB驱动
 
-下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/123)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
+下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/136)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 <center>
 
 ![](../../../rk356x_img/upgrade_firmware_install_RK_USB.png)
@@ -48,15 +48,15 @@ XXXX_Android11_HDMI_XXXX
     ├── DriverAssitant_v5.1.1.zip
     └── RKDevTool_Release_v2.81.zip
 ```
-也可以单独下载 [AndroidTool](https://community.t-firefly.com/doc/download/123)，解压，运行 `RKDevTool_Release_v2.xx` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
+也可以单独下载 [AndroidTool](https://community.t-firefly.com/doc/download/136)，解压，运行 `RKDevTool_Release_v2.xx` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
 ![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
 
 ### Linux操作系统
 Linux 下无须安装设备驱动
-* [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/123)工具
+* [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/136)工具
 
-下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/123), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/136), 并按以下方法安装到系统中，方便调用：
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -67,9 +67,9 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
 
-* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/123#other_615)工具
+* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/136#other_615)工具
 
-下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/123#other_615), 并按以下方法安装到系统中，方便调用：
+下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/136#other_615), 并按以下方法安装到系统中，方便调用：
 
 ```
 sudo mv adb /usr/local/bin

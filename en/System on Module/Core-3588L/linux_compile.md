@@ -43,7 +43,7 @@ repo init --no-clone-bundle --repo-url https://github.com/Firefly-rk-linux-utils
 
 * Method Two
 
-Download Firefly_Linux_SDK sub-volume compressed package: [Linux SDK](https://community.t-firefly.com/en/doc/download/140), follow the README document:
+Download Firefly_Linux_SDK sub-volume compressed package: [Linux SDK](https://community.t-firefly.com/en/doc/download/161), follow the README document:
 
 ```bash
 └── rk3588_linux_release_xxx
@@ -203,7 +203,7 @@ There are configuration files for different board in `device/rockchip/rk3588/`, 
 
 ##### Automatic compilation
 
-* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/140)，put in SDK path
+* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/161)，put in SDK path
 
 ```bash
 7z x ubuntu-aarch64-rootfs.7z
@@ -237,7 +237,7 @@ the firmware will be saved to the directory `rockdev/pack/`.
 ./build.sh recovery
 ```
 
-* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/140)，put in SDK path
+* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/161)，put in SDK path
 
 ```bash
 7z x ubuntu-aarch64-rootfs.7z
@@ -473,7 +473,7 @@ There are configuration files for different board in `device/rockchip/rk3588/`, 
 
 ##### Automatic compilation
 
-* Download: [Debian rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/140)，put in SDK path
+* Download: [Debian rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/161)，put in SDK path
 
 ```bash
 7z x debian_rk3588_rootfs_xxx.7z
@@ -507,7 +507,7 @@ the firmware will be saved to the directory `rockdev/pack/`.
 ./build.sh recovery
 ```
 
-* Download: [Debian rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/140)，put in SDK path
+* Download: [Debian rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/161)，put in SDK path
 
 ```bash
 7z x debian_rk3588_rootfs_xxx.7z

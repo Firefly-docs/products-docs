@@ -23,4 +23,4 @@ Firefly 定位模块支持 GPS、GLONASS 或北斗卫星定位，使用 UART/TTL
 
 在 Android 系统中使用定位模块前，需要在 `/vendor/build.prop` 中将 `ro.factory.hasGPS` 设为 `true`，并在 `/system/etc/u-blox.conf` 中配置模块对应的串口路径和波特率。修改后重启设备生效。
 
-相关文档和固件请查看官网[资料下载](https://community.t-firefly.com/doc/download/120)。
+相关文档和固件请查看官网[资料下载](https://community.t-firefly.com/doc/download/135)。

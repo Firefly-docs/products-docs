@@ -17,7 +17,7 @@
 
 ## 产品资源
 
-* [[Git 链接地址]](https://community.t-firefly.com/doc/download/63) Android SDK 源码
+* [[Git 链接地址]](https://community.t-firefly.com/doc/download/67) Android SDK 源码
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)超过10万企业客户和用户沟通交流平台
 

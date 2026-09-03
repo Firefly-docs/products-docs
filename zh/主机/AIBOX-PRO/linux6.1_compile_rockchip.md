@@ -21,7 +21,7 @@
 <font color=red> 先获取 SDK。 </font>
 
 ### rootfs
-* 下载根文件系统：[Debian 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/420)，请使用网盘中 kernel-6.1 目录下的文件系统。
+* 下载根文件系统：[Debian 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/414)，请使用网盘中 kernel-6.1 目录下的文件系统。
 * 解压 rootfs 并链接 rootfs
 
 #### RK3588 
@@ -60,7 +60,7 @@ cd ..
 <font color=red> 先获取 SDK。 </font>
 
 ### rootfs
-* 下载根文件系统：[Ubuntu 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/420)，请使用网盘中 kernel-6.1 目录下的文件系统。
+* 下载根文件系统：[Ubuntu 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/414)，请使用网盘中 kernel-6.1 目录下的文件系统。
 * 解压 rootfs 并链接 rootfs
 
 #### RK3588 

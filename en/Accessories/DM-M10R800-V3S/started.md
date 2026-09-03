@@ -45,7 +45,7 @@ Detailed Interface Definition Reference:
 
 
 # 3. Firmware and Resource download
-Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/303)
+Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/291)
 
 
 # 4. Tutorial

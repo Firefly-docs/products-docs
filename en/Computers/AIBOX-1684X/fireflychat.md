@@ -80,4 +80,4 @@ sudo systemctl disable FireflyChat
 sudo journalctl -u FireflyChat
 ```
 
-[Download Center]: https://community.t-firefly.com/en/doc/download/224
+[Download Center]: https://community.t-firefly.com/en/doc/download/248

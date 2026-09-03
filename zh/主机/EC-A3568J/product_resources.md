@@ -3,10 +3,10 @@
 * [[Wiki]](../../主板/AIO-3568J/index.md)
 包含 Android&Ubuntu 驱动开发等资料(参考 AIO-3568J Wiki)
 
-* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/95) 
+* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/108) 
 Android11.0 SDK 源码
 
-* [[固件 下载地址]](https://community.t-firefly.com/doc/download/95) 
+* [[固件 下载地址]](https://community.t-firefly.com/doc/download/108) 
 Android11.0 固件
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)

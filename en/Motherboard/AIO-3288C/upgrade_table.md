@@ -14,8 +14,8 @@ Due to differences in firmware of different systems, there may be some problems 
 
 ### Tools
 
-* **[Upgrade_tool](https://community.t-firefly.com/en/doc/download/47)**
-* **[Android_tool](https://community.t-firefly.com/en/doc/download/47)**
+* **[Upgrade_tool](https://community.t-firefly.com/en/doc/download/51)**
+* **[Android_tool](https://community.t-firefly.com/en/doc/download/51)**
 
 ## Instruction of upgrade Android5.1
 

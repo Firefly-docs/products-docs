@@ -1,8 +1,8 @@
-[Linux_adb_fastboot]: https://community.t-firefly.com/doc/download/93#other_615
-[RKDevTool]: https://community.t-firefly.com/doc/download/93#other_431
-[Androidtool_xxx(版本号)]: https://community.t-firefly.com/doc/download/93#other_431
-[Release_DriverAssistant.zip]: https://community.t-firefly.com/doc/download/93#other_432
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/doc/download/93#other_433
+[Linux_adb_fastboot]: https://community.t-firefly.com/doc/download/106#other_615
+[RKDevTool]: https://community.t-firefly.com/doc/download/106#other_431
+[Androidtool_xxx(版本号)]: https://community.t-firefly.com/doc/download/106#other_431
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/doc/download/106#other_432
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/doc/download/106#other_433
 # Windows 上升级固件
 
 ## 前言

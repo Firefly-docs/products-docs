@@ -10,7 +10,7 @@ ROC-RK3308B-CC-PLUS有灵活的启动方式。一般情况下，除非硬件损�
 
 
 ## 固件获取
-*	[下载链接](https://community.t-firefly.com/doc/download/84)
+*	[下载链接](https://community.t-firefly.com/doc/download/97)
 
 ## 升级方式
 ROC-RK3308B-CC-PLUS 支持通过以下方式升级固件：

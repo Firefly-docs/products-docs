@@ -54,6 +54,6 @@ ROC-RK3399-PC-PLUS 官方可能支持多种系统，因此会有烧写不同系�
 
 
 
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/doc/download/78#windows_375
-[Androidtool_xxx(版本号)]: https://community.t-firefly.com/doc/download/78#other_248
-[RK3399_Android7.1_EraseIDB.7z]: https://community.t-firefly.com/doc/download/78#other_397
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/doc/download/131#windows_375
+[Androidtool_xxx(版本号)]: https://community.t-firefly.com/doc/download/131#other_248
+[RK3399_Android7.1_EraseIDB.7z]: https://community.t-firefly.com/doc/download/131#other_397

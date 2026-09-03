@@ -18,7 +18,7 @@
 
 ## Resources
 
-* [Download Page](https://community.t-firefly.com/en/doc/download/229) Includes firmware, rootfs and tools download links.
+* [Download Page](https://community.t-firefly.com/en/doc/download/254) Includes firmware, rootfs and tools download links.
 * [Forum](https://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100) Tech communication platform for over 100K company and individual customers.
 
 ## Support

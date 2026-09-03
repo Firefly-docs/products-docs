@@ -27,7 +27,7 @@ make -j8 firefly-rk3288-aio-3288c_lvds.img
 
 ## 参考固件
 
-[AIO-3288C_LVDS](https://community.t-firefly.com/doc/download/45)
+[AIO-3288C_LVDS](https://community.t-firefly.com/doc/download/48)
 
 ### 接线方式
 

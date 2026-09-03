@@ -39,7 +39,7 @@ git pull gitlab firefly-rk3399:firefly-rk3399
 You can also view the source code online at the following address:
 [[https://gitlab.com/TeeFirefly/firenow-oreo-rk3399#]](https://gitlab.com/TeeFirefly/firenow-oreo-rk3399#)
 
-[Android8.1 SDK Source]: https://community.t-firefly.com/en/doc/download/69#other_100
+[Android8.1 SDK Source]: https://community.t-firefly.com/en/doc/download/76#other_100
 ## AIO-3399Pro-JD4 product compilation method
 
 ### HDMI display compilation

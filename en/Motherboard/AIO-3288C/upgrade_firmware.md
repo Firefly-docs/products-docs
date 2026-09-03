@@ -192,9 +192,9 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 ![](../../../rk3288_img/upgrade_downloadfail.jpg)
 
 ["Instruction of upgrade"]: upgrade_table.md
-[AIO-3288C firmware]: https://community.t-firefly.com/en/doc/download/47
-[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/47
-[Androidtool]: https://community.t-firefly.com/en/doc/download/47
-[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/47
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/47
-[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/47
+[AIO-3288C firmware]: https://community.t-firefly.com/en/doc/download/51
+[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/51
+[Androidtool]: https://community.t-firefly.com/en/doc/download/51
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/51
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/51
+[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/51

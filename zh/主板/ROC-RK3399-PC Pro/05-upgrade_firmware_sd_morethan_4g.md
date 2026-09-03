@@ -12,12 +12,12 @@
 
 <a id="SD_Firmware_Tool"></a>
 
-前往[SD固件工具下载页面](https://community.t-firefly.com/doc/download/127#other_541)下载`SD_Firmware_Tool`并解压。
+前往[SD固件工具下载页面](https://community.t-firefly.com/doc/download/145#other_541)下载`SD_Firmware_Tool`并解压。
 
 ## 运行`SD_Firmware_Tool.exe`
 ![](../../../rk3399_img/sdfirmwaretool.zh_CN.jpg)
 
-1. 下载SD卡制作工具：[SD_Firmware_Tool](https://community.t-firefly.com/doc/download/127#other_541)
+1. 下载SD卡制作工具：[SD_Firmware_Tool](https://community.t-firefly.com/doc/download/145#other_541)
 2. 可修改**config.ini**文件，设置`Selected=1`则语言为中文，设置`Selected=2`则语言为英文。
 3. 下载需要升级到主板上的统一固件。
 4. 将MicroSD插入USB读卡器，再插入到电脑USB口上。

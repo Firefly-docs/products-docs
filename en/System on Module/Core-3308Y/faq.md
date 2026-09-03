@@ -246,7 +246,7 @@ CONFIG_USB_VIDEO_CLASS_INPUT_EVDEV=y
 ### Windows mode
 
 * Install RKDevInfoWriteTool
-  * [Download address](https://community.t-firefly.com/en/doc/download/67)
+  * [Download address](https://community.t-firefly.com/en/doc/download/97)
 
 * Select "RPMB" in **settings** of RKDevInfoWriteTool
 
@@ -319,7 +319,7 @@ If you burn firmware fails.
 
 You can download the [Official Firmware](http://wiki.t-firefly.com/en/ROC-RK3308B-CC/resource.html#firmware) and burn this firmware in your device at [Maskrom mode](http://wiki.t-firefly.com/en/ROC-RK3308B-CC/maskrom_mode.html) to resume your device.
 
-Or, you can try it again on Windows with [AndroidTool](https://community.t-firefly.com/en/doc/download/53).
+Or, you can try it again on Windows with [AndroidTool](https://community.t-firefly.com/en/doc/download/97).
 
 ## Speech recognition Commercial development 
 

@@ -3,7 +3,7 @@
 This page describes how to build Debian 12 firmware for the main module.
 
 ### Rootfs
-* Download rootfs here [Debian rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/140), please use rootfs under kernel-6.1 folder.
+* Download rootfs here [Debian rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/161), please use rootfs under kernel-6.1 folder.
 * Decompress rootfs and create a symbolic link
 
 #### RK3588 

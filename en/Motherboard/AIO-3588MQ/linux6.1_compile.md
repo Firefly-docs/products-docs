@@ -111,7 +111,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-Download rootfs here [Ubuntu rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/301), please use rootfs under kernel-6.1 folder.
+Download rootfs here [Ubuntu rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/290), please use rootfs under kernel-6.1 folder.
 
 After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/, then create a symbolic link.
 ```bash
@@ -219,7 +219,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-Download rootfs here [Debian Rootfs](https://community.t-firefly.com/en/doc/download/140), please use rootfs under kernel-6.1 folder.
+Download rootfs here [Debian Rootfs](https://community.t-firefly.com/en/doc/download/161), please use rootfs under kernel-6.1 folder.
 
 After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/, then create a symbolic link.
 ```bash

@@ -51,7 +51,7 @@
 
 ### 固件下载
 
-* [固件下载页面](https://community.t-firefly.com/doc/download/65)
+* [固件下载页面](https://community.t-firefly.com/doc/download/71)
 
 ### 烧录工具下载
 

@@ -172,7 +172,7 @@ RK3399 chip technical manual link: [Brief](http://www.t-firefly.com/download/Fir
 
 ### Windows way
 * Install RKDevInfoWriteTool
-    * [Download link](https://community.t-firefly.com/en/doc/download/52#other_297)
+    * [Download link](https://community.t-firefly.com/en/doc/download/54#other_297)
 * Select "RPMB" in **Settings** of RKDevInfoWriteTool
 * Configure "SN", "WIFI MAC", "LAN MAC", "BT MAC", etc. in the **Settings** of RKDevInfoWriteTool as needed
 * The development board enters loader mode
@@ -186,7 +186,7 @@ How to write the number of the development board itself
 
 * Buildroot enable `BR2_PACKAGE_VENDOR_STORAGE`
 * Read and write operations through the vendor_storage command
-    * [Download link](https://community.t-firefly.com/en/doc/download/52#other_297)
+    * [Download link](https://community.t-firefly.com/en/doc/download/54#other_297)
      * SN
      ```shell
      vendor_storage -w VENDOR_SN_ID -t string -i cad895bedb8ee15f

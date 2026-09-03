@@ -89,7 +89,7 @@ The Firefly development board has two MIPI CSI interfaces, one is a 30pin interf
 | RK3588S | [AIO-3588SJD4](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588SJD4.png), [ROC-RK3588S-PC](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_ROC-RK3588S-PC.png) |
 
 # 三、Firmware and Resource download
-Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/115)。
+Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/130)。
 
 <!--
 ## 文档下载

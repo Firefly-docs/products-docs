@@ -7,11 +7,11 @@ This page contains the complete USB firmware upgrade procedure. All steps can be
 ### Required Equipment
 
 * RK182X Developer Kit development board
-* [Firmware](https://community.t-firefly.com/en/doc/download/369)
+* [Firmware](https://community.t-firefly.com/en/doc/download/358)
 * Host computer
 * Type-A Cable
 
-The firmware can be obtained by compiling the SDK or downloaded as public unified firmware from the [resource download page](https://community.t-firefly.com/en/doc/download/369).
+The firmware can be obtained by compiling the SDK or downloaded as public unified firmware from the [resource download page](https://community.t-firefly.com/en/doc/download/358).
 
 ### Firmware Formats
 
@@ -26,12 +26,12 @@ There are two types of firmware files:
 
 #### Windows
 
-1. Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/369), extract it, and run `DriverInstall.exe`.
+1. Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/358), extract it, and run `DriverInstall.exe`.
 2. Select **Driver uninstall** first, then select **Driver install** so all devices use the updated driver.
 
 ![](../../../gs1-n2_img/common/upgrade_firmware_install_rk_usb.jpg)
 
-3. Download [AndroidTool](https://community.t-firefly.com/en/doc/download/369) separately, extract it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory. On Windows 7/8, run it as administrator.
+3. Download [AndroidTool](https://community.t-firefly.com/en/doc/download/358) separately, extract it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory. On Windows 7/8, run it as administrator.
 
 To avoid version-related burning problems, use the tool packaged inside the public firmware package when possible:
 
@@ -51,7 +51,7 @@ ITX-3588J_Android12_HDMI_220308
 
 Linux does not require a device driver.
 
-Install [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/369) so it can be called from any directory:
+Install [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/358) so it can be called from any directory:
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -61,7 +61,7 @@ sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
-Install [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/369):
+Install [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/358):
 
 ```
 sudo mv adb /usr/local/bin

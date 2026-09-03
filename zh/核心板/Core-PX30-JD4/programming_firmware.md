@@ -79,7 +79,7 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 * 单个统一固件 update.img, 将启动加载器、参数和所有分区镜像都打包到一起，用于固件发布。
 * 多个分区镜像,如 kernel.img, rootfs.img, recovery.img 等，在开发阶段生成。
-* 可以在这里找到已编译好的统一[AIO-PX30-JD4固件](https://community.t-firefly.com/doc/download/63)，下载后解压。也可以参考编译固件的说明自行编译。
+* 可以在这里找到已编译好的统一[AIO-PX30-JD4固件](https://community.t-firefly.com/doc/download/67)，下载后解压。也可以参考编译固件的说明自行编译。
 
 主机操作系统支持：
 > * Windows XP （32/64位）
@@ -91,7 +91,7 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 #### 安装 RK USB 驱动
 
-下载 [ Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/63) ，解压，然后运行里面的 DriverInstall.exe 。   
+下载 [ Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/67) ，解压，然后运行里面的 DriverInstall.exe 。   
 为了所有设备都使用更新的驱动，请先选择"驱动卸载"，然后再选择"驱动安装"。   
 
 ![](../../../px30_img/upgrade_firmware1.png)
@@ -112,7 +112,7 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 ### 烧写固件
 
-下载 [AndroidTool](https://community.t-firefly.com/doc/download/63)，解压，运行 AndroidTool_Release_xx 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：   
+下载 [AndroidTool](https://community.t-firefly.com/doc/download/67)，解压，运行 AndroidTool_Release_xx 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：   
 ![](../../../px30_img/upgrade_firmware3.png)
 
 ####  烧写统一固件 update.img
@@ -150,7 +150,7 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 ### upgrade_tool
 
-下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/63), 并按以下方法安装到系统中，方便调用：   
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/67), 并按以下方法安装到系统中，方便调用：   
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
 cd Linux_UpgradeTool_xxxx

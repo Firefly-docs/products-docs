@@ -16,7 +16,7 @@ repo sync -c
 
 #### Method 2
 
-* Download the `REPO_SDK` package from the [download page](https://community.t-firefly.com/en/doc/download/73)</br>
+* Download the `REPO_SDK` package from the [download page](https://community.t-firefly.com/en/doc/download/83)</br>
 * Compare the MD5 code of the REPO_SDK package to verify the integrity, and then decompress it.</br>
 ```
 md5sum rk1808_linux_release_20210306.tgz
@@ -117,7 +117,7 @@ export RK_ROOTFS_IMG=ubuntu_rootfs/rk1808_ubuntu18.04_rootfs.img    The root fil
 
 **<font color=#ff0000 >Attention, very important ! !</font>**
 
-*  [Download the Ubuntu root filesystem image](https://community.t-firefly.com/en/doc/download/73)
+*  [Download the Ubuntu root filesystem image](https://community.t-firefly.com/en/doc/download/83)
 *  Put the resulting image in the specified directory in SDK:
 
 ```
@@ -168,7 +168,7 @@ Generate the firmware directory `rockdev/pack`, at the same time will backup in 
 
 * Ubuntu18.04
 
-1. [Download the Ubuntu root filesystem image](https://community.t-firefly.com/en/doc/download/73)
+1. [Download the Ubuntu root filesystem image](https://community.t-firefly.com/en/doc/download/83)
 2.  Put the resulting image in the specified directory in SDK :
 
 ```

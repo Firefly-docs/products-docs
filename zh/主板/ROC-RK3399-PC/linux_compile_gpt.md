@@ -53,8 +53,8 @@ sudo apt-get install lib32gcc-7-dev g++-7 libstdc++-7-dev
 .repo/repo/repo sync -c --no-tags
 ```
 
-[下载链接]: https://community.t-firefly.com/doc/download/51
-[Firefly_Linux_SDK源码包]: https://community.t-firefly.com/doc/download/51#other_186
+[下载链接]: https://community.t-firefly.com/doc/download/53
+[Firefly_Linux_SDK源码包]: https://community.t-firefly.com/doc/download/53#other_186
 ### Linux_SDK 目录介绍
 
 目录：
@@ -118,7 +118,7 @@ export RK_ROOTFS_IMG=xxxx/xxxx.img                       # 根文件系统镜像
 
 **<font color=#ff0000 >注意，以下步骤十分重要！！</font>**
 
-*  [前往下载页面 下载对应的Ubuntu 根文件系统镜像](https://community.t-firefly.com/doc/download/51)
+*  [前往下载页面 下载对应的Ubuntu 根文件系统镜像](https://community.t-firefly.com/doc/download/53)
 *  因为RK3399属于64位处理器，所以在对应`Linux Rootfs/arm64`文件夹下选择需要的文件系统，本文用`rk3399_ubuntu18.04.img.7z`进行举例。
 *  把得到的镜像放到 SDK 的指定目录:
 
@@ -331,4 +331,4 @@ backup          RESERVED
 操作方法见[《升级固件》](03-upgrade_firmware.md)
 
 
-[Linux_SDK.7z]: https://community.t-firefly.com/doc/download/51
+[Linux_SDK.7z]: https://community.t-firefly.com/doc/download/53

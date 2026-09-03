@@ -14,7 +14,7 @@ When upgrading, you need to choose the appropriate upgrade mode according to the
 There are two types of firmware files:
 * A single unified firmware `update.img` that packs the boot loader, parameters, and all partition images together for firmware publishing.
 * Multiple partition images, such as `kernel.img`, `rootfs.img`, `recovery.img`, etc. are generated in the development stage.
-* You can find the compiled unified [[AIO-1808-JD4 firmware]](https://community.t-firefly.com/en/doc/download/73) here, download it and unpack it.You can also refer to the instructions for compiling firmware to compile by yourself.
+* You can find the compiled unified [[AIO-1808-JD4 firmware]](https://community.t-firefly.com/en/doc/download/83) here, download it and unpack it.You can also refer to the instructions for compiling firmware to compile by yourself.
 
 Host operating system support:
 > * Windows XP （32/64 bits）
@@ -30,11 +30,11 @@ One end of the male-to-male USB cable is connected to the USB 3.0 interface of t
 
 ## Windows
 
-* Tool: [Androidtool_xxx ( version number)](https://community.t-firefly.com/en/doc/download/73)
+* Tool: [Androidtool_xxx ( version number)](https://community.t-firefly.com/en/doc/download/83)
 
 ### Install RK USB drive
 
-Download [ Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/73) , extract, and then run the DriverInstall.exe inside . 
+Download [ Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/83) , extract, and then run the DriverInstall.exe inside . 
 In order for all devices to use the updated driver, first select `驱动卸载` and then select `驱动安装`.
 
 ![](../../../rk1808_img/upgrade_firmware1.png)
@@ -53,7 +53,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 ### Upgrade the firmware
 
-Download [AndroidTool](https://community.t-firefly.com/en/doc/download/73)，extract,Run AndroidTool.exe in the AndroidTool_Release_xxx directory. (note: if it is Windows 7/8, you need to press the right mouse button and choose to run as an administrator), as shown below:
+Download [AndroidTool](https://community.t-firefly.com/en/doc/download/83)，extract,Run AndroidTool.exe in the AndroidTool_Release_xxx directory. (note: if it is Windows 7/8, you need to press the right mouse button and choose to run as an administrator), as shown below:
 
 ![](../../../rk1808_img/upgrade_firmware3_en.png)
 
@@ -84,11 +84,11 @@ The steps to upgrade the partition image are as follows:
 ## Linux
 There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.
 
-* Tool : [upgrade_tool_xxx (version number)](https://community.t-firefly.com/en/doc/download/73)
+* Tool : [upgrade_tool_xxx (version number)](https://community.t-firefly.com/en/doc/download/83)
 
 ### Upgrade_tool
 
-Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/73), And install it into the system as follows for easy invocation:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/83), And install it into the system as follows for easy invocation:
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
 cd Linux_UpgradeTool_xxxx

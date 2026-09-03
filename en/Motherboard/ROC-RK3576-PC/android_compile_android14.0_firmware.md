@@ -5,7 +5,7 @@
 SDK source code and bundle compression package are stored in the Google Drive.
 
 ### Download Android SDK
-* The SDK can be obtained by email. Send the order number to <font color=red>sales@t-firefly.com</font> and indicate the required SDK name [firefly_rk3576_android14.0_git_20241126](https://community.t-firefly.com/en/doc/download/229)
+* The SDK can be obtained by email. Send the order number to <font color=red>sales@t-firefly.com</font> and indicate the required SDK name [firefly_rk3576_android14.0_git_20241126](https://community.t-firefly.com/en/doc/download/254)
 
 * After downloading, verify the MD5 code:
 
@@ -55,7 +55,7 @@ git rebase FETCH_HEAD
 
 ```
 
-Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/download/229)。
+Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/download/254)。
 
 <!-- 2. Download remote bundle repository
 git clone https://gitlab.com/T-Firefly/rk3576-android14.0-bundle.git .bundle

@@ -53,7 +53,7 @@ You can use the following command to update the SDK later
 .repo/repo/repo sync -c --no-tags
 ```
 
-[Firefly_Linux_SDK Source]: https://community.t-firefly.com/en/doc/download/78#other_144
+[Firefly_Linux_SDK Source]: https://community.t-firefly.com/en/doc/download/131#other_144
 
 
 ### Linux_SDK catalog
@@ -332,5 +332,5 @@ The above is the mirror file generated after SDK compilation. Package only the i
 
 See operation method in [Upgrade firmware](03-upgrade_firmware.md)
 
-[18.04 FS]: https://community.t-firefly.com/en/doc/download/78#other_117
-[Download the Ubuntu root filesystem image]: https://community.t-firefly.com/en/doc/download/78#other_117
+[18.04 FS]: https://community.t-firefly.com/en/doc/download/131#other_117
+[Download the Ubuntu root filesystem image]: https://community.t-firefly.com/en/doc/download/131#other_117

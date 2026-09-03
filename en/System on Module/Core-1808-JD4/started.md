@@ -63,7 +63,7 @@ After confirming the correct connection of motherboard accessories, insert the p
 
 When the machine is turned on, the blue power indicator light will be on.
 
-[SD Firmware Tool]: https://community.t-firefly.com/en/doc/download/73
-[AndroidTool]: https://community.t-firefly.com/en/doc/download/73
-[upgrade_tool]: https://community.t-firefly.com/en/doc/download/73
-[rkdeveloptool]: https://community.t-firefly.com/en/doc/download/73
+[SD Firmware Tool]: https://community.t-firefly.com/en/doc/download/83
+[AndroidTool]: https://community.t-firefly.com/en/doc/download/83
+[upgrade_tool]: https://community.t-firefly.com/en/doc/download/83
+[rkdeveloptool]: https://community.t-firefly.com/en/doc/download/83

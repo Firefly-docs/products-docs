@@ -10,7 +10,7 @@ AIBOX-3576有灵活的启动方式。一般情况下，除非硬件损坏，AIBO
 
 
 ## 固件获取
-*	[下载链接](https://community.t-firefly.com/doc/download/241)
+*	[下载链接](https://community.t-firefly.com/doc/download/268)
 
 ## 升级方式
 AIBOX-3576 支持通过以下两种方式升级固件：

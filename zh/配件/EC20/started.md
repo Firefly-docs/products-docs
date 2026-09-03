@@ -64,7 +64,7 @@ EC20 是移远通信推出的 LTE Cat 4 无线通信模块，采用 LTE 3GPP Rel
 ![](../../../modules_img/EC20/ec20_sim.png)
 
 # 三、固件与资料下载
-相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/119)。
+相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/134)。
 
 <!--
 ## 文档下载

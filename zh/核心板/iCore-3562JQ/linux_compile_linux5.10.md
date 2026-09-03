@@ -230,7 +230,7 @@ USE_EXTBOOT=y
 
 #### 下载 Ubuntu 根文件系统
 
-* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/222)，放到 SDK 路径下
+* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/247)，放到 SDK 路径下
 
 * 解压文件
 

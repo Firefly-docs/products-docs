@@ -55,7 +55,7 @@ The Firefly development board has two MIPI CSI interfaces, one is a 30pin interf
 | RK3576 | [ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/usage_camera.md), [AIO-3576JD4](../../Motherboard/AIO-3576JD4/usage_camera.md)，[AIO-3576Q](../../Motherboard/AIO-3576Q/usage_camera.md), [AIO-3576C](../../Motherboard/AIO-3576C/usage_camera.md)|
 
 # 三、Firmware and Resource download
-Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/235)
+Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/261)
 
 
 # 四、Tutorial

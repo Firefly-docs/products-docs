@@ -16,7 +16,7 @@ This article mainly introduced how to upgrade the firmware on the host to the SD
 
 ### Steps
 
-1. downloader the tool [SD_Firmware_Tool](https://community.t-firefly.com/en/doc/download/47)
+1. downloader the tool [SD_Firmware_Tool](https://community.t-firefly.com/en/doc/download/51)
 2. Insert SD card.
 3. Select the device corresponding to the SD card from the combo box.
 4. Check the `Upgrade Firmware` option.

@@ -59,7 +59,7 @@ sudo apt install -y repo git python
 
 * 方法一（推荐国内用户使用）
 
-**SDK 源码存放于 gitlab，国内用户可能下载完整的 SDK 仓库速度比较慢，所以我们提供了一个 SDK 基础包([Linux SDK](https://community.t-firefly.com/doc/download/88))，国内用户只需要在此基础包上同步 gitlab 上的代码就可以了**
+**SDK 源码存放于 gitlab，国内用户可能下载完整的 SDK 仓库速度比较慢，所以我们提供了一个 SDK 基础包([Linux SDK](https://community.t-firefly.com/doc/download/101))，国内用户只需要在此基础包上同步 gitlab 上的代码就可以了**
 
 注：该方法只能获取到完整 SDK 。BSP SDK 需要使用方法二获取。
 
@@ -369,7 +369,7 @@ device-tree-compiler ncurses-dev \
 
 ##### 全自动编译
 
-* 下载根文件系统：[Debian 根文件系统(32位)](https://community.t-firefly.com/doc/download/88)，放到 SDK 路径下
+* 下载根文件系统：[Debian 根文件系统(32位)](https://community.t-firefly.com/doc/download/101)，放到 SDK 路径下
 
 ```bash
 7z x debian10_rootfs_2022_12_22.7z
@@ -404,7 +404,7 @@ mv rootfs.img ubuntu_rootfs/rootfs.img
 ./build.sh recovery
 ```
 
-* 下载根文件系统：[Debian 根文件系统(32位)](https://community.t-firefly.com/doc/download/88)，放到 SDK 路径下
+* 下载根文件系统：[Debian 根文件系统(32位)](https://community.t-firefly.com/doc/download/101)，放到 SDK 路径下
 
 ```bash
 7z x debian10_rootfs_2022_12_22.7z

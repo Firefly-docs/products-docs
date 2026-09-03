@@ -10,7 +10,7 @@
 
 #### 方式一（国内用户）
 
-* 从[资源下载](https://community.t-firefly.com/doc/download/73)页面下载 `REPO_SDK` 软件包。</br>
+* 从[资源下载](https://community.t-firefly.com/doc/download/83)页面下载 `REPO_SDK` 软件包。</br>
 * 比较 REPO_SDK 软件包的 MD5 码校验完整性，然后解压。
 ```
 md5sum rk1808_linux_release_20210306.tgz

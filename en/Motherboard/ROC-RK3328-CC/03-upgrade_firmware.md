@@ -16,7 +16,7 @@ There are two types of image file:
  * Packed image, often known as update.img, which contains the bootloader, parameter and all the partition image files. It is used for firmware release.
  * Partition image, like kernel.img, boot.img, recovery.img, etc, which are created during development.  
 
-You can find the compiled unified [ROC-RK3328-CC firmware](https://community.t-firefly.com/en/doc/download/65) here, and extract it after downloading. You can also compile it yourself by referring to the instructions for compiling the firmware.  
+You can find the compiled unified [ROC-RK3328-CC firmware](https://community.t-firefly.com/en/doc/download/71) here, and extract it after downloading. You can also compile it yourself by referring to the instructions for compiling the firmware.  
 
 Supported host OS:
  * Windows XP （32/64bit
@@ -27,7 +27,7 @@ Supported host OS:
 <a id="androidtool"></a>
 
 ### Install RK USB Driver
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/65), then "驱动安装"(Driver install).), uncompress it, then run DriverInstall.exe inside.  
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/71), then "驱动安装"(Driver install).), uncompress it, then run DriverInstall.exe inside.  
 
 In order to use new driver for all the rockchip devices, please select "驱动卸载"(Driver uninstall), then "驱动安装"(Driver install).  
 
@@ -55,7 +55,7 @@ The host will prompt to have new device detected and configured. Open the Device
 
 ### Download Firmware
 
-* [Firmware Download Page](https://community.t-firefly.com/en/doc/download/65)
+* [Firmware Download Page](https://community.t-firefly.com/en/doc/download/71)
 
 ### Download Tool for upgrade
 Windows OS:

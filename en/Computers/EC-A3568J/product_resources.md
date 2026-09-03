@@ -3,10 +3,10 @@
 * [[Wiki]](../../Motherboard/AIO-3568J/index.md)
 Includes information on Android & Ubuntu driver development (see AIO-3568J Wiki)
 
-* [[SDK link]](https://community.t-firefly.com/en/doc/download/95) 
+* [[SDK link]](https://community.t-firefly.com/en/doc/download/108) 
 Android SDK source code
 
-* [[Firmware link]](https://community.t-firefly.com/en/doc/download/95) 
+* [[Firmware link]](https://community.t-firefly.com/en/doc/download/108) 
 Android Firmware
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

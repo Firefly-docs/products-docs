@@ -8,7 +8,7 @@ SDK 源码与 bundle 压缩包均存放在云盘中。
 
 ### 下载 SDK
 * SDK通过邮件的方式获取，把订单号发送到<font color=red>sales@t-firefly.com</font>邮箱并注明需要的SDK名称  
-[firefly_rk3588_android12_git_20240704](vhttps://community.t-firefly.com/doc/download/176)
+[firefly_rk3588_android12_git_20240704](vhttps://community.t-firefly.com/doc/download/201)
 
 * 下载完成后，在解压前先校验下 MD5 码：
 
@@ -62,7 +62,7 @@ git clone https://gitlab.com/T-Firefly/rk3588-android12.0-bundle.git .bundle
 git rebase FETCH_HEAD
 ```
 
-下载页面选择云盘下载 [Android12.0 Bundle](https://community.t-firefly.com/doc/download/176)。
+下载页面选择云盘下载 [Android12.0 Bundle](https://community.t-firefly.com/doc/download/201)。
 ## Core-3588SG 产品编译方法
 
 ### 整体编译

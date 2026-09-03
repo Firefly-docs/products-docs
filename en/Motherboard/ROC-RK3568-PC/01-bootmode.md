@@ -6,7 +6,7 @@
 
 ROC-RK3568-PC has 2 working modes. Under normal circumstances, boot directly into `Normal mode` to start the system normally. If you need to upgrade the board subsystem, you can choose the appropriate `Upgrade mode` to upgrade the firmware according to the situation.
 
-* Note: The ROC-RK3568-PC is installed with the Android operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.You can go to the [Firmware download page](https://community.t-firefly.com/en/doc/download/94) to download more firmware.
+* Note: The ROC-RK3568-PC is installed with the Android operating system by default. If users want to run other operating systems, they need to use the corresponding firmware to program to the mainboard.You can go to the [Firmware download page](https://community.t-firefly.com/en/doc/download/107) to download more firmware.
 
 
 ![](../../../rk356x_img/working_mode_en.png)

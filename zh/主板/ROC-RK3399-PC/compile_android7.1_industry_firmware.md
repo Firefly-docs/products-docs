@@ -49,7 +49,7 @@ git clone https://gitlab.com/TeeFirefly/rk3399-industry-nougat-bundle.git .bundl
 git rebase FETCH_HEAD
 ```
 
-百度云下载[[bundle压缩包]](https://community.t-firefly.com/doc/download/51#other_369)
+百度云下载[[bundle压缩包]](https://community.t-firefly.com/doc/download/53#other_369)
 
 
 ## 编译 Android SDK
@@ -137,5 +137,5 @@ update.img 方便固件的发布，供终端用户升级系统使用。一般开
 * 支持但不维护：
 
    [《编译 Android7.1 固件》](compile_android7.1_firmware.md)     [《编译 Android8.1 固件》](compile_android8.1_firmware.md)  
-[Android7.1 industry源码包](https://community.t-firefly.com/doc/download/51#other_369)
+[Android7.1 industry源码包](https://community.t-firefly.com/doc/download/53#other_369)
  

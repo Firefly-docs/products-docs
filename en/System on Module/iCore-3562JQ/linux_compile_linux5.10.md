@@ -221,7 +221,7 @@ USE_EXTBOOT=y
 
 #### Download Ubuntu filesystem
 
-* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/222)，put in SDK path
+* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/247)，put in SDK path
 
 * Unzip
 

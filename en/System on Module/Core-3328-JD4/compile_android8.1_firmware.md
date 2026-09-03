@@ -45,7 +45,7 @@ Due to the huge size of the Android SDK, it is not possible to directly host it 
 
 Please download `RK3328_Android8.1_git_20190719.7z` first:
 
-- [Google Drive](https://community.t-firefly.com/en/doc/download/62)
+- [Google Drive](https://community.t-firefly.com/en/doc/download/68)
 
 After the download completes, verify the MD5 checksum before extraction:
 

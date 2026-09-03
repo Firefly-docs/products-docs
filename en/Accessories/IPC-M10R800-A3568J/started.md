@@ -25,10 +25,10 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 * [[Wiki]](../../System%20on%20Module/Core-3568J/started.md) 
 Includes information on Android & Ubuntu driver development (see AIO-3568J Wiki)
 
-* [[SDK link]](https://community.t-firefly.com/en/doc/download/108) 
+* [[SDK link]](https://community.t-firefly.com/en/doc/download/124) 
 Android SDK source code
 
-* [[Firmware link]](https://community.t-firefly.com/en/doc/download/108) 
+* [[Firmware link]](https://community.t-firefly.com/en/doc/download/124) 
 Android Firmware
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

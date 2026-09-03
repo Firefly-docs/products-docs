@@ -66,7 +66,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 参考固件
 
-公版固件默认支持 EC20 4G 模组 [[链接]](https://community.t-firefly.com/doc/download/119)
+公版固件默认支持 EC20 4G 模组 [[链接]](https://community.t-firefly.com/doc/download/134)
 
 ## EC200T 4G模组套件
 
@@ -118,7 +118,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 参考固件
 
-公版固件默认支持 EC200 4G 模组 [[链接]](https://community.t-firefly.com/doc/download/119)
+公版固件默认支持 EC200 4G 模组 [[链接]](https://community.t-firefly.com/doc/download/134)
 
 
 
@@ -156,7 +156,7 @@ DELINCOMM系列串口波特率配置为`9600`，公版固件已经默认配置�
 
 #### 参考固件
 
-公版新固件默认支持GPS模组, 但需要手动打开。 或直接下载GPS默认启动固件[百度云](https://community.t-firefly.com/doc/download/132)
+公版新固件默认支持GPS模组, 但需要手动打开。 或直接下载GPS默认启动固件[百度云](https://community.t-firefly.com/doc/download/135)
 
 ### DK2635U7F 模块
 
@@ -185,7 +185,7 @@ UBLOX模块串口波特率配置为`9600`，公版固件已经默认配置好，
 
 #### 参考固件
 
-公版新固件默认支持GPS模组, 但需要手动打开。 或直接下载GPS默认启动固件[百度云](https://community.t-firefly.com/doc/download/132)
+公版新固件默认支持GPS模组, 但需要手动打开。 或直接下载GPS默认启动固件[百度云](https://community.t-firefly.com/doc/download/135)
 
 
 ### EC20 GNSS功能

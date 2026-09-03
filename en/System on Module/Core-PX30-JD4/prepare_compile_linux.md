@@ -43,7 +43,7 @@ repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo
 
 Download the SDK source code package.
 
-Download: [Linux_SDK.7z](https://community.t-firefly.com/en/doc/download/63)
+Download: [Linux_SDK.7z](https://community.t-firefly.com/en/doc/download/67)
 
 After downloading, verify the MD5 code:
 

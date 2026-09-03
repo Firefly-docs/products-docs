@@ -15,4 +15,4 @@
 
 注意：部署过程中无需联网，首次部署 Llama3 需要花费较长时间进行相应的软件安装（3-5分钟），请耐心等待。
 
-[下载中心]: https://community.t-firefly.com/doc/download/224
+[下载中心]: https://community.t-firefly.com/doc/download/248

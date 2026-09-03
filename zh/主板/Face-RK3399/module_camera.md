@@ -39,7 +39,7 @@ RMSL201-1301 是一款成熟的全功能的结构光 3D 摄像机模组。内置
 [RMSL201-1301 用户手册和接口使用SDK](http://www.t-firefly.com/share/index/index/id/7885e56933fef8aefd086e02412643fc.html)
 
 ### 固件
-[RMSL201-1301 结构光固件](https://community.t-firefly.com/doc/download/75)
+[RMSL201-1301 结构光固件](https://community.t-firefly.com/doc/download/80)
 
 ### 实物图
 

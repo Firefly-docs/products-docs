@@ -15,7 +15,7 @@
 
 ### Refer to the firmware
 
-The official firmware name supporting the 10.1 screen has the word `MIPI`. Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/109)  
+The official firmware name supporting the 10.1 screen has the word `MIPI`. Below is the link to the firmware: [Firmware link](https://community.t-firefly.com/en/doc/download/125)  
 
 If you need to use the dual screen display function, please refer to the [FAQ](faqs.md) first
 
@@ -51,7 +51,7 @@ index ebbb5d1123f..71e82f8d9c0 100644
 
 ### Reference data
 
-[Screen module datasheet and adapter board schematic](https://community.t-firefly.com/en/doc/download/109)
+[Screen module datasheet and adapter board schematic](https://community.t-firefly.com/en/doc/download/125)
 
 ### Real figure
 

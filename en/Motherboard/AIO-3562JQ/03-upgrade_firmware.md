@@ -29,7 +29,7 @@ In order to avoid the burning problem caused by the upgrade tool version, it is 
 
 * Install RK USB drive
 
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/222), extract, and then run the DriverInstall.exe inside .
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/247), extract, and then run the DriverInstall.exe inside .
 In order for all devices to use the updated driver, first select `Driver uninstall`(`驱动卸载`) and then select `Driver install`(`驱动安装`).
 
 <center>
@@ -39,7 +39,7 @@ In order for all devices to use the updated driver, first select `Driver uninsta
 
 * Open RKDevTool
 
-Use tools in the firmware package or download here [RKDevTool](https://community.t-firefly.com/en/doc/download/222)
+Use tools in the firmware package or download here [RKDevTool](https://community.t-firefly.com/en/doc/download/247)
 
 RKDevTool defaults to display in Chinese. We need to change it to English. Open `config.ini` with an text editor (like notepad). The starting lines are:
 
@@ -59,7 +59,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, RKDevTool will displ
 
 There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.
 
-* Upgrade_Tool : Use tools in the firmware package or download here [upgrade_tool_xxx (version number)](https://community.t-firefly.com/en/doc/download/222)
+* Upgrade_Tool : Use tools in the firmware package or download here [upgrade_tool_xxx (version number)](https://community.t-firefly.com/en/doc/download/247)
 
 Install it into the system as follows for easy invocation:
 

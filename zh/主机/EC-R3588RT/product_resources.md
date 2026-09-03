@@ -3,10 +3,10 @@
 * [[Wiki]](../../主板/ROC-RK3588-RT/index.md)
 包含 Android&Ubuntu 驱动开发等资料(参考 ROC-RK3588-RT Wiki)
 
-* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/216) 
+* [[SDK 下载地址]](https://community.t-firefly.com/doc/download/240) 
 Android/Linux SDK 源码
 
-* [[固件 下载地址]](https://community.t-firefly.com/doc/download/216) 
+* [[固件 下载地址]](https://community.t-firefly.com/doc/download/240) 
 Android 固件/ Linux 固件
 
 * [[技术交流论坛]](http://dev.t-firefly.com/forum.php)

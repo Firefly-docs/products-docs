@@ -21,7 +21,7 @@ PC 系统要求：Ubuntu22.04, 需要支持 NFS 服务，且在升级过程中�
 ## R38.4 (JetPack 7.1)
 ### 下载固件包
 
-可直接在 Firefly [下载页面](https://community.t-firefly.com/doc/download/358)进行下载
+可直接在 Firefly [下载页面](https://community.t-firefly.com/doc/download/346)进行下载
 
 下载后，执行 tar 解压：
 

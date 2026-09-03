@@ -3,10 +3,10 @@
 * [[Wiki]](../../System%20on%20Module/iCore-3588JQ/index.md)
 Includes information on Android & Ubuntu driver development (see iCore-3588JQ Wiki)
 
-* [[SDK link]](https://community.t-firefly.com/en/doc/download/161) 
+* [[SDK link]](https://community.t-firefly.com/en/doc/download/184) 
 Android SDK source code
 
-* [[Firmware link]](https://community.t-firefly.com/en/doc/download/161) 
+* [[Firmware link]](https://community.t-firefly.com/en/doc/download/184) 
 Android Firmware
 
 * [[Technical forum]](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)

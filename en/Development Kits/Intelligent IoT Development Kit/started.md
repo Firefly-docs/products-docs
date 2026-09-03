@@ -9,7 +9,7 @@ The micro IoT motherboard can be combined with one or more modules to form a hig
 Micro IoT motherboard with high-resolution display screen for QT application development, SDK provides open source QT applications, including music applications, video applications, image applications, setting applications 
 
 * [QT development](../../../en/System\ on\ Module/Core-3308Y/qt_development.md)
-* [ROC-RK3308B-CC-PLUS QT firmware download](https://community.t-firefly.com/en/doc/download/67)
+* [ROC-RK3308B-CC-PLUS QT firmware download](https://community.t-firefly.com/en/doc/download/97)
 * [Intelligent IoT Development Kit purchase link ](https://www.firefly.store/products/intelligent-iot-development-kit)
 
 
@@ -29,7 +29,7 @@ Micro IoT motherboard is combined with speech module for speech system and servi
 
 
 ## Resources
-* [SDK download](https://community.t-firefly.com/en/doc/download/67)
+* [SDK download](https://community.t-firefly.com/en/doc/download/97)
 * [Community Forum](http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100)
 
  <a id="firmware-format"></a>

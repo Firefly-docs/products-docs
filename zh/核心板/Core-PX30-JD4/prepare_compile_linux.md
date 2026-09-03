@@ -25,7 +25,7 @@ sudo apt install -y repo git python
 
 * 方法一（推荐）
 
-**Firefly_Linux_SDK 源码包比较大，可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[下载链接](https://community.t-firefly.com/doc/download/63)
+**Firefly_Linux_SDK 源码包比较大，可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[下载链接](https://community.t-firefly.com/doc/download/67)
 
 下载完成后先验证一下 MD5 码：
 

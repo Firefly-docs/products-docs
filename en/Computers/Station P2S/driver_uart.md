@@ -24,7 +24,7 @@ TX and RX of UART7 are multiplexed. Actually，`UART7 TX` and `UART7 RX` corresp
 
 ### RS232 and RS485
 
-RS232_1,RS232_2 and RS485 are respectively converted from UART2, UART3 and UART4 of the main control.The RS232_1 cannot be used directly because UART2 is used as debug serial port by default. If want to use RS232_1, you need to [configure UART2 as a normal serial port](#how-to-configure-uart2-as-a-normal-serial-port).For relevant hardware connection and definition, you can refer [ROC-RK3568-PC-SE schematic diagram](https://community.t-firefly.com/en/doc/download/157). The following are some pins definition of RJ45 interface:
+RS232_1,RS232_2 and RS485 are respectively converted from UART2, UART3 and UART4 of the main control.The RS232_1 cannot be used directly because UART2 is used as debug serial port by default. If want to use RS232_1, you need to [configure UART2 as a normal serial port](#how-to-configure-uart2-as-a-normal-serial-port).For relevant hardware connection and definition, you can refer [ROC-RK3568-PC-SE schematic diagram](https://community.t-firefly.com/en/doc/download/180). The following are some pins definition of RJ45 interface:
 
 | RJ45 PINS |    Definition    | RJ45 PINS |    Definition    |
 | :------: | :--------: | :------: | :--------: |

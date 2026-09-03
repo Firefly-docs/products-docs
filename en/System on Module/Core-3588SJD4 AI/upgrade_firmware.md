@@ -7,13 +7,13 @@ This article describes how to upgrade the firmware file on the host to the flash
 ## Preparatory Tools
 
 * AIO-3588SJD4-AI development board
-* [Firmware](https://community.t-firefly.com/en/doc/download/337)
+* [Firmware](https://community.t-firefly.com/en/doc/download/323)
 * host computer
 * Type-C data cable
 
 ## Prepare Firmware
 
-The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/337). There are two types of firmware files:
+The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/323). There are two types of firmware files:
 
 * A single unified firmware
 
@@ -30,7 +30,7 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
 
 * Install RK USB driver
 
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/337), extract, and then run the DriverInstall.exe inside . 
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/323), extract, and then run the DriverInstall.exe inside . 
 In order for all devices to use the updated driver, first select Driver uninstall(驱动卸载) and then select Driver install(驱动安装).
 
 <center>
@@ -52,7 +52,7 @@ ITX-3588J_Android12_HDMI_220308
     └── RKDevTool_Release_v2.84.zip
 ```
 
-You can also download [AndroidTool](https://community.t-firefly.com/en/doc/download/337) separately, unzip it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory (note that if you are running Windows 7/8, you need to right-click and select Run as administrator), as shown below:
+You can also download [AndroidTool](https://community.t-firefly.com/en/doc/download/323) separately, unzip it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory (note that if you are running Windows 7/8, you need to right-click and select Run as administrator), as shown below:
 
 ![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
 
@@ -60,9 +60,9 @@ You can also download [AndroidTool](https://community.t-firefly.com/en/doc/downl
 
 There is no need to install device driver under Linux.
 
-* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/337)
+* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/323)
 
-Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/337), And install it into the system as follows for easy invocation:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/323), And install it into the system as follows for easy invocation:
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -224,8 +224,8 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 ![](../../../rk3588_img/common/upgrade_firmware_download_fail.png)
 
 [烧写须知]: 02-upgrade_table.md
-[Core-3588SJD4-AI firmware]: https://community.t-firefly.com/en/doc/download/337
-[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/337#windows_12
-[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/337#windows_341
-[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/337#linux_12
-[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/337#linux_12
+[Core-3588SJD4-AI firmware]: https://community.t-firefly.com/en/doc/download/323
+[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/323#windows_12
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/323#windows_341
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/323#linux_12
+[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/323#linux_12

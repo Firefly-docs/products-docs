@@ -77,7 +77,7 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=${WIDT
 wait
 ```
 ## 三、固件与资料下载
-相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/178)。
+相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/206)。
 
 <!--
 ### 文档下载

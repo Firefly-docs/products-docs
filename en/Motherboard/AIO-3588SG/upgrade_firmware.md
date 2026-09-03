@@ -7,13 +7,13 @@ This article describes how to upgrade the firmware file on the host to the flash
 ## Preparatory Tools
 
 * AIO-3588SG development board
-* [Firmware](https://community.t-firefly.com/en/doc/download/176)
+* [Firmware](https://community.t-firefly.com/en/doc/download/201)
 * host computer
 * Type-C data cable
 
 ## Prepare Firmware
 
-The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/176). There are two types of firmware files:
+The firmware can be obtained by compiling the SDK, or you can download the public firmware (unified firmware) from the [Resource download](https://community.t-firefly.com/en/doc/download/201). There are two types of firmware files:
 
 * A single unified firmware
 
@@ -30,7 +30,7 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
 
 * Install RK USB driver
 
-Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/142), extract, and then run the DriverInstall.exe inside . 
+Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/164), extract, and then run the DriverInstall.exe inside . 
 In order for all devices to use the updated driver, first select Driver uninstall(驱动卸载) and then select Driver install(驱动安装).
 
 <center>
@@ -52,7 +52,7 @@ ITX-3588J_Android12_HDMI_220308
     └── RKDevTool_Release_v2.84.zip
 ```
 
-You can also download [AndroidTool](https://community.t-firefly.com/en/doc/download/142) separately, unzip it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory (note that if you are running Windows 7/8, you need to right-click and select Run as administrator), as shown below:
+You can also download [AndroidTool](https://community.t-firefly.com/en/doc/download/164) separately, unzip it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory (note that if you are running Windows 7/8, you need to right-click and select Run as administrator), as shown below:
 
 ![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
 
@@ -60,9 +60,9 @@ You can also download [AndroidTool](https://community.t-firefly.com/en/doc/downl
 
 There is no need to install device driver under Linux.
 
-* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/142)
+* [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/164)
 
-Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/142), And install it into the system as follows for easy invocation:
+Download [Linux_Upgrade_Tool](https://community.t-firefly.com/en/doc/download/164), And install it into the system as follows for easy invocation:
 
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
@@ -72,9 +72,9 @@ sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
-* [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/142)
+* [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/164)
 
-Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/142), And install it into the system as follows for easy invocation:
+Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/164), And install it into the system as follows for easy invocation:
 
 ```
 sudo mv adb /usr/local/bin

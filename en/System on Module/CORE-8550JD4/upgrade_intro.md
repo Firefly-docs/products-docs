@@ -11,7 +11,7 @@ This tutorial introduces how to download firmware to device through Type-A to Ty
 
 ## Get Firmware
 
-You can build firmware from SDK, or download from [Resources Download](https://community.t-firefly.com/en/doc/download/381) (complete firmware).
+You can build firmware from SDK, or download from [Resources Download](https://community.t-firefly.com/en/doc/download/371) (complete firmware).
 
 * Complete firmware
 
@@ -24,7 +24,7 @@ You can build firmware from SDK, or download from [Resources Download](https://c
 ## Install Tools
 * Install USB drivers
 
-Please download from [USB Driver](https://community.t-firefly.com/en/doc/download/381).
+Please download from [USB Driver](https://community.t-firefly.com/en/doc/download/371).
 
 There are two drivers. First install Qualcomm USB Driver, double click the exe file to run, accept the EULA and always click "next", finally click "finish".
 
@@ -32,7 +32,7 @@ Then install Google USB driver, extract `usb_driver_r13-windows.zip`, right clic
 
 * Install QTSP
 
-Please download form [QTSP Tool](https://community.t-firefly.com/en/doc/download/381).
+Please download form [QTSP Tool](https://community.t-firefly.com/en/doc/download/371).
 
 Extract, then double click `QPST.2.7.496.1.exe`, accept the EULA and always click "next", then click "install", finally click "finish".
 
@@ -42,6 +42,6 @@ Double click QFIL.exe to open it.
 
 * Install Android SDK Platform-Tools
 
-Download from [Platform Tools](https://community.t-firefly.com/en/doc/download/381).
+Download from [Platform Tools](https://community.t-firefly.com/en/doc/download/371).
 
 Extract it after download, you will find adb.exe and fastboot.exe

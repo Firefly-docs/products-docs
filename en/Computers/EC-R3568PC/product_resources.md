@@ -1,7 +1,7 @@
 ## Product resources
 
 * [Manual](../../Motherboard/ROC-RK3568-PC%20SE/index.md) Includes building instructions, system usage, interfaces usage, etc. (ROC-RK3568-PCSE wiki)
-* [Download Page](https://community.t-firefly.com/en/doc/download/141) Includes firmware, rootfs and tools download links.
+* [Download Page](https://community.t-firefly.com/en/doc/download/162) Includes firmware, rootfs and tools download links.
 * [Forum](https://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=100) Tech communication platform for over 100K company and individual customers.
 
 

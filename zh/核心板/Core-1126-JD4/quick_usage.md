@@ -8,7 +8,7 @@
 1. 接入` DC 12V `电源，或者` POE `供电。
 2. 开机后以太网旁边两个 LED 灯会常亮。
 3. 设备接入网线，确保和调试使用的 `windows` 电脑处于同一局域网下。要求电脑和 1126 板子是同一个网段。
-4. windows 下载 [RK_IPCamera_Tool-Vx.x.zip](https://community.t-firefly.com/doc/download/88)，解压运行软件。
+4. windows 下载 [RK_IPCamera_Tool-Vx.x.zip](https://community.t-firefly.com/doc/download/101)，解压运行软件。
 5. 使用软件搜索 AI 网络摄像头设备 IP。
 ![](../../../rv1126_img/Core-1126-JD4/iptool.png)
 6. 在浏览器上输入设备 IP 地址可以进入管理页面，默认帐号密码都为 `admin`。

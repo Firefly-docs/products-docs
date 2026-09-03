@@ -29,7 +29,7 @@ sudo apt install -y repo git python
 
 * 方法一（推荐）
 
-**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[rk356x_linux5.10_release_20241220_v1.4.0c](https://community.t-firefly.com/doc/download/94)
+**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[rk356x_linux5.10_release_20241220_v1.4.0c](https://community.t-firefly.com/doc/download/107)
 
 下载 SDK 基础包并且按照 README 文档操作：
 
@@ -258,7 +258,7 @@ xxxx-mipi_ubuntu_defconfig                 # 使用 mipi + 双目摄像头
 
 #### 下载 Ubuntu 根文件系统
 
-* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/94)，放到 SDK 路径下
+* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/107)，放到 SDK 路径下
 
 * 解压文件
 

@@ -55,7 +55,7 @@ git rebase FETCH_HEAD
 
 ```
 
-Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/download/242)。
+Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/download/272)。
 
 <!-- 2. Download remote bundle repository
 git clone https://gitlab.com/T-Firefly/rk3576-android14.0-bundle.git .bundle

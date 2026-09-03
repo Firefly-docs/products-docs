@@ -11,13 +11,13 @@ Please read the "Flashing Tool User Manual" carefully before flashing. If it doe
 ## Preparation Tools
 
 * AIBOX-K3
-* [Firmware](https://community.t-firefly.com/en/doc/download/386)
+* [Firmware](https://community.t-firefly.com/en/doc/download/376)
 * Main Unit
 * Good Type-C Cable
 
 ## Preparing firmware
 
-Firmware can be obtained by compiling the SDK or downloaded from [Resource Download](https://community.t-firefly.com/en/doc/download/386). Firmware files generally come in two types:
+Firmware can be obtained by compiling the SDK or downloaded from [Resource Download](https://community.t-firefly.com/en/doc/download/376). Firmware files generally come in two types:
 
 * Single Unified Firmware
 
@@ -46,9 +46,9 @@ These are files with independent functions, such as the partition table, bootloa
 ![](../../../aibox_img/AIBOX-K3/upgrade_firmware_titanflasher_en.png)
 
 
-* [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/338)工具
+* [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/324)工具
 
-Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/338) and install it on your system using the following method for easy access:
+Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/324) and install it on your system using the following method for easy access:
 
 ```
 sudo mv fastboot /usr/local/bin

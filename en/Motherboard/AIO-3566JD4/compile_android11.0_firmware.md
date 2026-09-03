@@ -6,7 +6,7 @@ In order to run Android11.0 normally, Core-3566JD4 needs to meet the following c
 
 ### Android SDK
 #### First, Download SDK
-* Due to the larger SDK, we can choose the cloud disk to download **Firefly-RK356X_Android11.0_git** from the download page : [EN_DOW_LINK](https://community.t-firefly.com/en/doc/download/123) 
+* Due to the larger SDK, we can choose the cloud disk to download **Firefly-RK356X_Android11.0_git** from the download page : [EN_DOW_LINK](https://community.t-firefly.com/en/doc/download/136) 
 
 * After downloading, verify the MD5 code:
 

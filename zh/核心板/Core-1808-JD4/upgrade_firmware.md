@@ -16,7 +16,7 @@
 
 * 单个统一固件 update.img, 将启动加载器、参数和所有分区镜像都打包到一起，用于固件发布。
 * 多个分区镜像,如 boot.img, rootfs.img, recovery.img 等，在开发阶段生成。
-* 可以在这里找到已编译好的固件[Core-1808-JD4固件下载页](https://community.t-firefly.com/doc/download/73)，选择你所需要的固件，下载后解压。也可以参考编译固件的说明自行编译。
+* 可以在这里找到已编译好的固件[Core-1808-JD4固件下载页](https://community.t-firefly.com/doc/download/83)，选择你所需要的固件，下载后解压。也可以参考编译固件的说明自行编译。
 
 主机操作系统支持：
 > * Windows XP （32/64位）
@@ -31,7 +31,7 @@
 
 ## Windows
 
-* 工具: [Androidtool_xxx(版本号)](https://community.t-firefly.com/doc/download/73)
+* 工具: [Androidtool_xxx(版本号)](https://community.t-firefly.com/doc/download/83)
 
 ### 安装 RK USB 驱动
 
@@ -92,7 +92,7 @@
 
 ### upgrade_tool
 
-下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/73), 并按以下方法安装到系统中，方便调用：   
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/83), 并按以下方法安装到系统中，方便调用：   
 ```
 unzip Linux_Upgrade_Tool_xxxx.zip
 cd Linux_UpgradeTool_xxxx

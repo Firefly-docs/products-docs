@@ -26,7 +26,7 @@ sudo apt install -y repo git python
 
 * 方法一（推荐）
 
-**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[Firefly_Linux_SDK源码包](https://community.t-firefly.com/doc/download/94)
+**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[Firefly_Linux_SDK源码包](https://community.t-firefly.com/doc/download/107)
 
 下载完成后先验证一下 MD5 码：
 

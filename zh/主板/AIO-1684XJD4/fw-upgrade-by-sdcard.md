@@ -28,4 +28,4 @@
 - 升级时间有点长，大概要六分钟左右，请耐心等待。
 - 散热风扇一定要确保正确装上。
 
-[下载中心]: https://community.t-firefly.com/doc/download/181
+[下载中心]: https://community.t-firefly.com/doc/download/207

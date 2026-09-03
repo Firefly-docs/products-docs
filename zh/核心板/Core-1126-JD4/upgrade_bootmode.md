@@ -10,7 +10,7 @@ Core-1126-JD4有灵活的启动方式。一般情况下，除非硬件损坏，C
 
 
 ## 固件获取
-*	[下载链接](https://community.t-firefly.com/doc/download/88)
+*	[下载链接](https://community.t-firefly.com/doc/download/101)
 
 ## 升级方式
 Core-1126-JD4 支持通过以下两种方式升级固件：

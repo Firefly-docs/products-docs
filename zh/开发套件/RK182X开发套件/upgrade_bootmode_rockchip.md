@@ -1,6 +1,6 @@
 # 启动模式
 
-RK182X开发套件 出厂默认安装操作系统。如果需要运行其他操作系统，请从[固件下载页面](https://community.t-firefly.com/doc/download/369)获取对应固件。
+RK182X开发套件 出厂默认安装操作系统。如果需要运行其他操作系统，请从[固件下载页面](https://community.t-firefly.com/doc/download/358)获取对应固件。
 
 如果升级过程中 bootloader 损坏，导致无法正常升级，仍可以进入 `MaskRom` 模式修复主板。
 完整的升级操作请参阅[使用 USB 线升级固件](upgrade_firmware_rockchip.md)或[使用 SD 卡升级固件](upgrade_firmware_sd_rockchip.md)。

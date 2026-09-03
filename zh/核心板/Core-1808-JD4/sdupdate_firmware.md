@@ -17,17 +17,17 @@
 
 使用SD Firmware Tool工具制作SD升级卡
 
-下载[SD_Firmware_Tool_1.56](https://community.t-firefly.com/doc/download/73)
+下载[SD_Firmware_Tool_1.56](https://community.t-firefly.com/doc/download/83)
 
 ## 准备固件
 
 ### 使用官方固件
 
-官方发布的固件都是支持使用SD卡升级的, 请到[Core-1808-JD4固件下载页](https://community.t-firefly.com/doc/download/73)下载相应的固件。
+官方发布的固件都是支持使用SD卡升级的, 请到[Core-1808-JD4固件下载页](https://community.t-firefly.com/doc/download/83)下载相应的固件。
 
 ## 制作SD升级卡
 
-首先下载[SD Firmware Tool](https://community.t-firefly.com/doc/download/73)去下载 `SD_Firmware_Tool`，并解压。
+首先下载[SD Firmware Tool](https://community.t-firefly.com/doc/download/83)去下载 `SD_Firmware_Tool`，并解压。
 
 运行 `SD_Firmware_Tool.exe`:
 

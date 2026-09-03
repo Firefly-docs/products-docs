@@ -16,7 +16,7 @@
 ###  参考固件
 
 
-支持10.1寸屏的官方固件名带有`MIPI`字样，下面是固件的链接：[双MIPI屏固件链接](https://community.t-firefly.com/doc/download/109)  
+支持10.1寸屏的官方固件名带有`MIPI`字样，下面是固件的链接：[双MIPI屏固件链接](https://community.t-firefly.com/doc/download/125)  
 
 <font color="#dd0000">注意：</font><br />由于RK3566双屏幕显示是使用同一个内部输入源，即`VOP`是`Same Source, Dual Display`,所以如果是使用MIPI屏幕作为主屏，会导致副屏HDMI画面会拉伸，所以想避免这个问题，主副屏幕都应该使用同分辨率同方向（横竖屏一致）的屏幕。
 
@@ -33,7 +33,7 @@
 
 ### 参考资料
 
-[屏幕模组 Datasheet & 转接板原理图](https://community.t-firefly.com/doc/download/109)
+[屏幕模组 Datasheet & 转接板原理图](https://community.t-firefly.com/doc/download/125)
 
 ### 实物图
 

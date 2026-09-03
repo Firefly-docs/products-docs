@@ -61,7 +61,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 参考固件
 
-公版固件默认支持 EC20 4G 模组 [[链接]](https://community.t-firefly.com/doc/download/119)
+公版固件默认支持 EC20 4G 模组 [[链接]](https://community.t-firefly.com/doc/download/134)
 
 ## EC200T 4G模组套件
 
@@ -113,7 +113,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 参考固件
 
-公版固件默认支持 EC200 4G 模组 [[链接]](https://community.t-firefly.com/doc/download/119)
+公版固件默认支持 EC200 4G 模组 [[链接]](https://community.t-firefly.com/doc/download/134)
 
 
 
@@ -151,7 +151,7 @@ DELINCOMM系列串口波特率配置为`9600`，公版固件已经默认配置�
 
 #### 参考固件
 
-公版新固件默认支持GPS模组, 但需要手动打开。 或直接下载GPS默认启动固件[百度云](https://community.t-firefly.com/doc/download/132)
+公版新固件默认支持GPS模组, 但需要手动打开。 或直接下载GPS默认启动固件[百度云](https://community.t-firefly.com/doc/download/135)
 
 
 ### EC20 GNSS功能
@@ -186,7 +186,7 @@ EC20模组根据[EC20 4G模组套件](#ec20-4g-mo-zu-tao-jian)章节的说明连
 
 ##### 临时修改
 
-确保固件为最新[公版固件](https://community.t-firefly.com/doc/download/69)，固件默认关闭GPS功能，需要手动使能，以下是修改方法：
+确保固件为最新[公版固件](https://community.t-firefly.com/doc/download/76)，固件默认关闭GPS功能，需要手动使能，以下是修改方法：
 
 * 使能ADB，如何使能ADB参考Wiki教程[《ADB的使用》](adb_use.html)
 * 设置系统可读可写

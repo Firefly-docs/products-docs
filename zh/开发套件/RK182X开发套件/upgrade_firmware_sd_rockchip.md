@@ -9,7 +9,7 @@
 * 电脑
 * MicroSD 卡
 * USB 读卡器
-* [**SD_Firmware_Tool**](https://community.t-firefly.com/doc/download/369)
+* [**SD_Firmware_Tool**](https://community.t-firefly.com/doc/download/358)
 
 ## 操作步骤
 1. 下载需要升级到主板上的统一固件。

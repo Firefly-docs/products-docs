@@ -14,11 +14,11 @@
 
 ### Firmware
 
-The official firmware default support MIPI_DSI display. Here is the firmware download link: [Firmware link](https://community.t-firefly.com/en/doc/download/222)
+The official firmware default support MIPI_DSI display. Here is the firmware download link: [Firmware link](https://community.t-firefly.com/en/doc/download/247)
 
 ### Reference
 
-[Screen module Datasheet](https://community.t-firefly.com/en/doc/download/109)
+[Screen module Datasheet](https://community.t-firefly.com/en/doc/download/125)
 
 ### Product images
 

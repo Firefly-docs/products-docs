@@ -12,7 +12,7 @@
 * 电脑
 * SD卡
 * USB读卡器
-* [**SocToolKit**](https://community.t-firefly.com/doc/download/214)
+* [**SocToolKit**](https://community.t-firefly.com/doc/download/238)
 
 ## 操作步骤
 

@@ -85,7 +85,7 @@
 ![](../../../modules_img/RM500Q-GL-5G/ec20_sim.png)
 
 # 三、固件与资料下载
-相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/202)。
+相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/133)。
 
 <!--
 ## 文档下载

@@ -5,7 +5,7 @@
 SDK source code and bundle compression package are stored in the Google Drive.
 
 ### Download Android SDK
-* The SDK can be obtained by email. Send the order number to <font color=red>sales@t-firefly.com</font> and indicate the required SDK name [firefly_rk3588_android14_git_20240822](https://community.t-firefly.com/en/doc/download/139)
+* The SDK can be obtained by email. Send the order number to <font color=red>sales@t-firefly.com</font> and indicate the required SDK name [firefly_rk3588_android14_git_20240822](https://community.t-firefly.com/en/doc/download/160)
 
 * After downloading, verify the MD5 code:
 
@@ -69,7 +69,7 @@ git rebase FETCH_HEAD
 
 ```
 
-Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/download/139)。
+Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/download/160)。
 
 
 ## Core-3588L product compilation method

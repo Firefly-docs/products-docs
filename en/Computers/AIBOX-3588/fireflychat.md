@@ -5,9 +5,9 @@ FireflyChat is a graphical application platform for LLM developed by the Firefly
 ![](../../../aibox_img/fireflychat.png)
 
 ## Installation
-Note: The system firmware of AIBOX-3588 has preconfigured FireflyChat and imported the basic model. You can use it directly.If FireflyChat does not exist in the firmware, you can download the corresponding [AI firmware](https://community.t-firefly.com/en/doc/download/292) or install FireflyChat yourself.
+Note: The system firmware of AIBOX-3588 has preconfigured FireflyChat and imported the basic model. You can use it directly.If FireflyChat does not exist in the firmware, you can download the corresponding [AI firmware](https://community.t-firefly.com/en/doc/download/273) or install FireflyChat yourself.
 
-You need to obtain the required installation package from the [Download Center](https://community.t-firefly.com/en/doc/download/292) to install FireflyChat. There are two installation packages, which are `fireflychat_x.x.x_arm64.deb` and `libfirefly-ai_x.x.x_arm64.deb`.
+You need to obtain the required installation package from the [Download Center](https://community.t-firefly.com/en/doc/download/273) to install FireflyChat. There are two installation packages, which are `fireflychat_x.x.x_arm64.deb` and `libfirefly-ai_x.x.x_arm64.deb`.
 
 After obtaining the installation package, transfer it to AIBOX-3588 and run the following command to install it:
 
@@ -64,4 +64,4 @@ sudo systemctl disable FireflyChat
 sudo journalctl -u FireflyChat
 ```
 
-[Download Center]: https://community.t-firefly.com/en/doc/download/292
+[Download Center]: https://community.t-firefly.com/en/doc/download/273

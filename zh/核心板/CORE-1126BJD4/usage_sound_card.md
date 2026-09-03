@@ -62,4 +62,4 @@ arecord -l														# 查看所有可用的 MIC 设备。
 arecord -Dhw:1,0 -f cd -d 10 /path-to/audio.wav					# 选择声卡并录制音频
 ```
 
-更多关于 RV1126B acodec 的详细配置，请下载[《RV1126B acodec 配置文档》](https://community.t-firefly.com/doc/download/346) 进行查看。
+更多关于 RV1126B acodec 的详细配置，请下载[《RV1126B acodec 配置文档》](https://community.t-firefly.com/doc/download/333) 进行查看。

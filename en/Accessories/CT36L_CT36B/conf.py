@@ -122,7 +122,7 @@ html_theme_options = {
     'sidebar_ext':[
 
 
-        {'name':'Resource download','href':'https://community.t-firefly.com/en/doc/download/214'},
+        {'name':'Resource download','href':'https://community.t-firefly.com/en/doc/download/238'},
     ]
 }
 
