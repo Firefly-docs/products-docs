@@ -4,6 +4,7 @@ There are two ways to login to AIBOX-PRO, one is via Console (Debug serial), the
 
 ## Console Login
 Type-C Connects to the Console port. The login account is `root`. By default, the `root password` is not set.<br>
+![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-DEBUG.png)
 Use the following serial port parameters:
 * Baud rate: 115200
 * Data bit: 8

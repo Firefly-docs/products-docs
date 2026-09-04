@@ -55,23 +55,6 @@ sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
-
-* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/414)工具
-
-下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/414), 并按以下方法安装到系统中，方便调用：
-
-```
-sudo mv adb /usr/local/bin
-sudo chown root:root /usr/local/bin/adb
-sudo chmod a+x /usr/local/bin/adb
-```
-```
-sudo mv fastboot /usr/local/bin
-sudo chown root:root /usr/local/bin/fastboot
-sudo chmod a+x /usr/local/bin/fastboot
-```
-
-
 ## 进入升级模式
 通常我们升级固件的模式有两种，分别是Loader模式和MaskRom模式。烧写固件前，我们需要连接好设备，并让板子进入到可升级模式。
 
@@ -81,12 +64,14 @@ sudo chmod a+x /usr/local/bin/fastboot
 
 * 先断开电源适配器。
 * Type-C 数据线一端连接主机，另一端连接开发板。
+
+![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-OTG.png)
 * 按住设备上的 `RECOVERY` 按键并保持。
 * 接上电源。
 * 大约两秒后，松开 `RECOVERY` 按键。
 
 #### 软件方式进入Loader模式
-Type-C 数据线接好后在串口调试终端或adb shell给板子运行以下命令
+Type-C 数据线接好后在串口调试终端给板子运行以下命令
 
 ```shell
 reboot loader
@@ -178,18 +163,6 @@ sudo upgrade_tool ul bootloader.bin # 烧写 bootloader
 sudo upgrade_tool lf update.img	# 低级格式化
 sudo upgrade_tool ef update.img	# 擦除
 ```
-
-
-fastboot 烧写动态分区
-
-```
-adb reboot fastboot # 进入bootloader
-sudo fastboot flash vendor vendor.img
-sudo fastboot flash system system.img
-sudo fastboot reboot # 烧写成功后,重启
-```
-
-
 
 ## 常见问题
 ### 1. 如何强行进入 MaskRom 模式

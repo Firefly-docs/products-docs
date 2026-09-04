@@ -5,6 +5,7 @@ AIBOX-PRO-KIT 登录方式有两种，一种是通过 Console 串口进行终端
 
 ## Console 登录
 Type-C 线接入 Console 口，登录账号为`root`，默认没有设置`root`密码。<br>
+![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-DEBUG.png)
 使用以下串口参数：
 * 波特率：115200
 * 数据位：8

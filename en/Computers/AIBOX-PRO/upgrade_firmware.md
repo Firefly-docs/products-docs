@@ -71,23 +71,6 @@ sudo mv upgrade_tool /usr/local/bin
 sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
-
-* [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/414)
-
-Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/414), And install it into the system as follows for easy invocation:
-
-```
-sudo mv adb /usr/local/bin
-sudo chown root:root /usr/local/bin/adb
-sudo chmod a+x /usr/local/bin/adb
-```
-
-```
-sudo mv fastboot /usr/local/bin
-sudo chown root:root /usr/local/bin/fastboot
-sudo chmod a+x /usr/local/bin/fastboot
-```
-
 ## Enter Upgrade mode
 
 Usually we upgrade firmware in two modes, namely `Loader` mode and `MaskRom` mode. Before we can write the firmware, we need to connect the device and put the board into upgradable mode.
@@ -98,12 +81,14 @@ Connect the device and press the **RECOVERY** button to enter the Loader mode. T
 
 * Disconnect the power adapter first.
 * Type-C data cable connects one end to the host and the other end to the development board.
+
+![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-OTG.png)
 * Press the `RECOVERY` button on the device and hold.
 * Connect to the power supply.
 * About two seconds later, release the `RECOVERY` button.
 #### Software way into Loader mode
 
-Type-C data cable is connected, use the command in the serial debugging terminal or `adb shell`:
+Connect the Type-C data cable and run the following command in the serial debugging terminal:
 
 ```shell
 reboot loader
@@ -200,17 +185,6 @@ If the upgrade fails due to flash problems, you can try low-level formatting and
 sudo upgrade_tool lf update.img	# low-level formatting
 sudo upgrade_tool ef update.img	# erase
 ```
-
-fastboot Burn dynamic partitions:
-
-```
-adb reboot fastboot # enter bootloader
-sudo fastboot flash vendor vendor.img
-sudo fastboot flash system system.img
-sudo fastboot reboot # After the burn is successful, restart
-```
-
-
 ## FAQs
 
 ### 1. How to forcibly enter MaskRom mode
