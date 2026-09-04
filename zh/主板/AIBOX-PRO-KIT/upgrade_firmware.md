@@ -65,7 +65,7 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 * 先断开电源适配器。
 * Type-C 数据线一端连接主机，另一端连接开发板。
 
-![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-OTG.png)
+接口请参考[接口介绍](interface_definition.html)。
 * 按住设备上的 `RECOVERY` 按键并保持。
 * 接上电源。
 * 大约两秒后，松开 `RECOVERY` 按键。

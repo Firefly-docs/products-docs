@@ -82,7 +82,7 @@ Connect the device and press the **RECOVERY** button to enter the Loader mode. T
 * Disconnect the power adapter first.
 * Type-C data cable connects one end to the host and the other end to the development board.
 
-![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-OTG.png)
+Please refer to the [Interface Introduction](interface_definition.html).
 * Press the `RECOVERY` button on the device and hold.
 * Connect to the power supply.
 * About two seconds later, release the `RECOVERY` button.
