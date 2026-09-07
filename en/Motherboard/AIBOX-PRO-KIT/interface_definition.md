@@ -23,4 +23,7 @@ It also provides one internal PCIe expansion slot and one SATA interface.
 
 PS: The interfaces listed above are supported by RK3588. If the RK3576 core board is used, Wi-Fi, the PCIe expansion slot, and the SATA module are not available due to hardware limitations.
 
+![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-up_en.png)
+![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-front_en.png)
 ![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-down_en.png)
+> Note: The accelerator card power supply is currently only used for the RK1828 module. Other modules do not need to be connected.
