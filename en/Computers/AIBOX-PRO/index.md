@@ -1,16 +1,8 @@
 # AIBOX-PRO
-- [Preface](preface.md)
-# User Manual
 - [Introduction](started.md)
-- [Interface Introduction](interface_definition.md)
-- [Login](login.md)
-- [Watchdog](usage_watchdog.md)
-- [RTC](usage_rtc.md)
-- [Bluetooth](usage_bt.md)
-- [WIFI](usage_wifi.md)
-- [RS485](usage_rs232_rs485.md)
-- [Cellular Network](usage_4g.md)
-- [CAN](usage_can.md)
+# User Manual
+- [Hardware Interface Introduction](interface_definition.md)
+- [Hardware Function Usage](hardware_usage.md)
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode_rockchip.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)

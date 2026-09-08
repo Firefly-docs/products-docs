@@ -1,4 +1,4 @@
-# Interface Introduction
+# Hardware Interface Introduction
 
 AIBOX-PRO-KIT has rich interfaces, mainly including:
 - 12V Power Interface (5.5*2.1mm)

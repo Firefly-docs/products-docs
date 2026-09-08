@@ -1,6 +1,108 @@
-# 蓝牙
+# 硬件功能使用
 
-AIBOX-PRO-KIT 支持无线蓝牙，可以通过 `hciconfig -a` 命令显示蓝牙设备信息：
+## 登录
+
+AIBOX-PRO 登录方式有两种，一种是通过 Console 串口进行终端登录，一种是通过 HDMI 登录。
+
+### Console 登录
+Type-C 线接入 Console 口，登录账号为`root`，默认没有设置`root`密码。<br>
+![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-DEBUG.png)
+使用以下串口参数：
+* 波特率：115200
+* 数据位：8
+* 停止位：1
+* 奇偶校验：无
+* 流控：无
+
+### HDMI 登录
+在界面登录的时候，自动登录`firefly`用户，`firefly` 用户密码也为`firefly`。
+
+## 看门狗
+### 主模组 Core-3588JD4
+#### 核心模组上的看门狗
+看门狗的设备名称是`/dev/wdt_core`，使用方法如下:
+```shell
+# 写入不同字段来开启看门狗并设置时间
+# 数字 0，1，2，3 分别表示 0.64s，2.56s，10.24s，40.96s
+# 字母 e 表示开启看门狗，字母 d 表示关闭看门狗
+
+# 开启并定时 10.24 秒，每 10.24 秒之内要写入一次，也可随时写入不同数字更改时间
+echo e >/dev/wdt_core //开启
+echo 2 >/dev/wdt_core //设置超时时间为10秒
+```
+#### 主板上的看门狗
+看门狗的设备名称是`/dev/wdt_base`，使用方法如下:
+```shell
+# 写入不同字段来开启看门狗并设置时间
+# 数字 0，1，2，3 分别表示 0.64s，2.56s，10.24s，40.96s
+# 字母 e 表示开启看门狗，字母 d 表示关闭看门狗
+
+# 开启并定时 10.24 秒，每 10.24 秒之内要写入一次，也可随时写入不同数字更改时间
+echo e >/dev/wdt_base //开启
+echo 2 >/dev/wdt_base //设置超时时间为10秒
+```
+
+## RTC
+
+### 简介
+
+AIBOX-PRO 有一路外部的 RTC，由外部的底板电容进行供电，掉电后短时间内保证RTC运行。在 kernel 中表示为 `rtc0`。
+
+### 接口使用
+
+Linux 提供了三种用户空间调用接口。路径为：
+
+*    SYSFS接口：/sys/class/rtc/rtc0/
+*    PROCFS接口： /proc/driver/rtc
+*    IOCTL接口： /dev/rtc0
+
+同步最新的系统时间到 RTC 内：
+```
+hwclock -w
+```
+
+#### SYSFS接口
+
+可以直接使用 `cat` 和 `echo` 操作 `/sys/class/rtc/rtc0/` 下面的接口。
+
+比如查看当前 RTC 的日期和时间：
+
+```
+# cat /sys/class/rtc/rtc0/date
+2024-07-10
+# cat /sys/class/rtc/rtc0/time
+02:36:30
+
+```
+
+#### PROCFS 接口
+
+打印 RTC 相关的信息：
+
+```
+# cat /proc/driver/rtc
+rtc_time        : 02:37:00
+rtc_date        : 2024-07-10
+alrm_time       : 00:00:00
+alrm_date       : 1970-01-01
+alarm_IRQ       : no
+alrm_pending    : no
+update IRQ enabled      : no
+periodic IRQ enabled    : no
+periodic IRQ frequency  : 1
+max user IRQ frequency  : 64
+24hr            : yes
+```
+
+#### IOCTL接口
+
+可以使用 `ioctl` 控制 `/dev/rtc0`。
+
+详细使用说明请参考文档 `kernel-jammy-src/Documentation/admin-guide/rtc.rst` 。
+
+## 蓝牙
+
+AIBOX-PRO 支持无线蓝牙，可以通过 `hciconfig -a` 命令显示蓝牙设备信息：
 
 ```shell
 linaro@sophon:~$ hciconfig -a
@@ -86,7 +188,7 @@ Changing discoverable on succeeded
 [CHG] Controller F0:35:75:A7:E2:88 Discoverable: yesyes
 ```
 
-（5）此时在智能手机就能发现 AIBOX-PRO-KIT 蓝牙设备，手机点击后就能配对上去：
+（5）此时在智能手机就能发现 AIBOX-PRO 蓝牙设备，手机点击后就能配对上去：
 
 ```shell
 [NEW] Device 34:1C:F0:40:59:55 小黎的 Redmi K30 Ultr
@@ -140,13 +242,13 @@ Attempting to connect to 34:1C:F0:40:59:55
 Changing 34:1C:F0:40:59:55 trust succeeded
 ```
 
-## 蓝牙音频
+### 蓝牙音频
 
 蓝牙音频可以使用 bluez-alsa 工具，这是一个蓝牙音频 ALSA 后端实用程序。
 
-### 安装 bluez-alsa 工具
+#### 安装 bluez-alsa 工具
 
-AIBOX-PRO-KIT 默认没有安装该工具，用户需要自行编译安装，这里演示 1.3.0 版本的步骤，如下：
+AIBOX-PRO 默认没有安装该工具，用户需要自行编译安装，这里演示 1.3.0 版本的步骤，如下：
 
 （1）安装依赖：
 
@@ -178,7 +280,7 @@ mkdir build && cd build
 make && make install
 ```
 
-### 音频测试
+#### 音频测试
 
 安装完成后可以连接蓝牙耳机或者音箱进行音乐播放，首先将蓝牙配置成主设备模式：
 
@@ -215,17 +317,17 @@ aplay -D bluealsa:HCI=hci0,DEV=0C:AE:BD:9B:BB:5C,PROFILE=a2dp example.wav
 关于 bluez-alsa 更多使用可参考源代码仓库：[https://github.com/Arkq/bluez-alsa/tree/v1.3.0](https://github.com/Arkq/bluez-alsa/tree/v1.3.0)。
 
 
-## 文件收发
+### 文件收发
 
 蓝牙文件收发可以使用 OBEX 协议，它以对象模型封装信息数据，以会话协议规范传输应用。
 
-在 Linux 中需要用到 Obex 服务，首先 AIBOX-PRO-KIT 根据前面的步骤连接好蓝牙设备，然后开启 Obex 守护进程，并设置接收的目录为 `/home/linaro/`：
+在 Linux 中需要用到 Obex 服务，首先 AIBOX-PRO 根据前面的步骤连接好蓝牙设备，然后开启 Obex 守护进程，并设置接收的目录为 `/home/linaro/`：
 
 ```shell
 /usr/lib/bluetooth/obexd -r /home/linaro -a -d &
 ```
 
-### 使用 obex push 服务
+#### 使用 obex push 服务
 
 首先将蓝牙配置成主设备模式：
 
@@ -267,9 +369,9 @@ Disconnecting..-done
 
 此时手机端就可看到是否接收文件的弹窗。
 
-### 使用 obexctl 交互命令行
+#### 使用 obexctl 交互命令行
 
-以下演示 AIBOX-PRO-KIT 收文件的步骤：
+以下演示 AIBOX-PRO 收文件的步骤：
 
 （1）设备端（从设备）开启 obex 服务：
 
@@ -284,7 +386,7 @@ root@firefly:~# obexctl
 [NEW] Client /org/bluez/obex 
 ```
 
-（3）连接 AIBOX-PRO-KIT （主设备）：
+（3）连接 AIBOX-PRO （主设备）：
 
 ```shell
 [obex]# connect 20:57:9E:BA:7C:EC
@@ -309,9 +411,164 @@ Transfer /org/bluez/obex/client/session1/transfer1
 [CHG] Transfer /org/bluez/obex/client/session1/transfer1 Status: complete
 ```
 
-（5）查看 AIBOX-PRO-KIT 的 `/home/linaro/`目录有 `test.txt` 文件：
+（5）查看 AIBOX-PRO 的 `/home/linaro/`目录有 `test.txt` 文件：
 
 ```shell
 linaro@sophon:~$ ls -l test.txt
 -rw------- 1 linaro linaro 0 Nov 25 15:49 test.txt
 ```
+
+## WIFI
+
+AIBOX-PRO 支持无线 WIFI，在系统中网卡名默认为 `wlanx` 或者是 `wlPxp1s0`（根据不同的 wifi 模块，有所不同），以 `wlan0` 为例：
+
+
+```shell
+linaro@sophon:~# ifconfig wlan0
+wlan0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 20:57:9e:ba:02:fc  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+```
+
+#### WIFI 连接
+
+（1）使能 WIFI：
+
+```shell
+nmcli radio wifi on
+```
+
+（2）查看 WIFI 是否使能成功：
+
+```shell
+# 打印出 enabled 表示成功
+nmcli radio wifi
+```
+
+（3）查看 WIFI 接入点：
+
+```shell
+nmcli dev wifi
+```
+
+（4）连接到 WIFI 接入点：
+
+```shell
+sudo nmcli device wifi connect zouxftest1 password 12345678 name test
+```
+其中 `zouxftest1` 为 WIFI 接入点的名称，`12345678` 则是密码。
+
+连接成功日志如下：
+
+```shell
+Device 'wlan0' successfully activated with 'fd6c634b-f517-4ae9-a8e9-292a9c19d25c'.
+```
+
+请注意，如果要禁用 WIFI 状态：
+
+```shell
+nmcli radio wifi off
+```
+
+#### WIFI 热点
+
+使用 `nmcli` 命令可以创建无线 AP 热点：
+
+```shell
+sudo nmcli device wifi hotspot ifname wlan0 con-name my-hostapt ssid zouxftest7 band bg password 12345678 channel 5
+```
+
+说明如下：
+- `con-name`：连接名称，这里定义为 `my-hostapt`
+- `ssid`：创建的 AP 热点的名称，这里定义为 `zouxftest7`
+- `band`：WIFI 的协议标准，这里选择 `bg`
+- `password`：创建的 AP 热点的密码，这里定义为 `12345678`
+- `channel`：创建的 AP 热点的通过，这里定义为 `5`
+
+在创建了无线 AP 热点以后，如果要打开/关闭 WIFI 热点：
+
+```shell
+sudo nmcli connection up[down] my-hostapt
+```
+
+## RS485
+AIBOX-PRO 有一个 RS485 接口，如果CPU是3588，则设备名称为 `/dev/ttyS6`， 如果CPU是3576，则为`/dev/ttyS3`，支持半双工，默认波特率为 `9600`。该接口为凤凰端子座，因此需要对应的端子接口接入，接入后，即可按照常规串口方法进行调试。
+
+## 蜂窝网络
+
+AIBOX-PRO 支持 4G LTE, 在系统设置处，有多种网络形式，可以在此打开数据流量开关：
+
+![](../../../aibox_img/AIBOX-PRO/4G.png)
+
+在命令行生成网卡：
+
+```shell
+$ ifconfig wwan0
+wwan0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
+        inet 10.176.252.100  netmask 255.255.255.248  destination 10.176.252.100
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+        RX packets 4  bytes 405 (405.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 8  bytes 439 (439.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+```
+
+## CAN 使用
+### CAN 简介
+CAN(Controller Area Network)总线，即控制器局域网总线，是一种有效支持分布式控制或实时控制的串行通信网络。CAN总线是一种在汽车上广泛采用的总线协议，被设计作为汽车环境中的微控制器通讯。
+如果想了解更多的内容可以参考[CAN应用报告](https://www.ti.com/lit/an/sloa101b/sloa101b.pdf)
+
+### 硬件连接
+AIBOX-PRO 开发板的 CAN [接口位置如图所示](interface_definition.md)
+
+
+
+由于只有一个 CAN，所以默认在内核中，第一个创建的设备为 `can0`。
+
+
+### CAN 通信测试    
+使用 candump 和 cansend 工具进行收发报文测试即可，将工具push到/system/bin/目录下执行。工具包含在SDK中，也可以从 [GitHub](https://github.com/linux-can/can-utils) 下载。
+
+```
+#在收发端关闭can0设备
+ip link set can0 down
+#在收发端设置比特率为250Kbps                 
+ip link set can0 type can bitrate 250000
+#在收发端打开can0设备  	
+ip link set can0 up
+#在接收端执行candump,阻塞等待报文                        	
+candump can0
+#在发送端执行cansend，发送报文        	
+cansend can0 123#1122334455667788  	
+```
+
+#### 更多指令
+```
+1、 ip link set canX down 		//关闭can设备；
+2、 ip link set canX up   		//开启can设备；
+3、 ip -details link show canX 		//显示can设备详细信息；
+4、 candump canX  			//接收can总线发来数据；
+5、 ifconfig canX down 			//关闭can设备，以便配置;
+6、 ip link set canX up type can bitrate 250000 //设置can波特率
+7、 conconfig canX bitrate + 波特率；
+8、 canconfig canX start 		//启动can设备；
+9、 canconfig canX ctrlmode loopback on //回环测试；
+10、canconfig canX restart 		// 重启can设备；
+11、canconfig canX stop 		//停止can设备；
+12、canecho canX 			//查看can设备总线状态；
+13、cansend canX --identifier=ID+数据 	//发送数据；
+14、candump canX --filter=ID：mask	//使用滤波器接收ID匹配的数据
+```
+
+### FAQS
+总结调试过程中遇到的几个问题及解决方法：
+
+#### 报文发送后很久才接收到，或者接收不到。
+
+检查总线 CAN_H 和 CAN_L， 杜邦线是否松动或者接反。
+
+
