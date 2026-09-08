@@ -92,4 +92,4 @@ rknn3 API version             : 1.1.0
 ## FAQ
 
 ### Currently Supported Models
-For currently supported models and detailed information, refer to `SDK_Path/rknn/rknn3-runtime/doc/00_Rockchip_RKNPU3_ReleaseNote_RKNN3_SDK_V1.0.4.pdf` in the SDK.
+For currently supported models and detailed information, refer to `SDK_Path/rknn/rknn3-runtime/doc/EN/00_RKNN3_SDK_Release_Notes_V1.1.0.pdf` in the SDK.
