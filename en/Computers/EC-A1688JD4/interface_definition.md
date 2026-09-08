@@ -19,8 +19,17 @@ EC-A1688JD4 has a rich set of interfaces, including:
 - Type-C (USB2.0, but defaults to debug serial port)
 - Power indicator light
 
+<center>
+
 ![](../../../bm1688_img/EC-A1688JD4/EC-A1688JD4-interface.png)
+</center>
+
+<center>
 
 ![](../../../bm1688_img/EC-A1688JD4/antenna_connection.jpg)
+</center>
+
+<center>
 
 ![](../../../bm1688_img/EC-A1688JD4/sim_connection.jpg)
+</center>

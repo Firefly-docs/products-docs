@@ -45,23 +45,35 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 实物图
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec20.png)
+</center>
 
 ### 连接方法
 
 * USB 接口连接
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec20_usb.jpg)
+</center>
 
 
 * Mini-PCIe 接口连接
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3568-PC-SE/module_wireless_4G-EC20_MiniPCIe_AntWord.jpg)
+</center>
 
 
 * SIM 卡连接
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_sim_connection.jpg)
+</center>
 
 ## EC200T 4G模组套件
 
@@ -105,7 +117,10 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 实物图
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec200t.jpg)
+</center>
 
 ### 连接方法
 
@@ -127,7 +142,10 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 #### 产品参数
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_gps_delincomm.jpg)
+</center>
 
 该系列各个模组型号的参数会存在差异，详情可参考[DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
 
@@ -153,7 +171,10 @@ DELINCOMM系列串口波特率配置为`9600`，公版固件已经默认配置�
 
 #### 产品参数
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_gps.png)
+</center>
 
 详细产品规格可参考[DK2635U7F规格书.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DK2635U7F%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf)
 

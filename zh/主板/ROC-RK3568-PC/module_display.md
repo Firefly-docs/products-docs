@@ -59,8 +59,14 @@ index ae57644a105..0cb9124bec8 100644
 ### 实物图
 
 #### MIPI_DSI0 正面
+<center>
+
 ![](../../../rk356x_img/ROC-RK3568-PC/module_display_mipi_DSI0_front.jpg)
+</center>
 #### MIPI_DSI0 背面
+<center>
+
 ![](../../../rk356x_img/ROC-RK3568-PC/module_display_mipi_DSI0_back.jpg)
+</center>
 
 

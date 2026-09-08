@@ -25,5 +25,8 @@
 
 ## The details are shown below：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/interface_all.png)
+</center>
 

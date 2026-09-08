@@ -37,7 +37,10 @@
 
 **注意：** 下图中电压跳线要使用 12V。
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/module_display_mipi_connection.jpg)
+</center>
 
 ## [10.1 寸LVDS屏模组](https://store.t-firefly.com/goods.php?id=80)
 
@@ -105,7 +108,10 @@
 ### 实物图
 **注意：** 下图中电压跳线要使用 12V。
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/module_display_lvds.png)
+</center>
 
 ## 7.85 寸 EDP 液晶屏模组
 
@@ -147,10 +153,16 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/module_display_edp.jpg)
+</center>
 
 ## 连接方法
 
 * 请注意，下图中电压跳线要使用 5V ，接错到 12V 会烧掉屏幕芯片
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/module_display_edp_connection.jpg)
+</center>

@@ -25,5 +25,8 @@ EC-R3576PC 使用的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-io-zh.png)
+</center>
 

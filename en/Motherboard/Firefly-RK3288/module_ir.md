@@ -11,9 +11,15 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3288_img/module_ir.png)
+</center>
 
 ### Key code
 
+<center>
+
 ![](../../../rk3288_img/module_ir_remote_info.png)
+</center>
 

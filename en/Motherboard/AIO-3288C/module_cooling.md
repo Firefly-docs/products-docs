@@ -9,8 +9,14 @@
 
 ### Image
 
+<center>
+
 ![](../../../rk3288_img/module_cooling_radiator.en.jpg)
+</center>
 
 ### Installation method
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/module_cooling.jpg)
+</center>

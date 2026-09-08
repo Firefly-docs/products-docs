@@ -8,7 +8,10 @@ While device is running normally, connect device's download port with PC through
 sudo systemctl reboot bootloader
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-8550/download_port.jpg)
+</center>
 
 ### Check Bootloader 
 

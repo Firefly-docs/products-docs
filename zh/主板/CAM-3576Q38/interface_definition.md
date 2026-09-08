@@ -20,9 +20,15 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q38/interface_front_zh.png)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/iCore-3576Q38/interface_back_zh.png)
+</center>
 
 ## 特殊接口说明
 EXT-iCore-3576Q38 蓝牙不支持语音.

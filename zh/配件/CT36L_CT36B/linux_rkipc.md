@@ -41,7 +41,10 @@ eth0:1    Link encap:Ethernet  HWaddr 7A:97:2D:EE:4F:8F
 rtsp://（你的设备的IP地址）/live/0
 ```
 
+<center>
+
 ![](../../../rv1106_img/CT36L/rtsp_preview.png)
+</center>
 
 ## 网页预览
 
@@ -49,7 +52,13 @@ rtsp://（你的设备的IP地址）/live/0
 
 **注：如果网页预览摄像头画面一直黑屏，请使用[视频预览]章节所描述的 VLC 软件进行摄像头预览。**
 
+<center>
+
 ![](../../../rv1106_img/CT36L/login_in.png)
+</center>
 
 预览效果如下：
+<center>
+
 ![](../../../rv1106_img/CT36L/web_preview.png)
+</center>

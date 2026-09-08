@@ -7,7 +7,10 @@ RK3399 has 12 Timers (timer0-timer11), 12 Secure Timers (stimer0~stimer11) and 2
 
 ## The framework
 
+<center>
+
 ![](../../../rk3399_img/include/RK3399/timer_frame.jpg)
+</center>
 
 ## Working mode
 
@@ -32,7 +35,10 @@ The registers of Timer0, interrupt number and clock defined therein.
 
 The interrupt numbers corresponding to other Timers can be seen in the following pictures:
 
+<center>
+
 ![](../../../rk3399_img/include/RK3399/timer_interrupt.jpg)
+</center>
 
 2. Corresponding driver file `Kernel/drivers/clocksource/rockchip_timer.c`
 
@@ -40,7 +46,10 @@ The interrupt numbers corresponding to other Timers can be seen in the following
 
 1. The register is as follows:
 
+<center>
+
 ![](../../../rk3399_img/include/RK3399/timer_register.jpg)
+</center>
 
 2. Use the `io` command to view the corresponding register:
 

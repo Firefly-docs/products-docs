@@ -44,7 +44,10 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_wireless_ec20.png)
+</center>
 
 ### 连接方法
 
@@ -52,11 +55,17 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 * Mini-PCIe 接口连接
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/module_wireless_mini-pcie.jpg)
+</center>
 
 * SIM 卡连接
 
+<center>
+
 ![](../../../rk3399_img/module_wireless_sim_connection.jpg)
+</center>
 
 
 ### 参考固件
@@ -105,7 +114,10 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_wireless_ec200t.jpg)
+</center>
 
 ### 连接方法
 
@@ -128,7 +140,10 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 #### 产品参数
 
+<center>
+
 ![](../../../rk3399_img/module_wireless_gps_delincomm.jpg)
+</center>
 
 该系列各个模组型号的参数会存在差异，详情可参考[DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
 

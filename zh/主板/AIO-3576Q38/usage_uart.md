@@ -6,7 +6,10 @@ AIO-3576Q38 使用了 `UART10` 做 `RS485`，在系统中对应 `/dev/ttyS10` �
 
 接口图如下：
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576Q38/usage_uart_interface.jpg)
+</center>
 
 
 ## RS485 节点使用

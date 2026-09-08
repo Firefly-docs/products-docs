@@ -26,13 +26,19 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display_a1.jpg)
+</center>
 
 ### 连接方法
 
 <font color=#FF0000 >注意：屏板的引脚丝印要与开发板的引脚丝印要一一对应</font>
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_4.0inch.jpg)  
+</center>
 
 ## 7.0寸RGB液晶屏模组
 
@@ -59,11 +65,17 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display_b1.jpg)
+</center>
 
 ### 连接方法
 
 <font color=#FF0000 >注意：屏板的引脚丝印要与开发板的引脚丝印要一一对应</font>
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_7.0inch.jpg)
+</center>
 

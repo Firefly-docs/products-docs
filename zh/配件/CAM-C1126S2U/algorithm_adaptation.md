@@ -130,7 +130,10 @@ adb push QFacialGate /
 adb shell "cp /QFacialGate /usr/bin/QFacialGate"
 adb shell "/etc/init.d/S06_QFacialGate start"
 ```
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/rkfacial.jpg)
+</center>
 
 * 相关开发文档
 

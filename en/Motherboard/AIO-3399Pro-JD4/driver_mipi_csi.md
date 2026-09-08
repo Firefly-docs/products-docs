@@ -6,7 +6,10 @@ AIO-3399Pro-JD4 Development board with two MIPI interface, MIPI maximum support 
 This article takes OV13850 camera as an example to explain the configuration process on the development board.
 
 ## Interface rendering
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/camera_interface.jpg)
+</center>
 
 ## DTS configuration
 ```
@@ -69,7 +72,10 @@ The configuration process can be completed by setting camera-related pins and cl
 As can be seen from the schematic diagram of the camera interface below, pins to be configured are: MIPI_PWR, MIPI_PDN0_CAM/MIPI_PDN1_CAM, RST_CAM_0/RST_CAM_1.
 
 * mipi interface
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/module_mipi_sch.png)
+</center>
 * MIPI_PWR = GPIO0_B5;
 * MIPI_PDN0_CAM/MIPI_PDN1_CAM corresponds to GPIO2_A1 / GPIO2_A0 of RK3399Pro;
 * MIPI_RST0/MIPI_RST1 corresponds to GPIO1_C4 of RK3399Pro;

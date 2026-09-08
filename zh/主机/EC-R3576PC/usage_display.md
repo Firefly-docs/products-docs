@@ -18,7 +18,10 @@ EC-R3576PC 有两种显示输出接口，分别是 HDMI、Display Port，可以�
 
 * HDMI/ Display Port
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/usage_display_interface.png)
+</center>
 
 
 下面对各个显示输出接口的配置和使用作基本的介绍，详细内容可以参考文件：   

@@ -15,7 +15,10 @@
 前往[SD固件工具下载页面](https://community.t-firefly.com/doc/download/65#other_541)下载`SD_Firmware_Tool`并解压。
 
 ## 运行`SD_Firmware_Tool.exe`
+<center>
+
 ![](../../../rk3399_img/sdfirmwaretool.zh_CN.jpg)
+</center>
 
 1. 下载SD卡制作工具：[SD_Firmware_Tool](https://community.t-firefly.com/doc/download/65#other_541)
 2. 可修改**config.ini**文件，设置`Selected=1`则语言为中文，设置`Selected=2`则语言为英文。
@@ -25,7 +28,10 @@
 6. 点击开始创建之后，等待创建结束。
 7. 取出MicroSD卡，插入主板的MicroSD卡插槽，对主板上电开机，主板自动开始升级。
 8. 升级完成后，取出MicroSD卡，主板自动重启，完成整个更新固件的流程。
+    <center>
+
     ![](../../../rk3399_img/sdfirmwaretool_done.zh_CN.jpg)
+    </center>
 
 
 

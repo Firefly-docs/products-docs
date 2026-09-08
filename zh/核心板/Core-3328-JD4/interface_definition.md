@@ -16,9 +16,15 @@
 * TF 卡槽和 SIM 卡槽
 * 调试串口
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3328_img/Core-3328-JD4/interface_back.jpg)
+</center>
 
 ## 特殊接口说明
 

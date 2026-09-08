@@ -11,7 +11,10 @@
 操作步骤如下：
 
 先断开电源，然后按住 maskrom 按键，再上电，几秒后松开
+<center>
+
 ![](../../../rk3576_img/Core-3576JD4/upgrade_maskrom_key.jpg)
+</center>
 
 
 如果是带外壳整机，可以使用小棍子伸入耳机孔来按 maskrom 键。
@@ -19,4 +22,7 @@
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3576_img/common/upgrade_maskrom_zh.png)
+</center>

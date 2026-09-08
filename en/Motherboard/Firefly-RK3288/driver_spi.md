@@ -28,7 +28,10 @@ CPHA: clock edge where sampling occurs, 0 represents sampling at the first clock
 
 The oscillograms of four working modes of SPI are shown below:
 
+<center>
+
 ![](../../../rk3288_img/spi_en.jpg)
+</center>
 
 ## Add own driver file in the kernel
 

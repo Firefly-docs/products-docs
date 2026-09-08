@@ -26,13 +26,19 @@ When compiling the supported 4.0-inch screen firmware with the official website 
 
 ### Physical map
 
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/module_display_a1.jpg)
+</center>
 
 ### connection method
 
 <font color=#FF0000 >Note: The pin silk screen of the screen board should be in one-to-one correspondence with the pin silk screen of the development board</font>
 
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/module_display-roc-rk3308b-cc-plus_4.0inch.jpg)
+</center>
 
 ## 7.0 inch RGB LCD module
 
@@ -59,10 +65,16 @@ When compiling the firmware of the 7.0-inch screen supported by the official web
 
 ### Physical map
 
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/module_display_b1.jpg)
+</center>
 
 ### connection method
 
 <font color=#FF0000 >Note: The pin silk screen of the screen board should be in one-to-one correspondence with the pin silk screen of the development board</font>
 
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/module_display-roc-rk3308b-cc-plus_7.0inch.jpg)
+</center>

@@ -129,6 +129,9 @@ CMDLINE:console=ttyFIQ0,115200 earlyprintk androidboot.hardware=rk30board androi
 参考[《升级固件》](upgrade_firmware.md)烧写 parameter 和相应的分区映像。  
 如果是在官方固件的基础上更新，则需要根据固件的类型，将 linux-boot.img 烧写至对应的分区：
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/table4.png)
+</center>
 
 如果还没有烧写根文件系统的，可以下载预先做好的镜像，或定制自己的根文件系统，并烧写到 parameter 文件指定的根分区中。

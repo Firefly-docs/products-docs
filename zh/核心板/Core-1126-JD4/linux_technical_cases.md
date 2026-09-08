@@ -9,17 +9,26 @@
 底板拥有`以太网接口`、`MIPI-CSI`、`POE` 等硬件基础，可以实现 AI 智能网络摄像头。在设备上可以实现 AI 识别和 RTSP 推流，
 在 WEB 端或者 RTSP 播放器就可以查看到预览画面。
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/web.png)
+</center>
 
 ## 人脸识别闸机
 
 设备预留了两组 `MIPI-CSI` 接口，可以适配 RGB & IR 双目摄像头来满足人脸识别闸机的需求。
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/facial_gate.jpg)
+</center>
 
 人脸识别闸机 Web 管理界面
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/facial_gate_web.png)
+</center>
 
 ## 集群边缘计算
 
@@ -27,9 +36,15 @@
 集群服务器相关 WIKI（[CS-R1](http://wiki.t-firefly.com/zh_CN/Cluster-Server-R1/started.html)/[CS-R2](http://wiki.t-firefly.com/zh_CN/Cluster-Server-R2/Firefly_Cluster_server_R2_product_documentation.html)）。
 
 * CS-R1
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/CS-R1.png)
+</center>
 
 * CS-R2
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/CS-R2.png)
+</center>
 
 

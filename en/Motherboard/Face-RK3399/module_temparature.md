@@ -2,7 +2,10 @@
 Face X2 (Face-RK3399) can be configured with the optional infrared thermal imaging temperature measurement module shown below.
 
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/newtemp.png)
+</center>
 
 
 

@@ -10,11 +10,20 @@ The device comes with AI-IPC scene firmware by default.
 3. Connect the device to the network cable and make sure it is in the same LAN as the `windows` computer used for debugging. The computer and 1126 board are required to be in the same network segment.
 4. Download [RK_IPCamera_Tool-Vx.x.zip](https://community.t-firefly.com/doc/download/101) on windows, unzip and run the software.
 5. Use the software to search for the IP of the AI ​​network camera device.
+<center>
+
 ![](../../../rv1126_img/C40PL/iptool.png)
+</center>
 6. Enter the device IP address on the browser to enter the management page. The default account and password are both `admin`.
+<center>
+
 ![](../../../rv1126_img/C40PL/login.png)
+</center>
 7. Use the RTSP stream player to preview the camera.
+<center>
+
 ![](../../../rv1126_img/C40PL/vlc.png)
+</center>
 8. If an external MIPI display is connected, the camera preview will appear on the display.
 
 ## Device Debugging
@@ -26,9 +35,15 @@ The device can be debugged using `USB cable`, `network port` or `serial port`.
 #### Hardware Wiring
 
 1. Prepare a male-to-male USB cable
+<center>
+
 ![](../../../rv1126_img/C40PL/usb.jpeg)
+</center>
 2. Connect one end of the USB cable to the USB port of the computer and the other end to the USB OTG debugging interface of the RV1126/RV1109 baseboard. The wiring is as shown below:
+<center>
+
 ![](../../../rv1126_img/C40PL/usb_connect.jpeg)
+</center>
 3. Install ADB based on your system.
 
 #### Windows 下的 ADB 安装：
@@ -40,7 +55,10 @@ Windows version download link: https://dl.google.com/android/repository/platform
 1. Unzip `platform-tools-latest-windows.zip` to a custom directory
 2. Press `windows + r` to open Run, enter `sysdm.cpl`, and press Enter. Advanced-->Environment Variables-->System Variables-->Double-click Path-->New
 3. Example: Set as shown below:
+<center>
+
 ![](../../../rv1126_img/C40PL/set_path.png)
+</center>
 4. Note: The path needs to be changed to the custom directory you unzipped
 5. 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices` 
    ```
@@ -127,4 +145,7 @@ View the device IP through ` RK_IPCamera_Tool `. The RK_IPCamera_Tool tool can b
 5. Download, install, and open the serial port debugging tool supported by your system platform (minicom is recommended for Ubuntu and putty is recommended for Windows). If the serial port debugging tool has configuration items for software and hardware flow control, please turn off this function.
 6. The hardware connection of Firefly's serial port module is shown in the figure:
 
+<center>
+
 ![](../../../rv1126_img/C40PL/DEBUG.jpg)
+</center>

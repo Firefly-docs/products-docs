@@ -13,7 +13,10 @@ Driver Download: [https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https
 
 ### Physical Image
 
+<center>
+
 ![](../../../bm1688_img/module_serial_list.png)
+</center>
 
 ### Connection Method
 
@@ -28,4 +31,7 @@ USB to Serial Adapter, with four pins:
 
 AIO-186JD4 DEBUG Port:
 
+<center>
+
 ![](../../../bm1688_img/AIO-186JD4/debug_connection.png)
+</center>

@@ -3,7 +3,10 @@
 ## 模块介绍
 `RKMedia` 是对 `RV1126/RV1109` 内所有媒体资源调用进行了整合封装的一套 `API` 接口，它可以大大降低刚接触 `RV1126/RV1109` 芯片平台用户的开发成本，以少量代码就可以很快速、简单地调用 Soc 上所有媒体资源。同时 `RKMedia` 还提供了媒体资源以外的硬件资源联合调用 DEMO，如：`RKAIQ、RKNN、RTSP` 等等。`RKMedia` 的核心思想是把各个硬件资源独立成模块，模块开放出输入和输出端通过绑定的方式控制流从某个模块流出并且流入另外一个模块。这里会对每个模块进行相关介绍。
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/rkmedia.png)
+</center>
 
 ### 视频
 #### VI
@@ -409,7 +412,10 @@ fmpeg -y -f rawvideo -pix_fmt nv12 -ss 00:01 -r 1 -s 1920x1080 -i 1080pl.nv12 -f
 ```
 * DEMO 效果截图如下图所示：
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/vi_get_frame.png)
+</center>
 
 #### VI->UVC
 * 该开发流程对应的 DEMO 示例为 `firefly_rkmedia_vi_uvc_test.c`
@@ -431,7 +437,10 @@ sudo ./client
 
 * DEMO 效果截图如下图所示：
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/vi_uvc.png)
+</center>
 
 #### VI->RKNN->VENC->RTSP
 * 该开发流程对应的 DEMO 示例为 `rkmedia_vi_rknn_venc_rtsp_test.c`
@@ -447,7 +456,10 @@ vlc rtsp://168.168.101.208:554/live/main_stream
 ```
 * DEMO 效果截图如下图所示：
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/vi_rknn_venc_rtsp.png)
+</center>
 
 #### RTSPGet->VDEC(Multi)->VO
 * 该开发流程对应的 DEMO 示例为 `rkmedia_rtspget_multi_test.cc`
@@ -459,7 +471,10 @@ vlc rtsp://168.168.101.208:554/live/main_stream
 ```
 * DEMO 效果截图如下图所示：
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/rtsp_multi_vo.jpg)
+</center>
 
 #### RTSPGet->VDEC->RKNN->VENC->RTSPPush
 * 该开发流程对应的 DEMO 示例为 `rkmedia_rtspget_vdec_rknn_venc_rtsp_test.cc`
@@ -480,7 +495,10 @@ vlc rtsp://168.168.101.208:8555/H264_stream_1
 ```
 * DEMO 效果截图如下图所示：
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/rtspget_vdec_rknn_venc_rtsppush.png)
+</center>
 
 ### 音频
 * 音频功能演示示例： `rkmedia_audio_test` 。支持 `AI->AENC->AO` 循环， `AI->AENC->File` ， `File->ADEC->AO` ， `AI 输入 Vqe 增强后 AO 输出`四种模式。

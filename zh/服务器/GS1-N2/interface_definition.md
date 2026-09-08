@@ -1,9 +1,15 @@
 # 接口
 ## 外壳
+<center>
+
 ![](../../../gs1-n2_img/GS1-N2/interface-enclosure-zh.png)
+</center>
 
 ## 主板
+<center>
+
 ![](../../../gs1-n2_img/GS1-N2/interface-mainboard-zh.png)
+</center>
 
 |主模组|仅安装主模组时|
 |----|----|

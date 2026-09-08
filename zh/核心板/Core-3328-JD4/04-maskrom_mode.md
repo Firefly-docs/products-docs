@@ -14,7 +14,10 @@
 
 *  1、找到AIO-RK3328-JD4 预留的焊点(CLK, GND)，在开发板的正面，如下图所示：
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/maskrom_point.png)
+</center>
 
 * 2、设备断开所有电源。
 * 3、拔出 SD 卡。
@@ -23,7 +26,10 @@
 * 6、设备插入电源。
 * 7、稍候片刻，之后松开镊子，设备应该就会进入 MaskRom 模式。  
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Maskrom_mode.jpg)
+</center>
 
 [《上手指南》]: started.md
 [《常见问题解答》]: faqs.md

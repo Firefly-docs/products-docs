@@ -4,7 +4,10 @@
 
 ROC-RK3576-PC 硬件版本的串口接口图如下：
 
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/usage_uart_interface.jpg)
+</center>
 
 ## DTS配置
 

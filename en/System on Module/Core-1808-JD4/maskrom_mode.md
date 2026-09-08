@@ -10,9 +10,15 @@ The operation steps are as follows:
 2. Unplug the SD card.
 3. Connect the equipment and host machine with Dual male usb data cable.
 4. Use metal tweezers to connect the two test points on the core board as shown in the figure below and hold.<br />
+<center>
+
 ![](../../../rk1808_img/maskrom1.png)
+</center>
 5. Plug the device into the power supply.
 6. Wait a moment, then loosen the tweezers.
 
 At this point, the device should go into `MaskRom mode`.
+<center>
+
 ![](../../../rk1808_img/maskrom2_en.png)
+</center>

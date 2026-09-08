@@ -21,6 +21,15 @@ AIO-8550JD4 provides these interfaces:
 * 1 x Reset key
 * Power key
 
+<center>
+
 ![](../../../qcom_img/AIO-8550JD4/interface_front_en.jpg)
+</center>
+<center>
+
 ![](../../../qcom_img/AIO-8550JD4/interface_back_en.jpg)
+</center>
+<center>
+
 ![](../../../qcom_img/AIO-8550JD4/interface_io_en.jpg)
+</center>

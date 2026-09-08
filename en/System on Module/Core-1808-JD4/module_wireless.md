@@ -39,13 +39,19 @@
 
 ### Real figure
 
+<center>
+
 ![](../../../rk1808_img/module_wireless1.png)
+</center>
 
 ### Connection methods
 
 * Mini-PCIe connection
 
+<center>
+
 ![](../../../rk1808_img/module_wireless2.jpg)
+</center>
 
 ### Refer to the firmware
 

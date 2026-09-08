@@ -41,4 +41,7 @@ AIO-3399ProC 提供了丰富的接口，主要包括：
 * MINI-PCIE
 
 具体如下图：
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/interface.jpg)
+</center>

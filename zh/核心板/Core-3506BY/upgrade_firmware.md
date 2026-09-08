@@ -42,7 +42,10 @@
 
 也可以单独下载 [AndroidTool](https://community.t-firefly.com/doc/download/296)，解压，运行 `RKDevTool_Release_v2.xx` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
+<center>
+
 ![](../../../rk3506_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 ### Linux操作系统
 Linux 下无须安装设备驱动
@@ -87,13 +90,19 @@ sudo chmod a+x /usr/local/bin/fastboot
 * 使用 Type-C 数据线一端连接主机，一端连接开发板
   
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506B-CC/upgrade_otg_interface.jpg)
+</center>
   
 
 * 按住设备上的 RECOVERY （恢复）键并保持
   
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506B-CC/upgrade_recovery_reset.jpg)
+</center>
   
 
 * 接上电源
@@ -116,11 +125,17 @@ reboot loader
 **Windows操作系统**
 
 通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
+<center>
+
 ![](../../../rk3506_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](upgrade_firmware.html#windows-cao-zuo-xi-tong)。
 
+<center>
+
 ![](../../../rk3506_img/common/upgrade_firmware_new_equipment.jpg)
+</center>
 
 **Linux操作系统**
 
@@ -138,7 +153,10 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 MaskRom烧写固件前先确定板子ROC-RK3506B-CC是否有贴Nor Flash存储器，如下图：
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506B-CC/nor_flash-position.jpg)
+</center>
 
 如果有贴Nor Flash请参考[切换升级存储器](03-upgrade_firmware_with_flash.html#gu-jian-xia-zai-dao-emmc)章节烧写统一固件，没有贴Nor Flash可按以下步骤继续操作
 
@@ -154,7 +172,10 @@ MaskRom烧写固件前先确定板子ROC-RK3506B-CC是否有贴Nor Flash存储�
 3. 按`Upgrade`按钮开始升级。
 4. <font color=#ff0000 >如果升级失败，可以尝试先按`EraseFlash `按钮来擦除 Flash，然后再升级。</font>
 
+<center>
+
 ![](../../../rk3506_img/common/upgrade_firmware_erase_flash_zh.png)
+</center>
 
 #### 烧写分区映像
 烧写分区映像的步骤如下：
@@ -164,7 +185,10 @@ MaskRom烧写固件前先确定板子ROC-RK3506B-CC是否有贴Nor Flash存储�
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击`Run`按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk3506_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 ### Linux操作系统
 
@@ -222,4 +246,7 @@ sudo fastboot reboot # 烧写成功后,重启
 ### 2. 烧写失败分析
 
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
+<center>
+
 ![](../../../rk3506_img/common/upgrade_firmware_download_fail.png)
+</center>

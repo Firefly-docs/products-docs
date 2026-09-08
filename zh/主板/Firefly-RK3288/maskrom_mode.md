@@ -19,14 +19,23 @@
 
 Firefly-RK3288：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/maskrom_test_points.png)
+</center>
 
 
 Firefly-RK3288-Reload：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/maskrom_test_points_reload.png)
+</center>
 
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3288_img/maskrom.png)
+</center>

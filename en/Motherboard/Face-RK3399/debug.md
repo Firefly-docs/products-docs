@@ -32,11 +32,17 @@ Face-RK3399 serial port connection diagram:
 
 1. V1 hardware version:
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/uart2.jpg)
+</center>
 
 2. V2 hardware version:
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/uart4.png)
+</center>
 
 
 ## Parameter Setting
@@ -63,7 +69,10 @@ Download driver and install:
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
+<center>
+
 ![](../../../rk3399_img/debug_find_com.jpg)
+</center>
 
 ### Install Software
 
@@ -76,8 +85,14 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 * Set `Speed (bsp)` to 1500000.
 * Click `OK` button.
 
+<center>
+
 ![](../../../rk3399_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../rk3399_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ## Use serial debug on Ubuntu
 

@@ -536,5 +536,8 @@ vlc rtsp://<设备 ip 地址>
 ```
 * Windows PC 则需要下载 vlc 应用，并且输入串流地址来预览。
 
+<center>
+
 ![](/img/Core-1126-JD4/windows_vlc.jpg)
+</center>
 注意：该快速启动固件`仅适用于 CORE-1126-JD4 V1.1 版本的核心板`。核心板版本详见硬件上的丝印。

@@ -6,7 +6,10 @@
 
 ROC-RK3568-PC-SE支持UART、RS232、RS485接口，分别为双扩展接口上的UART7、集成在RJ45接口的两路RS232和一路RS485，其串口接口图如下:
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3568-PC-SE/uart_interface.jpg)
+</center>
 
 **注意**:在此章节wiki说明中，会将两路RS232分别定义为`RS232_1`、`RS232_2`，以此定义来说明讲解UART的使用
 

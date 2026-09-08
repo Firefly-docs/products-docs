@@ -37,7 +37,10 @@ Using official SDK to compile firmware that support 7.85 inch screen firmware ne
 
 * **Note:** the voltage jumper in the figure below should use 12V.
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/module_display_mipi_connection.en.jpg)
+</center>
 
 ## [10.1" LVDS module](https://www.firefly.store/products)
 
@@ -80,9 +83,15 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 
 * Old version wiring diagram:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/module_display_lvds_old.en.jpg)
+</center>
 
 * New version wiring diagram:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/module_display_lvds_new.en.jpg)
+</center>
 

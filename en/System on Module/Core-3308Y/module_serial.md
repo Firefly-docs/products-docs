@@ -14,9 +14,15 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3308_img/module_serial_list.en.jpg)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/debug_connection.jpg)
+</center>
 

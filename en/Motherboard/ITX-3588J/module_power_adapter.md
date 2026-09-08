@@ -11,10 +11,19 @@
 
 ## Picture
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/module_power_adapter.jpg)
+</center>
 
 ## Other power adapter
 ITX-3588J  in addition to using the 12V power adapter, you can also choose ATX power port or POE(maximum output power 60W) power source input, interface diagram:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/module_power_atx_adapter.jpg)
+</center>
+<center>
+
 ![](../../../rk3588_img/Core-3588J/module_power_poe_adapter.jpg)
+</center>

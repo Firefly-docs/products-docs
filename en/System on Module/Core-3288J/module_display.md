@@ -31,6 +31,9 @@ make -j8 firefly-rk3288-aio-3288j_lvds.img
 
 ### Wiring method
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/module_display.png)
+</center>
 
 * Note: The yellow socket is TP socket while the red socket is backlit control socket.

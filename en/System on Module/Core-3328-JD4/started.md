@@ -6,17 +6,32 @@
 
 Core-3328-JD4 is powered by the Rockchip RK3328 quad-core 64-bit Cortex-A53 processor and includes an onboard AI neural-network accelerator. It provides capable hardware video decoding and a rich set of expansion interfaces, supports multiple operating systems, and is suitable for cluster servers, high-performance computing and storage, and industrial computers.
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_back.png)
+</center>
 
 ## Specifications
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Core_parameter.png)
+</center>
+
+<center>
 
 ![](../../../rk3328_img/Core-3328-JD4/Core_parameter1.png)
+</center>
+
+<center>
 
 ![](../../../rk3328_img/Core-3328-JD4/Core_parameter2.png)
+</center>
 
 ## Standard kit
 

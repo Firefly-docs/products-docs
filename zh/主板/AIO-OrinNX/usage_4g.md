@@ -2,7 +2,10 @@
 
 AIO-Orin NX 支持 4G LTE, 在系统设置处，有多种网络形式，可以在此打开数据流量开关：
 
+<center>
+
 ![](../../../bm1688_img/AIO-Orin-NX/4G.png)
+</center>
 
 在命令行生成网卡：
 

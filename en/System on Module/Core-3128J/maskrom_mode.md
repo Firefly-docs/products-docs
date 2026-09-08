@@ -18,8 +18,14 @@ Artificial to the Flash data pin connected to ground, the system will think Flas
 5. Power on the board.
 6. Wait a moment, then release the metal tweezers.
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/maskrom_1.png)
+</center>
 
 Device should enter MaskRom mode:
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_maskrom.png)
+</center>

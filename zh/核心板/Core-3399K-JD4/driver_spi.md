@@ -4,7 +4,10 @@
 SPI 是一种高速的，全双工，同步串行通信接口，用于连接微控制器、传感器、存储设备等。Core-3399-JD4 SPI 引出来了一路 SPI2 (可复用 GPIO )给外部使用。Core-3399-JD4 开发板提供了 SPI12（单片选）接口，具体位置如下图：
 
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/spi_interface.jpg)
+</center>
 ## SPI 工作方式
 
 SPI 以主从方式工作，这种模式通常有一个主设备和一个或多个从设备，需要至少 4 根线，分别是：
@@ -30,7 +33,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 SPI 的四种工作模式波形图如下：
 
+<center>
+
 ![](../../../rk3399_img/spi_waveform.jpg)
+</center>
 
 ## 驱动编写
 
@@ -40,7 +46,10 @@ SPI 的四种工作模式波形图如下：
 
 Core-3399-JD4 与 W25Q128FV 硬件连接可参考下表：
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/spi_hardware_connection.jpg)
+</center>
 
 
 ### 编写Makefile/Kconfig

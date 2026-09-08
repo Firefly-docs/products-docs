@@ -6,7 +6,10 @@ AIO-3399ProC Development board with two MIPI interface, MIPI maximum support sup
 This article takes OV13850 camera as an example to explain the configuration process on the development board.
 
 ## Interface rendering
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/camera_interface.jpg)
+</center>
 
 ## DTS configuration
 ```
@@ -69,7 +72,10 @@ The configuration process can be completed by setting camera-related pins and cl
 As can be seen from the schematic diagram of the camera interface below, pins to be configured are: MIPI_PWR, MIPI_PDN0_CAM/MIPI_PDN1_CAM, RST_CAM_0/RST_CAM_1.
 
 * mipi interface
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/module_mipi_sch.png)
+</center>
 * MIPI_PWR = GPIO3_D5;
 * MIPI_PDN0_CAM/MIPI_PDN1_CAM =  GPIO3_D3 / GPIO3_D4;
 * MIPI_RST0/MIPI_RST1 = GPIO2_A6 / GPIO2_A1;

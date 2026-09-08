@@ -21,17 +21,29 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_camera_ov13850-1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/module_camera_ov13850-2.jpg)
+</center>
 
 ### 连接方法
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/module_camera_connection.jpg)
+</center>
 
 ### 实拍图片
 
+<center>
+
 ![](../../../rk3399_img/module_camera_photographs.png)
+</center>
 
 ## [CAM-8MS1M 单目摄像头模组](https://item.taobao.com/item.htm?ft=t&id=659032651408)
 
@@ -51,17 +63,29 @@
 
 
 ### 实物图参考
+<center>
+
 ![](../../../rk3399_img/cam_8ms1m_front.jpg)
+</center>
+<center>
+
 ![](../../../rk3399_img/cam_8ms1m_back.jpg)
+</center>
 
 
 ### 连接方法
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/core_3399jd4_8ms1m.jpg)
+</center>
 
 
 
 ### 实拍图片
+<center>
+
 ![](../../../rk3399_img/camera_8ms1m_shoot.jpg)
+</center>
 
 
 ## SV-TAYSH-TQ摄像头模组
@@ -90,16 +114,25 @@
 
 
 ### 实物图
+<center>
+
 ![](../../../rk3399_img/camera_SV-TAYSH-TQ.jpg)
+</center>
 
 
 ### 连接方式
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/camera_SV-TAYSH-TQ_connect.jpg)
+</center>
 
 ### 实拍图片
 
+<center>
+
 ![](../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png)
+</center>
 
 
 

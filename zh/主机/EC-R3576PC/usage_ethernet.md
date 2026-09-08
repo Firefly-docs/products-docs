@@ -42,7 +42,10 @@ Android 双以太网口分内网和外网。
 | eth0 | rk_gmac | Ethernet | 主网口，用于外网 | 千兆网|
 | eth1 | r8152 | Ethernet 2 | 副网口，用于内网 |百兆网|
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/usage_ethernet_interface.jpg)
+</center>
 
 #### 查看IP地址
 * 双以太网口接入网络，可以通过调试串口或者adb来查看IP地址，比如

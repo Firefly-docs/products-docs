@@ -37,7 +37,10 @@
 下载 [ Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/72) ，解压，然后运行里面的 DriverInstall.exe 。   
 为了所有设备都使用更新的驱动，请先选择"驱动卸载"，然后再选择"驱动安装"。   
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware1.png)
+</center>
 
 #### 连接设备
 
@@ -51,12 +54,18 @@
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备"Rockusb Device" 出现，如下图。如果没有，则需要返回上一步重新安装驱动。   
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware2.png)
+</center>
 
 ### 烧写固件
 
 下载 [AndroidTool](https://community.t-firefly.com/doc/download/72)，解压，运行 AndroidTool_Release_v2.63 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图:
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
+</center>
 
 #### 烧写统一固件 update.img
 
@@ -69,7 +78,10 @@
 
 **注意：如果你烧写的固件laoder版本与原来的机器的不一致，请在升级固件前先执行"擦除Flash"。** 
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware4.png)
+</center>
 
 #### 烧写分区映像
 
@@ -86,7 +98,10 @@
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击"执行"按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
+</center>
 
 ### Linux
 
@@ -206,6 +221,9 @@ make -j8 && ./mkimage.sh ota && make otapackage -j8 && ./FFTools/mkupdate/mkupda
 
 8.机器升级过程中如果出现如下图所示解密失败的报错，请点击"恢复平板电脑出厂设置"选项按钮，等待重启完成即可。
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware5.jpg)
+</center>
 
 

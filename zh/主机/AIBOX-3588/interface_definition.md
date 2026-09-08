@@ -12,4 +12,7 @@ AIBOX-3588 接口丰富，主要包括：
 - Type-C（烧录）
 - 电源指示灯
 
+<center>
+
 ![](../../../aibox_img/AIBOX-3588/AIBOX-3588-interface.png)
+</center>

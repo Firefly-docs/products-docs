@@ -4,7 +4,10 @@
 There are nine I2C controllers on the RK3588S, and data on the I2C bus can be transferred at rates up to 100k bit/s in standard mode and 400k bit/s in fast mode.
 AIO-3588SG leads to two I2C for users to configure.
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_i2c_interface.png)
+</center>
 
 This article describes how to debug i2c
 

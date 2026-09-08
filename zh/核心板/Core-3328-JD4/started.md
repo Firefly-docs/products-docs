@@ -6,17 +6,32 @@
 
 Core-3328-JD4 采用 Rockchip RK3328 四核 64 位 Cortex-A53 处理器，板载 AI 神经网络加速芯片，具备较强的硬件解码能力和丰富的扩展接口，支持多种操作系统，适用于集群服务器、高性能计算与存储、工业电脑等场景。
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_back.png)
+</center>
 
 ## 产品参数
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/core-3328-jd4_parameter1.png)
+</center>
+
+<center>
 
 ![](../../../rk3328_img/Core-3328-JD4/core-3328-jd4_parameter2.png)
+</center>
+
+<center>
 
 ![](../../../rk3328_img/Core-3328-JD4/core-3328-jd4_parameter3.png)
+</center>
 
 ## 标准套装
 

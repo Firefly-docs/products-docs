@@ -4,7 +4,10 @@
 ### WCT1FR2201
 WCT1FR2201 WIFI/BT module supports dual -frequency WIFI and Bluetooth 5.0. The module is based on RTL8822ce-CG chip design and supports 5.15 ~ 5.825GHz broadband (IEEEEEE 802.11a standard protocol) and 2.4G ~ 2.5GHz (IEEE802.11b/G standard protocol).
 
+<center>
+
 ![](../../../modules_img/WCT1FR2201/rtl8822ce.png)
+</center>
 <br>
 <br>
 <!--This module does not support voice calls and SMS, if you need support, please contact business <sales@t-firefly.com>。-->

@@ -4,13 +4,22 @@
 ROC-RK3399-PC-PLUS 开发板默认外置支持了两个LCD屏接口，一个是MIPI（兼容10.1寸以及8寸），一个是EDP，接口对应板子上的位置如下图：
 
 10.1 寸 MIPI
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_1.jpg)
+</center>
 
 8寸 MIPI
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_mipi8.jpg)
+</center>
 
 10.1寸 EDP
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_edp101.jpg)
+</center>
 
 ## MIPI_DTS配置
 ### 引脚配置

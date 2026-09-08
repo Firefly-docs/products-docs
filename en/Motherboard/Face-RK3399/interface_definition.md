@@ -25,9 +25,15 @@ Face-RK3399 V1.0 provides rich interfaces, including:
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/obverse.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/reverse.jpg)
+</center>
 
 ## Hardware version 2
 
@@ -67,9 +73,15 @@ Tail line:
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/obverse_V2_1.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/reverse_V2_1.jpg)
+</center>
 
 
 ### 4G module expand board
@@ -94,4 +106,7 @@ Face-rk3399 V2 equip with one expand board mainly include:
 
 
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/4G_module_board.jpg)
+</center>

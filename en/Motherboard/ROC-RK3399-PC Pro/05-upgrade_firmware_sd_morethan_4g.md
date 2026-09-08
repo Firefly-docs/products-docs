@@ -15,7 +15,10 @@ Because the `SD_Firmware_Tool` upgrade tool provided by RK, the upgrade partitio
 Go to [SD Firmware Tool Download Page](https://community.t-firefly.com/en/doc/download/145#other_125) to download `SD_Firmware_Tool` and unzip it.
 
 ### Run `SD_Firmware_Tool.exe`
+<center>
+
 ![](../../../rk3399_img/sdfirmwaretool.en.jpg)
+</center>
 
 1. Download the SD card maker tool: [SD_Firmware_Tool](https://community.t-firefly.com/en/doc/download/145#other_125)
 2. You can modify the **config.ini** file, set `Selected=1` to set the language to Chinese, set `Selected=2` to set the language to English.
@@ -26,7 +29,10 @@ Go to [SD Firmware Tool Download Page](https://community.t-firefly.com/en/doc/do
 7. Take out the MicroSD card, insert it into the MicroSD card slot of the motherboard, power on the motherboard, and the motherboard will automatically start to upgrade.
 8. After the upgrade is complete, take out the MicroSD card and the motherboard will automatically restart to complete the entire firmware update process.
 
+    <center>
+
     ![](../../../rk3399_img/sdfirmwaretool_done.en.jpg)
+    </center>
 
 ## Prepare the required files
 Because formatting will lose files, now you need to re-prepare the files required for MicroSD card upgrade

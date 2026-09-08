@@ -3,11 +3,17 @@
 
 AIO-1684XQ has 2 RELAY control units on the development board:
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/relay.png)    
+</center>
 
 Parameters for each RELAY unit:
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/relay_parameter.png)
+</center>
 ```
 # RELAY0 Connection State (Connecting both circuits of the relay)
 echo 1 >/sys/class/leds/RELAY0/brightness

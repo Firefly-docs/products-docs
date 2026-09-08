@@ -3,11 +3,17 @@
 ## Introduction
 There are 2 PCIe 2.0 x 2 (M.2 SATA/PCIe WiFi/BT modules) on the AIO-3588L development board, as shown in the figure:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_pcie_interface.png)
+</center>
 
 ## Software configuration
 The available hardware resources of RK3588 PCIe and the corresponding relationship between the `pcie` controller node and PHY node on the software are shown in the figure:
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_pcie_phy_en.jpg)
+</center>
 
  The usage on the AIO-3588L development board is as follows
 

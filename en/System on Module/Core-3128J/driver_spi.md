@@ -24,7 +24,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 The oscillograms of four working modes of SPI are shown below:
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/SPI_work_en.jpg)
+</center>
 
 ## Add own driver file in the kernel
 

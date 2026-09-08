@@ -7,9 +7,18 @@ of video input and output, and M.2 SATA SSD expansion. It is equipped with an in
 fanless design and efficient heat dissipation. The device can be used in ARM PCs, edge computing, cloud terminals,
 cloud servers, industrial control, smart vehicles, and more.
 
+<center>
+
 ![](../../../rk3588_img/EC-A3588Q/EC-A3588JQ1.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/EC-A3588Q/EC-A3588JQ2.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/EC-A3588Q/EC-A3588JQ3-en.jpg)
+</center>
 
 
  <a id="firmware-format"></a>

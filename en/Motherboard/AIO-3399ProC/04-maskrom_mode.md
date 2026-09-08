@@ -15,8 +15,14 @@ The operation steps are as follows:
 5. Plug the device into the power supply.
 6. Wait a moment, then loosen the tweezers.
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/maskrom_test_points.jpg)
+</center>
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3399_img/maskrom.jpg)
+</center>

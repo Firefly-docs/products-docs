@@ -42,13 +42,19 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3288_img/module_wireless_ec20_1.png)
+</center>
 
 ### 连接方法
 
 * USB接口连接
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/module_wireless_ec20_2.png)
+</center>
 
 
 ### 参考固件
@@ -66,7 +72,10 @@
 
 #### 产品参数
 
+<center>
+
 ![](../../../rk3288_img/module_wireless_gps_delincomm.jpg)
+</center>
 
 该系列各个模组型号的参数会存在差异，详情可参考[DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
 
@@ -78,7 +87,10 @@
 
 #### 产品参数
 
+<center>
+
 ![](../../../rk3288_img/module_wireless_ublox.png)
+</center>
 
 详细产品规格可参考[DK2635U7F规格书.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DK2635U7F%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf)
 

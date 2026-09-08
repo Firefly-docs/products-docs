@@ -2,35 +2,62 @@
 
 Face X2 is an intelligent access control terminal based on face recognition independently developed by Firefly. It provides advanced face recognition algorithms, mobile phone management software, and background management system.Compared with the traditional password control "password opening", "swipe card opening", "fingerprint recognition" and other methods, this product breaks the limitation of personnel authorization verification, through the face recognition SDK, can easily carry out intelligent transformation of the access control system, Only "swipe the face" can quickly and accurately carry out personnel identification and access control.From collecting face photos, face comparison, and obtaining results, the whole process is automated, without manual intervention. 
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/face_1.png)
+</center>
 
 
 ## Product parameters
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/face_x2_3_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/face_x2_4_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/face_x2_5_en.jpg)
+</center>
 
 
 ## Structure appearance
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/face_x2_6_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/face_x2_7.jpg)
+</center>
 
 
 ## Introduction of tailline
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/weixian_en.png)
+</center>
 
 
 ## Installation
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/guding1_en.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/guding2_en.png)
+</center>
 
 
 ## Product resources

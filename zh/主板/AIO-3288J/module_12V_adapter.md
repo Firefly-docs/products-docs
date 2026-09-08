@@ -13,6 +13,12 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3288_img/module_12V_adapter_1.png)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/module_12V_adapter_2.png)
+</center>

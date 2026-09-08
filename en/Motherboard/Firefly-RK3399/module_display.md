@@ -34,11 +34,17 @@ Using official SDK to compile firmware that support 7.85 inch screen firmware ne
 
 ### Picture
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_display_edp.en.jpg)
+</center>
 
 ### Connection method
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_display_edp_connection.en.jpg)
+</center>
 
 ## 7.85-Inches MIPI display module
 
@@ -69,4 +75,7 @@ Using official SDK to compile firmware that support 7.85 inch screen firmware ne
 
 ### Picture
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_display_mipi_connection.en.jpg)
+</center>

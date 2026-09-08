@@ -2,7 +2,10 @@
 
 ## Introduction
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_spi_interface.jpg)
+</center>
 
 ## How SPI works
 
@@ -29,7 +32,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 The waveforms of SPI's four working modes are as follows:
 
+<center>
+
 ![](../../../rk3588_img/common/usage_spi_waveform_en.jpg)
+</center>
 
 ## Drive coding
 

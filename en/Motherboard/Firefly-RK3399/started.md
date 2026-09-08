@@ -22,7 +22,10 @@ Additionally, the following accessories or devices are needed:
       - USB to serial adapter
 *   Shipping list
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/started_shipping_list.en.png)
+</center>
 
 
 Firefly-RK3399 supports booting from the following storage devices:

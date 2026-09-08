@@ -13,7 +13,10 @@ ROC-RK3506B-CC development BOARD uses TT8563RH as RTC(*Real Time Clock*), TT8563
 
 ROC-RK3506B-CC needs to be connected to the RTC battery to power the RTC chip to ensure that the RTC can operate normally after a short system power outage.
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506B-CC/usage_rtc_battery.jpg)
+</center>
 
 
 ## Driver RTC

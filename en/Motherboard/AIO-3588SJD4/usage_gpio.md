@@ -6,7 +6,10 @@ GPIO (General-Purpose Input/Output) is a General pin that can be dynamically con
 
 
 The AIO-3588SJD4  development board leads out a row of extended GPIO ports for user debugging and development in order to facilitate user development and use. The corresponding pins are as follows:
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/usage_gpio_interface.jpg)
+</center>
 
 This article uses the two general GPIO ports GPIO1_B0 and GPIO1_A4 as examples to write a simple operation GPIO port driver. The path in the SDK is:
 

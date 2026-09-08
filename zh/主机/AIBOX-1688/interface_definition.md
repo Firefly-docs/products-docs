@@ -10,7 +10,10 @@ AIBOX-1688 拥有非常丰富的接口。
 - TYPE-C USB 2.0 OTG
 - TYPE-C 调试串口
 
+<center>
+
 ![](../../../bm1688_img/AIBOX-1688/AIBOX-1688-interface-front.png)
+</center>
 
 **背面接口**：
 - HDMI 2.0 (最高支持 4K@60fps)
@@ -18,4 +21,7 @@ AIBOX-1688 拥有非常丰富的接口。
 - 2*千兆以太网 (网口0: DHCP, 网口 1: 静态 IP 地址 192.168.150.1/24)
 - 12V 电源接口（5.5*2.5mm）
 
+<center>
+
 ![](../../../bm1688_img/AIBOX-1688/AIBOX-1688-interface-back.png)
+</center>

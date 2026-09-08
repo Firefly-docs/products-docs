@@ -13,4 +13,7 @@ The BOARD with space features a rich array of interfaces, including:
 - Type-C USB 3.0
 - Power indicator light
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/AIBOX-K3-interface_en.png)
+</center>

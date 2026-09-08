@@ -8,6 +8,12 @@ AIBOX-1684 has rich interfaces, mainly including:
 - TF card slot
 - Type C (Debug serial)
 
+<center>
+
 ![](../../../bm1684_img/AIBOX-1684/AIBOX-1684-interface-front.en.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/AIBOX-1684/AIBOX-1684-interface-back.en.png)
+</center>

@@ -10,7 +10,13 @@
 ### 技术资料 
 驱动下载：https://www.prolific.com.tw/en/portfolio-item/pl2303gl/
 ### 实物图
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_serial1.png)
+</center>
 
 ### Firefly-RK3128 连接
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_serial3.jpg)
+</center>

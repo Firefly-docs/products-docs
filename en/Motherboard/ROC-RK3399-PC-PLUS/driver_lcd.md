@@ -4,13 +4,22 @@
 ROC-3399-PC-PLUS development board supports two LCD screen interfaces by default, one is MIPI (compatible with 10.1 in. and 8 in. ), the other is EDP(10.1 in.). The positions of interfaces on the board are shown as follows:
 
 10.1 in. MIPI
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_1.jpg)
+</center>
 
 8 in. MIPI
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_mipi8.jpg)
+</center>
 
 10.1 in. EDP
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_edp101.jpg)
+</center>
 
 
 ## MIPI_DTS configuration

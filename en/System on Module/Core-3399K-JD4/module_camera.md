@@ -21,16 +21,28 @@ CMK-OV13850 camera module is supported by default in public firmware.
 
 ### Picture
 
+<center>
+
 ![](../../../rk3399_img/module_camera_ov13850-1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/module_camera_ov13850-2.jpg)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/module_camera_connection.jpg)
+</center>
 
 ### Renderings
+<center>
+
 ![](../../../rk3399_img/module_camera_photographs.png)
+</center>
 
 ## [CAM-8MS1M Monocular camera](https://www.firefly.store/products/cam-8ms1m-camera-module)
 
@@ -47,15 +59,27 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
 
 
 ### Physical map
+<center>
+
 ![](../../../rk3399_img/cam_8ms1m_front.jpg)
+</center>
+<center>
+
 ![](../../../rk3399_img/cam_8ms1m_back.jpg)
+</center>
 
 ### Connection method
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/core_3399jd4_8ms1m.jpg)
+</center>
 
 
 ### Real pictures
+<center>
+
 ![](../../../rk3399_img/camera_8ms1m_shoot.jpg)
+</center>
 
 ## SV-TAYSH-TQ Camera module
 
@@ -81,15 +105,24 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
  Modify the above patch and [complie Android](https://wiki.t-firefly.com/en/Core-3399-JD4/compile_android7.1_industry_firmware.html#manual-compilation-core-3399-jd4), then reboot after upgrading system.img.
 
 ### Physical map
+<center>
+
 ![](../../../rk3399_img/camera_SV-TAYSH-TQ.jpg)
+</center>
 
 
 ### Connection method
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/camera_SV-TAYSH-TQ_connect.en.jpg)
+</center>
 
 ### Real pictures
 
+<center>
+
 ![](../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png)
+</center>
 
 

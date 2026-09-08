@@ -33,7 +33,10 @@ SophonSDK consists of Compiler and Library:
 
 > Examples provides multiple examples in SoC and x86 environments for users to refer to in the development of deep learning applications. This part of the routine code is moved from the SDK to the open source github repository: [https://github.com/sophon-ai-algo/examples](https://github.com/sophon-ai-algo/examples)
 
+<center>
+
 ![](../../../bm1684_img/sophonsdk_overview.png)
+</center>
 
 #### SDK development kit
 
@@ -197,7 +200,10 @@ The Advanced Toolkit includes:
 * Tpu-perf provides a complete set of toolkits for model performance and accuracy verification.
 * Tpu-kernel is the underlying development interface to the chip, allowing both dedicated instructions to accelerate deep learning business logic and generic instructions to accelerate various custom algorithms.
 
+<center>
+
 ![](../../../bm1684_img/new_SophonSDK.png)
+</center>
 
 ### SDK Directory Structure
 

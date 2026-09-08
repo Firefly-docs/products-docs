@@ -13,7 +13,10 @@ ADB (the full name is the Android Debug Bridge) is the command-line debugging to
     * For Android 7.1 and Android 8.1, select setting > USB, and then check connect to PC
     * For Android 10.0, select setting > connected devices, and then check connect to PC
 	
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/adb_connection.jpg)
+</center>
 
 When the device-side status bar prompts `USB debugging connection', debugging can be carried out:
 

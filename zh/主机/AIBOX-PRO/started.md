@@ -3,7 +3,13 @@
 
 具体请参考[规格书](https://download.t-firefly.com/Spec/Computers/AIBOX%20PRO_Specification_CN.pdf)。
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO.png)
+</center>
 
 ## 主机尺寸
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-size.png)
+</center>

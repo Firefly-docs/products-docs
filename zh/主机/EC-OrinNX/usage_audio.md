@@ -10,7 +10,10 @@ EC-Orin NX 拥有两路音频输出以及一路音频输入。
 
 在系统设置中切换耳机以及 HDMI 接口，选择单独一路进行输出：
 
+<center>
+
 ![](../../../bm1688_img/EC-Orin-NX/Sound.png)
+</center>
 
 ### 命令行模式
 

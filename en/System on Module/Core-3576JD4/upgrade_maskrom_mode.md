@@ -10,7 +10,10 @@ The operation steps are as follows:
 
 Disconnect the power, press and hold Maskrom button, plug in the power, release button after few seconds.
 
+<center>
+
 ![](../../../rk3576_img/Core-3576JD4/upgrade_maskrom_key.jpg)
+</center>
 
 
 If the product comes with the case, you can press Maskrom button through headphone jack with a thin stick.
@@ -18,4 +21,7 @@ If the product comes with the case, you can press Maskrom button through headpho
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3576_img/common/upgrade_maskrom_zh.png)
+</center>

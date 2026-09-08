@@ -43,18 +43,27 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3308_img/module_wireless_ec20.png)
+</center>
 
 ### 连接方法
 
 * USB 接口连接
 
+<center>
+
 ![](../../../rk3308_img/module_wireless_ec20_usb.jpg)
+</center>
 
 
 * SIM 卡连接
 
+<center>
+
 ![](../../../rk3308_img/module_wireless_sim_connection.jpg)
+</center>
 
 
 

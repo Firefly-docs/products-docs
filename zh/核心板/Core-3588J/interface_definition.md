@@ -36,9 +36,15 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/Core-3588J/interface_back.png)
+</center>
 
 [ITX-3588J  旧版本接口定义](interface_definition_old.md)
 

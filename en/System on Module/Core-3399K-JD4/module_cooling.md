@@ -13,10 +13,16 @@
 
 ### Real figure
 
+<center>
+
 ![](../../../rk3399_img/module_cooling_radiator.en.jpg)
+</center>
 
 ### Installation
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/module_cooling_radiator_install.png)
+</center>
 
 

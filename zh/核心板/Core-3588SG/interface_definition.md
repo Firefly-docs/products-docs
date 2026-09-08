@@ -22,6 +22,9 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/interface_all-B.png)
+</center>
 
 

@@ -7,7 +7,10 @@ The AIO-3288J development board can be connected to the infrared transceiver sen
 
 The AIO-3288J IR wiring position is shown in the red box below:
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/ir_interface.png)
+</center>
 
 
 This article describes how to use and configure the IR to work properly. You can do this in two parts:

@@ -13,15 +13,24 @@ The external screen can give users a complete and good user experience. The scre
 
 * Adapt high-quality `RGB` camera with professional ISP image quality debugging. The following is the recognition preview effect.
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/pass.jpg)
+</center>
 
 * Adapt `IR` camera to effectively prevent cheating such as photos, videos and wax figures.
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/npass.jpg)
+</center>
 
 * `TYPE-C OTG` provides hardware support for control background, face registration management, and gate background maintenance.
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/weblogin.png)
+</center>
 
 ### Bare Metal Gate
 
@@ -34,7 +43,10 @@ algorithm. PS: The official UVC firmware corresponds to this scenario.
 
 * Face recognition effect.
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png)
+</center>
 
 ## AI Compute Stick
 

@@ -2,7 +2,10 @@
 
 ## Build kernel, show "IO-Domain Checklist" Dialog
 kernel new dts file `arch/arm64/boot/dts/rockchip/rk3566-roc-pc-DEMO.dts`and when build kernel, will show dialog
+<center>
+
 ![](../../../rk356x_img/faq_rk356x_io-domain_checklist.png)
+</center>
 
 **Perform the following operations first**    
 ```
@@ -14,7 +17,10 @@ cp arch/arm64/boot/dts/rockchip/.rk3566-roc-pc.dtb.dts.tmp.domain arch/arm64/boo
 ## The use of ROC-RK3566-PC SPK and MIC
 If you need to use ROC-RK3566-PC to debug SPK and MIC functions, you can use the external extended IO port for debugging. The software supports by default. Since the hardware signal is directly led out from codec, SPK only needs to be connected to the speaker, and MIC can be recorded only by adding bias circuit, as shown below
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3566-PC/roc-rk3566-pc-spk_mic.png)
+</center>
 
 <br>
 
@@ -25,7 +31,10 @@ If you need to use ROC-RK3566-PC to debug SPK and MIC functions, you can use the
 
 RK3566 Dual screen Display uses the same internal input Source, that is, `VOP` is the `Same Source, Dual Display`, so if MIPI screen is used as the main screen, the HDMI screen of the secondary screen will stretch(pic as below), so if you  want to avoid this problem.  Both the primary and secondary screens should be in the same direction (horizontal and vertical) with the same resolution.
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3566-PC/3566_dualscreen.png)
+</center>
 
 ## Changes in kernel/buildroot configuration doesn't take effect after compiling
 After changing configuration through `make menuconfig`, compiling with `build.sh` and burning into device, the changes doesn't take effect. Then you check the configuration and find out that the previous changes have disappeared.

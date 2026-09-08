@@ -1,7 +1,10 @@
 # 简介
 CSA1-N8 是一款1U机架式的ARM准系统高密度阵列式服务器。该服务器面向互联网、AI边缘计算、云计算、大数据和视频边缘计算等领域，具有高性能计算、低能耗、易管理和易部署等优点。
 
+<center>
+
 ![perspective view](../../../servers_img/CSA1-N8/perspective_view.png)
+</center>
 
 功能亮点
 - 服务器准系统 aBMC
@@ -15,8 +18,17 @@ CSA1-N8 是一款1U机架式的ARM准系统高密度阵列式服务器。该服�
 
 ## 物理视图
 ### 正面图
+<center>
+
 ![perspective view](../../../servers_img/CSA1-N8/front_view.png)
+</center>
 ### 背面图
+<center>
+
 ![perspective view](../../../servers_img/CSA1-N8/rear_view.png)
+</center>
 ### 透视图
+<center>
+
 ![perspective view](../../../servers_img/CSA1-N8/perspective_view.png)
+</center>

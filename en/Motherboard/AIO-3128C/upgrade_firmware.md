@@ -41,7 +41,10 @@ Before using the flashing utility, you need to install RK USB driver. If the dri
 Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/37), uncompress it, then run DriverInstall.exe inside.  
 In order to use new driver for all the rockchip devices, please select "驱动卸载"(Driver uninstall), then "驱动安装"(Driver install).  
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_tool_devices.png)
+</center>
 
 ### Devices connection
 
@@ -62,15 +65,24 @@ The other way:
 
 RECOVERY button and RESET button and OTG interface as shown:
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/loader.png)
+</center>
 
 When programming the firmware, you should use the dual male USB data cable. The connection interface is as shown:
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/AIO-3128C-OTG&USB.jpg)
+</center>
 
 The host will prompt to have new device detected and configured. Open the Device Management, you'll find a new device name "Rockusb Device", as shown below. Return to previous step to reinstall driver if it is not shown.
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_rockusb_driver.png)
+</center>
 
 ### Firmware burning
 
@@ -78,7 +90,10 @@ Download [AndroidTool_Release_v2.35.rar](https://community.t-firefly.com/en/doc/
  
 Now, run AndroidTool.exe: (Note: If using Windows 7/8, you'll need to right click it, select to run it as Administrator)
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_3128_tool_download.png)
+</center>
 
 #### Burn the unified firmware update.img
 
@@ -91,7 +106,10 @@ Steps of flashing update.img:
 
 ***WARNING: If you flash firmware laoder different version of the original machine, please click "Erase Flash" before upgrading the firmware.***
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_3128_tool_upgrade.png)
+</center>
 
 #### Burn partition image
 
@@ -102,7 +120,10 @@ Steps of flashing partition images:
 * Make sure the image file's path is correct. Click the rightmost empty table cell to select new path if needed.
 * Click "Run" button to start flashing. Device will reboot automatically when finish.
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_3128_tool_download.png)
+</center>
 
 ## Flash on linux
 
@@ -167,7 +188,10 @@ sudo dpkg -i rkflashkit_0.1.4_all.deb
 
 * Graphic interface:
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/Fireprime_rkflashkit.png)
+</center>
 
 * Command line:
 

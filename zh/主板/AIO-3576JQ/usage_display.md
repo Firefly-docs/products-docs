@@ -71,7 +71,10 @@ AIO-3576JQ 有一个 Display Port 显示输出接口，支持  DP TX 1.4a 协议
 
 * DP 接口
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576JQ/usage_display_dp_interface.png)
+</center>
 
 
 #### 软件配置
@@ -120,7 +123,10 @@ AIO-3576JQ 有一路 MIPI DSI 显示输出接口，支持 DPHY2.0 和 4 Lane 的
 
 * DSI 接口
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576JQ/usage_display_mipi_v2_interface.png)
+</center>
   
 参考设备树：
 ```

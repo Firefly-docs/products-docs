@@ -13,6 +13,9 @@
 
 ### Real figure
 
+<center>
+
 ![](../../../rk3399_img/module_cooling_radiator.en.jpg)
+</center>
 
 

@@ -22,5 +22,8 @@ AIO-3588SG provides rich interfaces, including:
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/interface_all-B.png)
+</center>
 

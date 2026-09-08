@@ -8,7 +8,10 @@ In order to use `adb`, you need to:
 
 1. Use the male to male USB cable to connect host PC with the lower USB OTG port of the board:
 
+   <center>
+
    ![](../../../rk3328_img/ROC-RK3328-CC/hw_board_usbconn.png)
+   </center>
 
 2. In Android running on the board, select `Settings` -> `USB`, and check on `Connect to PC` option.
 3. Install adb driver and command, depending on your OS.

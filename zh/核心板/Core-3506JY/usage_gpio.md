@@ -12,7 +12,10 @@ ROC-RK3506J-CC 支持一个 Rockchip Matrix IO（RM_IO），旨在让众多功�
 
 ROC-RK3506J-CC 开发板为了方便用户开发使用，引出了GPIO口供用户调试和开发，可以用到的 GPIO0_C2。
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506J-CC/usage_gpio_interface.png)
+</center>
 
 
 

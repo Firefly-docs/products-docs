@@ -15,7 +15,10 @@ AIO-3399C 支持 SPI 桥接/扩展 4 个增强功能串口（UART）的功能，
 
 AIO-3399C 开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/uart_interface.jpg)
+</center>
 
 **注意:RS232 需要使用RS232交叉线才能使用，不然rx和tx会出现收发不成功的问题**
 ## DTS 配置

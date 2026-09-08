@@ -13,7 +13,10 @@ GPIO pin calculation formula：pin = bank * 32 + number
 
 GPIO group number calculation formula：number = group * 8 + X
 ```
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/usage_gpio.png)
+</center>
 The following demonstrates the GPIO1_B7 pin calculation method:
 
 bank = 1;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//GPIO<font color=red>1</font>_B7 => 1,  bank ∈ [0,7]

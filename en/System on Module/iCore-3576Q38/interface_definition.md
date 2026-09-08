@@ -18,9 +18,15 @@
 * 1 x RTC battery (4P-1.25mm)
 
 The details are shown below:
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q38/interface_front_en.png)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/iCore-3576Q38/interface_back_en.png)
+</center>
 
 
 ## Special Notice

@@ -9,9 +9,15 @@
 #### 技术资料 
 驱动下载：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 #### 实物图
+<center>
+
 ![](../../../px30_img/module_transform1.jpg)
+</center>
 #### 连接方法
+<center>
+
 ![](../../../px30_img/uart.jpg)
+</center>
 
 
 ## 无线模块
@@ -54,13 +60,22 @@
   * CCC/ NAL*/ TA
 
 #### 实物图
+<center>
+
 ![](../../../px30_img/module_wireless1.png)
+</center>
 #### 连接方法
 * USB接口连接
+<center>
+
 ![](../../../px30_img/USB_EC20.jpg)
+</center>
 
 * Mini-PCIe接口连接
+<center>
+
 ![](../../../px30_img/Pcie_EC20.jpg)
+</center>
 
 #### 参考固件
 公版固件默认支持EC20 4G模组
@@ -74,8 +89,14 @@
 
 * 注意：AIO-PX30-JD4一体机正常工作需要电源12V/2A，电流低于2A可能会因电流过小而异常重启，为了保证开发板的正常工作，请使用电压为12V，电流为2A~3A的电源，推荐使用Firefly官网电源配件。
 #### 实物图
+<center>
+
 ![](../../../px30_img/module_power_adapter1.png)
+</center>
+<center>
+
 ![](../../../px30_img/module_power_adapter2.png)
+</center>
 
 
 ## [红外遥控器](https://store.t-firefly.com/goods.php?id=17)
@@ -87,12 +108,21 @@
 * 描述：支持AIO-PX30-JD4开发板的遥控关机功能
 
 #### 实物图
+<center>
+
 ![](../../../px30_img/module_ir1.png)
+</center>
 #### 键值码
+<center>
+
 ![](../../../px30_img/module_ir2.png)
+</center>
 
 *  AIO-PX30-JD4的IR接线位置如下图红框所示
+<center>
+
 ![](../../../px30_img/IR.jpg)
+</center>
 
 
 ## 散热套件
@@ -103,7 +133,10 @@
 * 尺寸：43mm (L)* 39.5mm(W)*11mm(H)
 
 #### 实物图
+<center>
+
 ![](../../../px30_img/cool_1.jpg)
+</center>
 
 
 
@@ -122,12 +155,24 @@
 #### 技术资料
 [OV13850摄像头DataSheet](http://download.t-firefly.com/product/RK3288/Docs/Peripherals/OV13850%20datasheet/Sensor_OV13850-G04A_OmniVision_SpecificationV1.pdf)
 #### 实物图
+<center>
+
 ![](../../../px30_img/module_camera1.jpg)
+</center>
+<center>
+
 ![](../../../px30_img/module_camera2.jpg)
+</center>
 #### 连接方法
+<center>
+
 ![](../../../px30_img/module_camera4.jpg)
+</center>
 #### 实拍图片
+<center>
+
 ![](../../../px30_img/module_camera3.png)
+</center>
 
 ## [10.1寸LVDS屏模组](https://store.t-firefly.com/goods.php?id=80)
 ### 产品参数
@@ -159,4 +204,7 @@
 [[屏幕模组Datasheet&转接板原理图]](https://community.t-firefly.com/doc/download/54)
 
 ### 实物图
+<center>
+
 ![](../../../px30_img/module_display12.jpg)
+</center>

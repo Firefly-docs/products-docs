@@ -124,7 +124,10 @@ disp_mipi_init: mipi_dsi_init{
 
 其他的时序属性参考下图：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_dsi.png)
+</center>
 
 ### dsihost 配置
 

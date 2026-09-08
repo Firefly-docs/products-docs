@@ -13,8 +13,14 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_power_adapter1.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/module_power_adapter2.png)
+</center>
 
 

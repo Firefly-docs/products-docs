@@ -12,14 +12,20 @@ ITX-3588J  has an HDMI-IN interface, which supports the standard HDMI2.0 protoco
 
 
 The interface diagram is as follows:
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_hdmiin_interface.jpg)  
+</center>
 
 Currently, there are APK and command methods to debug HDMI-IN functions.
 
 ## Android uses HDMI-IN
 
 By default, the Android system of ITX-3588J  have two APKs,one named **Live Tv**, another named **RockchipCamera2**,as shown below:
+<center>
+
 ![](../../../rk3588_img/common/usage_hdmiin_rk3588_apk.png)  
+</center>
 
 Directly click on the APK to display the video input of HDMI-IN, and the audio input of HDMI-IN will be output from the ITX-3588J  headphone, HDMI, Display Port and other interfaces.
 

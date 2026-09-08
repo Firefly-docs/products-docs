@@ -15,8 +15,14 @@ The operation steps are as follows:
 1. Wait a few seconds, stop shorting.
 
 Short circuit the D0 and GND test points near EMMC 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/maskrom_test_points.png)
+</center>
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk356x_img/maskrom_zh.png)
+</center>

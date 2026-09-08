@@ -13,7 +13,10 @@ AIO-3588L 开发板上的 AD 接口有两种，分别为：温度传感器 (Temp
 
 AIO-3588L 的ADC接口图如下：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_adc_interface.jpg)
+</center>
 
 ## DTS配置
 

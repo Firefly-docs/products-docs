@@ -4,13 +4,25 @@ EC-ThorT5000 搭载NVIDIA 官方原装 Jetson Thor T5000 核心板模组，拥�
 # 接口介绍
 ## CAN 版
 
+<center>
+
 ![](../../../nvidia_img/EC-ThorT5000/interface_01_cn.png)
+</center>
+
+<center>
 
 ![](../../../nvidia_img/EC-ThorT5000/interface_can_cn.png)
+</center>
 
 
 ## 网口版
 
+<center>
+
 ![](../../../nvidia_img/EC-ThorT5000/interface_01_cn.png)
+</center>
+
+<center>
 
 ![](../../../nvidia_img/EC-ThorT5000/interface_net_cn.png)
+</center>

@@ -1352,11 +1352,17 @@ key 388   TV_KEYMOUSE_MODE_SWITCH
 
 下图是当红外遥控器按钮按下的时候，所产生的波形，主要由head,Control,information,signed free这四部分组成，具体可以参考RC6 Protocol。
 
+<center>
+
 ![](../../../px30_img/ir0.png)
+</center>
 
 ### 实物连接图
 
+<center>
+
 ![](../../../px30_img/IR.jpg)
+</center>
 
 
 ## LCD使用
@@ -1364,7 +1370,10 @@ key 388   TV_KEYMOUSE_MODE_SWITCH
 
 AIO-PX30-JD4开发板默认外置支持了一个LCD屏接口，为LVDS，另外板子也支持MIPI屏幕，但需要注意的是MIPI和LVDS是复用的，使用LVDS之后不能使用MIPI,接口如下图:
 
+<center>
+
 ![](../../../px30_img/jd4_lcd1.jpg)
+</center>
 
 
 ### Config配置
@@ -1464,7 +1473,10 @@ AIO-PX30-JD4中关于LVDS(MIPI) DSI_PHY的DTS配置在：kernel/arch/arm64/boot/
 
 AIO-PX30-JD4开发板外置了一个背光接口用来控制屏幕背光，如下图所示：
 
+<center>
+
 ![](../../../px30_img/bl.jpg)
+</center>
 
 主要有背光电源引脚以及控制亮度引脚，DTS：kernel/arch/arm64/boot/dts/rockchip/px30-firefly-aiojd4-lvds.dts配置如下
 ```
@@ -1553,7 +1565,10 @@ AIO-PX30-JD4开发板外置了一个背光接口用来控制屏幕背光，如�
 
 时序属性参考下图：
 
+<center>
+
 ![](../../../px30_img/lcd3.png)
+</center>
 
 lvds屏上完电后需要完成一些初始化的工作才可以工作。
 
@@ -1756,7 +1771,10 @@ AIO-PX30-JD4 开发板带有一个MIPI camera，为MIPI_CSI,MIPI最高支持 326
 本文以 OV13850 摄像头为例，讲解在该开发板上的配置过程。
 
 ### 接口效果图
+<center>
+
 ![](../../../px30_img/mipi_csi.jpg)
+</center>
 
 ### DTS配置
 
@@ -1813,7 +1831,10 @@ Android：
 从以下摄像头接口原理图可知，需要配置的引脚有：CIF_PWR、DVP_PWR和MIPI_RST。
 
 * mipi接口
+<center>
+
 ![](../../../px30_img/mipi_csi1.png)
+</center>
 
 * DVP_PWR 对应 PX30 的 GPIO1_B7;
 * CIF_PWR 对应 PX30 的 GPIO1_B6;
@@ -2292,7 +2313,10 @@ CPOL：表示时钟信号的初始电平的状态，０为低电平，１为高�
 CPHA：表示在哪个时钟沿采样，０为第一个时钟沿采样，１为第二个时钟沿采样。  
 SPI的四种工作模式波形图如下：
 
+<center>
+
 ![](../../../px30_img/spi1.jpg)
+</center>
 
 ### 驱动编写
 
@@ -2476,14 +2500,20 @@ A1:  确保 SPI 4个引脚的 IOMUX 配置正确， 确认 TX 送数据时，TX 
 PX30拥有6个 non-secure timers (timer0-timer5)，有2 个secure timers(stimer0~stimer1) ,timer5与stimer0~1采用向上计数方式（从0~自定义的值）触发中断，而timer0~4采用向下计数方式（从自定义的值~0）触发中断，我们主要用到的是 non-secure timers(timer0-timer5)，其时钟频率为24MHZ ，工作（操作）模式有 free-running 和 user-defined count 模式
 ### 框架图
 
+<center>
+
 ![](../../../px30_img/timer1.png)
+</center>
 
 * non-secure timers : 6通道（6个可编程定时器）
 * secure timers : 双通道（2个可编程定时器）
 
 ### 定时器的使用流程
 
+<center>
+
 ![](../../../px30_img/timer7.PNG)
+</center>
 
 
 
@@ -2524,7 +2554,10 @@ free-running：这个模式与 user-defined count 模式相反，在定时器达
 
 其他Timer 对应的中断号可看如下图片
 
+<center>
+
 ![](../../../px30_img/timer2.png)
+</center>
 
 2.对应的驱动文件Kernel/drivers/clocksource/rockchip_timer.c
 
@@ -2532,7 +2565,10 @@ free-running：这个模式与 user-defined count 模式相反，在定时器达
 
 1.寄存器如下图片
 
+<center>
+
 ![](../../../px30_img/timer3.png)
+</center>
 
 2.使用方式 查看对应寄存器
 
@@ -2574,7 +2610,10 @@ px30芯片的uart支持6个独立的uart控制（uart0-uart5），拥有2个64�
 
 AIO-PX30-JD4开发板的串口接口图如下：
 
+<center>
+
 ![](../../../px30_img/uart3_px30.jpg)
+</center>
 
 ### DTS配置
 

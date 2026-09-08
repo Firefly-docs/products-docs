@@ -6,7 +6,10 @@ EG25-G 是移远通信专为 M2M 和 IoT 领域而设计的 LTE Cat 4 无线通�
 多模 LTE Standard EC2x 系列（EC25 系列、EC21 系列和 EC20-CE）/EC200A 系列/EG21-G 模块，在设计和使用中可以灵
 活切换。
 
+<center>
+
 ![](../../../modules_img/EG25/EG25.png)
+</center>
 <br>
 <br>
 此模块不支持语音通话和短信，如果需要支持，请联系商务 <sales@t-firefly.com>。
@@ -56,13 +59,22 @@ EG25-G 是移远通信专为 M2M 和 IoT 领域而设计的 LTE Cat 4 无线通�
 | RK3588 | [ITX-3588J](../../../modules_img/EG25/EG25_ITX-3588J.png), [AIO-3588SJD4](../../../modules_img/EG25/EG25_AIO-3588SJD4.jpg) ,[AIO-3588Q](../../../modules_img/EG25/EG25_AIO-3588Q.jpg)| 
 -->
 
+<center>
+
 ![](../../../modules_img/EG25/EG25_pcie.png)
+</center>
 
 #### USB 接口的连接
+<center>
+
 ![](../../../modules_img/EG25/EG25_usb.png)
+</center>
 
 ### SIM 卡的插入
+<center>
+
 ![](../../../modules_img/EG25/EG25_sim.png)
+</center>
 
 
 # 三、固件与资料下载

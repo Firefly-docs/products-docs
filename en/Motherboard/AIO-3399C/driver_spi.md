@@ -4,7 +4,10 @@
 SPI is a high-speed, full-duplex, synchronous serial communication interface for connecting microcontrollers, sensors, storage devices, etc. AIO-3399C SPI leads to a SPI2(reusable GPIO) for external use. The AIO-3399C development board provides the SPI2 (single chip optional) interface, and the specific position is as follows:
 
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/spi_interface.jpg)
+</center>
 
 
 ## How SPI works
@@ -32,7 +35,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 The waveforms of SPI's four working modes are as follows:
 
+<center>
+
 ![](../../../rk3399_img/spi_waveform.en.jpg)
+</center>
 
 ## Drive coding
 
@@ -42,7 +48,10 @@ The following W25Q128FV Flash module as an example of a simple introduction to t
 
 The hardware connection between AIO-3399C and W25Q128FV is shown in the following table:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/spi_hardware_connection.jpg)
+</center>
 
 
 ### Makefile/Kconfig

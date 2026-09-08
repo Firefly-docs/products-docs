@@ -32,8 +32,17 @@ AIO-3562JQ provides rich interfaces, including:
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3562_img/iCore-3562JQ/interface_io.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3562_img/iCore-3562JQ/interface_back.jpg)
+</center>

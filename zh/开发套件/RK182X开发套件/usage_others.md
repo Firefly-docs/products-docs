@@ -20,15 +20,24 @@
 * 主板自动上电，需要把拨码开关 `AUTO_PWR` 拨到 `ON`
 * 主板按POWER键上电，需要把拨码开关 `AUTO_PWR` 拨到 `1`
 
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/auto_pwr.png)
+</center>
 
 ## RK182X 电压选择
 需要把拨码开关 `RES_VOL_SEL` 拨到 `ON`
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/res_vol_sel.png)
+</center>
 
 ## USB
 host 模式时，需要把拨码开关 `USB SEL` 拨到 `ON`
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_sel.png)
+</center>
 
 ## 风扇
 ### RK1820/RK1828 SODIMM 模组

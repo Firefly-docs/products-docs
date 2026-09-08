@@ -17,14 +17,23 @@ At this point, the device enters MaskRom mode.
 
 
 * the button of  AIO-3588SG
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/upgrade_maskrom_test_points_key.jpg)
+</center>
   
   
 *  two test points of Core-3588SG
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/upgrade_maskrom_test_points_core.jpg)
+</center>
 
 
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+</center>

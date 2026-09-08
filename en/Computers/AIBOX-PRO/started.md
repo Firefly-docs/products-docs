@@ -3,7 +3,13 @@
 
 Please refer to the [Specification](https://download.t-firefly.com/Spec/Computers/AIBOX%20PRO_Specification_EN.pdf) for more details.
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO.png)
+</center>
 
 ## Dimensions
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-size.png)
+</center>

@@ -15,9 +15,15 @@ The MB-JD4-RK3328&PX30 carrier board provides the following main interfaces:
 * TF card and SIM card slots
 * Debug UART
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3328_img/Core-3328-JD4/interface_back.jpg)
+</center>
 
 ## Special interface notes
 

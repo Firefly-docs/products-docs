@@ -30,7 +30,10 @@ In addition, you may need the following accessories during use:
 
 Face-RK3399 is equipped with a 20pin integrated transfer cable, and the connection line sequence with the board is as follows:
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/weixian1.jpg)
+</center>
 
 
 ## V2 hardware version

@@ -7,7 +7,10 @@ It can be configured as an M.2 SATA3.0 interface by software for use with SSDs t
 
 The default software is configured as M.2 SATA3.0 interface, which supports the use of SSDs with SATA protocol.
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_sata_interface.png)
+</center>
 
 ## Software configuration
 ### Method 1:Modify system settings
@@ -16,7 +19,10 @@ Settings->Connected devices -> M.2 SSD Type
 
 Select the option SATA or PCIe that needs to take effect
 
+ <center>
+
  ![](../../../rk3588_img/Core-3588L/swtich_sata_pcie.jpg)
+ </center>
 
  The modification will take effect only after the system is restarted
 

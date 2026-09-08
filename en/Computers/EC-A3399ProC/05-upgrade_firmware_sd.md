@@ -21,9 +21,15 @@ To use MicroSD to update the firmware, you need to write the unified firmware in
 4. Insert the MicroSD into the USB card reader and then into the USB port of the computer.
 5. Open SD_Firmware_Tool, select the correct removable disk device, check the `Upgrade Firmware` box, click `Firmware` to select the firmware you want to upgrade.
 
+    <center>
+
     ![](../../../rk3399_img/sdfirmwaretool.en.jpg)
+    </center>
 6. After clicking `Create`, wait for the creation to finish.
 
+    <center>
+
     ![](../../../rk3399_img/sdfirmwaretool_done.en.jpg)
+    </center>
 7. Take out the MicroSD card, insert it into the MicroSD card slot of the motherboard, power on the motherboard, and the motherboard will automatically start to upgrade.
 8. After the upgrade is complete, take out the MicroSD card and the motherboard will automatically restart to complete the entire firmware update process.

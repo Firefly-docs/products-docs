@@ -21,7 +21,10 @@
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/interface_all_en.jpg) 
+</center>
 
 
 ### ROC-RK3576-PC V0.1 interfaces:
@@ -43,7 +46,13 @@ The details are shown below：
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/interface_all1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/ROC-RK3576-PC/interface_all2.jpg)
+</center>
 

@@ -25,12 +25,18 @@
 
 Firefly-RK3288 串口连接图：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/debug_connection.jpg)
+</center>
 
 
 Firefly-RK3288-Reload 串口连接图：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/debug_connection_reload.jpg)
+</center>
 
 
 ## 串口参数配置
@@ -56,7 +62,10 @@ Firefly-RK3288 使用以下串口参数：
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 
+<center>
+
 ![](../../../rk3288_img/debug_find_com.jpg)
+</center>
 
 ### 安装软件
 
@@ -69,8 +78,14 @@ Windows 上一般用 putty 或 SecureCRT。其中我们推荐使用 MobaXterm �
 3. 设置 `Speed (bsp)` 为 115200。
 4. 点击 `OK` 按钮。
 
+<center>
+
 ![](../../../rk3288_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../rk3288_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ## Ubuntu 上使用串口调试
 

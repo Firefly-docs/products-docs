@@ -21,6 +21,12 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506J-CC/interface_all1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3506_img/ROC-RK3506J-CC/interface_all2.jpg)
+</center>

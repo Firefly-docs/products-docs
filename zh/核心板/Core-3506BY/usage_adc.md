@@ -14,7 +14,10 @@ ROC-RK3506B-CC 开发板上的 AD 接口有两种，分别为：温度传感器 
 
 * 排针上引出的 ADC 接口如下
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506B-CC/usage_saradc_in.png)
+</center>
 
 
 ## DTS配置

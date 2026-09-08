@@ -10,7 +10,10 @@ AIBOX-186 features rich interfaces.
 - TYPE-C USB 2.0 OTG
 - TYPE-C Serial Port (for system debugging)
 
+<center>
+
 ![](../../../bm1688_img/AIBOX-186/AIBOX-186-interface-front.en.png)
+</center>
 
 **Back**：
 - HDMI 2.0 (up to 4K@60fps)
@@ -18,4 +21,7 @@ AIBOX-186 features rich interfaces.
 - 2*1000Mbps Ethernet (0: DHCP, 1: Static IP address 192.168.150.1/24)
 - 12V Power Interface（5.5*2.5mm）
 
+<center>
+
 ![](../../../bm1688_img/AIBOX-186/AIBOX-186-interface-back.en.png)
+</center>

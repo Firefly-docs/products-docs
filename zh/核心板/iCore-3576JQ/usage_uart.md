@@ -6,9 +6,15 @@ iCore-3576JQ 使用了 `UART10` 做 `RS485`，在系统中对应 `/dev/ttyS10` �
 
 接口图如下：
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576JQ/usage_uart_interface.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/iCore-3576JQ/usage_uart_interface2.jpg)
+</center>
 
 ## RS485 节点使用
 ```

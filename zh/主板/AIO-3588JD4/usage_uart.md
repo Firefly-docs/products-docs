@@ -6,7 +6,10 @@ AIO-3588JD4 有一个 RS232 和一个 RS485 接口
 
 AIO-3588JD4 开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/usage_uart_interface.jpg)
+</center>
 
 ## DTS配置
 开发板的 RS232 接口由主控的 UART1 扩展出来，而 RS485 接口由主控 UART6 扩展出来。

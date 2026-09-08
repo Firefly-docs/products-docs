@@ -36,14 +36,23 @@ AIO-3399C provides rich interfaces, including :
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/interface_details.en.jpg)
+</center>
 
 *In addition, customers can also customize the boards of relevant functional interfaces as required, as shown in the figure below:*
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/interface_customized.en.jpg)
+</center>
 
 Beside interface above，AIO-3399C(AI) support NPU speeding for it drive SPR2801S .Howerver, AIO-3399C(AI) do not support all Type-C function (ADB, OTG, DP display)，but it can be used to download firmware with Type-C.
 
 ***Note：The hardware version of AIO-3399C(AI) without SPR2801S dosen't support function of npu speeding up. To use the function of NPU please choose and buy the hardware version of AIO-3399C(AI) with the chip of SPR2801S.***
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/interface_with_npu.en.jpg)
+</center>

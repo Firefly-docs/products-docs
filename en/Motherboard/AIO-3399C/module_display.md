@@ -35,7 +35,10 @@
 
 * **Note:** the voltage jumper in the figure below should use 12V.
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/module_display_mipi_connection.en.jpg)
+</center>
 
 ## [10.1" LVDS module](https://www.firefly.store/products)
 
@@ -102,7 +105,10 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 ### Real figure
 
 * **Note:** the voltage jumper in the figure below should use 12V.
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/module_display_lvds.en.png)
+</center>
 
 ## 7.85 "EDP LCD module
 
@@ -144,10 +150,16 @@ Use the following command when compiling the 7.85-inch screen firmware supported
 
 ### Real figure
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/module_display_edp.en.jpg)
+</center>
 
 ### Connection methods
 
 **Note:** the voltage jumper in the figure below will use 5V, and a wrong connection to 12V will burn the screen chip
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/module_display_edp_connection.en.png)
+</center>

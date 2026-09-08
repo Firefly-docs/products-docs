@@ -42,18 +42,33 @@ AIO-3399C 提供了丰富的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/AIO-3399C/interface_reverse.jpg)
+</center>
 
 *另外* 客户也可以根据需要定制相关功能接口的板子，如下图所示：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/interface_customized_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/AIO-3399C/interface_customized_reverse.jpg)
+</center>
 
 除了上述接口，AIO-3399C(AI)（已贴 SPR2801S 芯片）支持 NPU 加速功能，但是不支持 TYPEC 功能(包括 ADB OTG DP 显示)，TYPEC 只能用于烧固件。
 
 ***注意：AIO-3399C(AI) 中的 SPR2801S 芯片是选贴的。如果需要 NPU 加速功能，请注意选购带有 SPR2801S 芯片的硬件版本。***
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/interface_with_npu.jpg)
+</center>

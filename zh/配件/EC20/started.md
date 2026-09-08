@@ -5,7 +5,10 @@ EC20 是移远通信推出的 LTE Cat 4 无线通信模块，采用 LTE 3GPP Rel
 最大上行速率 50Mbps ；同时在封装上兼容移远通信 UMTS/HSPA+ UC20 模块以及移远通信多网络制式 LTE Cat 3 模
 块，实现了 3G 网络与 4G 网络之间的无缝切换。
 
+<center>
+
 ![](../../../modules_img/EC20/ec20.png)
+</center>
 <br>
 <br>
 此模块不支持语音通话和短信，如果需要支持，请联系商务 <sales@t-firefly.com>。
@@ -55,13 +58,22 @@ EC20 是移远通信推出的 LTE Cat 4 无线通信模块，采用 LTE 3GPP Rel
 | RV1126_RV1109 | [AIO-1126-JD4](../../../modules_img/EC20/ec20_AIO-1126-JD4_AIO-1109-JD4.png), [AIO-1109-JD4](../../../modules_img/EC20/ec20_AIO-1126-JD4_AIO-1109-JD4.png) | 
 | RK3588 | [ITX-3588J](../../../modules_img/EC20/ec20_ITX-3588J.png), [AIO-3588SJD4](../../../modules_img/EC20/ec20_AIO-3588SJD4.jpg) ,[AIO-3588Q](../../../modules_img/EC20/ec20_AIO-3588Q.jpg)|
 | RK3576 | [AIO-3576C](_images/ec20_AIO-3576C.jpg)| -->
+<center>
+
 ![](../../../modules_img/EC20/EC20_PCIE.png)
+</center>
 
 #### USB 接口的连接
+<center>
+
 ![](../../../modules_img/EC20/EC20_USB.png)
+</center>
 
 ### SIM 卡的插入
+<center>
+
 ![](../../../modules_img/EC20/ec20_sim.png)
+</center>
 
 # 三、固件与资料下载
 相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/134)。

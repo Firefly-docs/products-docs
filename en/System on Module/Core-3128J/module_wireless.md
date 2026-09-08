@@ -42,11 +42,17 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_wireless1.png)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_wireless2.png)
+</center>
 
 ### Reference firmware
 

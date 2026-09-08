@@ -6,7 +6,10 @@ An intelligent voice development kit designed for efficient development, integra
 
 With low-code integration, it enables quick implementation and shortens project cycles. Boasting a microphone sensitivity of -32dBA and a signal-to-noise ratio of 65dB, it supports stable wake-up and recognition within a 3-5 meter range. Its wide-temperature and low-power design makes it suitable for multiple scenarios, and it is widely applied in products and fields such as robots, industrial development boards, intelligent service terminals, smart mirrors, smart home panels, and commercial display devices.
 
+<center>
+
 ![](../../../modules_img/Intelligent-Voice-Control-Kit/intelligent-voice-control-kit.png)
+</center>
 
 ## Detailed Specifications
 ### Microphone Array Board
@@ -40,11 +43,17 @@ With low-code integration, it enables quick implementation and shortens project 
 
 ## Hardware Connection
 
+<center>
+
 ![](img/connection_en.png)
+</center>
 
 ### DIP Switch
 
+<center>
+
 ![](img/toggle_switch.png)
+</center>
 
 # Android Development
 For mass production authorization SN codes and the Android platform SDK, please contact the business department at (sales@t-firefly.com) to obtain them.
@@ -65,7 +74,10 @@ For official mass production, it is necessary to purchase official SN authorizat
 ## 2. HLW Noise Reduction Algorithm Development
 
 ### 2.1 Processing Framework of the Noise Reduction Algorithm
+<center>
+
 ![](img/cae_algorithm_framework_en.png)
+</center>
 
 <br>
 
@@ -200,7 +212,10 @@ public interface ICAEListener {
 
 ### 2.4 Algorithm API Calling Process
 
+<center>
+
 ![](img/api_process_en.png)
+</center>
 
 ### 2.5 Interface Encapsulation Example
 ```java

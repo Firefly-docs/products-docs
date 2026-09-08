@@ -33,7 +33,10 @@ AIO-3576C 硬件上有一个 HDMI 显示输出接口：
 
 * HDMI 接口
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_display_hdmi_interface.jpg)
+</center>
 
 #### 软件配置
 
@@ -76,7 +79,10 @@ AIO-3576C 有一个 Display Port 显示输出接口，支持  DP TX 1.4a 协议�
 
 * DP 接口
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_display_dp_interface.jpg)
+</center>
 
 
 #### 软件配置
@@ -125,7 +131,10 @@ AIO-3576C 有一路 MIPI DSI 显示输出接口，支持 DPHY2.0 和 4 Lane 的�
 
 * DSI 接口
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_display_mipi_v2_interface.jpg)
+</center>
   
 参考设备树：
 ```
@@ -142,7 +151,10 @@ AIO-3576C 有一路 LVDS 显示输出接口，它是由 TTL 转的 LVDS，支持
 
 * LVDS 接口
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_display_lvds_interface.jpg)
+</center>
   
 参考设备树：
 ```

@@ -33,7 +33,10 @@ During using, you may need the following accessories:
 
 - Note: The packing list is for reference only.
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/shipping_list.jpg)
+</center>
 
 ## Start-up
 

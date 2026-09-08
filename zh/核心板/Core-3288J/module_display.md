@@ -31,6 +31,9 @@ make -j8 firefly-rk3288-aio-3288j_lvds.img
 
 ### 接线方式
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/module_display.png)
+</center>
 
 * 注意：黄色座子为TP插座，红色座子为背光控制插座

@@ -30,7 +30,10 @@ Using official SDK to compile firmware that support 7.85 inch screen firmware ne
 
 * **Note:** the voltage jumper in the figure below should use 12V.
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/module_display_mipi_connection.jpg)
+</center>
 
 ## [10.1" LVDS module](https://www.firefly.store/products)
 
@@ -77,7 +80,10 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 * **Note:** the voltage jumper in the figure below should use 12V.
 * Connection principle diagram:
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/module_display_lvds_new.jpg)
+</center>
 
 
 ## 7.85 inch EDP LCD module
@@ -111,4 +117,7 @@ When compiling the supported 7.85-inch screen firmware with the official website
 
 ### Physical map
 
+<center>
+
 ![](../../../rk3399_img/module_display_edp.jpg)
+</center>

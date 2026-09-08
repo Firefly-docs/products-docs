@@ -467,71 +467,125 @@ FF9B H(十六进制)=-101=>温度=-10.1℃
 
 - 登录阿里云平台，控制台->物联网平台
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_1.png)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_2.png)
+</center>
 
 - 公共实例->产品->创建产品
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_3.png)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/IHC-3308GW/iot_client/start.png)
+</center>
 
 - 新建产品，输入自定义产品名称，设置为网关设备，联网采用蜂窝网络
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/add_product.png)
+</center>
 
 - 配置产品功能
 
 点击刚刚创建的产品
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_1.png)
+</center>
 
 点击：功能定义->编辑草稿
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_2.png)
+</center>
 
 点击：添加模块
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_3.png)
+</center>
 
 添加模块：创建温湿度传感器1
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_4.png)
+</center>
 
 添加模块：创建温湿度传感器2
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_5.png)
+</center>
 
 点击：温湿度传感器1->添加自定义功能
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_6.png)
+</center>
 
 添加属性：温度检测
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/module_config_1.png)
+</center>
 
 添加属性：湿度检测
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/module_config_2.png)
+</center>
 
 同理，给温度传感器2添加同样的属性，这里略
 
 最后，发布上线即可。
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/module_config_3.png)
+</center>
 
 - 新建设备
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/add_device_1.png)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/IHC-3308GW/iot_client/add_device_2.png)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/IHC-3308GW/iot_client/add_device_3.png)
+</center>
 
 - 复制产品ProductKey，设备名DeviceName，设备秘钥DeviceSecret，后面网关需要用到。
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/set_device_config.png)
+</center>
 
 - 使用USB TYPE C线接入网关，另一端接入电脑
 
@@ -707,7 +761,10 @@ Waiting for a confirmation...
 
 进入阿里云，点击设备->物模型数据->温湿度传感器，即可查看到从本地上传的物模型数据。
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/iot_client/aliyun_data.png)
+</center>
 
 ## 案例：使用EMQX服务器
 

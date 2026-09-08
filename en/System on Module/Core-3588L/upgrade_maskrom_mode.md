@@ -13,10 +13,16 @@ The operation steps are as follows:
 
 You can press the MaskROM key and then power on the device  
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/upgrade_maskrom_key.png)
+</center>
 
 
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+</center>

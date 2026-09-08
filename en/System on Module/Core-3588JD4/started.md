@@ -11,7 +11,10 @@ multiple formats of video input and output, support multiple operating
 systems can be applied to ARM PC, edge computing, cloud server,
 intelligent NVR and other fields.
  
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/Core-3588JD4-front.png) 
+</center>
 
 The AIO-3588JD4 development board consists of the core board **Core-3588JD4** + **MB-JD4-RK3588**. AIO-3588JD4
 has rich interfaces such as RGMII, CAN, Mini PCIe, USB3.0, HDMI, 
@@ -20,5 +23,8 @@ modes. It can be directly applied to various intelligent products to
 accelerate product implementation. For details, refer to ["interface
 definition"](interface_definition.md).
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/AIO-3588JD4-A.png)
+</center>
  <a id="firmware-format"></a>

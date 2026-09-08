@@ -40,11 +40,17 @@
   + CCC/ NAL*/ TA
 
 ### 实物图
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_wireless1.png)
+</center>
 ### 连接方法
 * USB接口连接
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_wireless2.png)
+</center>
 
 ### 参考固件
 [Firefly-RK3128公版固件](https://community.t-firefly.com/doc/download/6)

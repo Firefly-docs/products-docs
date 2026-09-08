@@ -10,7 +10,10 @@
 Connect the monitor.
 
 ### DEBUG Serial 
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/debug.png)
+</center>
 
 Use the following serial port parameters:
 * Baud rate: 115200

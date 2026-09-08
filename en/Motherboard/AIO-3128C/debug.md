@@ -27,7 +27,10 @@ Note: if you are experiencing the problems with the TX and RX that cannot be inp
 
 Serial port connection diagram for AIO-3128C:
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/AIO-3128C-serial.jpg)
+</center>
 ## Connection parameters
 
 The following serial port parameters are used by the AIO-3128C:
@@ -49,7 +52,10 @@ Download driver and install:
 * PL2303 [[2]](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 Plug in the adapter. OS will prompt that new hardware is found and being initialized. When it finish, you can find the new COM port in the Device Manager:  
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_com.png)
+</center>
 
 ### Install Software
 
@@ -62,7 +68,10 @@ Extract and run <font color=#ff0000 size=3>`PUTTY.exe`</font>.
 * Set "Speed" to 115200.
 * Click "Open" button.
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_putty.png)
+</center>
 
 ## Serial port debugging is used on Ubuntu
 

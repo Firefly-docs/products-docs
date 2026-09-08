@@ -7,7 +7,10 @@ There's a SAR ADC (Successive Approximation Register Analog Digital Converter) i
 * ADCIN1: use as Recovery key detection internally
 * ADCIN2: exported in the extension board
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/driver_adc.png)
+</center>
 
 This article will introduce how to configure the ADC to work properly.
 

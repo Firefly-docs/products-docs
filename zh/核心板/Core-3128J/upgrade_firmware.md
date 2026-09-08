@@ -41,7 +41,10 @@
 下载[ Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/6) ，解压，然后运行里面的 DriverInstall.exe 。  
 为了所有设备都使用更新的驱动，请先选择"驱动卸载"，然后再选择"驱动安装"。
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_tool_devices.png)
+</center>
 
 ### 连接设备
 
@@ -61,17 +64,26 @@
 
 RCOVERY按键和RESET按键和OTG接口如图所示：
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/upgrade_1.png)
+</center>
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备"Rockusb Device" 出现，如下图。如果没有，则需要返回上一步重新安装驱动。
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_rockusb_driver.png)
+</center>
 
 ### 烧写固件
 
 下载 [AndroidTool](https://community.t-firefly.com/doc/download/6)，解压，运行 AndroidTool_Release_v2.33 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_download.png)
+</center>
 
 #### 烧写统一固件 update.img
 
@@ -84,7 +96,10 @@ RCOVERY按键和RESET按键和OTG接口如图所示：
 
 ***注意：如果你烧写的固件laoder版本与原来的机器的不一致，请在升级固件前先执行"擦除Flash"。***
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_upgrade.png)
+</center>
 
 #### 烧写分区映像
 
@@ -95,7 +110,10 @@ RCOVERY按键和RESET按键和OTG接口如图所示：
 * 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 * 点击"执行"按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_download.png)
+</center>
 
 ## Linux 主机烧录固件
 
@@ -164,7 +182,10 @@ sudo dpkg -i rkflashkit_0.1.4_all.deb
 ```
 sudo rkflashkit
 ```
+<center>
+
 ![](../../../rk3128_img/Core-3128J/Fireprime_rkflashkit.png)
+</center>
 
 * 命令行：   
 

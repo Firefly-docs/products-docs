@@ -10,7 +10,10 @@ PC OS: Ubuntu22.04, support for NFS services is required, and there may be some 
 
 When the device is powered off, use a small ejector pin or toothpick to push it in through the headphone jack, which will press the Recovery button. While pressing the Recovery button, the device will be powered on and held for 2 seconds before releasing it.
 
+<center>
+
 ![](../../../bm1688_img/EC-Orin-Nano/RecoveryKey.png)
+</center>
 
 Connect the device to the computer using a type-c cable. Assuming the device successfully enters Recovery mode, it can be seen in Linux:
 

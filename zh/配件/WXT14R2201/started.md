@@ -4,7 +4,10 @@
 
 WXT14R2201 是一款基于 RTL8852BE-CG 芯片的双频 WiFi 和蓝牙 5.2 模组，支持 WiFi 6、2.4 GHz 和 5 GHz WiFi 频段。
 
+<center>
+
 ![](../../../modules_img/WXT14R2201/rtl8852be_f.png)
+</center>
 
 ## 规格参数
 

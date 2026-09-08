@@ -9,9 +9,15 @@
 #### 技术资料 
 驱动下载：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 #### 实物图
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_transform1.jpg)
+</center>
 #### 连接方法
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/uart.jpg)
+</center>
 
 
 ## 无线模块
@@ -54,13 +60,22 @@
   * CCC/ NAL*/ TA
 
 #### 实物图
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_wireless1.png)
+</center>
 #### 连接方法
 * USB接口连接
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/USB_EC20.jpg)
+</center>
 
 * Mini-PCIe接口连接
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Pcie_EC20.jpg)
+</center>
 
 #### 参考固件
 公版固件默认支持EC20 4G模组
@@ -74,8 +89,14 @@
 
 * 注意：AIO-RK3328-JD4一体机正常工作需要电源12V/2A，电流低于2A可能会因电流过小而异常重启，为了保证开发板的正常工作，请使用电压为12V，电流为2A~3A的电源，推荐使用Firefly官网电源配件。
 #### 实物图
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_power_adapter1.png)
+</center>
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_power_adapter2.png)
+</center>
 
 
 ## [红外遥控器](https://store.t-firefly.com/goods.php?id=17)
@@ -87,12 +108,21 @@
 * 描述：支持AIO-RK3328-JD4开发板的遥控关机功能
 
 #### 实物图
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_ir1.png)
+</center>
 #### 键值码
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_ir2.png)
+</center>
 
 *  AIO-RK3328-JD4的IR接线位置如下图红框所示
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/IR.jpg)
+</center>
 
 
 ## 散热套件
@@ -103,4 +133,7 @@
 * 尺寸：43mm (L)* 39.5mm(W)*11mm(H)
 
 #### 实物图
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/heatsink.jpg)
+</center>

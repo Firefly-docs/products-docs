@@ -14,7 +14,10 @@ ROC-RK3506J-CC开发板采用 TT8563RH 作为RTC(*Real Time Clock*)，TT8563RH �
 
 ROC-RK3506J-CC 需要接入 RTC 电池给 RTC 芯片供电才可以保证在短时间系统断电后 RTC 能正常运行。
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506J-CC/usage_rtc_battery.jpg)
+</center>
 
 
 

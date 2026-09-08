@@ -5,7 +5,10 @@ RK3576 has 10 on-chip I2C controller, but not all are available for user, some a
 
 AIO-3576JD4 board exported 2 I2C for user.
 
+<center>
+
 ![](../../../rk3576_img/Core-3576JD4/usage_i2c_interface.jpg)
+</center>
 
 I2C0 (which is I2C5 in picture)and I2C3 (which is I2C4 in picture)
 

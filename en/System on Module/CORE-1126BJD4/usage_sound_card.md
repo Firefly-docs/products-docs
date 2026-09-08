@@ -29,7 +29,10 @@ ctl.!default {
 ### Mic
 
 * RV1126B features ADC0 (PMU) and ADC1, supporting up to 4‑channel recording. The RV1126BJD4 carrier board provides two MIC interfaces: MIC2 is connected to ADC0, and MIC1 is connected to ADC1.
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/usage_sound.png)
+</center>
   The firmware enables 4‑channel recording by default; 2‑channel recording defaults to the MIC2 interface. Recording is not enabled by default and must be activated manually.
   The following steps enable recording on ADC0 (i.e., MIC2). If ADC1 is also enabled, 4‑channel recording becomes available. Playback of 4‑channel audio requires playback equipment that supports 4‑channel output.
 * Enabling MIC2

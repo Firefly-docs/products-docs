@@ -13,7 +13,10 @@ The operation steps are as follows:
 3. Plug the device into the power supply and power it on
 
 * The following are the two test points on CAM-C1126S2U
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/upgrade_maskrom_test_points_core.png)
+</center>
 
 
 
@@ -21,4 +24,7 @@ The operation steps are as follows:
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rv1126_img/common/upgrade_maskrom_zh.png)
+</center>

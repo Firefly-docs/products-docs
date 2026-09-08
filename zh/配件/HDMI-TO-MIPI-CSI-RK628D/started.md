@@ -7,11 +7,17 @@
 HDMI TO MIPI CSI驱动板，采用视频桥接芯片RK628D，可实现HDMI视频信号转换为MIPI CSI信号的转换需求，可极大简化硬件设计，提高硬件设计效率，并节约整机成本。可应用于智能微型投影仪、智能显示屏、视频采集转换类产品。
 
 
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_front.jpg)
+</center>
 
 ### 发货清单(仅供参考)
 
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_shipping_list.png)
+</center>
 
 
 ### 规格参数
@@ -31,7 +37,10 @@ HDMI TO MIPI CSI驱动板，采用视频桥接芯片RK628D，可实现HDMI视频
   * 同一路音频输出：3.5mm 耳机接口 * 1、3P-2mm * 1、2P-1.25mm * 1
 
 ### 接口定义
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_interface.jpg)
+</center>
 
 Line Out：将声卡处理后的模拟信号通过此接口输出到音频设备上。
 ## 二、使用方法
@@ -44,17 +53,26 @@ Line Out：将声卡处理后的模拟信号通过此接口输出到音频设备
 ### 硬件连接
 
 #### RK3566/RK3568/RK3588/RK3588S/RK3576 系列主板
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection.jpg)
+</center>
 
 #### RK3399系列主板
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection_30p-to-24p.jpg)
+</center>
 
 
 <font color='red'>注意:<br />1. 请在驱动板和开发板处于断电状态操作此步骤，避免烧坏驱动板和开发板;<br />2. RK3399 系列主板如存在两个MIPI CSI接口，默认接MIPI CSI0。</font>
 
 ### Android 使用HDMI-IN
 系统默认内置HdmiIn2的应用，如图：
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_HdmiIn2.png)
+</center>
 
 点击进入应用后，就会有HDMI-IN 的图像显示，音频会从驱动板上的LineOut输出，最大支持输出分辨率3840x2160@30fps。
 

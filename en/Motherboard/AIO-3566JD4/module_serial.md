@@ -14,9 +14,15 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk356x_img/module_serial_list.en.jpg)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk356x_img/Core-3566JD4/debug_connection.jpg)
+</center>
 

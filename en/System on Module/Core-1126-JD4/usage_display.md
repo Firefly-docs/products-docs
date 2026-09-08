@@ -2,7 +2,10 @@
 
 * The hardware connection between the baseboard and the MIPI screen is shown in the figure:
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/mipi_screen.jpg)
+</center>
 
 * **Note: The default public version firmware only displays the firefly LOGO icon when the baseboard is not connected to the camera. If the baseboard is connected to the 0S04A10 camera, the screen displays the camera preview interface. The rv1126 system is not equipped with a desktop environment. **
 

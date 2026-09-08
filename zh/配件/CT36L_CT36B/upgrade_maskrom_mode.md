@@ -29,11 +29,17 @@
 
 * CT36L 硬件接线图如下：
 
+  <center>
+
   ![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36l.png)
+  </center>
 
 * CT36B 硬件接线图如下：
 
+  <center>
+
   ![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36b.png)
+  </center>
 
 4. 在串口终端输入命令进入 MaskRom 模式
 ```shell
@@ -50,11 +56,17 @@ reboot loader
 
 * CT36L 硬件接线图如下：
 
+  <center>
+
   ![](../../../rv1106_img/CT36L/upgrade_maskrom_hard_ct36l.png)
+  </center>
   
 * CT36B 硬件接线图如下：
 
+  <center>
+
   ![](../../../rv1106_img/CT36L/upgrade_maskrom_hard_ct36b.png)
+  </center>
   
 
 3. USB 数据线接入电脑 USB 接口。这时设备自动进入 MaskRom 模式。

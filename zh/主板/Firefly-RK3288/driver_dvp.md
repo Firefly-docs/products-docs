@@ -31,10 +31,22 @@ Firefly-RK3288-Reload 开发板带有一个 DVP 摄像头接口。本文以 OV56
 
 设置摄像头相关的引脚和时钟，即可完成配置过程。 从以下摄像头接口原理图可知，需要配置的引脚有：VCC28_DVP、VCC18_DVP、VCCIO_YUV、PWDN(FLASH0_CLE)、RESET 和 XCLK1。
 
+<center>
+
 ![](../../../rk3288_img/dvp_interface.png)
+</center>
+<center>
+
 ![](../../../rk3288_img/dvp_power_1.png)
+</center>
+<center>
+
 ![](../../../rk3288_img/dvp_power_2.png)
+</center>
+<center>
+
 ![](../../../rk3288_img/dvp_power_3.png)
+</center>
 
 PWDN、RST 对应 GPIO3_B4、GPIO2_B7 引脚
 

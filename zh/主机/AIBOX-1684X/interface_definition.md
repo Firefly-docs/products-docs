@@ -8,6 +8,12 @@ AIBOX-1684X 接口丰富，主要包括：
 - TF 卡座
 - Type C 口（仅作串口使用）
 
+<center>
+
 ![](../../../bm1684_img/AIBOX-1684X/AIBOX-1684X-interface-front.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/AIBOX-1684X/AIBOX-1684X-interface-back.png)
+</center>

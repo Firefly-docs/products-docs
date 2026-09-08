@@ -1,6 +1,9 @@
 # Introduction
 ## Introduction
+<center>
+
 ![](../../../rk3308_img/IoT-Development-Kit/IoT-Development-Kit_en.jpg)
+</center>
 ### Product Overview 
 The micro IoT motherboard can be combined with one or more modules to form a high-performance intelligent IoT development kit. It supports a variety of IoT systems, speech systems and services, as well as the application development of buildroot + QT. It has rich expansion interfaces and can be quickly applied to IoT intelligent Internet of things, intelligent speech recognition, human-machine interface, industrial control, intelligent robot and other fields.
 

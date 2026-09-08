@@ -4,7 +4,10 @@
 
 The serial port 5 interface diagram of the ROC-RK3506B-CC hardware version is as follows:
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506B-CC/usage_uart_interface.jpg)
+</center>
 
 ## DTS Configuration
 

@@ -4,7 +4,10 @@
 
 EC-AGXOrin 可以使用 Type-C 线连接到 PC 机进行串口调试：
 
+<center>
+
 ![](../../../nvidia_img/EC-AGXOrin/type-c_connection.png)
+</center>
 
 ### 串口参数配置
 
@@ -27,8 +30,14 @@ Windows 上一般用 putty 或 SecureCRT 软件。其中我们推荐使用 MobaX
 3. 设置 `Speed (bsp)` 为 `115200`。
 4. 点击 `OK` 按钮。
 
+<center>
+
 ![](../../../nvidia_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../nvidia_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ### Linux 上使用串口调试
 

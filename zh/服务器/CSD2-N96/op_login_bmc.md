@@ -52,17 +52,26 @@ aBMC 提供可视化Web管理界面，可完成服务器整机监控、硬件运
 ### 1.1 环境准备
 #### 1.1.1 服务器网络接线
 登录前将 aBMC 管理网口接入局域网，保证操作PC与BMC管理IP三层互通。
+<center>
+
 ![PC-Switch-Server Basic Network Connection Topology Diagram](../../../servers_img/common/pc_switch_server_basic_network_topology.png)
+</center>
 
 支持两类管理网口，按需选用：
 - **共享网口**：复用服务器业务网卡，同时承载业务流量与BMC管理流量；
 - **专用MGMT网口**：独立硬件网口，仅传输BMC管理指令，隔离业务网络。
 
+<center>
+
 ![MGMT Management Port Wiring Diagram](../../../servers_img/common/mgmt_port_cable_connection.png)
+</center>
 
 #### 1.1.2 查询aBMC管理IP
 可在服务器本地Linux系统执行 `ip` / `ifconfig` 命令，读取MGMT网口IP地址。
+<center>
+
 ![MGMT Port IP Query Command Output Screenshot](../../../servers_img/common/mgnt_ip_query_terminal_screenshot.png)
+</center>
 
 ### 1.2 Web客户端环境要求
 浏览器兼容性与分辨率标准如下：
@@ -76,16 +85,31 @@ aBMC 提供可视化Web管理界面，可完成服务器整机监控、硬件运
 ### 1.3 Web页面登录步骤
 以Chrome浏览器为例：
 1. 浏览器地址栏输入 `https://aBMC管理IP`，访问时弹出证书安全告警。
+    <center>
+
     ![aBMC Certificate Warning Operation Schematic Diagram](../../../servers_img/common/abmc_chrome_cert_warning_schematic.png)
+    </center>
 2. 点击页面 `Advanced（高级）`；
 3. 选择 `Proceed to (site) (unsafe)` 忽略证书告警，跳转登录页。
+    <center>
+
     ![aBMC Login Page Schematic Diagram](../../../servers_img/common/abmc_login_page.png)
+    </center>
 4. 输入默认账号密码登录，进入整机总览面板：
     - 设备面板：查看ARM计算单元硬件运行状态、执行底层Shell命令；
+    <center>
+
     ![aBMC dashboard View](../../../servers_img/common/abmc_device_list.png)
+    </center>
     - 固件升级页面：批量更新各计算单元固件；
+    <center>
+
     ![Add Firmware Upgrade Popup Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_popup.png)
+    </center>
+    <center>
+
     ![Firmware Upgrade Task Monitoring Page Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_monitor_page.png)
+    </center>
 
 > 安全提示：首次登录请立即修改默认账号密码，并定期更新，降低设备入侵风险。
 > 完整功能说明参考配套《aBMC用户指南》。
@@ -101,7 +125,10 @@ aBMC 提供可视化Web管理界面，可完成服务器整机监控、硬件运
 3. 连接建立后输入BMC Linux账号密码；
 4. 登录完成，可执行底层系统查询命令。
 
+<center>
+
 ![BMC OS Release Query Command Line Schematic Diagram](../../../servers_img/common/cmd_os_release_info.png)
+</center>
 
 ## 3 SSH远程登录
 1. 本地使用系统自带 `ssh` 工具或MobaXterm等终端软件；

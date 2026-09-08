@@ -7,7 +7,10 @@ It can be configured as an M.2 SATA3.1 interface by software for use with SSDs t
 
 The default software is configured as M.2 SATA3.1 interface, which supports the use of SSDs with SATA protocol.
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q/usage_sata_interface.jpg)
+</center>
 
 ## Software configuration
 <!--

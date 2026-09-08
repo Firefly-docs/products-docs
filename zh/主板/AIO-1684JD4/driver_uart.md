@@ -13,9 +13,15 @@ AIO-1684JD4 支持 3 个 UART 设备:
 
 AIO-1684JD4 开发板的 RS232 与 RS485 接口图如下：
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684JD4/uart_interface.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/AIO-1684JD4/uart_pinout.png)
+</center>
 
 ## 调试方法
 

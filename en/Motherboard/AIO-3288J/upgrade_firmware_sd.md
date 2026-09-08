@@ -26,4 +26,7 @@ This article mainly introduced how to upgrade the firmware on the host to the SD
 8. Wait for the completion of the operation until the prompt `success` dialog box appears:
 9. Unplug the SD card.
 
+<center>
+
 ![](../../../rk3288_img/SD_Firmware_Tool_en.png)
+</center>

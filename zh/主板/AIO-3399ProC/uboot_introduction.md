@@ -25,7 +25,10 @@ u-boot/rk3399pro_loader_v***.bin
 
 打开烧录工具，板子接好 USB OTG 线，接通电源时按住 Recovery 键，使开发板进入 U-Boot 的下载模式，在烧录工具中选择编译好的 Loader 文件，点击执行即可，如下图：
 
+<center>
+
 ![](../../../rk3399_img/uboot_download.jpg)
+</center>
 
 ## 确认是否正确烧写新的 Loader
 

@@ -56,4 +56,7 @@ index ae57644a105..0cb9124bec8 100644
 
 ### 实物图
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3568-PC-SE/module_display_mipi_DSI0.jpg)
+</center>

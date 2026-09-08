@@ -20,4 +20,7 @@ echo out > /sys/class/gpio/gpio99/direction
 
 Interfaces:
 
+<center>
+
 ![](../../../rk3576_img/Core-3576JD4/usage_uart_interface.jpg)
+</center>

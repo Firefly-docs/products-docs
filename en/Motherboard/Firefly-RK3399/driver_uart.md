@@ -13,7 +13,10 @@ Firefly-RK3399 development board supports 5 independent UART controller:UART0,UA
 
 Our Firefly-RK3399 development board for the convenience of users, leads to a row of general-purpose GPIO, the corresponding schematic is as follows：
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/uart_interface.jpg)
+</center>
 
 GPIO1_A7 and GPIO1_B0 can be reused as `uart4_rx` and `uart4_tx`,
 

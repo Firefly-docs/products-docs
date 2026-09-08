@@ -11,7 +11,10 @@
 ## Process
 The complete NPU development process is shown in the following figure
 
+<center>
+
 ![](../../../rk1808_img/rknn_development_flow_en.png)
+</center>
 
 ### 1. model training
 In the model training stage, users choose the appropriate framework (such as Caffe, TensorFlow, etc.) according to the needs and actual conditions to train to get the model that meets the needs. The trained model can also be used directly.

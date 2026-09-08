@@ -23,5 +23,8 @@
 
 *    发货清单参考
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/started_shipping_list.jpg)
+</center>
  <a id="firmware-format"></a>

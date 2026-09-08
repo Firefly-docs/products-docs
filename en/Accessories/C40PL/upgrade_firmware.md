@@ -38,7 +38,10 @@ In order for all devices to use the updated driver, first select Driver uninstal
 ![](../../../rv1126_img/common/upgrade_firmware_install_rk_usb.jpg)
 </center>
 
+<center>
+
 ![](../../../rv1126_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 ### Linux Operating System
 
@@ -84,7 +87,10 @@ Connect the device and press the **RECOVERY** button to enter the Loader mode. T
 * Disconnect the power adapter first
 * Use USB 数据线 to connect one end to the host and the other end to the development board
 
+<center>
+
 ![](../../../rv1126_img/C40PL/upgrade_otg_interface.jpg)
+</center>
 
 * Press and hold the RECOVERY button on the device
 * The button position may vary slightly depending on the hardware version, please refer to the actual silk screen
@@ -108,11 +114,17 @@ How to determine whether the board is in Loader mode, we can check through the t
 
 The AndroidTool displays the prompt Found One LOADER Device at the bottom
 
+<center>
+
 ![](../../../rv1126_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](upgrade_firmware.html#install-the-upgrade-tool).
 
+<center>
+
 ![](../../../rv1126_img/common/upgrade_firmware_new_equipment.jpg)
+</center>
 
 **Linux Operating System**
 
@@ -140,7 +152,10 @@ The steps to update the unified firmware `update.img` are as follows:
 3. Press the `Upgrade` button to start the upgrade.
 4. <font color=#ff0000 >If the upgrade fails, you can try to erase the Flash by pressing the `EraseFlash` button first, and then upgrade. </font>
 
+<center>
+
 ![](../../../rv1126_img/common/upgrade_firmware_erase_flash_zh.png)
+</center>
 
 #### Upgrade Partition image
 
@@ -153,18 +168,27 @@ The steps to upgrade the partition image are as follows:
 
 4. Click `Run` button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rv1126_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 Tips for using the flashing tool:
 
 1. Get device partition table information
 
 	Put the rv1126 device into loader mode. Then click the Dev Partition button in the picture to get the device partition information.
+   <center>
+
    ![](../../../rv1126_img/common/upgrade_tools_get_partition.png)
+   </center>
 
    Click Update to get the device partition information as follows:
 
+   <center>
+
    ![](../../../rv1126_img/common/upgrade_tools_get_partition_ok.png)
+   </center>
 
 
 
@@ -172,7 +196,10 @@ Tips for using the flashing tool:
 
    Right-click the mouse to pop up a menu, select export config to export the partition table configuration:
 
+   <center>
+
    ![](../../../rv1126_img/common/upgrade_tools_export_config.png)
+   </center>
 
 
 
@@ -180,7 +207,10 @@ Tips for using the flashing tool:
 
    Right-click the mouse to pop up a menu, select load config to load the partition table configuration:
 
+   <center>
+
    ![](../../../rv1126_img/common/upgrade_tools_load_config.png)
+   </center>
 
 
 ### Linux Operating System
@@ -274,7 +304,10 @@ sudo fastboot reboot # After the burn is successful, restart
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
+<center>
+
 ![](../../../rv1126_img/common/upgrade_firmware_download_fail.png)
+</center>
 
 [烧写须知]: 02-upgrade_table.md
 [C40PL firmware]: https://community.t-firefly.com/en/doc/download/101

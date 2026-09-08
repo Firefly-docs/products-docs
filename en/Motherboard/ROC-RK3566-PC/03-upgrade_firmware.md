@@ -50,7 +50,10 @@ LangPath=Language\
 
 Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will display in English.Now, run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
+<center>
+
 ![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
+</center>
 
 #### Install RK USB drive
 
@@ -81,7 +84,10 @@ reboot loader
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and [reinstall the driver](03-upgrade_firmware.md).
 
+<center>
+
 ![](../../../rk356x_img/upgrade_firmware_new_equipment.png)
+</center>
 
 ### Linux
 
@@ -107,7 +113,10 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 
 Determine the board ROC-RK3566-PC before upgrading unified firmware update.img whether has Nor Flash, as shown in the figure below: 
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3566-PC/nor_flash-position.jpg)
+</center>
 
 If the board has Nor Flash, please refer to chapter [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md) for upgrading, else please follow the steps below to continue: 
 
@@ -148,7 +157,10 @@ The steps to upgrade the partition image are as follows:
 
 5. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
+</center>
 
 ### Linux
 
@@ -211,7 +223,10 @@ sudo fastboot reboot # After the burn is successful, restart
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
+<center>
+
 ![](../../../rk356x_img/upgrade_downloadfail.png)
+</center>
 
 ### 3. Has Spi Flash(Nor Flash)，After MaskRom，Download failure
 If board has Spi Flash and eMMC，After MaskRom，need select Storage，See operation method [ "Switching Upgrade Storage" ](03-upgrade_firmware_with_flash.md)。

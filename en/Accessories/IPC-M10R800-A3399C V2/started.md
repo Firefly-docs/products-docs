@@ -12,14 +12,26 @@ It adopts 10.1-inch IPS high-end screen of 800 x 1280 resolution, supports dual-
 display/dual-screen differential display and full-view HD display with fine color saturation and high-quality 
 HD image. 
 
+<center>
+
 ![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_1_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_2_en.jpg)
+</center>
 
 ## Product parameters
 
+<center>
+
 ![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s1_en.jpg)
+</center>
+<center>
+
 ![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s2_en.jpg)
+</center>
 
 ## Product resources
 

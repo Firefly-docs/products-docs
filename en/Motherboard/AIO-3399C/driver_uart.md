@@ -13,7 +13,10 @@ AIO-3399C supports SPI bridge/extension functions of four enhanced serial ports 
 
 The serial interface diagram of the AIO-3399C development board is as follows:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/uart_interface.jpg)
+</center>
 
 **Note: RS232 needs to use RS232 crossover cable to use, otherwise rx and tx will have unsuccessful transmission and reception.**
 

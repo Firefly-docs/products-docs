@@ -11,14 +11,23 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3288_img/module_ir.png)
+</center>
 
 ### Key code
 
+<center>
+
 ![](../../../rk3288_img/module_ir_remote_info.png)
+</center>
 
 
 * The IR wiring position of the AIO-3288C is shown in the red box below:
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/module_ir_connection.png)
+</center>
 

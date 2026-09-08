@@ -19,8 +19,17 @@ EC-A1688JD4 接口丰富，主要包括：
 - Type-C（USB2.0，但默认为调试串口）
 - 电源指示灯
 
+<center>
+
 ![](../../../bm1688_img/EC-A1688JD4/EC-A1688JD4-interface.png)
+</center>
+
+<center>
 
 ![](../../../bm1688_img/EC-A1688JD4/antenna_connection.jpg)
+</center>
+
+<center>
 
 ![](../../../bm1688_img/EC-A1688JD4/sim_connection.jpg)
+</center>

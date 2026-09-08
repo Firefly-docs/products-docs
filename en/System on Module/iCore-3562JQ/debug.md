@@ -29,7 +29,10 @@ Serial port to USB adapter, there are four pins:
 
 AIO-3562JQ serial port connection diagram:
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/debug_connection.jpg)
+</center>
 
 ## Parameter Setting
 
@@ -53,7 +56,10 @@ Download driver and install:
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
+<center>
+
 ![](../../../rk3562_img/debug_find_com.png)
+</center>
 
 ### Install Software
 
@@ -66,8 +72,14 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 * Set `Speed (bsp)` to 1500000.
 * Click `OK` button.
 
+<center>
+
 ![](../../../rk3562_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../rk3562_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ## Use serial debug on Ubuntu
 
@@ -167,7 +179,10 @@ After finishing the setting, go back to the previous menu and select `Save setup
 
 Use Double male USB data cable connect the OTG port of AIO-3562JQ and Host computer.
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/adb_connection.jpg)
+</center>
 ## Enable ADB
 
 ### Linux

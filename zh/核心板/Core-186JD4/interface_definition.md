@@ -30,6 +30,12 @@ AIO-186JD4 提供了丰富的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../bm1688_img/Core-186JD4/AIO-186JD4-interface_front.png)
+</center>
+
+<center>
 
 ![](../../../bm1688_img/Core-186JD4/AIO-186JD4-interface_back.png)
+</center>

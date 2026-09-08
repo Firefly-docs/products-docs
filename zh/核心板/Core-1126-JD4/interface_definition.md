@@ -42,14 +42,23 @@
 
 * 外观尺寸图 
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/size.png)
+</center>
 
 ## 外围接口
 
 `CORE-1126-JD4/CORE-1109-JD4` 金手指保留了 Soc 大部分的接口，用户可以配套官方的 `MB-1126-JD4` 底板使用。
 * 外围接口图 
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/interface-0.png)
+</center>
+
+<center>
 
 ![](../../../rv1126_img/Core-1126-JD4/interface-2.png)
+</center>
 

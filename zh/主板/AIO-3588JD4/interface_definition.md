@@ -29,7 +29,13 @@ AIO-3588JD4 提供了丰富的接口，主要包括：
 * 2 x RJ45 (支持 1Gbps 以太网)
 * 1 x M2.SATA3.0 或 M2.PCIe2.0 (默认支持M2.SATA3.0)
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/interface_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/Core-3588JD4/interface_back.png) 	
+</center>
 

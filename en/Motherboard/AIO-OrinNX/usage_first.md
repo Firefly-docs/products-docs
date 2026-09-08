@@ -76,7 +76,10 @@ sudo snap install snapd_24724.snap
     * `<x>` is the power `Mode ID` (for example, 0, 1, 2, 3 or 4).
 
 ### GUI
+<center>
+
 ![](../../../bm1688_img/nvpmodel_gui.png)
+</center>
 
 * To switch the current power mode, click the NVIDIA icon to open a dropdown menu from the icon
 * Click “Power mode” to open a submenu of power modes

@@ -92,7 +92,10 @@ Host operating system support:
 Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/67), extract, and then run the DriverInstall.exe inside .
 In order for all devices to use the updated driver, first select `驱动卸载(Driver uninstall)` and then select `驱动安装(Driver install)`.
 
+<center>
+
 ![](../../../px30_img/upgrade_firmware1.png)
+</center>
 
 ### Connect device
 
@@ -106,7 +109,10 @@ You can put the device into upgrade mode as follows:
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and reinstall the driver.
 
+<center>
+
 ![](../../../px30_img/upgrade_firmware2.png)
+</center>
 
 ### Upgrade firmware
 
@@ -122,7 +128,10 @@ LangPath=Language\
 
 Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will display in English.Now, run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
+<center>
+
 ![](../../../px30_img/upgrade_firmware3.png)
+</center>
 
 #### Upgrade unified firmware - update.img
 
@@ -134,7 +143,10 @@ The steps to update the unified firmware `update.img` are as follows:
 4. <font color=#ff0000 >If the upgrade fails, you can try to erase the Flash by pressing the `erase Flash` button first, and then upgrade. Be sure to erase and upgrade according to [Upgrade instructions](upgrade_table.md).</font>
 
 **Note: if the firmware laoder you wrote is inconsistent with the original one, please execute `wipe Flash` before upgrading the firmware.**
+<center>
+
 ![](../../../px30_img/upgrade_firmware4.png)
+</center>
 
 #### Upgrade Partition image
 
@@ -148,7 +160,10 @@ The steps to upgrade the partition image are as follows:
 	3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
 	4. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../px30_img/upgrade_firmware3.png)
+</center>
 
 ## Linux
 
@@ -232,10 +247,16 @@ The operation steps are as follows:
 3. Connect the equipment and host machine with Type-C data cable.
 4. Use metal tweezers to connect the two test points on the core board as shown in the figure below and hold.<br />
 
+<center>
+
 ![](../../../px30_img/maskrom.jpg)
+</center>
 
 5. Plug the device into the power supply.
 6. Wait a moment, then loosen the tweezers.
 
 At this point, the device should go into `MaskRom mode`.
+<center>
+
 ![](../../../px30_img/maskrom2.png)
+</center>

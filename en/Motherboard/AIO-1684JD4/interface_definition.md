@@ -23,6 +23,12 @@ AIO-1684JD4 provides rich interfaces, including:
 
 The details are as follows:
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684JD4/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/AIO-1684JD4/interface_back.jpg)
+</center>

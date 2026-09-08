@@ -28,11 +28,17 @@ AIO-1808-JD4 provides rich interfaces, including :
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk1808_img/interface.png)
+</center>
 
 *in addition, customers can also customize the boards of relevant functional interfaces as required, as shown in the figure below:*
 
+<center>
+
 ![](../../../rk1808_img/back.png)
+</center>
 
 #### Special interface
 

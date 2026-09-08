@@ -183,9 +183,18 @@ mysql> select * from subscriber;
 账号：1000
 密码：1000
 
+<center>
+
 ![](../../../rk3399_img/opensips1.png)
+</center>
+<center>
+
 ![](../../../rk3399_img/opensips2.png)
+</center>
+<center>
+
 ![](../../../rk3399_img/opensips3.png)
+</center>
 
 * 测试结果：
 **能进行视频、语音通话、文本信息传输和文件传输。**
@@ -316,7 +325,10 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=640,he
 
 运行脚本即可，结果如图所示：
 
+<center>
+
 ![](../../../rk3399_img/mipi_csi.jpg)
+</center>
 
 ### 开发MIPI 摄像头
 

@@ -12,4 +12,7 @@
 
 ## Physical picture
 
+<center>
+
 ![](../../../bm1684_img/module_power_adapter3.png)
+</center>

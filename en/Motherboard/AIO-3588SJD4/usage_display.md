@@ -1,7 +1,10 @@
 # Display
 
 
+<center>
+
 ![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+</center>
 
 
 RK3588S has four video output ports, each video output port is bound to a fixed display controller, such as Port0 can be used to connect with display controllers such as DP0, DP1, HDMI/eDP0 and HDMI/eDP1, other Portx and so on.
@@ -29,10 +32,16 @@ But from the software point of view, there are the following configuration consi
  AIO-3588SJD4   There are three display output interfaces, namely HDMI, Display Port and MIPI DSI, which can achieve multi-screen simultaneous display/exclusive display. The interface diagram is as follows:
 
 * HDMI0/ Display Port  
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/usage_display_interface.jpg)  
+</center>
 
 * MIPI DSI0/ MIPI DSI1  
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/usage_display_dsi_interface.jpg)  
+</center>
 
 The following is a basic introduction to the configuration and use of each display output interface. For details, please refer to the file:
 * `kernel-5.10/arch/arm64/boot/dts/rockchip/aio-3588sjd4.dtsi`  
@@ -188,26 +197,41 @@ Since DSI0 and DSI1 are similar in software configuration, here the configuratio
 Combining AIO-3588SJD4   DSI1 interface and screen timing
 
 * DSI1 interface
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/usage_display_mipi_v2_interface.png)
+</center>
   
 
 * V2 screen display timing
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_timing.jpg)
+</center>
   
   
 
 * V2 screen power-on timing
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)
+</center>
   
   
 
 * V2 screen power-down timing
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)
+</center>
   
   
 
 * V2 screen power-up symbol reference
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)
+</center>
   
 
 

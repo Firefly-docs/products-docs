@@ -37,7 +37,13 @@ AIO-3568J provides rich interfaces, including:
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk356x_img/Core-3568J/interface_reverse.jpg)
+</center>
 

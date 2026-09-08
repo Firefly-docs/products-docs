@@ -4,9 +4,15 @@
 
 Wiegand protocol is a communication protocol developed by Motorola, which is applicable to many aspects of card readers and cards related to access control system; the protocol does not define the baud rate of communication and data length. It mainly defines the data transmission mode: Data0 and data1 are used to transmit 0 and 1 respectively. They are mostly used for 26bit, 34bit, 36bit, 44bit, etc.
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/RS485_en.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/D0_D1.jpg)
+</center>
 
 ## Debugging
 
@@ -37,7 +43,10 @@ echo [card number] > /sys/devices/platform/wiegand-gpio/wiegand34 # Send Wiegand
 
 The following is the specific wiring method of Wigan transmission interface. Note that VCC and GND need to be provided through USB.
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_wiegand1_en.png)
+</center>
 
 Wiegand interface can also as GPIO:
 
@@ -50,7 +59,10 @@ echo 1 > /sys/devices/platform/wiegand-gpio/D1
 
 The following is the connection diagram of control relay with D0, D1, IO port. Note that VCC and GND need to be provided through USB.
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_D0_D1.png)
+</center>
 
 ## V2 Wiegand and relay
 

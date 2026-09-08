@@ -12,12 +12,18 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_cooling_radiator.jpg)
+</center>
 
 
 ### 安装方式
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/module_cooling_radiator_install.png)
+</center>
 
 
 

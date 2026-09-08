@@ -7,10 +7,16 @@ Controller area network (can) is a kind of serial communication network which ca
 Connection between two CAN devices, only need CAN_H to CAN_H, CAN_L to CAN_L.
 
 But it is neccessary to modify PCB of the board below.
+<center>
+
 ![](../../../rk3399_img/can3.png)
+</center>
 
 **Since the default hardware interface has priority over RS485, it is necessary for the hardware to modify the resistance below**
+<center>
+
 ![](../../../rk3399_img/can2.jpg)
+</center>
 
 
 ### Communication
@@ -22,7 +28,10 @@ candump can0                                //Perform candump on the receiving e
 cansend can0 123#1122334455667788             //Execute cansend at the sending end to send the message
 ```
 Successful message sending and receiving (Here AIO-3399ProC as the receiving and the sending)
+<center>
+
 ![](../../../rk3399_img/can1.png)
+</center>
 So far, MCP2515 module communication debugging has been successful.
 
 During the test, it was found that when the bit rate is set to 500Kbps and above, if the interval of using cansend is too short (the frequency of use is too fast), over-receiving and receiving errors will occur at the receiving end

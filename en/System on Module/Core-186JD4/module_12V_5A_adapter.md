@@ -11,4 +11,7 @@
 
 ## Physical Image
 
+<center>
+
 ![](../../../bm1688_img/module_power_adapter3.png)
+</center>

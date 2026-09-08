@@ -20,4 +20,7 @@
 [[10.1寸屏幕模组DataSheet&转接板原理图]](https://community.t-firefly.com/doc/download/48)  
 
 ### 连接方法
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/aio-3128c_lvds.png)
+</center>

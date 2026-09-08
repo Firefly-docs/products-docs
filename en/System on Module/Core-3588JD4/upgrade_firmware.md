@@ -54,7 +54,10 @@ ITX-3588J_Android12_HDMI_220308
 
 You can also download [AndroidTool](https://community.t-firefly.com/en/doc/download/181) separately, unzip it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory (note that if you are running Windows 7/8, you need to right-click and select Run as administrator), as shown below:
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 ### Linux Operating System
 
@@ -95,7 +98,10 @@ Usually we upgrade firmware in two modes, namely `Loader` mode and `MaskRom` mod
 ### Loader mode
 
 Connect the device "Typec" and the computer. AIO-3588JD4 Typec has two functions (serial port/OTG upgrade) controlled by the dip switch. Please turn the dip switch to "OTG" when upgrading.
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/button.png)
+</center>
 
 #### Hardware way into Loader mode
 
@@ -118,11 +124,17 @@ How to determine whether the board is in Loader mode, we can check through the t
 
 The AndroidTool displays the prompt Found One LOADER Device at the bottom
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](upgrade_firmware.html#install-the-upgrade-tool).
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_firmware_new_equipment.jpg)
+</center>
 
 **Linux Operating System**
 
@@ -150,7 +162,10 @@ The steps to update the unified firmware `update.img` are as follows:
 3. Press the `Upgrade` button to start the upgrade.
 4. <font color=#ff0000 >If the upgrade fails, you can try to erase the Flash by pressing the `EraseFlash` button first, and then upgrade. </font>
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_firmware_erase_flash_zh.png)
+</center>
 
 #### Upgrade Partition image
 
@@ -163,7 +178,10 @@ The steps to upgrade the partition image are as follows:
 
 4. Click `Run` button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 
 ### Linux Operating System
@@ -223,7 +241,10 @@ sudo fastboot reboot # After the burn is successful, restart
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_firmware_download_fail.png)
+</center>
 
 [烧写须知]: 02-upgrade_table.md
 [Core-3588JD4 firmware]: https://community.t-firefly.com/en/doc/download/290

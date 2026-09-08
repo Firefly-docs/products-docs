@@ -32,13 +32,19 @@ That is, files with independent functions, such as partition table, bootloader, 
 
 Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/53#windows_341), extract, and then run the DriverInstall.exe inside . In order for all devices to use the updated driver, first select `Driver uninstall`(`驱动卸载`) and then select `Driver install`(`驱动安装`).
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_install_RK_USB.jpg)
+</center>
 
 * Download and run [AndroidTool](https://community.t-firefly.com/en/doc/download/53#other_343)'s RKDevTool.exe
 
 **<font color=#ff0000 >Note :</font>** Different firmware may use different versions of tools, please download the corresponding version according to the [Instructions for writing with USB cable (important)](02-upgrade_table.md).
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 ### Linux Operating System
 
@@ -70,10 +76,16 @@ Connect the device and press the **RECOVERY** button to enter the Loader mode. T
 * Disconnect the power adapter first
 * Type-C data cable connect the device and the host.
 
+    <center>
+
     ![](../../../rk3399_img/ROC-RK3328-PC/upgrade_otg_interface.png)
+    </center>
 * Press and hold the RECOVERY button on the device.
 
+    <center>
+
     ![](../../../rk3399_img/ROC-RK3328-PC/upgrade_recovery_reset.png)
+    </center>
 * plug in
 * After about two seconds, release the RECOVERY button.
 
@@ -93,11 +105,17 @@ How to determine whether the board is in Loader mode, we can check through the t
 
 The AndroidTool displays the prompt `Found One LOADER Device` at the bottom
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 if the "Enter Loader mode" operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](loader_mode.html#windows-operating-system).
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_new_equipment.jpg)
+</center>
 
 **Linux Operating System**
 
@@ -128,7 +146,10 @@ The steps to update the unified firmware `update.img` are as follows:
 
 4.<font color=#ff0000 >If the upgrade fails, you can try to erase the Flash by pressing the `EraseFlash` button first, and then upgrade.Be sure to erase the upgrade according to [Instructions for writing with USB cable (important)](02-upgrade_table.md)</font>
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_erase_flash.jpg)
+</center>
 
 #### Upgrade Partition image
 
@@ -149,7 +170,10 @@ The steps to upgrade the partition image are as follows:
 
 4. Click `Run` button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 
 ### Linux Operating System
@@ -228,4 +252,7 @@ sudo upgrade_tool ef update.img # erase
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
+<center>
+
 ![](../../../rk3399_img/upgrade_downloadfail.jpg)
+</center>

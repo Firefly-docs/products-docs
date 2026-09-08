@@ -42,12 +42,21 @@ The verification is performed on the ` Windows 10 ` system, and other systems ma
 
 * Install the driver. After connecting the device and turning on the computer, open the device manager and you will see the RNDIS device. Just right-click to update the driver. If the update fails, try using a third-party driver installation tool such as Driver Genius to update the driver.
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/rndis_dev.jpg)
+</center>
 
 * Set the host's own network card to connect to the external network and share the network.
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/rndis_eth.jpg)
+</center>
 
 * Set the static IP of the RNDIS network card to ` 172.16.110.5 `.
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/rndis_setting.jpg)
+</center>

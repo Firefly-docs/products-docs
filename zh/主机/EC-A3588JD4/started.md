@@ -3,7 +3,10 @@
 EC-A3588JD4 嵌入式主机，基于 AIO-3588JD4 高性能开源平台，配置工业级外壳，防尘防干扰，长时间稳定运行，支持 8K 编解码，丰富的接口方便连接各种工业设备。
 基于 Rockchip 全新一代旗舰 AIoT 芯片 -- **RK3588**，采用了 8nm LP 制程；搭载八核（Cortex-A76 x 4 + Cortex-A55 x 4）64位 CPU，主频高达2.4 GHz。集成 ARM Mali-G610 MP4 四核 GPU，内置 AI 加速器 NPU，可提供6 Tops 算力，支持主流的深度学习框架
 
+<center>
+
 ![](../../../rk3588_img/EC-A3588JD4/EC-A3588JD4.png)
+</center>
 
 
  <a id="firmware-format"></a>

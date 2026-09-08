@@ -12,7 +12,10 @@ AIO-1684XQ 支持 3 个 UART 设备:
 
 AIO-1684XQ 开发板的 RS485 接口图如下：
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/rs485_connection.png)
+</center>
 
 ## 调试方法
 

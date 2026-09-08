@@ -11,14 +11,20 @@ AIO-3588Q  有一个 HDMI-IN 接口, 支持标准的 HDMI2.0 协议，它具备�
 * I2S 2/4/6/8channel output
 
 接口图如下：
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/usage_hdmiin_interface.jpg)  
+</center>
 
 目前有 APK 及命令的方式来进行 HDMI-IN 的功能调试。
 
 ## Android 使用 HDMI-IN
 
 默认 AIO-3588Q  的 Android 系统中会带有两个 APK ，一个名为 **Live Tv**，另一个名为 **RockchipCamera2**，如下图所示：
+<center>
+
 ![](../../../rk3588_img/common/usage_hdmiin_rk3588_apk.png)  
+</center>
 
 直接点击 APK 便可进行 HDMI-IN 的视频输入显示，HDMI-IN 的音频输入会从 AIO-3588Q  的耳机、HDMI、Display Port 等接口输出。
 

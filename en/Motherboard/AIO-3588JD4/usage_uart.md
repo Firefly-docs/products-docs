@@ -6,7 +6,10 @@ AIO-3588JD4 has one RS232 interfaces and one RS485 interface
 
 The serial interface diagram of the AIO-3588JD4 development board is as follows:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/usage_uart_interface.jpg)
+</center>
 
 ## DTS configuration
 The RS232 interface of the development board is extended by the main control UART1, and the RS485 interface is extended by the main control UART6.

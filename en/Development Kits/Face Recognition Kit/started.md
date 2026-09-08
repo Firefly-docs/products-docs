@@ -42,11 +42,17 @@ Send the purchase information and order number of the face recognition kit to `s
 
 AIO-3399J screen wiring instructions:
 
+<center>
+
 ![](../../../modules_img/Face-Recognition-Kit/AIO-3399J-module_display_lvds_new.en.jpg)
+</center>
 
 AIO-3399C screen wiring instructions:
 
+<center>
+
 ![](../../../modules_img/Face-Recognition-Kit/AIO-3399C-module_display_lvds.en.png)
+</center>
 
 # Community Forum
 

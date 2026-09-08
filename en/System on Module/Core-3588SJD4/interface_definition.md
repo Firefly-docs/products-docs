@@ -30,7 +30,16 @@ AIO-3588SJD4  provides rich interfaces, including:
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/interface_en.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/interface_en1.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/interface_en2.png)
+</center>
 

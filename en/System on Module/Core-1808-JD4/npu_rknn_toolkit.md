@@ -69,7 +69,10 @@ pip3 install --user -U rknn-toolkit/packages/rknn_toolkit-1.3.0-cp35-cp35m-linux
 ## API call process
 
 ### Model trasformation
+<center>
+
 ![](../../../rk1808_img/rknn_toolkit_flowchart_en.png)
+</center>
 
 Examples of model transformation are given below, referring in detail to examples in RKNN Tookit.
 ```python
@@ -116,7 +119,10 @@ if __name__ == '__main__':
 
 ### Model reasoning
 
+<center>
+
 ![](../../../rk1808_img/rknn_toolkit_inference_flowchart_en.png)
+</center>
 
 An example of model inference is as follows. For details, please refer to the example in RKNN Tookit. Take `rknn-toolkit/example/mobilenet_v1` as an example.
 

@@ -9,6 +9,9 @@
 * 注意：Face-RK3399一体机正常工作需要电源12V/3A，电流低于2A可能会因电流过小而异常重启，为了保证开发板的正常工作，请使用电压为12V，电流为2A~3A的电源，推荐使用Firefly官网电源配件。
 
 ### 实物图
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_power_adapter3.jpg)
+</center>
 
 

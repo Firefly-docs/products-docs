@@ -34,7 +34,13 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/interface_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/Core-3588J/interface_back.png)
+</center>
 

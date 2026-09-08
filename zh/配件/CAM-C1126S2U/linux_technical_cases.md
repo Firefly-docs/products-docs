@@ -13,15 +13,24 @@
 
 * 适配高质量` RGB `摄像头搭配专业的 ISP 图像质量调试。以下是识别预览效果。
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/pass.jpg)
+</center>
 
 * 适配` IR `摄像头有效防止照片、视频和蜡像等作弊行为。
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/npass.jpg)
+</center>
 
 * `TYPE-C OTG` 提供了控制后台、人脸注册管理、闸机后台维护的硬件支持。
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/weblogin.png)
+</center>
 
 ### 裸机闸机
 
@@ -34,7 +43,10 @@
 
 * 人脸识别效果。
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png)
+</center>
 
 ## AI 计算棒
 

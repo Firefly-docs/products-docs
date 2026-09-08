@@ -12,7 +12,10 @@ ROC-RK3588S-PC development BOARD uses HYM8563 as RTC(*Real Time Clock*), HYM8563
 
 ROC-RK3588S-PC add a capacitor to supply power to the RTC as shown in the following figure to ensure that the RTC runs in a short time.
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/usage_rtc_capacitor.jpg)
+</center>
 
 ## Driver RTC
 

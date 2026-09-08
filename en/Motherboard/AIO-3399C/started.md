@@ -22,5 +22,8 @@ In addition, you may need the following accessories during use:
       - Serial port to serial adapter
 *   Shipping list
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/started_shipping_list.en.jpg)
+</center>
  <a id="firmware-format"></a>

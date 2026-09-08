@@ -31,7 +31,10 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 2. 点击 Build number 7次后会提示(you are now a developer)
 3. 然后返回上一级点击 Developer options 选项后，在选项中点击 Enable ROOT 就打开 root 权限功能
 
+<center>
+
 ![](../../../rk3288_img/faqs_android_root.png)
+</center>
 
 
 ## 如何切换板载麦克风和耳麦
@@ -47,7 +50,10 @@ shell@firefly:/ # echo 2 > sys/class/es8323/mic_state/mic_state  //使用耳机 
 
 Firefly-RK3288 的 VGA 能自动识别显示的分辨率。假如无法读取显示器的 EDID (Extended Display Identification Data，扩展显示器标识数据)，VGA 会默认设置为 1080P 的分辨率。可以进入【设置】->【显示】->【VGA输出模式】选择切换方式对 VGA 分辨率进行手动调整。<font color=#ff0000 size=2>Firefly-RK3288-Reload 不支持 VGA 输出，但是支持双 HDMI 输出。</font>
 
+<center>
+
 ![](../../../rk3288_img/faqs_vga.png)
+</center>
 
 ## Firefly-RK3288-Reload双HDMI输出及HDMI输入  
 
@@ -61,7 +67,10 @@ Firefly-RK3288 和 Firefly-RK3288-Reload 硬件不支持蓝牙语音通话或者
 
 Firefly-RK3288 官网中的散热风扇工作电压为 5V，在开发板中有对应的接口，标记为：FAN+ FAN-，风扇的黑色电源线对应 FAN-，红色电源线对应 FAN+，本端口直接与开发板的电源模块连接，不能通过软件控制，具体连接图如下：
 
+<center>
+
 ![](../../../rk3288_img/faqs_fan.jpg)
+</center>
 
 
 

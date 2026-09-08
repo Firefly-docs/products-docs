@@ -12,12 +12,18 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_cooling_radiator.jpg)
+</center>
 
 
 ### 安装方式
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_cooling_radiator_install.png)
+</center>
 
 
 
@@ -33,8 +39,14 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_cooling_fan.jpg)
+</center>
 
 ### 安装方式
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_cooling_fan_install.png)
+</center>
 

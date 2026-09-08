@@ -50,7 +50,10 @@ Android The dual Ethernet port is divided into internal network and external net
 | eth0 | rk_gmac | Ethernet | Primary network port for external network| 1000Mpbs|
 | eth1 | r8152 | Ethernet 2 | Auxiliary network port for intranet|100Mpbs|
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/usage_ethernet_interface.jpg)
+</center>
 
 #### IP Addrs
 * get from debug or adb by ifconfig

@@ -30,7 +30,13 @@
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/interface_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/Core-3588JD4/interface_back.png) 	
+</center>
 

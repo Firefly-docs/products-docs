@@ -21,7 +21,10 @@
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/interface_all_en.jpg)
+</center>
 
 [ROC-RK3588S-PC old version interface definition](interface_definition_old.md)
 

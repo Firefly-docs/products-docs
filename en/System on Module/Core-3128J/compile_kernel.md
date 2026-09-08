@@ -115,6 +115,9 @@ CMDLINE:console=ttyFIQ0,115200 earlyprintk androidboot.hardware=rk30board androi
 Please reference [Flash image](https://drive.google.com/open?id=0B7HO8lbGgAqAfjd0VGNrVG1kcE01WTVybHRpUHRyaWtxVnZVR05vU1YwOUN0UWpUV0g3bWs), flash parameter file and its corresponding partition images.  
 If you are upgrading from official firmware, flash linux-boot.img to the following partion, according to the firmware type:  
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/Build_Kernel.png)
+</center>
 
 If the root filesystem image is not flashed yet, you can download the prebuilt image, or customize your own one, and flash it to the partition specified in parameter file.

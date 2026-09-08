@@ -28,7 +28,10 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/panel_mipi8.jpg)
+</center>
 
 
 ## 10.1寸MIPI液晶屏模组
@@ -52,7 +55,10 @@
   ./FFTools/mkupdate/mkupdate.sh -l rk3399_roc_pc_mipi-userdebug
 ```
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/panel_mipi101.jpg)
+</center>
 
 
 
@@ -77,4 +83,7 @@
   ./FFTools/mkupdate/mkupdate.sh -l rk3399_roc_pc_edp-userdebug
 ```
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/panel_edp101.ipg)
+</center>

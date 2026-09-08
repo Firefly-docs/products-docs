@@ -12,14 +12,23 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3288_img/module_ir.png)
+</center>
 
 ### 键值码
 
+<center>
+
 ![](../../../rk3288_img/module_ir_remote_info.png)
+</center>
 
 
 * AIO-3288J 的 IR 接线位置如下图红框所示：
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/module_ir_connection.png)
+</center>
 

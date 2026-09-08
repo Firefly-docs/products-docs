@@ -5,7 +5,10 @@ Controller area network (can) is a kind of serial communication network which ca
 ### Hardware Connection
 Connection between two CAN devices, only need CAN_H to CAN_H, CAN_L to CAN_L.
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576JQ/usage_can_interface.jpg)
+</center>
 
 ### DTS Configuration
 * Common `kernel/arch/arm64/boot/dts/rockchip/rk3576.dtsi`

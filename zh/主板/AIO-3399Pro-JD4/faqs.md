@@ -4,8 +4,14 @@
 系统默认使用RK809 codec，若使用ALC5640则需要修改硬件。
 I2S1信号脚位改接I2S0(Core-3399Pro-JD4没有引出I2S1)，I2C和I2S_CLK不要动，需要跳开R89~R93的电阻。
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/5640_sch.png)
+</center>
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/5640_pcb.png)
+</center>
 
 软件修改如下:
 
@@ -56,7 +62,10 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 2. 点击 `Build number` 5次后会提示 (you are now a developer);
 3. 然后返回上一级点击 `Developer options` 选项后，在选项中点击 `ROOT access` 就打开 root 权限功能。
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+</center>
 
 ## 开机异常并循环重启怎么办？
 

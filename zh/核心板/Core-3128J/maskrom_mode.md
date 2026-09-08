@@ -14,7 +14,13 @@ MaskRom 模式是设备变砖的最后一条防线。强行进入 MaskRom 涉及
 5. 将 Micro USB OTG 线的另一端插入主机。
 6. 稍候片刻，之后松开镊子。
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/maskrom_1.png)
+</center>
 
 这时，设备应该就会进入 MaskRom 模式。
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_maskrom.png)
+</center>

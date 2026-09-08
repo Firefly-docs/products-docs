@@ -22,14 +22,23 @@ UART1: /dev/ttyS3
 
 The serial of Face-RK3399 is as follow:
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/uart3.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/RS485_en.png)
+</center>
 
 The following is the RS485 connection diagram. VCC and GND can be provided through USB.
 
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_wiegand1_en.png)
+</center>
 
 ## RS485 Debugging
 
@@ -94,6 +103,9 @@ RS232: /dev/ttyS3
 
 One of the TTL serial ports becomes RS232:
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_uart6.png)
+</center>
 
 Note: UART (`/dev/ttyS0`) and the Bluetooth interface are multiplexed. Only one function can be used at a time. UART is used by default at the factory.

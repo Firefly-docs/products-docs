@@ -17,11 +17,17 @@
 
 **获取 Product ID：**
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/productid.png)
+</center>
 
 **获取 Client ID：**
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/clientid.png)
+</center>
 
 ## 配网
 
@@ -158,7 +164,10 @@ source buildroot/build/envsetup.sh
 
 选择`[1]`，按回车，配置成功后如下
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/rockchip_rk3308_release.png)
+</center>
 
 ● Buildroot配置：BR2_PACKAGE_ALEXACLIENTSDK
 
@@ -168,13 +177,22 @@ make menuconfig
 
 进入图形选择界面，输入 `/`，跳出搜索界面如下，输入`BR2_PACKAGE_ALEXACLIENTSDK`，按回车进行搜索
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/buildroot_alexa.png)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/chose_alexa.png)
+</center>
 
 选择`[1]`，然后按空格选择上 `alexa client sdk`
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/alexa_sdk.png)
+</center>
 
 前面有 `[ * ]` 号，表示已经选上，然后`< Save >保存`，并`< Exit >退出`图形界面，输入配置保存命令：
 

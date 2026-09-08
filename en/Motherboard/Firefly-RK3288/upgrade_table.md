@@ -21,7 +21,10 @@ Due to differences in firmware of different systems, there may be some problems 
 
 When upgrading Android5.1 firmware, please read table carefully:
 
+<center>
+
 ![](../../../rk3288_img/load_android_notice.png)
+</center>
 
 Focus on: In Windows, When Linux upgrade to the Android5.1, how to enter Maskrom Mode:
 
@@ -37,7 +40,10 @@ Focus on: In Windows, When Linux upgrade to the Android5.1, how to enter Maskrom
 
 When upgrading Linux-GPT firmware, please read table carefully:
 
+<center>
+
 ![](../../../rk3288_img/load_linux_gpt_notice.png)
+</center>
 
 Focus on:
 
@@ -64,6 +70,9 @@ sudo upgrade_tool_v1.34 uf /path/to/Linux-GPT
 
 When upgrading Linux-MBR firmware, please read table carefully:
 
+<center>
+
 ![](../../../rk3288_img/load_linux_mbr_notice.png)
+</center>
 
 In the above table, they are normal upgrade in Loader Mode.

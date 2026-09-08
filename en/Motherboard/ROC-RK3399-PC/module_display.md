@@ -26,7 +26,10 @@ Please refer to [LCD driver section](driver_lcd.md) for details
 
 ### Real figure
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/panel_mipi101.jpg)
+</center>
 
 ## 8 "MIPI LCD module
 
@@ -55,7 +58,10 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 
 
 ### Real figure
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/panel_mipi8.jpg)
+</center>
 
 ## 10.1"EDP LCD module
 
@@ -84,6 +90,9 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 
 
 ### Real figure
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/panel_edp101.ipg)
+</center>
 
 

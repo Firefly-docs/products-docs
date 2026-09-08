@@ -36,7 +36,10 @@ Core-3399-JD4 provides a wealth of interfaces, mainly including:
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/interface.png)
+</center>
 
 In addition to the above interfaces, AIO-3399JD4 (with SPR5801S chip attached) supports NPU acceleration.
 
@@ -45,8 +48,14 @@ In addition to the above interfaces, AIO-3399JD4 (with SPR5801S chip attached) s
 ## Version Information
 **Note: NPU SPR5801S is used for versions above V2.2, SPR2801S is used for versions below V2.2**
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/NPU_v22_en.png)
+</center>
 
 **Note: The version lower than V2.2 is SPR2801S**
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/NPU.en.jpg)
+</center>

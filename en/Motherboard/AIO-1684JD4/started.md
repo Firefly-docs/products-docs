@@ -6,19 +6,31 @@ Core-1684JD4 powered by SOPHON AI processor BM1684, this mainboard can be config
 
 **Front of Core-1684JD4:**
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684JD4/Core-1684JD4_front.jpg)
+</center>
 
 **Back of Core-1684JD4:**
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684JD4/Core-1684JD4_back.jpg)
+</center>
 
 AIO-1684JD4 consists of Core-1684JD4 + MB-JD4-BM1684, AIO-1684JD4 onboard HDMI, mSATA, USB3.0, USB2.0, RS485, RS232 and other rich interfaces, which can be directly applied to AI edge computing in the product.
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684JD4/AIO-1684JD4.jpg)
+</center>
 
 **Specifications:**
 
+<center>
+
 ![](../../../bm1684_img/BM1684_parameter.jpg)
+</center>
 
 ## Accessories List
 
@@ -41,7 +53,10 @@ In addition, during use, you may need the following accessories:
      + USB to Serial adapter
 
 - Shipping list reference
+<center>
+
 ![](../../../bm1684_img/AIO-1684JD4/started_components.jpg)
+</center>
 
 
 ## Power on

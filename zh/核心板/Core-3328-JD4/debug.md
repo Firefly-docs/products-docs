@@ -86,7 +86,10 @@ fiq-debugger {
 
 用三根线将 TX/RX/GND 引脚分别连接在一起：
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/uart.jpg)
+</center>
 
 如果在使用某些适配器时串口控制台没有输出，可以尝试将适配器的 TX 引脚连接到开发板的 RX 引脚，适配器的 RX 引脚连接到开发板的 TX 引脚，即交换一下 TX、RX 引脚。
 
@@ -114,7 +117,10 @@ fiq-debugger {
 
 安装驱动后，将适配器连接到主机的 USB 端口。操作系统将提示检测到新硬件。完成后，可以在设备管理器中找到新的COM端口：
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/debug_devicemanager_com.png)
+</center>
 
 ### 安装工具
 
@@ -129,7 +135,10 @@ Windows 中有很多串口终端工具，例如 putty 和 SecureCRT。以下介�
 3. 设置 "Speed" 为 1500000 。
 4. 点击 "Open" 按钮。
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/debug_putty_serial.png)
+</center>
 
 ## Linux 下的串口调试
 

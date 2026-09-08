@@ -15,13 +15,25 @@
 [固件下载: CAM-8MS1M](https://community.t-firefly.com/doc/download/247)
 
 ### 实物图参考
+<center>
+
 ![](../../../rk3562_img/cam_8ms1m_front.jpg)
+</center>
+<center>
+
 ![](../../../rk3562_img/cam_8ms1m_back.jpg)
+</center>
 
 
 ### 连接方法
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/aio-3562jq_8ms1m.jpg)
+</center>
 
 ### 实拍图片
+<center>
+
 ![](../../../rk3562_img/camera_8ms1m_shoot.jpg)
+</center>
 

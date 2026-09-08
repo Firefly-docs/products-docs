@@ -1,7 +1,10 @@
 # Display
 
 
+<center>
+
 ![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+</center>
 
 
 RK3588 has four video output ports, each video output port is bound to a fixed display controller, such as Port0 can be used to connect with display controllers such as DP0, DP1, HDMI/eDP0 and HDMI/eDP1, other Portx and so on.
@@ -30,7 +33,10 @@ But from the software point of view, there are the following configuration consi
 
 * HDMI0/ Display Port/ MIPI DSI0/ MIPI DSI1  
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/usage_display_interface.jpg)   
+</center>
 
 
 The following is a basic introduction to the configuration and use of each display output interface. For details, please refer to the file:
@@ -180,26 +186,41 @@ Since DSI0 and DSI1 are similar in software configuration, here the configuratio
 Combining ROC-RK3588S-PC  DSI0 interface and screen timing
 
 * DSI0 interface
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/usage_display_mipi_v2_interface.png)
+</center>
   
 
 * V2 screen display timing
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_timing.jpg)
+</center>
   
   
 
 * V2 screen power-on timing
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png) 
+</center>
   
   
 
 * V2 screen power-down timing
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)
+</center>
   
   
 
 * V2 screen power-up symbol reference
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)
+</center>
   
 
 Add to the system status tree:

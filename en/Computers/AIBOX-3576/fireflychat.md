@@ -2,7 +2,10 @@
 
 FireflyChat is a graphical application platform for LLM developed by the Firefly team. Users can quickly experience the actual use of various large models on the visual WebUI provided by FireflyChat.
 
+<center>
+
 ![](../../../aibox_img/fireflychat.png)
+</center>
 
 ## Installation
 Note: The system firmware of AIBOX-3576 has preconfigured FireflyChat and imported the basic model. You can use it directly.If FireflyChat does not exist in the firmware, you can download the corresponding [AI firmware](https://community.t-firefly.com/en/doc/download/268) or install FireflyChat yourself.

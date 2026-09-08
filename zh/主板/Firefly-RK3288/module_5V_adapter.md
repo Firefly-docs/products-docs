@@ -4,8 +4,14 @@
 
 ### 参数  
 
+<center>
+
 ![](../../../rk3288_img/module_5V_adapter_1.png)
+</center>
 
 ### 实物  
 
+<center>
+
 ![](../../../rk3288_img/module_5V_adapter_2.png)
+</center>

@@ -34,9 +34,15 @@ AIO-3399Pro-JD4 提供了丰富的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/interface_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/AIO-3399Pro-JD4/interface_reverse.png)
+</center>
 
 ## 特殊接口说明
 

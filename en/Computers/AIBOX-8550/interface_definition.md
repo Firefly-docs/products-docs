@@ -11,4 +11,7 @@ AIBOX-8550 provides these interfaces:
 * 1 x TF Card slot
 * Power Key
 
+<center>
+
 ![](../../../qcom_img/AIBOX-8550/interface_en.jpg)
+</center>

@@ -41,7 +41,10 @@ Then RK released the AndroidTool tool, starting to support unified firmware (upd
 Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/6), uncompress it, then run DriverInstall.exe inside.  
 In order to use new driver for all the rockchip devices, please select "驱动卸载"(Driver uninstall), then "驱动安装"(Driver install).  
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_tool_devices.png)
+</center>
 
 ### Devices connection
 
@@ -62,11 +65,17 @@ The other way:
 
 RECOVERY button and RESET button and OTG interface as shown:
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/upgrade_1.png)
+</center>
 
 The host will prompt to have new device detected and configured. Open the Device Management, you'll find a new device name "Rockusb Device", as shown below. Return to previous step to reinstall driver if it is not shown.
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_rockusb_driver.png)
+</center>
 
 ### Firmware burning
 
@@ -84,7 +93,10 @@ LangPath=Language\
 Change "Selected=1" to "Selected=2", and save. From now on,  AndroidTool will display in English.  
 Now, run AndroidTool.exe: (Note: If using Windows 7/8, you'll need to right click it, select to run it as Administrator)
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_download.png)
+</center>
 
 #### Burn the unified firmware update.img
 
@@ -97,7 +109,10 @@ Steps to burn the unified firmwar update.img:
 
 ***WARNING: If you flash firmware laoder different version of the original machine, please click "Erase Flash" before upgrading the firmware.***
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_upgrade.png)
+</center>
 
 #### Burn partition image
 
@@ -108,7 +123,10 @@ Steps to burn partition image：
 * Make sure the image file's path is correct. Click the rightmost empty table cell to select new path if needed.
 * Click "Run" button to start flashing. Device will reboot automatically when finish.
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_3128_tool_download.png)
+</center>
 
 ## Flash on linux
 
@@ -173,7 +191,10 @@ sudo dpkg -i rkflashkit_0.1.4_all.deb
 
 * Graphic interface:
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/Fireprime_rkflashkit.png)
+</center>
 
 * Command line:
 

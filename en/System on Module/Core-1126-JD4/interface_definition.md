@@ -43,7 +43,10 @@
 
 * Appearance size diagram
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/size.png)
+</center>
 
 ## Peripheral Interface
 
@@ -51,6 +54,12 @@
 
 * Peripheral interface diagram
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/interface-0.png)
+</center>
+
+<center>
 
 ![](../../../rv1126_img/Core-1126-JD4/interface-2.png)
+</center>

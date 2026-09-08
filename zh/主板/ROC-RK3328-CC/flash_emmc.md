@@ -31,7 +31,10 @@ eMMC 一般都是直接焊在主板上，有些虽然是可插拔的，但没有
 2. 安装好 eMMC，拔出 SD 卡。
 3. 使用公对公 USB 线将主机的 USB 端口与开发板的双层 USB 端口中靠近电路板的 OTG 端口相连：
 
+   <center>
+
    ![](../../../rk3328_img/ROC-RK3328-CC/hw_board_usbconn.png)
+   </center>
 
 4. 按住开发板上的 RECOVERY 按键。
 5. 将 Micro USB 线插入到开发板中，让开发板上电。
@@ -65,11 +68,17 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 2. 安装好 eMMC，拔出 SD 卡。
 3. 使用公对公 USB 线将主机的 USB 端口与开发板的双层 USB 端口中靠近电路板的 OTG 端口相连：
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/hw_board_usbconn.png)
+    </center>
 
 4. 找到开发板上预留的 eMMC 的 CLK 引脚和 GND 脚，见下图：
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/rk3328_maskrom_pads.jpg)
+    </center>
 
 5. 用金属镊子短接 eMMC 的 CLK 和 GND 焊盘，并保持短接良好。
 6. 将 Micro USB 线插入到开发板中，让开发板上电。
@@ -102,8 +111,14 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
 不同固件之间使用的烧写工具和烧写方法不一样的，请按照下面的表格进行烧写。
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/upgrade-table1.png)
+</center>
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/upgrade-table2.png)
+</center>
 
 ## AndroidTool
 
@@ -118,13 +133,19 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 下载 [DriverAssistant](https://pan.baidu.com/s/1migPY1U#list/path=%2FPublic%2FDevBoard%2FROC-RK3328-CC%2FTools%2FRKTools%2Fwindows&parentPath=%2FPublic%2FDevBoard%2FROC-RK3328-CC
 )， 解压后运行里面的 `DriverInstall.exe`：
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/started_driverassistant.png)
+</center>
 
 点击 "驱动安装" 按钮安装驱动；如果想卸载驱动，则点击 "驱动卸载" 按钮。
 
 若设备处于 [Rockusb 模式] 或 [Maskrom 模式]，在设备管理器中会出现 "Rockusb Device"：
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/started_driverassistant_dev.png)
+</center>
 
 这表示驱动安装成功。
 
@@ -139,7 +160,10 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
 下载并解压后运行里面的 `AndroidTool.exe`：
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/androidtool.zh_CN.png)
+</center>
 
 若设备处于 [Rockusb 模式]，状态行将显示 "发现一个LOADER设备"。
 
@@ -158,7 +182,10 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 5. 点击第二行右侧的空白单元格，在弹出的文件对话框里打开[原始固件]文件。
 6. 点击 "执行" 按钮开始烧写。
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_flash_image.zh_CN.png)
+</center>
 
 ### 烧写 RK 固件
 
@@ -187,14 +214,20 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 4. 保持表格第一行不变。
 5. 鼠标右键点击其它行，在弹出菜单中选择 "删除项" ，重复直至删除第一行除外的所有行。
 
+   <center>
+
    ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_del.zh_CN.png)
+   </center>
 
 6. 鼠标右键点击表格，在弹出菜单中选择 "添加项" 以便添加[分区映像]：
     + 选中第一个单元格上的复选框。
     + 填入 `parameter.txt` 中该分区的起始扇区作为烧写地址（如果是 [Maskrom 模式] 则须再加上 `0x2000`）。
     + 单击右侧空白单元格，在弹出的文件对话框里打开对应的[分区映像]文件。
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_add.zh_CN.png)
+    </center>
 
 7. 点击 "执行" 按钮烧录。
 
@@ -220,7 +253,10 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击”执行”按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/android-v2.58-rk-linux.png)
+</center>
 
 <a id="upgrade-tool"></a>
 

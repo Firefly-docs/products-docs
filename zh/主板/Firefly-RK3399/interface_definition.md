@@ -34,4 +34,7 @@ Firefly-RK3399 提供了丰富的接口，主要包括：
 
 除此之外还包括一排扩展接口。具体如下图：
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/interface.jpg)
+</center>

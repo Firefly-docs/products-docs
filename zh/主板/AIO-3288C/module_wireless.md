@@ -42,18 +42,27 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3288_img/module_wireless_ec20_1.png)
+</center>
 
 ### 连接方法
 
 * USB接口连接
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/module_wireless_ec20_2.png)
+</center>
 
 
 * Mini-PCIe接口连接
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/module_wireless_ec20_3.png)
+</center>
 
 
 ### 参考固件

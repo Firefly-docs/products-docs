@@ -12,6 +12,12 @@ AIBOX-Orin NX 接口丰富，主要包括：
 - Type-C（USB2.0 OTG）
 - 电源指示灯
 
+<center>
+
 ![](../../../aibox_img/AIBOX-Orin-NX/AIBOX-Orin-interface.png)
+</center>
+
+<center>
 
 ![](../../../aibox_img/AIBOX-Orin-NX/AIBOX-Orin-interface-back.png)
+</center>

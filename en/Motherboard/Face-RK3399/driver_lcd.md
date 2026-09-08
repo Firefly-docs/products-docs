@@ -4,7 +4,10 @@
 
 Face-RK3399 supports MIPI screen, The interface corresponds to the position of the board as shown in the figure below:
 
+<center>
+
 ![](img/mipi.png)
+</center>
 
 ### Configuration
 

@@ -15,8 +15,14 @@ The operation steps are as follows:
 1. Plug the device into the power supply.
 1. Wait a moment, then loosen the tweezers.
 
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/maskrom_test_points.png)
+</center>
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3308_img/maskrom_zh.png)
+</center>

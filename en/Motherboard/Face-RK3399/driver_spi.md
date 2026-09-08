@@ -37,7 +37,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 The waveforms of SPI's four working modes are as follows:
 
+<center>
+
 ![](../../../rk3399_img/spi_waveform.en.jpg)
+</center>
 
 ## Drive coding
 

@@ -6,7 +6,10 @@ AIO-3576Q38 use `UART10` for `RS485`, which is `/dev/ttyS10` in system. And `UAR
 
 Interfaces:
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576Q38/usage_uart_interface.jpg)
+</center>
 
 
 ## RS485 Usage

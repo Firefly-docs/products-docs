@@ -3,10 +3,16 @@
 ROC-RK3399-PC Pro 开发板默认外置支持了两种 LCD 屏接口，一个是 MIPI(最大支持 2560x1600@60fps) 接口，另外一个是 EDP (最大支持 2K@60fps) 接口。硬件连接图参考如下：
 
 * 10.1 寸 MIPI
+    <center>
+
     ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg)
+    </center>
 
 * 10.1寸 EDP
+    <center>
+
     ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_edp101.jpg)
+    </center>
 
 ## MIPI 驱动配置
 ### 引脚配置

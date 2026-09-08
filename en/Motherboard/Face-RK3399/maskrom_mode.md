@@ -13,11 +13,17 @@ The operation steps are as follows:
 3. Connect the equipment and host machine with dual male USB data cable.
 4. Use metal tweezers to connect the two test points on the core board as shown in the figure below and hold.<br />
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/maskrom3.png)
+</center>
 
 5. Plug the device into the power supply.
 6. Wait a moment, then loosen the tweezers.
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/maskrom2.jpg)
+</center>

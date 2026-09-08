@@ -21,7 +21,10 @@
 
 烧写 Android 固件时，请仔细阅读表格：
 
+<center>
+
 ![](../../../rk3288_img/load_android_notice.png)
+</center>
 
 重点说明：在 Windows 下，Linux 升级 Android5.1 时，如何进入 Maskrom 模式：
 
@@ -37,7 +40,10 @@
 
 烧写 Linux-GPT 固件时，请仔细阅读表格：
 
+<center>
+
 ![](../../../rk3288_img/load_linux_gpt_notice.png)
+</center>
 
 重点说明：
 
@@ -64,6 +70,9 @@ sudo upgrade_tool_v1.34 uf /path/to/Linux-GPT
 
 烧写 Linu-MBR 固件时，请仔细阅读表格：
 
+<center>
+
 ![](../../../rk3288_img/load_linux_mbr_notice.png)
+</center>
 
 在上述表格中，都是进入 Loader 模式下，正常升级。

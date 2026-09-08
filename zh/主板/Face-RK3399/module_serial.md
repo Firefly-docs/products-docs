@@ -13,7 +13,10 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_serial_list.jpg)
+</center>
 
 ### 连接方法
 

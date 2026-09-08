@@ -4,7 +4,10 @@
 
 WCT1FR2201 是一款基于 RTL8822CE-CG 芯片的双频 WiFi 和蓝牙 5.0 模组，支持 2.4 GHz 和 5 GHz WiFi 频段。
 
+<center>
+
 ![](../../../modules_img/WCT1FR2201/rtl8822ce.png)
+</center>
 
 ## 规格参数
 

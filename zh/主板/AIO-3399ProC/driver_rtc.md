@@ -9,7 +9,10 @@ J2 接上 CR2032 纽扣电池后，可以保证板子掉电后 RTC 可以正常�
 
 J2 位置如下图：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/rtc_interface.jpg)
+</center>
 
 
 ## RTC 驱动

@@ -10,19 +10,31 @@ The provided reference design material for the baseboard enables users to custom
 
 **Front View of iCore-1684XQ Core Board:**
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/iCore-1684XQ_front.jpg)
+</center>
 
 **Back View of iCore-1684XQ Core Board:**
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/iCore-1684XQ_back.jpg)
+</center>
 
 AIO-1684XQ The motherboard consists of a core board iCore-1684XQ + baseboard SM7-SBASE-EN4. The AIO-1684XQ comes with onboard interfaces including M.2 (5G), Mini PCIe, SATA 3.0, Gigabit Ethernet, USB 3.0, RS485, RELAY, GPIO, and other rich interfaces.
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/AIO-1684XQ.jpg)
+</center>
 
 **Product Specifications:**
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/parameter.png)
+</center>
 
 ## Accessory List
 
@@ -46,7 +58,10 @@ Additionally, during usage, you might require the following:
 
 ## Remote Network Login
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/ethernet_interfaces.png)
+</center>
 
 Ethernet port 0 (located on the upper layer) is set up with a dynamic IP, which can be obtained automatically via DHCP.  
 

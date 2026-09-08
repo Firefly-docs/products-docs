@@ -6,11 +6,17 @@ The **ICORE-1126BQ38** can be combined with different baseboards to form various
 
 **ICORE-1126BQ38** front：
 
+<center>
+
 ![](../../../rv1126b_img/ICORE-1126BQ38/ICORE-1126BQ38-front.png)  
+</center>
 
 **ICORE-1126BQ38** back：
 
+<center>
+
 ![](../../../rv1126b_img/ICORE-1126BQ38/ICORE-1126BQ38-back.png)  
+</center>
 
 ### CAM-1126BQ38
 
@@ -18,11 +24,17 @@ This wiki introduces the use of the CAM-1126BQ38 development board.
 
 CAM-1126BQ38 Front:
 
+<center>
+
 ![](../../../rv1126b_img/ICORE-1126BQ38/CAM-1126BQ38-front.png)  
+</center>
 
 CAM-1126BQ38 Back:
 
+<center>
+
 ![](../../../rv1126b_img/ICORE-1126BQ38/CAM-1126BQ38-back.png)
+</center>
 
 ### AIO-1126BQ38
 
@@ -32,9 +44,15 @@ Click to jump to the AIO-1126BQ38 development board wiki tutorial:[AIO-1126BQ38 
 
 AIO-1126BQ38 Front:
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-front.png)  
+</center>
 
 AIO-1126BQ38 Back:
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-back.png)
+</center>
  <a id="firmware-format"></a>

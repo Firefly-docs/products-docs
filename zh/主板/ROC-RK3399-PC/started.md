@@ -1,7 +1,13 @@
 ROC-RK3399-PC是一款迷你PC主板,体积只有小型手机的大小。
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc7.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc6.jpg)
+</center>
 
 * Dual-core Cortex-A72 up to 1.8GHz & Quad-core Cortex-A53 up to 1.5GHz 六核处理器
 * Mali-T864 GPU，支持 OpenGL ES1.1/2.0/3.0, OpenCL1.2, DirectX11.1.
@@ -59,5 +65,8 @@ ROC-RK3399-PC是一款迷你PC主板,体积只有小型手机的大小。
 3. 检查一切连接正常后，**Type-C0**接上显示屏的Type-C口上电。
 
 **注意**：板子上有两个Type-C接口，**电源输入只能接Type-C0口**，不能接Type-C1。
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc3.jpg)
+</center>
  <a id="firmware-format"></a>

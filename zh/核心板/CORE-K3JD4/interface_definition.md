@@ -12,4 +12,7 @@ AIBOX-K3 接口丰富，主要包括：
 - Type-C USB3.0
 - 电源指示灯
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/AIBOX-K3-interface.png)
+</center>

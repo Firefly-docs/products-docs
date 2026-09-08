@@ -13,7 +13,10 @@ AIO-3399Pro-JD4 supports SPI bridge/extension functions of four enhanced serial 
 
 The serial interface diagram of the AIO-3399Pro-JD4 development board is as follows:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/uart_interface.jpg)
+</center>
 
 ## DTS configuration
 

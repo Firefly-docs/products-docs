@@ -11,10 +11,19 @@
 
 ## 实物图
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/module_power_adapter.jpg)
+</center>
 
 ## 其他供电方式
 ITX-3588J  除了使用 12V电源适配器，还可以选择 ATX 电源接口 或 POE(最高输出功率 60w) 供电源输入, 接口图：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/module_power_atx_adapter.jpg)
+</center>
+<center>
+
 ![](../../../rk3588_img/Core-3588J/module_power_poe_adapter.jpg)
+</center>

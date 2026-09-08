@@ -13,7 +13,10 @@ Firefly-RK3399 支持五路 UART：UART0, UART1, UART2, UART3, UART4，都拥有
 
 我们 Firefly-RK3399 开发板为了方便用户使用，引出了一排通用的 GPIO，其对应原理图如下图：
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/uart_interface.jpg)
+</center>
 
 其中 GPIO1_A7 和 GPIO1_B0 两个 IO 口可复用为 `uart4_rx` 和 `uart4_tx`。
 

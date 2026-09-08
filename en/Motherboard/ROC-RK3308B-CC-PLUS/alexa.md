@@ -14,11 +14,17 @@ Step 2, get your Client ID and Product ID
 
 **Acquire Product ID：**
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/productid.png)
+</center>
 
 **Acquire Client ID：**
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/clientid.png)
+</center>
 
 ## Network configuration
 
@@ -155,7 +161,10 @@ source buildroot/build/envsetup.sh
 
 Select `[1]`, and press `enter`. When it is successfully configured, it would be as follow:
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/rockchip_rk3308_release.png)
+</center>
 
 ● Configure Buildroot: `BR2_PACKAGE_ALEXACLIENTSDK=y`
 
@@ -165,13 +174,22 @@ make menuconfig
 
 Enter a menu-driven user interface, input `/` to show the search interface as below, input `BR2_PACKAGE_ALEXACLIENTSDK`, and press `enter` to search it
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/buildroot_alexa.png)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/chose_alexa.png)
+</center>
 
 Select `[1]`, and press `SPACE` to select `alexa client sdk`
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/alexa_sdk.png)
+</center>
 
 If there’s `[ * ]` in front, it means the specific item has been selected, and then, choose`< Save >` to save, choose `< Exit >` to exit, and run the following command to save the configuration:
 

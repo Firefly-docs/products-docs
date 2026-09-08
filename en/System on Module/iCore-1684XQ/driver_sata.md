@@ -1,7 +1,10 @@
 # SATA 
 AIO-1684XQ  has 1 SATA 3.0 interface on the development board:
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/sata.png)
+</center>
 
 After connecting the SATA hard drive to the hardware and powering on the system, you can use the following commands to dynamically detect and disconnect the SATA device (requires root permissions):
 ```

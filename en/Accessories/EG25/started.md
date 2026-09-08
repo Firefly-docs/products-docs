@@ -6,7 +6,10 @@ EG25-G is the LTE Cat 4 wireless communication module designed by CTC for M2M an
 The line rate is 150 Mbps and the maximum uplink rate is 50 Mbps. At the same time, EG25-G is compatible with remote communication UMTS/HSPA+ UC200T series modules in package.Multi-mode LTE Standard EC2x series (EC25 series, EC21 series and EC20-CE) /EC200A series /EG21-G modules can be designed and used efficiently
 Live to switch.
 
+<center>
+
 ![](../../../modules_img/EG25/EG25.png)
+</center>
 <br>
 <br>
 This module does not support voice calls and SMS, if you need support, please contact business <sales@t-firefly.com>。
@@ -48,13 +51,22 @@ This module does not support voice calls and SMS, if you need support, please co
 | RK3566 | [AIO-3566JD4](../../../modules_img/EG25/EG25_AIO-3566JD4.png)|
 | RK3568 | [AIO-3568J](../../../modules_img/EG25/EG25_AIO-3568J.png),[ROC-RK3568-PC-SE](_images/EG25_ROC-3568-PCSE.jpg) | 
 | RK3588 | [ITX-3588J](../../../modules_img/EG25/EG25_ITX-3588J.png), [AIO-3588JSD4](../../../modules_img/EG25/EG25_AIO-3588SJD4.jpg) ,[AIO-3588Q](../../../modules_img/EG25/EG25_AIO-3588Q.jpg)| -->
+<center>
+
 ![](../../../modules_img/EG25/EG25_pcie.png)
+</center>
 
 #### USB connection
+<center>
+
 ![](../../../modules_img/EG25/EG25_usb.png)
+</center>
 
 ### SIM insertion
+<center>
+
 ![](../../../modules_img/EG25/EG25_sim.png)
+</center>
 
 # 三、Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/171)

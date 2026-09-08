@@ -38,10 +38,16 @@
   * CCC/ NAL*/ TA
 
 ### 实物图
+<center>
+
 ![](../../../rk1808_img/module_wireless1.png)
+</center>
 ### 连接方法
 * Mini-PCIe接口连接
+<center>
+
 ![](../../../rk1808_img/module_wireless2.jpg)
+</center>
 
 ### 参考固件
 公版固件默认支持EC20 4G模组

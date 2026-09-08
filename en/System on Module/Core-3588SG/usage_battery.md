@@ -3,7 +3,10 @@
 ## Introduction
 The AIO-3588SG has a battery port, as shown in the following figure：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_battery_interface.png) 
+</center>
 
 
 The battery should meet the following conditions:

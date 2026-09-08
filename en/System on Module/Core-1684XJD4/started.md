@@ -6,19 +6,31 @@ The Core-1684XJD4 Core Board utilizes the SOPHON AI Processing Unit BM1684X and 
 
 **Front View of Core-1684XJD4 Core Board:**
 
+<center>
+
 ![Front View](../../../bm1684_img/Core-1684XJD4/Core-1684XJD4_front.jpg)
+</center>
 
 **Back View of Core-1684XJD4 Core Board:**
 
+<center>
+
 ![Back View](../../../bm1684_img/Core-1684XJD4/Core-1684XJD4_back.jpg)
+</center>
 
 The AIO-1684XJD4 Mainboard is comprised of the Core Board Core-1684XJD4 + Baseboard MB-JD4-BM1684. It incorporates diverse interfaces such as HDMI, mSATA, USB3.0, USB2.0, RS485, RS232, making it suitable for direct deployment in AI edge computing products.
 
+<center>
+
 ![AIO-1684XJD4](../../../bm1684_img/Core-1684XJD4/AIO-1684XJD4.png)
+</center>
 
 **Product Specifications:**
 
+<center>
+
 ![Specifications](../../../bm1684_img/BM1684X_parameter.jpg)
+</center>
 
 ## Accessory List
 
@@ -41,7 +53,10 @@ Additionally, during usage, you might require the following:
     + USB to serial adapter.
 
 - Reference for the delivered components:
+<center>
+
 ![Component Reference](../../../bm1684_img/Core-1684XJD4/started_components.jpg)
+</center>
 
 ## Power On
 

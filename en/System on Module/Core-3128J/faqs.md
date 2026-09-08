@@ -30,7 +30,10 @@ How to open the root function of the system on the Firefly platform? Firefly has
 1. Find About device in Settgins apk and click in it
 2. Click Build number for 7 times and you are now a developer will be prompted.
 3. Then, after clicking Developer options option on the previous level, click Enable ROOT to open the ROOT permissions function
+<center>
+
 ![](../../../rk3128_img/Core-3128J/android_root.png)
+</center>
 
 ## Use of Net ADB
 Adb debugging mode has two types: 1. Use usb cable; 2. Use network.<br />
@@ -38,7 +41,10 @@ Adb debugging mode has two types: 1. Use usb cable; 2. Use network.<br />
 Adb mode: the development board and PC need to be in the same local area network, which can use wired network. Either the PC terminal can be connected to the development board in the same wifi route, or the development board can be connected to the PC terminal to create wifi hotspots.
 
 *  Setting -> Developer options -> Enable Net ADB
+<center>
+
 ![](../../../rk3128_img/Core-3128J/net_adb.png)
+</center>
 
 
 *  Use busybox ifconfig to view the IP address of the development board, which is accessed by the PC side.<br />

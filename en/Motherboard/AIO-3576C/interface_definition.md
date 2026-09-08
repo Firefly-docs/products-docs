@@ -28,7 +28,10 @@
 * 1 x eDP 40Pin/30Pin (Multiplexing with HDMI, not supported by default)
 
 The details are shown below:
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/interface_front_en.png)
+</center>
 
 
 ## Special Notice

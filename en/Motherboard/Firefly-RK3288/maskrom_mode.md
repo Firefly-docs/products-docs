@@ -17,14 +17,23 @@ The operation steps are as follows:
 
 Firefly-RK3288:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/maskrom_test_points.png)
+</center>
 
 
 Firefly-RK3288-Reload:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/maskrom_test_points_reload.png)
+</center>
 
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3288_img/maskrom.png)
+</center>

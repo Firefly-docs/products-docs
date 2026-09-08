@@ -12,7 +12,10 @@ AIO-3288J 支持 SPI 桥接/扩展 4个增强功能串口(UART)的功能，分�
 
 AIO-3288J 开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/uart_interface.png)
+</center>
 
 ## DTS 配置
 

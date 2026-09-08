@@ -4,11 +4,20 @@ EC-R3308CC 采用Rockchip专用IoT处理器RK3308B，基于 ARM 四核 64 位 Co
 美观大气的铝合金外壳让产品更加的完美和简洁，而一体化的整体设计极大的缩短客户开发时间周期，
 基本上就是低门槛高成效的开发产品利器。
 
+<center>
+
 ![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_01.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_02.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_03.jpg)
+</center>
 
 
  <a id="firmware-format"></a>

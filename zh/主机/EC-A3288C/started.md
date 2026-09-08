@@ -5,11 +5,20 @@ EC-A3288C采用RK3288四核Cortex-A17处理器，主频高达1.8GHz，集成四�
 同时美观大气的铝合金外壳让产品更加的完美和简洁，而一体化的整体设计极大的缩短客户开发时间周期，
 基本上就是低门槛高成效的开发产品利器。
 
+<center>
+
 ![](../../../rk3288_img/EC-A3288C/ec-a3288c_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/EC-A3288C/ec-a3288c_back.png)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/EC-A3288C/ec-a3288c_more.jpg)
+</center>
 
 
  <a id="firmware-format"></a>

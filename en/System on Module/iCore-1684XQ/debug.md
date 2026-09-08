@@ -33,7 +33,10 @@ USB to Serial adapter with four pins:
 
 AIO-1684XQ DEBUG port:
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/debug_connection.png)
+</center>
 
 
 ### Install driver
@@ -47,4 +50,7 @@ Download the driver and install:
 
 After inserting the adapter, the system will prompt to discover new hardware and initialize it, and then you can find the corresponding COM port in the device manager:
 
+<center>
+
 ![](../../../bm1684_img/debug_find_com.jpg)
+</center>

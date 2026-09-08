@@ -4,9 +4,15 @@ EC-A3399C is a six-core mini embedded computer based on the high-performance, op
 
 EC-A3399C supports hardware decoding of H.265/HEVC and VP9, H.264 encoding, 4K HDR, and hardware decoding at up to 4K. It supports dual LVDS, eDP, HDMI, DP 1.2, and other display outputs, with mirrored or extended dual-display configurations. Typical applications include gaming equipment, digital signage, vending machines, and robotics.
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399C/ec-a3399c_back.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399C/ec-a3399c_front.png)
+</center>
 
 
  <a id="firmware-format"></a>

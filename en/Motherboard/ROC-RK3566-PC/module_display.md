@@ -57,8 +57,14 @@ index ebbb5d1123f..71e82f8d9c0 100644
 
 #### Front
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_front.jpg)
+</center>
 
 #### Back
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_back.jpg)
+</center>

@@ -22,7 +22,10 @@ AIO-3128C 开发板的调试串口与 TF 卡接口有信号引脚复用，因此
 * 绿色：RXD，串口的输入线，接开发板串口的 RX 针  
 
 注：如使用其它串口适配器遇到TX和RX不能输入和输出的问题，可以尝试对调TX和RX的链接线，AIO-3128C串口连接如图所示:
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/AIO-3128C-serial.jpg) 
+</center>
 
 ## 连接参数  
 AIO-3128C 使用以下串口参数：  
@@ -41,14 +44,20 @@ AIO-3128C 使用以下串口参数：
 * PL2303 [[2]](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：  
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_com.png) 
+</center>
 
 ### 安装软件
 
 Windows 上一般用 putty 或 SecureCRT。其中 putty 是开源软件，在这里介绍一下，SecureCRT 的使用方法与之类似。  
 到这里 [[3]](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 下载 putty，建议下载 putty.zip，它包含了其它有用的工具。  
 解压后运行`PUTTY.exe`，选择 Connection type（连接类型）为 Serial（串口），将 Serial line（串口线）设置成设备管理器所看到的  COM 口，并将 Speed（波特率）设置为 115200，按 Open（打开）即可:  
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_putty.png) 
+</center>
 ### Ubuntu 上使用串口调试
 
 在 Ubuntu 上可以有多种选择：  

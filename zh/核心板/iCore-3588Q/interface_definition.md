@@ -33,8 +33,14 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/iCore-3588Q/interface_back.jpg)
+</center>
 
 

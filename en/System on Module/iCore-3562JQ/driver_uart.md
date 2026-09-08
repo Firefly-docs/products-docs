@@ -11,7 +11,10 @@ The UART is uart7, RS232 is converted from RK3562 uart8 and uart9, RS485 is conv
 
 The serial interface diagram of the AIO-3562JQ development board is as follows:
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/uart_interface.jpg)
+</center>
 
 ## DTS configuration
 

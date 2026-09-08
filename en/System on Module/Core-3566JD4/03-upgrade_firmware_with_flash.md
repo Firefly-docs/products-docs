@@ -5,7 +5,10 @@ This article describes what you should pay attention to when burning firmware wh
 
 As shown in the figure below, the device has a Nor Flash storage media.
 
+<center>
+
 ![](../../../rk356x_img/Core-3566JD4/nor_flash-position.jpg)
+</center>
 
 ## Loader Mode 
 
@@ -46,11 +49,17 @@ If we have not compiled, we can download a [MiniLoaderAll.bin](https://www.t-fir
 
 **Step 2:** Click the option `Adanced Function` of the RKDevTool found at directory `RKTools/windows/AndroidTool` in SDK, and then download the file `MiniLoaderAll.bin` to the Boot by clicking the button `Download` when `MiniLoaderAll.bin` has been selected at the Boot text box. The figure shown as following:
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/load_emmc_with_flash01.png)
+</center>
 
 **Step 3:** Click the button `List Storage`to get the storage media list, the `SPINOR` is selected in the list, we click `EraseAll` to erase Nor-Flash
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/maskrom_erease_spinor_flash.png)
+</center>
 
 * ` X ` means device does not exist
 * ` 0 ` means the media exist, but is not selected
@@ -58,25 +67,40 @@ If we have not compiled, we can download a [MiniLoaderAll.bin](https://www.t-fir
 
 **Step 4:** Select the storage media `Emmc` of the list and click the button `Switch Storage`
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/load_emmc_with_flash02.png)
+</center>
 
 the storage media `Emmc` state of the list  will go from `0` to `√`, indicating EMMC is selected. At this time, the firmware we dowload to the board will be burned into EMMC
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/load_emmc_with_flash03.png)
+</center>
 
 **Step 5:** click the button `EraseAll` to erase EMMC
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/load_emmc_with_flash04.png)
+</center>
 
 **Step 6:** Click the option `Upgrade Firmware`，select one system firmware we want to download in and click `Upgrade` done
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/load_emmc_with_flash05.png)
+</center>
 
 
 
 ## FAQ
 ### Download Firmware Fail in Maskrom mode
+<center>
+
 ![](../../../rk356x_img/Core-3566JD4/maskrom_download_failed_with_flash.png)
+</center>
 
 This failure is caused by the firmware burning directly into Nor-Flash. We must follow steps of [Download to EMMC](03-upgrade_firmware_with_flash.md).
 

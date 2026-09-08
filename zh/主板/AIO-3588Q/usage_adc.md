@@ -13,7 +13,10 @@ AIO-3588Q  开发板上的 AD 接口有两种，分别为：温度传感器 (Tem
 
 AIO-3588Q  的ADC接口图如下：
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/usage_adc_interface.jpg)
+</center>
 
 ## DTS配置
 

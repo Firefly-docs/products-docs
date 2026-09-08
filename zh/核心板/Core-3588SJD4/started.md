@@ -6,12 +6,18 @@
 种操作系统；可适用于 ARM PC、边缘计算、云服务器、智能NVR 等领域。
 
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/Core-3588SJD4-front.jpg)  
+</center>
       
 
 [AIO-3588SJD4](https://item.taobao.com/item.htm?id=676534397877) 开发板由核心板 Core-3588SJD4 + 底板 MB-RK3588S-JD4 组成,。AIO-3588SJD4 拥有 RGMII、SATA2.0、CAN、USB3.0、I2C、SPI、UART、GPIO、MIPI-DSI 以及 MIPI-CSI 等丰富接口。可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。
   
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/AIO-3588SJD4.jpg)
+</center>
   
 ### AIO-3588SJD4 标准套装包含以下配件(仅供参考)：
 * Core-3588SJD4 核心板 x 1

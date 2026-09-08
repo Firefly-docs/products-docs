@@ -22,5 +22,8 @@
      *   串口转 USB 适配器
 *    发货清单参考
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/started_shipping_list.jpg)
+</center>
  <a id="firmware-format"></a>

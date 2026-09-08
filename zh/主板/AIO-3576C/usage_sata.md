@@ -7,7 +7,10 @@ AIO-3576C 开发板上有 1 个 M.2 接口。
 
 默认软件配置成 M.2 SATA3.1 接口, 支持 SATA 协议的 SSD 使用。
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_sata_interface.jpg)
+</center>
 
 ## 软件配置
 <!--

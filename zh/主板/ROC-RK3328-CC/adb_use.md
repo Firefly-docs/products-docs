@@ -8,7 +8,10 @@
 
 1. 使用公对公 USB 线连接电脑和板子的 USB OTG 口:
 
+   <center>
+
    ![](../../../rk3328_img/ROC-RK3328-CC/hw_board_usbconn.png)
+   </center>
 
 2. 在跑 Android 的开发板上，选择 `Settings` -> `USB`，然后勾选 `Connect to PC` 选项。
 3. 基于你的系统安装 adb 驱动和命令。

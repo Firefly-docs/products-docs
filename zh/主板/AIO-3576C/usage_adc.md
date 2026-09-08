@@ -13,7 +13,10 @@ AIO-3576C 开发板上的 AD 接口有两种，分别为：温度传感器 (Temp
 
 AIO-3576C 的ADC接口图如下：
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_adc_interface.jpg)
+</center>
 
 ## DTS配置
 

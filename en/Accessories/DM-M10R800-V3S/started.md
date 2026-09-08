@@ -1,6 +1,9 @@
 # 1. Introduction
 ## 1.1 Product introduction
+<center>
+
 ![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_en.png)
+</center>
 
 ## 1.2 Detailed parameters
 
@@ -19,11 +22,17 @@
 
 ### 2.1.1 30pin MIPI DSI Interface Connection
 
+<center>
+
 ![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect.jpg)
+</center>
 
 ### 2.1.2 40pin MIPI DSI Interface Connection
 
+<center>
+
 ![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect_40pin.png)
+</center>
 
 Connection instructions:
 * Due to variations in the silkscreen labels of different development boards, such as `MIPI_DSI`, `MIPI-DSI`, or `DSI_MIPI`, the default connection should be to the interface labeled with `MIPI DSI`.

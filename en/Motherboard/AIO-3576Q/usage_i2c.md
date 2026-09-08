@@ -5,7 +5,10 @@ RK3576 has 10 on-chip I2C controller, but not all are available for user, some a
 
 AIO-3576Q board exported an I2C6 for user.
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q/usage_i2c_interface.jpg)
+</center>
 
 In userspace you can use commands of i2c-tools to read/write I2C devices.
 

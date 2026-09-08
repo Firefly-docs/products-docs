@@ -24,13 +24,22 @@ The public firmware supports SV-TAYSH-90 camera module by default.
 ### Picture
 
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/camera2.jpg)
+</center>
 
 ### Connection
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera3.jpg)
+</center>
 
 ## RMSL201-1301 structured light module
 ### Description
@@ -53,14 +62,26 @@ For face payment, access security, gesture, body recognition, high precision 3D 
 
 ### Picture
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera_rmsl_01.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/camera_rmsl_02.jpg)
+</center>
 
 ### Connection
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera_rmsl_03.jpg)
+</center>
 
 ### Demo
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera_rmsl_04.jpg)
+</center>

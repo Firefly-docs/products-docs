@@ -32,7 +32,10 @@ Date:   Mon Mar 21 11:43:00 2022 +0800
 
 Windows 平台下选中`Loader`、`Parameter`与`Uboot`并烧录：
 
+<center>
+
 ![](../../../rk356x_img/rkdevtool_to_nor.png)
+</center>
 
 Linux 平台下烧录`Loader`、`Parameter`与`Uboot`：
 ```bash

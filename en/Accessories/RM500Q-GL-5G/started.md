@@ -2,7 +2,10 @@
 ## Product introduction
 ### RM500Q-GL
 
+<center>
+
 ![](../../../modules_img/RM500Q-GL-5G/5G.png)
+</center>
 
 ## Detailed parameters
 
@@ -79,11 +82,17 @@
 | RK3568 | [AIO-3568J](_images/5G_AIO-3568J.png) | 
 | RK3588 | [ITX-3588J](_images/5G_ITX-3588J.jpg), [AIO-3588SJD4](_images/5G_AIO-3588SJD4.jpg),[AIO-3588Q](_images/5G_AIO-3588Q.jpg)| -->
 
+<center>
+
 ![](../../../modules_img/RM500Q-GL-5G/5G_PCIE.png)
+</center>
 
 
 ### SIM insertion
+<center>
+
 ![](../../../modules_img/RM500Q-GL-5G/ec20_sim.png)
+</center>
 
 # 三、Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/133)。

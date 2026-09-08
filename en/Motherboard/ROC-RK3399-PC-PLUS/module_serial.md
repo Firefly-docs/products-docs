@@ -15,11 +15,17 @@ Download driver：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](http
 
 ### Picture
 
+<center>
+
 ![](../../../rk3399_img/module_serial_list.en.jpg)
+</center>
 
 ### Connection Method
 
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/debug_connection.jpg)
+</center>
 
 

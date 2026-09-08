@@ -5,11 +5,17 @@
 * 连接方式：USB连接
 
 ### 实物图
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/module/module_speech-MOD-MIC-4XAnalog.jpg)
+</center>
 
 ### 数字MIC使用说明
 #### 连接图
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/module/module_speech-MOD-MIC-4XAnalog-connect.jpg)
+</center>
 #### 录音
 
 查看系统识别到的声卡，其中 `USB-Audio` 为 `USB`声卡

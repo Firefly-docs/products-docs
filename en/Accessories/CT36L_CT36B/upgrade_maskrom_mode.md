@@ -27,11 +27,17 @@ The steps are as follows:
 
 * CT36L hardware wiring diagram is as follows:
 
+  <center>
+
   ![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36l.png)
+  </center>
   
 * CT36B hardware wiring diagram is as follows:
 
+  <center>
+
   ![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36b.png)
+  </center>
 
 4. Enter the command in the serial terminal to enter MaskRom mode.
 ```shell
@@ -47,11 +53,17 @@ When the device system is damaged and cannot operate normally, hardware operatio
 
 * CT36L hardware wiring diagram is as follows:
 
+  <center>
+
   ![](../../../rv1106_img/CT36L/upgrade_maskrom_hard_ct36l.png)
+  </center>
   
 * CT36L hardware wiring diagram is as follows:
 
+  <center>
+
   ![](../../../rv1106_img/CT36L/upgrade_maskrom_hard_ct36b.png)
+  </center>
 
 3. Connect the USB data cable to the computer USB interface. At this time, the device automatically enters MaskRom mode.
 

@@ -12,11 +12,17 @@ The operation steps are as follows:
 2. Hold the MaskRom button on AIO-3588SJD4-AI (shown in the picture below)
 3. The device is plugged into the power supply and powered on
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4-AI/maskrom_key.jpg)
+</center>
 
 
 
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+</center>

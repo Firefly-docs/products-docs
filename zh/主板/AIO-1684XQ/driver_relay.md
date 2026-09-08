@@ -3,11 +3,17 @@
 
 AIO-1684XQ 开发板上有 2 个 RELAY 控制单元:
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XQ/relay.png)    
+</center>
 
 每个 RELAY 单元的参数为：  
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XQ/relay_parameter.png)
+</center>
 ```
 # RELAY0 连接状态（连接继电器的两个电路）
 echo 1 >/sys/class/leds/RELAY0/brightness

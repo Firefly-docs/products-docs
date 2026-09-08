@@ -27,8 +27,14 @@ Its core is the way and the parameters for populating the GPIO bank, and to call
 There are two power LEDs controlled by the GPIO port for the development board:
 
 
+<center>
+
 ![](../../../rk3288_img/gpio_led_1.png)
+</center>
+<center>
+
 ![](../../../rk3288_img/gpio_led_2.png)
+</center>
 
 
 From the schematic, the led will be on if outputing low voltage level from GPIO, and off if high voltage level otherwse.
@@ -124,7 +130,10 @@ How to define which functions of GPIO can be reused, and how to switch the funct
 
 You can learn from the specification table, the functions of I2C4_SDA and I2C4_SCL are defined as follows:
 
+<center>
+
 ![](../../../rk3288_img/gpio_i2c4.png)
+</center>
 
 In `/kernel/arch/arm/boot/dts/rk3288.dtsi`, there are:
 

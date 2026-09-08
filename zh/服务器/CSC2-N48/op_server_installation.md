@@ -12,7 +12,10 @@
     - 操作前摘除手表、项链、金属首饰等导电物品，穿着防静电工作服。
     - 接触板卡、硬盘等组件必须佩戴防静电腕带/防静电手套。
 
+    <center>
+
     ![ESD Prohibited Conductive Objects Diagram](../../../servers_img/common/esd_remove_conductive_items.png)
+    </center>
 
 3. 物料存放与搬运
     - 未装配组件全程存放于防静电包装袋/防静电盒内。
@@ -24,7 +27,10 @@
 操作前确认机柜已完成可靠接地：
 1. 将手腕穿入防静电腕带；
 
+    <center>
+
     ![ESD Wrist Strap Wearing Diagram](../../../servers_img/common/esd_wrist_strap.png)
+    </center>
 
 2. 收紧锁扣，保证腕带内侧完全贴合皮肤；
 3. 将腕带接地插头插入机柜ESD接地插孔。

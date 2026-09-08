@@ -6,20 +6,32 @@ iCore-1684XQ 核心板采用 SOPHON 算能 AI 处理器 BM1684X，可配置 16GB
 
 **iCore-1684XQ  核心板正面：**
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XQ/iCore-1684XQ_front.jpg)
+</center>
 
 **iCore-1684XQ  核心板反面：**
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XQ/iCore-1684XQ_back.jpg)
+</center>
 
 
 AIO-1684XQ  主板由核心板 AIO-1684XQ + 底板 SM7-SBASE-EN4  组成，AIO-1684XQ 板载 M.2(5G)、Mini PCIe、SATA3. 0、Gigabit Ethernet、USB3.0、RS485、RELAY、GPIO 等丰富接口。
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XQ/AIO-1684XQ.jpg)
+</center>
 
 **产品参数：**
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XQ/parameter.png)
+</center>
 
 ## 配件清单
 
@@ -43,7 +55,10 @@ AIO-1684XQ  主板由核心板 AIO-1684XQ + 底板 SM7-SBASE-EN4  组成，AIO-1
 
 ## 网络远程登录
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XQ/ethernet_interfaces.png)
+</center>
 
 网口 0 （位于上层）设置了动态 IP，可通过 DHCP 自动获取 IP。  
 

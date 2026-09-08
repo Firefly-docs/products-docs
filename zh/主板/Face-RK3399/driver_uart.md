@@ -27,15 +27,24 @@ UART1：/dev/ttyS3
 
 Face-RK3399开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/uart3.png)
+</center>
 
 
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/RS485.png)
+</center>
 
 如下是具体用RS485连接示意图，注意有需要可以通过USB提供VCC和GND
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_uart_485.png)
+</center>
 
 ## RS485调试方法
 
@@ -93,6 +102,9 @@ RS232：/dev/ttyS3
 
 其中原本的一个TTL串口变成RS232
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_uart6.png)
+</center>
 
 注意：UART(/dev/ttyS0)是和蓝牙接口复用了，两者同时只能使用其中一个功能，出厂默认使用的是UART的功能。

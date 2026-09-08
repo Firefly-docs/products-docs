@@ -1,11 +1,17 @@
 # Introduction
 ## Product Specifications
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/roc-rk3308b-cc-plus_pin.jpg)
+</center>
 
 ## Shipping list reference
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/list_roc-rk3308b-cc-plus.jpg)
+</center>
 
 For specific information, please refer to the official website mall.
 

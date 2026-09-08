@@ -19,12 +19,21 @@ The public-version firmware supports the CMK-OV13850 camera module by default.
 
 ### Image
 
+<center>
+
 ![](../../../rk3288_img/module_camera_1.png)
+</center>
 
 ### Connection method
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/module_camera_2.png)
+</center>
 
 ### Image
 
+<center>
+
 ![](../../../rk3288_img/module_camera_3.png)
+</center>

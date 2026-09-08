@@ -11,7 +11,10 @@ intelligent NVR and other fields.
 
   
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/ROC-RK3588S-PC.png)  
+</center>
 
 
  <a id="firmware-format"></a>

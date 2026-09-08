@@ -14,7 +14,10 @@ ITX-3588J 开发板采用HYM8563作为RTC(*Real Time Clock*)，HYM8563是一款�
 
 RTC有两个供电选择，一个是纽扣电池，一个是电容。开发板装上1220纽扣电池后，可以保证板子掉电后RTC长时间正常运行，电容则是短时间内保证RTC运行。纽扣电池座和电容的位置如下图所示：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_rtc_battery_capacitor.jpg)
+</center>
 
 ## RTC驱动
 

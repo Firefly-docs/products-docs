@@ -9,8 +9,14 @@
 
 You can press the maskrom button and then power on.
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/maskrom.png)
+</center>
 
 The device will then enter MaskRom mode.
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/upgrade_maskrom_zh.png)
+</center>

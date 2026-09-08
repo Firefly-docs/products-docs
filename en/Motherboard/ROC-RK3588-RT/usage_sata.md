@@ -5,7 +5,10 @@ There is 1 M.2 interface on the ROC-RK3588-RT development board.
 
 The default software is configured as M.2 SATA3.0 interface, which supports the use of SSDs with SATA protocol.
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png)
+</center>
 
 ## Software configuration
 ### DTS configuration

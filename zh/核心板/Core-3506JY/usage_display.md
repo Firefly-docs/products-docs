@@ -17,7 +17,10 @@ ROC-RK3506J-CC 有一路 MIPI DSI 显示输出接口，支持 2 Lane 的数据�
 外接的屏幕是 [Firefly V3 版本屏幕](https://community.t-firefly.com/docs/products/accessories/DM-M10R800-V3S/started)，
 
 * DSI 接口
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506J-CC/usage_display_mipi_v3_interface.png)
+</center>
 
 在设备树上添加：
 

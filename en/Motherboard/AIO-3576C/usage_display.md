@@ -31,7 +31,10 @@ AIO-3576C There are one HDMI display output interfaces on the hardware:
 
 * HDMI interface
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_display_hdmi_interface.jpg)
+</center>
 
 #### Software configuration
 
@@ -72,7 +75,10 @@ AIO-3576C has a Display Port display output interface, supports DP TX 1.4a proto
 
 * DP interface
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_display_dp_interface.jpg)
+</center>
 
 #### Software configuration
 
@@ -127,7 +133,10 @@ The firmware supports screen by default is [Firefly V3S Version](https://wiki.t-
 
 * DSI interface
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_display_mipi_v2_interface.jpg)
+</center>
   
 Please refer to the device-tree file:
 ```
@@ -144,7 +153,10 @@ The firmware supports screen by default is [Firefly DM-M10R800](https://wiki.t-f
 
 * LVDS interface
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_display_lvds_interface.jpg)
+</center>
 
 Please refer to the device-tree file:
 ```

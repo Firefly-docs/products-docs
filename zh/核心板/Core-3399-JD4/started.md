@@ -4,17 +4,29 @@
 Core-3399-JD4核心板采用Rockchip高性能六核64位处理器RK3399，板载AI神经网络处理器NPU SPR5801S，高算力，超高效能，拥有强大的硬解码能力与丰富的扩展接口，可灵活应用到集群服务器、计算机视觉、商显一体设备等行业中。
 
 **注意： V2.2以上版本使用NPU SPR5801S，低于V2.2的是SPR2801S**
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2up.png)
+</center>
 
 **注意： V2.2以下版本使用NPU SPR2801S**
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2down.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_back.png)
+</center>
 
 
 ### 产品参数
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/core-3399jd4_paramter.jpg)
+</center>
 
 ## AIO-3399JD4 的标准套装包含以下配件：
 
@@ -44,5 +56,8 @@ Core-3399-JD4核心板采用Rockchip高性能六核64位处理器RK3399，板载
 
 *    发货清单参考
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/started_shipping_list.jpg)
+</center>
  <a id="firmware-format"></a>

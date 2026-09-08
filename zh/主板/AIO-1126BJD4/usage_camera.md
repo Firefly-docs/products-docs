@@ -4,7 +4,10 @@
 
 * 接口效果图
 
+<center>
+
 ![](img/CORE-1126BJD4/usage_camera_mipicsi.jpg)
+</center>
 
 
 

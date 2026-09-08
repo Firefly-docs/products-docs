@@ -28,7 +28,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 SPI 的四种工作模式波形图如下：
 
+<center>
+
 ![](../../../rk3399_img/spi_waveform.jpg)
+</center>
 
 ## 驱动编写
 
@@ -38,7 +41,10 @@ SPI 的四种工作模式波形图如下：
 
 ROC-RK3399-PC Pro 与 W25Q128FV 硬件连接可参考下表：
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-Pro/spi_hardware_connection.jpg)
+</center>
 
 
 ### 编写Makefile/Kconfig

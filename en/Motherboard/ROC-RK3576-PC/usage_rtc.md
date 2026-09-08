@@ -12,7 +12,10 @@ ROC-RK3576-PC development BOARD uses TT8563RH as RTC(*Real Time Clock*), TT8563R
 
 ROC-RK3576-PC has a capacitor to supply power to the RTC as shown in the following figure to ensure that the RTC runs in a short time.
 
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/usage_rtc_capacitor.jpg)
+</center>
 
 
 ## Driver RTC

@@ -12,7 +12,10 @@ If you still can’t find what you need here, read [Serial Debug] section, get t
 
 [ROC-RK3328-CC], the first credit card sized and affordable open source main board honored by Firefly, features:
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/hw_board_interface_top.png)
+</center>
 
 - Core
     + Quad-Core ARM® Cortex-A53 64-bit processor, with frequency up to 1.5GHz

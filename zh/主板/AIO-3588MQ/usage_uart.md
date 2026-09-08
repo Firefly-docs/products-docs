@@ -6,11 +6,17 @@ AIO-3588Q 有两个 RS232 接口(RS232_0 、RS232_1)和一个 RS485 接口
 
 AIO-3588Q 开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588MQ/usage_uart_interface.jpg)
+</center>
 
 RS232、RS485 推荐使用<font color=#ff00>官方的 FC10 转 DP9 串口线</font>，不同厂商的串口线线序可能不同，会导致串口无法通信。
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588MQ/usage_sata_fc10_to_db9.png)
+</center>
 
 ## DTS配置
 开发板的 RS232_0 接口由主控的 UART0 扩展出来，RS232_1 接口由主控的 UART5 扩展出来，而 RS485 接口由主控 UART1 扩展出来。

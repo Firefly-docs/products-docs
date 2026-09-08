@@ -6,7 +6,10 @@
 
 EC-R3576PC的串口接口图如下：
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/usage_uart_interface.jpg)
+</center>
 
 ## DTS配置
 

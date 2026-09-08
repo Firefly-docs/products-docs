@@ -4,7 +4,10 @@
 
 ROC-RK3399-PC 开发板上有 9 个片上 I2C 控制器，各个 I2C 的使用情况如下表：
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/i2c_list.jpg)
+</center>
 
 本文主要描述如何在该开发板上配置 I2C。
 

@@ -6,11 +6,17 @@ The Core-186JD4 core board, equipped with the CV186AH intelligent computing chip
 
 **Front of Core-186JD4 Core Board:**
 
+<center>
+
 ![](../../../bm1688_img/Core-186JD4/Core-186JD4.png)
+</center>
 
 The AIO-186JD4 motherboard consists of the core board Core-186JD4 + baseboard MB-JD4-BM1688, featuring rich interfaces such as HDMI2.0, PCIE 3.0 x 1, USB3.0 x 2, RS485, RS232, CAN, CSI, and DSI, which can be directly applied to AI edge computing products.
 
+<center>
+
 ![](../../../bm1688_img/Core-186JD4/AIO-186JD4.png)
+</center>
 
 **For product parameters, please refer to: [Specification](https://download.t-firefly.com/%E4%BA%A7%E5%93%81%E8%A7%84%E6%A0%BC%E6%96%87%E6%A1%A3/%E6%A0%B8%E5%BF%83%E6%9D%BF/Core-1688JD4_16T%E7%AE%97%E5%8A%9BAI%E6%A0%B8%E5%BF%83%E6%9D%BF_%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D.pdf)**
 
@@ -37,7 +43,10 @@ During use, you may need the following accessories:
   + ON: Indicates that the power is plugged in and the machine will start directly.
   + 1: Indicates that after plugging in the power, you need to briefly press the Power button to start.
 
+<center>
+
 ![](../../../bm1688_img/Core-186JD4/power_switch.png)
+</center>
 
 ## Remote Network Login
 

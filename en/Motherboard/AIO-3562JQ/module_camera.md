@@ -14,12 +14,24 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
 [Firmware Download: CAM-8MS1M](https://community.t-firefly.com/en/doc/download/247)
 
 ### Product Images
+<center>
+
 ![](../../../rk3562_img/cam_8ms1m_front.jpg)
+</center>
+<center>
+
 ![](../../../rk3562_img/cam_8ms1m_back.jpg)
+</center>
 
 ### Connection method
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/aio-3562jq_8ms1m.jpg)
+</center>
 
 ### Photo by CAM-8MS1M
+<center>
+
 ![](../../../rk3562_img/camera_8ms1m_shoot.jpg)
+</center>
 

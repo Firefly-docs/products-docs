@@ -27,7 +27,10 @@ kernel/drivers/pinctrl/pinctrl-rockchip.c
 开发板有两个电源 LED 灯是 GPIO 口控制的，分别是：
 
 
+<center>
+
 ![](../../../rk3288_img/gpio_leds.png)
+</center>
 
 
 从电路图上看，GPIO 口输出低电平时灯亮，高电平时灯灭。
@@ -35,7 +38,10 @@ kernel/drivers/pinctrl/pinctrl-rockchip.c
 
 另外，扩展槽上引出了几个空闲的 GPIO 口，分别是：
   
+<center>
+
 ![](../../../rk3288_img/gpio_expand.png)
+</center>
 
 这几个 GPIO 口可以自定义作输入、输出使用。
 
@@ -128,7 +134,10 @@ int gpio_direction_output(int gpio, int v)
 
 查规格表可知，I2C4_SDA 与 I2C4_SCL 的功能定义如下：
 
+<center>
+
 ![](../../../rk3288_img/gpio_i2c4.png)
+</center>
 
 在 `/kernel/arch/arm/boot/dts/rk3288.dtsi` 里有：
 

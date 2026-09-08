@@ -123,7 +123,10 @@ Configure the time sequence in disp_timings node.
 * clock-frequency: clock of the LCD, measure by Hz.
 As to other timing’s attribute, you can take a look at this picture.
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_dsi.png)
+</center>
 
 ### Dsihost configuration
 

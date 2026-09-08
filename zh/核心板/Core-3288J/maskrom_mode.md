@@ -19,9 +19,15 @@
 
 AIO-3288J：
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/maskrom_test_points.png)
+</center>
 
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3288_img/maskrom.png)
+</center>

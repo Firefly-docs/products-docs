@@ -42,18 +42,27 @@
 
 ### Image
 
+<center>
+
 ![](../../../rk3288_img/module_wireless_ec20_1.png)
+</center>
 
 ### Connection method
 
 * USB interface connection
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/module_wireless_ec20_2.png)
+</center>
 
 
 * Mini-PCIe interface connection
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/module_wireless_ec20_3.png)
+</center>
 
 
 ### Reference firmware
@@ -68,7 +77,10 @@ The public-version firmware supports EC20 4G module by default.
 
 #### Product Parameter
 
+<center>
+
 ![](../../../rk3288_img/module_wireless_gps_delincomm_en.jpg)
+</center>
 
 The parameters of each module model of this series will be different, please refer to [DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
 
@@ -81,7 +93,10 @@ For DELICOMM series, VCC (red wire), GND (black wire), TX (white wire), connect 
 
 #### Product Parameter
 
+<center>
+
 ![](../../../rk3288_img/module_wireless_ublox_en.png)
+</center>
 
 #### Connection method
 

@@ -6,7 +6,10 @@ There are two ways to login to AIBOX-PRO, one is via Console (Debug serial), the
 
 ### Console Login
 Type-C Connects to the Console port. The login account is `root`. By default, the `root password` is not set.<br>
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-DEBUG.png)
+</center>
 Use the following serial port parameters:
 * Baud rate: 115200
 * Data bit: 8
@@ -522,7 +525,10 @@ AIBOX-PRO has one RS485 interface. If the CPU is RK3588, the device name is `/de
 
 AIBOX-PRO supports 4G LTE. In system settings, there are multiple network options. You can enable mobile data here:
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/4G.png)
+</center>
 
 Check the network interface via command line:
 

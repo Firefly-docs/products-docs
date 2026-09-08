@@ -8,7 +8,10 @@
 ### HDMI 或者 VGA 登录
 接入显示器。
 ### DEBUG 调试串口
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/debug.png)
+</center>
 
 使用以下串口参数：
 * 波特率：115200

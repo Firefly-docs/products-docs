@@ -1,6 +1,9 @@
 # 一、产品介绍
 ## 产品简介
+<center>
+
 ![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s.png)
+</center>
 
 <!--
 ## 发货清单
@@ -31,10 +34,16 @@
 
 ### 30pin MIPI DSI接口连接
 
+<center>
+
 ![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect.jpg)
+</center>
 
 ### 40pin MIPI DSI接口连接
+<center>
+
 ![](../../../modules_img/DM-M10R800-V3S//dm-m10r800-v3s_connect_40pin.png)
+</center>
 
 连接说明: 
 * 由于不同开发板接口对应的丝印有所不同，比如`MIPI_DSI`、`MIPI-DSI`、`DSI_MIPI`，默认连接带`MIPI DSI`字样丝印的接口；

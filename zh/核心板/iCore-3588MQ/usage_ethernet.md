@@ -129,7 +129,10 @@ Android 双以太网口分内网和外网。
 | eth0 | gmac1 | Ethernet 2 | 副网口，用于内网 | 
 | eth1 | gmac0 | Ethernet | 主网口，用于外网 |
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588MQ/usage_ethernet_interface.jpg)
+</center>
 
 #### 查看IP地址
 * 双以太网口接入网络，可以通过调试串口或者adb来查看IP地址，比如

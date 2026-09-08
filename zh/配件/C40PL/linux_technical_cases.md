@@ -7,13 +7,22 @@
 
 在设备上可以实现人脸识别和 RTSP 推流，在 WEB 端或者 RTSP 播放器就可以预览画面。
 
+<center>
+
 ![](../../../rv1126_img/C40PL/web.png)
+</center>
 
 ## 车牌识别网络摄像头
 
 在设备上可以实现车牌或车辆识别和 RTSP 推流，识别结果可以通过网络发送到服务端记录数据库。
 
+<center>
+
 ![](../../../rv1126_img/C40PL/car1.png)
+</center>
+
+<center>
 
 ![](../../../rv1126_img/C40PL/car2.png)
+</center>
 

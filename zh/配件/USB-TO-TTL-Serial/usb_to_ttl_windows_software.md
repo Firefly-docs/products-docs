@@ -11,8 +11,14 @@ Windows 上一般用 putty 或 SecureCRT。其中我们推荐使用 MobaXterm �
 3. 设置 `Speed (bsp)` 为 1500000。
 4. 点击 `OK` 按钮。
 
+<center>
+
 ![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png)
+</center>
 
 
+
+<center>
 
 ![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png)
+</center>

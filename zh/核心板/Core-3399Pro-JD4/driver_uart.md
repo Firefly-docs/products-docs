@@ -15,7 +15,10 @@ AIO-3399Pro-JD4 支持 SPI 桥接/扩展 4 个增强功能串口（UART）的功
 
 AIO-3399Pro-JD4 开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/uart_interface.jpg)
+</center>
 
 ## DTS 配置
 

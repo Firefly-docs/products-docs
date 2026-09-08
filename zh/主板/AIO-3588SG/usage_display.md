@@ -1,7 +1,10 @@
 # Display 使用
 
 
+<center>
+
 ![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+</center>
 
 
 RK3588S 拥有四路 Video 输出端口，每一个 Video 输出端口都绑定了固定的显示控制器，如 Port0 可以用于与 DP0、DP1、HDMI/eDP0 和 HDMI/eDP1 等显示控制器的连接，其他 Portx 以此类推。  
@@ -30,7 +33,10 @@ AIO-3588SG 有三种显示输出接口，分别是 EDP 、Display Port 以及 MI
 
 * EDP/ Display Port/ MIPI DSI1  
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_display_interface-B.png) 
+</center>
 
 
 
@@ -97,26 +103,41 @@ DSI的软件配置，外接的屏幕是 101-M101014-BE45-A1 显示屏，DSI 软�
 结合 AIO-3588SG 的 DSI0 接口和屏幕时序
 
 * DSI 接口<br>
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_display_mipi_v2_interface.png)
+</center>
   
 
 * V2 屏幕显示时序<br>
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_timing.jpg)
+</center>
   
   
 
 * V2 屏幕上电时序<br>
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)  
+</center>
   
   
 
 * V2 屏幕下电时序<br>
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)   
+</center>
   
   
 
 * V2 屏幕上下电符号参考<br>
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)   
+</center>
   
 
 
@@ -323,7 +344,10 @@ AIO-3588SG 有一路 EDP 显示输出接口，最高可输出 4096x2304@60Hz（�
 #### 软件配置
 
 * EDP 接口<br>
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_display_edp_1080_interface.png)
+</center>
 
 * 屏幕的上下电时序<br>
 ![](../../../rk3588_img/Core-3588SG/usage_display_edp_NV156FHM-T06.png)<br>

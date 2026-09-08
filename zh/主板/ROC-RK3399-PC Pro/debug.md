@@ -55,7 +55,10 @@ ROC-RK3399-PC Pro 使用以下串口参数：
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 
+<center>
+
 ![](../../../rk3399_img/debug_find_com.jpg)
+</center>
 
 ### 安装软件
 
@@ -68,8 +71,14 @@ Windows 上一般用 putty 或 SecureCRT。其中我们推荐使用 MobaXterm �
 3. 设置 `Speed (bsp)` 为 1500000。
 4. 点击 `OK` 按钮。
 
+<center>
+
 ![](../../../rk3399_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../rk3399_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ## Ubuntu 上使用串口调试
 

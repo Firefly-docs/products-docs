@@ -6,20 +6,32 @@ Core-1684XJD4 核心板采用 SOPHON 算能 AI 处理器 BM1684X，可配置 16G
 
 **Core-1684XJD4  核心板正面：**
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/Core-1684XJD4_front.jpg)
+</center>
 
 **Core-1684XJD4  核心板反面：**
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/Core-1684XJD4_back.jpg)
+</center>
 
 
 AIO-1684XJD4  主板由核心板 AIO-1684XJD4 + 底板 MB-JD4-BM1684  组成，AIO-1684XJD4 板载 HDMI、mSATA、USB3.0、USB2.0、RS485、RS232 等丰富接口，可直接应用到 AI 边缘计算产品中。
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/AIO-1684XJD4.png)
+</center>
 
 **产品参数：**
 
+<center>
+
 ![](../../../bm1684_img/BM1684X_parameter.jpg)
+</center>
 
 ## 配件清单
 
@@ -42,7 +54,10 @@ AIO-1684XJD4  主板由核心板 AIO-1684XJD4 + 底板 MB-JD4-BM1684  组成，A
      + USB 转串口适配器
 
 - 发货清单参考
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/started_components.jpg)
+</center>
 
 
 ## 开机

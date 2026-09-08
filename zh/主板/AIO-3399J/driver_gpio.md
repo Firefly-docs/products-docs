@@ -17,7 +17,10 @@ kernel/drivers/pinctrl/pinctrl-rockchip.c
 
 AIO-3399J 开发板为方便用户开发使用，并没有引出通用的 GPIO 口，但是可以将其他接口用作 GPIO，例如 LED 扩展接口，在不用的情况可以将其当作一般的 GPIO 口使用，其对应引脚如下图：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/gpio_general.jpg)
+</center>
 
 本文以 TP_RST(GPIO0_B4) 和 LCD_RST(GPIO4_D5) 这两个通用 GPIO 口为例写了一份简单操作 GPIO 口的驱动，在 SDK 的路径为：
 
@@ -324,7 +327,10 @@ int pinctrl_select_state(struct pinctrl *p, struct pinctrl_state *s);
 
 AIO-3399J 原理图上的 Power Domain Map 表以及配置如下表所示：
 
+<center>
+
 ![](../../../rk3399_img/gpio_power_domain.jpg)
+</center>
 
 通过 RK3399 SDK 的原理图可以看到 bt656-supply 的电压域连接的是 vcc18_dvp, vcc_io 是从 PMIC RK808 的 VLDO1 出来的；
 

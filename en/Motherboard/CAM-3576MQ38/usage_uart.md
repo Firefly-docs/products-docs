@@ -6,9 +6,15 @@ EXT-iCore-3576Q38 use `UART11` for `RS485`, which is `/dev/ttyS11` in system. Ex
 
 Interfaces:
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q38/usage_uart_interface.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/iCore-3576Q38/usage_uart_interface2.jpg)
+</center>
 
 ## RS485 Usage
 ```

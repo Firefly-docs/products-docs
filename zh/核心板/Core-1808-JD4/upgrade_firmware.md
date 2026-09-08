@@ -27,7 +27,10 @@
 主机连接开发板:  
 * 公对公USB线一头连接开发板的USB 3.0接口，另外一头连接主机，如图所示。
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware_otg.jpg)
+</center>
 
 ## Windows
 
@@ -38,7 +41,10 @@
 下载 [DriverAssitant_v4.8.zip](http://download.t-firefly.com/product/RK1808/Tools/DriverAssitant/DriverAssitant_v4.8.zip) ，解压，然后运行里面的 DriverInstall.exe 。   
 为了所有设备都使用更新的驱动，请先选择"驱动卸载"，然后再选择"驱动安装"。   
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware1.png)
+</center>
 
 ### 连接设备
 
@@ -52,12 +58,18 @@
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备"Rockusb Device" 出现，如下图。如果没有，则需要返回上一步重新安装驱动。   
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware2.png)
+</center>
 
 ## 烧写固件
 
 下载 [AndroidTool](http://download.t-firefly.com/product/RK1808/Tools/AndroidTool/AndroidTool_Release_v2.69.zip)，解压，运行 AndroidTool_Release_xx 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：   
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware3.png)
+</center>
 
 ### 烧写统一固件 update.img
 
@@ -69,7 +81,10 @@
 
 **注意：如果你烧写的固件laoder版本与原来的机器的不一致，请在升级固件前先执行"擦除Flash"。** 
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware4.png)
+</center>
 
 ### 烧写分区映像
 
@@ -83,7 +98,10 @@
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击"执行"按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware6.png)
+</center>
 
 ## Linux
 

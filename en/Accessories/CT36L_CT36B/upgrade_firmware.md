@@ -33,13 +33,19 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
 
 Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/238), unzip it, and then run DriverInstall.exe inside. In order for all devices to use updated drivers, please select `Driver Uninstall` first, and then select `Driver Installation`.
 
+<center>
+
 ![](../../../rv1106_img/common/upgrade_firmware_install_rk_usb.jpg)
+</center>
 
 * Run SocToolKit's SocToolKit.exe
 
 
 
+<center>
+
 ![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png)
+</center>
 
 ### Linux operating system
 No need to install device driver under Linux
@@ -85,8 +91,14 @@ The steps to burn unified firmware update.img are as follows:
 5. Select the update.img unified firmware file.
 6. Click the `Upgrade` button in the lower right corner to start the upgrade.
 
+<center>
+
 ![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png)
+</center>
+<center>
+
 ![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-2.png)
+</center>
 
 #### Burn partition image
 The steps to burn a partition image are as follows:
@@ -98,8 +110,14 @@ The steps to burn a partition image are as follows:
 5. Select the corresponding partition firmware file.
 6. Click the `Download` button in the lower right corner to start the upgrade.
 
+<center>
+
 ![](../../../rv1106_img/CT36L/Partition_writing-1.png)
+</center>
+<center>
+
 ![](../../../rv1106_img/CT36L/Partition_writing-2.png)
+</center>
 
 ### Linux operating system
 

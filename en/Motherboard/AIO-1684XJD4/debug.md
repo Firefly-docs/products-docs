@@ -6,7 +6,10 @@ USB-to-serial adapter is the abbreviation of USB-to-serial TTL adapter.
 
 You can use an RS232 to USB adapter to connect AIO-1684XJD4 to a PC for serial port debugging:
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/rs232_connection.png)
+</center>
 
 ### Serial parameter configuration
 
@@ -29,8 +32,14 @@ Go here [download MobaXterm](https://mobaxterm.mobatek.net/):
 3. Set `Speed (bsp)` to `115200`.
 4. Click the `OK` button.
 
+<center>
+
 ![](../../../bm1684_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../bm1684_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ### Serial debugging on Linux
 
@@ -155,7 +164,10 @@ USB to Serial adapter with four pins:
 
 AIO-1684XJD4 DEBUG port:
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/debug_connection.png)
+</center>
 
 
 ### Install driver
@@ -169,4 +181,7 @@ Download the driver and install:
 
 After inserting the adapter, the system will prompt to discover new hardware and initialize it, and then you can find the corresponding COM port in the device manager:
 
+<center>
+
 ![](../../../bm1684_img/debug_find_com.jpg)
+</center>

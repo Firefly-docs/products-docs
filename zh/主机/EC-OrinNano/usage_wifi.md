@@ -4,7 +4,10 @@ EC-Orin Nano 支持无线 WIFI,在系统中使用 WIFI 有两种方式。
 ## 界面方式
 在系统设置处，有多种网络形式，可以在此打开 WIFI：
 
+<center>
+
 ![](../../../bm1688_img/EC-Orin-Nano/WIFI.png)
+</center>
 
 ## 命令行方式
 

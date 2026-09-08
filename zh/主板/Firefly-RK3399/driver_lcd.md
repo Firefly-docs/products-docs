@@ -4,7 +4,10 @@
 
 Firefly-RK3399 开发板外置了两个 LCD 屏接口，一个是 EDP，一个是 MIPI，接口对应板子上的位置如下图：
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/lcd_interface.jpg)
+</center>
 
 ## DTS 配置
 
@@ -349,7 +352,10 @@ static int panel_simple_get_timings(struct drm_panel *panel,unsigned int num_tim
 
 时序属性参考下图：
 
+<center>
+
 ![](../../../rk3399_img/lcd_sequence.jpg)
+</center>
 
 ## Init Code
 

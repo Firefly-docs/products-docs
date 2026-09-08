@@ -2,7 +2,10 @@
 
 ## Build kernel, show "IO-Domain Checklist" Dialog
 kernel new dts file `arch/arm64/boot/dts/rockchip/rk3568-firefly-aioj-DEMO.dts`and when build kernel, will show dialog
+<center>
+
 ![](../../../rk356x_img/faq_rk356x_io-domain_checklist.png)
+</center>
 
 **Perform the following operations first**    
 ```

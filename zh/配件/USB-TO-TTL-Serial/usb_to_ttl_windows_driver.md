@@ -13,4 +13,7 @@
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 
+<center>
+
 ![](../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png)
+</center>

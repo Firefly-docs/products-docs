@@ -30,7 +30,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 The waveforms of SPI's four working modes are as follows:
 
+<center>
+
 ![](../../../rk3399_img/spi_waveform.en.jpg)
+</center>
 
 ## Drive coding
 
@@ -40,7 +43,10 @@ The following W25Q128FV Flash module as an example of a simple introduction to t
 
 The hardware connection between ROC-RK3399-PC Pro and W25Q128FV is shown in the following table:
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-Pro/spi_hardware_connection.jpg)
+</center>
 
 
 ### Makefile/Kconfig

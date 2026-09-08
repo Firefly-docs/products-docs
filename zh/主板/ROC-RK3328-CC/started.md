@@ -10,7 +10,10 @@
 
 [ROC-RK3328-CC]，是 Firefly 荣誉出品的第一块信用卡大小、性能强、功耗小的开源主板。
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/hw_board_interface_top.png)
+</center>
 
 主要功能：
 

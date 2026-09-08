@@ -44,18 +44,27 @@
 
 ### Real figure
 
+<center>
+
 ![](../../../rk3308_img/module_wireless_ec20.png)
+</center>
 
 ### Connection
 
 * USB connection
 
+<center>
+
 ![](../../../rk3308_img/module_wireless_ec20_usb.jpg)
+</center>
 
 
 * SIM card Connection
 
+<center>
+
 ![](../../../rk3308_img/module_wireless_sim_connection.jpg)
+</center>
 
 
 

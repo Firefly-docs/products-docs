@@ -17,7 +17,10 @@ The core is to fill the GPIO bank method and parameters, and call gpiochip_add t
 
 The Firefly-RK3399 development board leads to a row of general-purpose GPIO ports for the convenience of user development and use, and the corresponding pins are as follows:
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/gpio_general.jpg)
+</center>
 
 
 This article uses the two general GPIO ports TP_RST (GPIO0_B4) and LCD_RST (GPIO4_D5) as examples to write a simple operation GPIO port driver. The path in the SDK is:
@@ -325,7 +328,10 @@ In a complex system-on-chip (SOC), designers generally divide the power supply o
 
 Firefly-RK3399 原理图上的 Power Domain Map 表以及配置如下表所示：
 
+<center>
+
 ![](../../../rk3399_img/gpio_power_domain.jpg)
+</center>
 
 Through the schematic diagram of RK3399 SDK, we can see that the voltage domain of bt656-supply is connected to vcc18_dvp, and vcc_io is from VLDO1 of PMIC RK808;
 

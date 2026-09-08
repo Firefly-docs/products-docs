@@ -9,7 +9,13 @@
 * 描述：支持Firefly 系列机型的遥控开机功能
 
 ### 实物图
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_ir1.png)
+</center>
 
 ### 键值码
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_ir2.png)
+</center>

@@ -219,5 +219,8 @@ setprop debug.sf.fps 1;logcat -s SurfaceFlinger
 ```
 
 单个 RK3588 使用 AIC 同时运行两个最高画质原神可达 35 帧以上:
+<center>
+
 ![](../../../rk3588_img/common/aic_ys_performance.png)
+</center>
 #!INCLUDE "./rockit_avs.mdpp"

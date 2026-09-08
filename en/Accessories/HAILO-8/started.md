@@ -4,7 +4,10 @@
 ### Overview
 HAILO-8 is an M.2 AI accelerator module designed for edge computing. It delivers up to 26 TOPS of INT8 performance over PCIe Gen3 x4 for embedded devices, industrial control, smart security, and IoT inference.
 
+<center>
+
 ![](../../../modules_img/HAILO-8/hailo-8.jpg)
+</center>
 
 **Key Features**
 * Computing power: Up to 26 TOPS (INT8), suitable for running complex deep learning models.
@@ -17,7 +20,10 @@ HAILO-8 is an M.2 AI accelerator module designed for edge computing. It delivers
 
 ### Specifications
 
+<center>
+
 ![](../../../modules_img/HAILO-8/hailo-8_parameter.jpg)
+</center>
 
 |name|parameter|
 |----|----|

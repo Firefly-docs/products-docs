@@ -12,9 +12,15 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3288_img/module_ir.png)
+</center>
 
 ### 键值码
 
+<center>
+
 ![](../../../rk3288_img/module_ir_remote_info.png)
+</center>
 

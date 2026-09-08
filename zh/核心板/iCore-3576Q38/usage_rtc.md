@@ -13,7 +13,10 @@ EXT-iCore-3576Q38开发板采用 TT8563RH 作为RTC(*Real Time Clock*)，TT8563R
 
 EXT-iCore-3576Q38 预留电池座给RTC供电，接上电池后可以在短时间内保证RTC运行。
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q38/usage_rtc_capacitor.jpg)
+</center>
 
 ## RTC驱动
 

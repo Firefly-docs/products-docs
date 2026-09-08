@@ -6,9 +6,15 @@ CQ38W-3576 use `UART11` for `RS485`, which is `/dev/ttyS11` in system. Extended 
 
 Interfaces:
 
+<center>
+
 ![](../../../rk3576_img/CQ38W-3576/usage_uart_interface.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/CQ38W-3576/usage_uart_interface2.jpg)
+</center>
 
 ## RS485 Usage
 ```

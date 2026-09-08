@@ -15,4 +15,7 @@
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../aibox_img/AIBOX-3576/upgrade_maskrom_zh.png)
+</center>

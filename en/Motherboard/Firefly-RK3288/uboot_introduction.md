@@ -35,7 +35,10 @@ RK3288Loader_uboot_Vx.xx.xx.bin
 
 Open the burn tool, connect the USB OTG cable to the board, press and hold the Recovery button when connecting to power supply, so that the development board enters the U-Boot download mode. Select the required Loader file in the burn tool and click Run, which is shown as below:
 
+<center>
+
 ![](../../../rk3288_img/uboot_download.jpg)  
+</center>
 
 ## Confirm whether the new Loader is properly programmed
 

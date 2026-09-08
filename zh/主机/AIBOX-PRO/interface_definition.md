@@ -23,4 +23,7 @@ AIBOX-PRO 接口丰富，主要包括：
 
 PS: 如上接口为3588支持，如果核心板使用3576，则硬件上无法使用Wi-Fi、扩展PCIe插槽、SATA模块。
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-interface.png)
+</center>

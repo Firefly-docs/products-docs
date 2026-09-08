@@ -31,7 +31,10 @@
 ./FFTools/mkupdate/mkupdate.sh -l rk3399_roc_pc_plus_mipi-userdebug
 ```
 ### Connection method
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg)
+</center>
 ### Reference data
 
 [[schematic of screen module Datasheet& adapter board]](https://community.t-firefly.com/en/doc/download/125)

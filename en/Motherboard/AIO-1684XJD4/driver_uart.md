@@ -13,9 +13,15 @@ AIO-1684XJD4 supports 3 UART devices:
 
 The RS232 and RS485 interface diagram of AIO-1684XJD4 board is as follows:
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/uart_interface.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/AIO-1684XJD4/uart_pinout.png)
+</center>
 
 ## Debug
 

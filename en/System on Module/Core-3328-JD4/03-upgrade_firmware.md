@@ -28,7 +28,10 @@ Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/do
 
 In order to use new driver for all the rockchip devices, please select "驱动卸载"(Driver uninstall), then "驱动安装"(Driver install).  
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/upgrade_firmware1.png)
+</center>
 
 ### Device Mode
 There are two ways to switch the device to upgrade mode.  
@@ -48,7 +51,10 @@ The other way:
   
 The host will prompt to have new device detected and configured. Open the Device Management, you'll find a new device name "Rockusb Device", as shown below. Return to previous step to reinstall driver if it is not shown.
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/upgrade_firmware2.png)
+</center>
 
 ### Download Firmware
 
@@ -81,7 +87,10 @@ Steps of flashing update.img:
 2. Click "Firmware" button and open the image file. Detail information of the image file, like version and chip, is shown.
 3. Click "Upgrade" button to start flash.
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/upgrade_firmware4.en.png)
+</center>
 
 <font color=#ff0000>If the upgrade fails, Maybe the version of firmware you flash is different from version of the original machine, you can try to erase the Flash by pressing the "EraseFlash" button before upgrading. .</font>
 
@@ -100,7 +109,10 @@ Steps of flashing partition images:
  3. Make sure the image file's path is correct. Click the rightmost empty table cell to select new path if needed.
  4. Click "Run" button to start flashing. Device will reboot automatically when finish.
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/upgrade_firmware3.en.png)
+</center>
 
 <a id="upgrade-tool"></a>
 

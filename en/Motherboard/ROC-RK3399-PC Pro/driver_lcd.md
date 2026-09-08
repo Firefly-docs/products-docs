@@ -4,11 +4,17 @@
 ROC-RK3399-PC Pro development board supports two LCD screen interfaces by default, one is MIPI (Maximum resolution support 2560x1600@60fps), the other is EDP(Maximum resolution support 2K@60fps). The positions of interfaces on the board are shown as follows:
 
 * 10.1 in. MIPI
+    <center>
+
     ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg)
+    </center>
 
 
 * 10.1 in. EDP
+    <center>
+
     ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_edp101.jpg)
+    </center>
 
 
 ## MIPI Driver Configuration

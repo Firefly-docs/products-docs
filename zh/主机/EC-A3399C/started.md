@@ -4,11 +4,20 @@ EC-A3399C 六核迷你嵌入式主机基于 AIO-3399C 高性能开源平台，�
 
 EC-A3399C 支持 H.265/HEVC、VP9 硬件解码和 H.264 编码，支持 4K HDR 及最高 4K 硬件解码；兼容双路 LVDS、eDP、HDMI、DP 1.2 等显示输出接口，支持双屏同显和双屏异显，可应用于游戏设备、广告机、自动售货机及机器人等场景。
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399C/ec-a3399c_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399C/ec-a3399c_back.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399C/ec-a3399c_more.png)
+</center>
 
 
  <a id="firmware-format"></a>

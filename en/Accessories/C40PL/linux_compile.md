@@ -530,5 +530,8 @@ vlc rtsp://<device ip address>
 ```
 * Windows PC needs to download the vlc application and enter the streaming address to preview.
 
+<center>
+
 ![](/img/C40PL/windows_vlc.jpg)
+</center>
 Note: This quick start firmware is only applicable to the CORE-1126-JD4 V1.1 version of the core board. For the core board version, please refer to the silk screen on the hardware.

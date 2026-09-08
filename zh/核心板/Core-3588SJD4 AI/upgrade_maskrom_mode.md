@@ -14,11 +14,17 @@
 2. 按住 AIO-3588SJD4-AI 的 MaskRom 按键（如下图所示）
 3. 设备插入电源上电
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4-AI/maskrom_key.jpg)
+</center>
 
 
 
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+</center>

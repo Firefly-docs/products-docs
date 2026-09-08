@@ -48,7 +48,10 @@ we can put the device into upgrade mode by hardware as follows:
 * Dual male usb data cable connects one end to the host and the other end to the development board.
 
 * Press the `RECOVERY` button on the device and hold.
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/otg_interface.png)
+</center>
 
 * Connect to the power supply.
 * About two seconds later, release the `RECOVERY` button.
@@ -63,7 +66,10 @@ reboot loader
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and [reinstall the driver](03-upgrade_firmware.html#install-rk-usb-drive).
 
+<center>
+
 ![](../../../rk3308_img/upgrade_firmware_new_equipment.png)
+</center>
 
 ### Upgrade the firmware
 
@@ -80,7 +86,10 @@ LangPath=Language\
 
 Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will display in English.Now, run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
+<center>
+
 ![](../../../rk3308_img/upgrade_firmware_androidtool_zh.png)
+</center>
 
 #### Upgrade unified firmware - update.img
 
@@ -95,7 +104,10 @@ The steps to update the unified firmware `update.img` are as follows:
 
 **Note: if the firmware loadder you wrote is inconsistent with the original one, please execute `EraseFlash` before upgrading the firmware.**
 
+<center>
+
 ![](../../../rk3308_img/upgrade_firmware_erase_flash_zh.png)
+</center>
 
 #### Upgrade Partition image
 The steps to upgrade the partition image are as follows:
@@ -107,7 +119,10 @@ The steps to upgrade the partition image are as follows:
 
 4. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rk3308_img/upgrade_firmware_androidtool_zh.png)
+</center>
 
 ## Linux
 
@@ -171,7 +186,10 @@ sudo upgrade_tool ul bootloader.bin #upgrade bootloader
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
+<center>
+
 ![](../../../rk3308_img/upgrade_downloadfail.png)
+</center>
 
 
 [烧写须知]: 02-upgrade_table.md

@@ -13,11 +13,17 @@ Reference material
 
 Picture
 
+<center>
+
 ![](../../../px30_img/module_transform1.jpg)
+</center>
 
 Connection
 
+<center>
+
 ![](../../../px30_img/uart.jpg)
+</center>
 
 
 ## [EC20 4G module](https://www.firefly.store/products/4g-module-kit-eg25-g)
@@ -66,17 +72,26 @@ Reference firmware:
 
 Picture
 
+<center>
+
 ![](../../../px30_img/module_wireless1.png)
+</center>
 
 Connection
 
 * USB connection
 
+<center>
+
 ![](../../../px30_img/USB_EC20.jpg)
+</center>
 
 * MIPI connection
 
+<center>
+
 ![](../../../px30_img/Pcie_EC20.jpg)
+</center>
 
 
 
@@ -93,9 +108,15 @@ Product parameter
 
 Picture
 
+<center>
+
 ![](../../../px30_img/module_power_adapter1.png)
+</center>
+
+<center>
 
 ![](../../../px30_img/module_power_adapter2.png)
+</center>
 
 
 ## [Remote control](https://www.firefly.store/products/12-key-ir-remote-control)
@@ -110,15 +131,24 @@ Product Parameter
 
 Picture
 
+<center>
+
 ![](../../../px30_img/module_ir1.png)
+</center>
 
 Key code
 
+<center>
+
 ![](../../../px30_img/module_ir2.png)
+</center>
 
 The IR wiring position of the AIO-PX30-JD4 is shown in the red box below:
 
+<center>
+
 ![](../../../px30_img/IR.jpg)
+</center>
 
 
 ## [Aluminum heat sink](https://www.firefly.store/products)
@@ -129,7 +159,10 @@ Product parameters
 * size: 43mm (L)* 39.5mm(W)*11mm(H)
 
 Picture
+<center>
+
 ![](../../../px30_img/cool_1.jpg)
+</center>
 
 
 
@@ -152,17 +185,29 @@ Datasheet
 
 Picture
 
+<center>
+
 ![](../../../px30_img/module_camera1.jpg)
+</center>
+
+<center>
 
 ![](../../../px30_img/module_camera2.jpg)
+</center>
 
 Connection
 
+<center>
+
 ![](../../../px30_img/module_camera4.jpg)
+</center>
 
 Renderings
 
+<center>
+
 ![](../../../px30_img/module_camera3.png)
+</center>
 
 
 ## [LVDS display module](https://www.firefly.store/products)
@@ -189,7 +234,10 @@ Reference firmware
 
 Picture
 
+<center>
+
 ![](../../../px30_img/module_display.jpg)
+</center>
 
 ### Compile command
 

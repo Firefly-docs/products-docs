@@ -24,9 +24,15 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576Q38/interface_front_zh.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/AIO-3576Q38/interface_back_zh.jpg)
+</center>
 
 ## 特殊接口说明
 Mini PCIe (4G 模块) 和 PCIe M.2 (5G 模块) 共用了一路 USB，所以不能同时使用。

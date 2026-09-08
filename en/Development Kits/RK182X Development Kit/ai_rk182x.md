@@ -46,7 +46,10 @@ rknn/
 ```
 
 **RKNN3 SDK Block Diagram**
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/RKNN3-SDK-Block-Diagram.png)
+</center>
 
 ### RKNN3 Model Zoo
 Provide deployment examples of classic models on the RK1820/RK1828 platform.

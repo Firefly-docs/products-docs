@@ -4,7 +4,10 @@
 
 * Interface Screenshot
 
+<center>
+
 ![](img/CORE-1126BJD4/usage_camera_mipicsi.jpg)
+</center>
 
 
 

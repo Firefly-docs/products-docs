@@ -15,16 +15,28 @@ EC-A1684JD4 has rich interfaces, mainly including:
 - WIFI antenna x 2
 - 4G antenna
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4-FD/ec-a1684jd4-interface.jpg)
+</center>
 
 ## Antenna Connection
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4-FD/antenna_connection.png)
+</center>
 
 ## SIM Card Insertion
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4-FD/sim_connection.png)
+</center>
 
 ## Serial Port Pinout
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4-FD/uart_pinout.png)
+</center>

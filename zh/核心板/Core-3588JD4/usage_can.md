@@ -5,7 +5,10 @@ CAN(Controller Area Network)总线，即控制器局域网总线，是一种有�
 ### 硬件连接
 CAN模块之间接线：CAN_H接CAN_H，CAN_L接CAN_L。
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/usage_can_interface.jpg)
+</center>
 
 ### DTS 节点配置
 * 公共配置 `kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588s.dtsi`

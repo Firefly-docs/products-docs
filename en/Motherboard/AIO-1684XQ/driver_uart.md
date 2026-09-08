@@ -13,7 +13,10 @@ AIO-1684XQ supports 3 UART devices:
 
 The RS485 interfaces diagram of AIO-1684XQ board is as follows:
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XQ/rs485_connection.png)
+</center>
 
 ## Debug
 

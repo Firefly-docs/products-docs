@@ -11,7 +11,10 @@ AIO-3562JQ支持 UART、RS232、RS485 接口
 
 AIO-3562JQ开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/uart_interface.jpg)
+</center>
 
 ## DTS 配置
 

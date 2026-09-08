@@ -10,7 +10,10 @@ MAC, a 2T2R capable WLAN baseband, and RF in a single chip. The module provides 
 solution in scenarios that require high-performance integrated wireless and Bluetooth. The Bluetooth part 
 supports latest 5.2. 
 
+<center>
+
 ![](../../../modules_img/WXT14R2201/rtl8852be_f.png)
+</center>
 <br>
 <br>
 <!--This module does not support voice calls and SMS, if you need support, please contact business <sales@t-firefly.com>。-->

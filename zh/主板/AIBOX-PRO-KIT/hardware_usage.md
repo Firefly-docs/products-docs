@@ -501,7 +501,10 @@ AIBOX-PRO-KIT 有一个 RS485 接口，如果CPU是3588，则设备名称为 `/d
 
 AIBOX-PRO-KIT 支持 4G LTE, 在系统设置处，有多种网络形式，可以在此打开数据流量开关：
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO-KIT/4G.png)
+</center>
 
 在命令行生成网卡：
 

@@ -18,5 +18,11 @@ The AIO-Orin NX interface is rich and mainly includes:
 - Type-C (USB2.0, but defaults to debugging serial port)
 - Power indicator light
 
+<center>
+
 ![](../../../bm1688_img/AIO-Orin-NX/AIO-Orin-interface-en-01.png)
+</center>
+<center>
+
 ![](../../../bm1688_img/AIO-Orin-NX/AIO-Orin-interface-en-02.png)
+</center>

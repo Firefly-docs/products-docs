@@ -74,22 +74,37 @@ Firefly发布的Qt交叉编译工具链，适用于以下环境:
 * 需要有无线网卡，且支持移动热点功能
 
 点击桌面右上角`Ethernet Network`图标，选择`Edit Connection...`
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot1.png)
+</center>
 
 选择`+`图标，Add a new connection
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot2.png)
+</center>
 
 选择`Wi-Fi`，后点击`Create`
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot3.png)
+</center>
 
 Wi-Fi设置：
 * 设置SSID
 * Mode：选择Hotspot
 * Device: 选择无线网卡（wlan）
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot4.png)
+</center>
 
 选择适当的加密方式：
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot5.png)
+</center>
 
 点击`Save`**即刻完成热点创建**
 
@@ -419,7 +434,10 @@ write out.jpg succ!
 ## 屏幕键盘
 
 官方的 Ubuntu 系统中自带屏幕键盘，可以在菜单栏中点击打开：
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/onboard.jpg)
+</center>
 
 ## HDMI_IN 图像抓取
 
@@ -503,7 +521,10 @@ Playing WAVE 'Front_Center.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Mo
 
 在图形界面中，播放准备好的音频文件，然后点击声音图标，打开 `Sound Setting`，选择到 `Configuration` 。可以看到两个声卡设备，例如设置为 HDMI 输出音频，则把 HDMI 的声卡设备选择为 `Output`，另一个声卡设置为 `Off`。（如果 HDMI 无声或者声音小，可以试试按 HDMI 屏上的物理按键调高音量）
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/sound_setting.jpg)
+</center>
 
 
 ### 内核配置
@@ -814,7 +835,10 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=640,he
 
 运行脚本即可，结果如图所示：
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/mipi_csi.jpg)
+</center>
 
 ### 开发MIPI 摄像头
 

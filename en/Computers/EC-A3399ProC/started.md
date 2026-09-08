@@ -2,21 +2,39 @@
 
 EC-A3399ProC six-core 64-bit AI embedded host, based on AIO-3399ProC artificial intelligence open source, equipped with an industrial-grade metal casing, efficient heat dissipation, support for multiple operating systems, stable operation, super AI computing performance and rich expansion interfaces, The CPU integrates AI neural network processor NPU, supports 8bit/16bit computing and has a performance of up to 3.0TOPS, and provides Rock-X SDK AI visual recognition API component library, which can quickly realize machine vision recognition. Support TensorFlow/Caffe/Mxnet general model, support Android NN API, RKNN cross-platform API, TensorFlow development interface, and provide AI development tools such as model conversion and end-to-side conversion API. It has powerful hardware encoding and decoding capabilities, supporting 4K VP9, 4K 10bit H265/H264 and 1080P multi-format (VC-1, MPEG-1/2/4, VP8) video decoding. Abundant extension interfaces meet the different actual needs of customers, and the integrated overall design greatly shortens the customer development time cycle, which is basically a low-threshold and high-efficiency product development tool.
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_back.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_more.png)
+</center>
 
 # Specifications
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter1_en.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter2_en.png)
+</center>
 
 # Other Specifications
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter3_en.png)
+</center>
 
 # Resources
 

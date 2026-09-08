@@ -24,7 +24,10 @@ adb devices
 adb shell
 ```
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3568-PC/otg_interface.jpg)
+</center>
 
 ### Network the ADB
 

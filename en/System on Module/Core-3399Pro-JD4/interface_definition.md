@@ -32,9 +32,15 @@ AIO-3399Pro-JD4 provides rich interfaces, including:
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/interface_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/AIO-3399Pro-JD4/interface_reverse.png)
+</center>
 
 #### Special interface
 

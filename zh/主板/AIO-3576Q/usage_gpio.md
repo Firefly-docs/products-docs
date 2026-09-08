@@ -7,7 +7,10 @@ GPIO，全称 General-Purpose Input/Output（通用输入输出），是一种�
 
 AIO-3576Q 开发板为了方便用户开发使用，引出了GPIO口供用户调试和开发，其对应引脚如下
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q/usage_gpio_interface.jpg)
+</center>
 
 本文以 GPIO0_B4  , GPIO0_B5 这两个 GPIO 口为例写一份简单操作 GPIO 口的驱动，在 SDK 的路径为 `kernel/drivers/gpio/gpio-firefly.c`,以下就以该驱动为例介绍 GPIO 的操作。
 

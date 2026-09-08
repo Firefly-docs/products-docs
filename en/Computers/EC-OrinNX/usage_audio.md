@@ -9,7 +9,10 @@ Users can output audio through the headphone jack and HDMI port.
 
 Switch between the headphone and HDMI interfaces in the system settings, selecting one for output:
 
+<center>
+
 ![](../../../bm1688_img/EC-Orin-NX/Sound.png)
+</center>
 
 ### Command Line Mode
 

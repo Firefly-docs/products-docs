@@ -3,7 +3,10 @@
 ## 简介
 AIO-3588SG 上有一个电池接口，位置如下图：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_battery_interface.png) 
+</center>
 
 
 电池应满足以下条件：

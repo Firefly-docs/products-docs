@@ -7,11 +7,20 @@ high-temperature resistance, 7x24 stable work, and with rich interfaces for high
 Equipped with ARM Cortex-A35 architecture, four-core 64-bit high-performance processor, frequency 
 up to 1.3GHz. 
 
+<center>
+
 ![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_01.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_02.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_03.jpg)
+</center>
 
 
  <a id="firmware-format"></a>

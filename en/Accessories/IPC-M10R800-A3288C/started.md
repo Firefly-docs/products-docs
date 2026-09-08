@@ -8,17 +8,32 @@ Adapt RK3288 quad-core Cortex-A17 processor, frequency up to 1.8GHz, integrated 
 Mali-T764 GPU, maximum support 4K hardware decoding, and it can achieve 4Kx2K H.264 and H.265 
 video hard decoding. 
 
+<center>
+
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_1_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_2_en.jpg)
+</center>
 
 ## Product parameters
 
+<center>
+
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_3_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_4_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_5_en.jpg)
+</center>
 
 
 ## Product resources

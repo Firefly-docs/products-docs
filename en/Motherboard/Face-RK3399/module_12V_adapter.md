@@ -12,5 +12,8 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_power_adapter3.jpg)
+</center>
 

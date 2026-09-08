@@ -13,8 +13,14 @@ Download driver：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](http
 
 ### Picture
 
+<center>
+
 ![](../../../rk3288_img/module_serial.png)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/debug_connection.png)
+</center>

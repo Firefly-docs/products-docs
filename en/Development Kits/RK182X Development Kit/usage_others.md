@@ -19,15 +19,24 @@
 * Auto Power, set `AUTO_PWR` to `ON`
 * Use Power Key, set `AUTO_PWR` to `1`
 
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/auto_pwr.png)
+</center>
 
 ## RK182X Voltage
 set `RES_VOL_SEL` to `ON`
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/res_vol_sel.png)
+</center>
 
 ## USB
 host mode, set `USB SEL` to `ON`
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_sel.png)
+</center>
 
 ## FAN
 ### RK1820/RK1828 SODIMM Module

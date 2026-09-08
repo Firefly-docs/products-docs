@@ -119,7 +119,10 @@ arecord -D hw:0,0 -c 8 -r 44100 -f S16_LE --period-size=1024 --buffer-size=4096 
   * Check whether there is a connected bias voltage? (bias voltage can use MICBIAS1 or MICBIAS2)
   * Reference circuit
     <br></br>
+    <center>
+
     ![](../../../rk3308_img/IHC-3308GW/micbias.png)
+    </center>
 
 ## SoX - Sound eXchange
 

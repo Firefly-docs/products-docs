@@ -23,5 +23,8 @@
     + 串口转 USB 适配器
 * 发货清单参考
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/started_shipping_list.jpg)
+</center>
  <a id="firmware-format"></a>

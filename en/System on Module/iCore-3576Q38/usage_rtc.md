@@ -12,7 +12,10 @@ EXT-iCore-3576Q38 development BOARD uses TT8563RH as RTC(*Real Time Clock*), TT8
 
 EXT-iCore-3576Q38 reserve a capacitor interface to supply power to the RTC as shown in the following figure to ensure that the RTC runs in a short time when connecting a capacitor.
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q38/usage_rtc_capacitor_en.jpg)
+</center>
 
 
 ## Driver RTC

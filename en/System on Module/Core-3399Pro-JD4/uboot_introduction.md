@@ -25,7 +25,10 @@ u-boot/RK3399MiniLoaderAll_Vx.xx.bin
 
 Open the upgrade tool, connect the board with the USB OTG cable, press the Recovery key when the power is on, and make the development board enter the U-Boot download mode. Select the compiled Loader file in the upgrade tool and click execute, as shown below:
 
+<center>
+
 ![](../../../rk3399_img/uboot_download.jpg)
+</center>
 
 ## Verify that the new Loader is correctly upgraded
 

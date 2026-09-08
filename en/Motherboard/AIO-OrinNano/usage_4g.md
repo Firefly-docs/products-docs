@@ -2,7 +2,10 @@
 
 AIO-Orin Nano supports 4G LTE. In the system settings, there are various network forms, and you can turn on the data traffic switch here:
 
+<center>
+
 ![](../../../bm1688_img/AIO-Orin-Nano/4G.png)
+</center>
 
 Generating network card in the command line:
 

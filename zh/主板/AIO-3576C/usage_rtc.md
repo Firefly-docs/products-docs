@@ -13,7 +13,10 @@ AIO-3576C开发板采用 TT8563RH 作为RTC(*Real Time Clock*)，TT8563RH 是一
 
 AIO-3576C 存在电容给RTC供电，可以在短时间内保证RTC运行。
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_rtc_capacitor.jpg)
+</center>
 
 ## RTC驱动
 

@@ -23,7 +23,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 * CPHA:Represents the sampling clock edge, 0 is leading edge, 1 is trailing edge.  
 
 The oscillograms of four working modes of SPI are shown below:
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/SPI_work_en.jpg)
+</center>
 
 ## Add own driver file in the kernel
 

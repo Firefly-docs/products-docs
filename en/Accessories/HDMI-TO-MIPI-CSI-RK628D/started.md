@@ -6,11 +6,17 @@
 
 The HDMI TO MIPI CSI Driver board uses the video bridge chip RK628D, which can realize the conversion requirements of HDMI video signal to MIPI CSI signal, greatly simplify the hardware design, improve the hardware design efficiency, and save the overall cost. It can be applied to intelligent micro projector, intelligent display screen, video acquisition and conversion products.
 
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_front.jpg)
+</center>
 
 ### Shipping list(Only for references)
 
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_shipping_list_en.png)
+</center>
 
 ### Specifications
 
@@ -28,7 +34,10 @@ The HDMI TO MIPI CSI Driver board uses the video bridge chip RK628D, which can r
   * Same audio output: 3.5mm headphone interface  * 1, 3P-2mm * 1, 2P-1.25mm * 1
 
 ### Interface Definition
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_interface.jpg)
+</center>
 
 Line Out:  Output the analog signal processed by the sound card to the audio device through this interface.
 ## 2. Usage
@@ -38,10 +47,16 @@ Line Out:  Output the analog signal processed by the sound card to the audio dev
 ### Hardware connection
 
 #### RK3566/RK3568/RK3588/RK3588S/RK3576 Series Embedded Board
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection.jpg)
+</center>
 
 #### RK3399 Series Embedded Board
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection_30p-to-24p.jpg)
+</center>
 
 <font color='red'>Note:<br />1. Operate this step when the Driver board and development board are in power off state to avoid burning them.<br /> 2.If the RK3399 series embedded board has two MIPI CSI interfaces, it is connected to MIPI CSI0 by default.</font>
 
@@ -49,7 +64,10 @@ Line Out:  Output the analog signal processed by the sound card to the audio dev
 
 HdmiIn2 application is built in the system by default, as shown in the figure:
 
+<center>
+
 ![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_HdmiIn2.png)
+</center>
 
 Click to enter the application, the interface will display HDMI-IN video, and the audio will be output from LineOut on the driver board. The application supports the maximum output resolution 3840x2160@30fps .
 

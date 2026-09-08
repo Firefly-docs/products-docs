@@ -4,7 +4,10 @@
 SPI是一种高速的，全双工，同步串行通信接口，用于连接微控制器、传感器、存储设备等。在ROC-RK3399-PC-PLUS 板子的双排扩展引脚上对SPI5,SPI2,SPI1做了引出，用户可自行查看资源手册。
 
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/spi_interface.jpg)
+</center>
 ## SPI 工作方式
 
 SPI 以主从方式工作，这种模式通常有一个主设备和一个或多个从设备，需要至少 4 根线，分别是：
@@ -30,7 +33,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 SPI 的四种工作模式波形图如下：
 
+<center>
+
 ![](../../../rk3399_img/spi_waveform.jpg)
+</center>
 
 ## 驱动编写
 
@@ -40,7 +46,10 @@ SPI 的四种工作模式波形图如下：
 
 ROC-RK3399-PC-PLUS 与 W25Q128FV 硬件连接可参考下表：
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/spi_hardware_connection.jpg)
+</center>
 
 
 ### 编写Makefile/Kconfig

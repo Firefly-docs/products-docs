@@ -6,7 +6,10 @@ It is equipped with ARM Cortex-A55 architecture, quad-core 64-bit high-performan
 frequency up to 2.0GHz, integrates GPU, support RKNN NPU AI,supports H.265 HEVC and VP9, H.264 
 encoding, 4K HDR, and has the maximum support of 4K hardware decoding. 
 
+<center>
+
 ![](../../../rk356x_img/EC-R3566PC/ec-r3566pc_info3.jpg)
+</center>
 
 
  <a id="firmware-format"></a>

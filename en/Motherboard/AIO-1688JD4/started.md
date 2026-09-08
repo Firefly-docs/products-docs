@@ -6,11 +6,17 @@ The Core-1688JD4 core board, equipped with the BM1688 intelligent computing chip
 
 **Front of Core-1688JD4 Core Board:**
 
+<center>
+
 ![](../../../bm1688_img/AIO-1688JD4/Core-1688JD4.png)
+</center>
 
 The AIO-1688JD4 motherboard consists of the core board Core-1688JD4 + baseboard MB-JD4-BM1688, featuring rich interfaces such as HDMI2.0, PCIE 3.0 x 1, USB3.0 x 2, RS485, RS232, CAN, CSI, and DSI, which can be directly applied to AI edge computing products.
 
+<center>
+
 ![](../../../bm1688_img/AIO-1688JD4/AIO-1688JD4.png)
+</center>
 
 **For product parameters, please refer to: [Specification](https://download.t-firefly.com/%E4%BA%A7%E5%93%81%E8%A7%84%E6%A0%BC%E6%96%87%E6%A1%A3/%E6%A0%B8%E5%BF%83%E6%9D%BF/Core-1688JD4_16T%20Computing%20power%20AI%20Core%20board_Specifications.pdf)**
 
@@ -37,7 +43,10 @@ During use, you may need the following accessories:
   + ON: Indicates that the power is plugged in and the machine will start directly.
   + 1: Indicates that after plugging in the power, you need to briefly press the Power button to start.
 
+<center>
+
 ![](../../../bm1688_img/AIO-1688JD4/power_switch.png)
+</center>
 
 ## Remote Network Login
 

@@ -30,6 +30,12 @@ AIO-1688JD4 provides a rich set of interfaces, mainly including:
 
 Details are as shown in the pictures below:
 
+<center>
+
 ![](../../../bm1688_img/Core-1688JD4/AIO-1688JD4-interface_front.png)
+</center>
+
+<center>
 
 ![](../../../bm1688_img/Core-1688JD4/AIO-1688JD4-interface_back.png)
+</center>

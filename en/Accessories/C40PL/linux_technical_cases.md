@@ -9,13 +9,22 @@ C40PL hardware is based on Core-1126-JD4, with 400W camera, ircut, POE power sup
 
 Face recognition and RTSP streaming can be realized on the device, and the stream can be previewed on the web or RTSP player.
 
+<center>
+
 ![](../../../rv1126_img/C40PL/web.png)
+</center>
 
 ## License plate recognition webcam
 
 License plate or vehicle recognition and RTSP streaming can be realized on the device, and the recognition results can be sent to the server record database through the network.
 
+<center>
+
 ![](../../../rv1126_img/C40PL/car1.png)
+</center>
+
+<center>
 
 ![](../../../rv1126_img/C40PL/car2.png)
+</center>
 

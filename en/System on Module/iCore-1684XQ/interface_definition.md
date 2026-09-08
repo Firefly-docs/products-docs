@@ -20,13 +20,22 @@ AIO-1684XQ provides rich interfaces, including:
 
 The specific details are as follows:
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/interface_front.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/iCore-1684XQ/interface_side.png)
+</center>
 
 
 ## 4G Module Antenna Connection
 
 Antenna Specifications: Stick Antenna 4GLTE-5dB; Round Head
 
+<center>
+
 ![4G Antenna](../../../bm1684_img/iCore-1684XQ/4g_antenna_connection.jpg)
+</center>

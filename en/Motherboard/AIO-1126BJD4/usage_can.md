@@ -4,7 +4,10 @@ Controller area network (can) is a kind of serial communication network which ca
 * Check [TI application report for more](https://www.ti.com/lit/an/sloa101b/sloa101b.pdf)
 ### Hardware Connection
 Connection between two CAN devices, only need CAN_H to CAN_H, CAN_L to CAN_L.
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/usage_can.png)
+</center>
 
 ### DTS Configuration
 * Common `kernel-6.1/arch/arm64/boot/dts/rockchip/rv1126b.dtsi`

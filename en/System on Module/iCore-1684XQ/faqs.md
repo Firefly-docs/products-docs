@@ -3,7 +3,10 @@
 
 ## Certain USB3 ports do not support USB2.0 devices.
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/usb20_no.png)
+</center>
 
 As shown in the above diagram, among the 4 USB3.0 ports, the USB3.0 port located in the upper left corner is not compatible with USB2.0 devices, while the other 3 USB ports are compatible with USB2.0 devices.
 
@@ -19,7 +22,10 @@ So, when you are using USB3.0 or a SATA hard drive, the 5G functionality cannot 
 
 Similarly, when you are using the 5G feature, USB3.0 and SATA hard drives cannot be used simultaneously.## IP configuration of the ethernet interface
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/ethernet_interfaces.png)
+</center>
 
 - Ethernet port 0 (located on the upper layer) is set up with a dynamic IP, which can be obtained automatically via DHCP.  
 

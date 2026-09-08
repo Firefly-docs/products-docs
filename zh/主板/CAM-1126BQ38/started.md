@@ -6,11 +6,17 @@
 
 **ICORE-1126BQ38** 正面：
 
+<center>
+
 ![](../../../rv1126b_img/ICORE-1126BQ38/ICORE-1126BQ38-front.png)  
+</center>
 
 **ICORE-1126BQ38** 背面：
 
+<center>
+
 ![](../../../rv1126b_img/ICORE-1126BQ38/ICORE-1126BQ38-back.png)  
+</center>
 
 ### CAM-1126BQ38
 
@@ -18,11 +24,17 @@
 
 CAM-1126BQ38 正面：
 
+<center>
+
 ![](../../../rv1126b_img/ICORE-1126BQ38/CAM-1126BQ38-front.png)  
+</center>
 
 CAM-1126BQ38 背面：
 
+<center>
+
 ![](../../../rv1126b_img/ICORE-1126BQ38/CAM-1126BQ38-back.png)
+</center>
 
 ### AIO-1126BQ38
 
@@ -32,9 +44,15 @@ AIO-1126BQ38 开发板由核心板 ICORE-1126BQ38 + BTB 转接板 + 底板 MB-Q-
 
 AIO-1126BQ38 正面：
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-front.png)  
+</center>
 
 AIO-1126BQ38 背面：
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-back.png)
+</center>
  <a id="firmware-format"></a>

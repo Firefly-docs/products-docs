@@ -94,7 +94,10 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 下载 [ Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/67) ，解压，然后运行里面的 DriverInstall.exe 。   
 为了所有设备都使用更新的驱动，请先选择"驱动卸载"，然后再选择"驱动安装"。   
 
+<center>
+
 ![](../../../px30_img/upgrade_firmware1.png)
+</center>
 
 #### 连接设备
 
@@ -108,12 +111,18 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备"Rockusb Device" 出现，如下图。如果没有，则需要返回上一步重新安装驱动。   
 
+<center>
+
 ![](../../../px30_img/upgrade_firmware2.png)
+</center>
 
 ### 烧写固件
 
 下载 [AndroidTool](https://community.t-firefly.com/doc/download/67)，解压，运行 AndroidTool_Release_xx 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：   
+<center>
+
 ![](../../../px30_img/upgrade_firmware3.png)
+</center>
 
 ####  烧写统一固件 update.img
 
@@ -126,7 +135,10 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 **注意：如果你烧写的固件laoder版本与原来的机器的不一致，请在升级固件前先执行"擦除Flash"。** 
 
+<center>
+
 ![](../../../px30_img/upgrade_firmware4.png)
+</center>
 
 #### 烧写分区映像
 
@@ -141,7 +153,10 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击"执行"按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../px30_img/upgrade_firmware3.png)
+</center>
 
 ### Linux
 
@@ -225,11 +240,17 @@ sudo upgrade_tool ef update.img	# 擦除
 2. 拔出 SD 卡。
 3. 用Type-C线连接好设备和主机。
 4. 用金属镊子接通核心板上的如下图所示的两个测试点，并保持。
+<center>
+
 ![](../../../px30_img/maskrom.jpg)
+</center>
 
 5. 设备插入电源。
 6. 稍候片刻，之后松开镊子。
 
 这时，设备应该就会进入 MaskRom 模式。   
+<center>
+
 ![](../../../px30_img/maskrom2.png)
+</center>
 

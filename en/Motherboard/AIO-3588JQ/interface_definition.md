@@ -32,8 +32,14 @@
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/iCore-3588Q/interface_back.jpg)
+</center>
 
 

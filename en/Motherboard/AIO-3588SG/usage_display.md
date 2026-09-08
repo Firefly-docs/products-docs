@@ -1,7 +1,10 @@
 # Display
 
 
+<center>
+
 ![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+</center>
 
 
 RK3588S has four video output ports, each video output port is bound to a fixed display controller, such as Port0 can be used to connect with display controllers such as DP0, DP1, HDMI/eDP0 and HDMI/eDP1, other Portx and so on.
@@ -29,7 +32,10 @@ But from the software point of view, there are the following configuration consi
  AIO-3588SG  There are three display output interfaces, namely eDP, Display Port and MIPI DSI, which can achieve multi-screen simultaneous display/exclusive display. The interface diagram is as follows:
 
 * eDP/ Display Port/ MIPI DSI1
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_display_interface-B.png)   
+</center>
 
 
 The following is a basic introduction to the configuration and use of each display output interface. For details, please refer to the file:
@@ -94,26 +100,41 @@ The following uses DSI1 as an example. The external screen is 101-M101014-BE45-A
 Combining AIO-3588SG  DSI1 interface and screen timing
 
 * DSI1 interface<br>
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_display_mipi_v2_interface.png)
+</center>
   
 
 * V2 screen display timing<br>
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_timing.jpg)
+</center>
   
   
 
 * V2 screen power-on timing<br>
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)
+</center>
   
   
 
 * V2 screen power-down timing<br>
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)
+</center>
   
   
 
 * V2 screen power-up symbol reference<br>
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)
+</center>
   
 
 
@@ -320,10 +341,16 @@ AIO-3588SG has one EDP display output interface, up to 4096x2304@60Hz
 
 EDP software configuration, external screen is 15.6 inch NV156FHM-T06 screen (name needs to be discussed).
 * EDP interface<br>
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_display_edp_1080_interface.png)
+</center>
 
 * screen power-on/power-down timing<br>
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_display_edp_NV156FHM-T06.png)
+</center>
 
 `kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-aio-3588q-edp_NV156FHM-T06.dts`, from this file we can see the following statement:
 ```

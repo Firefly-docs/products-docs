@@ -2,7 +2,10 @@
 ## 简介
 
 Face-RK3399开发板支持MIPI屏幕，接口对应板子上的位置如下图：
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/mipi.png)
+</center>
 
 ### MIPI屏
 客户根据需要在自行添加mipi硬件接口之后，配置MIPI屏的 Timing dts文件，在kernel/arch/arm64/boot/dts/rockchip/rk3399-firefly-face-mipi8.dts中可以看到以下语句：

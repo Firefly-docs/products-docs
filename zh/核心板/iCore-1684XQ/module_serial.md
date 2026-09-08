@@ -14,7 +14,10 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../bm1684_img/module_serial_list.png)
+</center>
 
 ### 连接方法
 
@@ -29,4 +32,7 @@ USB 转串口适配器，有四个引脚：
 
 AIO-1684XQ DEBUG 口：
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/debug_connection.png)
+</center>

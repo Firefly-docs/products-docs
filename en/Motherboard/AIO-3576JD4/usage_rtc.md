@@ -12,7 +12,10 @@ AIO-3576JD4 development BOARD uses TT8563RH as RTC(*Real Time Clock*), TT8563RH 
 
 AIO-3576JD4 has a capacitor to supply power to the RTC as shown in the following figure to ensure that the RTC runs in a short time.
 
+<center>
+
 ![](../../../rk3576_img/Core-3576JD4/usage_rtc_capacitor.jpg)
+</center>
 
 
 ## Driver RTC

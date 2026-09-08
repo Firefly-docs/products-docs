@@ -16,7 +16,10 @@ You can refer to the [USB Serial Adapter] with `CP2104` chip in the [Firefly Onl
 
 Three wires are required to connect the TX/RX/GND pins together:
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/debug_con.png)
+</center>
 
 With some adapters, you may try to connect TX pin of the adapter to RX pin of the board, and RX pin of adapter to TX pin of the board, if you do not get the serial console working.
 
@@ -44,7 +47,10 @@ Use the recommended driver from your USB serial adapter vendor. If not available
 
 After installing the driver, connect the adapter to the USB port. The OS will prompt that a new hardware is detected. When it finishes, you can find the new COM port in the device manager.
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/debug_devicemanager_com.png)
+</center>
 
 ### Putty
 
@@ -59,7 +65,10 @@ Download `putty.zip`, extract it and run `PUTTY.exe`.
 3. Set "Speed" to 1500000.
 4. Click "Open" button.
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/debug_putty_serial.png)
+</center>
 
 ## Serial Debugging in Linux
 

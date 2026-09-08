@@ -6,7 +6,10 @@ USB-to-serial adapter is the abbreviation of USB-to-serial TTL adapter.
 
 You can connect EC-AGXOrin to a PC for serial port debugging:
 
+<center>
+
 ![](../../../nvidia_img/EC-AGXOrin/type-c_connection.png)
+</center>
 
 ### Serial parameter configuration
 
@@ -29,8 +32,14 @@ Go here [download MobaXterm](https://mobaxterm.mobatek.net/):
 3. Set `Speed (bsp)` to `115200`.
 4. Click the `OK` button.
 
+<center>
+
 ![](../../../nvidia_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../nvidia_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ### Serial debugging on Linux
 

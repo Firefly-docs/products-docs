@@ -20,7 +20,10 @@ adb shell
 ```
 
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/adb_connection.png)
+</center>
 
 
 ## 网络 ADB

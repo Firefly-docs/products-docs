@@ -6,8 +6,14 @@
 **AIO-1126BJD4V0** 开发板由核心板 Core-1126BJD4 + 底板 MB-JD4-RV11091126 组成,。AIO-1126BJD4V0 拥有 RGMII、USB2.0、I2C、UART、GPIO、MIPI-DSI 以及 MIPI-CSI 等丰富接口，可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。
 
 正面：
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-front.png)  
+</center>
 
 背面：
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-back.png)
+</center>
  <a id="firmware-format"></a>

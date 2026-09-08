@@ -8,7 +8,10 @@ AIO-3399J 开发板分别带有两个 MIPI，MIPI 支持最高 4K 拍照，并�
 
 * 接口效果图
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/camera_interface.jpg)
+</center>
 
 ## DTS 配置
 
@@ -51,20 +54,32 @@ Android：
 
 * MIPI 接口
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/camera_mipi_interface.jpg)
+</center>
 
 * `AF_VDD28` 可不做配置。
 * `DOVDD18`、`AVDD28` 由 `DVP_PWR` 控制，`DVP_PWR` 对应 RK3399 的 `GPIO1_C1`：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/camera_dvp_pwr.jpg)
+</center>
 
 * `DVDD12` 由 `CIF_POWER` 引脚控制，`CIF_POWER` 对应 RK3399 上的 `GPIO1_A1` 引脚：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/camera_cif_pwr.jpg)
+</center>
 
 * `MIPI CIF`：PWDN0(共用)、PWDN1、RST 对应 GPIO1_C1、GPIO1_A1、GPIO0_B0 引脚：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/camera_mipi_cif.jpg)
+</center>
 
 在开发板中，除了 `DVDD12 (CIF_POWER)` 要在 DTS 中设置以外，其它引脚都是在 `cam_board.xml` 中设置。
 ## 配置步骤

@@ -7,6 +7,12 @@
 ### 技术资料 
 驱动下载：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 ### 实物图
+<center>
+
 ![](../../../rk1808_img/module_transform1.jpg)
+</center>
 ### 连接方法
+<center>
+
 ![](../../../rk1808_img/module_transform2.jpg)
+</center>

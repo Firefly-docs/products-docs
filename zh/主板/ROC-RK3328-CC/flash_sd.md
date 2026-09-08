@@ -60,17 +60,26 @@
     + Mac： 直接双击 `.dwg` 文件，拖动安装到系统或直接运行。
 3. 点击 "Choose an OS" 按钮， 在 "Please select your device" 组合框中选择 "ROC-RK3328-CC"。
 4. 可用的固件列表将从网络更新，如下图所示：
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer.png)
+    </center>
 5. 选择所需的操作系统和版本，并点击 "OK" 按钮确认。另外也可以从文件管理器中选择本地的一个固件文件，拖放到 `SDCard Installer`。
 6. 插入 SD 卡，工具应该会自动选中该卡；如果插有多张 SD 卡，可以点击 "Change" 按钮进行选择。
 7. 点击 "Flash!" 按钮，开始固件下载、烧写和校验，请耐心等待。
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_flashing.png)
+    </center>
 
 **注意事项**：
 
 - [SDCard Installer] 在 Windows 下运行需要管理员权限，请用鼠标右键点击应用图标，在弹出菜单中选择 **以管理员身份运行**。
 - 有时，当进度达到 99％ 或 100％ 时，可能会出现卸载 SD 卡的错误，这可以忽略，并且不会损坏烧写到 SD 卡的数据：
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_umount_fail.png)
+    </center>
 - 在线下载的固件会缓存到本地目录，下次烧写时不用重新下载。缓存目录可以点击左下角的设置按钮，在 "Download Location:" 处设置。
 
 <a id="etcher"></a>
@@ -110,7 +119,10 @@
 
 运行 `SD_Firmware_Tool.exe`:
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/sdfirmwaretool.zh_CN.png)
+</center>
 
 1. 插入 SD 卡。
 2. 从组合框中选择 SD 卡对应的设备。
@@ -120,7 +132,10 @@
 6. 然后会显示警告对话框，选择 "是" 来确保选择了正确的SD卡设备。
 7. 等待操作完成，直到提示成功对话框出现：
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/sdfirmwaretool_done.zh_CN.png)
+    </center>
 
 8. 拔出 SD 卡。
 

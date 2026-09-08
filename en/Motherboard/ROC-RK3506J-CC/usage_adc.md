@@ -15,7 +15,10 @@ The kernel uses the industrial I/O subsystem to control the ADC, which is mainly
 
 * The ADC interface connected to the pin header is as follows
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506J-CC/usage_saradc_in.png)
+</center>
 
 
 ## DTS configuration

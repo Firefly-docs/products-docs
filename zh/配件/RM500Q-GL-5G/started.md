@@ -2,7 +2,10 @@
 ## 产品简介
 ### RM500Q-GL
 
+<center>
+
 ![](../../../modules_img/RM500Q-GL-5G/5G.png)
+</center>
 
 ## 详细参数
 
@@ -79,10 +82,16 @@
 | RK3568 | [AIO-3568J](_images/5G_AIO-3568J.png) | 
 | RK3588 | [ITX-3588J](_images/5G_ITX-3588J.jpg), [AIO-3588SJD4](_images/5G_AIO-3588SJD4.jpg) ,[AIO-3588Q](_images/5G_AIO-3588Q.jpg)| -->
 
+<center>
+
 ![](../../../modules_img/RM500Q-GL-5G/5G_PCIE.png)
+</center>
 
 ### SIM 卡的插入
+<center>
+
 ![](../../../modules_img/RM500Q-GL-5G/ec20_sim.png)
+</center>
 
 # 三、固件与资料下载
 相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/133)。

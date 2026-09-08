@@ -35,7 +35,10 @@
 
 下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/4)，解压，然后运行里面的 DriverInstall.exe。为了所有设备都使用更新的驱动，请先选择 `驱动卸载`，然后再选择 `驱动安装`。
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_install_RK_USB.jpg)
+</center>
 
 ### 连接设备
 
@@ -57,24 +60,36 @@
 
 Firefly-RK3288：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/download_otg.png)
+</center>
 
 
 
 Firefly-RK3288-Reload：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/download_otg_reload.png)
+</center>
 
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，则需要返回上一步重新安装驱动。
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_new_equipment.jpg)
+</center>
 
 ## 烧写固件
 
 下载 [AndroidTool](https://community.t-firefly.com/doc/download/4)，解压，运行 `AndroidTool_Release_vxx` 目录里面的 `AndroidTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 ### 烧写统一固件 update.img
 
@@ -87,7 +102,10 @@ Firefly-RK3288-Reload：
 
 **注意：如果你烧写的固件 loader 版本与原来的机器的不一致，请在升级固件前先执行`擦除 Flash`。**
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_erase_flash.jpg)
+</center>
 
 ### 烧写分区映像
 
@@ -100,7 +118,10 @@ Firefly-RK3288-Reload：
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击 `执行` 按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 ## Linux
 
@@ -184,6 +205,9 @@ sudo upgrade_tool ef update.img # 擦除
 
 如果烧写过程中出现 Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的 USB 线连接不良、劣质线材，或者电脑 USB 口驱动能力不足导致的，请更换 USB 线或者电脑 USB 端口排查。
 
+<center>
+
 ![](../../../rk3288_img/upgrade_downloadfail.jpg)
+</center>
 
 [《烧写须知》]: upgrade_table.md

@@ -51,7 +51,10 @@
 ## 烧写须知
 <font color=#ff0000>请认真阅读下表，再进行烧写:</font>
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Table.jpg)
+</center>
 
 提示：在Loader模式和Maskrom模式均能够烧写固件时，优先选择Loader模式。
 

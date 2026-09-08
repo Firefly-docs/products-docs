@@ -132,7 +132,10 @@ arecord -D hw:0,0 -c 8 -r 44100 -f S16_LE --period-size=1024 --buffer-size=4096 
   * 检查是否有接偏置电压？（偏置电压可使用MICBIAS1或者MICBIAS2） 
   * 参考电路
     <br></br>
+    <center>
+
     ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/micbias.png)
+    </center>
 
 ## SoX - Sound eXchange
 

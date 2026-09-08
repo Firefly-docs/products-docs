@@ -13,7 +13,10 @@ ROC-RK3576-PC 开发板上的 AD 接口有两种，分别为：温度传感器 (
 
 ROC-RK3576-PC 的ADC接口图如下：
 
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/usage_adc_interface.jpg)
+</center>
 
 ## DTS配置
 

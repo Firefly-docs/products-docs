@@ -17,9 +17,15 @@
 5. 设备插入电源。
 6. 稍候片刻，之后松开镊子。
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/maskrom_test_points.jpg)
+</center>
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3399_img/maskrom.jpg)
+</center>
 

@@ -3,7 +3,10 @@
 
 * The connection method between the bottom plate and the camera is shown in the figure:
 
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/usage_camera_mipicsi.jpg)
+</center>
 
 * Note: The red and black lines on the camera are used as switching filters.
 * Command switch filter

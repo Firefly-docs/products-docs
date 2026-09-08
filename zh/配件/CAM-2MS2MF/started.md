@@ -2,10 +2,16 @@
 ## 产品简介
 CAM-2MS2MF 是一款双 MIPI 双目宽动态+近红外模组，可见光采用 2M宽动态传感器，优质的宽动态效果将适应更多恶劣场景，减少复杂光线环境对识别算法产生的不良影响，采用标准 MIPI 接口输出高质量视频流；近红外部分采用2M 低照度传感器，配合优质的红外效果及窄带滤光片，减少环境光线对红外成像的影响，产品主要应用于人脸识别门禁、考勤、闸机、人证机等场景。
 
+<center>
+
 ![](../../../modules_img/CAM-2MS2MF/cam-2ms2mf.png)
+</center>
 
 ## 发货清单
+<center>
+
 ![](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_shop_list.png)
+</center>
 
 ## 详细参数
 
@@ -63,7 +69,10 @@ CAM-2MS2MF 是一款双 MIPI 双目宽动态+近红外模组，可见光采用 2
 Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连接时需注意区分方向，且只能连接对应Pin口数的CSI接口，`CAM-2MS2MF`支持30pin接口，以下是***统一接口示意图***：
 
 ### 30pin MIPI CSI接口连接
+<center>
+
 ![](../../../modules_img/CAM-2MS2MF/interface_30pin.jpg)
+</center>
 
 <font color="red">注意：不要接到带有`MIPI DSI`字样的接口，这可能会导致烧坏模组或者开发板。</font>
 

@@ -10,9 +10,15 @@ The operation steps are as follows:
 
 Disconnect the power, press and hold Maskrom button, plug in the power, release button after few seconds.
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/upgrade_maskrom_key.jpg)
+</center>
 
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3576_img/common/upgrade_maskrom_zh.png)
+</center>

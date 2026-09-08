@@ -14,7 +14,10 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../bm1688_img/module_serial_list.png)
+</center>
 
 ### 连接方法
 
@@ -29,4 +32,7 @@ USB 转串口适配器，有四个引脚：
 
 AIO-186JD4 DEBUG 口：
 
+<center>
+
 ![](../../../bm1688_img/EC-A186JD4/debug_connection.png)
+</center>

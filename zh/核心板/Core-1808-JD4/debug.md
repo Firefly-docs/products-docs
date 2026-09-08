@@ -22,7 +22,10 @@
 
 AIO-1808-JD4串口连接图：
 
+<center>
+
 ![](../../../rk1808_img/debug1.jpg)
+</center>
 ## 连接参数
 
 AIO-1808-JD4 使用以下串口参数：
@@ -46,7 +49,10 @@ AIO-1808-JD4 使用以下串口参数：
 
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：   
+<center>
+
 ![](../../../rk1808_img/debug2.png)
+</center>
 
 ### 安装软件
 
@@ -55,7 +61,10 @@ Windows 上一般用 putty 或 SecureCRT。其中 putty 是开源软件，在这
 
 解压后运行 PUTTY.exe，选择 Connection type（连接类型）为 Serial（串口），将 Serial line（串口线）设置成设备管理器所看到的  COM 口，并将 Speed（波特率）设置为 1500000，按 Open（打开）即可:
 
+<center>
+
 ![](../../../rk1808_img/debug3.png)
+</center>
 
 ## Ubuntu 上使用串口调试
 

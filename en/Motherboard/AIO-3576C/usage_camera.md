@@ -1,8 +1,14 @@
 # Camera
 * Hardware interface
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_camera_mipicsi1.jpg)
+</center>
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_camera_mipicsi2.jpg)
+</center>
 
 ## MIPI CSI
 RK3576 platform has one DCPHY and two DPHY. DPHY can work in two modes: full mode and split mode; DCPHY only has full mode.

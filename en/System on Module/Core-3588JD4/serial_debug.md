@@ -5,8 +5,14 @@
 onnect the device "Typec" and the computer. AIO-3588JD4 Typec has two functions (serial port/OTG upgrade) controlled by the dip switch. Please turn the dip switch to "DBG" when debug.
 
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/otg.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/button.png)
+</center>
 
 
 ## Serial Parameters

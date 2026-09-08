@@ -14,7 +14,10 @@ To use uart1, bluetooth and SPI must be disabled.
 
 AIO-3128C uses SPI to bridge/expand the functions of four enhanced serial ports (UART), which are UART1, RS232 (up), RS232 (down), and RS485 functions. The RS232 (down) port hardware can be modified to TTL function. Each UART has a 256-byte FIFO buffer for data reception and transmission.
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/spi_uart1_en.PNG)
+</center>
 
 uart2 is generally used as debug port. It is also multiplexed with the TF card, hence uart2 and TF card can not be used at the same time:  
 

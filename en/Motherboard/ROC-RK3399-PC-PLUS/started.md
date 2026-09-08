@@ -1,8 +1,14 @@
 
 ROC-RK3399-PC-PLUS is a mini PC motherboard, about the size of a small phone.
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_interface_front.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_interface_back.jpg)
+</center>
 
 * Dual-core Cortex-A72 up to 1.8GHz & Quad-core Cortex-A53 up to 1.5GHz Six Core Processor
 * Mali-T864 GPU，Support OpenGL ES1.1/2.0/3.0, OpenCL1.2, DirectX11.1.

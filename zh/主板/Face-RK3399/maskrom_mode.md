@@ -11,10 +11,16 @@
 2. 拔出 SD 卡。
 3. 用双端公头USB数据线连接好设备和主机。
 4. 用金属镊子接通核心板上的如下图所示的两个测试点，并保持。
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/maskrom3.png)
+</center>
 
 5. 设备插入电源。
 6. 稍候片刻，之后松开镊子。
 
 这时，设备应该就会进入 MaskRom 模式。 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/maskrom2.jpg)  
+</center>

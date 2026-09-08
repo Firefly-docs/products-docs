@@ -19,12 +19,21 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3288_img/module_camera_1.png)
+</center>
 
 ### 连接方法
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/module_camera_2.png)
+</center>
 
 ### 实拍图片
 
+<center>
+
 ![](../../../rk3288_img/module_camera_3.png)
+</center>

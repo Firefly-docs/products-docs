@@ -39,7 +39,10 @@ Generally speaking, if you want to easily operate a GPIO in the user layer, you 
  
 
 Additionally, AIO-1684XQ has pre-registered 4 GPIOs available for direct user manipulation via dual-layered terminal blocks.
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/gpio.png)
+</center>
 
 For example, to operate GPIO5:
 ```

@@ -46,7 +46,10 @@ rknn/
 ```
 
 **RKNN3 SDK Block Diagram**
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/RKNN3-SDK-Block-Diagram.png)
+</center>
 
 ### RKNN3 Model Zoo
 Provide deployment examples of classic models on the RK1820/RK1828 platform.

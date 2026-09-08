@@ -181,7 +181,10 @@ disp_timings: display-timings {
 
 其他的时序属性参考下图：
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/MIPI_DSI.png)
+</center>
 
 ### dsihost配置
 

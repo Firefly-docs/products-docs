@@ -3,7 +3,10 @@
 ## Module Introduction
 `RKMedia` is a set of `API` interfaces that integrate and encapsulate all media resource calls in `RV1126/RV1109`. It can greatly reduce the development cost of users who just contact `RV1126/RV1109` chip platform, and all media resources on SoC can be called quickly and simply with a small amount of code. At the same time, `RKMedia` also provides joint call DEMO of hardware resources other than media resources, such as: `RKAIQ, RKNN, RTSP` and so on. The core idea of `RKMedia` is to separate each hardware resource into a module, and the input and output ends of the module are open to control the flow from one module to another module by binding. Each module is described here.
 
+<center>
+
 ![](../../../rv1126_img/C40PL/rkmedia.png)
+</center>
 
 ### Video
 #### VI
@@ -412,7 +415,10 @@ fmpeg -y -f rawvideo -pix_fmt nv12 -ss 00:01 -r 1 -s 1920x1080 -i 1080pl.nv12 -f
 
 * The DEMO effect is shown in the figure below
 
+<center>
+
 ![](../../../rv1126_img/C40PL/vi_get_frame.png)
+</center>
 
 #### VI->UVC
 * The demo example corresponding to the development process is `firefly_rkmediA_vi_uvc_test.c`
@@ -433,7 +439,10 @@ sudo ./client
 ```
 * The DEMO effect is shown in the figure below
 
+<center>
+
 ![](../../../rv1126_img/C40PL/vi_uvc.png)
+</center>
 
 #### VI->RKNN->VENC->RTSP
 * The corresponding DEMO example for this development process is `rkmedia_vi_rknn_venc_rtsp_test.c`
@@ -450,7 +459,10 @@ vlc rtsp://168.168.101.208:554/live/main_stream
 
 * The DEMO effect is shown in the figure below
 
+<center>
+
 ![](../../../rv1126_img/C40PL/vi_rknn_venc_rtsp.png)
+</center>
 
 #### RTSPGet->VDEC(Multi)->VO
 * The corresponding DEMO example for this development process is `rkmedia_rtspget_multi_test.cc`
@@ -463,7 +475,10 @@ vlc rtsp://168.168.101.208:554/live/main_stream
 
 * The DEMO effect is shown in the figure below
 
+<center>
+
 ![](../../../rv1126_img/C40PL/rtsp_multi_vo.jpg)
+</center>
 
 #### RTSPGet->VDEC->RKNN->VENC->RTSPPush
 * The corresponding DEMO example for this development process is `rkmedia_rtspget_vdec_rknn_venc_rtsp_test.cc`
@@ -486,7 +501,10 @@ vlc rtsp://168.168.101.208:8555/H264_stream_1
 
 * The DEMO effect is shown in the figure below
 
+<center>
+
 ![](../../../rv1126_img/C40PL/rtspget_vdec_rknn_venc_rtsppush.png)
+</center>
 
 ### Audio
 * Audio function demo example: `rkmedia_audio_test`. Support `AI->AENC->AO` cycle, `AI->AENC->File`, `File->ADEC->AO`, `AI input VQE enhanced AO output` four modes.

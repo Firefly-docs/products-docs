@@ -12,6 +12,12 @@ AIBOX-Orin NX has rich interfaces, mainly including:
 - Type-C（USB2.0 OTG）
 - Power Led
 
+<center>
+
 ![](../../../aibox_img/AIBOX-Orin-NX/AIBOX-Orin-interface_en.png)
+</center>
+
+<center>
 
 ![](../../../aibox_img/AIBOX-Orin-NX/AIBOX-Orin-interface-back_en.png)
+</center>

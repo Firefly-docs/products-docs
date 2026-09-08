@@ -5,11 +5,17 @@
 集成 ARM Mali-G610 MP4 四核 GPU，内置 AI 加速器 NPU，可提供6 Tops 算力，支持主流的深度学习框架；最大支持32 GB 大内存；支持 8K 视频编解码和多种格式的视频输入输出；支持多
 种操作系统；可适用于 ARM PC、边缘计算、云服务器、智能NVR 等领域。
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/Core-3588SG-B.png)  
+</center>
 
 开发板由核心板 Core-3588J + 底板 MB-G-RK3588S 组成。AIO-3588SG 拥有 RGMII、CAN、USB3.0、I2C、SPI、UART、GPIO、MIPI-DSI 以及 MIPI-CSI 等丰富接口，提供多种的供电方式。可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。  
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/AIO-3588SG-B-1.png)  
+</center>
 
 ### AIO-3588SG 标准套装包含以下配件(仅供参考)：
 * Core-3588SG 核心板 x 1

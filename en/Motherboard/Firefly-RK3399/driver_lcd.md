@@ -4,7 +4,10 @@
 
 Firefly-RK3399 has two LCD screen interface, one is EDP, one is MIPI, the corresponding interface board position is as follows:
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/lcd_interface.jpg)
+</center>
 
 ## Configure DTS
 
@@ -349,7 +352,10 @@ static int panel_simple_get_timings(struct drm_panel *panel,unsigned int num_tim
 
 Time series attributes refer to the following figure:
 
+<center>
+
 ![](../../../rk3399_img/lcd_sequence.jpg)
+</center>
 
 ## Init Code
 

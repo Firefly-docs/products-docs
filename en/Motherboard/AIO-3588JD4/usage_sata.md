@@ -7,7 +7,10 @@ The software can be configured as M.2 SATA3.0  to support SATA SSD , or it can b
 
 The default software configuration is M.2 SATA3.0, which supports the SATA SSD .
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/usage_sata_m2_sata.jpg)
+</center>
 
 ### DTS configuration
 Generally, configure the power supply pins in DTS according to the schematic diagram, select the correct  controller node and PHY node to enable, and close the controller node that is multiplexed with it.

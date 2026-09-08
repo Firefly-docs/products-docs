@@ -2,10 +2,16 @@
 ## Product introduction
 CAM-2MS2MF is a dual-MIPI dual-lens WDR+NIR module. It is mainly used in scenarios such as face recognition access control, face recognition attendance, gate machines and identification machines.
 
+<center>
+
 ![](../../../modules_img/CAM-2MS2MF/cam-2ms2mf.png)
+</center>
 
 ## Shipping list
+<center>
+
 ![](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_shop_list_en.png)
+</center>
 
 ## Detailed parameters
 
@@ -63,7 +69,10 @@ CAM-2MS2MF is a dual-MIPI dual-lens WDR+NIR module. It is mainly used in scenari
 The Firefly development board has two MIPI CSI interfaces, one is a 30pin interface and the other is a 24pin interface. When connecting, please pay attention to the direction and connect only to the corresponding pin number interface. The `CAM-2MS2MF` supports the 30pin interface. ***Here is a unified interface diagram***:
 
 ### 30pin MIPI CSI Interface Connection
+<center>
+
 ![](../../../modules_img/CAM-2MS2MF/interface_30pin.jpg)
+</center>
 
 <font color="red">Note: Do not connect to an interface with the words `MIPI DSI` as this may cause damage to the module or development board.</font>
 

@@ -27,5 +27,8 @@
 
 ## 具体如下图：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/interface_all.png)
+</center>
 

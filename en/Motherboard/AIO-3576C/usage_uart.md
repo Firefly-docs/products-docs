@@ -6,9 +6,15 @@ AIO-3576C use `UART3` for `RS485`, which is `/dev/ttyS3` in system. And `UART8` 
 
 Interfaces:
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_uart_interface.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/AIO-3576C/usage_uart_interface2.jpg)
+</center>
 
 ## RS485 Usage
 ```

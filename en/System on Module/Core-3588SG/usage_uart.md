@@ -4,7 +4,10 @@
 
 Core-3588SG The following figure shows the serial port of the hardware version：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_uart_interface.png)
+</center>
 
 ## DTS config
 

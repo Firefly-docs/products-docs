@@ -49,19 +49,31 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_wireless_slm630b.en.jpg)
+</center>
 
 ### Connection Method
 
 * USB connection
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_wireless_aerial.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Firefly-RK3399/module_wireless_usb.png)
+</center>
 
 * Mini-PCIe connection
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/module_wireless_mini-pcie.jpg)
+</center>
 
 ##  [EC20 4G module](https://www.firefly.store/products/4g-module-kit-eg25-g)
 
@@ -113,7 +125,10 @@
 
 ### Product Parameter
 
+<center>
+
 ![](../../../rk3399_img/module_wireless_gps.en.jpg)
+</center>
 
 ### Firmware download
 

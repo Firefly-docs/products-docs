@@ -14,7 +14,10 @@
 2. 按住底板 MASKROM 按键
 3. 设备插入电源上电
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/upgrade_maskrom_key.png)
+</center>
 
 
 
@@ -22,7 +25,10 @@
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rv1126b_img/common/upgrade_maskrom_zh.png)
+</center>
 
 注意：如果按照上述操作执行，最终 Windows PC 烧写工具还是没发现到 MASKROM 设备，这就要检查下 Windows PC 的软件驱动是否安装到最新版本。
 
@@ -30,4 +36,7 @@
 
 先点 1 驱动卸载，再点 2 驱动安装。安装好驱动后，再按照上述步骤顺序执行操作，Windows PC 烧写工具就能识别到 MASKROM 设备了。
 
+<center>
+
 ![](../../../rv1126b_img/common/DriverAssitant.png)
+</center>

@@ -13,4 +13,7 @@ AIBOX-3588S 接口丰富，主要包括：
 - Type-C USB2.0（烧录）
 - 电源指示灯
 
+<center>
+
 ![](../../../aibox_img/AIBOX-3588S/AIBOX-3588S-interface.png)
+</center>

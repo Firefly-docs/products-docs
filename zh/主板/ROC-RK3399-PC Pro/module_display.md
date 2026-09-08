@@ -32,7 +32,10 @@
 ./FFTools/mkupdate/mkupdate.sh -l rk3399_roc_pc_plus_mipi-userdebug
 ```
 ### 实物图
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg)
+</center>
 
 ### 参考资料
 

@@ -13,4 +13,7 @@ If you bought the module using the CH340 or PL2303 from elsewhere, you can downl
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
+<center>
+
 ![](../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png)
+</center>

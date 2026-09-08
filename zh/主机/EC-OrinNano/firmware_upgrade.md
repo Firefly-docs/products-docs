@@ -9,7 +9,10 @@ PC 系统要求：Ubuntu22.04, 需要支持 NFS 服务，且在升级过程中�
 
 设备断电，用细小的顶针或者是牙签，通过耳机口顶进去，会按压到 Recovery 按键，在按下 Recovery 按键的同时，设备上电，并保持 2s，此后松开即可。
 
+<center>
+
 ![](../../../bm1688_img/EC-Orin-Nano/RecoveryKey.png)
+</center>
 
 用 type-c 线连接设备和电脑，假设设备成功进入 Recovery 模式，是可以在 Linux  看到设备的：
 

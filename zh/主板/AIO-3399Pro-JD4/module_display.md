@@ -35,7 +35,10 @@
 * 注意：下图中电压跳线要使用12V
 
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/module_display_lvds.jpg)
+</center>
 
 
 ## [DM-M10R800 V2 MIPI屏模组](https://item.taobao.com/item.htm?ft=t&id=655100190974)
@@ -69,4 +72,7 @@
 
 ### 实物连接图
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/module_display_mipi.jpg)
+</center>

@@ -18,15 +18,24 @@
 
 
 * 以下为 AIO-3588JQ  上相应的按键  
+<center>
+
 ![](../../../rk3588_img/iCore-3588JQ/upgrade_maskrom_test_points_key.jpg)
+</center>
   
   
 * 以下为 iCore-3588JQ 上的两个测试点  
+<center>
+
 ![](../../../rk3588_img/iCore-3588JQ/upgrade_maskrom_test_points_core.jpg)
+</center>
 
 
 
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+</center>

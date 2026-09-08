@@ -13,7 +13,10 @@ AIO-3399ProC open `Settings` -> `Display`. If HDMI and DSI appear on the display
 
 AIO-3399ProC HDMI can automatically identify the display resolution. If you can not read the monitor’s EDID (Extended Display Identification Data, extended display identification data), HDMI will default to 1080P resolution. You can also enter the system settings to adjust the HDMI resolution manually.
 
+<center>
+
 ![](../../../rk3399_img/faqs_setting_resolution.jpg)
+</center>
 ### Open Root permissions
 
 There are many powerful functions of the Android system that require root permissions. Developers often encounter permissions problems when using them. How to enable the root permissions of the system on the Firefly platform? Firefly has added the function of starting root privileges in the system. The specific steps are as follows:
@@ -22,7 +25,10 @@ There are many powerful functions of the Android system that require root permis
 2. After clicking on `Build number` 5 times, it will prompt (you are now a developer);
 3. Then return to the previous level and click the option `Developer options`, and click `ROOT access` in the options to open the root authority function.
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+</center>
 ## What should I do if the boot is abnormal and restarts cyclically?
 
 It may be that the power supply current is not enough. Please use a power supply with a voltage of 12V and a current of 2.5A~3A.

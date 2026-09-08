@@ -17,9 +17,15 @@
 * 设备插入电源
 * 稍候几秒，之后松开按键
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/maskrom_test_points.jpg)
+</center>
 
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3562_img/maskrom_zh.png)
+</center>

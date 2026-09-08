@@ -5,10 +5,16 @@
 * GPS&GLONASS receiver RU4538-G
 * GPS&BeiDou (BeiDou)receiver RM4538-B
 
+<center>
+
 ![](../../../modules_img/GNSS/gnss_RG4538_en.png)
+</center>
 
 ### DK2635U7F
+<center>
+
 ![](../../../modules_img/GNSS/gnss_DK2635U7F_en.jpg)
+</center>
 
 <!--
 ## Shipping list

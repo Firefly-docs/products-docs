@@ -9,7 +9,10 @@ ADB，全称 Android Debug Bridge，是 Android 的命令行调试工具，可�
 
 使用 Type-C 数据线连接 PC 以及设备的 OTG 端口。  
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/upgrade_otg_interface.jpg)
+</center>
 
 
 ## 网络 ADB

@@ -3,10 +3,16 @@
 EC-R3576PC supports one relay output where ON corresponds to OUTPUT1 in the hardware schematic and COM corresponds to RELAY_COM1 the hardware schematic.
 
 ### Interface Diagram
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/output_interface.jpg)
+</center>
 
 ### schematic diagram
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/output_sch.png)
+</center>
 
 ### control
 When GPIO3_D0_Output low level, OUTPUT1 will be disconnected with RELAY_COM1 ; When RELAY_CTL1 output high level, OUTPUT1 will be connected witch RELAY_COM1.

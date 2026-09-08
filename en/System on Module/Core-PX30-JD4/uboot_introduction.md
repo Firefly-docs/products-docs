@@ -44,7 +44,10 @@ u-boot/px30_loader_v1.10.115.bin
 
 Open the upgrade tool, connect the board with the USB OTG cable, press the Recovery key when the power is on, and make the development board enter the U-Boot download mode. Select the compiled Loader file in the upgrade tool and click execute, as shown below:
 
+<center>
+
 ![](../../../px30_img/uboot_download.jpg)
+</center>
 
 ## Verify that the new Loader is correctly upgraded
 

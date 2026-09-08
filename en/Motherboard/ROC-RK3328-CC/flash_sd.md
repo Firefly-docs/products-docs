@@ -55,20 +55,29 @@ The easiest way to flash the [Raw Firmware] is to use the official [SDCard Insta
 3. Click the "Choose an OS" button, and select "ROC-RK3328-CC" in the "Please select your device" combobox.
 4. A list of available firmware is updated from the network and presented to you, as illustrated below:
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer.png)
+    </center>
 
 5. Choose an firmware OS, and click "OK" button. To flash local firmware, drag it from your local drive and drop to [SDCard Installer].
 6. Plug in the SD card. It should be automatically selected. If there are multiple SD cards, click the "Change" button to choose one.
 7. Click the "Flash!" button. [SDCard Installer] will start to download the firmware, flash to the SD card, and verify the content. Please wait patiently.
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_flashing.png)
+    </center>
 
 **Note**:
 
 - To run [SDCard Installer] with proper permission in Windows, you need to right click the shortcut and select **Run as administrator**.
 - Sometimes, when the progress reaches to 99% or 100%, an error of unmounting the SD card may occur, which can be ignored and does no harm to the data flashed to the SD card.
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_umount_fail.png)
+    </center>
 
 - The downloaded firmware will be saved to the local directory, which will be reused the next time you flash the same firmware again. The download directory can be set by clicking the setting icon in the bottom left of the main window and changing the "Download Location:" field.
 
@@ -115,7 +124,10 @@ After extraction, in the directory of [SD Firmware Tool], edit `config.ini` by c
 
 Run `SD_Firmware_Tool.exe`:
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/started_sdfirmwaretool.en.png)
+</center>
 
 1. Plug in the SD card.
 2. Select the SD card from the combo box.
@@ -125,7 +137,10 @@ Run `SD_Firmware_Tool.exe`:
 6. A warning dialog will show up. By making sure you have the right SD card device selected, select "Yes" to continue.
 7. Wait for the operation to complete, until the info dialog shows up.
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/started_sdfirmwaretool_done.en.png)
+    </center>
 
 8. Plug out the SD card.
 

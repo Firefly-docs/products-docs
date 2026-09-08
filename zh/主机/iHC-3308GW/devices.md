@@ -8,11 +8,17 @@ IHC-3308GW 有单wifi版本、wifi+4g版本，请确认使用的机器是拥有4
 
 ### SIM卡连接
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/sim_connect.png)
+</center>
 
 ### 4G天线连接
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/4g_antenna.png)
+</center>
 
 ### 手动AT指令拨号联网
 
@@ -63,7 +69,10 @@ usb0      Link encap:Ethernet  HWaddr AE:0C:29:A3:9B:6D
 
 - ping外网
 
+  <center>
+
   ![](../../../rk3308_img/IHC-3308GW/ping_usb0.png)
+  </center>
 
 - 其他AT指令
 
@@ -192,7 +201,10 @@ cansend can0 123#11223344556677
 
 - 电路原理图
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/gpio_input.png)
+</center>
 
 * 检测
 
@@ -221,7 +233,10 @@ cat /sys/class/gpio/gpio38/value
 
 * 电路原理图
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/relay_ctl.png)
+</center>
 
 * 控制
 

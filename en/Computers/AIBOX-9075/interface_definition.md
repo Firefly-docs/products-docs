@@ -16,4 +16,7 @@ AIBOX-9075 provides these interfaces:
 * Download Key
 * Power Key
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/interface_en.jpg)
+</center>

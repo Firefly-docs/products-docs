@@ -16,7 +16,10 @@ The RK182X development kit does not provide a Loader mode. USB firmware upgrades
 
 The board is now ready for firmware writing.
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+</center>
 
 ## Check MaskRom Mode
 

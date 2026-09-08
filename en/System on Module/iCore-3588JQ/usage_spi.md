@@ -3,7 +3,10 @@
 ## Introduction
 
 SPI is a high-speed, full-duplex, synchronous serial communication interface for connecting microcontrollers, sensors, storage devices, etc. The AIO-3588JQ  development board provides the SPI1 (single chip optional) interface, and the specific position is as follows:
+<center>
+
 ![](../../../rk3588_img/iCore-3588JQ/usage_spi_interface.jpg)
+</center>
 
 ## How SPI works
 
@@ -30,7 +33,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 The waveforms of SPI's four working modes are as follows:
 
+<center>
+
 ![](../../../rk3588_img/common/usage_spi_waveform_en.jpg)
+</center>
 
 ## Drive coding
 

@@ -24,7 +24,10 @@ In addition, you may need the following accessories during use:
      *   Dual male usb data cable
      *   serial port to USB adapter.
 *    Shipping list reference   
+<center>
+
 ![](../../../rk1808_img/started1_en.jpg)
+</center>
 
  <a id="firmware-format"></a>
 ## Firmware type

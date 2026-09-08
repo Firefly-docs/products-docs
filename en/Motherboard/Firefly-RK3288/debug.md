@@ -23,12 +23,18 @@ Serial port to USB adapter, there are four pins:
 
 Firefly-RK3288 serial port connection diagram:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/debug_connection.jpg)
+</center>
 
 
 Firefly-RK3288-Reload serial port connection diagram:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/debug_connection_reload.jpg)
+</center>
 
 
 ## Parameter Setting
@@ -54,7 +60,10 @@ Download driver and install:
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
+<center>
+
 ![](../../../rk3288_img/debug_find_com.jpg)
+</center>
 
 ### Install Software
 
@@ -67,8 +76,14 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 * Set `Speed (bsp)` to 115200.
 * Click `OK` button.
 
+<center>
+
 ![](../../../rk3288_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../rk3288_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ## Use serial debug on Ubuntu
 

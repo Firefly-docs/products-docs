@@ -4,7 +4,10 @@
 
 AIO-3576C The following figure shows the serial port of the hardware version：
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_adc_interface.jpg)
+</center>
 
 ## Introduction
 

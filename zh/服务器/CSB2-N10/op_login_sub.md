@@ -8,7 +8,10 @@
 2. 在右侧 **Quick access** 区域找到 **Remote console**。
 3. 确认控制台类型显示为 **BMC SHELL**，单击 **Launch**。
 
+<center>
+
 ![打开首页 Remote console](../../../servers_img/common/abmc_home_remote_console_en.png)
+</center>
 
 ### 选择 Shell 调试模式
 
@@ -16,13 +19,19 @@
 2. 在 **Debug Mode** 中选择 **Shell**。
 3. 单击 **Confirm**，在新浏览器窗口中打开 BMC 终端。
 
+<center>
+
 ![选择 Shell 调试模式](../../../servers_img/common/abmc_open_bmc_shell_en.png)
+</center>
 
 ### 确认 Shell 连接
 
 终端显示类似 `root@bmc:~#` 的提示符时，表示已经连接到 BMC 管理控制器，可以执行所需的 BMC 系统维护命令。
 
+<center>
+
 ![aBMC Shell 终端](../../../servers_img/common/abmc_bmc_shell_terminal_en.png)
+</center>
 
 <Callout title="操作对象说明" type="warn">
   aBMC Shell 操作的是 BMC 管理控制器，不是计算子节点。终端中执行的命令会直接影响 BMC 系统，请在确认命令作用和影响范围后再执行。
@@ -36,7 +45,10 @@
 2. 在设备菜单中选择 **General**，并在设备列表中找到要访问的子节点。建议选择状态为 **Online** 或 **Ready** 的节点。
 3. 在目标节点的 **Shortcuts** 列中单击第一个终端图标，即 **Open Shell Command**。页面宽度不足时，可先将设备列表横向滚动到最右侧。
 
+<center>
+
 ![打开子节点调试窗口](../../../servers_img/common/abmc_open_subnode_debug_en.png)
+</center>
 
 ### 选择 Serial 调试模式
 
@@ -44,7 +56,10 @@
 2. 选择 **Serial**。
 3. 单击 **Confirm**，在新浏览器窗口中打开该子节点的串口终端。
 
+<center>
+
 ![选择 Serial 调试模式](../../../servers_img/common/abmc_select_serial_debug_mode_en.png)
+</center>
 
 ### 确认串口连接
 
@@ -52,7 +67,10 @@
 2. 如果终端暂时为空白，请在黑色终端区域单击一次，然后按 **Enter** 键唤醒串口输出。
 3. 终端显示子节点提示符或登录提示时，表示串口连接成功。子节点操作系统如需登录，请使用该子节点自身的系统账号和密码；Web 账号 `admin/admin` 仅用于登录 aBMC 页面。
 
+<center>
+
 ![子节点 Serial 终端](../../../servers_img/common/abmc_subnode_serial_terminal_en.png)
+</center>
 
 ## ADB 登录
 
@@ -62,7 +80,10 @@
 2. 在设备菜单中选择 **General**，并在设备列表中找到要访问的 Android 子节点。建议选择状态为 **Online** 或 **Ready** 的节点。
 3. 在目标节点的 **Shortcuts** 列中单击第一个终端图标，即 **Open Shell Command**。页面宽度不足时，可先将设备列表横向滚动到最右侧。
 
+<center>
+
 ![打开子节点 ADB 调试窗口](../../../servers_img/common/abmc_open_subnode_debug_en.png)
+</center>
 
 ### 选择 ADB 调试模式
 
@@ -70,7 +91,10 @@
 2. 选择 **ADB**。
 3. 单击 **Confirm**，在新浏览器窗口中打开该子节点的 ADB 终端。
 
+<center>
+
 ![选择 ADB 调试模式](../../../servers_img/common/abmc_select_adb_debug_mode_en.png)
+</center>
 
 ### 确认 ADB 连接
 
@@ -78,7 +102,10 @@
 2. 如果终端暂时为空白，请在黑色终端区域单击一次，然后按 **Enter** 键刷新提示符。
 3. 终端显示类似 `CS_B1_rk3576_jd4_sub:/ #` 的提示符时，表示已经进入目标子节点的 ADB Shell，可以执行所需的节点维护命令。
 
+<center>
+
 ![子节点 ADB 终端](../../../servers_img/common/abmc_subnode_adb_terminal_en.png)
+</center>
 
 
 ## SSH 登录
@@ -89,7 +116,10 @@
 2. 在设备菜单中选择 **Network**。也可以直接访问 `http://172.16.100.172:443/#/deviceManage/boardNetManage`；实际使用时请替换为设备的管理地址和端口。
 3. 根据 **Device Name**、**Net Card** 和 **MAC Address** 找到目标子板共享网口对应的网卡，然后单击该行的 **Configure**。
 
+<center>
+
 ![打开子板网络配置](../../../servers_img/common/abmc_configure_subboard_network_en.png)
+</center>
 
 <Callout title="网卡选择" type="warn">
   必须选择与服务器共享网口对应的子板网卡。不要修改 `bmc/MGMT` 管理口或子板内部互联使用的网卡；如果无法确认接口，请结合产品网口说明、网卡名称和 MAC 地址进行核对。
@@ -99,7 +129,10 @@
 2. 按网络规划填写 **Address** 和 **Subnet Mask**；需要跨网段访问时，再填写 **Gateway** 和 **Gateway Priority**。
 3. 检查地址没有被其他设备占用后，单击 **Confirm** 保存配置。
 
+<center>
+
 ![配置子板静态 IPv4](../../../servers_img/common/abmc_set_subboard_static_ipv4_en.png)
+</center>
 
 图中使用以下示例配置，实际部署时必须替换为现场规划的地址：
 
@@ -119,7 +152,10 @@
 2. 确认电脑端口与服务器端口属于同一交换网络和 VLAN。
 3. 使用网线将服务器共享网口接入同一交换机。
 
+<center>
+
 ![共享网口网络连接](../../../servers_img/common/pc_switch_shared_network_topology_steps.png)
+</center>
 
 将维护电脑设置为与子板静态 IP 相同的网段，且地址不能重复。例如子板为 `192.168.10.10/24` 时，电脑可以设置为 `192.168.10.100/24`。
 

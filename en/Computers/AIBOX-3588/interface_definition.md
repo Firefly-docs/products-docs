@@ -12,4 +12,7 @@ AIBOX-3588 has rich interfaces, mainly including:
 - Type-C（Upgrade）
 - Work indicator
 
+<center>
+
 ![](../../../aibox_img/AIBOX-3588/AIBOX-3588-interface_en.png)
+</center>

@@ -2,7 +2,10 @@
 
 ## Introduction
 There are 2 LEDs on the Firefly-RK3128 development board, as the following table shows:  
+<center>
+
 ![](../../../rk3128_img/Core-3128J/driver_table2.png)
+</center>
 
 Both are programmable using ether LEDs class devices or GPIOs.
 

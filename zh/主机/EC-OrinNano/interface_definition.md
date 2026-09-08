@@ -18,4 +18,7 @@ EC-Orin Nano 接口丰富，主要包括：
 - Type-C（USB2.0，但默认为调试串口）
 - 电源指示灯
 
+<center>
+
 ![](../../../bm1688_img/EC-Orin-Nano/EC-Orin-interface.png)
+</center>

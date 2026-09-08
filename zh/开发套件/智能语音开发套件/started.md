@@ -4,7 +4,10 @@
 
 一款专为高效开发设计的智能语音开发套件，集高性能、低功耗、跨平台特性于一体。套件集成 USB 声卡与 4/6 麦阵列，搭载 CAE 降噪与 AEC 回声消除技术。内置功放直驱双喇叭。配备 AI SDK 与 AIUI 云服务，低代码即可快速集成，缩短项目周期。麦克风灵敏度 -32dBA、信噪比 65dB，3-5 米稳定唤醒识别，宽温低功耗设计适配多场景，广泛适用于机器人、行业开发板、智能服务终端、魔镜、智能家居面板、商显设备等产品和领域。
 
+<center>
+
 ![](../../../modules_img/Intelligent-Voice-Control-Kit/intelligent-voice-control-kit.png)
+</center>
 
 ## 详细参数
 ### 麦克风阵列板
@@ -42,11 +45,17 @@
 
 ## 硬件连接
 
+<center>
+
 ![](img/connection.png)
+</center>
 
 ### 拨码开关
 
+<center>
+
 ![](img/toggle_switch.png)
+</center>
 
 # 三、安卓开发
 量产授权SN码和安卓平台SDK请联系商务（sales@t-firefly.com）获取
@@ -67,7 +76,10 @@ public static native int CAEAuth(String sn);
 ## 2. HLW降噪算法开发
 
 ### 2.1 降噪算法的处理框架
+<center>
+
 ![](img/cae_algorithm_framework.png)
+</center>
 
 <br>
 
@@ -202,7 +214,10 @@ public interface ICAEListener {
 
 ### 2.4 算法api调用流程
 
+<center>
+
 ![](img/api_process.png)
+</center>
 
 ### 2.5 接口封装示例
 ```java

@@ -6,17 +6,32 @@
 
 Core-PX30-JD4 adopts px30 industrial grade 64-bit low-power processor, with powerful hardware decoding capability and rich interfaces, users only need to expand the function backplane to quickly achieve project development. It can be applied to AIOT equipment, vehicle control, game equipment, commercial display equipment, etc.
 
+<center>
+
 ![](../../../px30_img/core-px30-jd4_front.png)
+</center>
+
+<center>
 
 ![](../../../px30_img/core-px30-jd4_back.png)
+</center>
 
 ## Product parameters
 
+<center>
+
 ![](../../../px30_img/core-px30jd4_paramter1.jpg)
+</center>
+
+<center>
 
 ![](../../../px30_img/core-px30jd4_paramter2.jpg)
+</center>
+
+<center>
 
 ![](../../../px30_img/core-px30jd4_paramter3.jpg)
+</center>
 
 ## Product sources
 

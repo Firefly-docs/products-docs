@@ -20,12 +20,21 @@ AIO-1684XQ 提供了丰富的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/interface_front.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/iCore-1684XQ/interface_side.png)
+</center>
 
 ## 4G 模组天线连接
 
 天线规格：胶棒天线 4GLTE-5db；圆头
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/4g_antenna_connection.jpg)
+</center>

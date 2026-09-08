@@ -14,7 +14,10 @@ GPIO pin脚计算公式：pin = bank * 32 + number
 
 GPIO 小组编号计算公式：number = group * 8 + X
 ```
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/usage_gpio.png)
+</center>
 下面演示 GPIO1_B7 pin脚计算方法：
 
 bank = 1;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//GPIO<font color=red>1</font>_B7 => 1,  bank ∈ [0,7]

@@ -2,7 +2,10 @@
 
 * The hardware connection between the baseboard and the MIPI screen is shown in the figure:
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/mipi_screen.jpg)
+</center>
 
 Debian firmware boots into the XFCE desktop environment by default. Since the RV1126B chip lacks a GPU for hardware-accelerated rendering, the desktop environment uses the CPU for rendering. Therefore, under heavy workloads, display stuttering may occur.
 

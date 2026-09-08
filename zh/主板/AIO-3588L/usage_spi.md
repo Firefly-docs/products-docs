@@ -3,7 +3,10 @@
 ## SPI 简介
 
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_spi_interface.jpg)
+</center>
 
 ## SPI 工作方式
 
@@ -30,7 +33,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 SPI 的四种工作模式波形图如下：
 
+<center>
+
 ![](../../../rk3588_img/common/usage_spi_waveform.jpg)
+</center>
 
 ## 驱动编写
 

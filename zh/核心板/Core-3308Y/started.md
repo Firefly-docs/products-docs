@@ -1,9 +1,15 @@
 # 介绍
 ## 产品规格
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/roc-rk3308b-cc-plus_pin.jpg)
+</center>
 
 ## 发货清单参考
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/list_roc-rk3308b-cc-plus.jpg)  
+</center>
 
 具体信息以官网商城为准。
 

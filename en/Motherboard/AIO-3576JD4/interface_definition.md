@@ -30,11 +30,20 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3576_img/Core-3576JD4/interface_front_en.png)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/Core-3576JD4/interface_back_en.png)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/Core-3576JD4/interface_io_en.png)
+</center>
 
 ## Special Notice
 Mini PCIe (4G Module) and PCIe M.2 (5G Module) used same USB bus, so they can not be used at same time.

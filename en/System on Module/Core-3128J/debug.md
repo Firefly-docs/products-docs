@@ -44,7 +44,10 @@ Download the driver and install it:
 * PL2303 [[2]](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 Once the adapter is plugged in, you are prompted to discover the new hardware and initialize it, then you can find the corresponding COM port in the device manager: 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_com.png)
+</center>
 
 ### Install software
 
@@ -57,7 +60,10 @@ Extract and run <font color=#ff0000 size=3>`PUTTY.exe`</font>.
 * Set "Speed" to 115200.
 * Click "Open" button.
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_putty.png)
+</center>
 
 ## Serial port debugging is used on Ubuntu
 

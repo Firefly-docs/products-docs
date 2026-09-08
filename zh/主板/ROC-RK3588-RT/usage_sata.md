@@ -5,7 +5,10 @@ ROC-RK3588-RT 开发板上有 1 个 M.2 接口。
 
 默认软件配置成 M.2 SATA3.0 接口, 支持 SATA 协议的 SSD 使用。
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png)
+</center>
 
 ## 软件配置
 ### DTS 配置

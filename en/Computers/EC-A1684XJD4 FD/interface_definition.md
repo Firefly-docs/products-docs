@@ -15,16 +15,28 @@ EC-A1684XJD4 FD has rich interfaces, mainly including:
 - WIFI antenna x 2
 - 4G antenna
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684XJD4-FD/EC-A1684XJD4-FD-interface.jpg)
+</center>
 
 ## Antenna Connections
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684XJD4-FD/antenna_connection.png)
+</center>
 
 ## SIM Card Insertion
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684XJD4-FD/sim_connection.png)
+</center>
 
 ## Serial Port Pinout
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684XJD4-FD/uart_pinout.png)
+</center>

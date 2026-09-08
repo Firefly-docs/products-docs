@@ -4,17 +4,32 @@ IPC-M10R800-A3288C四核工业级行业平板，是基于AIO-3288C高性能开�
 触摸灵敏快捷，支持4K硬解，拥有强大的硬解码能力以及丰富的接口，可快速实现各种场景应用。其采用RK3288四核Cortex-A17处理器，
 主频高达1.8GHz，集成四核Mali-T764 GPU，最大支持4K硬解，能实现4Kx2K的 H.264和H.265视频硬解码。
 
+<center>
+
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_2.jpg)
+</center>
 
 ## 产品参数
 
+<center>
+
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_3.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_4.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_5.jpg)
+</center>
 
 ## 产品资源
 

@@ -6,6 +6,9 @@
 种操作系统；可适用于 ARM PC、边缘计算、云服务器、智能NVR 等领域。
 
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/ROC-RK3588S-PC.png)  
+</center>
       
  <a id="firmware-format"></a>

@@ -4,7 +4,10 @@
 
 DIP switch position:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/faqs_dip_switch.jpg)
+</center>
 
 -   When the DIP switch is `ON`, the power up and down of the device
     depends on the insertion and removal of the power adapter. 

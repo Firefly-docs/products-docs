@@ -42,12 +42,21 @@ iptables -t nat -A POSTROUTING -s 172.16.110.0/24 -o eth0 -j MASQUERADE
 
 * 安装驱动，连接设备开机后电脑打开设备管理器会看到 RNDIS 设备，只需要右键更新驱动就可以了。如果更新失败请尝试使用驱动精灵等第三方驱动安装工具更新安装驱动。
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/rndis_dev.jpg)
+</center>
 
 * 设置主机自身连接外网的网卡，共享网络。
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/rndis_eth.jpg)
+</center>
 
 * 设置 RNDIS 网卡静态 IP 为` 172.16.110.5 `。
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/rndis_setting.jpg)
+</center>

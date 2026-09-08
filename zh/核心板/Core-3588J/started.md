@@ -6,12 +6,18 @@
 种操作系统；可适用于 ARM PC、边缘计算、云服务器、智能NVR 等领域。
 
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/Core-3588J-front.png)  
+</center>
       
 
 [ITX-3588J](https://item.taobao.com/item.htm?id=670519903322) 开发板由核心板 Core-3588J + 底板 MB-JM3-RK3588ITX 组成,。ITX-3588J 拥有 RGMII、SATA3.0、CAN、PCIE3.0、USB3.0、I2C、SPI、UART、GPIO、MIPI-DSI 以及 MIPI-CSI 等丰富接口，提供多种的供电方式。可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。
   
+<center>
+
 ![](../../../rk3588_img/Core-3588J/ITX-3588J.png)
+</center>
   
 ### ITX-3588J 标准套装包含以下配件(仅供参考)：
 * Core-3588J 核心板 x 1

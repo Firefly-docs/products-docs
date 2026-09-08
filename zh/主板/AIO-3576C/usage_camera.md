@@ -2,8 +2,14 @@
 
 * 接口效果图
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_camera_mipicsi1.jpg)
+</center>
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/usage_camera_mipicsi2.jpg)
+</center>
 
 ## PHY 介绍
 RK3576 芯片有 1 个 DCPHY 和 2 个 DPHY, 两个 DPHY 可以工作在两个模式: full mode 和 split mode。DCPHY 则只有 full mode。

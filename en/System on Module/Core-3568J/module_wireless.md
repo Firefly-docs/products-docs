@@ -47,23 +47,35 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 ### Real figure
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec20.png)
+</center>
 
 ### Connection
 
 * USB connection
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec20_usb.jpg)
+</center>
 
 
 * Mini PCIe connection
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/module_wireless_4G-EC20_MiniPCIe_AntWord.png)
+</center>
 
 
 * SIM card Connection
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_sim_connection.jpg)
+</center>
 
 
 ## EC200T 4G Module suite
@@ -108,7 +120,10 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 ### Real figure
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec200t.jpg)
+</center>
 
 ### Connection
 
@@ -177,13 +192,19 @@ Please refer to [EC20 4G module suite](#ec20-4g-module-suite).
 
 ### Real figure
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_5G.png)
+</center>
 
 ### Connection
 
 * M.2(NGFF) connection
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/module_wireless_5G-RM500Q-GL_NGFF_AntWord.png)
+</center>
 
 **Note**:The 5G-RM500Q-GL module needs to be connected with four antennas 
 
@@ -208,7 +229,10 @@ The official website of the public version of the default firmware support EC20 
 
 #### Product Parameter
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_gps_delincomm_en.jpg)
+</center>
 
 The parameters of each module model of this series will be different, please refer to [DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
 
@@ -236,7 +260,10 @@ The baud rate of DELICOMM series serial port is configured as `9600`. By default
 
 #### Product Parameter
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_gps.en.jpg)
+</center>
 
 #### Interface Definition
 

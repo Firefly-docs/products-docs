@@ -27,7 +27,10 @@ Steps:
 2. Install the eMMC and pull out the SD card.
 3. Use the male to male USB cable to connect the host PC with the USB 2.0 OTG port (the lower one in the double-decker ports) of the board.
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/hw_board_usbconn.png)
+    </center>
 
 4. Keep the RECOVERY button on the board pressed.
 5. Plug in the micro USB cable to the board to power up.
@@ -59,11 +62,17 @@ Steps:
 2. Install the eMMC and pull out the SD card.
 3. Use a male to male USB cable to connect your host PC and USB OTG port of the board:
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/hw_board_usbconn.png)
+    </center>
 
 4. Find the reserved eMMC CLK and GND pads on the board, as shown below:
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/rk3328_maskrom_pads.jpg)
+    </center>
 
 5. Connect the eMMC CLK and GND pads with metal tweezers and keep holding steadily.
 6. Plug in the micro USB cable to the board to power on.
@@ -83,7 +92,10 @@ Steps:
 
 ***The flashing tools and flashing methods used between different firmware are different. Please follow the table below to flash.***
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/flashing-table1.png)
+</center>
 
 ## Flashing Tools
 
@@ -111,13 +123,19 @@ To use [AndroidTool], you need to install [Rockusb Driver] first.
 Download [DriverAssistant](https://pan.baidu.com/s/1migPY1U#list/path=%2FPublic%2FDevBoard%2FROC-RK3328-CC%2FTools%2FRKTools%2Fwindows&parentPath=%2FPublic%2FDevBoard%2FROC-RK3328-CC
 ), extract the archive and run `DriverInstall.exe` inside.
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/started_driverassistant.png)
+</center>
 
 Click the "驱动安装" button to install the driver. If you want to uninstall the driver, click the "驱动卸载" button.
 
 If your device is in [Rockusb Mode] or [Maskrom Mode], you'll find a `Rockusb Device` in the device manager:
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/started_driverassistant_dev.png)
+</center>
 
 ### Installing AndroidTool
 
@@ -132,7 +150,10 @@ Download [AndroidTool], extract it. Locate the file named `config.ini`, and edit
 
 Launch `AndroidTool.exe`:
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/androidtool.png)
+</center>
 
 If your device is in [Rockusb Mode], the status line will be "Found One LOADER Device".
 
@@ -151,7 +172,10 @@ To flash [Raw Firmware] to the eMMC using [AndroidTool], follow the steps below:
 5. Click the right blank cell on the second line, which will pop up a file dialog to open the [Raw Firmware] file.
 6. Click the "Run" button to flash.
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_flash_image.png)
+</center>
 
 ### Flashing RK Firmware
 
@@ -180,14 +204,20 @@ To flash [Partition Image] to the eMMC using [AndroidTool_v2.39], follow the ste
 4. Keep the first line of the table unchanged.
 5. Delete all others unused rows by selecting "Delete Item" from the right-click popup menu.
 
+    <center>
+
     ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_del.png)
+    </center>
 
 6. Add partition image to flash by selection "Add Item" from the right-click popup menu.
     + Check on the checkbox on the first cell.
     + Fill in the address with the sector offset (plus `0x2000` if in [Maskrom Mode]) of partition in `parameter.txt` file.
     + Click the right blank cell to browse to the [Partition Image] file.
 
+   <center>
+
    ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_add.png)
+   </center>
 
 7. Click the "Run" button to flash.
 
@@ -213,7 +243,10 @@ To flash [Partition Image] to the eMMC using [AndroidTool], follow the steps bel
 4. Make sure the path to the image file is correct. If necessary, click the blank table cell to the right of the path to reselect it.
 5. Click the "Run" button to start the upgrade. After the upgrade, the device will restart automatically.
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Androidtool58.png)
+</center>
 
 <a id="upgrade-tool"></a>
 

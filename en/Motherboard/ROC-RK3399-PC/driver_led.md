@@ -4,7 +4,10 @@
 
 There are 2 LEDs on the ROC-RK3399-PC development board, as the following table shows:
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/led_pin.jpg)
+</center>
 
 Both LEDs can be controlled by using the LED device subsystem or by directly operating GPIO.
 

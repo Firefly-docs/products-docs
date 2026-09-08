@@ -28,7 +28,10 @@
 下载 [Release_DriverAssistant.zip](http://download.t-firefly.com/product/RK3328/Tools/DriverAssitant/DriverAssitant_v4.5.rar) ，解压，然后运行里面的 DriverInstall.exe 。   
 为了所有设备都使用更新的驱动，请先选择"驱动卸载"，然后再选择"驱动安装"。   
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/upgrade_firmware1.png)
+</center>
 
 ### 设备模式
 有两种方法可以使设备进入升级模式
@@ -47,7 +50,10 @@
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备"Rockusb Device" 出现，如下图。如果没有，则需要返回上一步重新安装驱动。   
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/upgrade_firmware2.png)
+</center>
 
 ### 固件下载
 
@@ -74,7 +80,10 @@ Linux下：
 2. 按"固件"按钮，打开要升级的固件文件。升级工具会显示详细的固件信息。
 3. 按"升级"按钮开始升级。
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/flash_maskrom.png)
+</center>
 
 <font color=#ff0000 >如果升级失败，可能是因为你烧写的固件laoder版本与原来的机器的不一致，可以尝试先按"擦除Flash"按钮来擦除 Flash，然后再升级</font>
 
@@ -95,7 +104,10 @@ Linux下：
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击"执行"按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/flash_loader.png)
+</center>
 
 <a id="upgrade-tool"></a>
 

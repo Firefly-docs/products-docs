@@ -32,7 +32,10 @@ USB 转串口适配器，有四个引脚：
 
 AIO-1684XQ DEBUG 口：
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/debug_connection.png)
+</center>
 
 ### 驱动安装
 
@@ -47,4 +50,7 @@ Windows 系统需要安装适配器驱动（Linux 则不需要）：
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 
+<center>
+
 ![](../../../bm1684_img/debug_find_com.jpg)
+</center>

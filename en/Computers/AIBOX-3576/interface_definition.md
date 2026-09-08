@@ -12,4 +12,7 @@ AIBOX-3576 has rich interfaces, mainly including:
 - Type-C（Upgrade）
 - Work indicator
 
+<center>
+
 ![](../../../aibox_img/AIBOX-3576/AIBOX-3576-interface_en.png)
+</center>

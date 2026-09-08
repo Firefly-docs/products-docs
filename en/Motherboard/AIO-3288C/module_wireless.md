@@ -42,18 +42,27 @@
 
 ### Image
 
+<center>
+
 ![](../../../rk3288_img/module_wireless_ec20_1.png)
+</center>
 
 ### Connection method
 
 * USB interface connection
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/module_wireless_ec20_2.png)
+</center>
 
 
 * Mini-PCIe interface connection
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/module_wireless_ec20_3.png)
+</center>
 
 
 ### Reference firmware

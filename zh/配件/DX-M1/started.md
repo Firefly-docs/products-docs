@@ -6,11 +6,17 @@
 
 DEEPX DX-M1 M.2 模块将服务器级 AI 推理直接带到边缘设备。DX-M1 仅需 2 W 至 5 W 功耗即可提供 25 TOPS 的性能，性能效率 (FPS/W) 比 GPGPU 高出 20 倍，同时还保持了 GPU 级 AI 精度。
 
+<center>
+
 ![](../../../modules_img/DX-M1/dx-m1.png)
+</center>
 
 ### 详细参数
 
+<center>
+
 ![](../../../modules_img/DX-M1/dx-m1-size.png)
+</center>
 
 | 名称 | 参数 |
 | --- | --- |

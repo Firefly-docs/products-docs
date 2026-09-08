@@ -14,9 +14,15 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk356x_img/module_serial_list.en.jpg)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk356x_img/ROC-RK3566-PC/debug_connection.jpg)
+</center>
 

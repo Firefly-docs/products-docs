@@ -5,7 +5,10 @@ USB 转串口适配器，是 USB 转串口 TTL 适配器的简称。
 
 AIO-1684XJD4 可以使用 RS232 转 USB 接到 PC 机进行串口调试：
 
+<center>
+
 ![](../../../bm1684_img/Core-1684XJD4/rs232_connection.png)
+</center>
 
 
 ### 串口参数配置
@@ -29,8 +32,14 @@ Windows 上一般用 putty 或 SecureCRT 软件。其中我们推荐使用 MobaX
 3. 设置 `Speed (bsp)` 为 `115200`。
 4. 点击 `OK` 按钮。
 
+<center>
+
 ![](../../../bm1684_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../bm1684_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ### Linux 上使用串口调试
 
@@ -155,7 +164,10 @@ USB 转串口适配器，有四个引脚：
 
 AIO-1684XJD4 DEBUG 口：
 
+<center>
+
 ![](../../../bm1684_img/Core-1684XJD4/debug_connection.png)
+</center>
 
 ### 驱动安装
 
@@ -170,4 +182,7 @@ Windows 系统需要安装适配器驱动（Linux 则不需要）：
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 
+<center>
+
 ![](../../../bm1684_img/debug_find_com.jpg)
+</center>

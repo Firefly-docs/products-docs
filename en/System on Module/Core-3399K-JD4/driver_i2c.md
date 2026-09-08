@@ -4,7 +4,10 @@
 
 There are 9 on-chip I2C controllers on the Core-3399-JD4 development board, and the usage of each I2C is shown in the following table:
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/i2c_list.jpg)
+</center>
 
 This article mainly describes how to configure I2C on the development board.
 

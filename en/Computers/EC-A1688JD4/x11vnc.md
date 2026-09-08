@@ -52,16 +52,28 @@ The following is the specific operation process for VNC Viewer:
 
 (2) After installation, open VNC Viewer and skip the login.
 
+<center>
+
 ![](../../../bm1688_img/EC-A1688JD4/vnc-01.png)
+</center>
 
 (3) Enter the `$bm1688_ip:0` address of EC-A1688JD4:
 
+<center>
+
 ![](../../../bm1688_img/EC-A1688JD4/ubuntu-vnc-02.png)
+</center>
 
 (4) Click the circular button next to the linaro username, select xfce, and enter the username and password, both are `linaro`:
 
+<center>
+
 ![](../../../bm1688_img/EC-A1688JD4/ubuntu-vnc-03.png)
+</center>
 
 (5) Successfully enter the xfce4 desktop:
 
+<center>
+
 ![](../../../bm1688_img/EC-A1688JD4/ubuntu-vnc-04.png)
+</center>

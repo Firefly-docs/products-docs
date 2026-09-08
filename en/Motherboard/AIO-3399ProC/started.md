@@ -21,5 +21,8 @@ In addition, you may need the following accessories during use:
       - Type-A to Type-C data cable
       - Serial port to serial adapter
 *   Shipping list
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/started_shipping_list.en.jpg)
+</center>
  <a id="firmware-format"></a>

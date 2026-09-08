@@ -29,7 +29,10 @@ There are two types of firmware files:
 1. Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/358), extract it, and run `DriverInstall.exe`.
 2. Select **Driver uninstall** first, then select **Driver install** so all devices use the updated driver.
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_install_rk_usb.jpg)
+</center>
 
 3. Download [AndroidTool](https://community.t-firefly.com/en/doc/download/358) separately, extract it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory. On Windows 7/8, run it as administrator.
 
@@ -45,7 +48,10 @@ ITX-3588J_Android12_HDMI_220308
     └── RKDevTool_Release_v2.84.zip
 ```
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 #### Linux
 
@@ -87,11 +93,20 @@ The RK182X development kit does not provide a Loader mode. USB firmware upgrades
 6. Check the upgrade tool for a MaskRom device.
 7. Release the key after the device is detected.
 
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_sel.png)
+</center>
+
+<center>
 
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png)
+</center>
+
+<center>
 
 ![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+</center>
 
 ### Check MaskRom Mode
 
@@ -118,7 +133,10 @@ sudo upgrade_tool
 3. Click **Upgrade** to start writing.
 4. If the upgrade fails, click **EraseFlash** first and then upgrade again.
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_erase_flash_zh.png)
+</center>
 
 #### Write Partition Images
 
@@ -127,7 +145,10 @@ sudo upgrade_tool
 3. Confirm that each image path is correct.
 4. Click **Run**. The device restarts automatically after the upgrade.
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 ### Linux
 
@@ -177,4 +198,7 @@ sudo fastboot reboot
 
 If `Download Boot Fail` or another error appears during the upgrade, check the USB cable and the computer USB port first. Poor-quality cables and insufficient USB power can cause the failure.
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_download_fail.png)
+</center>

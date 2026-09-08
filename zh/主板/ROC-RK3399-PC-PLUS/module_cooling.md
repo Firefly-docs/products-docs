@@ -12,7 +12,10 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_cooling_radiator.jpg)
+</center>
 
 
 

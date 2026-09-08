@@ -16,8 +16,14 @@
 
 6. After 2 sec, release the download button.
 
+<center>
+
 ![](../../../qcom_img/AIO-8550JD4/typec_dip_switch_en.jpg)
+</center>
+<center>
+
 ![](../../../qcom_img/AIO-8550JD4/edl_key.jpg)
+</center>
 ### Software Way
 
 While the device is running normally, connect device's download port with PC through Type-A to Tyep-C USB cable, run this command on device terminal or debug console:
@@ -26,17 +32,26 @@ While the device is running normally, connect device's download port with PC thr
 sudo systemctl reboot edl
 ```
 
+<center>
+
 ![](../../../qcom_img/AIO-8550JD4/download_port.jpg)
+</center>
 
 ### Check EDL
 
 If the device entered EDL mode, QFIL tool will show "Qualcomm HS-USB QDLoader 9008".
 
+<center>
+
 ![](../../../qcom_img/qfil_9008.jpg)
+</center>
 
 Or it could show "Please Select an Existing Port", then you have to click "SelectPort", also can see "Qualcomm HS-USB QDLoader 9008", select it and click "OK".
 
+<center>
+
 ![](../../../qcom_img/qfil_select_port.jpg)
+</center>
 
 **Notice: The code must be 9008** If the device shows other code like 900E, then it means device is abnormal, please poweroff it and retry.
 
@@ -46,24 +61,42 @@ If tool shows "No Port Available", please check driver installation and usb cabl
 
 1 Click "Configuration", then click "FireHose Configuration", in the pop-up window, config it according to the following pictrue, then click "OK".
 
+<center>
+
 ![](../../../qcom_img/qfil_config.jpg)
+</center>
 
 2 In the main page, select "Flat Build", then click "Browse"
 
+<center>
+
 ![](../../../qcom_img/qfil_browse.jpg)
+</center>
 
 3 Navigate to your firmware location, choose "All Files" in file type, then find "xbl_s_devprg_ns.melf" (or maybe "prog_firehose_ddr.elf", different SOCs very in filenames)and click "open".
 
+<center>
+
 ![](../../../qcom_img/qfil_open_melf.jpg)
+</center>
 
 4 In the main page, click "Load XML", in the pop-up window, select all xml files and click "open", then the same window will pop-up again, and select all xml files again and click "open".
 
+<center>
+
 ![](../../../qcom_img/qfil_load_xml1.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/qfil_load_xml2.jpg)
+</center>
 
 5 Finally click "Download", wait it to finish, it will take few minutes. Download success will be like:
 
+<center>
+
 ![](../../../qcom_img/qfil_download_finish.jpg)
+</center>
 
 6 After the download is complete, wait for a while and the device will automatically reboot.

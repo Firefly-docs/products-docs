@@ -16,9 +16,15 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_serial1.png)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_serial3.jpg)
+</center>
 

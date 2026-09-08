@@ -13,11 +13,17 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/module_serial_list.jpg)
+</center>
 
 ### 连接方法
 
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/debug_connection.jpg)
+</center>
 
 

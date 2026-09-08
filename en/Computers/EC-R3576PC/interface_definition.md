@@ -24,5 +24,8 @@ EC-R3576PC provides rich interfaces, including:
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-io-en.png)
+</center>
 

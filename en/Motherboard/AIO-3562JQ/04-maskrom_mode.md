@@ -18,4 +18,7 @@ The operation steps are as follows:
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3562_img/maskrom_en.png)
+</center>

@@ -7,7 +7,10 @@ At present, the official power supply for ITX-3588J is 12V/7A. If it is a self a
 
 DIP switch position:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/faqs_dip_switch.jpg)
+</center>
 
 -   When the DIP switch is `ON`, the power up and down of the device
     depends on the insertion and removal of the power adapter. 

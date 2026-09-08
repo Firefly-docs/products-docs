@@ -2,10 +2,16 @@
 
 * 接口效果图
 
-![](../../../rk3588_img/Core-3588JD4/usage_camera_mipicsi.jpg)
+<center>
 
+![](../../../rk3588_img/Core-3588JD4/usage_camera_mipicsi.jpg)
+</center>
+
+
+<center>
 
 ![](../../../rk3588_img/Core-3588JD4/usage_camera_mipicsi1.jpg)
+</center>
 
 
 AIO-3588JD4 默认固件只使能 MIPI_CSI0 摄像头，CSI0/1 共用同一组 i2c 需要配置 gpio 口切换，如果同时使用两个 MIPI_CSI 就需要修改 sensor 驱动来支持动态切换。
@@ -28,7 +34,10 @@ mode, 其中 dphy0_hw 拆分为 csi2_dphy0/ csi2_dphy1/ csi2_dphy2 三个逻辑d
 * csi2_dphy2对应物理dphy的lane2/lane3;
 * 最大速率2.5Gbps/lane;
 
+<center>
+
 ![](../../../rk3588_img/common/usage_camera_rk3588_mipi_csi_mode.png)
+</center>
 
 简单点来讲，如果用单目摄像头我们可以配置full mode，若使用双目摄像头我们可以配置split mode。
 

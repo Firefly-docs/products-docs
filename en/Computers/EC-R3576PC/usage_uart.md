@@ -6,7 +6,10 @@
 
 EC-R3576PC The following figure shows the serial port of the hardware version：
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/usage_uart_interface.jpg)
+</center>
 
 ## DTS config
 

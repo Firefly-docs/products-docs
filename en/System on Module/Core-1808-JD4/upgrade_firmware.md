@@ -26,7 +26,10 @@ Host connection development board:
 
 One end of the male-to-male USB cable is connected to the USB 3.0 interface of the development board, and the other end is connected to the host, as shown in the figure.
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware_otg.jpg)
+</center>
 
 ## Windows
 
@@ -37,7 +40,10 @@ One end of the male-to-male USB cable is connected to the USB 3.0 interface of t
 Download [ Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/download/83) , extract, and then run the DriverInstall.exe inside . 
 In order for all devices to use the updated driver, first select `驱动卸载` and then select `驱动安装`.
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware1.png)
+</center>
 
 ### Connected devices
 You can put the device into upgrade mode as follows:
@@ -49,13 +55,19 @@ You can put the device into upgrade mode as follows:
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device" Rockusb Device" appear as shown below. If not, you need to go back to the previous step and reinstall the driver.
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware2.png)
+</center>
 
 ### Upgrade the firmware
 
 Download [AndroidTool](https://community.t-firefly.com/en/doc/download/83)，extract,Run AndroidTool.exe in the AndroidTool_Release_xxx directory. (note: if it is Windows 7/8, you need to press the right mouse button and choose to run as an administrator), as shown below:
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware3_en.png)
+</center>
 
 #### Upgrade unified firmware - update.img
 
@@ -67,7 +79,10 @@ The steps to update the unified firmware `update.img` are as follows:
 
 **Note: if the firmware laoder you wrote is inconsistent with the original one, please execute "wipe Flash" before upgrading the firmware.** 
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware4_en.png)
+</center>
 
 #### Upgrade Partition image
 Each firmware partition may be different, please note the following two points:
@@ -79,7 +94,10 @@ The steps to upgrade the partition image are as follows:
 3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
 4. Click "execute" button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rk1808_img/upgrade_firmware3_en.png)
+</center>
 
 ## Linux
 There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.

@@ -30,5 +30,11 @@
 * 注1：需要 1.7 或更高版本的 SocToolKit 工具才能支持 SD 卡升级启动功能。
 * 注2：此功能需要用户以管理员身份运行 SocToolKit.exe（开启工具时会默认询问）。
 
+<center>
+
 ![](../../../rv1106_img/CT36L/upgrade_firmware_sd_tool_zh-1.png)
+</center>
+<center>
+
 ![](../../../rv1106_img/CT36L/upgrade_firmware_sd_tool_zh-2.png)
+</center>

@@ -6,7 +6,10 @@ GPIO (General-Purpose Input/Output) is a General pin that can be dynamically con
 
 
 ROC-RK3576-PC development board in order to facilitate user development and use, Leads to GPIO oral for user debugging and development, can use GPIO3_A4
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/usage_gpio_interface.jpg)
+</center>
 
 This article uses the two general GPIO ports GPIO0_C1 and GPIO0_C2 as examples to write a simple operation GPIO port driver. The path in the SDK is:
 

@@ -13,8 +13,14 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3562_img/module_serial_list.en.jpg)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/debug_connection.jpg)
+</center>

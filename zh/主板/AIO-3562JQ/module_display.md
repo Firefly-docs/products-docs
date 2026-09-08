@@ -23,7 +23,13 @@
 ### 实物图
 
 #### MIPI_DSI 正面
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/module_display_mipi_DSI_front.jpg)
+</center>
 #### MIPI_DSI 背面
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/module_display_mipi_DSI_back.jpg)
+</center>
 

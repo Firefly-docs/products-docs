@@ -13,7 +13,10 @@ intelligent NVR and other fields.
 
   
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/Core-3588SJD4-front.jpg)  
+</center>
 
 The [AIO-3588SJD4](https://item.taobao.com/item.htm?id=676534397877) development board consists of the core board **Core-3588SJD4** + **MB-JD4-
 RK3588S**. AIO-3588SJD4 
@@ -24,7 +27,10 @@ accelerate product implementation. For details, refer to ["interface
 definition"](interface_definition.md).
 
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/AIO-3588SJD4.jpg)
+</center>
 
 
 ### The AIO-3588SJD4  standard kit contains the following accessories (for reference only): 

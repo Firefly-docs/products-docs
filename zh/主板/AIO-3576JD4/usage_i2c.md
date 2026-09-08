@@ -6,7 +6,10 @@ RK3576 有 10 个片上 I2C 控制器，但不是全都能使用，有些复用�
 
 AIO-3576JD4开发板上通过排针引出了 2 个 I2C
 
+<center>
+
 ![](../../../rk3576_img/Core-3576JD4/usage_i2c_interface.jpg)
+</center>
 
 I2C0 (对应丝印 I2C5)和 I2C3 (对应丝印 I2C4)
 

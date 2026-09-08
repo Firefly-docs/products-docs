@@ -44,4 +44,7 @@ AIO-3399J provides a lot of interfaces, which include:
 
 Such as followings:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/interface.en.jpg)
+</center>

@@ -3,7 +3,10 @@
 
 ROC-RK3399-PC 开发板默认外置支持了两个LCD屏接口，一个是MIPI-DSI，一个是eDP，板子上对应的LCD接口位置如下图所示：
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc6.jpg)
+</center>
 
 * MIPI 接口
 * eDP 接口
@@ -115,7 +118,10 @@ kernel/arch/arm64/boot/dts/rockchip/rk3399-roc-pc-mipi.dts
 
 ROC-RK3399-PC 开发板外置了一个背光接口用来控制屏幕背光，如下图所示：
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/MIPI-DSI_pin.jpg)
+</center>
 
 在DTS文件：kernel/arch/arm64/boot/dts/rockchip/rk3399-roc-pc.dtsi中配置了背光信息，brightness-levels属性：配置背光亮度数组，最大值为255，配置暗区和亮区，并把亮区数组做255的比例调节。比如范例中暗区是255-221，亮区是220-0（具体请参考kernel中的说明文档：kernel/Documentation/devicetree/bindings/leds/backlight/pwm-backlight.txt）。其中default-brightness-level属性设置开机时默认背光亮度，范围为0-255。基本配置信息如下：
 ```

@@ -5,8 +5,14 @@
 连接设备 typec 和电脑，AIO-3588JD4 typec 有两种功能（串口/OTG升级）通过拨码开关控制，串口调试时候请将拨码开关拨向 “DBG”。
 
 
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/otg.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/button.png)
+</center>
 
 
 ## 串口参数

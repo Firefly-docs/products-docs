@@ -12,7 +12,10 @@ AIO-3399ProC 打开`设置`->`显示` ,显示设备处若出现 HDMI 和 DSI，�
 
 AIO-3399ProC 的 HDMI 能自动识别显示的分辨率。假如无法读取显示器的 EDID (Extended Display Identification Data, 扩展显示器标识数据) ，HDMI 会默认设置为 1080P 的分辨率。你也可以进入系统设置对 HDMI 分辨率进行手动调整。
 
+<center>
+
 ![](../../../rk3399_img/faqs_setting_resolution.jpg)
+</center>
 
 ## 打开 Root 权限
 Android 系统有很多很强大的功能都需要用到 root 权限，开发者经常在使用的时候遇到权限的问题，那如何在 Firefly 平台上开启系统的 root 权限功能呢？Firefly 已在系统添加启动 root 权限的功能，具体的步骤如下：
@@ -21,7 +24,10 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 2. 点击 `Build number` 5次后会提示 (you are now a developer);
 3. 然后返回上一级点击 `Developer options` 选项后，在选项中点击 `ROOT access` 就打开 root 权限功能。
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+</center>
 
 ## 开机异常并循环重启怎么办？
 

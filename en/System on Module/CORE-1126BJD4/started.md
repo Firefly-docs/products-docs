@@ -6,11 +6,17 @@ The **CORE-1126BJD4** development board utilizes the Rockchip quad-core AI visio
 
 **CORE-1126BJD4** front：
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/CORE-1126BJD4-front.png)  
+</center>
 
 **CORE-1126BJD4** back：
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/CORE-1126BJD4-back.png)  
+</center>
 
 ### AIO-1126BJD4
 
@@ -18,11 +24,17 @@ The AIO-1126BJD4 development board consists of the core board CORE-1126BJD4 and 
 
 AIO-1126BJD4 front：
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/AIO-1126BJD4-front.png)  
+</center>
 
 AIO-1126BJD4 back：
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/AIO-1126BJD4-back.png)
+</center>
 
 ### AIO-1126BJD4V0
 
@@ -32,9 +44,15 @@ Click to jump to the Wikipedia tutorial for the AIO-1126BJD4V0 motherboard:[AIO-
 
 AIO-1126BJD4V0 front：
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-front.png)  
+</center>
 
 AIO-1126BJD4V0 back：
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-back.png)
+</center>
  <a id="firmware-format"></a>

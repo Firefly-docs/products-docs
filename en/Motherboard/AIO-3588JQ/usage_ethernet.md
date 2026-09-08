@@ -129,7 +129,10 @@ Android dual ethernet had intranet and outer net.
 | eth0 | gmac1 | Ethernet 2 | Auxiliary network port for intranet | 
 | eth1 | gmac0 | Ethernet | Primary network port for external network |
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588JQ/usage_ethernet_interface.png)
+</center>
 
 #### IP Addrs
 * get from debug or adb by ifconfig

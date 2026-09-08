@@ -33,14 +33,26 @@ What you need to configure the camera is to make the pins and clock work properl
 
 According to the schematic diagram below, you need to provide: VCC28_DVP、VCC18_DVP、VCCIO_YUV、PWDN(FLASH0_CLE)、RESET and XCLK1.
 
+<center>
+
 ![](../../../rk3288_img/dvp_interface.png)
+</center>
+<center>
+
 ![](../../../rk3288_img/dvp_power_1.png)
+</center>
 
 * RST controled by PDN1
+<center>
+
 ![](../../../rk3288_img/dvp_power_2.png)
+</center>
 
 * PWDN、RST are connected to GPIO3_B4、GPIO2_B7
+<center>
+
 ![](../../../rk3288_img/dvp_power_3.png)
+</center>
 
 ### Android Layer Configuration
 

@@ -9,7 +9,10 @@ After *J2* is connected with *CR2032* button battery, it can ensure that the RTC
 
 The location of J2 is as follows:
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/rtc_interface.jpg)
+</center>
 
 
 ## RTC drive

@@ -13,7 +13,10 @@ Core-3399-JD4 supports SPI bridge/extension functions of four enhanced serial po
 
 The serial interface diagram of the Core-3399-JD4 development board is as follows:
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/uart_interface.png)
+</center>
 
 ## DTS configuration
 

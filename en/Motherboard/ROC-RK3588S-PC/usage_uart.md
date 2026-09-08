@@ -4,7 +4,10 @@
 
 ROC-RK3588S-PC The following figure shows the serial port of the hardware version：
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/usage_uart_interface.jpg)
+</center>
 
 ## DTS config
 

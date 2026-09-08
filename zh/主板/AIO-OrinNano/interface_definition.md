@@ -18,5 +18,11 @@ AIO-Orin Nano 接口丰富，主要包括：
 - Type-C（USB2.0, OTG 或者 DEBUG）
 - 电源指示灯
 
+<center>
+
 ![](../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-zh-01.png)
+</center>
+<center>
+
 ![](../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-zh-02.png)
+</center>

@@ -13,7 +13,10 @@ AIO-3288J support SPI bridge/expansion of four enhanced functions of the serial 
 
 AIO-3288J development board serial interface interface as follows:
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/uart_interface.png)
+</center>
 
 ## Configuration Steps
 

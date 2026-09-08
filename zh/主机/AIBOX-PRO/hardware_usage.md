@@ -6,7 +6,10 @@ AIBOX-PRO 登录方式有两种，一种是通过 Console 串口进行终端登�
 
 ### Console 登录
 Type-C 线接入 Console 口，登录账号为`root`，默认没有设置`root`密码。<br>
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-DEBUG.png)
+</center>
 使用以下串口参数：
 * 波特率：115200
 * 数据位：8
@@ -501,7 +504,10 @@ AIBOX-PRO 有一个 RS485 接口，如果CPU是3588，则设备名称为 `/dev/t
 
 AIBOX-PRO 支持 4G LTE, 在系统设置处，有多种网络形式，可以在此打开数据流量开关：
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO/4G.png)
+</center>
 
 在命令行生成网卡：
 

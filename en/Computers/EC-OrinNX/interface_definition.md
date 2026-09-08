@@ -18,4 +18,7 @@ The EC-Orin NX interface is rich and mainly includes:
 - Type-C (USB2.0, but defaults to debugging serial port)
 - Power indicator light
 
+<center>
+
 ![](../../../bm1688_img/EC-Orin-NX/EC-Orin-interface.png)
+</center>

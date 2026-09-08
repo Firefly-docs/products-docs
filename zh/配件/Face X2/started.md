@@ -6,46 +6,82 @@ Face X2 是由 Firefly 自主研发的一款基于人脸识别的智能门禁终
 制。从采集人脸照片、人脸比对、并获取结果，全程自动化操作，无需人工干预。
 
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/face_1.png)
+</center>
 
 
 
 ## 产品参数
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/face_x2_3.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/face_x2_4.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/face_x2_5.jpg)
+</center>
 
 ## 尺寸规格
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/face_x2_6.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/face_x2_7.jpg)
+</center>
 
 ## 尾线介绍
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/weixian.png)
+</center>
 
 ## 固定方式
 
 1、“固定式”闸机安装方式
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/guding1.png)
+</center>
 
 
 2、“ 壁挂 式”闸机安装方式
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/guding2.png)
+</center>
 
 3、壁挂式安装视频教学
 
+<center>
+
 ![](../../../rk3399_img/Face-X2/guding3.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/guding4.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-X2/guding5.png)
+</center>
 
 
 ## 产品资源

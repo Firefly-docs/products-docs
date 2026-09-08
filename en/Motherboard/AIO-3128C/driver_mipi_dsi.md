@@ -166,7 +166,10 @@ Configure the time sequence in disp_timings node.
 
 
 As to other timing’s attribute, you can take a look at this picture.   
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/MIPI_DSI.png)
+</center>
 
 ### Dsihost configuration
 

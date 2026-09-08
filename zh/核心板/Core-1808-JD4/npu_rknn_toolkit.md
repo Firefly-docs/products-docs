@@ -53,7 +53,10 @@ pip3 install --user -U rknn-toolkit/packages/rknn_toolkit-1.3.0-cp35-cp35m-linux
 ## API调用流程
 
 ### 模型转换
+<center>
+
 ![](../../../rk1808_img/rknn_toolkit_flowchart.png)
+</center>
 
 模型转换使用示例如下,详细请参考RKNN Tookit中的example。
 ```python
@@ -99,7 +102,10 @@ if __name__ == '__main__':
 ```
 
 ### 模型推理
+<center>
+
 ![](../../../rk1808_img/rknn_toolkit_inference_flowchart.png)
+</center>
 
 模型推理使用示例如下,详细请参考RKNN Tookit中的example，以`rknn-toolkit/example/mobilenet_v1`为例。
 

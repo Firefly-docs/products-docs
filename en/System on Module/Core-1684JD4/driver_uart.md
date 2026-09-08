@@ -13,9 +13,15 @@ Core-1684JD4 supports 3 UART devices:
 
 The RS232 and RS485 interface diagram of Core-1684JD4 board is as follows:
 
+<center>
+
 ![](../../../bm1684_img/Core-1684JD4/uart_interface.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/Core-1684JD4/uart_pinout.png)
+</center>
 
 ## Debug
 

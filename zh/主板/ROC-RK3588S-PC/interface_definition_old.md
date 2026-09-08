@@ -22,7 +22,10 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/interface_all.jpg)
+</center>
 
 
 ### ROC-RK3588S-PC V0.1 接口：
@@ -45,5 +48,8 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/interface_all_v01.jpg)
+</center>
 

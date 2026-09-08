@@ -7,5 +7,8 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3576_img/CQ38W-3576/interface_zh.png)
+</center>
 

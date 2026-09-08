@@ -32,9 +32,15 @@
 **方式三：通过远程虚拟控制台将服务器上电**
 
 1. 通过浏览器远程登录 aBMC。
+ <center>
+
  ![aBMC dashboard View](../../../servers_img/common/abmc_dashboard_view.png)
+ </center>
 2. 通过aBMC WebUI首页右上角的电源按钮设置为“ON”，服务器完成整机上电。
+ <center>
+
  ![aBMC Web Power Button View](../../../servers_img/common/abmc_power_button_view.png)
+ </center>
 
 
 ## 服务器下电

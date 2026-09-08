@@ -12,7 +12,10 @@ For the specific RM_IO function list, please refer to the chip Datasheet documen
 
 ROC-RK3506J-CC The development board provides GPIO ports for user debugging and development. GPIO0_C2 can be used.
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506J-CC/usage_gpio_interface.png)
+</center>
 
 
 ## GPIO Pin to calculate

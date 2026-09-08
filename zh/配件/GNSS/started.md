@@ -4,7 +4,10 @@
 
 Firefly 定位模块支持 GPS、GLONASS 或北斗卫星定位，使用 UART/TTL 接口与主板连接。
 
+<center>
+
 ![](../../../modules_img/GNSS/gnss_RG4538_en.png)
+</center>
 
 ## 规格参数
 

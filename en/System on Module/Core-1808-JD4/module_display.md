@@ -21,4 +21,7 @@ Wiring precautions:
 * LVDS interface: The BL interface on the LVDS wiring board is connected to the BL interface on the backplane (note the direction of the power interface, that is, the red line is VCC)
 * Connect to 12V jumper cap: There are three power jumper ports next to the LVDS interface on the backplane. You need to use a jumper cap to connect the 12V jumper port.
 
+<center>
+
 ![](../../../rk1808_img/module_display1.jpg)
+</center>

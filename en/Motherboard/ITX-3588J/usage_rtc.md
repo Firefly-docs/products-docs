@@ -12,7 +12,10 @@ ITX-3588J  development BOARD uses HYM8563 as RTC(*Real Time Clock*), HYM8563 is 
 
 RTC has two power supply options, a button battery and a capacitor. After the 1220 button battery is installed on the development board, the RTC can run normally for a long time after the board is powered off, and the capacitor can ensure the RTC to run in a short time. The position of button battery base and capacitor is shown in the following figure:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_rtc_battery_capacitor.jpg)
+</center>
 
 ## Driver RTC
 

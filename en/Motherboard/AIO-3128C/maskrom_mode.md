@@ -18,11 +18,20 @@ Artificial to the Flash data pin connected to ground, the system will think Flas
 6. Wait a moment, then release the metal tweezers.
 
 Older version (V1.1):
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/maskrom1.png)
+</center>
 
 New version (V1.2):
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/maskrom2.png)
+</center>
 
 Device should enter MaskRom mode:
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_3128_tool_maskrom.png)
+</center>

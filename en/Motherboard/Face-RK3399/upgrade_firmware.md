@@ -39,7 +39,10 @@ Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/do
 
 In order for all devices to use the updated driver, first select `驱动卸载(Driver uninstall)` and then select `驱动安装(Driver install)`.
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware1.png)
+</center>
 
 #### Connect device
 
@@ -53,7 +56,10 @@ You can put the device into upgrade mode as follows:
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and reinstall the driver.
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware2.png)
+</center>
 
 ### Upgrade firmware
 
@@ -69,7 +75,10 @@ LangPath=Language\
 
 Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will display in English.Now, `run AndroidTool.exe`: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
+</center>
 
 #### Upgrade unified firmware - update.img
 
@@ -82,7 +91,10 @@ The steps to update the unified firmware `update.img` are as follows:
 
 **Note: if the firmware laoder you wrote is inconsistent with the original one, please execute `wipe Flash` before upgrading the firmware.**
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware4.png)
+</center>
 
 #### Upgrade Partition image
 
@@ -103,7 +115,10 @@ The steps to upgrade the partition image are as follows:
 	3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
 	4. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
+</center>
 
 ### Linux
 
@@ -218,4 +233,7 @@ The OTA upgrade firmware `xxx.zip` will generate in `out/target/product/rk3399_f
 	* b. Reboot machine after copying. After power on, wait for a few seconds, and the upgrade indicator box will pop up. Click to continue upgrading.
 8. If there is an error message of decryption failure in the process of upgrading machine, please click "restore factory settings" and wait for the restart.
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/upgrade_firmware5.jpg)
+</center>

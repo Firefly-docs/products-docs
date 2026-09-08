@@ -3,7 +3,10 @@
 
 * 接口效果图
 
+<center>
+
 ![](../../../rv1126_img/C40PL/usage_camera_mipicsi.jpg)
+</center>
 
 * 注：摄像头上的红线和黑线用作切换滤光片使用。
 * 命令切换滤光片

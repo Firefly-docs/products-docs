@@ -6,7 +6,10 @@ RK3399有 12 个 Timers (timer0-timer11)，有 12 个 Secure Timers(stimer0~stim
 
 ## 框架图
 
+<center>
+
 ![](../../../rk3399_img/include/RK3399/timer_frame.jpg)
+</center>
 
 ## 工作模式
 
@@ -31,7 +34,10 @@ rktimer: rktimer@ff850000 {
 
 其他 Timer 对应的中断号可看如下图片：
 
+<center>
+
 ![](../../../rk3399_img/include/RK3399/timer_interrupt.jpg)
+</center>
 
 2.对应的驱动文件 `Kernel/drivers/clocksource/rockchip_timer.c`
 
@@ -39,7 +45,10 @@ rktimer: rktimer@ff850000 {
 
 1. 寄存器如下图片：
 
+<center>
+
 ![](../../../rk3399_img/include/RK3399/timer_register.jpg)
+</center>
 
 2. 使用 `io` 命令方式查看对应寄存器：
 

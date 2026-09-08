@@ -53,7 +53,10 @@
 | pci_net | 以太网卡（速度 1 Gbps） |
 | Layer 2 switch | 内部二层交换机 |
 
+<center>
+
 ![perspective view](../../../servers_img/CSA1-N8/hw_logical_topology.png)
+</center>
 
 #### 网络拓扑图
 根据硬件结构逻辑图可知，阵列式服务器中集成的ARM核心板与BMC是通过一个二层交换机实现网络互联的，**具体的网络拓扑图联系工程师获取**。。
@@ -81,7 +84,10 @@
 ### 硬盘及指示灯
 
 #### 硬盘位置
+<center>
+
 ![perspective view](../../../servers_img/CSA1-N8/harddisk_location.png)
+</center>
 #### 硬盘配置
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
@@ -113,7 +119,10 @@
 
 #### SATA硬盘指示灯
 
+<center>
+
 ![SATA Hard Disk Indicator Location Diagram](../../../servers_img/CSA1-N8/sata_hdd_indicator.png)
+</center>
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
   <thead>

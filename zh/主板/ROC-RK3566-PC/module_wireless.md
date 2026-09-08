@@ -45,18 +45,27 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 实物图
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec20.png)
+</center>
 
 ### 连接方法
 
 * USB 接口连接
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec20_usb.jpg)
+</center>
 
 
 * SIM 卡连接
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_sim_connection.jpg)
+</center>
 
 ## EC200T 4G模组套件
 
@@ -100,7 +109,10 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 ### 实物图
 
+<center>
+
 ![](../../../rk356x_img/module_wireless_ec200t.jpg)
+</center>
 
 ### 连接方法
 

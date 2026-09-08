@@ -31,7 +31,10 @@
 
 运行 `SD_Firmware_Tool.exe`:
 
+<center>
+
 ![](../../../rk1808_img/sdupdate_firmware1.png)
+</center>
 
 1. 插入 SD 卡。
 2. 从组合框中选择 SD 卡对应的设备。
@@ -40,7 +43,10 @@
 5. 点击 "开始创建" 按钮。
 6. 等待操作完成，直到提示成功对话框出现：
 
+	<center>
+
 	![](../../../rk1808_img/sdupdate_firmware2.png)
+	</center>
 
 7. 在SD卡中生成 `rksdfw.tag` ， `sd_boot_config.config` ， `sdupdate.img` 3个文件。
 8. 拔出 SD 卡。
@@ -62,4 +68,7 @@
 3. 点击 "恢复磁盘" 按钮。
 4. 等待操作完成，直到提示成功对话框出现。
 
+<center>
+
 ![](../../../rk1808_img/sdupdate_firmware3.png)
+</center>

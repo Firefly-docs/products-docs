@@ -23,8 +23,14 @@ ROC-RK3566-PC provides a wealth of interfaces, mainly including:
 
 The details are as follows:
 
-![](../../../rk356x_img/ROC-RK3566-PC/front_interface.jpg)
+<center>
 
+![](../../../rk356x_img/ROC-RK3566-PC/front_interface.jpg)
+</center>
+
+
+<center>
 
 ![](../../../rk356x_img/ROC-RK3566-PC/back_interface.jpg)
+</center>
 

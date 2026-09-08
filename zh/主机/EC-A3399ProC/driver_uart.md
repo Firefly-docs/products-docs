@@ -15,7 +15,10 @@ EC-A3399ProC 支持 SPI 桥接/扩展 4 个增强功能串口（UART）的功能
 
 EC-A3399ProC 开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/uart_interface.jpg)
+</center>
 
 ## DTS 配置
 

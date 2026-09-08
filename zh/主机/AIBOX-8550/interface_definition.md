@@ -16,4 +16,7 @@ AIBOX-8550 提供了丰富的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../qcom_img/AIBOX-8550/interface_zh.jpg)
+</center>

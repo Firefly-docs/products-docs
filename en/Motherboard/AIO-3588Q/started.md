@@ -15,7 +15,10 @@ intelligent NVR and other fields.
 
   
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/iCore-3588Q-front.png) 
+</center>
 
 The [AIO-3588Q](https://www.firefly.store/products/aio-3588q-8k-ai-mainboard) development board consists of the core board **iCore-3588Q** + **MB-Q-RK3588**. AIO-3588Q
 has rich interfaces such as RGMII, SATA3.0, CAN, PCIE3.0, USB3.0, I2C,
@@ -25,7 +28,10 @@ accelerate product implementation. For details, refer to ["interface
 definition"](interface_definition.md).
 
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/AIO-3588Q.jpg)
+</center>
 
 
 ### The AIO-3588Q standard kit contains the following accessories (for reference only): 

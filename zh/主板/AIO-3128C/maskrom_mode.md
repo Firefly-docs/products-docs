@@ -15,10 +15,19 @@ MaskRom 模式是设备变砖的最后一条防线。强行进入 MaskRom 涉及
 
 旧版本（V1.1）：
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/maskrom1.png)
+</center>
 
 新版本（V1.2）：
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/maskrom2.png)
+</center>
 
 这时，设备应该就会进入 MaskRom 模式。
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/win_3128_tool_maskrom.png)
+</center>

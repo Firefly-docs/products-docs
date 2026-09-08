@@ -14,7 +14,10 @@ Driver download: [https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https
 
 ### Physical map
 
+<center>
+
 ![](../../../bm1684_img/module_serial_list.png)
+</center>
 
 ### Connection method
 
@@ -29,4 +32,7 @@ USB to Serial adapter with four pins:
 
 AIO-1684XQ DEBUG port:
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/debug_connection.png)
+</center>

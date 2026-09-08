@@ -2,7 +2,10 @@
 # FAQs
 
 ## 个别 USB3 不支持 USB2.0 设备
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/usb20_no.png)
+</center>
 
 如上图所示，在 4 个 USB3.0 中，位于左上角的 USB3.0 接口是不支持 USB2.0 设备的，而其余 3 个 USB 接口则支持 USB2.0 设备的。
 
@@ -19,7 +22,10 @@
 
 ## 以太网接口的 IP 配置
 
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/ethernet_interfaces.png)
+</center>
 
 - 网口 0 （位于上层）设置了动态 IP，可通过 DHCP 自动获取 IP。  
 

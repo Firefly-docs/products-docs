@@ -25,7 +25,10 @@ kernel/drivers/pinctrl/pinctrl-rockchip.c
 
 开发板有两个电源 LED 灯是 GPIO 口控制的，分别是：
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/Firerprime_leds_schematic.png)
+</center>
 
 从电路图上看，GPIO 口输出低电平时灯亮，高电平时灯灭。
 
@@ -112,7 +115,10 @@ int gpio_direction_output(int gpio, int v);
 如何定义 GPIO 有哪些功能可以复用，在运行时又如何切换功能呢？以 I2C1 为例作简单的介绍。  
 查规格表可知，I2C1_SDA 与 I2C1_SCL 的功能定义如下：
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/driver_table1.png)
+</center>
 
 在 /kernel/arch/arm/boot/dts/rk312x.dtsi 里有：
 

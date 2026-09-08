@@ -16,19 +16,31 @@ The following is the specific operation process of VNC Viewer:
 
 (2) After the installation is complete, open VNC Viewer and skip login:
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4/vnc-01.png)
+</center>
 
 (3) Enter `$bm1684_ip:0` address of EC-A1684JD4:
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4/vnc-02.png)
+</center>
 
 (4) Enter the user and password, both `linaro`:
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4/vnc-03.png)
+</center>
 
 (5) Successfully entered the xfce4 desktop:
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4/vnc-04.png)
+</center>
 
 ## Ubuntu
 To use the X Desktop environment on Ubuntu system, you need to manually install it. Follow these steps, and during the installation process, select `lightdm` as the Display Manager:
@@ -80,16 +92,28 @@ To connect using VNC Viewer:
 
 （2）Open VNC Viewer and skip the login step.
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4/vnc-01.png)
+</center>
 
 （3）Enter the `$bm1684_ip:0` address of your EC-A1684JD4:
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4/ubuntu-vnc-02.png)
+</center>
 
 （4）Click on the circular button next to the `linaro` username, select `xfce`, and enter the username and password (both are `linaro`):
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4/ubuntu-vnc-03.png)
+</center>
 
 （5）You will successfully enter the xfce4 desktop environment.
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4/ubuntu-vnc-04.png)
+</center>

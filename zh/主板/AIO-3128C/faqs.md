@@ -24,7 +24,10 @@ Android系统有很多很强大的功能都需要用到root权限，开发者经
 1. 在Settgins apk里面找到About device然后点击进去
 2. 点击Build number 7次后会提示(you are now a developer)
 3. 然后返回上一级点击Developer options选项后，在选项中点击Enable ROOT就打开root权限功能
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/android_root.png)
+</center>
 
 ## 网络ADB的使用
 adb调试模式有两种：1、使用usb线；2、使用网络。<br />

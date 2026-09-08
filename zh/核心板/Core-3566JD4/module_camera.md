@@ -19,17 +19,29 @@
 
 
 ### 实物图参考
+<center>
+
 ![](../../../rk356x_img/cam_8ms1m_front.jpg)
+</center>
+<center>
+
 ![](../../../rk356x_img/cam_8ms1m_back.jpg)
+</center>
 
 
 ### 连接方法
+<center>
+
 ![](../../../rk356x_img/core_3566jd4_8ms1m.jpg)
+</center>
 
 
 
 ### 实拍图片
+<center>
+
 ![](../../../rk356x_img/camera_8ms1m_shoot.jpg)
+</center>
 
 ## [CAM-2MS2MF 双目摄像头模组](https://item.taobao.com/item.htm?ft=t&id=657886928669) 
 
@@ -48,13 +60,25 @@
 
 
 ### 实物图参考
+<center>
+
 ![](../../../rk356x_img/cam_2ms2m_front.jpg)
+</center>
+<center>
+
 ![](../../../rk356x_img/cam_2ms2m_back.jpg)
+</center>
 
 ### 连接方法
+<center>
+
 ![](../../../rk356x_img/core_3566jd4_2ms2m.jpg)
+</center>
 
 
 
 ### 实拍图片
+<center>
+
 ![](../../../rk356x_img/camera_2ms2m_shoot.png)
+</center>

@@ -27,9 +27,15 @@
 * 1 x PCIe M.2 (5G Module)
 
 The details are shown below:
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q/interface_front_en.png)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/iCore-3576Q/interface_back_en.png)
+</center>
 
 ## Special Notice
 Mini PCIe (4G Module) and PCIe M.2 (5G Module) used same USB bus, so they can not be used at same time.

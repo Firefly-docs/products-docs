@@ -25,7 +25,10 @@ adb devices
 adb shell
 ```
 
+<center>
+
 ![](../../../rk356x_img/Core-3568J/otg_interface.jpg)
+</center>
 
 ### Network the ADB
 

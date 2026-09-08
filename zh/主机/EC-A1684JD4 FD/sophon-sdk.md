@@ -34,7 +34,10 @@ SophonSDK 由 Compiler 和 Library 组成：
 
 > Examples 提供了 SoC 和 x86 环境下的多个例子，供用户在深度学习应用开发过程中参考。这部分例程代码从 SDK 中移至 github 仓库开源：[https://github.com/sophon-ai-algo/examples](https://github.com/sophon-ai-algo/examples)
 
+<center>
+
 ![](../../../bm1684_img/sophonsdk_overview.png)
+</center>
 
 ### SDK 开发包
 
@@ -200,7 +203,10 @@ Sophon SDK 包括基础工具包与高阶工具包。
 * tpu-perf 为模型性能和精度验证提供了一套完整工具包。
 * tpu-kernel 是芯片底层开发接口，既可以调用专用指令实现深度学习业务逻辑的加速，又可以调用通用指令实现客制的各种算法加速。
 
+<center>
+
 ![](../../../bm1684_img/new_SophonSDK.png)
+</center>
 
 ### Sophon SDK 目录
 

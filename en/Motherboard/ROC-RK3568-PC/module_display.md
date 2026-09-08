@@ -58,8 +58,14 @@ index ae57644a105..0cb9124bec8 100644
 ### Real figure
 
 #### MIPI_DSI0 FRONT
+<center>
+
 ![](../../../rk356x_img/ROC-RK3568-PC/module_display_mipi_DSI0_front.jpg)
+</center>
 #### MIPI_DSI0 BACK
+<center>
+
 ![](../../../rk356x_img/ROC-RK3568-PC/module_display_mipi_DSI0_back.jpg)
+</center>
 
 

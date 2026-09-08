@@ -43,7 +43,10 @@ Device needs access to Internet throuth eth0. Run `ifconfig eth0` to get ip addr
 
 Open a browser on any computer within the local network, visit `deviceIp:8000`. For example `172.16.10.100:8000`, you will see the Web Desktop.
 
+<center>
+
 ![](../../../qcom_img/aidlux_login.jpg)
+</center>
 
 The login password is aidlux.
 
@@ -51,9 +54,15 @@ The operation method of Aidlux Web Desktop is not much different from that of Li
 
 The default language may be Chinese, you can change to English in settings:
 
+<center>
+
 ![](../../../qcom_img/aidlux_english.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/aidlux_english_confirm.jpg)
+</center>
 
 The following operations are performed in the Web Desktop:
 
@@ -65,7 +74,10 @@ Aidlite is a AI execution framework, designed to fully utilize the computing uni
 
 Open terminal, navigate to `/usr/local/share/aidlite/examples`, you can see some examples:
 
+<center>
+
 ![](../../../qcom_img/aidlite_demos.jpg)
+</center>
 
 For example, we can try to run the python demo of aidlite_qnn236:
 ```bash
@@ -79,9 +91,15 @@ It will create an image `qnn_yolov5_multi.jpg` under current directory.
 
 You can check the result image with File Browser.
 
+<center>
+
 ![](../../../qcom_img/aidlite_demo_result_location.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/aidlite_demo_result_img.jpg)
+</center>
 
 ### AidGenSE
 
@@ -141,7 +159,10 @@ aidllm restart api
 
 Once the service is successfully started, open NextChat on the desktop to start the conversation
 
+<center>
+
 ![](../../../qcom_img/aidlux_nextchat.jpg)
+</center>
 
 ## Others Usage
 
@@ -151,11 +172,17 @@ You can use File Browser to send file from PC to Web Desktop, or download file f
 
 Open File Browser, it will navigate to `/home/aidlux` by default. Only this directory can receive files. Click the upload button at right top corner:
 
+<center>
+
 ![](../../../qcom_img/aidlux_upload_file.jpg)
+</center>
 
 Select files/folder and click download button at right top corner to download:
 
+<center>
+
 ![](../../../qcom_img/aidlux_download_file.jpg)
+</center>
 
 ### More Tutorial
 

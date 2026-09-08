@@ -78,7 +78,10 @@ sudo snap install snapd_24724.snap
     * `<x>` 是 `Mode ID` (比如, 0, 1, 2, 3 or 4)
 
 ### GUI
+<center>
+
 ![](../../../bm1688_img/nvpmodel_gui.png)
+</center>
 
 * 点击英伟达的图标
 * 点击"Power mode", 选择所需的功率

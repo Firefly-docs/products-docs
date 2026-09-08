@@ -11,6 +11,12 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 * Set `Speed (bsp)` to 1500000.
 * Click `OK` button.
 
+<center>
+
 ![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png)
+</center>
+
+<center>
 
 ![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png)
+</center>

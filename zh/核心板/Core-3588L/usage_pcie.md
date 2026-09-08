@@ -3,11 +3,17 @@
 ## 简介
 AIO-3588L 开发板上有 2 个 PCIe2.0 x 2 (M.2 SATA / PCIe Wifi/BT 模块），如图：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_pcie_interface.png)
+</center>
 
 ## 软件配置
 关于 RK3588 PCIe 的硬件可用资源及软件上 pcie 控制器节点、 PHY 节点对应关系如图：
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_pcie_phy.png)
+</center>
 
 AIO-3588L 开发板上使用情况如下
 

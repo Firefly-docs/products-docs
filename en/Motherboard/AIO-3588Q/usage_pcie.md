@@ -3,15 +3,24 @@
 ## Introduction
 There is 1 PCIe3.0 x 4 interface on the AIO-3588Q development board, as shown in the figure:
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/usage_pcie_interface.jpg)
+</center>
 
 It can be inserted into the NVME protocol M.2 to PCIe3.0 x 4 adapter board + NVME protocol M.2 SSD for use, as shown in the figure:
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/usage_pcie_to_m2.png)
+</center>
 
 ## Software configuration
 The available hardware resources of RK3588 PCIe and the corresponding relationship between the `pcie` controller node and PHY node on the software are shown in the figure:
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/usage_pcie_phy_en.jpg)
+</center>
 
 The PCIe3.0 x 4 interface on the AIO-3588Q development board uses the `PCIe Gen3 x 4 lane` set of resources of the RK3588.
 ### DTS configuration

@@ -19,7 +19,10 @@ If each Portx is assigned a separate display controller, it can support three-sc
 
 * HDMI/ Display Port/ MIPI DSI 
 
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/usage_display_interface.jpg)   
+</center>
 
 
 The following is a basic introduction to the configuration and use of each display output interface. For details, please refer to the file:
@@ -137,26 +140,41 @@ The external screen is  [Firefly V2 Version](../../Accessories/DM-M10R800-V3S/st
 Combining ROC-RK3576-PC  DSI interface and screen timing
 
 * DSI interface
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/usage_display_mipi_v2_interface.png)
+</center>
   
 
 * V2 screen display timing
+<center>
+
 ![](../../../rk3576_img/common/usage_display_mipi_v2_timing.jpg)
+</center>
   
   
 
 * V2 screen power-on timing
+<center>
+
 ![](../../../rk3576_img/common/usage_display_mipi_v2_power_on.png) 
+</center>
   
   
 
 * V2 screen power-down timing
+<center>
+
 ![](../../../rk3576_img/common/usage_display_mipi_v2_power_off.png)
+</center>
   
   
 
 * V2 screen power-up symbol reference
+<center>
+
 ![](../../../rk3576_img/common/usage_display_mipi_v2_power_menu.png)
+</center>
   
 
 Add to the system status tree:

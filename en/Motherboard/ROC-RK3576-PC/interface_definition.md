@@ -22,9 +22,15 @@
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/interface_all1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/ROC-RK3576-PC/interface_all2.jpg)
+</center>
 
 [ROC-RK3576-PC old version interface definition](interface_definition_old.md)
 

@@ -4,13 +4,25 @@ EC-ThorT5000 is equipped with the Nvidia Jetson Thor T5000 module, is available 
 # Interface description
 ## CAN Version
 
+<center>
+
 ![](../../../nvidia_img/EC-ThorT5000/interface_01_en.png)
+</center>
+
+<center>
 
 ![](../../../nvidia_img/EC-ThorT5000/interface_can_en.png)
+</center>
 
 
 ## Ethernet Version
 
+<center>
+
 ![](../../../nvidia_img/EC-ThorT5000/interface_01_en.png)
+</center>
+
+<center>
 
 ![](../../../nvidia_img/EC-ThorT5000/interface_net_en.png)
+</center>

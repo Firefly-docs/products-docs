@@ -29,7 +29,10 @@ ctl.!default {
 ### Mic
 
 * RV1126B有ADC0(PMU)和ADC1，可支持到4通道录音。RV1126BJD4底板具有两个MIC接口。MIC2接到ADC0(PMU)，MIC1接到ADC1。
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/usage_sound.png)
+</center>
 * 固件默认开启4通道录音，2通道录音默认选择MIC2接口。录音功能默认未开启，需手动开启。
 * 如下是开启ADC0即MIC2录音，如果再将ADC1开启，录音即可4通道录音，播放4通道音频需要播放设备支持4通道播放才可。
 * MIC2开启

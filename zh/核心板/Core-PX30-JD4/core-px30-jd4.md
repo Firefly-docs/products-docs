@@ -5,15 +5,30 @@
 ### 四核 64 位工业级核心板
 采用PX30工业级64位低功耗处理器，拥有强大的硬解码能力，以及丰富的接口，仅需扩展功能底板即可快速实现项目研产，可适用于AIOT物联网设备、车载中控、游艺/游戏设备、商显一体设备等应用领域
 
-![](../../../px30_img/core-px30-jd4_front.png)
+<center>
 
+![](../../../px30_img/core-px30-jd4_front.png)
+</center>
+
+
+<center>
 
 ![](../../../px30_img/core-px30-jd4_back.png)
+</center>
 
 ## 产品参数
+<center>
+
 ![](../../../px30_img/core-px30jd4_paramter1.jpg)
+</center>
+<center>
+
 ![](../../../px30_img/core-px30jd4_paramter2.jpg)
+</center>
+<center>
+
 ![](../../../px30_img/core-px30jd4_paramter3.jpg)
+</center>
 
 ## 产品资源
 

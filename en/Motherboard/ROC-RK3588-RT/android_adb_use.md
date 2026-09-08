@@ -4,7 +4,10 @@
 
 ADB (the full name is the Android Debug Bridge) is the command-line debugging tool for Android, and it can complete a variety of functions, such as tracking the system logs, uploading and downloading the files, installing the applications, etc.
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588-RT/upgrade_otg_interface.png)
+</center>
 
 
 When using `adb`, you need to:

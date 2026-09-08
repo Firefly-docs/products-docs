@@ -32,13 +32,19 @@
 
 下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/31#other_11)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_install_RK_USB.jpg)
+</center>
 
 * 下载并运行[AndroidTool](https://community.t-firefly.com/doc/download/31#other_248)的RKDevTool.exe
 
 **<font color=#ff0000 >注意</font>**:不同固件使用的工具版本可能不同,请根据[《使用USB线烧写须知(重要)》]下载对应的版本
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 ### Linux操作系统
 
@@ -70,10 +76,16 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 * 先断开电源适配器连接
 * 双公头USB数据线连接好设备和主机。
 
+    <center>
+
     ![](../../../rk3399_img/AIO-3399J/upgrade_otg_interface.png)
+    </center>
 * 按住设备上的 RECOVERY （恢复）键并保持。
 
+    <center>
+
     ![](../../../rk3399_img/AIO-3399J/upgrade_recovery_reset.png)
+    </center>
 * 插上电源
 * 大约两秒钟后，松开 RECOVERY 键。
 
@@ -93,11 +105,17 @@ reboot loader
 
 通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 如果有进行“进入Loader模式”的操作，仍旧没有看到烧写工具提示LOADER，此时可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](loader_mode.html#windows-cao-zuo-xi-tong)。
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_new_equipment.jpg)
+</center>
 
 **Linux操作系统**
 
@@ -125,7 +143,10 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 3.按`Upgrade`按钮开始升级。
 4.<font color=#ff0000 >如果升级失败，可以尝试先按 `EraseFlash` 按钮来擦除 Flash，然后再升级。一定要根据[《使用USB线烧写须知(重要)》]进行擦除烧写</font>
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_erase_flash.jpg)
+</center>
 
 
 #### 烧写分区映像
@@ -143,7 +164,10 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 3. 确保映像文件的路径正确，映像文件的路径可以点`Path`右边一列的空白单元格来重新选择。
 4. 点击`Run`按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 ### Linux操作系统
 #### 烧写统一固件 update.img
@@ -219,7 +243,10 @@ sudo upgrade_tool ef update.img	# 擦除
 ### 2. 烧写失败分析
 
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
+<center>
+
 ![](../../../rk3399_img/upgrade_downloadfail.jpg)
+</center>
 
 
 

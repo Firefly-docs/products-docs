@@ -31,7 +31,10 @@
 
 * Note: The voltage jumper in the figure below should use 12V
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/module_display_lvds.en.jpg)
+</center>
 
 ## [DM-M10R800 V2 MIPI module](https://www.firefly.store/products/dm-m10r800-v2)
 
@@ -61,4 +64,7 @@
 
 ### Real figure
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/module_display_mipi.jpg)
+</center>

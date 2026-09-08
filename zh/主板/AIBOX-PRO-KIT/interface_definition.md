@@ -23,7 +23,16 @@ AIBOX-PRO-KIT 接口丰富，主要包括：
 
 PS: 如上接口为3588支持，如果核心板使用3576，则硬件上无法使用Wi-Fi、扩展PCIe插槽、SATA模块。
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-up.png)
+</center>
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-front.png)
+</center>
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-down.png)
+</center>
 > 注：加速卡电源目前只用于1828模块，其他模块无需接入。

@@ -14,12 +14,21 @@ The operation steps are as follows:
 1. Connect the power.
 1. Wait a few seconds, stop shorting.
 
+<center>
+
 ![](../../../rk356x_img/Core-3566JD4/maskrom_test_points.jpg)
+</center>
 
 When the board has NOR flash at the same time, if EMMC is empty and there are burned files in NOR flash, it is necessary to short circuit the D0 and GND test points near NOR flash to enter Maskrom mode. And now we have to  refer to the chapter "[Switching Upgrade Storage](03-upgrade_firmware_with_flash)" for upgrade
+<center>
+
 ![](../../../rk356x_img/Core-3566JD4/maskrom_test_points_flash.png)
+</center>
 
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk356x_img/maskrom_zh.png)
+</center>

@@ -53,7 +53,10 @@ LangPath=Language\
 
 Change `Selected=1` to `Selected=2`, and save. From now on, RKDevTool will display in English.Now, run RKDevTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
+<center>
+
 ![](../../../rk3562_img/upgrade_firmware_rkdevtool_en.png)
+</center>
 
 ### Linux
 
@@ -95,11 +98,17 @@ We can use tools to check if the board is in loader mode:
 * Windows
 Use RKDevTool we can see the notice "Found One LOADER Device" if the board is in Loader mode.
 
+<center>
+
 ![](../../../rk3562_img/upgrade_firmware_rkdevtool_loader_en.png)
+</center>
 
 And you will see a new `Rockusb Device` in windows device manager. If not, you can try resinstall RK USB driver.
 
+<center>
+
 ![](../../../rk3562_img/upgrade_firmware_new_equipment.png)
+</center>
 
 * Linux
 
@@ -132,7 +141,10 @@ The steps to upgrade the partition image are as follows:
 4. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
 5. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rk3562_img/upgrade_firmware_rkdevtool_en.png)
+</center>
 
 ### Linux
 
@@ -163,4 +175,7 @@ sudo upgrade_tool ul bootloader.bin #upgrade bootloader
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
+<center>
+
 ![](../../../rk3562_img/upgrade_downloadfail.png)
+</center>

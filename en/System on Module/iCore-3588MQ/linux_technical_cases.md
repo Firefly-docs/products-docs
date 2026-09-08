@@ -222,5 +222,8 @@ setprop debug.sf.fps 1;logcat -s SurfaceFlinger
 ```
 
 One RK3588 using AIC running two Genshin Impact with highest graphic setting at the same time can reach 35+ fps:
+<center>
+
 ![](../../../rk3588_img/common/aic_ys_performance.png)
+</center>
 #!INCLUDE "./rockit_avs.mdpp"

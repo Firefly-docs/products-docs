@@ -19,8 +19,14 @@
 1. 稍候片刻，之后松开镊子。
 
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/maskrom_test_points.png)
+</center>
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3308_img/maskrom_zh.png)
+</center>

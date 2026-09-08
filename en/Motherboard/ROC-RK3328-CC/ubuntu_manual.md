@@ -72,22 +72,37 @@ Hardware requirements:
 * Requires wireless network card and supports mobile hotspot function
 
 Click the `Ethernet Network` icon in the upper right corner of the desktop, select `Edit Connection...`
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot1.png)
+</center>
 
 Select the `+` icon, Add a new connection
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot2.png)
+</center>
 
 Select `Wi-Fi`, then click `Create`
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot3.png)
+</center>
 
 Wi-Fi settings:
 * Set SSID
 * Mode: select Hotspot
 * Device: select wireless network card (wlan)
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot4.png)
+</center>
 
 Choose the appropriate encryption method:
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/Hostspot5.png)
+</center>
 
 Click `Save` **to complete the hotspot creation immediately**
 
@@ -414,7 +429,10 @@ write out.jpg succ!
 ## On-screen keyboard
 
 The official Ubuntu system comes with an on-screen keyboard, you can click to open it in the menu bar:
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/onboard.jpg)
+</center>
 
 ## HDMI_IN Image capture
 
@@ -498,7 +516,10 @@ Playing WAVE'Front_Center.wav': Signed 16 bit Little Endian, Rate 48000 Hz, Mono
 
 In the graphical interface, play the prepared audio file, then click the sound icon to open the `Sound Setting`, and select the `Configuration`. You can see two sound card devices, for example, set to HDMI output audio, then set the HDMI sound card device to `Output`, and set the other sound card to `Off`. (If the HDMI is silent or low, you can try to increase the volume by pressing the physical button on the HDMI screen)
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/sound_setting.jpg)
+</center>
 
 
 ### Kernel configuration
@@ -809,7 +830,10 @@ wait
 
 Just run the script, and the result is as shown in the figure:
 
+<center>
+
 ![](../../../rk3328_img/ROC-RK3328-CC/mipi_csi.jpg)
+</center>
 
 
 ## USB Ethernet

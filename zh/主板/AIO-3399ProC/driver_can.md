@@ -7,10 +7,16 @@ CAN(Controller Area Network)总线，即控制器局域网总线，是一种有�
 CAN模块之间接线，CAN_H接CAN_H，CAN_L接CAN_L,
 
 硬件原理图默认NC了CAN功能。
+<center>
+
 ![](../../../rk3399_img/can3.png)
+</center>
 
 **由于默认硬件接口优先RS485，需要硬件对下方电阻进行修改**
+<center>
+
 ![](../../../rk3399_img/can2.jpg)
+</center>
 
 
 ### 通信测试
@@ -22,7 +28,10 @@ candump can0                                	//在接收端执行candump,阻塞�
 cansend can0 123#1122334455667788             	//在发送端执行cansend，发送报文
 ```
 报文收发成功现象(这里分别用2台AIO-3399ProC做数据传输):
+<center>
+
 ![](../../../rk3399_img/can1.png)
+</center>
 至此，MCP2515模块通信调试已经成功。
 
 在测试的过程中发现，当设置比特率为500Kbps及以上时,如果使用 cansend 的时间间隔过短（使用频率太快），在接收端会出现多收、收错的现象。

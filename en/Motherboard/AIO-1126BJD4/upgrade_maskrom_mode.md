@@ -18,7 +18,10 @@ The operation steps are as follows:
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rv1126b_img/common/upgrade_maskrom_zh.png)
+</center>
 
 Note: If the Windows PC programming tool still doesn't detect the MASKROM device after following the above steps, check if the Windows PC software driver is installed to the latest version.
 
@@ -26,4 +29,7 @@ Click: [Driver Download](https://community.t-firefly.com/en/doc/download/333)
 
 First, click 1 to uninstall the driver, then click 2 to install the driver. After installing the driver, follow the steps above in sequence. The Windows PC programming tool should then be able to recognize the MASKROM device.
 
+<center>
+
 ![](../../../rv1126b_img/common/DriverAssitant.png)
+</center>

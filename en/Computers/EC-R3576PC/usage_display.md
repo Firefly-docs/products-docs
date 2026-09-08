@@ -19,7 +19,10 @@ If each Portx is assigned a separate display controller, it can support three-sc
 
 * HDMI/ Display Port/ MIPI DSI 
 
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/usage_display_interface.png)
+</center>
 
 
 The following is a basic introduction to the configuration and use of each display output interface. For details, please refer to the file:

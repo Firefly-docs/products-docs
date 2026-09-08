@@ -15,16 +15,28 @@ EC-A1684JD4 FD 接口丰富，主要包括：
 - WIFI 天线 x 2
 - 4G 天线
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4-FD/ec-a1684jd4-interface.jpg)
+</center>
 
 ## 天线连接
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4-FD/antenna_connection.png)
+</center>
 
 ## SIM 卡插入
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4-FD/sim_connection.png)
+</center>
 
 ## 串口 Pinout
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684JD4-FD/uart_pinout.png)
+</center>

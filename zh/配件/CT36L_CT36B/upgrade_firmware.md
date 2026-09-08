@@ -31,13 +31,19 @@
 
 下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/238)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 
+<center>
+
 ![](../../../rv1106_img/common/upgrade_firmware_install_rk_usb.jpg)
+</center>
 
 * 运行 SocToolKit 的 SocToolKit.exe
 
 
 
+<center>
+
 ![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png)
+</center>
 
 ### Linux操作系统
 Linux 下无须安装设备驱动
@@ -83,8 +89,14 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 5. 选择 update.img 统一固件文件。
 6. 点击右下角的 `Upgrade` 按钮开始升级。
 
+<center>
+
 ![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png)
+</center>
+<center>
+
 ![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-2.png)
+</center>
 
 #### 烧写分区映像
 烧写分区映像的步骤如下：
@@ -96,8 +108,14 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 5. 选择对应的分区固件文件。
 6. 按右下角的 `Download` 按钮开始升级。
 
+<center>
+
 ![](../../../rv1106_img/CT36L/Partition_writing-1.png)
+</center>
+<center>
+
 ![](../../../rv1106_img/CT36L/Partition_writing-2.png)
+</center>
 
 ### Linux操作系统
 

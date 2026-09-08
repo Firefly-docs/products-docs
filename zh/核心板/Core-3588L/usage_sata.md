@@ -7,7 +7,10 @@ AIO-3588L 开发板上有 1 个 M.2 SATA 接口
 
 默认软件配置成 M.2 SATA3.0 接口, 支持 SATA 协议的 SSD 使用。
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/usage_sata_interface.png)
+</center>
 
 注意事项：
 
@@ -20,7 +23,10 @@ Settings->Connected devices -> M.2 SSD Type
 
 选择需要生效的选项SATA 或 PCIe
 
+ <center>
+
  ![](../../../rk3588_img/Core-3588L/swtich_sata_pcie.jpg)
+ </center>
 
  修改后需要重启系统才会生效
  

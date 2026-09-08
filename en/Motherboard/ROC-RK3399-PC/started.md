@@ -60,5 +60,8 @@ Since the development board is powered by Type-C0, and Type-C1 supports DP video
 
 **Note**: There are two Type-C ports on the board. ** The power input can only be connected to Type-C0 port **, not to Type-C1.
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc3.jpg)
+</center>
  <a id="firmware-format"></a>

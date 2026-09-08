@@ -4,11 +4,17 @@
 
 The AIO-1688JD4 can be connected to a PC using a Type-C cable for serial port debugging:
 
+<center>
+
 ![](../../../bm1688_img/Core-1688JD4/type-c_connection.png)
+</center>
 
 Please note that if you need to enable the Type-C debug port function, you must set the corresponding dip switch to the specified position:
 
+<center>
+
 ![](../../../bm1688_img/Core-1688JD4/debug_switch.png)
+</center>
 
 * ON: Indicates that the Type-C serial port is enabled
 * 1: Indicates that it is used as a standard USB2.0 (Host only) interface
@@ -34,8 +40,14 @@ To here[Download MobaXterm](https://mobaxterm.mobatek.net/)：
 3. Set `Speed (bsp)` For `115200`。
 4. Click `OK` Button.
 
+<center>
+
 ![](../../../bm1688_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../bm1688_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ### Using Serial Port Debugging on Linux
 
@@ -161,7 +173,10 @@ USB to Serial Adapter, with four pins.
 
 AIO-1688JD4 DEBUG port:
 
+<center>
+
 ![](../../../bm1688_img/Core-1688JD4/debug_connection.png)
+</center>
 
 ### Driver Installation
 
@@ -176,4 +191,7 @@ Download the driver and install it.
 
 After plugging in the adapter, the system will prompt that new hardware is found and initialised, after which you can find the corresponding COM port in Device Manager:
 
+<center>
+
 ![](../../../bm1688_img/debug_find_com.jpg)
+</center>

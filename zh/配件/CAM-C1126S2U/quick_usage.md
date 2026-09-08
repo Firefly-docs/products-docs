@@ -51,11 +51,17 @@
 
 6. 首次使用 Web 后端管理平台需要设置登录密码：
 
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_login.png)
+   </center>
 
 7. 登录后，选择设备激活。激活码请联系业务购买。
 
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_activate.png)
+   </center>
 
 8. 激活设备后在 Web 后端管理平台上点击：[人员管理-->人员注册] 来进行人脸注册操作。进行人脸注册操作。
 
@@ -73,7 +79,10 @@
 
 设备外接了 MIPI 屏幕会先看到 Firefly 的开机 logo，稍等片刻界面进入预置的闸机应用，如果闸机应用未授权，会显示未授权或授权失败无法进行人脸识别。
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/authorization.png)
+</center>
 
 
 
@@ -107,13 +116,22 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 
 7. 设置界面，点击右上角按钮可以进入人脸注册：</br>
 
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/arcsetting.png)
+   </center>
 
 8. 识别成功，注册成功后可以回到预览页面查看效果：</br>
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png)
+   </center>
 
 9. 识别记录，识别到人脸后会记录在后台：</br>
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/arcuvc_log.png)
+   </center>
 
 ### Android
 
@@ -129,32 +147,59 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 
 5. 授权，获取设备信息并且联系我们根据设备信息生成离线授权文件：</br>
 
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/androi_activation.png)
+   </center>
 
 6. 预览，授权成功后回到预览画面可以看到人脸识别功能已经被激活：</br>
 
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/android_detect1.png)
+   </center>
 
 7. 设置，点击预览界面右上方齿轮可以进入设置界面，默认管理员密码为 `123456` ：</br>
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/android_password.png)
+   </center>
 
 8. 更换自己公司的` logo `和`公司名`：</br>
 
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/androi_info.png)
+   </center>
 
 9. 根据自己的需求配置自己的识别参数：</br>
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/android_setting.png)
+   </center>
 
 10. 点击右上角人脸注册注册自己第一张人脸：</br>
+    <center>
+
     ![](../../../rv1126_img/CAM-C1126S2U/androi_register.png)
+    </center>
 
 11. 注册成功后，回到预览界面查看效果：</br>
+    <center>
+
     ![](../../../rv1126_img/CAM-C1126S2U/android_detect2.png)
+    </center>
 
 12. 可以进入设置浏览识别成功和失败记录：</br>
+    <center>
+
     ![](../../../rv1126_img/CAM-C1126S2U/androi_log1.png)
+    </center>
+
+    <center>
 
     ![](../../../rv1126_img/CAM-C1126S2U/androi_log2.png)
+    </center>
 
 ## 应用授权
 
@@ -170,7 +215,10 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 
 4. **激活设备后绝对不可以进行`擦除`或者其他修改 `backup` 分区的操作，否则需要重新购买授权激活。**
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/androi_activation.png)
+</center>
 
 ## 设备调试
 
@@ -181,7 +229,10 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 #### 硬件接线
 
 1. 准备一条 TYPE-C 线。TYPE-C 线一端接电脑的 USB 口，另一端接 USB OTG 调试接口。接线如下图：
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/upgrade_otg_interface.jpg)
+</center>
 2. 基于你的系统安装 ADB。
 
 #### Windows 下的 ADB 安装：
@@ -191,7 +242,10 @@ Windows版本下载链接：https://dl.google.com/android/repository/platform-to
 1. 解压 `platform-tools-latest-windows.zip` 到自定义目录
 2. 按键 `windows + r` 打开运行，输入 `sysdm.cpl` ，回车。高级-->环境变量-->系统变量-->双击 Path -->新建
 3. 例：设置如下图所示：
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/set_path.png)
+   </center>
 4. 注：路径需要改成你解压的自定义目录
 5. 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices`
    ```bash
@@ -286,4 +340,7 @@ CAM-C1126S2U 设备需要设置静态 IP 地址来进行网口调试。该调试
 
 5. 串口接线说明：如下图从上往下依次是 `RX, TX, GND`。
 
+   <center>
+
    ![](../../../rv1126_img/CAM-C1126S2U/cam_debug_instruction.png)
+   </center>

@@ -23,28 +23,49 @@ AIO-1684XJD4 提供了丰富的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/interface_front.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/AIO-1684XJD4/interface_side.png)
+</center>
+
+<center>
 
 ![](../../../bm1684_img/AIO-1684XJD4/interface_back.png)
+</center>
 
 ## WiFi 天线连接
 
 天线规格：胶棒天线 5db；扁头
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/wifi_antenna_connection.jpg)
+</center>
 
 ## 4G 模组天线连接
 
 天线规格：胶棒天线 4GLTE-5db；圆头
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/4g_antenna_connection.jpg)
+</center>
 
 ## SIM 卡连接
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/sim_connection.jpg)
+</center>
 
 ## 串口 Pinout
 
+<center>
+
 ![](../../../bm1684_img/AIO-1684XJD4/uart_pinout.png)
+</center>

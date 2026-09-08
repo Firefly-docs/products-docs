@@ -103,7 +103,10 @@ Serial port to USB adapter, there are four pins:
 
 AIO-PX30-JD4 serial port connection diagram:
 
+<center>
+
 ![](../../../px30_img/uart.jpg)
+</center>
 
 ## Parameter Setting
 
@@ -127,7 +130,10 @@ Download driver and install:
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
+<center>
+
 ![](../../../px30_img/debug2.png)
+</center>
 
 ### Install Software
 
@@ -140,7 +146,10 @@ Extract and run `PUTTY.exe`.
 * Set `Speed` to 1500000.
 * Click `Open` button.
 
+<center>
+
 ![](../../../px30_img/debug3.png)
+</center>
 
 ## Use serial debug on Ubuntu
 

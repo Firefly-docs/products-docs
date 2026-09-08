@@ -24,5 +24,8 @@ In addition, you may need the following accessories during use:
     + Serial to usb adapter
 * Shopping List
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288J/started_shipping_list.en.jpg)
+</center>
  <a id="firmware-format"></a>

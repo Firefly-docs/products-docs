@@ -8,11 +8,17 @@ ITX-3588J supports RS232, RS485, UART0, UART1 interfaces
 
 The serial interface diagram of the ITX-3588J development board is as follows:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_interface.jpg)
+</center>
 
 How to use jumper to select RS232 or UART0, RS485 or UART1:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_jump_cap_interface.jpg)
+</center>
 
 * RS232: `8` and `9` are shorted, `11` and `12` are shorted
 * UART0: `8` and `7` are shorted, `11` and `10` are shorted
@@ -21,11 +27,17 @@ How to use jumper to select RS232 or UART0, RS485 or UART1:
 
 For example, if you choose to use RS232 or RS485, the jumper connection diagram is as follows:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_jump_cap.png)
+</center>
 
 RS232 and RS485 are recommended to use <font color=#ff00>official FC10 to DP9 serial port cable</font>. The serial port cable sequence of different manufacturers may be different, which will cause the serial port to fail to communicate.
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_fc10_to_db9.png)
+</center>
 
 ## DTS configuration
 The RS232 interface of the development board is extended by the main control UART0, and the RS485 interface is extended by the main control UART1.
@@ -56,7 +68,10 @@ RS485 or UART1：  /dev/ttyS1
 Users can use different host's USB-to-serial adapters to send and receive data to the serial port of the development board according to different interfaces. For example, the debugging steps of RS485 are as follows:
 
 (1) Connect the hardware
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_rs485_connect.jpg)
+</center>
 
 `RS485` to connect `FC10 to DP9 serial cable`;
 

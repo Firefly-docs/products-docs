@@ -2,7 +2,10 @@
 
 * 接口效果图
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q/usage_camera_mipicsi.jpg)
+</center>
 
 ## PHY 介绍
 RK3576 芯片有 1 个 DCPHY 和 2 个 DPHY, 两个 DPHY 可以工作在两个模式: full mode 和 split mode。DCPHY 则只有 full mode。

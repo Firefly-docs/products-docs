@@ -522,7 +522,10 @@ AIBOX-PRO-KIT has one RS485 interface. If the CPU is RK3588, the device name is 
 
 AIBOX-PRO-KIT supports 4G LTE. In system settings, there are multiple network options. You can enable mobile data here:
 
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO-KIT/4G.png)
+</center>
 
 Check the network interface via command line:
 

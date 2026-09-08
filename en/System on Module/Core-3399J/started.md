@@ -22,5 +22,8 @@ Additionally, the following accessories or devices are needed:
       - USB to serial adapter
 *   Shipping list
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/started_shipping_list.en.jpg)
+</center>
  <a id="firmware-format"></a>

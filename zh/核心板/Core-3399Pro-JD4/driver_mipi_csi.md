@@ -7,7 +7,10 @@ AIO-3399Pro-JD4 开发板分别带有两个MIPI，MIPI最高支持支持4K拍照
 本文以 OV13850 摄像头为例，讲解在该开发板上的配置过程。
 
 ## 接口效果图
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/camera_interface.jpg)
+</center>
 
 ## DTS配置
 
@@ -70,7 +73,10 @@ Linux Kernel-4.4:|
 设置摄像头相关的引脚和时钟，即可完成配置过程。
 从以下摄像头接口原理图可知，需要配置的引脚有：MIPI_PWR, MIPI_PDN0_CAM/MIPI_PDN1_CAM和RST_CAM_0/1。
 * mipi接口
+<center>
+
 ![](../../../rk3399_img/AIO-3399Pro-JD4/module_mipi_sch.png)
+</center>
 * MIPI_PWR 对应 RK3399Pro 的 GPIO0_B5;
 * MIPI_PDN0_CAM/MIPI_PDN1_CAM 对应 RK3399Pro 的 GPIO2_A1 / GPIO2_A0;
 * MIPI_RST0/MIPI_RST1 对应RK3399Pro 的 GPIO1_C4;

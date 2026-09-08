@@ -21,16 +21,28 @@ CMK-OV13850 camera module is supported by default in public firmware.
 
 ### Picture
 
+<center>
+
 ![](../../../rk3399_img/module_camera_ov13850-1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/module_camera_ov13850-2.jpg)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/module_camera_connection.jpg)
+</center>
 
 ### Renderings
+<center>
+
 ![](../../../rk3399_img/module_camera_photographs.png)
+</center>
 
 ## [CAM-8MS1M Monocular camera](https://www.firefly.store/products/cam-8ms1m-camera-module)
 
@@ -48,14 +60,26 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
 
 
 ### Physical map
+<center>
+
 ![](../../../rk3399_img/cam_8ms1m_front.jpg)
+</center>
+<center>
+
 ![](../../../rk3399_img/cam_8ms1m_back.jpg)
+</center>
 
 ### Connection method
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/aio_3399proc_8ms1m.jpg)
+</center>
 
 ### Real pictures
+<center>
+
 ![](../../../rk3399_img/camera_8ms1m_shoot.jpg)
+</center>
 
 ## SV-TAYSH-TQ Camera module
 
@@ -89,15 +113,24 @@ kernel/arch/arm64/boot/dts/rockchip/rk3399pro-firefly-aioc.dtsi
 Modify the above patch and [complie kernel](https://wiki.t-firefly.com/en/AIO-3399ProC/compile_android9.0_firmware.html#manually-compile-aio-3399proc-android-9-0), then reboot after upgrading boot.img.
 
 ### Physical map
+<center>
+
 ![](../../../rk3399_img/camera_SV-TAYSH-TQ.jpg)
+</center>
 
 
 ### Connection method
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399ProC/camera_SV-TAYSH-TQ_connect.en.jpg)
+</center>
 
 ### Real pictures
 
+<center>
+
 ![](../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png)
+</center>
 
 

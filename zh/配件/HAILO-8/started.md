@@ -4,7 +4,10 @@
 ### 产品简介
 HAILO-8 是专为边缘计算设计的 M.2 AI 加速模块，提供最高 26 TOPS INT8 算力，支持 PCIe Gen3 x4，适用于嵌入式设备、工业控制、智能安防和 IoT 推理场景。
 
+<center>
+
 ![](../../../modules_img/HAILO-8/hailo-8.jpg)
+</center>
 
 **核心特点**
 * 算力：最高可达 26 TOPS (INT8)，适合运行复杂的深度学习模型。
@@ -17,7 +20,10 @@ HAILO-8 是专为边缘计算设计的 M.2 AI 加速模块，提供最高 26 TOP
 
 ### 详细参数
 
+<center>
+
 ![](../../../modules_img/HAILO-8/hailo-8_parameter.jpg)
+</center>
 
 |名称|参数|
 |----|----|

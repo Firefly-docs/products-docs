@@ -7,7 +7,10 @@ GPIO，全称 General-Purpose Input/Output（通用输入输出），是一种�
 
 AIO-3588SG 开发板为了方便用户开发使用，引出了一排扩展的GPIO口供用户调试和开发,其对应引脚如下。
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/usage_gpio_interface.png)
+</center>
 
 本文以 GPIO3_B2 和 GPIO3_B7 这两个 GPIO 口为例写一份简单操作 GPIO 口的驱动，在 SDK 的路径为 `kernel-5.10/drivers/gpio/gpio-firefly.c`,以下就以该驱动为例介绍 GPIO 的操作。
 

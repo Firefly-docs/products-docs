@@ -13,7 +13,10 @@ CQ38W-3576开发板采用 TT8563RH 作为RTC(*Real Time Clock*)，TT8563RH 是�
 
 CQ38W-3576 存在电容给RTC供电，可以在短时间内保证RTC运行。
 
+<center>
+
 ![](../../../rk3576_img/CQ38W-3576/usage_rtc_capacitor.jpg)
+</center>
 
 ## RTC驱动
 

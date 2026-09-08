@@ -30,8 +30,14 @@ CORE-PX30-JD4 provides rich interfaces, including :
 
 The details are as follows:
 
+<center>
+
 ![](../../../px30_img/interface.jpg)
+</center>
+<center>
+
 ![](../../../px30_img/back.jpg)
+</center>
 
 ###  Special interface description
 

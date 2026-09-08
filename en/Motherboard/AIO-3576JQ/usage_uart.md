@@ -6,9 +6,15 @@ AIO-3576JQ use `UART10` for `RS485`, which is `/dev/ttyS10` in system. And `UART
 
 Interfaces:
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576JQ/usage_uart_interface.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/iCore-3576JQ/usage_uart_interface2.jpg)
+</center>
 
 ## RS485 Usage
 ```

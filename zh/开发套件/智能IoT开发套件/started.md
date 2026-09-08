@@ -1,7 +1,10 @@
 # 介绍
 
 ## 简介
+<center>
+
 ![](../../../rk3308_img/IoT-Development-Kit/IoT-Development-Kit.jpg)
+</center>
 ### 产品概述
 微型IoT主板可搭配一个或多个模组组合成高性能智能IoT开发套件，支持多种IoT系统、语音系统和服务，以及Buildroot+Qt应用开发，拥有丰富的扩展接口，可快速应用于IoT智能物联网、智能语音识别、人机界面、工业控制、智能机器人等领域
 

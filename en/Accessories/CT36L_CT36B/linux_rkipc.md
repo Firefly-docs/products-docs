@@ -41,7 +41,10 @@ Enter the following address:
 rtsp://(your device’s IP address)/live/0
 ```
 
+<center>
+
 ![](../../../rv1106_img/CT36L/rtsp_preview.png)
+</center>
 
 ## Web page preview
 
@@ -49,7 +52,13 @@ After obtaining the IP address, enter the IP address of the device in the PC bro
 
 **Note: If the web page preview camera screen remains black, please use the VLC software described in the [Video preview] chapter to preview the camera.**
 
+<center>
+
 ![](../../../rv1106_img/CT36L/login_in.png)
+</center>
 
 The preview effect is as follows:
+<center>
+
 ![](../../../rv1106_img/CT36L/web_preview.png)
+</center>

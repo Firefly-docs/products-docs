@@ -46,7 +46,10 @@ rknn/
 ```
 
 **RKNN3 SDK 框图**
+<center>
+
 ![](../../../aibox_img/AIBOX-PRO-KIT/RKNN3-SDK-Block-Diagram.png)
+</center>
 
 ### RKNN3 Model Zoo
 提供 RK1820/RK1828 平台上经典模型的部署示例。

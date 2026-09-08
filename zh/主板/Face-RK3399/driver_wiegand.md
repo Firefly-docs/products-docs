@@ -3,9 +3,15 @@
 ## 简介
 Wiegand（韦根）协议是由摩托罗拉公司制定的一种通讯协议，它适用于涉及门禁控制系统的读卡器和卡片的许多特性；其协议并没有定义通讯的波特率、也没有定义数据长度韦根格式主要定义是数据传输方式：Data0和Data1两根数线分别传输0和1.现在应用最多的是26bit,34bit，36bit，44bit等等。
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/RS485.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/D0_D1.jpg)
+</center>
 ## 调试方法
 
 Face-RK3399的RS485端口是可以复用为韦根协议发送端口从而进行数据的传输。
@@ -31,7 +37,10 @@ echo 卡号 > /sys/devices/platform/wiegand-gpio/wiegand34 //发送韦根34数�
 ```
 如下是韦根发送接口具体接线方法图，注意需要通过USB提供VCC和GND
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_wiegand1.png)
+</center>
  
 
 韦根接口也可作为普通输入输出IO口:
@@ -44,7 +53,10 @@ echo 1 > /sys/devices/platform/wiegand-gpio/D1
  
 如下是具体用D0 D1 IO口控制继电器的连接示意图，注意需要通过USB提供VCC和GND
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/module_D0_D1.png)
+</center>
 
 
 

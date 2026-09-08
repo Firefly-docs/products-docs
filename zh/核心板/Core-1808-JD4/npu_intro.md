@@ -12,7 +12,10 @@ TensorFlow 开发。
 ## 开发流程
 NPU开发完整的流程如下图所示：
 
+<center>
+
 ![](../../../rk1808_img/rknn_development_flow.png)
+</center>
 
 ### 1. 模型训练
 在模型训练阶段，用户根据需求和实际情况选择合适的框架（如Caffe、TensorFlow等）进行训练得到符合需求的模型。也可直接使用已经训练好的模型。

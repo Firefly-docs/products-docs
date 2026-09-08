@@ -36,7 +36,10 @@
 
 下载 [Release_DriverAssistant.zip]，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_install_RK_USB.jpg)
+</center>
 
 ### 连接设备
 
@@ -57,17 +60,26 @@
    * 大约两秒钟后，松开 RECOVERY 键
 
 USB3.0(OTG)接口如下图所示：
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/upgrade_firmware_otg_port.jpg)
+</center>
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，则需要返回上一步重新安装驱动。
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_new_equipment.jpg)
+</center>
 
 ## 烧写固件
 
 下载 [RKDevTool](**若系统是 Android8.1 则需要 2.54 以上版本**)，解压，运行 `RKDevTool_Release_v2.38` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 ### 烧写统一固件 update.img
 
@@ -80,7 +92,10 @@ USB3.0(OTG)接口如下图所示：
 
 **注意：如果你烧写的固件 laoder 版本与原来的机器的不一致，请在升级固件前先执行`擦除 Flash `。**
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_erase_flash.jpg)
+</center>
 
 ### 烧写分区映像
 
@@ -97,7 +112,10 @@ USB3.0(OTG)接口如下图所示：
 3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
 4. 点击`执行`按钮开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 ## Linux 主机烧录固件
 
@@ -191,7 +209,10 @@ sudo upgrade_tool ef update.img	# 擦除
 ### 2. 烧写失败分析
 
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
+<center>
+
 ![](../../../rk3399_img/upgrade_downloadfail.jpg)
+</center>
 
 [《使用USB线烧写须知(重要)》]: 02-upgrade_table.md
 

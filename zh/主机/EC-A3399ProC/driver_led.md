@@ -5,7 +5,10 @@
 EC-A3399ProC 开发板上有 2 个 LED 灯，如下表所示：
 
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/led_pin.jpg)
+</center>
 
 可通过使用 LED 设备子系统或者直接操作 GPIO 控制该 LED。
 

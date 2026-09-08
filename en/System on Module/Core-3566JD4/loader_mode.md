@@ -12,9 +12,15 @@ Here's how to put your device into upgrade mode:
 
 * Disconnect the power adapter first
   * Type-C data cable connects one end to the host and the other end to the development board.
+<center>
+
 ![](../../../rk356x_img/Core-3566JD4/otg_interface.jpg)
+</center>
   * Press the `RECOVERY` button(on the phone jack side)  on the device and hold.
+<center>
+
 ![](../../../rk356x_img/Core-3566JD4/recovery_key.jpg)
+</center>
    * About two seconds later, release the `RECOVERY` button.
 
 ## upgrade firmware

@@ -19,7 +19,10 @@ Note: if you encounter problems that TX and RX cannot input and output when usin
 
 AIO-1808-JD4 Serial port connection diagram:
 
+<center>
+
 ![](../../../rk1808_img/debug1.jpg)
+</center>
 ## Connection parameters
 
 AIO-1808-JD4 uses the following serial port parameters:
@@ -39,7 +42,10 @@ Download driver and install:
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
+<center>
+
 ![](../../../rk1808_img/debug2.png)
+</center>
 
 ### Install software
 
@@ -52,7 +58,10 @@ Extract and run `PUTTY.exe`.
   * Set "Speed" to 1500000.
   * Click "Open" button.
 
+<center>
+
 ![](../../../rk1808_img/debug3.png)
+</center>
 
 ## Use serial debuge on Ubuntu
 

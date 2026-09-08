@@ -13,7 +13,10 @@ EC-A3399ProC supports SPI bridge/extension functions of four enhanced serial por
 
 The serial interface diagram of the EC-A3399ProC development board is as follows:
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/uart_interface.jpg)
+</center>
 
 ## DTS configuration
 

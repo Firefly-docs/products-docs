@@ -41,7 +41,10 @@
 
 * Appearance size diagram
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/size1.png)
+</center>
 
 ## Peripheral Interface
 
@@ -49,10 +52,19 @@ In addition to the basic `Typec otg` interface and debugging serial port, `CAM-C
 
 * Peripheral interface diagram 
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/usb.png)
+</center>
+
+<center>
 
 ![](../../../rv1126_img/CAM-C1126S2U/interface.png)
+</center>
 
 * Extended interface schematic diagram (save as a picture to view locally)
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/extension_port.png)
+</center>

@@ -50,7 +50,10 @@ sudo apt-get install libfmt-dev nlohmann-json3-dev
 
 安装完成后，检查系统 /usr/local/share/ 新增 aidlite 和 aidgen 目录。
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/check_aid_files.png)
+</center>
 
 ## 模型广场
 
@@ -89,13 +92,22 @@ cd ./code
 python3 python/run_test.py --target_model ../models/IQ9/FP16/yolov8s_qcs9100_fp16.qnn236.ctx.bin --imgs ./python/bus.jpg  --invoke_nums 10
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/bus_input.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/AIBOX-9075/yolov8s_run.jpg)
+</center>
 
 * 检查生成的结果 python/result.jpg
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/yolov8s_result.jpg)
+</center>
 
 ### ControlNet
 
@@ -118,13 +130,22 @@ pip install transformers==5.1.0 diffusers==0.36.0
 cd model_farm_controlnet_qcs8550_qnn2.36_w8a16_aidlite
 python3 python/run_test.py
 ```
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/controlnet_input.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/AIBOX-9075/controlnet_run.jpg)
+</center>
 
 * 检查生成的结果 python/output.jpg
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/controlnet_result.jpg)
+</center>
 
 ### ConvNeXt-Tiny
 
@@ -146,9 +167,15 @@ unzip ConvNeXt-Tiny_qcs8550_fp16.zip
 cd ./code
 python3  python/run_test.py --target_model ../models/QCS8550/FP16/convnext_tiny_qcs8550_fp16.qnn236.ctx.bin --imgs ./python/tiger_cat.jpg  --invoke_nums 10
 ```
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/convnext-tiny_input.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/AIBOX-9075/convnext-tiny_run.jpg)
+</center>
 
 
 ### Depth-Anything-V2-Small
@@ -173,13 +200,22 @@ cd code
 cp python/* ./
 python3 run_test.py
 ```
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/depth_input.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/AIBOX-9075/depth_run.jpg)
+</center>
 
 * 检查生成的结果
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/depth_result.png)
+</center>
 
 ### FastSAM-S
 
@@ -201,13 +237,22 @@ unzip FastSAM-S_iq9_fp16.zip
 cd code
 python3 python/run_test.py --target_model ../models/IQ9/FP16/cutoff_fastsam_s_qcs9100_fp16.qnn236.ctx.bin --imgs python/dogs.jpg --invoke_nums 10
 ```
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/fastsam_input.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/AIBOX-9075/fastsam_run.jpg)
+</center>
 
 * 检查生成的结果
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/fastsam_result.jpg)
+</center>
 
 ### YOLO11l-Pose
 
@@ -229,13 +274,22 @@ unzip YOLO11l-Pose_iq9_fp16.zip
 cd code
 python3 python/run_test.py --target_model ../models/IQ9/FP16/yolo11l-pose_qcs9100_fp16.qnn236.ctx.bin --imgs python/bus.jpg --invoke_nums 10
 ```
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/yolo11l-pose_input.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/AIBOX-9075/yolo11l-pose_run.jpg)
+</center>
 
 * 检查生成的结果
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/yolo11l-pose_result.jpg)
+</center>
 
 ### YOLO11s-obb
 **YOLO11s-obb** 是 YOLO 系列中轻量级的定向边界框（Oriented Bounding Box，OBB）检测模型，优化了传统 YOLO 架构以支持旋转物体的高效识别，适合资源受限的嵌入式和移动端应用。
@@ -263,13 +317,22 @@ unzip YOLO11s-obb_qcs8550_fp16.zip
 cd code
 sudo python3 python/run_test.py --target_model ../models/QCS8550/FP16/yolo11s-obb_qcs8550_fp16.qnn236.ctx.bin --imgs python/boats.jpg --invoke_nums 10
 ```
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/yolo11s-obb_input.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/AIBOX-9075/yolo11s-obb_run.jpg)
+</center>
 
 * 检查生成的结果
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/yolo11s-obb_result.jpg)
+</center>
 
 ## AidGen
 
@@ -344,7 +407,10 @@ cd ../../
 ./aidllm/build/test_aidllm abort ./config.json
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/minicpm5-1b_run.jpg)
+</center>
 
 ### Qwen3-8B-CL8192
 
@@ -413,7 +479,10 @@ cd ../../
 ./aidllm/build/test_aidllm abort ./qwen3-8b-encrypt.json
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/qwen3-8b_run.jpg)
+</center>
 
 ### Meta-Llama-3.1-8B-Instruct
 
@@ -460,7 +529,10 @@ cd ../../
 ./aidllm/build/test_aidllm multi_turn ./Meta-Llama-3.1-8B-Instruct-htp.json
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/meta-llama-8b_run.jpg)
+</center>
 
 ### Gemma-2-2B-it
 
@@ -507,7 +579,10 @@ cd ../../
 ./aidllm/build/test_aidllm abort ./gemma-2-2b-it-htp.json
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/gemma-2-2b_run.jpg)
+</center>
 
 ### Falcon3-7B-Instruct
 
@@ -558,7 +633,10 @@ cd ../../
 ./aidllm/build/test_aidllm abort ./falcon3-7b-instruct-htp.json
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/falcon3-7b_run.jpg)
+</center>
 
 ### DeepSeek-R1-Distill-Qwen-7B
 
@@ -605,7 +683,10 @@ cd ../../
 ./aidllm/build/test_aidllm multi_turn DeepSeek-R1-Distill-Qwen-7B-htp.json
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/deepseek-r1-distill-qwen-7b_run.jpg)
+</center>
 
 ### Phi-3.5-mini-instruct
 
@@ -652,7 +733,10 @@ cd ../../
 ./aidllm/build/test_aidllm multi_turn Phi-3.5-mini-instruct-htp.json
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/phi-3.5-mini_run.jpg)
+</center>
 
 ### HY-MT1.5-1.8B
 
@@ -719,7 +803,10 @@ cd ../../
 ./aidllm/build/test_aidllm multi_turn ./config.json
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/hy-mt1.5-1.8b_run.jpg)
+</center>
 
 ### Qwen2.5-VL-3B-Instruct
 
@@ -785,9 +872,15 @@ cd ..
 ./build/test_aidmlm single qwen25vl3b392 Qwen2.5-VL-3B-392x392-8550.json ~/bus_input.jpg "Describe the scene in the picture"
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/bus_input.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/AIBOX-9075/qwen2.5-vl-3b_run.jpg)
+</center>
 
 ## AidGenSE
 
@@ -833,7 +926,10 @@ sudo aidllm stop api
 
 * start api 之后，即可通过 <设备ip>:8888 使用 OpenAI HTTP 请求进行交互
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/aidllm_start_api.png)
+</center>
 
 ## AidStream
 
@@ -868,7 +964,10 @@ cd /usr/local/share/aidstream-gst/conf
 vim aidstream-gst.conf
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/aidstream_conf.png)
+</center>
 
 * 演示
 ```bash
@@ -896,12 +995,18 @@ sudo aid-pkg -i -d aidvoice-sdk_1.4.0.68_arm64_22.04.aid.gpg #安装包需要找
 * ASR
 ASR：在Linux 系统中识别音频文件
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/aidvoice-workflow-asr_zh.png)
+</center>
 
 * TTS
 TTS：在Linux 系统中文字转语音
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/aidvoice-workflow-tts_zh.png)
+</center>
 
 * 例子
 
@@ -946,7 +1051,10 @@ make
 
 * 检查生成的结果
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/Whisper-small_result.png)
+</center>
 
 ### MeloTTS-English（TTS）
 MeloTTS-English 是由 MIT 和 MyShell.ai 联合开发的高质量多语言文本转语音（TTS）模型，支持多种英语口音，包括美式、英式、印度式、澳大利亚式和默认口音。该模型采用先进的 Transformer 架构，融合了 VITS、VITS2 和 Bert-VITS2 等技术，旨在提供自然、流畅的语音合成体验。
@@ -996,4 +1104,7 @@ make
 
 * 检查生成的结果
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/MeloTTS-English_result.png)
+</center>

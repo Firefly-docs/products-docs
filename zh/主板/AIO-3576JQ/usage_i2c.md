@@ -6,7 +6,10 @@ RK3576 有 10 个片上 I2C 控制器，但不是全都能使用，有些复用�
 
 AIO-3576JQ开发板上通过排针引出了 1 个 I2C6
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576JQ/usage_i2c_interface.jpg)
+</center>
 
 用户空间可以使用 i2c-tools 的相关命令读写 I2C 设备。
 

@@ -16,10 +16,19 @@
 ### 技术资料
 [SV-TAYSH-90摄像头模组DataSheet](https://pan.baidu.com/s/1X6opa5DodrNROJ8-CIH_xA)
 ### 实物图
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera1.jpg)
+</center>
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera2.jpg)
+</center>
 ### 连接方法
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera3.jpg)
+</center>
 
 
 ## RMSL201-1301 结构光模组
@@ -43,15 +52,27 @@ RMSL201-1301 是一款成熟的全功能的结构光 3D 摄像机模组。内置
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera_rmsl_01.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Face-RK3399/camera_rmsl_02.jpg)
+</center>
 
 ### 连接图
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399/camera_rmsl_03.jpg)
+</center>
 
 ### 演示
 
+<center>
+
 ![](../../../rk3399_img/Face-RK3399//camera_rmsl_04.jpg)
+</center>
 

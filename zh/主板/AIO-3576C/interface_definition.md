@@ -30,7 +30,10 @@
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3576_img/AIO-3576C/interface_front_zh.jpg)
+</center>
 
 ## 特殊接口说明
 MIPI-DSI 和 LVDS 不能同时使用。

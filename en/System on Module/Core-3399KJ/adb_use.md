@@ -19,7 +19,11 @@ When the device status bar prompts `USB debugging connected`, you can debug:
 adb devices
 adb shell
 `` `
-   ![](../../../rk3399_img/AIO-3399J/otg_interface.jpg)  
+<center>
+
+![](../../../rk3399_img/AIO-3399J/otg_interface.jpg)
+</center>
+
 
 ### Network the ADB
 

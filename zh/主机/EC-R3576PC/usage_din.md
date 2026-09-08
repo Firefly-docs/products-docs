@@ -3,10 +3,16 @@
 EC-R3576PC支持一路光耦隔离输入，其中，IN在硬件原理图中对应于INPUT1，G在硬件原理图中对应于INPUT_COM。
 
 ### 接口图
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/input_interface.jpg)
+</center>
 
 ### 电路原理图
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/input_sch.png)
+</center>
 
 ### 检测
 原理图中的`INPUT1`对应丝印的`IN`，`INPUT_COM`对应`G`。当 `INPUT1(IN)`与`INPUT_COM(G)`导通时，`GPIO3_C0_INPUT` 会检测到低电平；当 `INPUT1(IN)`与`INPUT_COM(G)` 断开时，`GPIO3_C0_INPUT` 会检测到高电平。

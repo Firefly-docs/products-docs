@@ -10,8 +10,17 @@
 ### 参考固件
 公版固件默认支持CMK-OV13850摄像头模组
 ### 实物图
+<center>
+
 ![](../../../rk1808_img/module_camera1.png)
+</center>
 ### 连接方法
+<center>
+
 ![](../../../rk1808_img/module_camera2.jpg)
+</center>
 ### 实拍图片
+<center>
+
 ![](../../../rk1808_img/module_camera3.png)
+</center>

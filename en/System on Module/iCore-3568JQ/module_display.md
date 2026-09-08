@@ -57,6 +57,9 @@ index d784287..fbe7b6b 100755
 
 ### Connection methods
 
+<center>
+
 ![](../../../rk356x_img/iCore-3568JQ/module_display_mipi_DSI.jpg)
+</center>
 
 

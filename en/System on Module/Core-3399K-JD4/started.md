@@ -4,17 +4,29 @@
 Core-3399-JD4 core board uses Rockchip high-performance six-core 64-bit processor RK3399, onboard AI neural network processor NPU SPR5801S, high computing power, ultra-high performance, powerful hardware decoding capabilities and rich expansion interfaces, It can be flexibly applied to industries such as cluster server, computer vision, and integrated commercial display equipment.
 
 **Note: NPU SPR5801S is used for versions above V2.2, SPR2801S for versions below V2.2**
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2up.png)
+</center>
 
 **Note: NPU SPR2801S is used for versions below V2.2**
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2down.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_back.png)
+</center>
 
 
 ### Product parameters
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/core-3399jd4_paramter.en.jpg)
+</center>
 
 ## The standard package of AIO-3399JD4 includes the following accessories:
 
@@ -44,5 +56,8 @@ In addition, during use, you may need the following accessories:
 
 * Shipping list reference
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/started_shipping_list.en.jpg)
+</center>
  <a id="firmware-format"></a>

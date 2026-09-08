@@ -12,7 +12,10 @@ AIO-3399J supports SPI bridge/extension functions of four enhanced serial ports 
 
 The serial interface diagram of the AIO-3399J development board is as follows:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/uart_interface.jpg)
+</center>
 
 ## DTS configuration
 

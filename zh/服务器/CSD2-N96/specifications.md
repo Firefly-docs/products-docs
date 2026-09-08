@@ -55,7 +55,10 @@
 | nic0_5G | 以太网卡（速度 5 Gbps） | 支持 VLAN 划分 |
 | Layer 3 switch | 内部三层交换机 | 支持 VLAN 划分、网络聚合和 QoS 等功能 |
 
+<center>
+
 ![perspective view](../../../servers_img/CSD2-N96/hw_logical_topology.png)
+</center>
 
 #### 网络拓扑图
 根据硬件结构逻辑图可知，阵列式服务器中集成的ARM核心板与BMC是通过一个三层交换机实现告诉网络互联的，该三层交换机支持VLAN划分和网络聚合，这就可以方便用户根据实际业务需求灵活配置网络隔离策略，**具体的网络拓扑图联系工程师获取**。
@@ -79,7 +82,10 @@
 ### 硬盘及指示灯
 
 #### 硬盘位置
+<center>
+
 ![perspective view](../../../servers_img/CSD2-N96/harddisk_location.png)
+</center>
 #### 硬盘配置
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
@@ -111,7 +117,10 @@
 
 #### SATA硬盘指示灯
 
+<center>
+
 ![SATA Hard Disk Indicator Location Diagram](../../../servers_img/CSD2-N96/sata_hdd_indicator.png)
+</center>
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">
   <thead>

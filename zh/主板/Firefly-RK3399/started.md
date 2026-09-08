@@ -21,7 +21,10 @@
 
 *    发货清单参考
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/started_components.jpg)
+</center>
 
 Firefly-RK3399 支持从以下存储设备启动：
 

@@ -25,7 +25,10 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_mipi8.jpg)
+</center>
 
 ## 10.1寸MIPI液晶屏模组
 
@@ -50,7 +53,10 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_2.jpg)
+</center>
 
 ### 固件下载
 * [网盘链接](https://pan.baidu.com/s/1H0wlejja0Jr0ilsAOK-htw) 
@@ -83,7 +89,10 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_v2.jpg)
+</center>
 
 ### 参考资料
 
@@ -110,4 +119,7 @@
   ./FFTools/mkupdate/mkupdate.sh -l rk3399_roc_pc_plus_edp-userdebug
 ```
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_edp101.jpg)
+</center>

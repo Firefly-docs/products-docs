@@ -1,7 +1,10 @@
 # Display 使用
 
 
+<center>
+
 ![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+</center>
 
 
 RK3588S 拥有四路 Video 输出端口，每一个 Video 输出端口都绑定了固定的显示控制器，如 Port0 可以用于与 DP0、DP1、HDMI/eDP0 和 HDMI/eDP1 等显示控制器的连接，其他 Portx 以此类推。  
@@ -29,10 +32,16 @@ RK3588S 拥有四路 Video 输出端口，每一个 Video 输出端口都绑定�
 AIO-3588SJD4  有三种显示输出接口，分别是 HDMI、Display Port 以及 MIPI DSI，可以做到多屏同显/异显，接口图如下所示：  
 
 * HDMI0/ Display Port  
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/usage_display_interface.jpg)  
+</center>
 
 * MIPI DSI0/ MIPI DSI1  
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/usage_display_dsi_interface.jpg)  
+</center>
 
 
 下面对各个显示输出接口的配置和使用作基本的介绍，详细内容可以参考文件：   
@@ -193,26 +202,41 @@ AIO-3588SJD4  有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 La
 结合 AIO-3588SJD4  的 DSI1 接口和屏幕时序
 
 * DSI1 接口
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4/usage_display_mipi_v2_interface.png)
+</center>
   
 
 * V2 屏幕显示时序
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_timing.jpg)
+</center>
   
   
 
 * V2 屏幕上电时序
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)  
+</center>
   
   
 
 * V2 屏幕下电时序
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)  
+</center>
   
   
 
 * V2 屏幕上下电符号参考
+<center>
+
 ![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)
+</center>
   
 
 

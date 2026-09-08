@@ -35,9 +35,15 @@
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/interface_front_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/Core-3588J/interface_back_en.png)
+</center>
 
 [ITX-3588J  old version interface definition](interface_definition_old.md)
 

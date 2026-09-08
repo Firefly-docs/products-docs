@@ -23,7 +23,10 @@ make ARCH=arm64 firefly_linux_defconfig
 make ARCH=arm64 menuconfig
 ```
 之后会进入一个图形化界面进行配置
+<center>
+
 ![](../../../rk3562_img/kernel_menuconfig.jpg)
+</center>
 
 * 使用介绍
 
@@ -39,11 +42,17 @@ make ARCH=arm64 menuconfig
 
 搜索结果中按下最左侧显示的数字，可以直接前往这个配置项所在位置：
 
+<center>
+
 ![](../../../rk3562_img/kernel_menuconfig_search.jpg)
+</center>
 
 属于同一个组的多个选项建议全部打开，例如下图中所有选项都属于 CAN USB 接口支持，可以全部打开以获得完整支持
 
+<center>
+
 ![](../../../rk3562_img/kernel_menuconfig_demo.jpg)
+</center>
 
 对选项有疑问可以移动光标到选项上，按`？`查看说明
 

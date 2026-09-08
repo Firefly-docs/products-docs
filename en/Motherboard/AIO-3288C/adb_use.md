@@ -18,7 +18,10 @@ adb shell
 ```
 
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/adb_connection.png)
+</center>
 
 
 ### Network the ADB

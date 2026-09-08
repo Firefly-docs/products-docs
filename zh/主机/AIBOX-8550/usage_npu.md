@@ -43,7 +43,10 @@ chmod + setup.sh
 
 在局域网内任意电脑打开浏览器，输入 `设备ip:8000` 并访问。比如 `172.16.10.100:8000`，就可看到 Web Desktop 的画面。
 
+<center>
+
 ![](../../../qcom_img/aidlux_login.jpg)
+</center>
 
 登陆密码是 aidlux
 
@@ -59,7 +62,10 @@ Aidlite 是 AI 执行框架，可以调用高通平台的 CPU/GPU/NPU(DSP) 进�
 
 打开终端，前往 `/usr/local/share/aidlite/examples` 可以看到一些例子：
 
+<center>
+
 ![](../../../qcom_img/aidlite_demos.jpg)
+</center>
 
 比如我们可以尝试运行 aidlite_qnn236 的 python 例子
 ```bash
@@ -73,9 +79,15 @@ sudo python qnn_yolov5_multi.py 3
 
 可以使用文件浏览器查看生成的图片结果：
 
+<center>
+
 ![](../../../qcom_img/aidlite_demo_result_location.jpg)
+</center>
+
+<center>
 
 ![](../../../qcom_img/aidlite_demo_result_img.jpg)
+</center>
 
 ### AidGenSE
 
@@ -135,7 +147,10 @@ aidllm restart api
 
 启动服务后，打开桌面上的 NextChat 即可开始对话
 
+<center>
+
 ![](../../../qcom_img/aidlux_nextchat.jpg)
+</center>
 
 ## 其他
 
@@ -145,11 +160,17 @@ aidllm restart api
 
 打开文件浏览器，文件浏览器会默认打开 `/home/aidlux` 文件夹。只有这个文件夹可以接收上传的文件。点击右上角的上传按钮即可上传文件或文件夹。
 
+<center>
+
 ![](../../../qcom_img/aidlux_upload_file.jpg)
+</center>
 
 选中文件，点击右上角下载按钮，即可下载文件。
 
+<center>
+
 ![](../../../qcom_img/aidlux_download_file.jpg)
+</center>
 
 ### 更多教程
 

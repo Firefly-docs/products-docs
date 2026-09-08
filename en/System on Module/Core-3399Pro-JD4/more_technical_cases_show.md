@@ -183,9 +183,18 @@ Use [linphone](https://new.linphone.org/technical-corner/linphone?qt-technical_c
 Account number: 1000
 Password: 1000
 
+<center>
+
 ![](../../../rk3399_img/opensips1.png)
+</center>
+<center>
+
 ![](../../../rk3399_img/opensips2.png)
+</center>
+<center>
+
 ![](../../../rk3399_img/opensips3.png)
+</center>
 
 * Test Results:
 **It can carry out video, voice calls, text message transmission and file transmission.**
@@ -314,7 +323,10 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=640,he
 
 Just run the script, and the result is as shown in the figure:
 
+<center>
+
 ![](../../../rk3399_img/mipi_csi.jpg)
+</center>
 
 
 

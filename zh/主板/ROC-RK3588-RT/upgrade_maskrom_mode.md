@@ -16,4 +16,7 @@
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+</center>

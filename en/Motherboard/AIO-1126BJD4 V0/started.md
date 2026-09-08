@@ -6,9 +6,15 @@ The **AIO-1126BJD4V0** development board consists of a core board (Core-1126BJD4
 
 Front:
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-front.png)
+</center>
 
 Back:
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-back.png)
+</center>
  <a id="firmware-format"></a>

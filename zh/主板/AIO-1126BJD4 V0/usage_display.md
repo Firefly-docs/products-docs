@@ -2,7 +2,10 @@
 
 * 底板与 MIPI 屏幕的硬件连接方式如图所示：
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/mipi_screen.jpg)
+</center>
 
 Debian 固件默认开机会进入到 xfce 桌面系统。由于 RV1126B 芯片没有 GPU 做硬件加速渲染，桌面环境使用 CPU 来渲染，所以在高负载作业情况下，显示可能会有卡顿的现象。
 

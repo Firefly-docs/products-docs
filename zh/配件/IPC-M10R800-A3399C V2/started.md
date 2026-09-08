@@ -8,13 +8,25 @@ GPU。与Cortex-A57 相比，处理性能提升 100%，速度更快，性能更�
 电容式触摸屏，支持 10点触摸，高灵敏触控，操作稳定，800 x 1280 分辨率，全视角高清显示，色彩还
 原逼真，画面清晰流畅。
 
+<center>
+
 ![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_1.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_2.jpg)
+</center>
 
 ## 产品参数
+<center>
+
 ![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s1.jpg)
+</center>
+<center>
+
 ![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s2.jpg)
+</center>
 
 ## 产品资源
 

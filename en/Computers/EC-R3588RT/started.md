@@ -5,8 +5,14 @@ an NPU with 6 TOPS computing power, and up to 32GB of RAM. It supports multiple 
 2.5G/dual Gigabit Ethernet, M.2 WiFi slot, 8K HDMI, and 8K DP output. This device offers a wide range of expansion interfaces, 
 such as M.2 SATA, PCIe, and USB3.0/2.0.
 
+<center>
+
 ![](../../../rk3588_img/EC-R3588RT/EC-R3588RT3.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/EC-R3588RT/EC-R3588RT4.png)
+</center>
 
 
  <a id="firmware-format"></a>

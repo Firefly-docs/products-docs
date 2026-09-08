@@ -10,7 +10,10 @@ In Android system, go to "Settings" -> "Development options", check the "USB Deb
 Use a dual male USB data cable to connnect development board and host.
 
 The OTG port of the AIO-3128C is shown below:
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/AIO-3128C-OTG&USB.jpg)
+</center>
 
 ## Adb Installation for Windows
 

@@ -30,7 +30,10 @@
 
 **注意：** 下图中电压跳线要使用 12V。
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/module_display_mipi_connection.jpg)
+</center>
 
 ## [10.1 寸LVDS屏模组](https://store.t-firefly.com/goods.php?id=80)
 
@@ -73,9 +76,15 @@
 **注意：** 下图中电压跳线要使用 12V。
 旧版本排线连接图
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/module_display_lvds_old.jpg)
+</center>
 
 新版本排线连接图
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/module_display_lvds_new.jpg)
+</center>
 

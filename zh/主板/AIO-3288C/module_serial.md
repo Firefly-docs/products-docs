@@ -14,8 +14,14 @@
 
 ### 实物图
 
+<center>
+
 ![](../../../rk3288_img/module_serial.png)
+</center>
 
 ### 连接方法
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/debug_connection.png)
+</center>

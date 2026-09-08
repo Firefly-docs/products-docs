@@ -1,7 +1,10 @@
 # Display
 
 
+<center>
+
 ![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+</center>
 
 
 RK3588 has four video output ports, each video output port is bound to a fixed display controller, such as Port0 can be used to connect with display controllers such as DP0, DP1, HDMI/eDP0 and HDMI/eDP1, other Portx and so on.
@@ -31,7 +34,10 @@ But from the software point of view, there are the following configuration consi
  AIO-3588JD4 have a HDMI, interface diagram is as follows:
 
 * HDMI
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/usage_display_dsi_interface.jpg)  
+</center>
 
 
 The following is a basic introduction to the configuration and use of each display output interface. For details, please refer to the file:

@@ -14,9 +14,15 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3308_img/module_serial_list.en.jpg)
+</center>
 
 ### Connection Method
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/debug_connection.jpg)
+</center>
 

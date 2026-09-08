@@ -27,7 +27,10 @@ make ARCH=arm64 firefly_defconfig
 ```bash
 make ARCH=arm64 menuconfig
 ```
+<center>
+
 ![](../../../rk356x_img/kernel_menuconfig.jpg)
+</center>
 
 * Usage
 
@@ -43,12 +46,18 @@ Select to build as module (M) requires follow-up installation, so select build-i
 
 Press the number at the left of an option in searching result page to directly jump to where the option locates.
 
+<center>
+
 ![](../../../rk356x_img/kernel_menuconfig_search.jpg)
+</center>
 
 It is recommended to enable some options in same group. For example, all options in the picture below belong to the same function: CAN USB. 
 So enable them all to get full CAN USB support.
 
+<center>
+
 ![](../../../rk356x_img/kernel_menuconfig_demo.jpg)
+</center>
 
 Have doubts about an option, you can move cursor on it and press `?` to see help message.
 

@@ -6,7 +6,10 @@ AIO-3588SJD4-AI supports RS232 and RS485
 
 The serial interfaces are as follows:
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SJD4-AI/uart_interface.jpg)
+</center>
 
 ## DTS Config
 The board's RS232 is from UART9 and RS485 is from UART6.

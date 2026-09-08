@@ -3,7 +3,10 @@
 ## Introduction
 AIO-3128C development board has 2 LEDs, as shown in the table below:
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/driver_table2.png)
+</center>
 
 The user can use LED equipment subsystem or directly operate GPIO to control this LED.
 

@@ -38,7 +38,10 @@ Firefly-RK3399 The default recording input source is an onboard microphone `Buil
 2. Click `advanced` and the `audio input` option will appear;
 3. Select `wired header`
 
+<center>
+
 ![](../../../rk3399_img/faqs_android_audio_input.png)
+</center>
 
 ## How to forcefully enter MaskRom mode
 
@@ -127,7 +130,10 @@ There are many powerful functions of the Android system that require root permis
 2. After clicking on `Build number` 5 times, it will prompt (you are now a developer);
 3. Then return to the previous level and click the option `Developer options`, and click `ROOT access` in the options to open the root authority function.
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+</center>
 ## What should I do if the boot is abnormal and restarts cyclically?
 
 It may be that the power supply current is not enough. Please use a power supply with a voltage of 12V and a current of 2.5A~3A.

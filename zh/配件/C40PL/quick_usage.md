@@ -10,11 +10,20 @@
 3. 设备接入网线，确保和调试使用的 `windows` 电脑处于同一局域网下。要求电脑和 1126 板子是同一个网段。
 4. windows 下载 [RK_IPCamera_Tool-Vx.x.zip](https://community.t-firefly.com/doc/download/101)，解压运行软件。
 5. 使用软件搜索 AI 网络摄像头设备 IP。
+<center>
+
 ![](../../../rv1126_img/C40PL/iptool.png)
+</center>
 6. 在浏览器上输入设备 IP 地址可以进入管理页面，默认帐号密码都为 `admin`。
+<center>
+
 ![](../../../rv1126_img/C40PL/login.png)
+</center>
 7. 使用 RTSP 流播放器可以预览摄像头。
+<center>
+
 ![](../../../rv1126_img/C40PL/vlc.png)
+</center>
 8. 如果外接了 MIPI 显示屏，显示屏上会出现摄像头预览画面。
 
 ## 设备调试
@@ -26,9 +35,15 @@
 #### 硬件接线
 
 1. 准备一条公对公的 USB 线
+<center>
+
 ![](../../../rv1126_img/C40PL/usb.jpeg)
+</center>
 2. USB 线一端接电脑的 USB 口，另一端接 RV1126/RV1109 底板的 USB OTG 调试接口。接线如下图：
+<center>
+
 ![](../../../rv1126_img/C40PL/usb_connect.jpeg)
+</center>
 3. 基于你的系统安装 ADB。
 
 #### Windows 下的 ADB 安装：
@@ -38,7 +53,10 @@ Windows版本下载链接：https://dl.google.com/android/repository/platform-to
 1. 解压 `platform-tools-latest-windows.zip` 到自定义目录
 2. 按键 `windows + r` 打开运行，输入 `sysdm.cpl` ，回车。高级-->环境变量-->系统变量-->双击 Path -->新建
 3. 例：设置如下图所示：
+	<center>
+
 	![](../../../rv1126_img/C40PL/set_path.png)
+	</center>
 4. 注：路径需要改成你解压的自定义目录
 
 5. 以管理员权限打开命令提示符，此时电脑 USB 接口连接了 RV1126 的 USB 调试口。命令提示符终端输入 `adb devices` 
@@ -120,4 +138,7 @@ ssh firefly@192.168.22.33
 5. 根据你的系统下载、安装、打开系统平台支持的串口调试工具（Ubuntu 推荐使用 minicom，Window 推荐使用 putty ）。如果有串口调试工具有软硬件流控的配置项请关闭该功能。
 6. Firefly 的串口模块硬件连接如图所示：
 
+<center>
+
 ![](../../../rv1126_img/C40PL/DEBUG.jpg)
+</center>

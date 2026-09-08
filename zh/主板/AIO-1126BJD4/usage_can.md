@@ -4,7 +4,10 @@ CAN(Controller Area Network)总线，即控制器局域网总线，是一种有�
 如果想了解更多的内容可以参考[CAN应用报告](https://www.ti.com/lit/an/sloa101b/sloa101b.pdf)
 ### 硬件连接
 CAN模块之间接线：CAN_H接CAN_H，CAN_L接CAN_L。
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/usage_can.png)
+</center>
 
 ### DTS 节点配置
 * 公共配置 `kernel-6.1/arch/arm64/boot/dts/rockchip/rv1126b.dtsi`

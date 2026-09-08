@@ -7,12 +7,18 @@ ROC-RK3588-RT 开发板上有 3 个 PCIe2.0 x 3 接口 和 1 个 PCIe3.0 x 4 接
 
 如图：
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png)
+</center>
 
 
 ## 软件配置
 关于 RK3588 PCIe 的硬件可用资源及软件上 pcie 控制器节点、 PHY 节点对应关系如图：
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_phy.png)
+</center>
 
 ROC-RK3588-RT 开发板上的 PCIe3.0 x 4 接口使用了 RK3588 的 `PCIe Gen3 x 4 lane` 和 `PCIe Gen3 x 2 lane`  这组资源。
 ### DTS 配置

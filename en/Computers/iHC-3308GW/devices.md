@@ -8,11 +8,17 @@ The 4G module used is `EC200S-CN`, for `Buildroot` or `Ubuntu` system, after pow
 
 ### SIM card connection
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/sim_connect.png)
+</center>
 
 ### 4G antenna connection
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/4g_antenna.png)
+</center>
 
 ### Manual AT command dial-up networking
 
@@ -63,7 +69,10 @@ usb0 Link encap:Ethernet HWaddr AE:0C:29:A3:9B:6D
 
 - ping external network
 
+  <center>
+
   ![](../../../rk3308_img/IHC-3308GW/ping_usb0.png)
+  </center>
 
 - Other AT commands
 
@@ -192,7 +201,10 @@ The gateway supports one optocoupler isolation interface, where `DI` corresponds
 
 - Circuit Schematic
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/gpio_input.png)
+</center>
 
 * Detection
 
@@ -221,7 +233,10 @@ The gateway supports one relay interface, `DO` corresponds to `OUTPUT1` in the h
 
 * Circuit schematic
 
+<center>
+
 ![](../../../rk3308_img/IHC-3308GW/relay_ctl.png)
+</center>
 
 * control
 

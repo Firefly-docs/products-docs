@@ -37,7 +37,10 @@ Core-3399-JD4 提供了丰富的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/interface.png)
+</center>
 
 除了上述接口，AIO-3399JD4（已贴SPR5801S芯片）支持NPU加速功能。
 
@@ -46,8 +49,14 @@ Core-3399-JD4 提供了丰富的接口，主要包括：
 ## 版本信息
 **注意： V2.2以上版本使用NPU SPR5801S，低于V2.2的是SPR2801S**
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/NPU_v22_cn.png)
+</center>
 
 **注意： 版本低于V2.2的是SPR2801S**
 
+<center>
+
 ![](../../../rk3399_img/Core-3399-JD4/NPU.jpg)
+</center>

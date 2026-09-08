@@ -30,5 +30,11 @@ To upgrade firmware using MicroSD, you need to use a card creation tool to write
 * Note 1: SocToolKit tool version 1.7 or higher is required to support the SD card upgrade boot function.
 * Note 2: This function requires the user to run SocToolKit.exe as an administrator (it will ask by default when opening the tool).
 
+<center>
+
 ![](../../../rv1106_img/CT36L/upgrade_firmware_sd_tool_zh-1.png)
+</center>
+<center>
+
 ![](../../../rv1106_img/CT36L/upgrade_firmware_sd_tool_zh-2.png)
+</center>

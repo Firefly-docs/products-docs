@@ -6,7 +6,10 @@ Debug 串口在调试和排查问题时非常有用，特别是在图形界面�
 
 使用 USB 线连接设备上的 Console 口和电脑：
 
+<center>
+
 ![](../../../qcom_img/AIBOX-9075/debug_console.jpg)
+</center>
 
 ## 驱动安装
 

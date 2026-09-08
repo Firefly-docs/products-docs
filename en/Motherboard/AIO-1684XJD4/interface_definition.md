@@ -23,28 +23,49 @@ AIO-1684XJD4 provides rich interfaces, including:
 
 The specific details are as follows:
 
+<center>
+
 ![Front Interface](../../../bm1684_img/AIO-1684XJD4/interface_front.png)
+</center>
+
+<center>
 
 ![Side Interface](../../../bm1684_img/AIO-1684XJD4/interface_side.png)
+</center>
+
+<center>
 
 ![Back Interface](../../../bm1684_img/AIO-1684XJD4/interface_back.png)
+</center>
 
 ## WiFi Antenna Connection
 
 Antenna Specifications: Stick Antenna 5dB; Flat Head
 
+<center>
+
 ![WiFi Antenna](../../../bm1684_img/AIO-1684XJD4/wifi_antenna_connection.jpg)
+</center>
 
 ## 4G Module Antenna Connection
 
 Antenna Specifications: Stick Antenna 4GLTE-5dB; Round Head
 
+<center>
+
 ![4G Antenna](../../../bm1684_img/AIO-1684XJD4/4g_antenna_connection.jpg)
+</center>
 
 ## SIM Card Connection
 
+<center>
+
 ![SIM Card](../../../bm1684_img/AIO-1684XJD4/sim_connection.jpg)
+</center>
 
 ## UART Pinout
 
+<center>
+
 ![UART Pinout](../../../bm1684_img/AIO-1684XJD4/uart_pinout.png)
+</center>

@@ -13,7 +13,10 @@ Artificially short connect Flash's data pin and ground wire, the system will thi
 Please follow the steps indicated below:    
 
 1. Find the solder joint (CLK, GND) reserved for AIO-RK3328-JD4, on the front of the development board, as shown below:
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/maskrom_point.png)
+</center>
 2. Disconnect all power supply to the device.
 3. Unplug the SD card.
 4. Connect the device and the host with a USB Tyoe-C cable
@@ -23,4 +26,7 @@ Please follow the steps indicated below:
 
 Then the device will enter MaskRom mode.   
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Maskrom_mode.png)
+</center>

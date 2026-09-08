@@ -22,4 +22,7 @@
 * LVDS接口：LVDS接线板上的BL接口与底板上的BL接口相接(注意电源接口方向，即红色线为VCC)
 * 接12V跳线帽：底板上的LVDS接口旁有三个电源跳线接口，需要用跳线帽将12V的跳线接口相接。
 
+<center>
+
 ![](../../../rk1808_img/module_display1.jpg)
+</center>

@@ -36,7 +36,10 @@ BM1684X 芯片包含 3 组 GPIO 控制器，每个控制 32 根 GPIO，与 Linux
  
 
 同时 AIO-1684XQ  通过双层的接线端子预先注册了 4 个 GPIO 可供用户直接操作。
+<center>
+
 ![](../../../bm1684_img/iCore-1684XQ/gpio.png)
+</center>
 
 例如操作  `GPIO5` ： 
 ```

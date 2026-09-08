@@ -11,10 +11,16 @@
 Driver download: [https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 #### Real figure
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_transform1.jpg)
+</center>
 
 #### Connection methods
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/uart.jpg)
+</center>
 
 ## Wireless module
 ### [EC20 4G Module suite](https://www.firefly.store/products/4g-module-kit-eg25-g)
@@ -56,12 +62,21 @@ Driver download: [https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https
   * CCC/ NAL*/ TA
 
 #### Real figure
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_wireless1.png)
+</center>
 #### Connection methods
 * USB connection
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/USB_EC20.jpg)
+</center>
 * Mini-PCIe connection
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Pcie_EC20.jpg)
+</center>
 
 #### Refer to the firmware
 Public firmware supports EC20 4G module by default.
@@ -76,8 +91,14 @@ Public firmware supports EC20 4G module by default.
 **Note :** the AIO-3328-JD4 all-in-one machine needs power supply of 12V/2A for normal operation. If the current is lower than 2A, it may be restarted abnormally due to low current. In order to ensure the normal operation of the development board, please use power supply with voltage of 12V and current of 2a-3a.Recommend the use of Firefly website power accessories.
 
 ### Real figure
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_power_adapter1.png)
+</center>
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_power_adapter2.png)
+</center>
 
 ## [IR remote control](https://www.firefly.store/products/12-key-ir-remote-control)
 ### Product parameters
@@ -88,11 +109,20 @@ Public firmware supports EC20 4G module by default.
 * **description:** support remote startup function of AIO-3328-JD4 development board
 
 ### Real figure
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_ir1.png)
+</center>
 ### The key code
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/module_ir2.png)
+</center>
 *  The IR wiring position of AIO-3328-JD4 is shown in the red box below
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/IR.jpg)
+</center>
 
 ## The cooling suite
 ### Aluminum heat sink
@@ -101,4 +131,7 @@ Public firmware supports EC20 4G module by default.
 * size    : 43mm (L)* 39.5mm(W)*11mm(H)
 
 #### Installation
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/heatsink.jpg)
+</center>

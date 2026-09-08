@@ -22,11 +22,20 @@
 * 1 x PCIe M.2 (5G Module)
 
 The details are shown below:
+<center>
+
 ![](../../../rk3576_img/AIO-3576Q38/interface_front_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/AIO-3576Q38/interface_side_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3576_img/AIO-3576Q38/interface_back_en.jpg)
+</center>
 
 ## Special Notice
 Mini PCIe (4G Module) and PCIe M.2 (5G Module) used same USB bus, so they can not be used at same time.

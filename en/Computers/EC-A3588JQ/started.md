@@ -9,9 +9,18 @@ are also supported. With industrial-grade SoC and precision
 components, it delivers long and stable operation at a temperature
 between -40°C and 85°C , satisfying the industrial-grade needs.
 
+<center>
+
 ![](../../../rk3588_img/EC-A3588JQ/EC-A3588JQ1.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/EC-A3588JQ/EC-A3588JQ2.png)
+</center>
+<center>
+
 ![](../../../rk3588_img/EC-A3588JQ/EC-A3588JQ3-en.jpg)
+</center>
 
 
  <a id="firmware-format"></a>

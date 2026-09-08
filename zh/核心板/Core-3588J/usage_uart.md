@@ -8,11 +8,17 @@ ITX-3588J 支持 RS232、RS485、UART0、UART1接口
 
 ITX-3588J 开发板的串口接口图如下：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_interface.jpg)
+</center>
 
 如何使用跳帽选择 RS232 或 UART0, RS485 或 UART1：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_jump_cap_interface.jpg)
+</center>
 
 * RS232：`8` 和 `9` 短接，`11` 和 `12` 短接
 * UART0：`8` 和 `7` 短接，`11` 和 `10` 短接
@@ -21,11 +27,17 @@ ITX-3588J 开发板的串口接口图如下：
 
 例如，选择使用 RS232、RS485，跳帽连接图如下：
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_jump_cap.png)
+</center>
 
 RS232、RS485 推荐使用<font color=#ff00>官方的 FC10 转 DP9 串口线</font>，不同厂商的串口线线序可能不同，会导致串口无法通信。
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_sata_fc10_to_db9.png)
+</center>
 
 ## DTS配置
 开发板的 RS232 接口由主控的 UART0 扩展出来，而 RS485 接口由主控 UART1 扩展出来。
@@ -56,7 +68,10 @@ RS485 或 UART1：  /dev/ttyS1
 用户可以根据不同的接口使用不同的主机的 USB 转串口适配器向开发板的串口收发数据，例如 RS485 的调试步骤如下：
 
 (1) 连接硬件
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_uart_rs485_connect.jpg)
+</center>
 
 `RS485` 连接 `FC10 转 DP9 串口线`;
 

@@ -6,11 +6,17 @@ AIO-3588Q has two RS232 interfaces (RS232_0, RS232_1) and one RS485 interface
 
 The serial interface diagram of the AIO-3588Q development board is as follows:
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/usage_uart_interface.jpg)
+</center>
 
 RS232 and RS485 are recommended to use <font color=#ff00>official FC10 to DP9 serial port cable</font>. The serial port cable sequence of different manufacturers may be different, which will cause the serial port to fail to communicate.
 
+<center>
+
 ![](../../../rk3588_img/iCore-3588Q/usage_sata_fc10_to_db9.png)
+</center>
 
 ## DTS configuration
 The RS232 interface of the development board is extended by the main control UART0, and the RS485 interface is extended by the main control UART1.

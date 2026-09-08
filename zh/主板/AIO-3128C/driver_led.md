@@ -4,7 +4,10 @@
 
 AIO-3128C 开发板上有 2 个 LED 灯，如下表所示：
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/driver_table2.png)
+</center>
 
 可通过使用 LED 设备子系统或者直接操作 GPIO 控制该 LED。
 

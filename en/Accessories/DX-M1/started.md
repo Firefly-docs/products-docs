@@ -6,11 +6,17 @@
 
 The DEEPX DX-M1 M.2 module brings server-class AI inference directly to edge devices. With only 2 W to 5 W of power consumption, DX-M1 provides 25 TOPS of performance, delivers 20 times higher performance efficiency (FPS/W) than a GPGPU, and maintains GPU-level AI accuracy.
 
+<center>
+
 ![](../../../modules_img/DX-M1/dx-m1.png)
+</center>
 
 ### Specifications
 
+<center>
+
 ![](../../../modules_img/DX-M1/dx-m1-size.png)
+</center>
 
 | Item | Specification |
 | --- | --- |

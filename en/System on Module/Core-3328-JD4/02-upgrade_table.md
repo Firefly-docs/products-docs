@@ -39,7 +39,10 @@ Then choose the flashing tool according to your host PC's OS:
 ## Flash Firmware of Android Note
 <font color=#ff0000>Please read the following table carefully and then upgrade:</font>
 
+<center>
+
 ![](../../../rk3328_img/Core-3328-JD4/Table.png)
+</center>
 
 Note:Loader mode is preferred when both Loader mode and Maskrom mode can burn firmware.
 

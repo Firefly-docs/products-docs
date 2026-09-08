@@ -2,7 +2,10 @@
 ## Product introduction
 ### EC20
 
+<center>
+
 ![](../../../modules_img/EC20/ec20.png)
+</center>
 <br>
 <br>
 This module does not support voice calls and SMS, if you need support, please contact business <sales@t-firefly.com>。
@@ -43,13 +46,22 @@ This module does not support voice calls and SMS, if you need support, please co
 | RV1126_RV1109 | [AIO-1126-JD4](../../../modules_img/EC20/ec20_AIO-1126-JD4_AIO-1109-JD4.png), [AIO-1109-JD4](../../../modules_img/EC20/ec20_AIO-1126-JD4_AIO-1109-JD4.png) | 
 | RK3588 | [ITX-3588J](../../../modules_img/EC20/ec20_ITX-3588J.png), [AIO-3588SJD4](../../../modules_img/EC20/ec20_AIO-3588SJD4.jpg), [AIO-3588Q](../../../modules_img/EC20/ec20_AIO-3588Q.jpg)|
 | RK3576 | [AIO-3576C](_images/ec20_AIO-3576C.jpg)| -->
+<center>
+
 ![](../../../modules_img/EC20/EC20_PCIE.png)
+</center>
 
 #### USB connection
+<center>
+
 ![](../../../modules_img/EC20/EC20_USB.png)
+</center>
 
 ### SIM insertion
+<center>
+
 ![](../../../modules_img/EC20/ec20_sim.png)
+</center>
 
 # 三、Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/134)

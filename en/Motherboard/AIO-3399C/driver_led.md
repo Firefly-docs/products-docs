@@ -4,7 +4,10 @@
 
 There are 2 LEDs on the AIO-3399C development board, as the following table shows:
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399C/led_pin.jpg)
+</center>
 
 Both LEDs can be controlled by using the LED device subsystem or by directly operating GPIO.
 

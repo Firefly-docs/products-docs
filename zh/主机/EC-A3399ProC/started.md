@@ -8,21 +8,39 @@ EC-A3399ProC 六核 64 位 AI 嵌入式主机，基于 AIO-3399ProC 人工智能
 拥有强大的硬件编解码能力，支持 4K VP9、4K 10bit H265/H264 和 1080P 多格式（VC-1，MPEG-1/2/4，VP8）视频解码。
 丰富的扩展接口满足客户的不同的实际需求，而一体化的整体设计极大的缩短客户开发时间周期，基本上就是低门槛高成效的开发产品利器。
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_front.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_back.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_more.png)
+</center>
 
 # 产品参数
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter1.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter2.png)
+</center>
 
 # 其他参数
 
+<center>
+
 ![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter3.png)
+</center>
 
 # 产品资源
 

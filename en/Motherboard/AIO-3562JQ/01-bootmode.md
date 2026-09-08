@@ -6,7 +6,10 @@
 
 AIO-3562JQ has 2 working modes. Under normal circumstances, boot directly into `Normal mode` to start the system normally. If you need to upgrade the board subsystem, you can choose the appropriate `Upgrade mode` to upgrade the firmware according to the situation.
 
+<center>
+
 ![](../../../rk3562_img/working_mode_en.png)
+</center>
 
 ## Normal mode
 

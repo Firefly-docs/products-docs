@@ -34,7 +34,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 SPI 的四种工作模式波形图如下：
 
+<center>
+
 ![](../../../rk3399_img/spi_waveform.jpg)
+</center>
 
 ## 驱动编写
 

@@ -10,5 +10,8 @@ multiple formats of video input and output, support multiple operating
 systems can be applied to ARM PC, edge computing, cloud server,
 intelligent NVR and other fields.
 
+<center>
+
 ![](../../../rk3588_img/Core-3588L/AIO-3588L.png)  
+</center>
  <a id="firmware-format"></a>

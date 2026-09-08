@@ -6,7 +6,10 @@ Test method:
 
 1. Night scene: Cover the photosensitive sensor with your finger to simulate a night scene. The infrared light of the IR infrared mainboard will automatically turn on. The covered part is shown in the figure below:
 
+   <center>
+
    ![](../../../rv1126_img/C40PL/ir.png)
+   </center>
 
 2. Daytime scene: Release your finger to cover the photosensitive sensor to simulate a daytime scene. The infrared light of the IR infrared mainboard will automatically turn off.
 
@@ -24,7 +27,10 @@ The function of the camera automatically switching from color mode to black and 
 
 Enter the IP address in the PC browser. Click [Configuration-->System-->System Settings] to enter the configuration interface. Then turn IRCUT off and on in the marked area of ​​the picture. 0 means turn off IRCUT. 1 means turn on IRCUT.
 
+<center>
+
 ![](../../../rv1126_img/C40PL/ircut.png)
+</center>
 
 ## Code directory
 

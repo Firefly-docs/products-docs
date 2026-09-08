@@ -23,4 +23,7 @@
 
 ### Wiring method
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/aio-3128c_lvds_en.png)
+</center>

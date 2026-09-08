@@ -43,7 +43,10 @@ These are files with independent functions, such as the partition table, bootloa
 2. Double-click the downloaded flashing tool titantools_for_linux_last to begin installation;
 3. After installation, run titanflasher.exe
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/upgrade_firmware_titanflasher_en.png)
+</center>
 
 
 * [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/324)工具
@@ -92,7 +95,10 @@ The steps for flashing the unified firmware package are as follows:
 
 Click the following steps: Dev Tools --> USB Download --> Scan Devices --> Local File --> Select Zip File --> Reboot After Flashing --> Start Flashing.
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/upgrade_firmware_en.png)
+</center>
 
 #### Burning Partition Image
 
@@ -103,7 +109,10 @@ Configuring partition files requires selecting the partition file.
 1. `partition_4M.json` updates the NOR flash on the core board.
 2. `partition_universal.json` updates the UFS partition image on the core board.
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/upgrade_firmware_part_en.png)
+</center>
 
 ## Frequently Asked Questions
 

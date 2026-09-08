@@ -6,7 +6,10 @@ Debug serial port is very useful during debugging and troubleshooting, especiall
 
 Use USB cable to connect the device `Console` port with PC.
 
+<center>
+
 ![](../../../qcom_img/AIBOX-8550/debug_console.jpg)
+</center>
 
 ## Install Driver
 

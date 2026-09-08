@@ -21,11 +21,17 @@ The core logic is filling up methods and parameters of each GPIO bank before cal
 ## Usage
 
 The development board has two power leds controlled by GPIO, which are:  
+<center>
+
 ![](../../../rk3128_img/Core-3128J/Firerprime_leds_schematic.png)
+</center>
 
 From the schematic, the led will be on if outputing low voltage level from GPIO, and off if high voltage level otherwse.
 Additionally, the extension slots have exported lots of GPIOs with multiplex function:  
+<center>
+
 ![](../../../rk3128_img/Core-3128J/hardware_interface_2.png)
+</center>
 
 ## Input/Output
 
@@ -104,7 +110,10 @@ int gpio_direction_output(int gpio, int v);
 
 The gpio has multiplexing functions. How to declare it, and how to switch it at the runtime? We take I2C1 for a brief descrition.
 First look up I2C1_SDA and I2C1_SCL in the data sheet:  
+<center>
+
 ![](../../../rk3128_img/Core-3128J/driver_table1.png)
+</center>
 
 In /kernel/arch/arm/boot/dts/rk312x.dtsi, there is：
 ```

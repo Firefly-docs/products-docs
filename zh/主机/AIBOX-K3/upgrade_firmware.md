@@ -45,7 +45,10 @@
 3. 安装好后运行 titanflasher
 
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/upgrade_firmware_titanflasher_zh.png)
+</center>
 
 
 * [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/324)工具
@@ -94,7 +97,10 @@ fastboot 0
 
 点击步骤：研发工具 --> 单机烧录 --> 扫描设备 --> 本地文件 --> 选择刷机文件 --> 刷完自启动 --> 开始刷机。
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/upgrade_firmware_zh.png)
+</center>
 
 #### 烧写分区映像
 
@@ -105,7 +111,10 @@ fastboot 0
 1. partition_4M.json 是更新核心板上的 nor flash 。
 2. partition_universal.json 是更新核心板上的 UFS 分区映像。
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/upgrade_firmware_part_zh.png)
+</center>
 
 ## 常见问题
 

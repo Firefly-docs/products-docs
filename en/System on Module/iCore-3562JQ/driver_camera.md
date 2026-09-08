@@ -2,7 +2,10 @@
 # Camera
 
 * interface
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/mipicsi.jpg)
+</center>
 
 
 ## MIPI CSI
@@ -40,7 +43,10 @@ Data comes from mipi2_csi2 and mipi3_csi2 gose to rkcif_mipi_lvds2 and rkcif_mip
 
 RK3562 has only one isp, which has 4 nodes: rkisp_vir0~3
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/rk3562_mipi_csi_mode.png)
+</center>
 
 ## Configuration
 

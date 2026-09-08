@@ -8,7 +8,10 @@
 sudo systemctl reboot bootloader
 ```
 
+<center>
+
 ![](../../../qcom_img/AIBOX-8550/download_port.jpg)
+</center>
 
 ### 确认是否成功
 

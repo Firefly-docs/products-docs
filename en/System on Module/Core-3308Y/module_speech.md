@@ -5,11 +5,17 @@
 * Connection method: USB connection
 
 ### Physical map
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/module/module_speech-MOD-MIC-4XAnalog.jpg)
+</center>
 
 ### Digital MIC Instructions for Use
 #### Connection Diagram
+<center>
+
 ![](../../../rk3308_img/Core-3308Y/module/module_speech-MOD-MIC-4XAnalog-connect.jpg)
+</center>
 #### Recording
 
 Check the sound card recognized by the system, where `USB-Audio` is the `USB` sound card

@@ -3,11 +3,20 @@
 ## 简介
 ITX-3588J 开发板上有 4 个 SATA 接口和 1 个 M.2 SATA 接口
 
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_sata_interface.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/Core-3588J/usage_sata_m2_sata.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3588_img/Core-3588J/usage_sata_led.jpg)
+</center>
 
 注意事项：
 
@@ -17,7 +26,10 @@ ITX-3588J 开发板上有 4 个 SATA 接口和 1 个 M.2 SATA 接口
 
 ## 软件配置
 关于 RK3588 SATA 的硬件可用资源及软件上 sata 控制器节点、 PHY 节点对应关系如图：
+<center>
+
 ![](../../../rk3588_img/Core-3588J/usage_sata_phy.png)
+</center>
 ITX-3588J 开发板上的 4 个 SATA 接口和 1 个 M.2 SATA 接口都是 `SATA PM` 扩展芯片扩展出来的接口，`SATA PM` 扩展芯片使用了 RK3588 的 SATA0 这组资源。
 ### DTS 配置
 一般根据原理图在 DTS 中配置供电引脚，选择正确的 sata 控制器节点和 PHY 节点使能，并关闭与其复用的 pcie 控制器节点就可以。

@@ -31,7 +31,10 @@ How to open the root function of the system on the Firefly platform? Firefly has
 2. Click Build number for 7 times and you are now a developer will be prompted.
 3. Then, after clicking Developer options option on the previous level, click Enable ROOT to open the ROOT permissions function
 
+<center>
+
 ![](../../../rk3288_img/faqs_android_root.png)
+</center>
 
 
 ## How to Switch Microphones
@@ -49,7 +52,10 @@ shell@firefly:/ # echo 2 > sys/class/es8323/mic_state/mic_state  //use headphone
 
 Firefly-RK3288 can identify the configuration of the VGA display. However, if failing to read EDID (Extended Display Identification Data) from the display, it will use 1080P resolution by default.You can enter the [Settings] -> [Display] -> [VGA Mode] to  select the switching mode to manually adjust the VGA resolution. <font color=#ff0000 size=2>The Firefly-RK3288-Reload does not support VGA output, but supports dual HDMI output.</font>
 
+<center>
+
 ![](../../../rk3288_img/faqs_vga.png)
+</center>
 
 ## Firefly-RK3288-Reload dual HDMI output and HDMI input
 
@@ -63,7 +69,10 @@ Firefly-RK3288 and Firefly-RK3288-Reload does not support Bluetooth voice calls 
 
 The fan of Firefly-RK3288 operating voltage is 5V, the black power line of fan connect to FAN- of Firefly-RK3288, and the red power line of fan connect to FAN+ of Firefly-RK3288. the FAN- and FAN+ directly connected with the Firefly-RK3288's power supply module，so the fan can not be controlled by software.
 
+<center>
+
 ![](../../../rk3288_img/faqs_fan.jpg)
+</center>
 
 
 

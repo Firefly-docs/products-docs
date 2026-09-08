@@ -3,10 +3,16 @@
 EC-R3576PC supports an optocoupler isolation input, where IN corresponds to INPUT1 in the hardware schematic diagram and G corresponds to INPUT_COM in the hardware schematic diagram.
 
 ### Interface Diagram
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/input_interface.jpg)
+</center>
 
 ### schematic diagram
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/input_sch.png)
+</center>
 
 ### Detect
 The `INPUT1` in the schematic corresponds to the `IN` for silk screen printing, and the `INPUT_COM` corresponds to `G`. When `INPUT1(IN)` and INPUT_COM(G) are conducting, `GPIO3_C0_INPUT` will detect a low level; When `INPUT1(IN)` and INPUT_COM(G) are disconnected, `GPIO3_C0_INPUT` will detect a high level.

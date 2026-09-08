@@ -1,7 +1,10 @@
 # Display 使用
 
 
+<center>
+
 ![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+</center>
 
 
 RK3588 拥有四路 Video 输出端口，每一个 Video 输出端口都绑定了固定的显示控制器，如 Port0 可以用于与 DP0、DP1、HDMI/eDP0 和 HDMI/eDP1 等显示控制器的连接，其他 Portx 以此类推。  
@@ -29,7 +32,10 @@ RK3588 拥有四路 Video 输出端口，每一个 Video 输出端口都绑定�
 AIO-3588JD4 有一个 HDMI 接口，接口图如下所示：  
 
 * HDMI
+<center>
+
 ![](../../../rk3588_img/Core-3588JD4/usage_display_dsi_interface.jpg)  
+</center>
 
 
 下面对各个显示输出接口的配置和使用作基本的介绍，详细内容可以参考文件：

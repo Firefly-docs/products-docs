@@ -15,11 +15,17 @@
 3. 设备插入电源上电
 
 * 以下为 Core-1126-JD4 上的两个测试点  
+<center>
+
 ![](../../../rv1126_img/Core-1126-JD4/upgrade_maskrom_test_points_core.png)
+</center>
 
 
 
 
 此时设备就会进入 MaskRom 模式。
 
+<center>
+
 ![](../../../rv1126_img/common/upgrade_maskrom_zh.png)
+</center>

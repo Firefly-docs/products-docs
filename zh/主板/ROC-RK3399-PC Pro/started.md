@@ -3,9 +3,15 @@
 
 ROC-RK3399-PC Pro 是一款迷你 PC 主板,体积只有小型手机的大小。
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-Pro/front_interface_en.png)
+</center>
+
+<center>
 
 ![](../../../rk3399_img/ROC-RK3399-PC-Pro/back_interface_en.png)
+</center>
 
 * Dual-core Cortex-A72 up to 1.8GHz & Quad-core Cortex-A53 up to 1.5GHz 
 * Mali-T864 GPU -- 支持 OpenGL ES1.1/2.0/3.0、OpenCL1.2、DirectX11.1

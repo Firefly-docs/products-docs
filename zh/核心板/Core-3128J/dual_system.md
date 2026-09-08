@@ -77,7 +77,10 @@ FIRMWARE_VER:4.4.2
 
 转换成表格比较直观些：    
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/table1.png)
+</center>
 
 * `uboot` ：是用来存放第二阶段(stage two) U-Boot，如果开发板用的是 eMMC 分区，其 U-Boot 就不需要分阶段。
 * `misc` ：非常有用的一个分区，下面会介绍到，用来控制启动模式的。
@@ -96,7 +99,10 @@ FIRMWARE_VER:4.4.2
 
 我们需要增加一个名为 'linuxroot' 的新分区，用来存放 Linux 的根文件系统。为了使分区保持兼容，我们选择了替换 radical_update 分区，容量给够 3G ： 
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/table2.png)
+</center>
 
 这样，修改后的 parameter 文件，其 CMDLINE 更改为：    
 ```
@@ -141,7 +147,10 @@ misc.img 是初次烧写固件时写到 misc 分区的映像，用 hexdump 命�
 采用这样的修改，用 Linux 系统的 initramfs 有选择地去加载安卓的急救系统，便可以达到要求。Linux 系统的 initramfs 的 init程序是 shell 脚本，修改和调试起来非常方便安卓系统的急救程序无需任何修改。  
 剩下要做的，就要修改安卓系统的切换系统菜单项，将入切换到 Linux 系统的特殊标志内容“firefly-linux”写到 misc 分区即可。如此修改，可以最大程序上兼容原有系统： 
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/table3.png)  
+</center>
 
 
 实现见以下提交: https://github.com/TeeFirefly/initrd/commit/24035459bbb5d84e4408e0901e488d88d5014af0

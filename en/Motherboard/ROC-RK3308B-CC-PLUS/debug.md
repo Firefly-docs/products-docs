@@ -26,7 +26,10 @@ Serial port to USB adapter, there are four pins:
 
 ROC-RK3308B-CC-PLUS serial port connection diagram:
 
+<center>
+
 ![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/debug_connection.jpg)
+</center>
 
 ## Parameter Setting
 
@@ -52,7 +55,10 @@ Download driver and install:
 
 After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
+<center>
+
 ![](../../../rk3308_img/debug_find_com.png)
+</center>
 
 ### Install Software
 
@@ -65,8 +71,14 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 * Set `Speed (bsp)` to 1500000.
 * Click `OK` button.
 
+<center>
+
 ![](../../../rk3308_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../rk3308_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ## Use serial debug on Ubuntu
 

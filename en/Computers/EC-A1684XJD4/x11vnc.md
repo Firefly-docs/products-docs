@@ -52,16 +52,28 @@ To connect using VNC Viewer:
 
 （2）Open VNC Viewer and skip the login step.
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684XJD4/vnc-01.png)
+</center>
 
 （3）Enter the `$bm1684_ip:0` address of your EC-A1684XJD4:
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684XJD4/ubuntu-vnc-02.png)
+</center>
 
 （4）Click on the circular button next to the `linaro` username, select `xfce`, and enter the username and password (both are `linaro`):
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684XJD4/ubuntu-vnc-03.png)
+</center>
 
 （5）You will successfully enter the xfce4 desktop environment.
 
+<center>
+
 ![](../../../bm1684_img/EC-A1684XJD4/ubuntu-vnc-04.png)
+</center>

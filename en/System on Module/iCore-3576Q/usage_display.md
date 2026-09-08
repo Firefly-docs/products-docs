@@ -68,7 +68,10 @@ AIO-3576Q has a Display Port display output interface, supports DP TX 1.4a proto
 
 * DP interface
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q/usage_display_dp_interface.png)
+</center>
 
 #### Software configuration
 
@@ -123,7 +126,10 @@ The firmware supports screen by default is [Firefly V3S Version](https://wiki.t-
 
 * DSI interface
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q/usage_display_mipi_v2_interface.png)
+</center>
   
 Please refer to the device-tree file:
 ```

@@ -6,11 +6,17 @@
 
 **CORE-1126BJD4** 正面：
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/CORE-1126BJD4-front.png)  
+</center>
 
 **CORE-1126BJD4** 背面：
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/CORE-1126BJD4-back.png)  
+</center>
 
 ### AIO-1126BJD4
 
@@ -18,11 +24,17 @@ AIO-1126BJD4 开发板由核心板 CORE-1126BJD4 + 新底板 MB-JD4-RV1126B 组�
 
 AIO-1126BJD4 正面：
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/AIO-1126BJD4-front.png)  
+</center>
 
 AIO-1126BJD4 背面：
 
+<center>
+
 ![](../../../rv1126b_img/CORE-1126BJD4/AIO-1126BJD4-back.png)
+</center>
 
 ### AIO-1126BJD4V0
 
@@ -32,9 +44,15 @@ AIO-1126BJD4V0 开发板由核心板 CORE-1126BJD4 + 旧底板 MB-JD4-RV11091126
 
 AIO-1126BJD4V0 正面：
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-front.png)  
+</center>
 
 AIO-1126BJD4V0 背面：
 
+<center>
+
 ![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-back.png)
+</center>
  <a id="firmware-format"></a>

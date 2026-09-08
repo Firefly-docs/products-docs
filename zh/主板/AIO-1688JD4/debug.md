@@ -4,11 +4,17 @@
 
 AIO-1688JD4 可以使用 Type-C 线连接到 PC 机进行串口调试：
 
+<center>
+
 ![](../../../bm1688_img/AIO-1688JD4/type-c_connection.png)
+</center>
 
 请注意，如果需要开启 Type-C 的 debug 口功能，需要把相应的拨码开关拨到指定的位置：
 
+<center>
+
 ![](../../../bm1688_img/AIO-1688JD4/debug_switch.png)
+</center>
 
 * ON：表示使能 Type-C 串口
 * 1：表示用作普通的 USB2.0（仅做 Host）接口
@@ -34,8 +40,14 @@ Windows 上一般用 putty 或 SecureCRT 软件。其中我们推荐使用 MobaX
 3. 设置 `Speed (bsp)` 为 `115200`。
 4. 点击 `OK` 按钮。
 
+<center>
+
 ![](../../../bm1688_img/debug_set_MobaXterm1.PNG)
+</center>
+<center>
+
 ![](../../../bm1688_img/debug_set_MobaXterm2.PNG)
+</center>
 
 ### Linux 上使用串口调试
 
@@ -161,7 +173,10 @@ USB 转串口适配器，有四个引脚：
 
 AIO-1688JD4 DEBUG 口：
 
+<center>
+
 ![](../../../bm1688_img/AIO-1688JD4/debug_connection.png)
+</center>
 
 ### 驱动安装
 
@@ -176,4 +191,7 @@ Windows 系统需要安装适配器驱动（Linux 则不需要）：
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：
 
+<center>
+
 ![](../../../bm1688_img/debug_find_com.jpg)
+</center>

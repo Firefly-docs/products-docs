@@ -20,6 +20,12 @@
 
 The details are as follows:
 
+<center>
+
 ![](../../../rk3506_img/ROC-RK3506J-CC/interface_all1_en.jpg)
+</center>
+
+<center>
 
 ![](../../../rk3506_img/ROC-RK3506J-CC/interface_all2_en.jpg)
+</center>

@@ -41,14 +41,20 @@ Firefly-RK3128 使用以下串口参数：
 * PL2303 [[2]](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
 
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：  
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_com.png) 
+</center>
 
 ### 安装软件
 
 Windows 上一般用 putty 或 SecureCRT。其中 putty 是开源软件，在这里介绍一下，SecureCRT 的使用方法与之类似。  
 到这里 [[3]](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 下载 putty，建议下载 putty.zip，它包含了其它有用的工具。  
 解压后运行`PUTTY.exe`，选择 Connection type（连接类型）为 Serial（串口），将 Serial line（串口线）设置成设备管理器所看到的  COM 口，并将 Speed（波特率）设置为 115200，按 Open（打开）即可:  
+<center>
+
 ![](../../../rk3128_img/Core-3128J/win_putty.png) 
+</center>
 ### Ubuntu 上使用串口调试
 
 在 Ubuntu 上可以有多种选择：  

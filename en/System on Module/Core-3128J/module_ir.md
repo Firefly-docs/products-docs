@@ -12,8 +12,14 @@
 
 ### Picture
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_ir1.png)
+</center>
 
 ### Key code
 
+<center>
+
 ![](../../../rk3128_img/Core-3128J/module_ir2.png)
+</center>

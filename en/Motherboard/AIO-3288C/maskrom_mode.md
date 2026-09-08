@@ -17,9 +17,15 @@ The operation steps are as follows:
 
 AIO-3288C:
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/maskrom_test_points.png)
+</center>
 
 
 At this point, the device should go into `MaskRom mode`.
 
+<center>
+
 ![](../../../rk3288_img/maskrom.png)
+</center>

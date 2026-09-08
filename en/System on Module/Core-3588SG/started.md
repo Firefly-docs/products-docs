@@ -11,7 +11,10 @@ multiple formats of video input and output, support multiple operating
 systems can be applied to ARM PC, edge computing, cloud server,
 intelligent NVR and other fields.
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/Core-3588SG-B.png)  
+</center>
 
 The AIO-3588SG development board consists of the core board **Core-3588SG** + **MB-G-
 RK3588S**. AIO-3588SG
@@ -22,7 +25,10 @@ accelerate product implementation. For details, refer to ["interface
 definition"](interface_definition.md).
 
 
+<center>
+
 ![](../../../rk3588_img/Core-3588SG/AIO-3588SG-B-1.png)
+</center>
 
 ### The AIO-3588SG standard kit contains the following accessories (for reference only): 
 

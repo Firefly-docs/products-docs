@@ -33,7 +33,10 @@ Kernel：
 
 从以下摄像头接口原理图可知，需要配置的引脚有：AF_VDD28、DOVDD18、AVDD28、DVDD12、PWDN1、RST 和 MCLK。
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_1.png)
+</center>
 
 * AF_VDD28 可不做配置
 
@@ -41,27 +44,42 @@ Kernel：
 
 DOVDD18、AVDD28 由 DVP_PWR 控制：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_2.png)
+</center>
 
 DVP_PWR 对应 RK3288 的 GPIO0_B3：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_3.png)
+</center>
 
 * DVDD12
 
 DVDD12 由 CIF_POWER 引脚控制：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_4.png)
+</center>
 
 CIF_POWER 对应 RK3288 上的 GPIO7_B4 引脚：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_5.png)
+</center>
 
 * PWDN1、RST
 
 PWDN1、RST 对应 GPIO2_B6、GPIO2_B7 引脚：
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_6.png)
+</center>
 
 在开发板中，除了 DVDD12 (CIF_POWER) 要在 DTS 和驱动中设置，其它引脚都是在 cam_board.xml 中设置。
 ## 配置步骤

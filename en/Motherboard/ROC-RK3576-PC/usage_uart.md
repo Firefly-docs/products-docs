@@ -4,7 +4,10 @@
 
 ROC-RK3576-PC The following figure shows the serial port of the hardware version：
 
+<center>
+
 ![](../../../rk3576_img/ROC-RK3576-PC/usage_uart_interface.jpg)
+</center>
 
 ## DTS config
 

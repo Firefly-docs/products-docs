@@ -33,4 +33,7 @@ Firefly-RK3399 provides a wealth of interfaces, including:
 
 In addition, there is a row of extended interfaces. Specifically as follows:
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/interface.jpg)
+</center>

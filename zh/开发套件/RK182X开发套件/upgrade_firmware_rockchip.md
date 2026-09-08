@@ -29,7 +29,10 @@
 1. 下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/358)，解压后运行 `DriverInstall.exe`。
 2. 为确保所有设备使用更新后的驱动，请先选择“驱动卸载”，再选择“驱动安装”。
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_install_rk_usb.jpg)
+</center>
 
 3. 可以单独下载 [AndroidTool](https://community.t-firefly.com/doc/download/358)，解压后运行 `RKDevTool_Release_v2.xx` 目录中的 `RKDevTool.exe`。如果使用 Windows 7/8，请以管理员身份运行。
 
@@ -45,7 +48,10 @@ ITX-3588J_Android12_HDMI_220308
     └── RKDevTool_Release_v2.84.zip
 ```
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 #### Linux
 
@@ -87,11 +93,20 @@ RK182X 开发套件不支持 Loader 模式。通过 USB 升级固件时，需要
 6. 使用烧写工具检查是否发现 MaskRom 设备。
 7. 设备被识别后，松开按键。
 
+<center>
+
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_sel.png)
+</center>
+
+<center>
 
 ![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png)
+</center>
+
+<center>
 
 ![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+</center>
 
 ### 检查 MaskRom 模式
 
@@ -118,7 +133,10 @@ sudo upgrade_tool
 3. 点击 **Upgrade** 开始烧写。
 4. 如果升级失败，可以先点击 **EraseFlash** 擦除 Flash，再重新升级。
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_erase_flash_zh.png)
+</center>
 
 #### 烧写分区镜像
 
@@ -127,7 +145,10 @@ sudo upgrade_tool
 3. 确认每个镜像文件的路径正确。
 4. 点击 **Run** 开始升级，升级结束后设备会自动重启。
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+</center>
 
 ### Linux
 
@@ -177,4 +198,7 @@ sudo fastboot reboot
 
 如果烧写过程中出现 `Download Boot Fail` 或其他错误，请先检查 USB 线缆和电脑 USB 接口。线材质量差或 USB 接口供电能力不足都可能导致烧写失败。
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_firmware_download_fail.png)
+</center>

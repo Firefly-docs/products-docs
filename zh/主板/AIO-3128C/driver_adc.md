@@ -8,7 +8,10 @@ AIO-3128C 开发板有一个 3 通道（0/1/2)、10 比特精度的 SAR ADC (Suc
 * ADCIN1: 内部作 Recovery 键检测
 * ADCIN2: 未引出来
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/driver_adc.png)
+</center>
 
 本文主要介绍 ADC 的基本使用方法。
 

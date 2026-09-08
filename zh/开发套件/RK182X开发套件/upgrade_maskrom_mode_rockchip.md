@@ -16,7 +16,10 @@ RK182X 开发套件不支持 Loader 模式。通过 USB 升级固件或恢复 bo
 
 此时主板已经准备好烧写固件。
 
+<center>
+
 ![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+</center>
 
 ## 检查 MaskRom 模式
 

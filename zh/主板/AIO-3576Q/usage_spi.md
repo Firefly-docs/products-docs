@@ -4,7 +4,10 @@
 
 SPI 是一种高速的，全双工，同步串行通信接口，用于连接微控制器、传感器、存储设备等。 AIO-3576Q 开发板提供了 SPI 接口，具体位置如下图：
 
+<center>
+
 ![](../../../rk3576_img/iCore-3576Q/usage_spi_interface.jpg)
+</center>
 
 
 ## SPI 工作方式
@@ -32,7 +35,10 @@ CPOL＝1，CPHA＝1		SPI_MODE_3
 
 SPI 的四种工作模式波形图如下：
 
+<center>
+
 ![](../../../rk3576_img/common/usage_spi_waveform.jpg)
+</center>
 
 ## 接口使用
 

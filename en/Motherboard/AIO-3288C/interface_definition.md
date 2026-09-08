@@ -4,4 +4,7 @@
 
 AIO-3288C provides a wealth of interfaces, The details are as follows:
 
+<center>
+
 ![](../../../rk3288_img/AIO-3288C/interface_definition_en.png)
+</center>

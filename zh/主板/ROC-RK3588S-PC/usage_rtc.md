@@ -14,7 +14,10 @@ ROC-RK3588S-PC开发板采用HYM8563作为RTC(*Real Time Clock*)，HYM8563是一
 
 ROC-RK3588S-PC 添加电容供电给RTC如下图，可以在短时间内保证RTC运行。
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588S-PC/usage_rtc_capacitor.jpg)
+</center>
 
 ## RTC驱动
 

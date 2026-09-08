@@ -29,7 +29,10 @@
     + 串口转 USB 适配器
 
 **发货清单参考如下**
+<center>
+
 ![](../../../rk3128_img/Core-3128J/started_1.jpg)
+</center>
 
 ## 开机
 

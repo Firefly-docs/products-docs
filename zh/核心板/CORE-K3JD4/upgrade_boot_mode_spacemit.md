@@ -10,11 +10,17 @@
 
 操作步骤如下：
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/upgrade.png)
+</center>
 
 1. PC 接入 TYPE-C 线到板子的 TYPE-C USB3.0 口。注意不要接错到 USB 串口上。
 2. 按 boot 按键，然后进行上电。
 3. 此时设备就会进入硬件烧录模式。
 4. 点击烧写工具的《扫描设备》进行设备识别。
 
+<center>
+
 ![](../../../aibox_img/AIBOX-K3/upgrade_maskrom_zh.png)
+</center>

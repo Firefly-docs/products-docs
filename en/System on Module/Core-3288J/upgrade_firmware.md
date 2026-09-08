@@ -36,7 +36,10 @@ There are two types of firmware files:
 Download [Release_DriverAssistant.zip], extract, and then run the DriverInstall.exe inside.
 In order for all devices to use the updated driver, first select `Driver uninstall` and then select `Driver install`.
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_install_RK_USB.jpg)
+</center>
 
 ### Connected devices
 
@@ -56,16 +59,25 @@ You can put the device into upgrade mode as follows:
 
 AIO-3288J:
 
-![](../../../rk3288_img/AIO-3288J/download_otg.png)
+<center>
 
+![](../../../rk3288_img/AIO-3288J/download_otg.png)
+</center>
+
+
+<center>
 
 ![](../../../rk3288_img/AIO-3288J/download_otg_1.png)
+</center>
 
 
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and reinstall the driver.
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_new_equipment.jpg)
+</center>
 
 ### Upgrade the firmware
 
@@ -81,7 +93,10 @@ LangPath=Language\
 
 Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will display in English. Now, run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 #### Upgrade unified firmware - update.img
 
@@ -94,7 +109,10 @@ The steps to update the unified firmware `update.img` are as follows:
 
 **Note: if the firmware loader you wrote is inconsistent with the original one, please execute `Erase Flash` before upgrading the firmware.**
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_erase_flash.jpg)
+</center>
 
 #### Upgrade Partition image
 
@@ -107,7 +125,10 @@ The steps to upgrade the partition image are as follows:
 3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
 4. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
 
+<center>
+
 ![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+</center>
 
 ## Linux
 
@@ -192,7 +213,10 @@ sudo upgrade_tool ef update.img # erase
 
 If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
 
+<center>
+
 ![](../../../rk3288_img/upgrade_downloadfail.jpg)
+</center>
 
 ["Instruction of upgrade"]: upgrade_table.md
 [AIO-3288J firmware]: https://community.t-firefly.com/en/doc/download/16

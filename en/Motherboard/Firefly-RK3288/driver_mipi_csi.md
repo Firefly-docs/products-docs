@@ -33,29 +33,47 @@ Set camera-related pin and clock to complete the configuration process.
 
 According to the schematic diagram of camera port below, the pins to be configured include: AF_VDD28、DOVDD18、AVDD28、DVDD12、PWDN1、RST 和 MCLK.
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_1.png)
+</center>
 
 * AF_VDD28 is provided by hardware connection. No configuration is needed.
 
 * The DOVDD18 and AVDD28 are controlled by DVP_PWR:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_2.png)
+</center>
 
 DVP_PWR is connected to GPIO0_B3:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_3.png)
+</center>
 
 * DVDD12 is controlled by CIF_PWER:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_4.png)
+</center>
 
 CIF_PWER is connected to GPIO7_B4:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_5.png)
+</center>
 
 * PWDN1 and RST are connected to GPIO2_B6 and GPIO2_B7 respectively:
 
+<center>
+
 ![](../../../rk3288_img/Firefly-RK3288/mipi_csi_6.png)
+</center>
 
 All the pins are configured in cam_board.xml, with the exception of DVDD12 (CIF_POWER), which is configured in DTS and driver.
 ## Configuration steps

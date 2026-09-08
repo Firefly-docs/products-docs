@@ -49,4 +49,7 @@ AIO-3399J 提供了丰富的接口，主要包括：
 
 具体如下图：
 
+<center>
+
 ![](../../../rk3399_img/AIO-3399J/interface.jpg)
+</center>

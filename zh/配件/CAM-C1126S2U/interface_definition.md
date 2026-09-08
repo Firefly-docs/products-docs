@@ -43,7 +43,10 @@
 
 * 外观尺寸图 
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/size1.png)
+</center>
 
 ## 外围接口
 
@@ -51,10 +54,19 @@
 
 * 外围接口图 
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/usb.png)
+</center>
+
+<center>
 
 ![](../../../rv1126_img/CAM-C1126S2U/interface.png)
+</center>
 
 * 扩展接口原理图（另存为图片保存到本地查看）
 
+<center>
+
 ![](../../../rv1126_img/CAM-C1126S2U/extension_port.png)
+</center>

@@ -5,16 +5,34 @@ IPC-M10R800-A3568J 工业级行业平板，基于 AIO-3568J 高性能开源平�
 触摸屏，全视角高清显示，配置工业级外壳，防尘防干扰，长时间稳定运行，支持 4K 硬解，丰富的接口方便连接各种工业设备。
 搭载 ARM 全新 Cortex-A55 架构、四核64位高性能处理器，主频高达 2.0GHz，ARM G52 2EE 图形处理器。RKNN NPU AI 加速器 ( SoC集成 ) 。
 
+<center>
+
 ![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info01.png)
+</center>
+<center>
+
 ![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info02.png)
+</center>
+<center>
+
 ![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info03.png)
+</center>
+<center>
+
 ![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info04.png)
+</center>
 
 ## 产品参数
+<center>
+
 ![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_zh_args.png)
+</center>
 
 ## SATA安装
+<center>
+
 ![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_sata.png)
+</center>
 
 ## 产品资源
 

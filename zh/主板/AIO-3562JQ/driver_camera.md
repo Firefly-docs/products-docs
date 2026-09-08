@@ -1,7 +1,10 @@
 # Camera 使用
 
 * 接口效果图
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/mipicsi.jpg)
+</center>
 
 ## MIPI CSI 用法
 RK3562 平台有 2 个 4 lane dphy，每 lane 最高 2.5Gbps
@@ -36,7 +39,10 @@ RK3562 有 4 个 mipi_csi
 
 isp 只有一个但支持 4 个节点：rkisp_vir0~3
 
+<center>
+
 ![](../../../rk3562_img/iCore-3562JQ/rk3562_mipi_csi_mode.png)
+</center>
 
 ## 配置举例
 教程文档位于 SDK/docs/cn/Common/ISP/ISP32-lite/Rockchip_Driver_Guide_VI_CN_v1.1.4.pdf

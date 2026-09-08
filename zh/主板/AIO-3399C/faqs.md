@@ -33,7 +33,10 @@ AIO-3399C 默认录音输入源采用的是板载麦克风 `Builtin Mic`,可手�
 2. 点击 `Advanced` 后会出现 `Audio input`选项;
 3. 选择`Wired Headset`
 
+<center>
+
 ![](../../../rk3399_img/faqs_android_audio_input.png)
+</center>
 
 ## AIO-3399C(AI) 的 Type-C 接口 OTG 模式不正常，接到 PC 端不能发现 ADB 设备？
 
@@ -108,7 +111,10 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 2. 点击 `Build number` 5次后会提示 (you are now a developer);
 3. 然后返回上一级点击 `Developer options` 选项后，在选项中点击 `ROOT access` 就打开 root 权限功能。
 
+<center>
+
 ![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+</center>
 
 ## 开机异常并循环重启怎么办？
 

@@ -24,7 +24,10 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 
 
 ### Real figure
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_mipi8.jpg)
+</center>
 
 ## 10.1 "MIPI LCD module
 
@@ -51,7 +54,10 @@ Please refer to [LCD driver section](https://wiki.t-firefly.com/en/ROC-RK3399-PC
 
 ### Real figure
 
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_2.jpg)
+</center>
 
 ### Firmware Download 
 * [Google Driver](https://drive.google.com/drive/folders/1q3O9P9b2ELUSuL4bNWTxoU7YoEg2FnTX?usp=sharing)
@@ -80,7 +86,10 @@ Please refer to [LCD driver section](https://wiki.t-firefly.com/en/ROC-RK3399-PC
 
 ### Real figure
 	
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_v2.jpg)
+</center>
 
 ### Reference data
 
@@ -112,5 +121,8 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 
 
 ### Real figure
+<center>
+
 ![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_edp101.jpg)
+</center>
 

@@ -30,7 +30,10 @@ During using, you may need the following accessories:
 
 * Note: The packing list is for reference only.
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/shipping_list.png)
+</center>
 
 
 ## Start-up
@@ -39,6 +42,9 @@ After confirming the motherboard accessories are connected correctly, connect th
 
 Select "Shutdown" in Android system, keeping the board's power. AIO-3128C can choose to press and hold the power button for 3 seconds: (Need an external power button, the interface is shown in the red box)
 
+<center>
+
 ![](../../../rk3128_img/AIO-3128C/power.png)
+</center>
 
 When starting up, the blue indicator will illuminate.

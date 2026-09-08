@@ -4,11 +4,17 @@
 There is one PCIe3.0 x 4 interface and PCIe2.0 x 2 on the ROC-RK3588-RT development board, as shown in the figure:
 
 On board default support for [M.2 SATA](https://wiki.t-firefly.com/en/ROC-RK3588-RT/usage_sata.html) and [PCIE WiFi/BT module](https://wiki.t-firefly.com/en/ROC-RK3588-RT/module_wireless.html)
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png)
+</center>
 
 ## Software configuration
 The available hardware resources of RK3588 PCIe and the corresponding relationship between the `pcie` controller node and PHY node on the software are shown in the figure:
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_phy_en.jpg)
+</center>
 
 ### DTS configuration
 Generally, configure the power supply pin and reset pin in DTS according to the schematic diagram, and select the correct `pcie` controller node and PHY node to enable.

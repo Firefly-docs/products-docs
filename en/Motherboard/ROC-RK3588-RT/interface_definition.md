@@ -18,6 +18,9 @@
 
 The details are shown below：
 
+<center>
+
 ![](../../../rk3588_img/ROC-RK3588-RT/interface_all_en.png)
+</center>
 
 

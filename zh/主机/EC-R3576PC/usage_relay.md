@@ -3,10 +3,16 @@
 EC-R3576PC支持一路继电器输出，其中，ON对应于硬件原理图中的OUTPUT1，COM对应于硬件原理图中的RELAY_COM1。
 
 ### 接口图
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/output_interface.jpg)
+</center>
 
 ### 电路原理图
+<center>
+
 ![](../../../rk3576_img/EC-R3576PC/output_sch.png)
+</center>
 
 ### 控制
 当 GPIO3_D0_Output 输出低电平，OUTPUT1、RELAY_COM1 断开；当 RELAY_CTL1 输出高电平，OUTPUT1、RELAY_COM1 导通。
