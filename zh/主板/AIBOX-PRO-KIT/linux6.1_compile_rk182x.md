@@ -16,14 +16,36 @@
 </font>
 
 <br>
-比如，SDK 压缩包是 `RK182X_AI_COPROCESSOR_SDK_ALPHA_V1.0.4.tgz`。
+比如，SDK 压缩包是 `RK182X_AI_COPROCESSOR_SDK_ALPHA_V1.X.X.tgz`。（具体版本以网盘名称最新发布为准）
 
 ```
 mkdir rk182x_sdk
 cd rk182x_sdk
-tar xf RK182X_AI_COPROCESSOR_SDK_ALPHA_V1.0.4.tgz
+tar xf RK182X_AI_COPROCESSOR_SDK_ALPHA_V1.X.X.tgz
 .repo/repo/repo sync -l
 ```
+
+### Bundle 更新
+1.1.0a 后续版本将以 bundle 的形式更新，以减少下载时间。
+下载并解压上述 SDK 基础包、完成同步后，将 bundle 包放置在 SDK 根目录下：
+
+```
+rk182x_sdk/
+├── .repo/
+└── bundle_xx_to_xx.tgz
+```
+
+解压对应的 bundle 包：
+
+```
+tar xzf bundle_xx_to_xx.tgz
+```
+
+在 SDK 根目录运行 bundle 内的脚本：
+```
+./bundle_xx_to_xx/bundle_update.sh
+```
+
 
 ## 配置 
 通过 `./build.sh config` 配置。
@@ -56,69 +78,20 @@ Select board type:
 
 
 ## 其他
-### 版本 V1.0.4
+### 版本 V 1.1.0
 ```
 sudo rknn-smi -v
 rknn-smi version              : 1.3.0
-PCIe driver version           : 3.3.0
-RC chips connect version      : 3.3.1
+PCIe driver version           : 3.3.1
+RC chips connect version      : 3.3.2
 EP chips connect version      : 0.0.2
-PCIe Device 0 firmware version: 1.0.4
-rknn3 API version             : NA
+PCIe Device 0 firmware version: 1.1.0
+rknn3 API version             : 1.1.0
+
 ```
 
 ## FAQ
 
 ### 当前支持的模型
-| 模型名称 | 模型来源 |
-|---------|---------|
-| Qwen2.5-0.5B | https://huggingface.co/Qwen/Qwen2.5-0.5B |
-| Qwen2.5-3B | https://huggingface.co/Qwen/Qwen2.5-3B-Instruct |
-| Qwen2.5-7B | https://huggingface.co/Qwen/Qwen2.5-7B-Instruct |
-| Qwen3-0.6B | https://huggingface.co/Qwen/Qwen3-0.6B |
-| Qwen3-1.7B | https://huggingface.co/Qwen/Qwen3-1.7B |
-| Qwen3-4B | https://huggingface.co/Qwen/Qwen3-4B |
-| Qwen3-8B | https://huggingface.co/Qwen/Qwen3-8B |
-| HY-MT1.5-1.8B | https://huggingface.co/tencent/HY-MT1.5-1.8B |
-| Youtu-LLM-2B | https://huggingface.co/tencent/Youtu-LLM-2B |
-| GLM-Edge-1.5B-Chat | https://modelscope.cn/models/ZhipuAI/glm-edge-1.5b-chat |
-| Qwen2.5-VL-3B | https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct |
-| Qwen2.5-VL-7B | https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct |
-| Qwen2.5-Omni-3B (Thinker) | https://huggingface.co/Qwen/Qwen2.5-Omni-3B |
-| Qwen3-VL-2B | https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct |
-| Qwen3-VL-4B | https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct |
-| FastVLM | https://github.com/apple/ml-fastvlm |
-| InternVL3-2B | https://huggingface.co/OpenGVLab/InternVL3-2B |
-| InternVL3_5-4B | https://huggingface.co/OpenGVLab/InternVL3_5-4B-Instruct |
-| MiMo-VL-7B-RL | https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-RL |
-| Gemma-4-E2B | https://huggingface.co/google/gemma-4-E2B-it |
-| Gemma-4-E4B | https://huggingface.co/google/gemma-4-E4B-it |
-| SmolVLM-500M-Instruct | https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct |
-| SmolVLM2-500M-Video-Instruct | https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct |
-| UI-TARS-2B-SFT | https://huggingface.co/ByteDance-Seed/UI-TARS-2B-SFT |
-| PaddleOCR VL | https://huggingface.co/PaddlePaddle/PaddleOCR-VL |
-| Qwen3-Reranker-0.6B | https://huggingface.co/Qwen/Qwen3-Reranker-0.6B |
-| Qwen3-Reranker-4B | https://huggingface.co/Qwen/Qwen3-Reranker-4B |
-| Qwen3-Embedding-0.6B | https://huggingface.co/Qwen/Qwen3-Embedding-0.6B |
-| Qwen3-Embedding-4B | https://huggingface.co/Qwen/Qwen3-Embedding-4B |
-| gme-Qwen2-VL-2B-Instruct | https://huggingface.co/Alibaba-NLP/gme-Qwen2-VL-2B-Instruct |
-| Qwen3-ASR-0.6B | https://huggingface.co/Qwen/Qwen3-ASR-0.6B |
-| Qwen3-TTS-12Hz-1.7B | https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base |
-| VITS | https://github.com/jaywalnut310/vits |
-| Whisper | https://huggingface.co/openai/whisper-large-v3 |
-| SenseVoiceSmall | https://modelscope.cn/models/iic/SenseVoiceSmall |
-| Zipformer | https://huggingface.co/pfluo/k2fsa-zipformer-chinese-english-mixed |
-| SigLIP | https://huggingface.co/google/siglip-so400m-patch14-384 |
-| Siglip2-so400m | https://huggingface.co/google/siglip2-so400m-patch14-384 |
-| MetaCLIP2 | https://huggingface.co/facebook/metaclip-2-worldwide-m16-384 |
-| Dinov3 | https://huggingface.co/facebook/dinov3-vits16-pretrain-lvd1689m |
-| Depth-Anything-V2-small | https://huggingface.co/depth-anything/Depth-Anything-V2-Small |
-| GR00T-N1.6-3B | https://huggingface.co/nvidia/GR00T-N1.6-3B |
-| MobilenetV1 | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/mobilenet_v1/mobilenet_v1_1.0_224.tflite |
-| MobilenetV2 | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/mobilenet/mobilenetv2-12.onnx |
-| Resnet50V2 | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/resnet/resnet50-v2-7.onnx |
-| YOLOv5s | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov5/yolov5s_rknn3.onnx |
-| YOLOv6s | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov6/yolov6s_rknn3.onnx |
-| YOLOv8s | https://ftrg.zbox.filez.com/v2/delivery/data/95f00b0fc900458ba134f8b180b3f7a1/examples/yolov8/yolov8s_rknn3.onnx |
 
-具体可参考SDK中 SDK_Path/rknn/rknn3-runtime/doc/00_Rockchip_RKNPU3_ReleaseNote_RKNN3_SDK_V1.0.4_CN.pdf , 里面有详细说明。
+当前支持的模型和详细说明，请参考 SDK 中的 `SDK_Path/rknn/rknn3-runtime/doc/00_Rockchip_RKNPU3_ReleaseNote_RKNN3_SDK_V1.0.4.pdf`。
