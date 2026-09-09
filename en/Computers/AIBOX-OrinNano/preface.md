@@ -1,7 +1,7 @@
 # Preface
 
 ## Overview
-This document mainly introduces the development method based on the **AIBOX-Orin-Nano** platform.
+This document mainly introduces the development method based on the **AIBOX-Orin Nano** platform.
 
 
 
