@@ -52,16 +52,12 @@ rknn/
 </center>
 
 ### RKNN3 Model Zoo
-Provide deployment examples of classic models on the RK1820/RK1828 platform.
-<br>
-[github](https://github.com/airockchip/rknn3-model-zoo)
+Provide deployment examples of classic models on the RK1820/RK1828 platform. For more details, refer to [GitHub](https://github.com/airockchip/rknn3-model-zoo).
+
 ### RKNN3 Runtime
-The RKNN3 C API is the C language interface for the RKNN3 Runtime.
-<br>
-Developers use C/C++ to develop application programs and deploy model inference through RKNN3 C API.
+The RKNN3 C API is the C language interface for the RKNN3 Runtime. Developers use C/C++ to develop applications and deploy model inference through the RKNN3 C API.
+
 ### RKNN3 Toolkit
 RKNN3 Toolkit is a development kit that provides users with model transformation, inference, and performance evaluation on the PC platform.
-<br>
-**RKNN3 Toolkit** different from [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) and [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2).
-<br>
-[github](https://github.com/airockchip/rknn3-toolkit)
+
+**RKNN3 Toolkit** is incompatible with [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) and [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2). For more details, refer to [GitHub](https://github.com/airockchip/rknn3-toolkit).

@@ -3,4 +3,4 @@
 
 Please refer to the [Specification](https://download.t-firefly.com/Spec/Suite/AIBOX%20PRO%20KIT_Specification_EN.pdf) for more details.
 
-## Dimensions
+![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-whole.png)

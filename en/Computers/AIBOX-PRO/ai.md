@@ -1,4 +1,4 @@
-# ROCKCHIP 
+# Host Platform
 
 ## Large Language Model
 ### 1.RKLLM Introduction

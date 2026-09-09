@@ -1,4 +1,4 @@
-# ROCKCHIP 平台
+# Host 平台
 
 ## 大语言模型
 ### 1.RKLLM 介绍

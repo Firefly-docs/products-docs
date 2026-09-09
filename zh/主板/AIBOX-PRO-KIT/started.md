@@ -4,4 +4,4 @@
 具体请参考[规格书](https://download.t-firefly.com/Spec/Suite/AIBOX%20PRO%20KIT_Specification_CN.pdf
 )。
 
-## 主机尺寸
+![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-whole.png)

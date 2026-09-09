@@ -9,7 +9,7 @@
 - [MaskRom Mode](upgrade_maskrom_mode_rockchip.md)
 - [Upgrade the firmware via SD card](upgrade_firmware_sd_rockchip.md)
 # AI
-- [ROCKCHIP ](ai.md)
+- [Host Platform](ai.md)
 - [RK1820/RK1828 ](ai_rk182x.md)
 # Linux Development
 - [Compile Main Module Firmware](linux6.1_compile_rockchip.md)

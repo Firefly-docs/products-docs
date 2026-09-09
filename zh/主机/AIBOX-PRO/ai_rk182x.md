@@ -52,16 +52,12 @@ rknn/
 </center>
 
 ### RKNN3 Model Zoo
-提供 RK1820/RK1828 平台上经典模型的部署示例。
-<br>
-[github](https://github.com/airockchip/rknn3-model-zoo)
+提供 RK1820/RK1828 平台上经典模型的部署示例。更多详细内容可以参考[github](https://github.com/airockchip/rknn3-model-zoo)
+
 ### RKNN3 Runtime
-RKNN3 C API 是 RKNN3 Runtime（运⾏时库）的 C 语⾔接口。
-<br>
-开发者使⽤ C/C++ 开发应⽤程序，通过 RKNN3 C API 部署模型推理。
+RKNN3 C API 是 RKNN3 Runtime（运⾏时库）的 C 语⾔接口。开发者使⽤ C/C++ 开发应⽤程序，通过 RKNN3 C API 部署模型推理。
+
 ### RKNN3 Toolkit
 RKNN3 Toolkit 是为用户提供在 PC 平台上进行模型转换、推理和性能评估的开发套件。
-<br>
-**RKNN3 Toolkit** 与 [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) 和 [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2) **不兼容**。
-<br>
-[github](https://github.com/airockchip/rknn3-toolkit)
+
+**RKNN3 Toolkit** 与 [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) 和 [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2) **不兼容**。更多内容可以参考[github](https://github.com/airockchip/rknn3-toolkit)
