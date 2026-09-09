@@ -10,7 +10,7 @@
 - [Compile Linux Firmware (kernel-6.1)](linux6.1_compile.md)
 - [Compile Linux Firmware (kernel-5.10)](linux_compile.md)
 - [Technical Case](linux_technical_cases.md)
-# Port Usage
+# Hardware Function Usage
 - [Camera](usage_camera.md)
 - [CAN](usage_can.md)
 - [Display](usage_display.md)

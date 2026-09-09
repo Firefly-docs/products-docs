@@ -18,7 +18,7 @@
 - [#android_firefly_android_manual](#android_firefly_android_manual.md)
 - [#android_fireflyapi2_manual](#android_fireflyapi2_manual.md)
 - [#android_technical_cases](#android_technical_cases.md)
-# Port Usage
+# Hardware Function Usage
 - [Ethernet](usage_ethernet.md)
 - [LED](usage_led.md)
 - [PCIe](usage_pcie.md)

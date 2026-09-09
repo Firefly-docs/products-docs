@@ -9,7 +9,7 @@
 # Linux
 - [Compile Linux firmware](linux_compile.md)
 - [#linux_technical_cases](#linux_technical_cases.md)
-# Port Usage
+# Hardware Function Usage
 - [Camera](usage_camera.md)
 - [CAN](usage_can.md)
 - [Display Usage](usage_display.md)

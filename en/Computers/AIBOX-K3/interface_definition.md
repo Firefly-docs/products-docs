@@ -1,4 +1,4 @@
-# Interface Introduction
+# Hardware Interface Introduction
 
 The BOARD with space features a rich array of interfaces, including:
 

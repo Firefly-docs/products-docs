@@ -16,7 +16,7 @@
 - [#android_firefly_android_manual](#android_firefly_android_manual.md)
 - [#android_fireflyapi2_manual](#android_fireflyapi2_manual.md)
 - [#android_technical_cases](#android_technical_cases.md)
-# Port Usage
+# Hardware Function Usage
 - [Camera](usage_camera.md)
 - [CAN](usage_can.md)
 - [Display Usage](usage_display.md)

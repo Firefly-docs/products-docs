@@ -1,4 +1,4 @@
-# Interface definition
+# Hardware Interface Introduction
 
 AIBOX-Orin Nano has rich interfaces, mainly including:
 - 12V DC Power（5.5*2.5mm）

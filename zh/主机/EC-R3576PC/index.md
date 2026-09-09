@@ -16,7 +16,7 @@
 - [#android_firefly_android_manual](#android_firefly_android_manual.md)
 - [#android_fireflyapi2_manual](#android_fireflyapi2_manual.md)
 - [#android_technical_cases](#android_technical_cases.md)
-# 接口使用
+# 硬件功能使用
 - [CAN 使用](usage_can.md)
 - [Display 使用](usage_display.md)
 - [Ethernet 使用](usage_ethernet.md)

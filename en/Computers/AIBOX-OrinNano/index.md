@@ -1,12 +1,8 @@
 # AIBOX-Orin Nano
-- [Preface](preface.md)
-# User Manual
 - [Introduction](started.md)
-- [Interface definition](interface_definition.md)
-- [Login](login.md)
-- [Watchdog](usage_watchdog.md)
-- [RTC](usage_rtc.md)
-- [usage_edge_development](usage_edge_development.md)
+# User Manual
+- [Hardware Interface Introduction](interface_definition.md)
+- [Hardware Function Usage](hardware_usage.md)
 # AI
 - [JetPack](ai.md)
 # FAQs

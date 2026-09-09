@@ -9,7 +9,7 @@
 # Linux开发
 - [编译 Linux 固件](linux_compile.md)
 - [#linux_technical_cases](#linux_technical_cases.md)
-# 接口使用
+# 硬件功能使用
 - [Camera 使用](usage_camera.md)
 - [LED 使用](usage_led.md)
 - [RTC 使用](usage_rtc.md)

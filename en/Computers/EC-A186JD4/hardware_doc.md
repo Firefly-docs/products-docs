@@ -1,2 +1,0 @@
-# Hardware Documentation
-* [Product Specification Sheet](https://download.t-firefly.com/%E4%BA%A7%E5%93%81%E8%A7%84%E6%A0%BC%E6%96%87%E6%A1%A3/%E5%B5%8C%E5%85%A5%E5%BC%8F%E4%B8%BB%E6%9C%BA/EC-A1688JD4_16T%20Industrial-Grade%20Intelligent%20Computing%20AI%20Computer_Product%20Introduction.pdf)

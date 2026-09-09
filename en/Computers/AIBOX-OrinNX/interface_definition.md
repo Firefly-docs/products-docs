@@ -1,4 +1,4 @@
-# Interface definition
+# Hardware Interface Introduction
 
 AIBOX-Orin NX has rich interfaces, mainly including:
 - 12V DC Power（5.5*2.5mm）

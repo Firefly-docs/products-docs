@@ -1,4 +1,4 @@
-# Interface definition
+# Hardware Interface Introduction
 
 AIBOX-3588 has rich interfaces, mainly including:
 - 12V Power interface（5.5*2.5mm）
