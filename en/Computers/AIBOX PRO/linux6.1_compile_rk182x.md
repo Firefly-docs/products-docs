@@ -111,5 +111,5 @@ Install binutils; some rootfs may not have the strings command.
 
 ```sh
 sudo apt update
-sudo ap
+sudo apt install binutils
 ```
