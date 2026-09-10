@@ -105,3 +105,11 @@ rknn3 API version             : 1.1.0
 
 ### Currently Supported Models
 For currently supported models and detailed information, refer to `SDK_Path/rknn/rknn3-runtime/doc/EN/00_RKNN3_SDK_Release_Notes_V1.1.0.pdf` in the SDK.
+
+### rknn3 API Version shows NA
+Install binutils; some rootfs may not have the strings command.
+
+```sh
+sudo apt update
+sudo ap
+```

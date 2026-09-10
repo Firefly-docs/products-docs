@@ -107,3 +107,11 @@ rknn3 API version             : 1.1.0
 ### 当前支持的模型
 
 当前支持的模型和详细说明，请参考 SDK 中的 `/home/zhang/rk182x_self/rknn/rknn3-runtime/doc/CN/00_RKNN3_SDK_发布说明_V1.1.0.pdf`。
+
+### rknn3 API Version 显示 NA
+安装一下binutils, 部分rootfs可能没有strings指令
+
+```sh
+sudo apt update
+sudo apt install binutils
+```
