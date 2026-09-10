@@ -62,6 +62,18 @@ Select board type:
 
 选择 `4`
 
+
+```
+Select Security Boot Mode:
+1) Disable Secure Boot
+2) Enable Secure Boot
+3) Cancel
+#? 
+```
+
+选择 `1`
+> 该选项用于对固件进行相关安全加密，误操作可能导致固件后续无法升级，请谨慎选择。相关资料请参考1828SDK_Path/docs/Develop/Rockchip_RK1820_RK1828_User_Guide_SecureBoot_CN.pdf
+
 ## 编译
 ```
 ./build.sh

@@ -61,6 +61,18 @@ Select board type:
 
 Select `4`
 
+```
+Select Security Boot Mode:
+1) Disable Secure Boot
+2) Enable Secure Boot
+3) Cancel
+#? 
+```
+Select `1`
+
+> This option is used to apply security encryption to the firmware. Incorrect operation may prevent the firmware from being upgraded later, so please choose carefully. For more information, refer to 1828SDK_Path/docs/Develop/Rockchip_RK1820_RK1828_User_Guide_SecureBoot_EN.pdf.
+
+
 ## Build
 ```
 ./build.sh
