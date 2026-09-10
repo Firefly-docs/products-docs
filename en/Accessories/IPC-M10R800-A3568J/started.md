@@ -12,19 +12,19 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info01.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info01.png" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info02.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info02.png" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info03.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info03.png" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info04.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info04.png" width="700">
 </center>
 
 ## Product parameters
@@ -32,7 +32,7 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 ## SATA install
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_sata.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_sata.png" width="700">
 </center>
 
 ## Product resources

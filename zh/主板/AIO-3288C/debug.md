@@ -27,7 +27,7 @@ AIO-3288C 串口连接图：
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/debug_connection.jpg)
+<img alt="" src="../../../rk3288_img/AIO-3288C/debug_connection.jpg" width="800">
 </center>
 
 
@@ -72,11 +72,11 @@ Windows 上一般用 putty 或 SecureCRT。其中我们推荐使用 MobaXterm �
 
 <center>
 
-![](../../../rk3288_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../rk3288_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../rk3288_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../rk3288_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ## Ubuntu 上使用串口调试

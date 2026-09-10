@@ -19,7 +19,7 @@ AIO-3568J开发板的串口接口图如下：
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/uart_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/uart_interface.jpg" width="900">
 </center>
 
 ## DTS配置
@@ -85,7 +85,7 @@ RS232_2:   /dev/ttyS4
 	详细见下图的红框     
 	<center>
 
-	![](../../../rk356x_img/Core-3568J/AIO-3568J_RS232_pins.jpg)
+	<img alt="" src="../../../rk356x_img/Core-3568J/AIO-3568J_RS232_pins.jpg" width="700">
 	</center>
 
 </br>
@@ -94,7 +94,7 @@ RS232_2:   /dev/ttyS4
 	详细见下图的红框       
 	<center>
 
-	![](../../../rk356x_img/Core-3568J/AIO-3568J_RS485_pins.jpg)
+	<img alt="" src="../../../rk356x_img/Core-3568J/AIO-3568J_RS485_pins.jpg" width="700">
 	</center>
 
 * UART
@@ -102,7 +102,7 @@ RS232_2:   /dev/ttyS4
     详细见下图的红框
 	<center>
 
-	![](../../../rk356x_img/Core-3568J/AIO-3568J_uart_pins.jpg)
+	<img alt="" src="../../../rk356x_img/Core-3568J/AIO-3568J_uart_pins.jpg" width="700">
 	</center>
 
 ## 调试方法

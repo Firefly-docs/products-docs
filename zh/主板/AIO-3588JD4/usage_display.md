@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -34,7 +34,7 @@ AIO-3588JD4 有一个 HDMI 接口，接口图如下所示：
 * HDMI
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/usage_display_dsi_interface.jpg)  
+<img alt="" src="../../../rk3588_img/Core-3588JD4/usage_display_dsi_interface.jpg" width="900">
 </center>
 
 

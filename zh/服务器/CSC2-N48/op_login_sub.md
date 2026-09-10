@@ -10,7 +10,7 @@
 
 <center>
 
-![打开首页 Remote console](../../../servers_img/common/abmc_home_remote_console_en.png)
+<img alt="打开首页 Remote console" src="../../../servers_img/common/abmc_home_remote_console_en.png" width="700">
 </center>
 
 ### 选择 Shell 调试模式
@@ -21,7 +21,7 @@
 
 <center>
 
-![选择 Shell 调试模式](../../../servers_img/common/abmc_open_bmc_shell_en.png)
+<img alt="选择 Shell 调试模式" src="../../../servers_img/common/abmc_open_bmc_shell_en.png" width="700">
 </center>
 
 ### 确认 Shell 连接
@@ -30,7 +30,7 @@
 
 <center>
 
-![aBMC Shell 终端](../../../servers_img/common/abmc_bmc_shell_terminal_en.png)
+<img alt="aBMC Shell 终端" src="../../../servers_img/common/abmc_bmc_shell_terminal_en.png" width="700">
 </center>
 
 <Callout title="操作对象说明" type="warn">
@@ -47,7 +47,7 @@
 
 <center>
 
-![打开子节点调试窗口](../../../servers_img/common/abmc_open_subnode_debug_en.png)
+<img alt="打开子节点调试窗口" src="../../../servers_img/common/abmc_open_subnode_debug_en.png" width="800">
 </center>
 
 ### 选择 Serial 调试模式
@@ -58,7 +58,7 @@
 
 <center>
 
-![选择 Serial 调试模式](../../../servers_img/common/abmc_select_serial_debug_mode_en.png)
+<img alt="选择 Serial 调试模式" src="../../../servers_img/common/abmc_select_serial_debug_mode_en.png" width="800">
 </center>
 
 ### 确认串口连接
@@ -69,7 +69,7 @@
 
 <center>
 
-![子节点 Serial 终端](../../../servers_img/common/abmc_subnode_serial_terminal_en.png)
+<img alt="子节点 Serial 终端" src="../../../servers_img/common/abmc_subnode_serial_terminal_en.png" width="700">
 </center>
 
 ## ADB 登录
@@ -82,7 +82,7 @@
 
 <center>
 
-![打开子节点 ADB 调试窗口](../../../servers_img/common/abmc_open_subnode_debug_en.png)
+<img alt="打开子节点 ADB 调试窗口" src="../../../servers_img/common/abmc_open_subnode_debug_en.png" width="800">
 </center>
 
 ### 选择 ADB 调试模式
@@ -93,7 +93,7 @@
 
 <center>
 
-![选择 ADB 调试模式](../../../servers_img/common/abmc_select_adb_debug_mode_en.png)
+<img alt="选择 ADB 调试模式" src="../../../servers_img/common/abmc_select_adb_debug_mode_en.png" width="800">
 </center>
 
 ### 确认 ADB 连接
@@ -104,7 +104,7 @@
 
 <center>
 
-![子节点 ADB 终端](../../../servers_img/common/abmc_subnode_adb_terminal_en.png)
+<img alt="子节点 ADB 终端" src="../../../servers_img/common/abmc_subnode_adb_terminal_en.png" width="700">
 </center>
 
 
@@ -118,7 +118,7 @@
 
 <center>
 
-![打开子板网络配置](../../../servers_img/common/abmc_configure_subboard_network_en.png)
+<img alt="打开子板网络配置" src="../../../servers_img/common/abmc_configure_subboard_network_en.png" width="700">
 </center>
 
 <Callout title="网卡选择" type="warn">
@@ -131,7 +131,7 @@
 
 <center>
 
-![配置子板静态 IPv4](../../../servers_img/common/abmc_set_subboard_static_ipv4_en.png)
+<img alt="配置子板静态 IPv4" src="../../../servers_img/common/abmc_set_subboard_static_ipv4_en.png" width="800">
 </center>
 
 图中使用以下示例配置，实际部署时必须替换为现场规划的地址：

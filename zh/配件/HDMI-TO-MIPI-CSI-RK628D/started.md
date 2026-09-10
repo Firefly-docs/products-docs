@@ -9,14 +9,14 @@ HDMI TO MIPI CSI驱动板，采用视频桥接芯片RK628D，可实现HDMI视频
 
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_front.jpg)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_front.jpg" width="700">
 </center>
 
 ### 发货清单(仅供参考)
 
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_shipping_list.png)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_shipping_list.png" width="700">
 </center>
 
 
@@ -39,7 +39,7 @@ HDMI TO MIPI CSI驱动板，采用视频桥接芯片RK628D，可实现HDMI视频
 ### 接口定义
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_interface.jpg)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_interface.jpg" width="900">
 </center>
 
 Line Out：将声卡处理后的模拟信号通过此接口输出到音频设备上。
@@ -55,13 +55,13 @@ Line Out：将声卡处理后的模拟信号通过此接口输出到音频设备
 #### RK3566/RK3568/RK3588/RK3588S/RK3576 系列主板
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection.jpg)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection.jpg" width="700">
 </center>
 
 #### RK3399系列主板
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection_30p-to-24p.jpg)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection_30p-to-24p.jpg" width="700">
 </center>
 
 
@@ -71,7 +71,7 @@ Line Out：将声卡处理后的模拟信号通过此接口输出到音频设备
 系统默认内置HdmiIn2的应用，如图：
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_HdmiIn2.png)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_HdmiIn2.png" width="700">
 </center>
 
 点击进入应用后，就会有HDMI-IN 的图像显示，音频会从驱动板上的LineOut输出，最大支持输出分辨率3840x2160@30fps。

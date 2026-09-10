@@ -53,7 +53,7 @@
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/module_wireless_ec20_2.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/module_wireless_ec20_2.png" width="700">
 </center>
 
 
@@ -61,7 +61,7 @@
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/module_wireless_ec20_3.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/module_wireless_ec20_3.png" width="700">
 </center>
 
 

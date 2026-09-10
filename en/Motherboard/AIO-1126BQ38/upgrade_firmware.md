@@ -40,7 +40,7 @@ In order for all devices to use the updated driver, first select Driver uninstal
 
 <center>
 
-![](../../../rv1126b_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rv1126b_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux Operating System
@@ -90,7 +90,7 @@ Connect the device and press the **MASKROM** button to enter the Loader mode. Th
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BQ38/upgrade_otg_interface.jpg)
+<img alt="" src="../../../rv1126b_img/AIO-1126BQ38/upgrade_otg_interface.jpg" width="900">
 </center>
 
 * Press and hold the MASKROM button on the device
@@ -117,14 +117,14 @@ The AndroidTool displays the prompt Found One LOADER Device at the bottom
 
 <center>
 
-![](../../../rv1126b_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rv1126b_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](upgrade_firmware.html#install-the-upgrade-tool).
 
 <center>
 
-![](../../../rv1126b_img/common/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rv1126b_img/common/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 **Linux Operating System**
@@ -155,7 +155,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rv1126b_img/common/upgrade_firmware_erase_flash_zh.png)
+<img alt="" src="../../../rv1126b_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -171,7 +171,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rv1126b_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rv1126b_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 Tips for using the flashing tool:
@@ -181,14 +181,14 @@ Tips for using the flashing tool:
 	Put the rv1126 device into loader mode. Then click the Dev Partition button in the picture to get the device partition information.
    <center>
 
-   ![](../../../rv1126b_img/common/upgrade_tools_get_partition.png)
+   <img alt="" src="../../../rv1126b_img/common/upgrade_tools_get_partition.png" width="800">
    </center>
 
    Click Update to get the device partition information as follows:
 
    <center>
 
-   ![](../../../rv1126b_img/common/upgrade_tools_get_partition_ok.png)
+   <img alt="" src="../../../rv1126b_img/common/upgrade_tools_get_partition_ok.png" width="800">
    </center>
 
 
@@ -199,7 +199,7 @@ Tips for using the flashing tool:
 
    <center>
 
-   ![](../../../rv1126b_img/common/upgrade_tools_export_config.png)
+   <img alt="" src="../../../rv1126b_img/common/upgrade_tools_export_config.png" width="800">
    </center>
 
 
@@ -210,7 +210,7 @@ Tips for using the flashing tool:
 
    <center>
 
-   ![](../../../rv1126b_img/common/upgrade_tools_load_config.png)
+   <img alt="" src="../../../rv1126b_img/common/upgrade_tools_load_config.png" width="800">
    </center>
 
 
@@ -302,7 +302,7 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rv1126b_img/common/upgrade_firmware_download_fail.png)
+<img alt="" src="../../../rv1126b_img/common/upgrade_firmware_download_fail.png" width="800">
 </center>
 
 [烧写须知]: 02-upgrade_table.md

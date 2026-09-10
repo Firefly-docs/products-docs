@@ -94,11 +94,11 @@ If you need to use MIPI_DSI0, then select one of the following mk files:
 #### MIPI_DSI1 FRONT
 <center>
 
-![](../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_front.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_front.jpg" width="700">
 </center>
 #### MIPI_DSI1 BACK
 <center>
 
-![](../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_back.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_back.jpg" width="700">
 </center>
 

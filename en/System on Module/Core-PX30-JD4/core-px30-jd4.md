@@ -8,29 +8,29 @@ Core-PX30-JD4 adopts px30 industrial grade 64-bit low-power processor, with powe
 
 <center>
 
-![](../../../px30_img/core-px30-jd4_front.png)
+<img alt="" src="../../../px30_img/core-px30-jd4_front.png" width="700">
 </center>
 
 <center>
 
-![](../../../px30_img/core-px30-jd4_back.png)
+<img alt="" src="../../../px30_img/core-px30-jd4_back.png" width="700">
 </center>
 
 ## Product parameters
 
 <center>
 
-![](../../../px30_img/core-px30jd4_paramter1.jpg)
+<img alt="" src="../../../px30_img/core-px30jd4_paramter1.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../px30_img/core-px30jd4_paramter2.jpg)
+<img alt="" src="../../../px30_img/core-px30jd4_paramter2.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../px30_img/core-px30jd4_paramter3.jpg)
+<img alt="" src="../../../px30_img/core-px30jd4_paramter3.jpg" width="700">
 </center>
 
 ## Product sources

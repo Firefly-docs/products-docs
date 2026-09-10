@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/spi_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/spi_interface.jpg" width="900">
 </center>
 ## SPI 工作方式
 
@@ -46,7 +46,7 @@ AIO-3399Pro-JD4 与 W25Q128FV 硬件连接可参考下表：
 
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/spi_hardware_connection.jpg" width="700">
 </center>
 
 

@@ -1,12 +1,12 @@
 ROC-RK3399-PC是一款迷你PC主板,体积只有小型手机的大小。
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc7.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc7.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc6.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc6.jpg" width="700">
 </center>
 
 * Dual-core Cortex-A72 up to 1.8GHz & Quad-core Cortex-A53 up to 1.5GHz 六核处理器
@@ -67,6 +67,6 @@ ROC-RK3399-PC是一款迷你PC主板,体积只有小型手机的大小。
 **注意**：板子上有两个Type-C接口，**电源输入只能接Type-C0口**，不能接Type-C1。
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc3.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc3.jpg" width="700">
 </center>
  <a id="firmware-format"></a>

@@ -30,6 +30,6 @@ The official firmware default support MIPI_DSI display. Here is the firmware dow
 #### MIPI_DSI BACK
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/module_display_mipi_DSI_back.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/module_display_mipi_DSI_back.jpg" width="700">
 </center>
 

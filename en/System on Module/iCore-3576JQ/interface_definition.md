@@ -29,12 +29,12 @@
 The details are shown below:
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/interface_front_en.png)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/interface_front_en.png" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/interface_back_en.png)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/interface_back_en.png" width="900">
 </center>
 
 ## Special Notice

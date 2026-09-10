@@ -18,28 +18,28 @@ The following is the specific operation process of VNC Viewer:
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/vnc-01.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-01.png" width="700">
 </center>
 
 (3) Enter `$bm1684_ip:0` address of EC-A1684JD4 FD:
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/vnc-02.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-02.png" width="700">
 </center>
 
 (4) Enter the user and password, both `linaro`:
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/vnc-03.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-03.png" width="700">
 </center>
 
 (5) Successfully entered the xfce4 desktop:
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/vnc-04.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-04.png" width="700">
 </center>
 
 ## Ubuntu
@@ -94,26 +94,26 @@ To connect using VNC Viewer:
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/vnc-01.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-01.png" width="700">
 </center>
 
 （3）Enter the `$bm1684_ip:0` address of your EC-A1684JD4 FD:
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-02.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-02.png" width="800">
 </center>
 
 （4）Click on the circular button next to the `linaro` username, select `xfce`, and enter the username and password (both are `linaro`):
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-03.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-03.png" width="800">
 </center>
 
 （5）You will successfully enter the xfce4 desktop environment.
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-04.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-04.png" width="800">
 </center>

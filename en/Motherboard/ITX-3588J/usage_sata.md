@@ -5,12 +5,12 @@ There are 4 SATA ports and 1 M.2 SATA port on the ITX-3588J development board.
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_sata_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_sata_interface.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_sata_m2_sata.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_sata_m2_sata.jpg" width="800">
 </center>
 
 <center>
@@ -28,7 +28,7 @@ Precautions:
 The available hardware resources of RK3588 SATA and the corresponding relationship between the `sata` controller node and PHY node on the software are shown in the figure:
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_sata_phy_en.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_sata_phy_en.jpg" width="800">
 </center>
 The 4 SATA ports and 1 M.2 SATA port on the ITX-3588J development board are all ports extended by the `SATA PM` expansion chip, which uses the RK3588's SATA0 group of resources.
 ### DTS configuration

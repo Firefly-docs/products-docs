@@ -32,7 +32,7 @@ How to open the root function of the system on the Firefly platform? Firefly has
 3. Then, after clicking Developer options option on the previous level, click Enable ROOT to open the ROOT permissions function
 <center>
 
-![](../../../rk3128_img/Core-3128J/android_root.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/android_root.png" width="800">
 </center>
 
 ## Use of Net ADB
@@ -43,7 +43,7 @@ Adb mode: the development board and PC need to be in the same local area network
 *  Setting -> Developer options -> Enable Net ADB
 <center>
 
-![](../../../rk3128_img/Core-3128J/net_adb.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/net_adb.png" width="700">
 </center>
 
 

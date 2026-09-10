@@ -23,5 +23,5 @@ Wiring precautions:
 
 <center>
 
-![](../../../rk1808_img/module_display1.jpg)
+<img alt="" src="../../../rk1808_img/module_display1.jpg" width="700">
 </center>

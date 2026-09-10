@@ -6,7 +6,7 @@ CAN(Controller Area Network)总线，即控制器局域网总线，是一种有�
 CAN模块之间接线：CAN_H接CAN_H，CAN_L接CAN_L。
 <center>
 
-![](../../../rv1126b_img/AIO-1126BQ38/usage_can.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BQ38/usage_can.png" width="800">
 </center>
 
 ### DTS 节点配置

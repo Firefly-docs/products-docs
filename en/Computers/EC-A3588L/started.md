@@ -4,11 +4,11 @@ Based on Rockchip new generation of flagship AIOT chip -- RK3588, the EC-A3588L 
 
 <center>
 
-![](../../../rk3588_img/EC-A3588L/EC-A3588L_1.png)
+<img alt="" src="../../../rk3588_img/EC-A3588L/EC-A3588L_1.png" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/EC-A3588L/EC-A3588L_2.png)
+<img alt="" src="../../../rk3588_img/EC-A3588L/EC-A3588L_2.png" width="700">
 </center>
 
 

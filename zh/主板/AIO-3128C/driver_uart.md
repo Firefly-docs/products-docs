@@ -16,7 +16,7 @@ AIO-3128C 使用SPI桥接/扩展4个增强功能串口(UART)的功能，分别�
 每个UART都拥有256字节的FIFO缓冲区，用于数据接收和发送。
 <center>
 
-![](../../../rk3128_img/AIO-3128C/spi_uart1.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/spi_uart1.png" width="700">
 </center>
 
 uart2 一般用做调试串口，但同样存在复用，也就是说 TF 卡与调试串口不可以同时使用： 

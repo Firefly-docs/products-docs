@@ -21,6 +21,5 @@ The operation steps are as follows:
 4. Click "Scan Device" in the programming tool to identify the device.
 
 <center>
-
-![](../../../aibox_img/AIBOX-K3/upgrade_maskrom_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_maskrom_en.png" width="800">
 </center>

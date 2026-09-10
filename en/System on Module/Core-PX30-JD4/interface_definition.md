@@ -32,11 +32,11 @@ The details are as follows:
 
 <center>
 
-![](../../../px30_img/interface.jpg)
+<img alt="" src="../../../px30_img/interface.jpg" width="900">
 </center>
 <center>
 
-![](../../../px30_img/back.jpg)
+<img alt="" src="../../../px30_img/back.jpg" width="700">
 </center>
 
 ###  Special interface description

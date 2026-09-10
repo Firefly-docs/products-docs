@@ -15,7 +15,7 @@ intelligent NVR and other fields.
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/Core-3588J-front.png)  
+<img alt="" src="../../../rk3588_img/Core-3588J/Core-3588J-front.png" width="700">
 </center>
 
 The [ITX-3588J](https://item.taobao.com/item.htm?id=670519903322) development board consists of the core board **Core-3588J** + **MB-JM3-
@@ -29,7 +29,7 @@ definition"](interface_definition.md).
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/ITX-3588J.png)
+<img alt="" src="../../../rk3588_img/Core-3588J/ITX-3588J.png" width="700">
 </center>
 
 

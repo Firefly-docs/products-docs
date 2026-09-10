@@ -22,7 +22,7 @@ The specific details are as follows:
 
 <center>
 
-![](../../../bm1684_img/AIO-1684XQ/interface_front.png)
+<img alt="" src="../../../bm1684_img/AIO-1684XQ/interface_front.png" width="900">
 </center>
 
 <center>
@@ -37,5 +37,5 @@ Antenna Specifications: Stick Antenna 4GLTE-5dB; Round Head
 
 <center>
 
-![4G Antenna](../../../bm1684_img/AIO-1684XQ/4g_antenna_connection.jpg)
+<img alt="4G Antenna" src="../../../bm1684_img/AIO-1684XQ/4g_antenna_connection.jpg" width="700">
 </center>

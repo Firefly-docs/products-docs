@@ -4,5 +4,5 @@ AIBOX-9075 powered by Qualcomm IQ-9075 processor, delivering up to 200 TOPS of p
 
 <center>
 
-![](../../../qcom_img/AIBOX-9075/aibox-9075.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-9075/aibox-9075.jpg" width="700">
 </center>

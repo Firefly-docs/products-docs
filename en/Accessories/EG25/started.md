@@ -8,7 +8,7 @@ Live to switch.
 
 <center>
 
-![](../../../modules_img/EG25/EG25.png)
+<img alt="" src="../../../modules_img/EG25/EG25.png" width="700">
 </center>
 <br>
 <br>
@@ -17,9 +17,9 @@ This module does not support voice calls and SMS, if you need support, please co
 <!--
 ## Shipping list
 ### PCIE interface
-![](../../../modules_img/EG25/ec20_shop_list_pcie_en.png)
+<img alt="" src="../../../modules_img/EG25/ec20_shop_list_pcie_en.png" width="700">
 ### USB interface
-![](../../../modules_img/EG25/ec20_shop_list_usb_en.png)
+<img alt="" src="../../../modules_img/EG25/ec20_shop_list_usb_en.png" width="700">
 -->
 
 ## Detailed parameters
@@ -53,13 +53,13 @@ This module does not support voice calls and SMS, if you need support, please co
 | RK3588 | [ITX-3588J](../../../modules_img/EG25/EG25_ITX-3588J.png), [AIO-3588JSD4](../../../modules_img/EG25/EG25_AIO-3588SJD4.jpg) ,[AIO-3588Q](../../../modules_img/EG25/EG25_AIO-3588Q.jpg)| -->
 <center>
 
-![](../../../modules_img/EG25/EG25_pcie.png)
+<img alt="" src="../../../modules_img/EG25/EG25_pcie.png" width="700">
 </center>
 
 #### USB connection
 <center>
 
-![](../../../modules_img/EG25/EG25_usb.png)
+<img alt="" src="../../../modules_img/EG25/EG25_usb.png" width="700">
 </center>
 
 ### SIM insertion

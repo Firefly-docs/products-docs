@@ -45,7 +45,7 @@ The hardware connection between ROC-RK3399-PC Pro and W25Q128FV is shown in the 
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/spi_hardware_connection.jpg" width="700">
 </center>
 
 

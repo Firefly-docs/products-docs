@@ -9,7 +9,7 @@ There's a SAR ADC (Successive Approximation Register Analog Digital Converter) i
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/driver_adc.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/driver_adc.png" width="700">
 </center>
 
 This article will introduce how to configure the ADC to work properly.

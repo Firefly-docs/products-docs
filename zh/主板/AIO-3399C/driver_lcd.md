@@ -5,7 +5,7 @@ AIO-3399C开发板默认外置支持了两个LCD屏接口，一个是LVDS，一�
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/lcd_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/lcd_interface.jpg" width="900">
 </center>
 
 另外板子也支持MIPI屏幕，但需要注意的是MIPI和LVDS是复用的，使用MIPI之后不能使用LVDS。需要客户自行焊接MIPI接口，如下图，还需要拆除红框内3排电阻拆掉:
@@ -110,7 +110,7 @@ AIO-3399C开发板外置了一个背光接口用来控制屏幕背光，如下�
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/lcd_back_light.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/lcd_back_light.jpg" width="700">
 </center>
 
 在DTS文件：kernel/arch/arm64/boot/dts/rockchip/rk3399-firefly-core.dtsi中配置了背光信息，如下：
@@ -213,7 +213,7 @@ disp_timings: display-timings {
 
 <center>
 
-![](../../../rk3399_img/lcd_sequence.jpg)
+<img alt="" src="../../../rk3399_img/lcd_sequence.jpg" width="700">
 </center>
 
 #### LVDS Init Code
@@ -224,7 +224,7 @@ lvds屏上完电后需要发送初始化指令才能使之工作。初始化指�
 首先打开TC358764_5_774_5XBG_DSI-LVDS_Tv11p_nm_1280x800.xls
 <center>
 
-![](../../../rk3399_img/page.png)
+<img alt="" src="../../../rk3399_img/page.png" width="700">
 </center>
 选择页面"Timing Parameters_SYNC_EVENT"，按照LVDS屏的时序填入LVDS timing黄色单元,一般只需填入以下单元即可。
 * HPW / HBPR / HDISPR / HFPR 分别对应 hsync-len / hback-porch / hactive / hfront-porch
@@ -233,7 +233,7 @@ lvds屏上完电后需要发送初始化指令才能使之工作。初始化指�
 LVDS timing填入完成后还需配置常规参数
 <center>
 
-![](../../../rk3399_img/parameter.png)
+<img alt="" src="../../../rk3399_img/parameter.png" width="900">
 </center>
 * 1.根据LVDS屏规格书确认LVDS Link和LVDS output format并选择屏的参数。
 * 2.计算LVDS clock(蓝色单元无法写入，需要黄色单元自动计算得出)，需要填入DSI Clock(HOST), Pixel Clock Source, Pixel Clock Divider。计算公式如下:DSI Clock/Pixel Clock Source/Pixel Clock Divider=LVDS Clock
@@ -241,7 +241,7 @@ LVDS timing填入完成后还需配置常规参数
 填入上述黄色单元基本上完成配置，接下来选择页面"Source"即可看到转换后的Comment
 <center>
 
-![](../../../rk3399_img/source.png)
+<img alt="" src="../../../rk3399_img/source.png" width="700">
 </center>
 以上面为例"013C 00030005"，mipi command就应该是"29 02 06 3C 01 05 00 03 00"
 * 29 : packet ID

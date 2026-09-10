@@ -6,7 +6,7 @@ Firefly-RK3399 has two LCD screen interface, one is EDP, one is MIPI, the corres
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/lcd_interface.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/lcd_interface.jpg" width="900">
 </center>
 
 ## Configure DTS
@@ -354,7 +354,7 @@ Time series attributes refer to the following figure:
 
 <center>
 
-![](../../../rk3399_img/lcd_sequence.jpg)
+<img alt="" src="../../../rk3399_img/lcd_sequence.jpg" width="700">
 </center>
 
 ## Init Code

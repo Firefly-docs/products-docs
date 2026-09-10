@@ -10,36 +10,36 @@ EC-A3399ProC 六核 64 位 AI 嵌入式主机，基于 AIO-3399ProC 人工智能
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_front.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_back.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_back.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_more.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_more.png" width="700">
 </center>
 
 # 产品参数
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter1.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter1.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter2.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter2.png" width="700">
 </center>
 
 # 其他参数
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter3.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter3.png" width="700">
 </center>
 
 # 产品资源

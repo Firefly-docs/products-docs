@@ -57,7 +57,7 @@ The easiest way to flash the [Raw Firmware] is to use the official [SDCard Insta
 
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer.png)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer.png" width="700">
     </center>
 
 5. Choose an firmware OS, and click "OK" button. To flash local firmware, drag it from your local drive and drop to [SDCard Installer].
@@ -66,7 +66,7 @@ The easiest way to flash the [Raw Firmware] is to use the official [SDCard Insta
 
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_flashing.png)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_flashing.png" width="700">
     </center>
 
 **Note**:
@@ -76,7 +76,7 @@ The easiest way to flash the [Raw Firmware] is to use the official [SDCard Insta
 
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_umount_fail.png)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_umount_fail.png" width="700">
     </center>
 
 - The downloaded firmware will be saved to the local directory, which will be reused the next time you flash the same firmware again. The download directory can be set by clicking the setting icon in the bottom left of the main window and changing the "Download Location:" field.

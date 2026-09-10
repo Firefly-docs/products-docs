@@ -8,14 +8,14 @@ The **CORE-1126BJD4** development board utilizes the Rockchip quad-core AI visio
 
 <center>
 
-![](../../../rv1126b_img/CORE-1126BJD4/CORE-1126BJD4-front.png)  
+<img alt="" src="../../../rv1126b_img/CORE-1126BJD4/CORE-1126BJD4-front.png" width="700">
 </center>
 
 **CORE-1126BJD4** back：
 
 <center>
 
-![](../../../rv1126b_img/CORE-1126BJD4/CORE-1126BJD4-back.png)  
+<img alt="" src="../../../rv1126b_img/CORE-1126BJD4/CORE-1126BJD4-back.png" width="700">
 </center>
 
 ### AIO-1126BJD4
@@ -26,14 +26,14 @@ AIO-1126BJD4 front：
 
 <center>
 
-![](../../../rv1126b_img/CORE-1126BJD4/AIO-1126BJD4-front.png)  
+<img alt="" src="../../../rv1126b_img/CORE-1126BJD4/AIO-1126BJD4-front.png" width="700">
 </center>
 
 AIO-1126BJD4 back：
 
 <center>
 
-![](../../../rv1126b_img/CORE-1126BJD4/AIO-1126BJD4-back.png)
+<img alt="" src="../../../rv1126b_img/CORE-1126BJD4/AIO-1126BJD4-back.png" width="700">
 </center>
 
 ### AIO-1126BJD4V0
@@ -46,13 +46,13 @@ AIO-1126BJD4V0 front：
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-front.png)  
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-front.png" width="700">
 </center>
 
 AIO-1126BJD4V0 back：
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-back.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-back.png" width="700">
 </center>
  <a id="firmware-format"></a>

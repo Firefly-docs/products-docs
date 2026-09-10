@@ -19,7 +19,7 @@ The external screen is [DM-M10R800 V3S Monitor Module](https://community.t-firef
 * DSI interface
 <center>
 
-![](../../../rk3506_img/ROC-RK3506B-CC/usage_display_mipi_v3_interface.png)
+<img alt="" src="../../../rk3506_img/ROC-RK3506B-CC/usage_display_mipi_v3_interface.png" width="900">
 </center>
 
 Add to the device tree:

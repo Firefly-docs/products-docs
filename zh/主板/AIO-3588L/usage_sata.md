@@ -9,7 +9,7 @@ AIO-3588L 开发板上有 1 个 M.2 SATA 接口
 
 <center>
 
-![](../../../rk3588_img/Core-3588L/usage_sata_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588L/usage_sata_interface.png" width="900">
 </center>
 
 注意事项：
@@ -25,7 +25,7 @@ Settings->Connected devices -> M.2 SSD Type
 
  <center>
 
- ![](../../../rk3588_img/Core-3588L/swtich_sata_pcie.jpg)
+ <img alt="" src="../../../rk3588_img/Core-3588L/swtich_sata_pcie.jpg" width="700">
  </center>
 
  修改后需要重启系统才会生效

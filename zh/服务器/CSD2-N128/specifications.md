@@ -54,7 +54,7 @@
 
 <center>
 
-![perspective view](../../../servers_img/CSD2-N128/hw_logical_topology.png)
+<img alt="perspective view" src="../../../servers_img/CSD2-N128/hw_logical_topology.png" width="700">
 </center>
 
 #### 网络拓扑图

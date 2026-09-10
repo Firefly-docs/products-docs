@@ -55,7 +55,7 @@ Additionally, during usage, you might require the following:
 - Reference for the delivered components:
 <center>
 
-![Component Reference](../../../bm1684_img/AIO-1684XJD4/started_components.jpg)
+<img alt="Component Reference" src="../../../bm1684_img/AIO-1684XJD4/started_components.jpg" width="700">
 </center>
 
 ## Power On

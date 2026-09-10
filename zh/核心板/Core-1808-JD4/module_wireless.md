@@ -46,7 +46,7 @@
 * Mini-PCIe接口连接
 <center>
 
-![](../../../rk1808_img/module_wireless2.jpg)
+<img alt="" src="../../../rk1808_img/module_wireless2.jpg" width="700">
 </center>
 
 ### 参考固件

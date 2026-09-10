@@ -11,7 +11,7 @@ EC-R3588SPC支持一路光耦隔离输入，其中，IN在硬件原理图中对�
 ### 电路原理图
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/input_sch.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/input_sch.jpg" width="700">
 </center>
 
 ### 检测

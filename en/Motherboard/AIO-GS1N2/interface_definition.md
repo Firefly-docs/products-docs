@@ -2,13 +2,13 @@
 ## Enclosure
 <center>
 
-![](../../../gs1-n2_img/GS1-N2/interface-enclosure-en.png)
+<img alt="" src="../../../gs1-n2_img/GS1-N2/interface-enclosure-en.png" width="900">
 </center>
 
 ## Main Board
 <center>
 
-![](../../../gs1-n2_img/GS1-N2/interface-mainboard-en.png)
+<img alt="" src="../../../gs1-n2_img/GS1-N2/interface-mainboard-en.png" width="900">
 </center>
 
 |Main mod|When only installing the main mod|

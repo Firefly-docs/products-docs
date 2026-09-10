@@ -3,5 +3,5 @@ AIBOX-Orin Nano 搭载NVIDIA 官方原装 Jetson Orin Nano 核心板模组，拥
 
 <center>
 
-![](../../../aibox_img/AIBOX-Orin-Nano/AIBOX-Orin.jpg)
+<img alt="" src="../../../aibox_img/AIBOX-Orin-Nano/AIBOX-Orin.jpg" width="700">
 </center>

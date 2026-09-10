@@ -45,7 +45,7 @@ chmod + setup.sh
 
 <center>
 
-![](../../../qcom_img/aidlux_login.jpg)
+<img alt="" src="../../../qcom_img/aidlux_login.jpg" width="800">
 </center>
 
 登陆密码是 aidlux
@@ -64,7 +64,7 @@ Aidlite 是 AI 执行框架，可以调用高通平台的 CPU/GPU/NPU(DSP) 进�
 
 <center>
 
-![](../../../qcom_img/aidlite_demos.jpg)
+<img alt="" src="../../../qcom_img/aidlite_demos.jpg" width="700">
 </center>
 
 比如我们可以尝试运行 aidlite_qnn236 的 python 例子
@@ -81,12 +81,12 @@ sudo python qnn_yolov5_multi.py 3
 
 <center>
 
-![](../../../qcom_img/aidlite_demo_result_location.jpg)
+<img alt="" src="../../../qcom_img/aidlite_demo_result_location.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../qcom_img/aidlite_demo_result_img.jpg)
+<img alt="" src="../../../qcom_img/aidlite_demo_result_img.jpg" width="700">
 </center>
 
 ### AidGenSE
@@ -149,7 +149,7 @@ aidllm restart api
 
 <center>
 
-![](../../../qcom_img/aidlux_nextchat.jpg)
+<img alt="" src="../../../qcom_img/aidlux_nextchat.jpg" width="700">
 </center>
 
 ## 其他
@@ -162,14 +162,14 @@ aidllm restart api
 
 <center>
 
-![](../../../qcom_img/aidlux_upload_file.jpg)
+<img alt="" src="../../../qcom_img/aidlux_upload_file.jpg" width="700">
 </center>
 
 选中文件，点击右上角下载按钮，即可下载文件。
 
 <center>
 
-![](../../../qcom_img/aidlux_download_file.jpg)
+<img alt="" src="../../../qcom_img/aidlux_download_file.jpg" width="700">
 </center>
 
 ### 更多教程

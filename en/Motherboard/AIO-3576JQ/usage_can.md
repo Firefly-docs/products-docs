@@ -7,7 +7,7 @@ Connection between two CAN devices, only need CAN_H to CAN_H, CAN_L to CAN_L.
 
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/usage_can_interface.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/usage_can_interface.jpg" width="900">
 </center>
 
 ### DTS Configuration

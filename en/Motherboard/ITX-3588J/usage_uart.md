@@ -10,7 +10,7 @@ The serial interface diagram of the ITX-3588J development board is as follows:
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_uart_interface.jpg" width="900">
 </center>
 
 How to use jumper to select RS232 or UART0, RS485 or UART1:
@@ -70,7 +70,7 @@ Users can use different host's USB-to-serial adapters to send and receive data t
 (1) Connect the hardware
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_uart_rs485_connect.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_uart_rs485_connect.jpg" width="800">
 </center>
 
 `RS485` to connect `FC10 to DP9 serial cable`;

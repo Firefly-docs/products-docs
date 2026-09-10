@@ -15,7 +15,7 @@ AIO-3588SJD4  的ADC接口图如下：
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_adc_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_adc_interface.jpg" width="900">
 </center>
 
 ## DTS配置

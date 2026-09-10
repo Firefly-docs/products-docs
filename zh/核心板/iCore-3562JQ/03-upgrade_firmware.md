@@ -45,7 +45,7 @@ SDK 可编译出分区镜像
 
 <center>
 
-![](../../../rk3562_img/upgrade_firmware_rkdevtool_zh.png)
+<img alt="" src="../../../rk3562_img/upgrade_firmware_rkdevtool_zh.png" width="800">
 </center>
 
 ### Linux操作系统
@@ -97,7 +97,7 @@ reboot loader
 
 <center>
 
-![](../../../rk3562_img/upgrade_firmware_new_equipment.png)
+<img alt="" src="../../../rk3562_img/upgrade_firmware_new_equipment.png" width="800">
 </center>
 
 **Linux操作系统**
@@ -137,7 +137,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 <center>
 
-![](../../../rk3562_img/upgrade_firmware_rkdevtool_zh.png)
+<img alt="" src="../../../rk3562_img/upgrade_firmware_rkdevtool_zh.png" width="800">
 </center>
 
 ### Linux操作系统
@@ -170,5 +170,5 @@ sudo upgrade_tool ul bootloader.bin # 烧写 bootloader
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 <center>
 
-![](../../../rk3562_img/upgrade_downloadfail.png)
+<img alt="" src="../../../rk3562_img/upgrade_downloadfail.png" width="800">
 </center>

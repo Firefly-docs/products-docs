@@ -9,7 +9,7 @@ iCore-3576Q 开发板上有 1 个 M.2 接口。
 
 <center>
 
-![](../../../rk3576_img/iCore-3576Q/usage_sata_interface.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576Q/usage_sata_interface.jpg" width="900">
 </center>
 
 ## 软件配置
@@ -20,7 +20,7 @@ Settings->Connected devices -> M.2 SSD Type
 
 选择需要生效的选项SATA 或 PCIe
 
- ![](../../../rk3576_img/iCore-3576Q/swtich_sata_pcie.jpg)
+ <img alt="" src="../../../rk3576_img/iCore-3576Q/swtich_sata_pcie.jpg" width="700">
 
  修改后需要重启系统才会生效
  -->

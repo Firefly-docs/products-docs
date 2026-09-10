@@ -8,19 +8,19 @@ Core-3328-JD4 采用 Rockchip RK3328 四核 64 位 Cortex-A53 处理器，板载
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_front.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_back.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_back.png" width="700">
 </center>
 
 ## 产品参数
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/core-3328-jd4_parameter1.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/core-3328-jd4_parameter1.png" width="900">
 </center>
 
 <center>

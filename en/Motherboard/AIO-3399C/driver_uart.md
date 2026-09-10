@@ -15,7 +15,7 @@ The serial interface diagram of the AIO-3399C development board is as follows:
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/uart_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/uart_interface.jpg" width="900">
 </center>
 
 **Note: RS232 needs to use RS232 crossover cable to use, otherwise rx and tx will have unsuccessful transmission and reception.**

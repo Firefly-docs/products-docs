@@ -9,10 +9,10 @@
 ### 实物图
 <center>
 
-![](../../../rk1808_img/module_transform1.jpg)
+<img alt="" src="../../../rk1808_img/module_transform1.jpg" width="700">
 </center>
 ### 连接方法
 <center>
 
-![](../../../rk1808_img/module_transform2.jpg)
+<img alt="" src="../../../rk1808_img/module_transform2.jpg" width="700">
 </center>

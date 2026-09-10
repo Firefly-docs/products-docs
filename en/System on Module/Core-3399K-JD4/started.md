@@ -6,18 +6,18 @@ Core-3399-JD4 core board uses Rockchip high-performance six-core 64-bit processo
 **Note: NPU SPR5801S is used for versions above V2.2, SPR2801S for versions below V2.2**
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2up.png)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2up.png" width="700">
 </center>
 
 **Note: NPU SPR2801S is used for versions below V2.2**
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2down.png)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2down.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_back.png)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/core-3399-jd4_back.png" width="700">
 </center>
 
 
@@ -58,6 +58,6 @@ In addition, during use, you may need the following accessories:
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/started_shipping_list.en.jpg)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/started_shipping_list.en.jpg" width="700">
 </center>
  <a id="firmware-format"></a>

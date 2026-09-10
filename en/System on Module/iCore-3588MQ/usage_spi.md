@@ -5,7 +5,7 @@
 SPI is a high-speed, full-duplex, synchronous serial communication interface for connecting microcontrollers, sensors, storage devices, etc. The AIO-3588MQ  development board provides the SPI1 (single chip optional) interface, and the specific position is as follows:
 <center>
 
-![](../../../rk3588_img/iCore-3588MQ/usage_spi_interface.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588MQ/usage_spi_interface.jpg" width="900">
 </center>
 
 ## How SPI works

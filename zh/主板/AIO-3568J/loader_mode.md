@@ -15,13 +15,13 @@
 * 双公头 USB 数据线一端连接主机，一端连接开发板
 <center>
 
-![](../../../rk356x_img/Core-3568J/otg_interface.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/otg_interface.png" width="900">
 </center>
 
 * 按住设备上的 RECOVERY （恢复）键并保持
 <center>
 
-![](../../../rk356x_img/Core-3568J/recovery_key.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/recovery_key.png" width="700">
 </center>
 
 * 接上电源

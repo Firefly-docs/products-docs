@@ -5,7 +5,7 @@ ROC-RK3399-PC 开发板默认外置支持了两个LCD屏接口，一个是MIPI-D
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc6.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc6.jpg" width="700">
 </center>
 
 * MIPI 接口

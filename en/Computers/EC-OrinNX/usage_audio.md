@@ -11,7 +11,7 @@ Switch between the headphone and HDMI interfaces in the system settings, selecti
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-NX/Sound.png)
+<img alt="" src="../../../bm1688_img/EC-Orin-NX/Sound.png" width="700">
 </center>
 
 ### Command Line Mode

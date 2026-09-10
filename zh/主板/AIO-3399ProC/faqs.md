@@ -14,7 +14,7 @@ AIO-3399ProC 的 HDMI 能自动识别显示的分辨率。假如无法读取显�
 
 <center>
 
-![](../../../rk3399_img/faqs_setting_resolution.jpg)
+<img alt="" src="../../../rk3399_img/faqs_setting_resolution.jpg" width="700">
 </center>
 
 ## 打开 Root 权限
@@ -26,7 +26,7 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/faqs_android_root.png" width="800">
 </center>
 
 ## 开机异常并循环重启怎么办？

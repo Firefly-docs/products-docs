@@ -23,7 +23,7 @@
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/started_components.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/started_components.jpg" width="700">
 </center>
 
 Firefly-RK3399 支持从以下存储设备启动：

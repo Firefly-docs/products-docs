@@ -10,7 +10,7 @@ This article will introduce how to make the camera work properly, using OV13850/
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/camera_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/camera_interface.jpg" width="900">
 </center>
 
 ## DTS Configuration
@@ -56,7 +56,7 @@ According to the schematic diagram below, you need to provide: `AF_VDD28`, `DOVD
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/camera_mipi_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/camera_mipi_interface.jpg" width="900">
 </center>
 
 * `AF_VDD28` is provided by hardware connection. No configuration is needed.

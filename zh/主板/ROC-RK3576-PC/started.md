@@ -8,6 +8,6 @@
 
 <center>
 
-![](../../../rk3576_img/ROC-RK3576-PC/ROC-RK3576-PC.png)  
+<img alt="" src="../../../rk3576_img/ROC-RK3576-PC/ROC-RK3576-PC.png" width="700">
 </center>
       

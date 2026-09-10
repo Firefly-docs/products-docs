@@ -11,7 +11,7 @@ AIO-3566JD4 has 2 working modes. Under normal circumstances, boot directly into 
 
 <center>
 
-![](../../../rk356x_img/working_mode_en.png)
+<img alt="" src="../../../rk356x_img/working_mode_en.png" width="700">
 </center>
 
 **AIO-3566JD4 is classified according to the working mode and can be divided into two working modes:**

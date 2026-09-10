@@ -32,7 +32,7 @@
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/module_display_mipi_connection.jpg)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/module_display_mipi_connection.jpg" width="700">
 </center>
 
 ## [10.1 寸LVDS屏模组](https://store.t-firefly.com/goods.php?id=80)
@@ -78,7 +78,7 @@
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/module_display_lvds_new.jpg)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/module_display_lvds_new.jpg" width="700">
 </center>
 
 
@@ -118,5 +118,5 @@
 
 <center>
 
-![](../../../rk3399_img/module_display_edp.jpg)
+<img alt="" src="../../../rk3399_img/module_display_edp.jpg" width="700">
 </center>

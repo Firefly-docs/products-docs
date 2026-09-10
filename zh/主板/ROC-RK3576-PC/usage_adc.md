@@ -15,7 +15,7 @@ ROC-RK3576-PC 的ADC接口图如下：
 
 <center>
 
-![](../../../rk3576_img/ROC-RK3576-PC/usage_adc_interface.jpg)
+<img alt="" src="../../../rk3576_img/ROC-RK3576-PC/usage_adc_interface.jpg" width="900">
 </center>
 
 ## DTS配置

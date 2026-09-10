@@ -64,7 +64,7 @@
 下载 [AndroidTool](https://community.t-firefly.com/doc/download/72)，解压，运行 AndroidTool_Release_v2.63 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图:
 <center>
 
-![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/upgrade_firmware3.png" width="800">
 </center>
 
 #### 烧写统一固件 update.img
@@ -80,7 +80,7 @@
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/upgrade_firmware4.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/upgrade_firmware4.png" width="800">
 </center>
 
 #### 烧写分区映像
@@ -100,7 +100,7 @@
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/upgrade_firmware3.png" width="800">
 </center>
 
 ### Linux

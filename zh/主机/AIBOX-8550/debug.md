@@ -8,7 +8,7 @@ Debug 串口在调试和排查问题时非常有用，特别是在图形界面�
 
 <center>
 
-![](../../../qcom_img/AIBOX-8550/debug_console.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-8550/debug_console.jpg" width="800">
 </center>
 
 ## 驱动安装

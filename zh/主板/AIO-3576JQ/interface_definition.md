@@ -31,12 +31,12 @@
 
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/interface_front_zh.png)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/interface_front_zh.png" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/interface_back_zh.png)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/interface_back_zh.png" width="900">
 </center>
 
 ## 特殊接口说明

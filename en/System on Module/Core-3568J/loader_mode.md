@@ -14,13 +14,13 @@ Here's how to put your device into upgrade mode:
 * Dual male usb data cable connects one end to the host and the other end to the development board.
 <center>
 
-![](../../../rk356x_img/Core-3568J/otg_interface.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/otg_interface.png" width="900">
 </center>
 
 * Press the `RECOVERY` button on the device and hold.
 <center>
 
-![](../../../rk356x_img/Core-3568J/recovery_key.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/recovery_key.png" width="700">
 </center>
 
 * Connect to the power supply.

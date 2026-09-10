@@ -35,12 +35,12 @@
 
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/interface_front.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/interface_front.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/interface_back.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/interface_back.jpg" width="900">
 </center>
 
 

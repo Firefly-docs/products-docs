@@ -56,28 +56,28 @@ sudo x11vnc -display :0 -auth /var/lib/lightdm/.Xauthority &
 
 <center>
 
-![](../../../bm1684_img/EC-A1684XJD4-FD/vnc-01.png)
+<img alt="" src="../../../bm1684_img/EC-A1684XJD4-FD/vnc-01.png" width="700">
 </center>
 
 （3）输入 EC-A1684XJD4 FD 的 `$bm1684_ip:0` 地址：
 
 <center>
 
-![](../../../bm1684_img/EC-A1684XJD4-FD/ubuntu-vnc-02.png)
+<img alt="" src="../../../bm1684_img/EC-A1684XJD4-FD/ubuntu-vnc-02.png" width="800">
 </center>
 
 （4）点击linao用户名右侧的圆形按钮，选择xfce， 输入用户与密码，均为 `linaro`：
 
 <center>
 
-![](../../../bm1684_img/EC-A1684XJD4-FD/ubuntu-vnc-03.png)
+<img alt="" src="../../../bm1684_img/EC-A1684XJD4-FD/ubuntu-vnc-03.png" width="800">
 </center>
 
 （5）成功进入 xfce4 桌面：
 
 <center>
 
-![](../../../bm1684_img/EC-A1684XJD4-FD/ubuntu-vnc-04.png)
+<img alt="" src="../../../bm1684_img/EC-A1684XJD4-FD/ubuntu-vnc-04.png" width="800">
 </center>
 
 

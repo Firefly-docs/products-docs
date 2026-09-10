@@ -11,7 +11,7 @@ such as M.2 SATA, PCIe, and USB3.0/2.0.
 </center>
 <center>
 
-![](../../../rk3588_img/EC-R3588RT_10G/EC-R3588RT_10G4.png)
+<img alt="" src="../../../rk3588_img/EC-R3588RT_10G/EC-R3588RT_10G4.png" width="700">
 </center>
 
 

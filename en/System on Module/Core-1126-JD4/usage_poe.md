@@ -2,7 +2,7 @@
 * The network port where `POE` function can be added is `1000M`, as shown in the figure below:
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/POE-interface.png) 
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/POE-interface.png" width="900">
 </center>
 The `POE` module needs to be connected to the `POE` interface of the bottom plate
 ```

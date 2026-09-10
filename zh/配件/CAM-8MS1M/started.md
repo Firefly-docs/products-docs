@@ -3,14 +3,14 @@
 CAM-8MS1M 是一款 MIPI 宽动态模组，可见光采用 8M 宽动态传感器，优质的宽动态效果将适应更多恶劣场景，减少复杂光线环境对识别算法产生的不良影响，采用标准MIPI接口输出高质量视频流；产品主要应用于人脸识别门禁、考勤、闸机、人证机等场景。
 <center>
 
-![](../../../modules_img/CAM-8MS1M/cam-8ms1m.png)
+<img alt="" src="../../../modules_img/CAM-8MS1M/cam-8ms1m.png" width="700">
 </center>
 
 
 ## 发货清单
 <center>
 
-![](../../../modules_img/CAM-8MS1M/cam-8ms1m_shop_list.png)
+<img alt="" src="../../../modules_img/CAM-8MS1M/cam-8ms1m_shop_list.png" width="700">
 </center>
 
 ## 详细参数
@@ -62,13 +62,13 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 ### 30pin MIPI CSI接口连接
 <center>
 
-![](../../../modules_img/CAM-8MS1M/interface_30pin.jpg)
+<img alt="" src="../../../modules_img/CAM-8MS1M/interface_30pin.jpg" width="900">
 </center>
 
 ### 24pin MIPI CSI接口连接
 <center>
 
-![](../../../modules_img/CAM-8MS1M/interface_24pin.jpg)
+<img alt="" src="../../../modules_img/CAM-8MS1M/interface_24pin.jpg" width="900">
 </center>
 
 <font color="red">注意：不要接到带有`MIPI DSI`字样的接口，这可能会导致烧坏模组或者开发板。</font>

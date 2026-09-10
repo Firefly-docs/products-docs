@@ -3,11 +3,11 @@
 
 <center>
 
-![](../../../aibox_img/AIBOX-3588S/AIBOX-3588S.png)
+<img alt="" src="../../../aibox_img/AIBOX-3588S/AIBOX-3588S.png" width="700">
 </center>
 
 ## 主机尺寸
 <center>
 
-![](../../../aibox_img/AIBOX-3588S/AIBOX-3588S-size.png)
+<img alt="" src="../../../aibox_img/AIBOX-3588S/AIBOX-3588S-size.png" width="900">
 </center>

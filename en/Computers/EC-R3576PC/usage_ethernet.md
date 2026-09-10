@@ -52,7 +52,7 @@ Android The dual Ethernet port is divided into internal network and external net
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/usage_ethernet_interface.jpg)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/usage_ethernet_interface.jpg" width="900">
 </center>
 
 #### IP Addrs

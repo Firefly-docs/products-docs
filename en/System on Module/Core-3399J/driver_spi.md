@@ -6,7 +6,7 @@ SPI is a high-speed, full-duplex, synchronous serial communication interface for
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/spi_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/spi_interface.jpg" width="900">
 </center>
 
 
@@ -50,7 +50,7 @@ The hardware connection between AIO-3399J and W25Q128FV is shown in the followin
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/spi_hardware_connection.jpg" width="700">
 </center>
 
 

@@ -6,7 +6,7 @@ AIO-3399J 开发板上有 9 个片上 I2C 控制器，各个 I2C 的使用情况
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/i2c_list.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/i2c_list.jpg" width="700">
 </center>
 
 本文主要描述如何在该开发板上配置 I2C。

@@ -8,12 +8,12 @@ EXT-iCore-3576Q38 使用了 `UART11` 做 `RS485`，在系统中对应 `/dev/ttyS
 
 <center>
 
-![](../../../rk3576_img/iCore-3576Q38/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576Q38/usage_uart_interface.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/iCore-3576Q38/usage_uart_interface2.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576Q38/usage_uart_interface2.jpg" width="900">
 </center>
 
 ## RS485 节点使用

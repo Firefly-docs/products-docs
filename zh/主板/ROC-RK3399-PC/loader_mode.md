@@ -43,7 +43,7 @@
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ### Linux操作系统
@@ -78,13 +78,13 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 
     <center>
 
-    ![](../../../rk3399_img/ROC-RK3399-PC/upgrade_otg_interface.png)
+    <img alt="" src="../../../rk3399_img/ROC-RK3399-PC/upgrade_otg_interface.png" width="900">
     </center>
 * 按住设备上的 RECOVERY （恢复）键并保持。
 
     <center>
 
-    ![](../../../rk3399_img/ROC-RK3399-PC/upgrade_recovery_reset.png)
+    <img alt="" src="../../../rk3399_img/ROC-RK3399-PC/upgrade_recovery_reset.png" width="800">
     </center>
 * 插上电源
 * 大约两秒钟后，松开 RECOVERY 键。
@@ -107,14 +107,14 @@ reboot loader
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 如果有进行“进入Loader模式”的操作，仍旧没有看到烧写工具提示LOADER，此时可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](loader_mode.html#windows-cao-zuo-xi-tong)。
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 **Linux操作系统**
@@ -145,7 +145,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_erase_flash.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
 
@@ -166,7 +166,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ### Linux操作系统
@@ -245,7 +245,7 @@ sudo upgrade_tool ef update.img	# 擦除
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 <center>
 
-![](../../../rk3399_img/upgrade_downloadfail.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_downloadfail.jpg" width="800">
 </center>
 
 

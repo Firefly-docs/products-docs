@@ -6,18 +6,18 @@ Core-3399-JD4核心板采用Rockchip高性能六核64位处理器RK3399，板载
 **注意： V2.2以上版本使用NPU SPR5801S，低于V2.2的是SPR2801S**
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2up.png)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2up.png" width="700">
 </center>
 
 **注意： V2.2以下版本使用NPU SPR2801S**
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2down.png)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/core-3399-jd4_2_2down.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/core-3399-jd4_back.png)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/core-3399-jd4_back.png" width="700">
 </center>
 
 
@@ -58,6 +58,6 @@ Core-3399-JD4核心板采用Rockchip高性能六核64位处理器RK3399，板载
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/started_shipping_list.jpg)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/started_shipping_list.jpg" width="700">
 </center>
  <a id="firmware-format"></a>

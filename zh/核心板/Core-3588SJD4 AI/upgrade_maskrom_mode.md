@@ -26,5 +26,5 @@
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

@@ -130,7 +130,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 <center>
 
-![](../../../px30_img/upgrade_firmware3.png)
+<img alt="" src="../../../px30_img/upgrade_firmware3.png" width="800">
 </center>
 
 #### Upgrade unified firmware - update.img
@@ -145,7 +145,7 @@ The steps to update the unified firmware `update.img` are as follows:
 **Note: if the firmware laoder you wrote is inconsistent with the original one, please execute `wipe Flash` before upgrading the firmware.**
 <center>
 
-![](../../../px30_img/upgrade_firmware4.png)
+<img alt="" src="../../../px30_img/upgrade_firmware4.png" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -162,7 +162,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../px30_img/upgrade_firmware3.png)
+<img alt="" src="../../../px30_img/upgrade_firmware3.png" width="800">
 </center>
 
 ## Linux
@@ -249,7 +249,7 @@ The operation steps are as follows:
 
 <center>
 
-![](../../../px30_img/maskrom.jpg)
+<img alt="" src="../../../px30_img/maskrom.jpg" width="700">
 </center>
 
 5. Plug the device into the power supply.
@@ -258,5 +258,5 @@ The operation steps are as follows:
 At this point, the device should go into `MaskRom mode`.
 <center>
 
-![](../../../px30_img/maskrom2.png)
+<img alt="" src="../../../px30_img/maskrom2.png" width="700">
 </center>

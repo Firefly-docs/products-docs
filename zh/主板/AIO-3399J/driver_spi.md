@@ -7,7 +7,7 @@ SPI 是一种高速的，全双工，同步串行通信接口，用于连接微�
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/spi_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/spi_interface.jpg" width="900">
 </center>
 ## SPI 工作方式
 
@@ -49,7 +49,7 @@ AIO-3399J 与 W25Q128FV 硬件连接可参考下表：
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/spi_hardware_connection.jpg" width="700">
 </center>
 
 

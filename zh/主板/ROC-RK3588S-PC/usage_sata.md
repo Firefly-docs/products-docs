@@ -9,7 +9,7 @@ ROC-RK3588S-PC 开发板上有 1 个 M.2 接口。
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/usage_sata_interface.jpg)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/usage_sata_interface.jpg" width="900">
 </center>
 
 ## 软件配置
@@ -21,7 +21,7 @@ Settings->Connected devices -> M.2 SSD Type
 
  <center>
 
- ![](../../../rk3588_img/ROC-RK3588S-PC/swtich_sata_pcie.jpg)
+ <img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/swtich_sata_pcie.jpg" width="700">
  </center>
 
  修改后需要重启系统才会生效

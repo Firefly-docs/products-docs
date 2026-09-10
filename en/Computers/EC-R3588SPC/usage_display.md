@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -35,7 +35,7 @@ But from the software point of view, there are the following configuration consi
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/usage_display_interface.png)   
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/usage_display_interface.png" width="900">
 </center>
 
 

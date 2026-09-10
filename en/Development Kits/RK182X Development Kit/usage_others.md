@@ -28,7 +28,7 @@
 set `RES_VOL_SEL` to `ON`
 <center>
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/res_vol_sel.png)
+<img alt="" src="../../../gs1-n2_img/AIO-GS1N2-RK182X/res_vol_sel.png" width="700">
 </center>
 
 ## USB

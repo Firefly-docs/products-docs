@@ -3,5 +3,5 @@ EC-A186JD4 uses the computing chip CV186AH, which is a highly integrated visual 
 
 <center>
 
-![](../../../bm1688_img/EC-A186JD4/EC-A1688JD4.png)
+<img alt="" src="../../../bm1688_img/EC-A186JD4/EC-A1688JD4.png" width="700">
 </center>

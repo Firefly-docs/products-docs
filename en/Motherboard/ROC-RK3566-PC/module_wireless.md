@@ -57,7 +57,7 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 <center>
 
-![](../../../rk356x_img/module_wireless_ec20_usb.jpg)
+<img alt="" src="../../../rk356x_img/module_wireless_ec20_usb.jpg" width="700">
 </center>
 
 

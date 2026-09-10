@@ -12,7 +12,7 @@ AIO-1808-JD4 提供了丰富的接口，主要包括：电源接口， 1 x USB3.
 
 <center>
 
-![](../../../rk1808_img/interface.png)
+<img alt="" src="../../../rk1808_img/interface.png" width="900">
 </center>
 <center>
 

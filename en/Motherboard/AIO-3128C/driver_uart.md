@@ -16,7 +16,7 @@ AIO-3128C uses SPI to bridge/expand the functions of four enhanced serial ports 
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/spi_uart1_en.PNG)
+<img alt="" src="../../../rk3128_img/AIO-3128C/spi_uart1_en.PNG" width="700">
 </center>
 
 uart2 is generally used as debug port. It is also multiplexed with the TF card, hence uart2 and TF card can not be used at the same time:  

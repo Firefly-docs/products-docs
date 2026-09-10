@@ -13,7 +13,7 @@ The complete NPU development process is shown in the following figure
 
 <center>
 
-![](../../../rk1808_img/rknn_development_flow_en.png)
+<img alt="" src="../../../rk1808_img/rknn_development_flow_en.png" width="700">
 </center>
 
 ### 1. model training

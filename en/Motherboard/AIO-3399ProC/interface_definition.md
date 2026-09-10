@@ -42,5 +42,5 @@ AIO-3399ProC provides a wealth of interfaces, mainly including:
 The details are as follows:
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/interface.jpg" width="900">
 </center>

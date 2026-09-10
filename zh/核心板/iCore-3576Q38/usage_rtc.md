@@ -15,7 +15,7 @@ EXT-iCore-3576Q38 预留电池座给RTC供电，接上电池后可以在短时�
 
 <center>
 
-![](../../../rk3576_img/iCore-3576Q38/usage_rtc_capacitor.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576Q38/usage_rtc_capacitor.jpg" width="800">
 </center>
 
 ## RTC驱动

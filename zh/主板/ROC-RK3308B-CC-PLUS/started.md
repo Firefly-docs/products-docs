@@ -2,13 +2,13 @@
 ## 产品规格
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/roc-rk3308b-cc-plus_pin.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/roc-rk3308b-cc-plus_pin.jpg" width="700">
 </center>
 
 ## 发货清单参考
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/list_roc-rk3308b-cc-plus.jpg)  
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/list_roc-rk3308b-cc-plus.jpg" width="700">
 </center>
 
 具体信息以官网商城为准。

@@ -55,7 +55,7 @@ Android 双以太网口分内网和外网。
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/usage_ethernet_interface.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/usage_ethernet_interface.jpg" width="900">
 </center>
 
 #### 查看IP地址

@@ -13,12 +13,12 @@ Windows 上一般用 putty 或 SecureCRT。其中我们推荐使用 MobaXterm �
 
 <center>
 
-![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png)
+<img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png" width="800">
 </center>
 
 
 
 <center>
 
-![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png)
+<img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png" width="800">
 </center>

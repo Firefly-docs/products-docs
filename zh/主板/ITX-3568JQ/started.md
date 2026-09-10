@@ -4,14 +4,14 @@
 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/iCore-3568JQ.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/iCore-3568JQ.jpg" width="700">
 </center>
 
 [ITX-3568Q]()开发板由核心板 iCore-3568JQ 加底板组成, 标准 ITX 主板尺寸，标准的接口规范，可适配通用的ITX电脑机箱。提供丰富的拓展接口，让用户在创造时能有更大的想象空间
 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/ITX-3568Q.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/ITX-3568Q.jpg" width="700">
 </center>
 
 ## ITX-3568Q 标准套装包含以下配件(仅供参考)：

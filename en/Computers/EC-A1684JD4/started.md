@@ -4,5 +4,5 @@ EC-A1684JD4 utilizes the SOPHON AI computing processor BM1684, with the option f
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4/ec-a1684jd4.jpg)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4/ec-a1684jd4.jpg" width="700">
 </center>

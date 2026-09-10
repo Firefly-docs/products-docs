@@ -8,7 +8,7 @@ EG25-G 是移远通信专为 M2M 和 IoT 领域而设计的 LTE Cat 4 无线通�
 
 <center>
 
-![](../../../modules_img/EG25/EG25.png)
+<img alt="" src="../../../modules_img/EG25/EG25.png" width="700">
 </center>
 <br>
 <br>
@@ -17,9 +17,9 @@ EG25-G 是移远通信专为 M2M 和 IoT 领域而设计的 LTE Cat 4 无线通�
 <!--
 ## 发货清单
 ### PCIE 接口
-![](../../../modules_img/EG25/ec20_shop_list_pcie.png)
+<img alt="" src="../../../modules_img/EG25/ec20_shop_list_pcie.png" width="700">
 ### USB 接口
-![](../../../modules_img/EG25/ec20_shop_list_usb.png)
+<img alt="" src="../../../modules_img/EG25/ec20_shop_list_usb.png" width="700">
 -->
 
 ## 详细参数
@@ -61,13 +61,13 @@ EG25-G 是移远通信专为 M2M 和 IoT 领域而设计的 LTE Cat 4 无线通�
 
 <center>
 
-![](../../../modules_img/EG25/EG25_pcie.png)
+<img alt="" src="../../../modules_img/EG25/EG25_pcie.png" width="700">
 </center>
 
 #### USB 接口的连接
 <center>
 
-![](../../../modules_img/EG25/EG25_usb.png)
+<img alt="" src="../../../modules_img/EG25/EG25_usb.png" width="700">
 </center>
 
 ### SIM 卡的插入

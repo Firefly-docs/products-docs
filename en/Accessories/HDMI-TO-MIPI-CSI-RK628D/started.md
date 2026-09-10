@@ -8,14 +8,14 @@ The HDMI TO MIPI CSI Driver board uses the video bridge chip RK628D, which can r
 
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_front.jpg)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_front.jpg" width="700">
 </center>
 
 ### Shipping list(Only for references)
 
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_shipping_list_en.png)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_shipping_list_en.png" width="700">
 </center>
 
 ### Specifications
@@ -36,7 +36,7 @@ The HDMI TO MIPI CSI Driver board uses the video bridge chip RK628D, which can r
 ### Interface Definition
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_interface.jpg)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_interface.jpg" width="900">
 </center>
 
 Line Out:  Output the analog signal processed by the sound card to the audio device through this interface.
@@ -49,13 +49,13 @@ Line Out:  Output the analog signal processed by the sound card to the audio dev
 #### RK3566/RK3568/RK3588/RK3588S/RK3576 Series Embedded Board
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection.jpg)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection.jpg" width="700">
 </center>
 
 #### RK3399 Series Embedded Board
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection_30p-to-24p.jpg)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_connection_30p-to-24p.jpg" width="700">
 </center>
 
 <font color='red'>Note:<br />1. Operate this step when the Driver board and development board are in power off state to avoid burning them.<br /> 2.If the RK3399 series embedded board has two MIPI CSI interfaces, it is connected to MIPI CSI0 by default.</font>
@@ -66,7 +66,7 @@ HdmiIn2 application is built in the system by default, as shown in the figure:
 
 <center>
 
-![](../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_HdmiIn2.png)
+<img alt="" src="../../../modules_img/HDMI-TO-MIPI-CSI-RK628D/rk628d_HdmiIn2.png" width="700">
 </center>
 
 Click to enter the application, the interface will display HDMI-IN video, and the audio will be output from LineOut on the driver board. The application supports the maximum output resolution 3840x2160@30fps .

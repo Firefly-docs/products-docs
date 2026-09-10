@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BJD4V0/mipi_screen.jpg)
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/mipi_screen.jpg" width="700">
 </center>
 
 Debian firmware boots into the XFCE desktop environment by default. Since the RV1126B chip lacks a GPU for hardware-accelerated rendering, the desktop environment uses the CPU for rendering. Therefore, under heavy workloads, display stuttering may occur.

@@ -9,7 +9,7 @@ AIO-3399ProC 开发板分别带有两个MIPI，MIPI最高支持支持4K拍照，
 ## 接口效果图
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/camera_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/camera_interface.jpg" width="900">
 </center>
 
 ## DTS配置

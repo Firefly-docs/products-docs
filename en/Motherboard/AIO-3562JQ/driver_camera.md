@@ -4,7 +4,7 @@
 * interface
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/mipicsi.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/mipicsi.jpg" width="700">
 </center>
 
 
@@ -45,7 +45,7 @@ RK3562 has only one isp, which has 4 nodes: rkisp_vir0~3
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/rk3562_mipi_csi_mode.png)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/rk3562_mipi_csi_mode.png" width="700">
 </center>
 
 ## Configuration

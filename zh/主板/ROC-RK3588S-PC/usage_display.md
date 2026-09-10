@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -35,7 +35,7 @@ ROC-RK3588S-PC 有三种显示输出接口，分别是 HDMI、Display Port 以�
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/usage_display_interface.jpg)  
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/usage_display_interface.jpg" width="900">
 </center>
 
 
@@ -191,7 +191,7 @@ ROC-RK3588S-PC 有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 L
 * DSI0 接口
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 
@@ -206,7 +206,7 @@ ROC-RK3588S-PC 有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 L
 * V2 屏幕上电时序
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)  
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_on.png" width="800">
 </center>
   
   
@@ -214,7 +214,7 @@ ROC-RK3588S-PC 有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 L
 * V2 屏幕下电时序
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)   
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_off.png" width="800">
 </center>
   
   
@@ -222,7 +222,7 @@ ROC-RK3588S-PC 有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 L
 * V2 屏幕上下电符号参考
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)   
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png" width="800">
 </center>
   
 

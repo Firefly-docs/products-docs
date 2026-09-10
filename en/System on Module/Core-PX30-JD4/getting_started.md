@@ -105,7 +105,7 @@ AIO-PX30-JD4 serial port connection diagram:
 
 <center>
 
-![](../../../px30_img/uart.jpg)
+<img alt="" src="../../../px30_img/uart.jpg" width="700">
 </center>
 
 ## Parameter Setting

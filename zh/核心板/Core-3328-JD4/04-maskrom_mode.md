@@ -16,7 +16,7 @@
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/maskrom_point.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/maskrom_point.png" width="700">
 </center>
 
 * 2、设备断开所有电源。
@@ -28,7 +28,7 @@
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Maskrom_mode.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Maskrom_mode.jpg" width="700">
 </center>
 
 [《上手指南》]: started.md

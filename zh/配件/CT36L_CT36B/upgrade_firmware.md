@@ -42,7 +42,7 @@
 
 <center>
 
-![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png)
+<img alt="" src="../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png" width="800">
 </center>
 
 ### Linux操作系统
@@ -91,11 +91,11 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 
 <center>
 
-![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png)
+<img alt="" src="../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png" width="800">
 </center>
 <center>
 
-![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-2.png)
+<img alt="" src="../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-2.png" width="800">
 </center>
 
 #### 烧写分区映像
@@ -110,11 +110,11 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 
 <center>
 
-![](../../../rv1106_img/CT36L/Partition_writing-1.png)
+<img alt="" src="../../../rv1106_img/CT36L/Partition_writing-1.png" width="700">
 </center>
 <center>
 
-![](../../../rv1106_img/CT36L/Partition_writing-2.png)
+<img alt="" src="../../../rv1106_img/CT36L/Partition_writing-2.png" width="700">
 </center>
 
 ### Linux操作系统

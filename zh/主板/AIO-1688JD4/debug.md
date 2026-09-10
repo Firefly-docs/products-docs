@@ -42,11 +42,11 @@ Windows 上一般用 putty 或 SecureCRT 软件。其中我们推荐使用 MobaX
 
 <center>
 
-![](../../../bm1688_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../bm1688_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../bm1688_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../bm1688_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ### Linux 上使用串口调试

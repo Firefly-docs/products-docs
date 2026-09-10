@@ -3,10 +3,10 @@ EC-Orin NX 搭载NVIDIA 官方原装 Jetson Orin NX 核心板模组，拥有 16G
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-NX/EC-Orin.jpg)
+<img alt="" src="../../../bm1688_img/EC-Orin-NX/EC-Orin.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-NX/EC-Orin-back.jpg)
+<img alt="" src="../../../bm1688_img/EC-Orin-NX/EC-Orin-back.jpg" width="700">
 </center>

@@ -10,7 +10,7 @@ ROC-RK3568-PC-SE 有2种工作模式。一般情况下，开机直接进入`Norm
 
 <center>
 
-![](../../../rk356x_img/working_mode.png)
+<img alt="" src="../../../rk356x_img/working_mode.png" width="700">
 </center>
 
 **ROC-RK3568-PC-SE按工作模式进行分类，可以分为二种工作模式：**

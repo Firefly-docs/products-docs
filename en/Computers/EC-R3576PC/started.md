@@ -4,31 +4,31 @@
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-front.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-back.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-back.png" width="700">
 </center>
 
 ## Specification
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-io-en.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-io-en.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-spec-en.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-spec-en.png" width="700">
 </center>
 
 ## Size
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-size.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-size.png" width="900">
 </center>
 
 ## Resources

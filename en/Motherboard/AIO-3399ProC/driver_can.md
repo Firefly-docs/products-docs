@@ -30,7 +30,7 @@ cansend can0 123#1122334455667788             //Execute cansend at the sending e
 Successful message sending and receiving (Here AIO-3399ProC as the receiving and the sending)
 <center>
 
-![](../../../rk3399_img/can1.png)
+<img alt="" src="../../../rk3399_img/can1.png" width="700">
 </center>
 So far, MCP2515 module communication debugging has been successful.
 

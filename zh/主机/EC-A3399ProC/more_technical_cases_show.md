@@ -185,15 +185,15 @@ mysql> select * from subscriber;
 
 <center>
 
-![](../../../rk3399_img/opensips1.png)
+<img alt="" src="../../../rk3399_img/opensips1.png" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/opensips2.png)
+<img alt="" src="../../../rk3399_img/opensips2.png" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/opensips3.png)
+<img alt="" src="../../../rk3399_img/opensips3.png" width="700">
 </center>
 
 * 测试结果：
@@ -327,7 +327,7 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=640,he
 
 <center>
 
-![](../../../rk3399_img/mipi_csi.jpg)
+<img alt="" src="../../../rk3399_img/mipi_csi.jpg" width="700">
 </center>
 
 ### 开发MIPI 摄像头

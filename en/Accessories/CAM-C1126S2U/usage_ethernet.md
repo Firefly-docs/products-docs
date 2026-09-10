@@ -44,7 +44,7 @@ The verification is performed on the ` Windows 10 ` system, and other systems ma
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/rndis_dev.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/rndis_dev.jpg" width="700">
 </center>
 
 * Set the host's own network card to connect to the external network and share the network.
@@ -58,5 +58,5 @@ The verification is performed on the ` Windows 10 ` system, and other systems ma
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/rndis_setting.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/rndis_setting.jpg" width="700">
 </center>

@@ -4,7 +4,7 @@ Core-3566JD4 equipped with Rockchip quad-core processor RK3566 which is configur
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/front.png)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/front.png" width="700">
 </center>
 
 ## The standard package of AIO-3566JD4 includes the following accessories:

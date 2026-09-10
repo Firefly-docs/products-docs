@@ -23,7 +23,7 @@ The details are shown below：
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/interface_all_en.jpg) 
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/interface_all_en.jpg" width="900">
 </center>
 
 
@@ -48,6 +48,6 @@ The details are shown below：
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/interface_all_en_v01.jpg)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/interface_all_en_v01.jpg" width="900">
 </center>
 

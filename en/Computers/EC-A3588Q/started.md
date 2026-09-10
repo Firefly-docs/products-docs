@@ -9,15 +9,15 @@ cloud servers, industrial control, smart vehicles, and more.
 
 <center>
 
-![](../../../rk3588_img/EC-A3588Q/EC-A3588JQ1.png)
+<img alt="" src="../../../rk3588_img/EC-A3588Q/EC-A3588JQ1.png" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/EC-A3588Q/EC-A3588JQ2.png)
+<img alt="" src="../../../rk3588_img/EC-A3588Q/EC-A3588JQ2.png" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/EC-A3588Q/EC-A3588JQ3-en.jpg)
+<img alt="" src="../../../rk3588_img/EC-A3588Q/EC-A3588JQ3-en.jpg" width="700">
 </center>
 
 

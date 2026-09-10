@@ -5,7 +5,7 @@ EC-A3588JD4 嵌入式主机，基于 AIO-3588JD4 高性能开源平台，配置�
 
 <center>
 
-![](../../../rk3588_img/EC-A3588JD4/EC-A3588JD4.png)
+<img alt="" src="../../../rk3588_img/EC-A3588JD4/EC-A3588JD4.png" width="700">
 </center>
 
 

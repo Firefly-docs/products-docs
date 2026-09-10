@@ -6,12 +6,12 @@
 
 <center>
 
-![](../../../rk3288_img/module_5V_adapter_1.png)
+<img alt="" src="../../../rk3288_img/module_5V_adapter_1.png" width="700">
 </center>
 
 ### 实物  
 
 <center>
 
-![](../../../rk3288_img/module_5V_adapter_2.png)
+<img alt="" src="../../../rk3288_img/module_5V_adapter_2.png" width="700">
 </center>

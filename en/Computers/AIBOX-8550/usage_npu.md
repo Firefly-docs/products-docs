@@ -45,7 +45,7 @@ Open a browser on any computer within the local network, visit `deviceIp:8000`. 
 
 <center>
 
-![](../../../qcom_img/aidlux_login.jpg)
+<img alt="" src="../../../qcom_img/aidlux_login.jpg" width="800">
 </center>
 
 The login password is aidlux.
@@ -56,12 +56,12 @@ The default language may be Chinese, you can change to English in settings:
 
 <center>
 
-![](../../../qcom_img/aidlux_english.jpg)
+<img alt="" src="../../../qcom_img/aidlux_english.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../qcom_img/aidlux_english_confirm.jpg)
+<img alt="" src="../../../qcom_img/aidlux_english_confirm.jpg" width="700">
 </center>
 
 The following operations are performed in the Web Desktop:
@@ -76,7 +76,7 @@ Open terminal, navigate to `/usr/local/share/aidlite/examples`, you can see some
 
 <center>
 
-![](../../../qcom_img/aidlite_demos.jpg)
+<img alt="" src="../../../qcom_img/aidlite_demos.jpg" width="700">
 </center>
 
 For example, we can try to run the python demo of aidlite_qnn236:
@@ -93,12 +93,12 @@ You can check the result image with File Browser.
 
 <center>
 
-![](../../../qcom_img/aidlite_demo_result_location.jpg)
+<img alt="" src="../../../qcom_img/aidlite_demo_result_location.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../qcom_img/aidlite_demo_result_img.jpg)
+<img alt="" src="../../../qcom_img/aidlite_demo_result_img.jpg" width="700">
 </center>
 
 ### AidGenSE
@@ -161,7 +161,7 @@ Once the service is successfully started, open NextChat on the desktop to start 
 
 <center>
 
-![](../../../qcom_img/aidlux_nextchat.jpg)
+<img alt="" src="../../../qcom_img/aidlux_nextchat.jpg" width="700">
 </center>
 
 ## Others Usage
@@ -174,14 +174,14 @@ Open File Browser, it will navigate to `/home/aidlux` by default. Only this dire
 
 <center>
 
-![](../../../qcom_img/aidlux_upload_file.jpg)
+<img alt="" src="../../../qcom_img/aidlux_upload_file.jpg" width="700">
 </center>
 
 Select files/folder and click download button at right top corner to download:
 
 <center>
 
-![](../../../qcom_img/aidlux_download_file.jpg)
+<img alt="" src="../../../qcom_img/aidlux_download_file.jpg" width="700">
 </center>
 
 ### More Tutorial

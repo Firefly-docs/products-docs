@@ -26,19 +26,19 @@ The public firmware supports SV-TAYSH-90 camera module by default.
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/camera1.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/camera1.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/camera2.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/camera2.jpg" width="700">
 </center>
 
 ### Connection
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/camera3.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/camera3.jpg" width="700">
 </center>
 
 ## RMSL201-1301 structured light module

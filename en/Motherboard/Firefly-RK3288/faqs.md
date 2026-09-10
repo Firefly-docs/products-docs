@@ -33,7 +33,7 @@ How to open the root function of the system on the Firefly platform? Firefly has
 
 <center>
 
-![](../../../rk3288_img/faqs_android_root.png)
+<img alt="" src="../../../rk3288_img/faqs_android_root.png" width="800">
 </center>
 
 
@@ -54,7 +54,7 @@ Firefly-RK3288 can identify the configuration of the VGA display. However, if fa
 
 <center>
 
-![](../../../rk3288_img/faqs_vga.png)
+<img alt="" src="../../../rk3288_img/faqs_vga.png" width="700">
 </center>
 
 ## Firefly-RK3288-Reload dual HDMI output and HDMI input

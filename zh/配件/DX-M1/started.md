@@ -8,7 +8,7 @@ DEEPX DX-M1 M.2 模块将服务器级 AI 推理直接带到边缘设备。DX-M1 
 
 <center>
 
-![](../../../modules_img/DX-M1/dx-m1.png)
+<img alt="" src="../../../modules_img/DX-M1/dx-m1.png" width="700">
 </center>
 
 ### 详细参数

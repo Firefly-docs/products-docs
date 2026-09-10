@@ -4,7 +4,7 @@
 kernel new dts file `arch/arm64/boot/dts/rockchip/rk3566-firefly-aiojd4-DEMO.dts`and when build kernel, will show dialog
 <center>
 
-![](../../../rk356x_img/faq_rk356x_io-domain_checklist.png)
+<img alt="" src="../../../rk356x_img/faq_rk356x_io-domain_checklist.png" width="700">
 </center>
 
 **Perform the following operations first**    
@@ -22,7 +22,7 @@ RK3566 Dual screen Display uses the same internal input Source, that is, `VOP` i
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/3566_dualscreen.png)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/3566_dualscreen.png" width="700">
 </center>
 
 ## Changes in kernel/buildroot configuration doesn't take effect after compiling

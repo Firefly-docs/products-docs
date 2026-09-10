@@ -5,7 +5,7 @@ Station P1 Pro  嵌入式主机，基于 ROC-RK3399-PC Pro 高性能开源平台
 
 <center>
 
-![](../../../rk3399_img/Station-P1-Pro/station-p1-pro-info01.png)
+<img alt="" src="../../../rk3399_img/Station-P1-Pro/station-p1-pro-info01.png" width="700">
 </center>
 
 <center>

@@ -3,5 +3,5 @@ AIO-Orin NX is equipped with the official NVIDIA Jetson Orin NX core board modul
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-NX/AIO-Orin.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-NX/AIO-Orin.png" width="700">
 </center>

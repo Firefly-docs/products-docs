@@ -29,7 +29,7 @@ GPIO0_C1 --> can1_tx ; GPIO0_C3 --> can1_rx
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506J-CC/usage_can_interface.jpg)
+<img alt="" src="../../../rk3506_img/ROC-RK3506J-CC/usage_can_interface.jpg" width="900">
 </center>
 
 

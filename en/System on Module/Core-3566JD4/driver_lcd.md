@@ -6,7 +6,7 @@
 AIO-3566JD4 development board supports two MIPI screen interfaces and one EDP screen interface, which is dsi0.The position of the interface on the board is as follows:
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/lcd_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/lcd_interface.jpg" width="900">
 </center>
 
 ## Config Configuration

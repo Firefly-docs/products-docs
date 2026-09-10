@@ -3,5 +3,5 @@ AIBOX-8550 采用高通六核(1+2+3)高性能 AI 处理器 QCS8550，集成 48 T
 
 <center>
 
-![](../../../qcom_img/AIBOX-8550/aibox-8550.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-8550/aibox-8550.jpg" width="700">
 </center>

@@ -44,21 +44,21 @@ According to the schematic diagram of camera port below, the pins to be configur
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/mipi_csi_2.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/mipi_csi_2.png" width="700">
 </center>
 
 DVP_PWR is connected to GPIO0_B3:
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/mipi_csi_3.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/mipi_csi_3.png" width="700">
 </center>
 
 * DVDD12 is controlled by CIF_PWER:
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/mipi_csi_4.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/mipi_csi_4.png" width="700">
 </center>
 
 CIF_PWER is connected to GPIO7_B4:

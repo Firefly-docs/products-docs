@@ -3,5 +3,5 @@
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506B-CC/ROC-RK3506B-PC.png) 
+<img alt="" src="../../../rk3506_img/ROC-RK3506B-CC/ROC-RK3506B-PC.png" width="700">
 </center>

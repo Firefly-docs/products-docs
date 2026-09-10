@@ -8,7 +8,7 @@ You can use an RS232 to USB adapter to connect AIO-1684JD4 to a PC for serial po
 
 <center>
 
-![](../../../bm1684_img/Core-1684JD4/rs232_connection.png)
+<img alt="" src="../../../bm1684_img/Core-1684JD4/rs232_connection.png" width="700">
 </center>
 
 ### Serial parameter configuration
@@ -34,11 +34,11 @@ Go here [download MobaXterm](https://mobaxterm.mobatek.net/):
 
 <center>
 
-![](../../../bm1684_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../bm1684_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../bm1684_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../bm1684_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ### Serial debugging on Linux

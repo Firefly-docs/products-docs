@@ -24,7 +24,7 @@
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/interface_all.jpg)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/interface_all.jpg" width="900">
 </center>
 
 
@@ -50,6 +50,6 @@
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/interface_all_v01.jpg)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/interface_all_v01.jpg" width="900">
 </center>
 

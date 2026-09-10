@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/Core-3568J.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/Core-3568J.jpg" width="700">
 </center>
 
 
@@ -12,7 +12,7 @@
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/AIO-3568J.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/AIO-3568J.jpg" width="700">
 </center>
 
 ## AIO-3568J 标准套装包含以下配件(仅供参考)：

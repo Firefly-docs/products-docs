@@ -10,7 +10,7 @@ EC-R3588RT_10G 采用Rockchip RK3588旗舰级八核64位处理器，主频高达
 </center>
 <center>
 
-![](../../../rk3588_img/EC-R3588RT_10G/EC-R3588RT_10G4.png)
+<img alt="" src="../../../rk3588_img/EC-R3588RT_10G/EC-R3588RT_10G4.png" width="700">
 </center>
 
 

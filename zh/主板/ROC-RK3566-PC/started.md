@@ -5,7 +5,7 @@ ROC-RK3566-PC 是一款迷你PC主板,体积只有小型手机的大小,主控�
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/front.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/front.jpg" width="700">
 </center>
 
 

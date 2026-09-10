@@ -5,13 +5,13 @@ ROC-RK3399-PC Pro 开发板默认外置支持了两种 LCD 屏接口，一个是
 * 10.1 寸 MIPI
     <center>
 
-    ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg)
+    <img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg" width="700">
     </center>
 
 * 10.1寸 EDP
     <center>
 
-    ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_edp101.jpg)
+    <img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/panel_edp101.jpg" width="700">
     </center>
 
 ## MIPI 驱动配置

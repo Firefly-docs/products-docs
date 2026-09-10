@@ -62,12 +62,12 @@ index ebbb5d1123f..71e82f8d9c0 100644
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_front.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_front.jpg" width="700">
 </center>
 
 #### 背面
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_back.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/mipi101_v2_M101014_BE45_A1_back.jpg" width="700">
 </center>

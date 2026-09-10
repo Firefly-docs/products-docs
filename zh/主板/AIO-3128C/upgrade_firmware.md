@@ -73,14 +73,14 @@
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/AIO-3128C-OTG&USB.jpg)
+<img alt="" src="../../../rk3128_img/AIO-3128C/AIO-3128C-OTG&USB.jpg" width="700">
 </center>
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备"Rockusb Device" 出现，如下图。如果没有，则需要返回上一步重新安装驱动。
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_rockusb_driver.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_rockusb_driver.png" width="700">
 </center>
 
 ### 烧写固件
@@ -89,7 +89,7 @@
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_3128_tool_download.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_3128_tool_download.png" width="700">
 </center>
 
 #### 烧写统一固件 update.img
@@ -105,7 +105,7 @@
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_3128_tool_upgrade.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_3128_tool_upgrade.png" width="700">
 </center>
 
 #### 烧写分区映像
@@ -119,7 +119,7 @@
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_3128_tool_download.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_3128_tool_download.png" width="700">
 </center>
 
 ## Linux 主机烧录固件
@@ -191,7 +191,7 @@ sudo rkflashkit
 ```
 <center>
 
-![](../../../rk3128_img/AIO-3128C/Fireprime_rkflashkit.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/Fireprime_rkflashkit.png" width="700">
 </center>
 
 * 命令行：   

@@ -30,7 +30,7 @@ The details are as follows:
 
 <center>
 
-![](../../../rk1808_img/interface.png)
+<img alt="" src="../../../rk1808_img/interface.png" width="900">
 </center>
 
 *in addition, customers can also customize the boards of relevant functional interfaces as required, as shown in the figure below:*

@@ -3,14 +3,14 @@
 
 <center>
 
-![](../../../gs1-n2_img/GS1-N1/interface-enclosure-en.png)
+<img alt="" src="../../../gs1-n2_img/GS1-N1/interface-enclosure-en.png" width="900">
 </center>
 
 ## Board
 
 <center>
 
-![](../../../gs1-n2_img/GS1-N1/interface-mainboard-en.png)
+<img alt="" src="../../../gs1-n2_img/GS1-N1/interface-mainboard-en.png" width="900">
 </center>
 
 |Main mod|When only installing the main mod|

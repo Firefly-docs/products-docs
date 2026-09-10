@@ -16,14 +16,14 @@ Step 2, get your Client ID and Product ID
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/productid.png)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/productid.png" width="700">
 </center>
 
 **Acquire Client ID：**
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/clientid.png)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/clientid.png" width="700">
 </center>
 
 ## Network configuration
@@ -163,7 +163,7 @@ Select `[1]`, and press `enter`. When it is successfully configured, it would be
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/rockchip_rk3308_release.png)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/rockchip_rk3308_release.png" width="700">
 </center>
 
 ● Configure Buildroot: `BR2_PACKAGE_ALEXACLIENTSDK=y`
@@ -181,14 +181,14 @@ Enter a menu-driven user interface, input `/` to show the search interface as be
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/chose_alexa.png)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/chose_alexa.png" width="700">
 </center>
 
 Select `[1]`, and press `SPACE` to select `alexa client sdk`
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/alexa_sdk.png)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/alexa/alexa_sdk.png" width="700">
 </center>
 
 If there’s `[ * ]` in front, it means the specific item has been selected, and then, choose`< Save >` to save, choose `< Exit >` to exit, and run the following command to save the configuration:

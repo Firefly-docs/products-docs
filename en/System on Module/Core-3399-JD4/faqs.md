@@ -38,7 +38,7 @@ Core-3399-JD4 The default recording input source is an onboard microphone `Built
 
 <center>
 
-![](../../../rk3399_img/faqs_android_audio_input.png)
+<img alt="" src="../../../rk3399_img/faqs_android_audio_input.png" width="800">
 </center>
 
 ### Open Root permissions
@@ -51,7 +51,7 @@ There are many powerful functions of the Android system that require root permis
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/faqs_android_root.png" width="800">
 </center>
 ## What should I do if the boot is abnormal and restarts cyclically?
 

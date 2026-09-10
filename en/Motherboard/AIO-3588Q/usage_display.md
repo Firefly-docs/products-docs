@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -36,13 +36,13 @@ But from the software point of view, there are the following configuration consi
 * HDMI0/ HDMI1/ Display Port/ VGA
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_display_interface.jpg)  
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_display_interface.jpg" width="900">
 </center>
 
 * MIPI DSI0/ MIPI DSI1 / EDP
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_display_dsi_interface.jpg) 
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_display_dsi_interface.jpg" width="900">
 </center>
 
 
@@ -233,7 +233,7 @@ Combining AIO-3588Q   DSI0 interface and screen timing
 * DSI0 interface
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 
@@ -248,7 +248,7 @@ Combining AIO-3588Q   DSI0 interface and screen timing
 * V2 screen power-on timing
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png) 
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_on.png" width="800">
 </center>
   
   
@@ -256,7 +256,7 @@ Combining AIO-3588Q   DSI0 interface and screen timing
 * V2 screen power-down timing
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_off.png" width="800">
 </center>
   
   
@@ -264,7 +264,7 @@ Combining AIO-3588Q   DSI0 interface and screen timing
 * V2 screen power-up symbol reference
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png) 
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png" width="800">
 </center>
   
 

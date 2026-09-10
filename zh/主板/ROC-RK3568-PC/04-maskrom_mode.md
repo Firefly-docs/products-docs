@@ -19,7 +19,7 @@
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points.jpg" width="700">
 </center>
 
 Markrom 按键(短接 EMMC）位置可以查看[《接口定义》](interface_definition.md)
@@ -28,7 +28,7 @@ Markrom 按键(短接 EMMC）位置可以查看[《接口定义》](interface_de
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points_flash.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points_flash.jpg" width="700">
 </center>
 
 
@@ -37,5 +37,5 @@ Markrom 按键(短接 EMMC）位置可以查看[《接口定义》](interface_de
 
 <center>
 
-![](../../../rk356x_img/maskrom_zh.png)
+<img alt="" src="../../../rk356x_img/maskrom_zh.png" width="700">
 </center>

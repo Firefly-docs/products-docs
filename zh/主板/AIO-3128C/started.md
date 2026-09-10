@@ -27,7 +27,7 @@ AIO-3128C 的标准套装包含以下配件：
  **发货清单参考如下**
  <center>
 
- ![](../../../rk3128_img/AIO-3128C/aio_3128c_1.png)
+ <img alt="" src="../../../rk3128_img/AIO-3128C/aio_3128c_1.png" width="700">
  </center>
  
 ## 开机
@@ -36,7 +36,7 @@ AIO-3128C 的标准套装包含以下配件：
 在 Android 系统选择关机后，维持开发板供电，AIO-3128C可以选择长按power键3秒的方式开机（需要外接power键，接口如图红色方框所示）： 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/power.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/power.png" width="700">
 </center>
 
 开机时，蓝色的电源指示灯会亮起。 

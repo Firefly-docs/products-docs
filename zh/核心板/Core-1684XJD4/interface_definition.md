@@ -25,7 +25,7 @@ AIO-1684XJD4 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../bm1684_img/Core-1684XJD4/interface_front.png)
+<img alt="" src="../../../bm1684_img/Core-1684XJD4/interface_front.png" width="900">
 </center>
 
 <center>
@@ -35,7 +35,7 @@ AIO-1684XJD4 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../bm1684_img/Core-1684XJD4/interface_back.png)
+<img alt="" src="../../../bm1684_img/Core-1684XJD4/interface_back.png" width="900">
 </center>
 
 ## WiFi 天线连接
@@ -44,7 +44,7 @@ AIO-1684XJD4 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../bm1684_img/Core-1684XJD4/wifi_antenna_connection.jpg)
+<img alt="" src="../../../bm1684_img/Core-1684XJD4/wifi_antenna_connection.jpg" width="700">
 </center>
 
 ## 4G 模组天线连接
@@ -53,14 +53,14 @@ AIO-1684XJD4 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../bm1684_img/Core-1684XJD4/4g_antenna_connection.jpg)
+<img alt="" src="../../../bm1684_img/Core-1684XJD4/4g_antenna_connection.jpg" width="700">
 </center>
 
 ## SIM 卡连接
 
 <center>
 
-![](../../../bm1684_img/Core-1684XJD4/sim_connection.jpg)
+<img alt="" src="../../../bm1684_img/Core-1684XJD4/sim_connection.jpg" width="700">
 </center>
 
 ## 串口 Pinout

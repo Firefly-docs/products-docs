@@ -4,10 +4,10 @@ EC-AGXOrin 搭载NVIDIA 官方原装 Jetson AGX Orin 核心板模组，拥有 64
 # 接口介绍
 <center>
 
-![](../../../nvidia_img/EC-AGXOrin/interface_01_cn.png)
+<img alt="" src="../../../nvidia_img/EC-AGXOrin/interface_01_cn.png" width="900">
 </center>
 
 <center>
 
-![](../../../nvidia_img/EC-AGXOrin/interface_02_cn.png)
+<img alt="" src="../../../nvidia_img/EC-AGXOrin/interface_02_cn.png" width="900">
 </center>

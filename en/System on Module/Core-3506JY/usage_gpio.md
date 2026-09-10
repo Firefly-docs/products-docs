@@ -14,7 +14,7 @@ ROC-RK3506J-CC The development board provides GPIO ports for user debugging and 
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506J-CC/usage_gpio_interface.png)
+<img alt="" src="../../../rk3506_img/ROC-RK3506J-CC/usage_gpio_interface.png" width="900">
 </center>
 
 

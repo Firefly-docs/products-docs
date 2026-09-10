@@ -34,7 +34,7 @@ AIO-3562JQ 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/interface_front.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/interface_front.jpg" width="900">
 </center>
 
 <center>
@@ -44,5 +44,5 @@ AIO-3562JQ 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/interface_back.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/interface_back.jpg" width="900">
 </center>

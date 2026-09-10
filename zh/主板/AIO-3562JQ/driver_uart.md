@@ -13,7 +13,7 @@ AIO-3562JQ开发板的串口接口图如下：
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/uart_interface.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/uart_interface.jpg" width="900">
 </center>
 
 ## DTS 配置

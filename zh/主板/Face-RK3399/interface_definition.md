@@ -9,11 +9,11 @@ Face-RK3399 V1 提供了丰富的接口，主要包括：电源接口，USB OTG�
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/obverse.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/obverse.png" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/Face-RK3399/reverse.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/reverse.jpg" width="700">
 </center>
 
 ### 硬件版本V2
@@ -24,12 +24,12 @@ Face-RK3399 新增硬件版本V2与V1版本比较有较大的更动。
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/obverse_V2_1.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/obverse_V2_1.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/reverse_V2_1.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/reverse_V2_1.jpg" width="700">
 </center>
 
 ### 4G 模块拓展板
@@ -49,5 +49,5 @@ Face-RK3399 新增硬件版本V2与V1版本比较有较大的更动。
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/4G_module_board.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/4G_module_board.jpg" width="700">
 </center>

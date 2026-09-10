@@ -46,7 +46,7 @@ Download the driver and install it:
 Once the adapter is plugged in, you are prompted to discover the new hardware and initialize it, then you can find the corresponding COM port in the device manager: 
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_com.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/win_com.png" width="700">
 </center>
 
 ### Install software

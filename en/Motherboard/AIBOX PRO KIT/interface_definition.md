@@ -25,14 +25,14 @@ PS: The interfaces listed above are supported by RK3588. If the RK3576 core boar
 
 <center>
 
-![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-up_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-up_en.png" width="700">
 </center>
 <center>
 
-![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-front_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-front_en.png" width="700">
 </center>
 <center>
 
-![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-down_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-down_en.png" width="700">
 </center>
 > Note: The accelerator card power supply is currently only used for the RK1828 module. Other modules do not need to be connected.

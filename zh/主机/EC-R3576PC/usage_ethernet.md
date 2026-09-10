@@ -44,7 +44,7 @@ Android 双以太网口分内网和外网。
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/usage_ethernet_interface.jpg)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/usage_ethernet_interface.jpg" width="900">
 </center>
 
 #### 查看IP地址

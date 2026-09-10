@@ -17,12 +17,12 @@ The operation steps are as follows:
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/maskrom_test_points.jpg)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/maskrom_test_points.jpg" width="700">
 </center>
 
 At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk3399_img/maskrom.jpg)
+<img alt="" src="../../../rk3399_img/maskrom.jpg" width="700">
 </center>

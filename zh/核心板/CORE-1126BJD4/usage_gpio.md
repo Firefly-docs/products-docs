@@ -16,7 +16,7 @@ GPIO 小组编号计算公式：number = group * 8 + X
 ```
 <center>
 
-![](../../../rv1126b_img/CORE-1126BJD4/usage_gpio.png)
+<img alt="" src="../../../rv1126b_img/CORE-1126BJD4/usage_gpio.png" width="800">
 </center>
 下面演示 GPIO1_B7 pin脚计算方法：
 

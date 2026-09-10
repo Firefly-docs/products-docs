@@ -71,7 +71,7 @@ Steps:
 
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/rk3328_maskrom_pads.jpg)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/rk3328_maskrom_pads.jpg" width="700">
     </center>
 
 5. Connect the eMMC CLK and GND pads with metal tweezers and keep holding steadily.
@@ -94,7 +94,7 @@ Steps:
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/flashing-table1.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/flashing-table1.png" width="700">
 </center>
 
 ## Flashing Tools
@@ -152,7 +152,7 @@ Launch `AndroidTool.exe`:
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/androidtool.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/androidtool.png" width="800">
 </center>
 
 If your device is in [Rockusb Mode], the status line will be "Found One LOADER Device".
@@ -174,7 +174,7 @@ To flash [Raw Firmware] to the eMMC using [AndroidTool], follow the steps below:
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/androidtool_flash_image.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/androidtool_flash_image.png" width="800">
 </center>
 
 ### Flashing RK Firmware
@@ -206,7 +206,7 @@ To flash [Partition Image] to the eMMC using [AndroidTool_v2.39], follow the ste
 
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_del.png)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/androidtool_del.png" width="800">
     </center>
 
 6. Add partition image to flash by selection "Add Item" from the right-click popup menu.
@@ -216,7 +216,7 @@ To flash [Partition Image] to the eMMC using [AndroidTool_v2.39], follow the ste
 
    <center>
 
-   ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_add.png)
+   <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/androidtool_add.png" width="800">
    </center>
 
 7. Click the "Run" button to flash.
@@ -245,7 +245,7 @@ To flash [Partition Image] to the eMMC using [AndroidTool], follow the steps bel
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Androidtool58.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Androidtool58.png" width="800">
 </center>
 
 <a id="upgrade-tool"></a>

@@ -6,29 +6,29 @@ IPC-M10R800-A3288C四核工业级行业平板，是基于AIO-3288C高性能开�
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_1.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_1.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_2.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_2.jpg" width="700">
 </center>
 
 ## 产品参数
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_3.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_3.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_4.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_4.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_5.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_5.jpg" width="700">
 </center>
 
 ## 产品资源

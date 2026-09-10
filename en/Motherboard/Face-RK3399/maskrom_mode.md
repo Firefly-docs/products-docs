@@ -15,7 +15,7 @@ The operation steps are as follows:
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/maskrom3.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/maskrom3.png" width="700">
 </center>
 
 5. Plug the device into the power supply.
@@ -25,5 +25,5 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/maskrom2.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/maskrom2.jpg" width="700">
 </center>

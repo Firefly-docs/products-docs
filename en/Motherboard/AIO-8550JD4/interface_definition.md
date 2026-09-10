@@ -23,13 +23,13 @@ AIO-8550JD4 provides these interfaces:
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/interface_front_en.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/interface_front_en.jpg" width="900">
 </center>
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/interface_back_en.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/interface_back_en.jpg" width="900">
 </center>
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/interface_io_en.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/interface_io_en.jpg" width="900">
 </center>

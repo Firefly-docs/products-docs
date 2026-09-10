@@ -6,11 +6,11 @@ EC-R3568PC 嵌入式主机，基于 ROC-RK3568-PCSE 高性能开源平台，配�
 
 <center>
 
-![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-back.jpg)
+<img alt="" src="../../../rk356x_img/EC-R3568PC/ec-r3568pc-back.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-front.jpg)
+<img alt="" src="../../../rk356x_img/EC-R3568PC/ec-r3568pc-front.jpg" width="700">
 </center>
 
 

@@ -10,7 +10,7 @@ AIO-3588JD4 开发板上有 1 个 M.2 接口
 
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/usage_sata_m2_sata.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588JD4/usage_sata_m2_sata.jpg" width="800">
 </center>
 
 ## 软件配置

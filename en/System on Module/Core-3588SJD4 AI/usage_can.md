@@ -7,7 +7,7 @@ Connection between two CAN devices, only need CAN_H to CAN_H, CAN_L to CAN_L.
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4-AI/usage_can_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4-AI/usage_can_interface.jpg" width="900">
 </center>
 
 ### DTS Configuration

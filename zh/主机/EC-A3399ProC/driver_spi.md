@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/spi_interface.jpg)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/spi_interface.jpg" width="900">
 </center>
 ## SPI 工作方式
 
@@ -46,7 +46,7 @@ EC-A3399ProC 与 W25Q128FV 硬件连接可参考下表：
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/spi_hardware_connection.jpg" width="700">
 </center>
 
 

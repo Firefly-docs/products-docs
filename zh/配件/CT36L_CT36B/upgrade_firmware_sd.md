@@ -32,9 +32,9 @@
 
 <center>
 
-![](../../../rv1106_img/CT36L/upgrade_firmware_sd_tool_zh-1.png)
+<img alt="" src="../../../rv1106_img/CT36L/upgrade_firmware_sd_tool_zh-1.png" width="800">
 </center>
 <center>
 
-![](../../../rv1106_img/CT36L/upgrade_firmware_sd_tool_zh-2.png)
+<img alt="" src="../../../rv1106_img/CT36L/upgrade_firmware_sd_tool_zh-2.png" width="800">
 </center>

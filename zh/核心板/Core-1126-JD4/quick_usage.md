@@ -12,17 +12,17 @@
 5. 使用软件搜索 AI 网络摄像头设备 IP。
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/iptool.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/iptool.png" width="700">
 </center>
 6. 在浏览器上输入设备 IP 地址可以进入管理页面，默认帐号密码都为 `admin`。
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/login.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/login.png" width="800">
 </center>
 7. 使用 RTSP 流播放器可以预览摄像头。
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/vlc.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/vlc.png" width="800">
 </center>
 8. 如果外接了 MIPI 显示屏，显示屏上会出现摄像头预览画面。
 
@@ -42,7 +42,7 @@
 2. USB 线一端接电脑的 USB 口，另一端接 RV1126/RV1109 底板的 USB OTG 调试接口。接线如下图：
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/usb_connect.jpeg)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/usb_connect.jpeg" width="700">
 </center>
 3. 基于你的系统安装 ADB。
 

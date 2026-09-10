@@ -5,12 +5,12 @@
 **AIO-1126BQ38** front：
 <center>
 
-![](../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-front.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-front.png" width="700">
 </center>
 
 **AIO-1126BQ38** back：
 <center>
 
-![](../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-back.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-back.png" width="700">
 </center>
  <a id="firmware-format"></a>

@@ -2,7 +2,7 @@
 - [简介](started.md)
 # 使用手册
 - [硬件接口介绍](interface_definition.md)
-- [hardware_usage](hardware_usage.md)
+- [硬件功能使用](hardware_usage.md)
 # 固件升级
 - [介绍](upgrade_bootmode_rockchip.md)
 - [使用USB线缆升级固件](upgrade_firmware.md)

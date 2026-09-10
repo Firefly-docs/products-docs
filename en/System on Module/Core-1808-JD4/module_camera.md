@@ -19,7 +19,7 @@ The public firmware supports `cmk-ov13850` camera module by default.
 ### Connection methods
 <center>
 
-![](../../../rk1808_img/module_camera2.jpg)
+<img alt="" src="../../../rk1808_img/module_camera2.jpg" width="700">
 </center>
 
 ### picture

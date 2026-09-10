@@ -87,7 +87,7 @@
 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/eth0_eth1.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/eth0_eth1.jpg" width="700">
 </center>
 
 Android 系统`Settings -> Network & internet -> Ethernet/Ethernet2`， 可以查看主副网口的 IP 地址。

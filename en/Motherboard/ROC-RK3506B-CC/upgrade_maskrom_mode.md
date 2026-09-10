@@ -12,7 +12,7 @@ Disconnect the power, press and hold Maskrom(Boot) button, plug in the power, re
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506B-CC/upgrade_maskrom_key.jpg)
+<img alt="" src="../../../rk3506_img/ROC-RK3506B-CC/upgrade_maskrom_key.jpg" width="800">
 </center>
 
 
@@ -20,5 +20,5 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk3506_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rk3506_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

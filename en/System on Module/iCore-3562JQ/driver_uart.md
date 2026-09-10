@@ -13,7 +13,7 @@ The serial interface diagram of the AIO-3562JQ development board is as follows:
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/uart_interface.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/uart_interface.jpg" width="900">
 </center>
 
 ## DTS configuration

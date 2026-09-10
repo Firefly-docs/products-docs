@@ -8,7 +8,7 @@ Interfaces:
 
 <center>
 
-![](../../../rk3576_img/AIO-3576Q38/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576Q38/usage_uart_interface.jpg" width="900">
 </center>
 
 

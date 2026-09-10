@@ -4,7 +4,7 @@ FireflyChat is a graphical application platform for LLM developed by the Firefly
 
 <center>
 
-![](../../../aibox_img/fireflychat.png)
+<img alt="" src="../../../aibox_img/fireflychat.png" width="800">
 </center>
 
 ## Installation

@@ -469,31 +469,31 @@ FF9B H(十六进制)=-101=>温度=-10.1℃
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_1.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_1.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_2.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_2.png" width="700">
 </center>
 
 - 公共实例->产品->创建产品
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_3.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/into_aliyun_3.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/start.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/start.png" width="700">
 </center>
 
 - 新建产品，输入自定义产品名称，设置为网关设备，联网采用蜂窝网络
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/add_product.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/add_product.png" width="700">
 </center>
 
 - 配置产品功能
@@ -502,21 +502,21 @@ FF9B H(十六进制)=-101=>温度=-10.1℃
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_1.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/product_config_1.png" width="700">
 </center>
 
 点击：功能定义->编辑草稿
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_2.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/product_config_2.png" width="700">
 </center>
 
 点击：添加模块
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_3.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/product_config_3.png" width="700">
 </center>
 
 添加模块：创建温湿度传感器1
@@ -537,7 +537,7 @@ FF9B H(十六进制)=-101=>温度=-10.1℃
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/product_config_6.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/product_config_6.png" width="700">
 </center>
 
 添加属性：温度检测
@@ -560,14 +560,14 @@ FF9B H(十六进制)=-101=>温度=-10.1℃
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/module_config_3.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/module_config_3.png" width="700">
 </center>
 
 - 新建设备
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/add_device_1.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/add_device_1.png" width="700">
 </center>
 
 <center>
@@ -577,14 +577,14 @@ FF9B H(十六进制)=-101=>温度=-10.1℃
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/add_device_3.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/add_device_3.png" width="700">
 </center>
 
 - 复制产品ProductKey，设备名DeviceName，设备秘钥DeviceSecret，后面网关需要用到。
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/set_device_config.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/set_device_config.png" width="800">
 </center>
 
 - 使用USB TYPE C线接入网关，另一端接入电脑
@@ -763,7 +763,7 @@ Waiting for a confirmation...
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/iot_client/aliyun_data.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/iot_client/aliyun_data.png" width="700">
 </center>
 
 ## 案例：使用EMQX服务器

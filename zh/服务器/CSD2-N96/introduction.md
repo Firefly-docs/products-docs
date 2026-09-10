@@ -3,7 +3,7 @@ CSD2-N96 是一款2U机架式的ARM准系统高密度阵列式服务器。该服
 
 <center>
 
-![perspective view](../../../servers_img/CSD2-N96/perspective_view.png)
+<img alt="perspective view" src="../../../servers_img/CSD2-N96/perspective_view.png" width="700">
 </center>
 
 功能亮点
@@ -20,15 +20,15 @@ CSD2-N96 是一款2U机架式的ARM准系统高密度阵列式服务器。该服
 ### 正面图
 <center>
 
-![perspective view](../../../servers_img/CSD2-N96/front_view.png)
+<img alt="perspective view" src="../../../servers_img/CSD2-N96/front_view.png" width="700">
 </center>
 ### 背面图
 <center>
 
-![perspective view](../../../servers_img/CSD2-N96/rear_view.png)
+<img alt="perspective view" src="../../../servers_img/CSD2-N96/rear_view.png" width="700">
 </center>
 ### 透视图
 <center>
 
-![perspective view](../../../servers_img/CSD2-N96/perspective_view.png)
+<img alt="perspective view" src="../../../servers_img/CSD2-N96/perspective_view.png" width="700">
 </center>

@@ -125,7 +125,7 @@ AIO-3576JQ 有一路 MIPI DSI 显示输出接口，支持 DPHY2.0 和 4 Lane 的
 
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 参考设备树：

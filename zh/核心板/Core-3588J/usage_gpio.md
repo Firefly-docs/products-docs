@@ -8,7 +8,7 @@ GPIO，全称 General-Purpose Input/Output（通用输入输出），是一种�
 ITX-3588J  开发板为了方便用户开发使用，引出了一排扩展的GPIO口供用户调试和开发,其对应引脚如下。
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_gpio_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_gpio_interface.jpg" width="900">
 </center>
 
 本文以 GPIO1_D0 和 GPIO1_D1 这两个 GPIO 口为例写一份简单操作 GPIO 口的驱动，在 SDK 的路径为 `kernel-5.10/drivers/gpio/gpio-firefly.c`,以下就以该驱动为例介绍 GPIO 的操作。

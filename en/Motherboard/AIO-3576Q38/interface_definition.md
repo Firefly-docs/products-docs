@@ -24,17 +24,17 @@
 The details are shown below:
 <center>
 
-![](../../../rk3576_img/AIO-3576Q38/interface_front_en.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576Q38/interface_front_en.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/AIO-3576Q38/interface_side_en.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576Q38/interface_side_en.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/AIO-3576Q38/interface_back_en.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576Q38/interface_back_en.jpg" width="900">
 </center>
 
 ## Special Notice

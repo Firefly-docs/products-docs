@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -34,13 +34,13 @@ But from the software point of view, there are the following configuration consi
 * HDMI0/ Display Port  
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_display_interface.jpg)  
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_display_interface.jpg" width="900">
 </center>
 
 * MIPI DSI0/ MIPI DSI1  
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_display_dsi_interface.jpg)  
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_display_dsi_interface.jpg" width="900">
 </center>
 
 The following is a basic introduction to the configuration and use of each display output interface. For details, please refer to the file:
@@ -199,7 +199,7 @@ Combining AIO-3588SJD4   DSI1 interface and screen timing
 * DSI1 interface
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 
@@ -214,7 +214,7 @@ Combining AIO-3588SJD4   DSI1 interface and screen timing
 * V2 screen power-on timing
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_on.png" width="800">
 </center>
   
   
@@ -222,7 +222,7 @@ Combining AIO-3588SJD4   DSI1 interface and screen timing
 * V2 screen power-down timing
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_off.png" width="800">
 </center>
   
   
@@ -230,7 +230,7 @@ Combining AIO-3588SJD4   DSI1 interface and screen timing
 * V2 screen power-up symbol reference
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png" width="800">
 </center>
   
 

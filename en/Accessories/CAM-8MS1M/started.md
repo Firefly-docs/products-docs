@@ -3,14 +3,14 @@
 CAM-8MS1M CAM-8MS1M 1/2.7”industrial-grade HD WDR sensor 100dB WDR, suitable for various complex light environments.MIPI standard interface, supports 7x24h operating.
 <center>
 
-![](../../../modules_img/CAM-8MS1M/cam-8ms1m.png)
+<img alt="" src="../../../modules_img/CAM-8MS1M/cam-8ms1m.png" width="700">
 </center>
 
 
 ## Shipping list
 <center>
 
-![](../../../modules_img/CAM-8MS1M/cam-8ms1m_shop_list_en.png)
+<img alt="" src="../../../modules_img/CAM-8MS1M/cam-8ms1m_shop_list_en.png" width="700">
 </center>
 
 ## Detailed parameters
@@ -52,13 +52,13 @@ The Firefly development board has two MIPI CSI interfaces, one is a 30pin interf
 ### 30pin MIPI CSI Interface Connection
 <center>
 
-![](../../../modules_img/CAM-8MS1M/interface_30pin.jpg)
+<img alt="" src="../../../modules_img/CAM-8MS1M/interface_30pin.jpg" width="900">
 </center>
 
 ### 324pin MIPI CSI Interface Connection
 <center>
 
-![](../../../modules_img/CAM-8MS1M/interface_24pin.jpg)
+<img alt="" src="../../../modules_img/CAM-8MS1M/interface_24pin.jpg" width="900">
 </center>
 
 <font color="red">Note: Do not connect to an interface with the words `MIPI DSI` as this may cause damage to the module or development board.</font>

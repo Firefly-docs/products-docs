@@ -18,5 +18,5 @@ AIBOX-9075 provides these interfaces:
 
 <center>
 
-![](../../../qcom_img/AIBOX-9075/interface_en.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-9075/interface_en.jpg" width="900">
 </center>

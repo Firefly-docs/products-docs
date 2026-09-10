@@ -46,7 +46,7 @@ Open the upgrade tool, connect the board with the USB OTG cable, press the Recov
 
 <center>
 
-![](../../../px30_img/uboot_download.jpg)
+<img alt="" src="../../../px30_img/uboot_download.jpg" width="700">
 </center>
 
 ## Verify that the new Loader is correctly upgraded

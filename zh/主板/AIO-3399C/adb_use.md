@@ -16,7 +16,7 @@ ADB，全称 Android Debug Bridge，是 Android 的命令行调试工具，可�
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/adb_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/adb_connection.jpg" width="700">
 </center>
 
 当设备端状态栏提示 `USB debugging connected` 时，便可进行调试：

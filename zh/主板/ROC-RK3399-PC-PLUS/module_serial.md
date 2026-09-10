@@ -15,7 +15,7 @@
 
 <center>
 
-![](../../../rk3399_img/module_serial_list.jpg)
+<img alt="" src="../../../rk3399_img/module_serial_list.jpg" width="700">
 </center>
 
 ### 连接方法
@@ -23,7 +23,7 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/debug_connection.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/debug_connection.jpg" width="800">
 </center>
 
 

@@ -37,11 +37,11 @@ The details are shown below：
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/interface_front_en.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/interface_front_en.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/interface_back_en.png)
+<img alt="" src="../../../rk3588_img/Core-3588J/interface_back_en.png" width="900">
 </center>
 

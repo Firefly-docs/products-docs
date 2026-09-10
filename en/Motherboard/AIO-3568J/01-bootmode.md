@@ -11,7 +11,7 @@ AIO-3568J has 2 working modes. Under normal circumstances, boot directly into `N
 
 <center>
 
-![](../../../rk356x_img/working_mode_en.png)
+<img alt="" src="../../../rk356x_img/working_mode_en.png" width="700">
 </center>
 
 **AIO-3568J is classified according to the working mode and can be divided into two working modes:**

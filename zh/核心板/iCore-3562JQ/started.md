@@ -4,7 +4,7 @@ iCore-3562JQ 采用 RK3562J 四核 64 位 Cortex-A53 处理器，主频最高 1.
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/iCore-3562JQ.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/iCore-3562JQ.jpg" width="700">
 </center>
 
 
@@ -12,7 +12,7 @@ AIO-3562JQ 开发板由核心板 iCore-3562JQ + 底板 MB-Q-RK3562 组成。采�
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/AIO-3562JQ.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/AIO-3562JQ.jpg" width="700">
 </center>
 
 ## AIO-3562JQ 标准套装包含以下配件(仅供参考)：

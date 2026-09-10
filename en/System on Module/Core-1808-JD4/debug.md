@@ -21,7 +21,7 @@ AIO-1808-JD4 Serial port connection diagram:
 
 <center>
 
-![](../../../rk1808_img/debug1.jpg)
+<img alt="" src="../../../rk1808_img/debug1.jpg" width="800">
 </center>
 ## Connection parameters
 

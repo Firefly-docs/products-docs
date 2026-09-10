@@ -6,14 +6,14 @@ ROC-RK3399-PC Pro development board supports two LCD screen interfaces by defaul
 * 10.1 in. MIPI
     <center>
 
-    ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg)
+    <img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg" width="700">
     </center>
 
 
 * 10.1 in. EDP
     <center>
 
-    ![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_edp101.jpg)
+    <img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/panel_edp101.jpg" width="700">
     </center>
 
 

@@ -8,7 +8,7 @@
 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/nor_flash-position.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/nor_flash-position.jpg" width="700">
 </center>
 
 ## Loader 模式 
@@ -52,14 +52,14 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash01.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash01.png" width="700">
 </center>
 
 3.点击`List Storage`读取存储器，此时存储列表选中的是`SPINOR`，为确保Nor flash为空，我们选择`EraseAll`擦除
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/maskrom_erease_spinor_flash.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/maskrom_erease_spinor_flash.png" width="700">
 </center>
 
 * `X` 表示设备不存在该存储器
@@ -71,28 +71,28 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
  <center>
 
- ![](../../../rk356x_img/Core-3568J/load_emmc_with_flash02.png)
+ <img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash02.png" width="700">
  </center>
 
 可以看到存储列表中的`Emmc`状态就会从`0`切到`√`,表示选择将固件下载到eMMC
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash03.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash03.png" width="700">
 </center>
 
 5.点击`EraseAll`擦除
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash04.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash04.png" width="700">
 </center>
 
 6.点击下载工具的`Upgrade Firmware`，然后选择我们想要下载进eMMC中的固件进行升级
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash05.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash05.png" width="700">
 </center>
 
 
@@ -102,7 +102,7 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/maskrom_download_failed_with_flash.png)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/maskrom_download_failed_with_flash.png" width="700">
 </center>
 
 该现象是因为固件直接烧写进NOR flash中引起的，出现该现象时大家可以根据当前的情况进行处理：
@@ -113,7 +113,7 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 <center>
 
-![](../../../rk356x_img/Maskrom_EraseFlash.png)
+<img alt="" src="../../../rk356x_img/Maskrom_EraseFlash.png" width="700">
 </center>
 
 之后按照章节[固件下载到eMMC](03-upgrade_firmware_with_flash.md)的步骤进行固件升级即可
@@ -125,7 +125,7 @@ path/to/SDK/rockdev/MiniLoaderAll.bin
 
 <center>
 
-![](../../../rk356x_img/Go_maskrom.png)
+<img alt="" src="../../../rk356x_img/Go_maskrom.png" width="700">
 </center>
 
 之后按照章节[固件下载到eMMC](03-upgrade_firmware_with_flash.md)的步骤进行固件升级即可。若不清楚如何通过Recovery按键进入Loader模式请参考[使用USB线缆升级固件](03-upgrade_firmware.md)章节
@@ -171,14 +171,14 @@ Erasing 0x00000000 ... 0x01ffffff (8192 eraseblock(s))
 
 <center>
 
-![](../../../rk356x_img/Loader_EraseFlash.png)
+<img alt="" src="../../../rk356x_img/Loader_EraseFlash.png" width="700">
 </center>
 
 无论是否提示`擦除IDB失败`都重启一下板子，重启后可进入Maskrom模式
 
 <center>
 
-![](../../../rk356x_img/EraseFlash_IDB_failed.png)
+<img alt="" src="../../../rk356x_img/EraseFlash_IDB_failed.png" width="700">
 </center>
 
 ### 其它

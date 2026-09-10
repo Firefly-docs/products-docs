@@ -14,7 +14,7 @@ The serial interface diagram of the AIO-3399J development board is as follows:
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/uart_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/uart_interface.jpg" width="900">
 </center>
 
 ## DTS configuration

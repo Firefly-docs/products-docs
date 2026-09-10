@@ -16,11 +16,11 @@ MaskRom 模式是设备变砖的最后一条防线。强行进入 MaskRom 涉及
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/maskrom_1.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/maskrom_1.png" width="700">
 </center>
 
 这时，设备应该就会进入 MaskRom 模式。
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_3128_tool_maskrom.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/win_3128_tool_maskrom.png" width="700">
 </center>

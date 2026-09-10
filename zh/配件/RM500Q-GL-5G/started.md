@@ -84,7 +84,7 @@
 
 <center>
 
-![](../../../modules_img/RM500Q-GL-5G/5G_PCIE.png)
+<img alt="" src="../../../modules_img/RM500Q-GL-5G/5G_PCIE.png" width="700">
 </center>
 
 ### SIM 卡的插入

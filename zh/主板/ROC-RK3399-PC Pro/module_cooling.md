@@ -14,7 +14,7 @@
 
 <center>
 
-![](../../../rk3399_img/module_cooling_radiator.jpg)
+<img alt="" src="../../../rk3399_img/module_cooling_radiator.jpg" width="700">
 </center>
 
 
@@ -22,7 +22,7 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/module_cooling_radiator_install.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/module_cooling_radiator_install.jpg" width="700">
 </center>
 
 
@@ -41,17 +41,17 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/module_cooling_fan.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/module_cooling_fan.jpg" width="700">
 </center>
 
 ### 安装方式
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/module_cooling_fan_install1.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/module_cooling_fan_install1.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/module_cooling_fan_install0.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/module_cooling_fan_install0.jpg" width="700">
 </center>
 

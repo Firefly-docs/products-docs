@@ -20,5 +20,5 @@ EC-Orin Nano 接口丰富，主要包括：
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-Nano/EC-Orin-interface.png)
+<img alt="" src="../../../bm1688_img/EC-Orin-Nano/EC-Orin-interface.png" width="900">
 </center>

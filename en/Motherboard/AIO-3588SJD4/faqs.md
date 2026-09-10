@@ -6,7 +6,7 @@ DIP switch position:
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/faqs_dip_switch.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/faqs_dip_switch.jpg" width="700">
 </center>
 
 -   When the DIP switch is `ON`, the power up and down of the device

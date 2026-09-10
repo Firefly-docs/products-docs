@@ -4,7 +4,7 @@
 kernel 新建了 dts 文件 `arch/arm64/boot/dts/rockchip/rk3566-firefly-aiojd4-DEMO.dts`，编译 kernel 时弹出如下对话框
 <center>
 
-![](../../../rk356x_img/faq_rk356x_io-domain_checklist.png)
+<img alt="" src="../../../rk356x_img/faq_rk356x_io-domain_checklist.png" width="700">
 </center>
 
 <br>
@@ -24,7 +24,7 @@ cp arch/arm64/boot/dts/rockchip/.rk3566-firefly-aiojd4.dtb.dts.tmp.domain arch/a
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/3566_dualscreen.png)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/3566_dualscreen.png" width="700">
 </center>
 
 

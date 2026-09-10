@@ -3,5 +3,5 @@ AIBOX-9075 搭载高通 IQ-9075 处理器，峰值算力 200 TOPS，13B 大模�
 
 <center>
 
-![](../../../qcom_img/AIBOX-9075/aibox-9075.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-9075/aibox-9075.jpg" width="700">
 </center>

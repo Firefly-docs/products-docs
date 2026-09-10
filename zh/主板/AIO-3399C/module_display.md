@@ -39,7 +39,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/module_display_mipi_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/module_display_mipi_connection.jpg" width="700">
 </center>
 
 ## [10.1 寸LVDS屏模组](https://store.t-firefly.com/goods.php?id=80)
@@ -110,7 +110,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/module_display_lvds.png)
+<img alt="" src="../../../rk3399_img/AIO-3399C/module_display_lvds.png" width="700">
 </center>
 
 ## 7.85 寸 EDP 液晶屏模组
@@ -155,7 +155,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/module_display_edp.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/module_display_edp.jpg" width="700">
 </center>
 
 ## 连接方法
@@ -164,5 +164,5 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/module_display_edp_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/module_display_edp_connection.jpg" width="700">
 </center>

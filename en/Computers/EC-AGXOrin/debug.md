@@ -34,11 +34,11 @@ Go here [download MobaXterm](https://mobaxterm.mobatek.net/):
 
 <center>
 
-![](../../../nvidia_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../nvidia_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../nvidia_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../nvidia_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ### Serial debugging on Linux

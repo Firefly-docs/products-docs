@@ -14,7 +14,7 @@ NPU开发完整的流程如下图所示：
 
 <center>
 
-![](../../../rk1808_img/rknn_development_flow.png)
+<img alt="" src="../../../rk1808_img/rknn_development_flow.png" width="700">
 </center>
 
 ### 1. 模型训练

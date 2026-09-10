@@ -14,6 +14,6 @@
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/module_power_adapter3.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/module_power_adapter3.jpg" width="700">
 </center>
 

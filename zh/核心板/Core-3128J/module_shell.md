@@ -5,14 +5,14 @@
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/module_shell_cad1.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/module_shell_cad1.png" width="700">
 </center>
 
 * 底板
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/module_shell_cad2.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/module_shell_cad2.png" width="700">
 </center>
 
 

@@ -14,5 +14,5 @@ AIBOX-K3 接口丰富，主要包括：
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/AIBOX-K3-interface.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/AIBOX-K3-interface.png" width="900">
 </center>

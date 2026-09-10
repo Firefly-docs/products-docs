@@ -11,7 +11,7 @@ AIO-3566JD4 有2种工作模式。一般情况下，开机直接进入`Normal �
 
 <center>
 
-![](../../../rk356x_img/working_mode.png)
+<img alt="" src="../../../rk356x_img/working_mode.png" width="700">
 </center>
 
 **AIO-3566JD4按工作模式进行分类，可以分为二种工作模式：**

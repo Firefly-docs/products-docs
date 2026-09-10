@@ -6,7 +6,7 @@ ADB (the full name is the Android Debug Bridge) is the command-line debugging to
 
 <center>
 
-![](../../../rk3588_img/iCore-3588MQ/upgrade_otg_interface.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588MQ/upgrade_otg_interface.jpg" width="900">
 </center>
 
 

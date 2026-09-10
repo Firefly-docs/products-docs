@@ -7,7 +7,7 @@ AIO-3576C board exported I2C0 and I2C2 for user.
 
 <center>
 
-![](../../../rk3576_img/AIO-3576C/usage_i2c_interface.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576C/usage_i2c_interface.jpg" width="900">
 </center>
 
 In userspace you can use commands of i2c-tools to read/write I2C devices.

@@ -56,7 +56,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 <center>
 
-![](../../../rk356x_img/module_wireless_ec20_usb.jpg)
+<img alt="" src="../../../rk356x_img/module_wireless_ec20_usb.jpg" width="700">
 </center>
 
 
@@ -64,7 +64,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/module_wireless_4G-EC20_MiniPCIe_AntWord.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/module_wireless_4G-EC20_MiniPCIe_AntWord.jpg" width="700">
 </center>
 
 
@@ -144,7 +144,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 <center>
 
-![](../../../rk356x_img/module_wireless_gps_delincomm.jpg)
+<img alt="" src="../../../rk356x_img/module_wireless_gps_delincomm.jpg" width="700">
 </center>
 
 该系列各个模组型号的参数会存在差异，详情可参考[DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
@@ -173,7 +173,7 @@ DELINCOMM系列串口波特率配置为`9600`，公版固件已经默认配置�
 
 <center>
 
-![](../../../rk356x_img/module_wireless_gps.png)
+<img alt="" src="../../../rk356x_img/module_wireless_gps.png" width="700">
 </center>
 
 详细产品规格可参考[DK2635U7F规格书.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DK2635U7F%E8%A7%84%E6%A0%BC%E4%B9%A6.pdf)

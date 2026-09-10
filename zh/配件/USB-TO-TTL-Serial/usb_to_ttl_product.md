@@ -2,7 +2,7 @@
 ## 产品简介
 <center>
 
-![](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial.png)
+<img alt="" src="../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial.png" width="700">
 </center>
 
 ## 发货清单

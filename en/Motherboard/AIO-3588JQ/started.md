@@ -17,7 +17,7 @@ intelligent NVR and other fields.
 
 <center>
 
-![](../../../rk3588_img/iCore-3588JQ/iCore-3588JQ-front.png) 
+<img alt="" src="../../../rk3588_img/iCore-3588JQ/iCore-3588JQ-front.png" width="700">
 </center>
 
 The [AIO-3588JQ](https://www.firefly.store/products/aio-3588jq-8k-ai-industrial-mainboard-delivery-within-15-days) development board consists of the core board **iCore-3588JQ** + **MB-Q-RK3588**. AIO-3588JQ
@@ -30,7 +30,7 @@ definition"](interface_definition.md).
 
 <center>
 
-![](../../../rk3588_img/iCore-3588JQ/AIO-3588JQ.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588JQ/AIO-3588JQ.jpg" width="700">
 </center>
 
 

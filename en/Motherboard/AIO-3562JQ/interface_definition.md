@@ -34,7 +34,7 @@ The details are as follows:
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/interface_front.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/interface_front.jpg" width="900">
 </center>
 
 <center>
@@ -44,5 +44,5 @@ The details are as follows:
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/interface_back.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/interface_back.jpg" width="900">
 </center>

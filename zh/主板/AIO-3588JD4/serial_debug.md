@@ -11,7 +11,7 @@
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/button.png)
+<img alt="" src="../../../rk3588_img/Core-3588JD4/button.png" width="700">
 </center>
 
 

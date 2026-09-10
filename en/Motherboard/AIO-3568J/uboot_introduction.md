@@ -46,7 +46,7 @@ Open the upgrade tool, connect the board with the USB OTG cable, press the Recov
 
 <center>
 
-![](../../../rk356x_img/uboot_download.jpg)
+<img alt="" src="../../../rk356x_img/uboot_download.jpg" width="700">
 </center>
 
 ## Verify that the new Loader is correctly upgraded

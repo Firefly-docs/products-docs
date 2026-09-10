@@ -4,13 +4,13 @@ CAM-2MS2MF 是一款双 MIPI 双目宽动态+近红外模组，可见光采用 2
 
 <center>
 
-![](../../../modules_img/CAM-2MS2MF/cam-2ms2mf.png)
+<img alt="" src="../../../modules_img/CAM-2MS2MF/cam-2ms2mf.png" width="700">
 </center>
 
 ## 发货清单
 <center>
 
-![](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_shop_list.png)
+<img alt="" src="../../../modules_img/CAM-2MS2MF/cam-2ms2mf_shop_list.png" width="700">
 </center>
 
 ## 详细参数
@@ -71,7 +71,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 ### 30pin MIPI CSI接口连接
 <center>
 
-![](../../../modules_img/CAM-2MS2MF/interface_30pin.jpg)
+<img alt="" src="../../../modules_img/CAM-2MS2MF/interface_30pin.jpg" width="900">
 </center>
 
 <font color="red">注意：不要接到带有`MIPI DSI`字样的接口，这可能会导致烧坏模组或者开发板。</font>

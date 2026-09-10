@@ -27,7 +27,7 @@ make ARCH=arm64 menuconfig
 ```
 <center>
 
-![](../../../rk3562_img/kernel_menuconfig.jpg)
+<img alt="" src="../../../rk3562_img/kernel_menuconfig.jpg" width="700">
 </center>
 
 * Usage
@@ -46,7 +46,7 @@ Press the number at the left of an option in searching result page to directly j
 
 <center>
 
-![](../../../rk3562_img/kernel_menuconfig_search.jpg)
+<img alt="" src="../../../rk3562_img/kernel_menuconfig_search.jpg" width="700">
 </center>
 
 It is recommended to enable some options in same group. For example, all options in the picture below belong to the same function: CAN USB. 
@@ -54,7 +54,7 @@ So enable them all to get full CAN USB support.
 
 <center>
 
-![](../../../rk3562_img/kernel_menuconfig_demo.jpg)
+<img alt="" src="../../../rk3562_img/kernel_menuconfig_demo.jpg" width="700">
 </center>
 
 Have doubts about an option, you can move cursor on it and press `?` to see help message.

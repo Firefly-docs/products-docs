@@ -19,13 +19,13 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3328-PC/maskrom_test_points.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3328-PC/maskrom_test_points.jpg" width="700">
 </center>
 
 此时设备就会进入 MaskRom 模式。
 
 <center>
 
-![](../../../rk3399_img/maskrom.jpg)
+<img alt="" src="../../../rk3399_img/maskrom.jpg" width="700">
 </center>
 

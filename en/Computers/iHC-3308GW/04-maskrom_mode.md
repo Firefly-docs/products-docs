@@ -17,12 +17,12 @@ The operation steps are as follows:
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/maskrom_test_points.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/maskrom_test_points.png" width="700">
 </center>
 
 At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk3308_img/maskrom_zh.png)
+<img alt="" src="../../../rk3308_img/maskrom_zh.png" width="700">
 </center>

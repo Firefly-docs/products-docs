@@ -42,21 +42,21 @@ According to the schematic diagram of camera port below, the pins to be configur
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/mipi_csi_2.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/mipi_csi_2.png" width="700">
 </center>
 
 * MIPI_PWR and MIPI_RST correspond to GPIO3_B2 and GPIO3_B0 pins on AIO-3288C, the default of which is high level:
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/mipi_csi_3.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/mipi_csi_3.png" width="700">
 </center>
 
 * MIPI_SDA and MIPI_SCL are controlled by CIF_PWR:
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/mipi_csi_4.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/mipi_csi_4.png" width="700">
 </center>
 <center>
 

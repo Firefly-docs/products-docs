@@ -77,7 +77,7 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/rk3328_maskrom_pads.jpg)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/rk3328_maskrom_pads.jpg" width="700">
     </center>
 
 5. 用金属镊子短接 eMMC 的 CLK 和 GND 焊盘，并保持短接良好。
@@ -113,11 +113,11 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/upgrade-table1.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/upgrade-table1.png" width="700">
 </center>
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/upgrade-table2.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/upgrade-table2.png" width="700">
 </center>
 
 ## AndroidTool
@@ -162,7 +162,7 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/androidtool.zh_CN.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/androidtool.zh_CN.png" width="800">
 </center>
 
 若设备处于 [Rockusb 模式]，状态行将显示 "发现一个LOADER设备"。
@@ -184,7 +184,7 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/androidtool_flash_image.zh_CN.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/androidtool_flash_image.zh_CN.png" width="800">
 </center>
 
 ### 烧写 RK 固件
@@ -216,7 +216,7 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
    <center>
 
-   ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_del.zh_CN.png)
+   <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/androidtool_del.zh_CN.png" width="800">
    </center>
 
 6. 鼠标右键点击表格，在弹出菜单中选择 "添加项" 以便添加[分区映像]：
@@ -226,7 +226,7 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/androidtool_add.zh_CN.png)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/androidtool_add.zh_CN.png" width="800">
     </center>
 
 7. 点击 "执行" 按钮烧录。
@@ -255,7 +255,7 @@ CPU 在 eMMC 中就会找不到有效的 IDB (IDentity Block)，转而执行一�
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/android-v2.58-rk-linux.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/android-v2.58-rk-linux.png" width="800">
 </center>
 
 <a id="upgrade-tool"></a>

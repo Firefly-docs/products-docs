@@ -4,5 +4,5 @@ EC-A186JD4 采用算能智算芯片 CV186AH，是面向 AI 推理、计算机视
 
 <center>
 
-![](../../../bm1688_img/EC-A186JD4/EC-A1688JD4.png)
+<img alt="" src="../../../bm1688_img/EC-A186JD4/EC-A1688JD4.png" width="700">
 </center>

@@ -21,7 +21,7 @@ Firefly-RK3288：
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/maskrom_test_points.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/maskrom_test_points.png" width="700">
 </center>
 
 
@@ -37,5 +37,5 @@ Firefly-RK3288-Reload：
 
 <center>
 
-![](../../../rk3288_img/maskrom.png)
+<img alt="" src="../../../rk3288_img/maskrom.png" width="700">
 </center>

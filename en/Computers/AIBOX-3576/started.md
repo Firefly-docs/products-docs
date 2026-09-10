@@ -3,11 +3,11 @@
 
 <center>
 
-![](../../../aibox_img/AIBOX-3576/AIBOX-3576.png)
+<img alt="" src="../../../aibox_img/AIBOX-3576/AIBOX-3576.png" width="700">
 </center>
 
 ## Computer Size
 <center>
 
-![](../../../aibox_img/AIBOX-3576/AIBOX-3576-size.png)
+<img alt="" src="../../../aibox_img/AIBOX-3576/AIBOX-3576-size.png" width="900">
 </center>

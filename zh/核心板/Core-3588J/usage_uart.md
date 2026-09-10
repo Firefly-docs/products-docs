@@ -10,7 +10,7 @@ ITX-3588J 开发板的串口接口图如下：
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_uart_interface.jpg" width="900">
 </center>
 
 如何使用跳帽选择 RS232 或 UART0, RS485 或 UART1：
@@ -70,7 +70,7 @@ RS485 或 UART1：  /dev/ttyS1
 (1) 连接硬件
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_uart_rs485_connect.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_uart_rs485_connect.jpg" width="800">
 </center>
 
 `RS485` 连接 `FC10 转 DP9 串口线`;

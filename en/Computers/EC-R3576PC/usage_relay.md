@@ -11,7 +11,7 @@ EC-R3576PC supports one relay output where ON corresponds to OUTPUT1 in the hard
 ### schematic diagram
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/output_sch.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/output_sch.png" width="700">
 </center>
 
 ### control

@@ -17,17 +17,17 @@ Face X2 是由 Firefly 自主研发的一款基于人脸识别的智能门禁终
 
 <center>
 
-![](../../../rk3399_img/Face-X2/face_x2_3.jpg)
+<img alt="" src="../../../rk3399_img/Face-X2/face_x2_3.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Face-X2/face_x2_4.jpg)
+<img alt="" src="../../../rk3399_img/Face-X2/face_x2_4.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Face-X2/face_x2_5.jpg)
+<img alt="" src="../../../rk3399_img/Face-X2/face_x2_5.jpg" width="700">
 </center>
 
 ## 尺寸规格
@@ -46,7 +46,7 @@ Face X2 是由 Firefly 自主研发的一款基于人脸识别的智能门禁终
 
 <center>
 
-![](../../../rk3399_img/Face-X2/weixian.png)
+<img alt="" src="../../../rk3399_img/Face-X2/weixian.png" width="700">
 </center>
 
 ## 固定方式

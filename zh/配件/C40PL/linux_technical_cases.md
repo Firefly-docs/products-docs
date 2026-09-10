@@ -9,7 +9,7 @@
 
 <center>
 
-![](../../../rv1126_img/C40PL/web.png)
+<img alt="" src="../../../rv1126_img/C40PL/web.png" width="800">
 </center>
 
 ## 车牌识别网络摄像头
@@ -18,11 +18,11 @@
 
 <center>
 
-![](../../../rv1126_img/C40PL/car1.png)
+<img alt="" src="../../../rv1126_img/C40PL/car1.png" width="700">
 </center>
 
 <center>
 
-![](../../../rv1126_img/C40PL/car2.png)
+<img alt="" src="../../../rv1126_img/C40PL/car2.png" width="700">
 </center>
 

@@ -54,13 +54,13 @@
 * USB Type-A to Type-C 数据线一端连接主机，一端连接开发板
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/otg_interface.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/otg_interface.jpg" width="900">
 </center>
 
 * 按住设备上的 RECOVERY （恢复）键并保持
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/recovery_key.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/recovery_key.jpg" width="700">
 </center>
 
 * 接上电源
@@ -73,7 +73,7 @@
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 ## 烧写固件
@@ -82,7 +82,7 @@
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ### 烧写统一固件 update.img
@@ -98,7 +98,7 @@
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_erase_flash.jpg)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
 ### 烧写分区映像
@@ -112,7 +112,7 @@
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 
@@ -128,6 +128,6 @@
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 <center>
 
-![](../../../rk356x_img/upgrade_downloadfail.jpg)
+<img alt="" src="../../../rk356x_img/upgrade_downloadfail.jpg" width="800">
 </center>
 

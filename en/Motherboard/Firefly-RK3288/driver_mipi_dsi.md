@@ -125,7 +125,7 @@ As to other timing’s attribute, you can take a look at this picture.
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/mipi_dsi.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/mipi_dsi.png" width="700">
 </center>
 
 ### Dsihost configuration

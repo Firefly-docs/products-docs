@@ -28,7 +28,7 @@ One end of the male-to-male USB cable is connected to the USB 3.0 interface of t
 
 <center>
 
-![](../../../rk1808_img/upgrade_firmware_otg.jpg)
+<img alt="" src="../../../rk1808_img/upgrade_firmware_otg.jpg" width="800">
 </center>
 
 ## Windows
@@ -66,7 +66,7 @@ Download [AndroidTool](https://community.t-firefly.com/en/doc/download/83)，ext
 
 <center>
 
-![](../../../rk1808_img/upgrade_firmware3_en.png)
+<img alt="" src="../../../rk1808_img/upgrade_firmware3_en.png" width="800">
 </center>
 
 #### Upgrade unified firmware - update.img
@@ -81,7 +81,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rk1808_img/upgrade_firmware4_en.png)
+<img alt="" src="../../../rk1808_img/upgrade_firmware4_en.png" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -96,7 +96,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk1808_img/upgrade_firmware3_en.png)
+<img alt="" src="../../../rk1808_img/upgrade_firmware3_en.png" width="800">
 </center>
 
 ## Linux

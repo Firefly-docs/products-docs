@@ -28,14 +28,14 @@ CMK-OV13850 camera module is supported by default in public firmware.
 
 <center>
 
-![](../../../rk3399_img/module_camera_ov13850-2.jpg)
+<img alt="" src="../../../rk3399_img/module_camera_ov13850-2.jpg" width="700">
 </center>
 
 ### Connection Method
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC/module_camera_connection.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC/module_camera_connection.jpg" width="700">
 </center>
 
 ### Renderings

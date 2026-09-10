@@ -11,7 +11,7 @@ EC-R3588SPC支持一路继电器输出，其中，ON对应于硬件原理图中�
 ### 电路原理图
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/output_sch.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/output_sch.jpg" width="700">
 </center>
 
 ### 控制

@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk3576_img/CQ38W-3576/usage_camera_mipicsi.jpg)
+<img alt="" src="../../../rk3576_img/CQ38W-3576/usage_camera_mipicsi.jpg" width="800">
 </center>
 
 ## PHY 介绍

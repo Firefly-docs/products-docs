@@ -8,7 +8,7 @@ AIO-3562JQ has 2 working modes. Under normal circumstances, boot directly into `
 
 <center>
 
-![](../../../rk3562_img/working_mode_en.png)
+<img alt="" src="../../../rk3562_img/working_mode_en.png" width="700">
 </center>
 
 ## Normal mode

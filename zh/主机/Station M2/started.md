@@ -5,7 +5,7 @@ Station M2 极客主机，基于 ROC-RK3566-PC 超薄机身，小巧便携；支
 
 <center>
 
-![](../../../rk356x_img/Station-M2/station_m2.png)
+<img alt="" src="../../../rk356x_img/Station-M2/station_m2.png" width="700">
 </center>
 
 

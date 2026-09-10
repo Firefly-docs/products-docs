@@ -11,7 +11,7 @@ EC-R3576PC supports an optocoupler isolation input, where IN corresponds to INPU
 ### schematic diagram
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/input_sch.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/input_sch.png" width="700">
 </center>
 
 ### Detect

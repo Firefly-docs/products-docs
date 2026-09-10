@@ -2,7 +2,7 @@
 ## 产品简介
 <center>
 
-![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s.png)
+<img alt="" src="../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s.png" width="700">
 </center>
 
 <!--
@@ -36,13 +36,13 @@
 
 <center>
 
-![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect.jpg)
+<img alt="" src="../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect.jpg" width="700">
 </center>
 
 ### 40pin MIPI DSI接口连接
 <center>
 
-![](../../../modules_img/DM-M10R800-V3S//dm-m10r800-v3s_connect_40pin.png)
+<img alt="" src="../../../modules_img/DM-M10R800-V3S//dm-m10r800-v3s_connect_40pin.png" width="700">
 </center>
 
 连接说明: 

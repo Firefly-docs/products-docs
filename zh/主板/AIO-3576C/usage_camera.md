@@ -4,11 +4,11 @@
 
 <center>
 
-![](../../../rk3576_img/AIO-3576C/usage_camera_mipicsi1.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576C/usage_camera_mipicsi1.jpg" width="800">
 </center>
 <center>
 
-![](../../../rk3576_img/AIO-3576C/usage_camera_mipicsi2.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576C/usage_camera_mipicsi2.jpg" width="800">
 </center>
 
 ## PHY 介绍

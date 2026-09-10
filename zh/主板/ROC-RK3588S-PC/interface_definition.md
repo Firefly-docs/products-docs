@@ -25,7 +25,7 @@
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/interface_all.jpg)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/interface_all.jpg" width="900">
 </center>
 
 [ROC-RK3588S-PC 旧版本接口定义](interface_definition_old.md)

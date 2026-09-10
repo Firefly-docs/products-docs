@@ -4,31 +4,31 @@
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-front.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-back.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-back.png" width="700">
 </center>
 
 ## 产品参数
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-io-zh.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-io-zh.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-spec-zh.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-spec-zh.png" width="700">
 </center>
 
 ## 产品尺寸
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-size.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-size.png" width="900">
 </center>
 
 ## 产品资源

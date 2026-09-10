@@ -9,7 +9,7 @@ The default software configuration is M.2 SATA3.0, which supports the SATA SSD .
 
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/usage_sata_m2_sata.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588JD4/usage_sata_m2_sata.jpg" width="800">
 </center>
 
 ### DTS configuration

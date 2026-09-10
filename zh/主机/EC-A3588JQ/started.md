@@ -5,15 +5,15 @@ EC-A3588JQ采用Rockchip RK3588J八核64位处理器，最大可配32GB超大内
 
 <center>
 
-![](../../../rk3588_img/EC-A3588JQ/EC-A3588JQ1.png)
+<img alt="" src="../../../rk3588_img/EC-A3588JQ/EC-A3588JQ1.png" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/EC-A3588JQ/EC-A3588JQ2.png)
+<img alt="" src="../../../rk3588_img/EC-A3588JQ/EC-A3588JQ2.png" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/EC-A3588JQ/EC-A3588JQ3.jpg)
+<img alt="" src="../../../rk3588_img/EC-A3588JQ/EC-A3588JQ3.jpg" width="700">
 </center>
 
 

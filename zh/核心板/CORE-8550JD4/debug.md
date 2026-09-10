@@ -10,7 +10,7 @@ AIO-8550JD4 的调试串口提供两种接口
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/debug_console.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/debug_console.jpg" width="800">
 </center>
 
 需要额外的 usb 转串口模块，详情请查看 [串口模块](../../配件/USB-TO-TTL-Serial/started.md)
@@ -19,14 +19,14 @@ AIO-8550JD4 的调试串口提供两种接口
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/download_port.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/download_port.jpg" width="700">
 </center>
 
 由于这个 Typec-C 接口同时还作为下载口，所以需要先将如下拨码开关切换到 ON 才能开启 debug 串口功能。
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/typec_dip_switch_zh.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/typec_dip_switch_zh.jpg" width="700">
 </center>
 
 然后使用 USB 线连接设备上的 Console 口和电脑：

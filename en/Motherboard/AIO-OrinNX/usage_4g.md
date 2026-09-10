@@ -4,7 +4,7 @@ AIO-Orin NX supports 4G LTE. In the system settings, there are various network f
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-NX/4G.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-NX/4G.png" width="700">
 </center>
 
 Generating network card in the command line:

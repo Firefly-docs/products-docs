@@ -3,14 +3,14 @@
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/roc-rk3308b-cc-plus_pin.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/roc-rk3308b-cc-plus_pin.jpg" width="700">
 </center>
 
 ## Shipping list reference
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/list_roc-rk3308b-cc-plus.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/list_roc-rk3308b-cc-plus.jpg" width="700">
 </center>
 
 For specific information, please refer to the official website mall.

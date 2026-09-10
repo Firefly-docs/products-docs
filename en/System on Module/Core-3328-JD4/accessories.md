@@ -13,13 +13,13 @@ Driver download: [https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https
 #### Real figure
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/module_transform1.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/module_transform1.jpg" width="700">
 </center>
 
 #### Connection methods
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/uart.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/uart.jpg" width="700">
 </center>
 
 ## Wireless module
@@ -70,12 +70,12 @@ Driver download: [https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](https
 * USB connection
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/USB_EC20.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/USB_EC20.jpg" width="700">
 </center>
 * Mini-PCIe connection
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Pcie_EC20.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Pcie_EC20.jpg" width="700">
 </center>
 
 #### Refer to the firmware
@@ -121,7 +121,7 @@ Public firmware supports EC20 4G module by default.
 *  The IR wiring position of AIO-3328-JD4 is shown in the red box below
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/IR.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/IR.jpg" width="700">
 </center>
 
 ## The cooling suite
@@ -133,5 +133,5 @@ Public firmware supports EC20 4G module by default.
 #### Installation
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/heatsink.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/heatsink.jpg" width="700">
 </center>

@@ -6,7 +6,7 @@ Controller area network (can) is a kind of serial communication network which ca
 Connection between two CAN devices, only need CAN_H to CAN_H, CAN_L to CAN_L.
 <center>
 
-![](../../../rv1126b_img/CORE-1126BJD4/usage_can.png)
+<img alt="" src="../../../rv1126b_img/CORE-1126BJD4/usage_can.png" width="800">
 </center>
 
 ### DTS Configuration

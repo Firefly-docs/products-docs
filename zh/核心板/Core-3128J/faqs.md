@@ -27,14 +27,14 @@ Android系统有很多很强大的功能都需要用到root权限，开发者经
 3. 然后返回上一级点击Developer options选项后，在选项中点击Enable ROOT就打开root权限功能
 <center>
 
-![](../../../rk3128_img/Core-3128J/android_root.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/android_root.png" width="800">
 </center>
 
 ## 网络ADB的使用
 adb调试模式有两种：1、使用usb线；2、使用网络。<br />
 使用网络adb模式：开发板跟PC端需处于同一局域网内，可以使用有线网的方式，或是让PC端跟开发板连接在同一wifi路由下，亦可通过PC端创建wifi热点让开发板连接都可以。
 *  设置->开发者选项->网络ADB调试
-![](../../../rk3128_img/Core-3128J/net_adb.png)<br />
+<img alt="" src="../../../rk3128_img/Core-3128J/net_adb.png" width="700"><br />
 
 
 *  用`busybox ifconfig`查看开发板的IP地址，PC端通过网络访问<br />

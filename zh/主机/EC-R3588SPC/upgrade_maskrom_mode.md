@@ -17,7 +17,7 @@
 可以按maskrom 按键，然后进行上电
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/upgrade_maskrom_key.png)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_maskrom_key.png" width="800">
 </center>
 
 
@@ -25,5 +25,5 @@
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

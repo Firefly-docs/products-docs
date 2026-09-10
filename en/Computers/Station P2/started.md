@@ -10,7 +10,7 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 
 <center>
 
-![](../../../rk356x_img/Station-P2/station_p2.png)
+<img alt="" src="../../../rk356x_img/Station-P2/station_p2.png" width="700">
 </center>
 
 <center>
@@ -20,7 +20,7 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 
 <center>
 
-![](../../../rk356x_img/Station-P2/station_p2_info2.png)
+<img alt="" src="../../../rk356x_img/Station-P2/station_p2_info2.png" width="700">
 </center>
 
 

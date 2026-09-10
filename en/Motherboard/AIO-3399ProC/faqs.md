@@ -15,7 +15,7 @@ AIO-3399ProC HDMI can automatically identify the display resolution. If you can 
 
 <center>
 
-![](../../../rk3399_img/faqs_setting_resolution.jpg)
+<img alt="" src="../../../rk3399_img/faqs_setting_resolution.jpg" width="700">
 </center>
 ### Open Root permissions
 
@@ -27,7 +27,7 @@ There are many powerful functions of the Android system that require root permis
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/faqs_android_root.png" width="800">
 </center>
 ## What should I do if the boot is abnormal and restarts cyclically?
 

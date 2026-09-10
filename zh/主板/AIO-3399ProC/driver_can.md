@@ -30,7 +30,7 @@ cansend can0 123#1122334455667788             	//在发送端执行cansend，发
 报文收发成功现象(这里分别用2台AIO-3399ProC做数据传输):
 <center>
 
-![](../../../rk3399_img/can1.png)
+<img alt="" src="../../../rk3399_img/can1.png" width="700">
 </center>
 至此，MCP2515模块通信调试已经成功。
 

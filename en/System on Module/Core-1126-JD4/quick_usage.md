@@ -12,17 +12,17 @@ The device comes with AI-IPC scene firmware by default.
 5. Use the software to search for the IP of the AI ​​network camera device.
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/iptool.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/iptool.png" width="700">
 </center>
 6. Enter the device IP address on the browser to enter the management page. The default account and password are both `admin`.
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/login.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/login.png" width="800">
 </center>
 7. Use the RTSP stream player to preview the camera.
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/vlc.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/vlc.png" width="800">
 </center>
 8. If an external MIPI display is connected, the camera preview will appear on the display.
 
@@ -42,7 +42,7 @@ The device can be debugged using `USB cable`, `network port` or `serial port`.
 2. Connect one end of the USB cable to the USB port of the computer and the other end to the USB OTG debugging interface of the RV1126/RV1109 baseboard. The wiring is as shown below:
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/usb_connect.jpeg)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/usb_connect.jpeg" width="700">
 </center>
 3. Install ADB based on your system.
 

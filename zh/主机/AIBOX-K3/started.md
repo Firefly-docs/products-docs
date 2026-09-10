@@ -3,11 +3,11 @@
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/AIBOX-K3.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/AIBOX-K3.png" width="700">
 </center>
 
 ## 主机尺寸
 <center>
 
-![](../../../aibox_img/AIBOX-K3/AIBOX-K3-size.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/AIBOX-K3-size.png" width="900">
 </center>

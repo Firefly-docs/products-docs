@@ -15,21 +15,21 @@
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/pass.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/pass.jpg" width="700">
 </center>
 
 * 适配` IR `摄像头有效防止照片、视频和蜡像等作弊行为。
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/npass.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/npass.jpg" width="700">
 </center>
 
 * `TYPE-C OTG` 提供了控制后台、人脸注册管理、闸机后台维护的硬件支持。
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/weblogin.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/weblogin.png" width="800">
 </center>
 
 ### 裸机闸机
@@ -45,7 +45,7 @@
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png" width="700">
 </center>
 
 ## AI 计算棒

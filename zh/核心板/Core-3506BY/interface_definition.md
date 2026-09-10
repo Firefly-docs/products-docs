@@ -23,7 +23,7 @@
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506B-CC/interface_all1.jpg)
+<img alt="" src="../../../rk3506_img/ROC-RK3506B-CC/interface_all1.jpg" width="900">
 </center>
 
 <center>

@@ -44,7 +44,7 @@ iptables -t nat -A POSTROUTING -s 172.16.110.0/24 -o eth0 -j MASQUERADE
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/rndis_dev.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/rndis_dev.jpg" width="700">
 </center>
 
 * 设置主机自身连接外网的网卡，共享网络。
@@ -58,5 +58,5 @@ iptables -t nat -A POSTROUTING -s 172.16.110.0/24 -o eth0 -j MASQUERADE
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/rndis_setting.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/rndis_setting.jpg" width="700">
 </center>

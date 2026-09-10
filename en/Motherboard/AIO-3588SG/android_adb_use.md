@@ -6,7 +6,7 @@ ADB (the full name is the Android Debug Bridge) is the command-line debugging to
 
 <center>
 
-![](../../../rk3588_img/Core-3588SG/upgrade_otg_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SG/upgrade_otg_interface.jpg" width="900">
 </center>
 
 When AIO-3588SG uses OTG to connect to ADB, the battery needs to be connected.

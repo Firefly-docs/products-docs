@@ -5,7 +5,7 @@ ROC-RK3566-PC is a phone sized mini PC board , equipped with Rockchip quad-core 
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/front.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/front.jpg" width="700">
 </center>
 
 

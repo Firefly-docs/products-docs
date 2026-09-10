@@ -3,6 +3,6 @@
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/EC-R3588SPC.png)  
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/EC-R3588SPC.png" width="700">
 </center>
  <a id="firmware-format"></a>

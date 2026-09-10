@@ -9,7 +9,7 @@ AIO-3588Q 开发板上有 1 个 M.2 接口
 
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_sata_m2_sata.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_sata_m2_sata.jpg" width="800">
 </center>
 
 ## 软件配置
@@ -21,7 +21,7 @@ Settings->Connected devices -> M.2 SSD Type
 
  <center>
 
- ![](../../../rk3588_img/iCore-3588Q/swtich_sata_pcie.jpg)
+ <img alt="" src="../../../rk3588_img/iCore-3588Q/swtich_sata_pcie.jpg" width="700">
  </center>
 
  修改后需要重启系统才会生效

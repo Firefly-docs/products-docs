@@ -37,7 +37,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/module_display_mipi_connection.en.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/module_display_mipi_connection.en.jpg" width="700">
 </center>
 
 ## [10.1" LVDS module](https://www.firefly.store/products)
@@ -107,7 +107,7 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 * **Note:** the voltage jumper in the figure below should use 12V.
 <center>
 
-![](../../../rk3399_img/AIO-3399C/module_display_lvds.en.png)
+<img alt="" src="../../../rk3399_img/AIO-3399C/module_display_lvds.en.png" width="700">
 </center>
 
 ## 7.85 "EDP LCD module
@@ -152,7 +152,7 @@ Use the following command when compiling the 7.85-inch screen firmware supported
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/module_display_edp.en.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/module_display_edp.en.jpg" width="700">
 </center>
 
 ### Connection methods
@@ -161,5 +161,5 @@ Use the following command when compiling the 7.85-inch screen firmware supported
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/module_display_edp_connection.en.png)
+<img alt="" src="../../../rk3399_img/AIO-3399C/module_display_edp_connection.en.png" width="700">
 </center>

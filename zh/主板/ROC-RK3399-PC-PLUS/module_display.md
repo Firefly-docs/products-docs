@@ -27,7 +27,7 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_mipi8.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_mipi8.jpg" width="700">
 </center>
 
 ## 10.1寸MIPI液晶屏模组
@@ -55,7 +55,7 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_2.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_2.jpg" width="700">
 </center>
 
 ### 固件下载
@@ -91,7 +91,7 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_v2.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_mipi101_v2.jpg" width="700">
 </center>
 
 ### 参考资料
@@ -121,5 +121,5 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_edp101.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/panel_edp101.jpg" width="700">
 </center>

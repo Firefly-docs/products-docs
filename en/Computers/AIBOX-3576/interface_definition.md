@@ -14,5 +14,5 @@ AIBOX-3576 has rich interfaces, mainly including:
 
 <center>
 
-![](../../../aibox_img/AIBOX-3576/AIBOX-3576-interface_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-3576/AIBOX-3576-interface_en.png" width="900">
 </center>

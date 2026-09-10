@@ -21,7 +21,7 @@ If each Portx is assigned a separate display controller, it can support three-sc
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/usage_display_interface.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/usage_display_interface.png" width="900">
 </center>
 
 

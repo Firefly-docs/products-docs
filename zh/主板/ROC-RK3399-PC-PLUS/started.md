@@ -4,12 +4,12 @@
 ROC-RK3399-PC-PLUS 是一款迷你PC主板,体积只有小型手机的大小。
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_interface_front.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_interface_front.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_interface_back.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/pc+_interface_back.jpg" width="900">
 </center>
 
 * Dual-core Cortex-A72 up to 1.8GHz & Quad-core Cortex-A53 up to 1.5GHz 六核处理器

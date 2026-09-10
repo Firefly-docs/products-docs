@@ -8,7 +8,7 @@ Use USB cable to connect the device `Console` port with PC.
 
 <center>
 
-![](../../../qcom_img/AIBOX-8550/debug_console.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-8550/debug_console.jpg" width="800">
 </center>
 
 ## Install Driver

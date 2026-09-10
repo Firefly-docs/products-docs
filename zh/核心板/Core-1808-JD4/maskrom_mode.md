@@ -13,7 +13,7 @@
 4. 用金属镊子接通核心板上的如下图所示的两个测试点，并保持。
 <center>
 
-![](../../../rk1808_img/maskrom1.png)
+<img alt="" src="../../../rk1808_img/maskrom1.png" width="700">
 </center>
 
 5. 设备插入电源。
@@ -22,5 +22,5 @@
 这时，设备应该就会进入 MaskRom 模式。   
 <center>
 
-![](../../../rk1808_img/maskrom2.png)
+<img alt="" src="../../../rk1808_img/maskrom2.png" width="700">
 </center>

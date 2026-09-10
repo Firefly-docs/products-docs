@@ -8,12 +8,12 @@ Core-3328-JD4 is powered by the Rockchip RK3328 quad-core 64-bit Cortex-A53 proc
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_front.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_back.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Core-3328-JD4_back.png" width="700">
 </center>
 
 ## Specifications

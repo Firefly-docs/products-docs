@@ -4,7 +4,7 @@
 Face-RK3399开发板支持MIPI屏幕，接口对应板子上的位置如下图：
 <center>
 
-![](../../../rk3399_img/Face-RK3399/mipi.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/mipi.png" width="700">
 </center>
 
 ### MIPI屏

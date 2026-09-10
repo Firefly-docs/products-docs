@@ -7,7 +7,7 @@ CAN模块之间接线：CAN_H接CAN_H，CAN_L接CAN_L。
 
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/usage_can_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588JD4/usage_can_interface.jpg" width="900">
 </center>
 
 ### DTS 节点配置

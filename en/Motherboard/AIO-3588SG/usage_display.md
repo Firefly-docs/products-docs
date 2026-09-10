@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -34,7 +34,7 @@ But from the software point of view, there are the following configuration consi
 * eDP/ Display Port/ MIPI DSI1
 <center>
 
-![](../../../rk3588_img/Core-3588SG/usage_display_interface-B.png)   
+<img alt="" src="../../../rk3588_img/Core-3588SG/usage_display_interface-B.png" width="900">
 </center>
 
 
@@ -102,7 +102,7 @@ Combining AIO-3588SG  DSI1 interface and screen timing
 * DSI1 interface<br>
 <center>
 
-![](../../../rk3588_img/Core-3588SG/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588SG/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 
@@ -117,7 +117,7 @@ Combining AIO-3588SG  DSI1 interface and screen timing
 * V2 screen power-on timing<br>
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_on.png" width="800">
 </center>
   
   
@@ -125,7 +125,7 @@ Combining AIO-3588SG  DSI1 interface and screen timing
 * V2 screen power-down timing<br>
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_off.png" width="800">
 </center>
   
   
@@ -133,7 +133,7 @@ Combining AIO-3588SG  DSI1 interface and screen timing
 * V2 screen power-up symbol reference<br>
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png" width="800">
 </center>
   
 

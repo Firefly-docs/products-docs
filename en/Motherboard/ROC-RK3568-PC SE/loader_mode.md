@@ -14,13 +14,13 @@ Here's how to put your device into upgrade mode:
 * Dual male usb data cable connects one end to the host and the other end to the development board.
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/otg_interface.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/otg_interface.jpg" width="900">
 </center>
 
 * Press the `RECOVERY` button on the device and hold.
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/recovery_key.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/recovery_key.jpg" width="700">
 </center>
 
 * Connect to the power supply.

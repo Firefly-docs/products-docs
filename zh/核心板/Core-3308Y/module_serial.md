@@ -16,12 +16,12 @@
 
 <center>
 
-![](../../../rk3308_img/module_serial_list.jpg)
+<img alt="" src="../../../rk3308_img/module_serial_list.jpg" width="700">
 </center>
 
 ### 连接方法
 
 <center>
 
-![](../../../rk3308_img/Core-3308Y/debug_connection.jpg)
+<img alt="" src="../../../rk3308_img/Core-3308Y/debug_connection.jpg" width="800">
 </center>

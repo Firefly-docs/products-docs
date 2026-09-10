@@ -6,7 +6,7 @@ ROC-RK3588S-PC 硬件版本的串口接口图如下：
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/usage_uart_interface.jpg" width="900">
 </center>
 
 ## DTS配置

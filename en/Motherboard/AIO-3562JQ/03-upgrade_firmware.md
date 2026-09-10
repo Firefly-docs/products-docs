@@ -55,7 +55,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, RKDevTool will displ
 
 <center>
 
-![](../../../rk3562_img/upgrade_firmware_rkdevtool_en.png)
+<img alt="" src="../../../rk3562_img/upgrade_firmware_rkdevtool_en.png" width="800">
 </center>
 
 ### Linux
@@ -107,7 +107,7 @@ And you will see a new `Rockusb Device` in windows device manager. If not, you c
 
 <center>
 
-![](../../../rk3562_img/upgrade_firmware_new_equipment.png)
+<img alt="" src="../../../rk3562_img/upgrade_firmware_new_equipment.png" width="800">
 </center>
 
 * Linux
@@ -143,7 +143,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk3562_img/upgrade_firmware_rkdevtool_en.png)
+<img alt="" src="../../../rk3562_img/upgrade_firmware_rkdevtool_en.png" width="800">
 </center>
 
 ### Linux
@@ -177,5 +177,5 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk3562_img/upgrade_downloadfail.png)
+<img alt="" src="../../../rk3562_img/upgrade_downloadfail.png" width="800">
 </center>

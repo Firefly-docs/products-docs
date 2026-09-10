@@ -25,7 +25,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/started_shipping_list.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/started_shipping_list.jpg" width="700">
 </center>
 
 # 人工智能升级版(AI版)

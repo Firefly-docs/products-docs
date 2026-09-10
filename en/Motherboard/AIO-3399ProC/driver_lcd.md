@@ -5,7 +5,7 @@ The AIO-3399ProC development board supports two LCD screen interfaces by default
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/lcd_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/lcd_interface.jpg" width="900">
 </center>
 
 ## LVDS screen
@@ -163,7 +163,7 @@ The AIO-3399ProC development board has an external backlight interface to contro
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/lcd_back_light.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/lcd_back_light.jpg" width="700">
 </center>
 
 The backlight information is configured in the DTS file: kernel/arch/arm64/boot/dts/rockchip/rk3399pro-firefly-core.dtsi, as follows:
@@ -267,7 +267,7 @@ Refer to the figure below for timing attributes:
 
 <center>
 
-![](../../../rk3399_img/lcd_sequence.jpg)
+<img alt="" src="../../../rk3399_img/lcd_sequence.jpg" width="700">
 </center>
 
 #### Init Code
@@ -279,7 +279,7 @@ Take 1280x800 single LVDS as an example:
 Open TC358764_5_774_5XBG_DSI-LVDS_Tv11p_nm_1280x800.xls
 <center>
 
-![](../../../rk3399_img/page.png)
+<img alt="" src="../../../rk3399_img/page.png" width="700">
 </center>
 
 Select "timing parameters_sync_event" on the page and fill in the LVDS timing yellow cell according to the sequence of LVDS screen. Generally, only the following cell need to be filled in.
@@ -289,7 +289,7 @@ Select "timing parameters_sync_event" on the page and fill in the LVDS timing ye
 After LVDS timing is filled in, it is also necessary to configure general parameters
 <center>
 
-![](../../../rk3399_img/parameter.png)
+<img alt="" src="../../../rk3399_img/parameter.png" width="900">
 </center>
 * 1.Confirm LVDS link and LVDS output format according to LVDS screen specification and select screen parameters.
 * 2.Calculate LVDS clock (the blue cell cannot be written, which needs to be calculated automatically by the Yellow cell), and fill in DSI Clock(HOST), Pixel Clock Source, Pixel Clock Divider。The calculation formula is as follows:DSI Clock/Pixel Clock Source/Pixel Clock Divider=LVDS Clock
@@ -297,7 +297,7 @@ After LVDS timing is filled in, it is also necessary to configure general parame
 Fill in the above yellow cell and basically complete the configuration. Next, select "source" on the page to see the converted comment
 <center>
 
-![](../../../rk3399_img/source.png)
+<img alt="" src="../../../rk3399_img/source.png" width="700">
 </center>
 Take the above example "013C 00030005", Mipi command should be "29 02 06 3C 01 05 00 03 00"
 * 29 : packet ID

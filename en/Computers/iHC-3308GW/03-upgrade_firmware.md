@@ -50,7 +50,7 @@ we can put the device into upgrade mode by hardware as follows:
 * Press the `RECOVERY` button on the device and hold.
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/otg_interface.png)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/otg_interface.png" width="900">
 </center>
 
 * Connect to the power supply.
@@ -68,7 +68,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 <center>
 
-![](../../../rk3308_img/upgrade_firmware_new_equipment.png)
+<img alt="" src="../../../rk3308_img/upgrade_firmware_new_equipment.png" width="800">
 </center>
 
 ### Upgrade the firmware
@@ -88,7 +88,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 <center>
 
-![](../../../rk3308_img/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3308_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 #### Upgrade unified firmware - update.img
@@ -106,7 +106,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rk3308_img/upgrade_firmware_erase_flash_zh.png)
+<img alt="" src="../../../rk3308_img/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -121,7 +121,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk3308_img/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3308_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ## Linux
@@ -188,7 +188,7 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk3308_img/upgrade_downloadfail.png)
+<img alt="" src="../../../rk3308_img/upgrade_downloadfail.png" width="800">
 </center>
 
 

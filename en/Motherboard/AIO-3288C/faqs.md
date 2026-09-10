@@ -33,7 +33,7 @@ How to open the root function of the system on the Firefly platform? Firefly has
 
 <center>
 
-![](../../../rk3288_img/faqs_android_root.png)
+<img alt="" src="../../../rk3288_img/faqs_android_root.png" width="800">
 </center>
 
 

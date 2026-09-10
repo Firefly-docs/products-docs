@@ -13,7 +13,7 @@
 先断开电源，然后按住 maskrom 按键，再上电，几秒后松开
 <center>
 
-![](../../../rk3576_img/AIO-3576Q38/upgrade_maskrom_key.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576Q38/upgrade_maskrom_key.jpg" width="800">
 </center>
 
 
@@ -21,5 +21,5 @@
 
 <center>
 
-![](../../../rk3576_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rk3576_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

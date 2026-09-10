@@ -323,7 +323,7 @@ EC-A3399ProC 原理图上的 Power Domain Map 表以及配置如下表所示：
 
 <center>
 
-![](../../../rk3399_img/gpio_power_domain.jpg)
+<img alt="" src="../../../rk3399_img/gpio_power_domain.jpg" width="700">
 </center>
 
 通过 RK3399 SDK 的原理图可以看到 bt656-supply 的电压域连接的是 vcc18_dvp, vcc_io 是从 PMIC RK808 的 VLDO1 出来的；

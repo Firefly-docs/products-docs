@@ -53,7 +53,7 @@
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Table.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Table.jpg" width="700">
 </center>
 
 提示：在Loader模式和Maskrom模式均能够烧写固件时，优先选择Loader模式。

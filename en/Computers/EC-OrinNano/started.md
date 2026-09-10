@@ -3,10 +3,10 @@ EC-Orin Nano is equipped with the official NVIDIA Jetson Orin Nano core board mo
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-Nano/EC-Orin.jpg)
+<img alt="" src="../../../bm1688_img/EC-Orin-Nano/EC-Orin.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-Nano/EC-Orin-back.jpg)
+<img alt="" src="../../../bm1688_img/EC-Orin-Nano/EC-Orin-back.jpg" width="700">
 </center>

@@ -9,7 +9,7 @@ The AIO-3588SG development board leads out a row of extended GPIO ports for user
 
 <center>
 
-![](../../../rk3588_img/Core-3588SG/usage_gpio_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588SG/usage_gpio_interface.png" width="900">
 </center>
 
 This article uses the two general GPIO ports GPIO3_B2 and GPIO3_B7 as examples to write a simple operation GPIO port driver. The path in the SDK is:

@@ -3,5 +3,5 @@ AIO-8550JD4 采用高通六核(1+2+3)高性能 AI 处理器 QCS8550，集成 48 
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/aio-8550jd4.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/aio-8550jd4.jpg" width="700">
 </center>

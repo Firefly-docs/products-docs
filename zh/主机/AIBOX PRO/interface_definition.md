@@ -25,5 +25,5 @@ PS: 如上接口为3588支持，如果核心板使用3576，则硬件上无法�
 
 <center>
 
-![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-interface.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/AIBOX-PRO-interface.png" width="900">
 </center>

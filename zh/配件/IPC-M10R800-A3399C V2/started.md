@@ -10,22 +10,22 @@ GPU。与Cortex-A57 相比，处理性能提升 100%，速度更快，性能更�
 
 <center>
 
-![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_1.jpg)
+<img alt="" src="../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_1.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_2.jpg)
+<img alt="" src="../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_2.jpg" width="700">
 </center>
 
 ## 产品参数
 <center>
 
-![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s1.jpg)
+<img alt="" src="../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s1.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s2.jpg)
+<img alt="" src="../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s2.jpg" width="700">
 </center>
 
 ## 产品资源

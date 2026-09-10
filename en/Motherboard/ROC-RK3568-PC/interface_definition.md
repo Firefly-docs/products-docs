@@ -33,11 +33,11 @@ The details are as follows:
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/interface_front.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/interface_front.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/interface_reverse.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/interface_reverse.jpg" width="900">
 </center>
 

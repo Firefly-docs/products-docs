@@ -12,7 +12,7 @@ The operation steps are as follows:
 4. Use metal tweezers to connect the two test points on the core board as shown in the figure below and hold.<br />
 <center>
 
-![](../../../rk1808_img/maskrom1.png)
+<img alt="" src="../../../rk1808_img/maskrom1.png" width="700">
 </center>
 5. Plug the device into the power supply.
 6. Wait a moment, then loosen the tweezers.
@@ -20,5 +20,5 @@ The operation steps are as follows:
 At this point, the device should go into `MaskRom mode`.
 <center>
 
-![](../../../rk1808_img/maskrom2_en.png)
+<img alt="" src="../../../rk1808_img/maskrom2_en.png" width="700">
 </center>

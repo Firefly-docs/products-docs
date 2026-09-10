@@ -57,7 +57,7 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 <center>
 
-![](../../../rk3562_img/module_wireless_ec20_usb.jpg)
+<img alt="" src="../../../rk3562_img/module_wireless_ec20_usb.jpg" width="700">
 </center>
 
 
@@ -65,7 +65,7 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/module_wireless_4G-EC20_MiniPCIe_AntWord.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/module_wireless_4G-EC20_MiniPCIe_AntWord.jpg" width="700">
 </center>
 
 

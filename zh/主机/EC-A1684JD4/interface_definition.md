@@ -17,21 +17,21 @@ EC-A1684JD4 接口丰富，主要包括：
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4/ec-a1684jd4-interface.jpg)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4/ec-a1684jd4-interface.jpg" width="900">
 </center>
 
 ## 天线连接
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4/antenna_connection.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4/antenna_connection.png" width="700">
 </center>
 
 ## SIM 卡插入
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4/sim_connection.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4/sim_connection.png" width="700">
 </center>
 
 ## 串口 Pinout

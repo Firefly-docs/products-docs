@@ -34,7 +34,7 @@ RK3128MiniLoaderAll(L)_V2.20.bin 和 uboot.img 的组合是二级 loader 模式�
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_tool_uboot.png)  
+<img alt="" src="../../../rk3128_img/Core-3128J/win_tool_uboot.png" width="700">
 </center>
 
 ## 确认是否正确烧写新的 Loader

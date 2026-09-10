@@ -15,5 +15,5 @@ The BOARD with space features a rich array of interfaces, including:
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/AIBOX-K3-interface_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/AIBOX-K3-interface_en.png" width="900">
 </center>

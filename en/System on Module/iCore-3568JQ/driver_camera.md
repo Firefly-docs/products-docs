@@ -20,7 +20,7 @@ and split into three logical dphy: csi2_dphy0, csi2_dphy1, csi2_dphy2 (See detai
 
 <center>
 
-![](../../../rk356x_img/rk356x_mipi_csi_mode.png)
+<img alt="" src="../../../rk356x_img/rk356x_mipi_csi_mode.png" width="700">
 </center>
 
 In short, if we use single-camera, we can set dphy to full mode, if we use dual-camera, we can set dphy to split mode.

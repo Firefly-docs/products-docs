@@ -14,7 +14,7 @@ AIO-3576Q has a capacitor to supply power to the RTC as shown in the following f
 
 <center>
 
-![](../../../rk3576_img/iCore-3576Q/usage_rtc_capacitor.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576Q/usage_rtc_capacitor.jpg" width="800">
 </center>
 
 

@@ -32,7 +32,7 @@ Face-RK3399 配备一条20pin集成转接线，跟板子的连接线序如下图
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/weixian1.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/weixian1.jpg" width="700">
 </center>
 
 

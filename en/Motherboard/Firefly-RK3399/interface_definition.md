@@ -35,5 +35,5 @@ In addition, there is a row of extended interfaces. Specifically as follows:
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/interface.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/interface.jpg" width="900">
 </center>

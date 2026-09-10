@@ -28,13 +28,13 @@ AIO-8550JD4 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/interface_front_zh.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/interface_front_zh.jpg" width="900">
 </center>
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/interface_back_zh.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/interface_back_zh.jpg" width="900">
 </center>
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/interface_io_zh.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/interface_io_zh.jpg" width="900">
 </center>

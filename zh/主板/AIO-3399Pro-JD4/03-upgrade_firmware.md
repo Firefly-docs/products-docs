@@ -55,14 +55,14 @@
 USB3.0(OTG)接口如下图所示：
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/upgrade_firmware_otg_port.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/upgrade_firmware_otg_port.jpg" width="800">
 </center>
 
 主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，则需要返回上一步重新安装驱动。
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 ## 烧写固件
@@ -71,7 +71,7 @@ USB3.0(OTG)接口如下图所示：
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ### 烧写统一固件 update.img
@@ -87,7 +87,7 @@ USB3.0(OTG)接口如下图所示：
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_erase_flash.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
 ### 烧写分区映像
@@ -107,7 +107,7 @@ USB3.0(OTG)接口如下图所示：
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ## Linux 主机烧录固件
@@ -204,7 +204,7 @@ sudo upgrade_tool ef update.img	# 擦除
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 <center>
 
-![](../../../rk3399_img/upgrade_downloadfail.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_downloadfail.jpg" width="800">
 </center>
 
 [《使用USB线烧写须知(重要)》]: 02-upgrade_table.md

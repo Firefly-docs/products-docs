@@ -8,7 +8,7 @@ The serial interfaces are as follows:
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4-AI/uart_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4-AI/uart_interface.jpg" width="900">
 </center>
 
 ## DTS Config

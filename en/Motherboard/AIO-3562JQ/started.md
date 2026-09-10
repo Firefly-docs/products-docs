@@ -3,14 +3,14 @@ iCore-3562JQ is powered by the Rockchip RK3562J, a high-performance, low-power q
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/iCore-3562JQ.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/iCore-3562JQ.jpg" width="700">
 </center>
 
 AIO-3562JQ is combined by iCore-3562JQ and MB-Q-RK3562. The BTB interface provides more powerful transmission. This core board's industrial-grade stability ensures reliable long-term operation within a temperature range of -40°C to 85°C. With an array of interfaces, it supports various video output options, multiple cameras, Gigabit Ethernet, WiFi, and 5G/4G expansion. Compatible with multiple operating systems, it is widely used in intelligent digital signage, industrial control systems, industrial PLCs, energy data concentrators, smart healthcare, self-service terminals, and more.
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/AIO-3562JQ.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/AIO-3562JQ.jpg" width="700">
 </center>
 
 ## The standard package of AIO-3562JQ includes the following accessories(for reference only):

@@ -1,18 +1,18 @@
 # Product parameters
 <center>
 
-![](../../../rk3588_img/EC-A3588JD4/parameter-en.png)
+<img alt="" src="../../../rk3588_img/EC-A3588JD4/parameter-en.png" width="900">
 </center>
 
 # Product interface
 <center>
 
-![](../../../rk3588_img/EC-A3588JD4/interface-en.png)
+<img alt="" src="../../../rk3588_img/EC-A3588JD4/interface-en.png" width="900">
 </center>
 
 # Size
 <center>
 
-![](../../../rk3588_img/EC-A3588JD4/size.png)
+<img alt="" src="../../../rk3588_img/EC-A3588JD4/size.png" width="900">
 </center>
 

@@ -24,7 +24,7 @@ AIO-1808-JD4串口连接图：
 
 <center>
 
-![](../../../rk1808_img/debug1.jpg)
+<img alt="" src="../../../rk1808_img/debug1.jpg" width="800">
 </center>
 ## 连接参数
 

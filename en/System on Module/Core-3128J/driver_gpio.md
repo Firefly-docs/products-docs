@@ -23,14 +23,14 @@ The core logic is filling up methods and parameters of each GPIO bank before cal
 The development board has two power leds controlled by GPIO, which are:  
 <center>
 
-![](../../../rk3128_img/Core-3128J/Firerprime_leds_schematic.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/Firerprime_leds_schematic.png" width="700">
 </center>
 
 From the schematic, the led will be on if outputing low voltage level from GPIO, and off if high voltage level otherwse.
 Additionally, the extension slots have exported lots of GPIOs with multiplex function:  
 <center>
 
-![](../../../rk3128_img/Core-3128J/hardware_interface_2.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/hardware_interface_2.png" width="900">
 </center>
 
 ## Input/Output

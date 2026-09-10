@@ -3,7 +3,7 @@ CSA1-N8 是一款1U机架式的ARM准系统高密度阵列式服务器。该服�
 
 <center>
 
-![perspective view](../../../servers_img/CSA1-N8/perspective_view.png)
+<img alt="perspective view" src="../../../servers_img/CSA1-N8/perspective_view.png" width="700">
 </center>
 
 功能亮点
@@ -20,15 +20,15 @@ CSA1-N8 是一款1U机架式的ARM准系统高密度阵列式服务器。该服�
 ### 正面图
 <center>
 
-![perspective view](../../../servers_img/CSA1-N8/front_view.png)
+<img alt="perspective view" src="../../../servers_img/CSA1-N8/front_view.png" width="700">
 </center>
 ### 背面图
 <center>
 
-![perspective view](../../../servers_img/CSA1-N8/rear_view.png)
+<img alt="perspective view" src="../../../servers_img/CSA1-N8/rear_view.png" width="700">
 </center>
 ### 透视图
 <center>
 
-![perspective view](../../../servers_img/CSA1-N8/perspective_view.png)
+<img alt="perspective view" src="../../../servers_img/CSA1-N8/perspective_view.png" width="700">
 </center>

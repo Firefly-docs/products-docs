@@ -29,7 +29,7 @@ Serial port connection diagram for AIO-3128C:
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/AIO-3128C-serial.jpg)
+<img alt="" src="../../../rk3128_img/AIO-3128C/AIO-3128C-serial.jpg" width="700">
 </center>
 ## Connection parameters
 
@@ -54,7 +54,7 @@ Download driver and install:
 Plug in the adapter. OS will prompt that new hardware is found and being initialized. When it finish, you can find the new COM port in the Device Manager:  
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_com.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_com.png" width="700">
 </center>
 
 ### Install Software

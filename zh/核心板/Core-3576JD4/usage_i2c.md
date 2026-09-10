@@ -8,7 +8,7 @@ AIO-3576JD4开发板上通过排针引出了 2 个 I2C
 
 <center>
 
-![](../../../rk3576_img/Core-3576JD4/usage_i2c_interface.jpg)
+<img alt="" src="../../../rk3576_img/Core-3576JD4/usage_i2c_interface.jpg" width="900">
 </center>
 
 I2C0 (对应丝印 I2C5)和 I2C3 (对应丝印 I2C4)

@@ -19,7 +19,7 @@ Firefly-RK3288:
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/maskrom_test_points.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/maskrom_test_points.png" width="700">
 </center>
 
 
@@ -35,5 +35,5 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk3288_img/maskrom.png)
+<img alt="" src="../../../rk3288_img/maskrom.png" width="700">
 </center>

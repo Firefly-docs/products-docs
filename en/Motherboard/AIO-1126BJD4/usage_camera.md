@@ -6,7 +6,7 @@
 
 <center>
 
-![](img/CORE-1126BJD4/usage_camera_mipicsi.jpg)
+<img alt="" src="img/CORE-1126BJD4/usage_camera_mipicsi.jpg" width="800">
 </center>
 
 

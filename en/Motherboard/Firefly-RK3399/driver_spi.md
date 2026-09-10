@@ -6,7 +6,7 @@ SPI is a high-speed, full-duplex, synchronous serial communication interface for
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/spi_interface.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/spi_interface.jpg" width="900">
 </center>
 
 
@@ -50,7 +50,7 @@ The hardware connection between Firefly-RK3399 and W25Q128FV is shown in the fol
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/spi_hardware_connection.jpg" width="700">
 </center>
 
 

@@ -29,7 +29,7 @@ AIO-3562JQ  串口连接图：
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/debug_connection.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/debug_connection.jpg" width="800">
 </center>
 
 ## 串口参数配置
@@ -56,7 +56,7 @@ AIO-3562JQ 使用以下串口参数：
 
 <center>
 
-![](../../../rk3562_img/debug_find_com.png)
+<img alt="" src="../../../rk3562_img/debug_find_com.png" width="800">
 </center>
 
 ### 安装软件
@@ -72,14 +72,14 @@ Windows 上一般用 putty 或 SecureCRT。其中我们推荐使用 MobaXterm �
 
 <center>
 
-![](../../../rk3562_img/debug_set_MobaXterm1.png)  
+<img alt="" src="../../../rk3562_img/debug_set_MobaXterm1.png" width="800">
 </center>
 
 
 
 <center>
 
-![](../../../rk3562_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../rk3562_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ## Ubuntu 上使用串口调试
@@ -183,7 +183,7 @@ Press CTRL-A Z for help on special keys
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/adb_connection.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/adb_connection.jpg" width="700">
 </center>
 ## 开启 ADB 调试
 

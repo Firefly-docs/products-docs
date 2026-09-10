@@ -8,5 +8,5 @@ The details are shown below:
 
 <center>
 
-![](../../../rv1126b_img/CQ38W-1126B/interface_en.png)
+<img alt="" src="../../../rv1126b_img/CQ38W-1126B/interface_en.png" width="900">
 </center>

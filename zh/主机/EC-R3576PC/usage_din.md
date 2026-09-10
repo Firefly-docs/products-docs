@@ -11,7 +11,7 @@ EC-R3576PC支持一路光耦隔离输入，其中，IN在硬件原理图中对�
 ### 电路原理图
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/input_sch.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/input_sch.png" width="700">
 </center>
 
 ### 检测

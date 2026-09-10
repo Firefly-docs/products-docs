@@ -121,7 +121,7 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 下载 [AndroidTool](https://community.t-firefly.com/doc/download/67)，解压，运行 AndroidTool_Release_xx 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：   
 <center>
 
-![](../../../px30_img/upgrade_firmware3.png)
+<img alt="" src="../../../px30_img/upgrade_firmware3.png" width="800">
 </center>
 
 ####  烧写统一固件 update.img
@@ -137,7 +137,7 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 <center>
 
-![](../../../px30_img/upgrade_firmware4.png)
+<img alt="" src="../../../px30_img/upgrade_firmware4.png" width="800">
 </center>
 
 #### 烧写分区映像
@@ -155,7 +155,7 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 <center>
 
-![](../../../px30_img/upgrade_firmware3.png)
+<img alt="" src="../../../px30_img/upgrade_firmware3.png" width="800">
 </center>
 
 ### Linux
@@ -242,7 +242,7 @@ sudo upgrade_tool ef update.img	# 擦除
 4. 用金属镊子接通核心板上的如下图所示的两个测试点，并保持。
 <center>
 
-![](../../../px30_img/maskrom.jpg)
+<img alt="" src="../../../px30_img/maskrom.jpg" width="700">
 </center>
 
 5. 设备插入电源。
@@ -251,6 +251,6 @@ sudo upgrade_tool ef update.img	# 擦除
 这时，设备应该就会进入 MaskRom 模式。   
 <center>
 
-![](../../../px30_img/maskrom2.png)
+<img alt="" src="../../../px30_img/maskrom2.png" width="700">
 </center>
 

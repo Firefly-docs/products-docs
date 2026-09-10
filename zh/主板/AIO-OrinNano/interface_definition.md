@@ -20,9 +20,9 @@ AIO-Orin Nano 接口丰富，主要包括：
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-zh-01.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-zh-01.png" width="900">
 </center>
 <center>
 
-![](../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-zh-02.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-zh-02.png" width="900">
 </center>

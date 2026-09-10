@@ -8,7 +8,7 @@ ROC-RK3568-PC-SE supports UART、RS232、RS485 interfaces. They are UART7, two R
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/uart_interface.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/uart_interface.jpg" width="900">
 </center>
 
 **Note**: In this chapter, two RS232 will be defined as `RS232_1`、`RS232_2`, which is used to explains how to use UART.

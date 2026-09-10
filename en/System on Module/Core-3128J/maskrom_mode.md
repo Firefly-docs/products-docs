@@ -20,12 +20,12 @@ Artificial to the Flash data pin connected to ground, the system will think Flas
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/maskrom_1.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/maskrom_1.png" width="700">
 </center>
 
 Device should enter MaskRom mode:
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_3128_tool_maskrom.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/win_3128_tool_maskrom.png" width="700">
 </center>

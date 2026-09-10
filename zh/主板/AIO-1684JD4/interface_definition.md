@@ -25,10 +25,10 @@ AIO-1684JD4 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../bm1684_img/AIO-1684JD4/interface_front.jpg)
+<img alt="" src="../../../bm1684_img/AIO-1684JD4/interface_front.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../bm1684_img/AIO-1684JD4/interface_back.jpg)
+<img alt="" src="../../../bm1684_img/AIO-1684JD4/interface_back.jpg" width="900">
 </center>

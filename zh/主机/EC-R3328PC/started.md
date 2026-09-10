@@ -4,12 +4,12 @@ EC-R3328PC 嵌入式主机依托 ROC-RK3328-PC 高性能开源平台设计，搭
 
 <center>
 
-![](../../../rk3328_img/EC-R3328PC/EC-R3328PC-info01.png)
+<img alt="" src="../../../rk3328_img/EC-R3328PC/EC-R3328PC-info01.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3328_img/EC-R3328PC/EC-R3328PC-info02-zh.png)
+<img alt="" src="../../../rk3328_img/EC-R3328PC/EC-R3328PC-info02-zh.png" width="700">
 </center>
 
 

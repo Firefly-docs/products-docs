@@ -20,7 +20,7 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rv1126b_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rv1126b_img/common/upgrade_maskrom_zh.png" width="800">
 </center>
 
 Note: If the Windows PC programming tool still doesn't detect the MASKROM device after following the above steps, check if the Windows PC software driver is installed to the latest version.

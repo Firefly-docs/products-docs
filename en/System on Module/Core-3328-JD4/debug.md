@@ -81,7 +81,7 @@ Three wires are required to connect the TX/RX/GND pins together:
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/uart.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/uart.jpg" width="700">
 </center>
 
 With some adapters, you may try to connect TX pin of the adapter to RX pin of the board, and RX pin of adapter to TX pin of the board, if you do not get the serial console working.

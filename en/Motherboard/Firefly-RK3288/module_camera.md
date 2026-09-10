@@ -21,14 +21,14 @@ The public-version firmware supports the CMK-OV13850 camera module by default.
 
 <center>
 
-![](../../../rk3288_img/module_camera_1.png)
+<img alt="" src="../../../rk3288_img/module_camera_1.png" width="700">
 </center>
 
 ### Connection method
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/module_camera_2.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/module_camera_2.png" width="700">
 </center>
 
 ### Image

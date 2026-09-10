@@ -20,5 +20,5 @@ The EC-Orin NX interface is rich and mainly includes:
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-NX/EC-Orin-interface.png)
+<img alt="" src="../../../bm1688_img/EC-Orin-NX/EC-Orin-interface.png" width="900">
 </center>

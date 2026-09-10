@@ -4,13 +4,13 @@ CAM-2MS2MF is a dual-MIPI dual-lens WDR+NIR module. It is mainly used in scenari
 
 <center>
 
-![](../../../modules_img/CAM-2MS2MF/cam-2ms2mf.png)
+<img alt="" src="../../../modules_img/CAM-2MS2MF/cam-2ms2mf.png" width="700">
 </center>
 
 ## Shipping list
 <center>
 
-![](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_shop_list_en.png)
+<img alt="" src="../../../modules_img/CAM-2MS2MF/cam-2ms2mf_shop_list_en.png" width="700">
 </center>
 
 ## Detailed parameters
@@ -71,7 +71,7 @@ The Firefly development board has two MIPI CSI interfaces, one is a 30pin interf
 ### 30pin MIPI CSI Interface Connection
 <center>
 
-![](../../../modules_img/CAM-2MS2MF/interface_30pin.jpg)
+<img alt="" src="../../../modules_img/CAM-2MS2MF/interface_30pin.jpg" width="900">
 </center>
 
 <font color="red">Note: Do not connect to an interface with the words `MIPI DSI` as this may cause damage to the module or development board.</font>

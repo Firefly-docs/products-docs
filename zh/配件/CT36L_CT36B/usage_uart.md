@@ -6,12 +6,12 @@ debug 串口硬件接线图如下：
 
 <center>
 
-![](../../../rv1106_img/CT36L/uart_debug_ct36l.png)
+<img alt="" src="../../../rv1106_img/CT36L/uart_debug_ct36l.png" width="800">
 </center>
 
 * CT36B debug 串口硬件接线图
 
 <center>
 
-![](../../../rv1106_img/CT36L/uart_debug_ct36b.png)
+<img alt="" src="../../../rv1106_img/CT36L/uart_debug_ct36b.png" width="800">
 </center>

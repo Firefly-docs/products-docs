@@ -73,7 +73,7 @@ RCOVERY按键和RESET按键和OTG接口如图所示：
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_rockusb_driver.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/win_rockusb_driver.png" width="700">
 </center>
 
 ### 烧写固件
@@ -82,7 +82,7 @@ RCOVERY按键和RESET按键和OTG接口如图所示：
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_3128_tool_download.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/win_3128_tool_download.png" width="700">
 </center>
 
 #### 烧写统一固件 update.img
@@ -98,7 +98,7 @@ RCOVERY按键和RESET按键和OTG接口如图所示：
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_3128_tool_upgrade.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/win_3128_tool_upgrade.png" width="700">
 </center>
 
 #### 烧写分区映像
@@ -112,7 +112,7 @@ RCOVERY按键和RESET按键和OTG接口如图所示：
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_3128_tool_download.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/win_3128_tool_download.png" width="700">
 </center>
 
 ## Linux 主机烧录固件
@@ -184,7 +184,7 @@ sudo rkflashkit
 ```
 <center>
 
-![](../../../rk3128_img/Core-3128J/Fireprime_rkflashkit.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/Fireprime_rkflashkit.png" width="700">
 </center>
 
 * 命令行：   

@@ -14,14 +14,14 @@ ADB，全称 Android Debug Bridge，是 Android 的命令行调试工具，可�
 
 <center>
 
-![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36l.png)
+<img alt="" src="../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36l.png" width="800">
 </center>
 
 * CT36B 硬件链接配置
 
 <center>
 
-![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36b.png)
+<img alt="" src="../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36b.png" width="800">
 </center>
 
 

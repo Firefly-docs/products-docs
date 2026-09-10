@@ -4,5 +4,5 @@ AIO-8550JD4 equipped with the Qualcomm hexa-core (1+2+3) QCS8550 AI processor wi
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/aio-8550jd4.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/aio-8550jd4.jpg" width="700">
 </center>

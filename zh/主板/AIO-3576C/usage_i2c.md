@@ -8,7 +8,7 @@ AIO-3576C开发板上通过排针引出了 1 个 I2C0, 1 个 I2C2 。
 
 <center>
 
-![](../../../rk3576_img/AIO-3576C/usage_i2c_interface.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576C/usage_i2c_interface.jpg" width="900">
 </center>
 
 用户空间可以使用 i2c-tools 的相关命令读写 I2C 设备。

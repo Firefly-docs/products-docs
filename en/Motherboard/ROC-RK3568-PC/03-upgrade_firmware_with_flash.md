@@ -7,7 +7,7 @@ As shown in the figure below, the device has a Nor Flash storage media.
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/nor_flash-position.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/nor_flash-position.jpg" width="700">
 </center>
 
 ## Loader Mode 
@@ -51,14 +51,14 @@ If we have not compiled, we can download a [MiniLoaderAll.bin](https://www.t-fir
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash01.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash01.png" width="700">
 </center>
 
 **Step 3:** Click the button `List Storage`to get the storage media list, the `SPINOR` is selected in the list, we click `EraseAll` to erase Nor-Flash
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/maskrom_erease_spinor_flash.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/maskrom_erease_spinor_flash.png" width="700">
 </center>
 
 * ` X ` means device does not exist
@@ -69,28 +69,28 @@ If we have not compiled, we can download a [MiniLoaderAll.bin](https://www.t-fir
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash02.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash02.png" width="700">
 </center>
 
 the storage media `Emmc` state of the list  will go from `0` to `√`, indicating EMMC is selected. At this time, the firmware we dowload to the board will be burned into EMMC
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash03.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash03.png" width="700">
 </center>
 
 **Step 5:** click the button `EraseAll` to erase EMMC
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash04.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash04.png" width="700">
 </center>
 
 **Step 6:** Click the option `Upgrade Firmware`，select one system firmware we want to download in and click `Upgrade` done
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/load_emmc_with_flash05.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/load_emmc_with_flash05.png" width="700">
 </center>
 
 
@@ -99,7 +99,7 @@ the storage media `Emmc` state of the list  will go from `0` to `√`, indicatin
 ### Download Firmware Fail in Maskrom mode
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/maskrom_download_failed_with_flash.png)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/maskrom_download_failed_with_flash.png" width="700">
 </center>
 
 This failure is caused by the firmware burning directly into Nor-Flash. We must follow steps of [Download to EMMC](03-upgrade_firmware_with_flash.md).

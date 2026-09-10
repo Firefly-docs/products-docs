@@ -15,9 +15,9 @@ WCT1FR2201 WIFI/BT module supports dual -frequency WIFI and Bluetooth 5.0. The m
 <!--
 ## Shipping list
 ### PCIE interface
-![](img/ec20_shop_list_pcie_en.png)
+<img alt="" src="img/ec20_shop_list_pcie_en.png" width="700">
 ### USB interface
-![](img/ec20_shop_list_usb_en.png)
+<img alt="" src="img/ec20_shop_list_usb_en.png" width="700">
 -->
 
 ## General Description

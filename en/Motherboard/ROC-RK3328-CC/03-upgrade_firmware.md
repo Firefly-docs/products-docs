@@ -88,7 +88,7 @@ Now, run AndroidTool.exe: (Note: If using Windows 7/8, you'll need to right clic
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware3.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware3.png" width="800">
 </center>
 
 ### Flash update.img
@@ -99,7 +99,7 @@ Steps of flashing update.img:
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware4.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware4.png" width="800">
 </center>
 
 <font color=#ff0000>If the upgrade fails, Maybe the version of firmware you flash is different from version of the original machine, you can try to erase the Flash by pressing the "EraseFlash" button before upgrading. .</font>
@@ -123,7 +123,7 @@ Steps of flashing partition images:
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware3.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware3.png" width="800">
 </center>
 
 <a id="upgrade-tool"></a>

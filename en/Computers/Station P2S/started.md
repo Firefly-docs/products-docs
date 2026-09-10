@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/roc-rk3568-pc-se_back.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/roc-rk3568-pc-se_back.jpg" width="700">
 </center>
 
 

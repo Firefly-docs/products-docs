@@ -4,12 +4,12 @@ EC-A3288C uses RK3288 quad-core Cortex-A17 processor, clocked at up to 1.8GHz, i
 
 <center>
 
-![](../../../rk3288_img/EC-A3288C/ec-a3288c_front.png)
+<img alt="" src="../../../rk3288_img/EC-A3288C/ec-a3288c_front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/EC-A3288C/ec-a3288c_back.png)
+<img alt="" src="../../../rk3288_img/EC-A3288C/ec-a3288c_back.png" width="700">
 </center>
 
 

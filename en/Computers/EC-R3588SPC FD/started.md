@@ -4,7 +4,7 @@ Based on Rockchip new generation of flagship AIOT chip -- RK3588S, the EC-R3588S
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC-FD/EC-R3588SPC-FD.png)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC-FD/EC-R3588SPC-FD.png" width="700">
 </center>
 
 

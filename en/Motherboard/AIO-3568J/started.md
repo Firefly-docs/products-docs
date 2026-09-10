@@ -3,13 +3,13 @@
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/Core-3568J.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/Core-3568J.jpg" width="700">
 </center>
 
 [AIO-3568J](https://www.firefly.store/products/aio-3568j-quad-core-high-performance-ai-mainboard-1) is a Quad-Core High-Performance AI Mainboard，composed of core board Core-3568J + mother board MB-JM3-RK3568, equipped with interfaces such as RGMII, PCIE3.0, USB3.0, I2C, SPI, UART, GPIO, MIPI-DSI, it can be directly used in various intelligent products to facilitate the completion of products
 <center>
 
-![](../../../rk356x_img/Core-3568J/AIO-3568J.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/AIO-3568J.jpg" width="700">
 </center>
 
 

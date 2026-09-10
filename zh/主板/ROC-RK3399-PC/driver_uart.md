@@ -15,11 +15,11 @@ ROC-RK3399-PC 支持2路UART：UART0, UART2，每路UART都拥有两个64字节�
 我们 ROC-RK3399-PC 开发板为了方便用户使用，引出了一排通用的GPIO，其对应原理图如下图：
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc7.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc7.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc-e.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc-e.jpg" width="700">
 </center>
 
 

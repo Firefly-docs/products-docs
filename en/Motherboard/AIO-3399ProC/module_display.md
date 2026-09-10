@@ -33,7 +33,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/module_display_lvds.en.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/module_display_lvds.en.jpg" width="700">
 </center>
 
 ## [DM-M10R800 V2 MIPI module](https://www.firefly.store/products/dm-m10r800-v2)
@@ -66,5 +66,5 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/module_display_mipi.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/module_display_mipi.jpg" width="700">
 </center>

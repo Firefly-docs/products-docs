@@ -3,7 +3,7 @@
 * 接口效果图
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/mipicsi.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/mipicsi.jpg" width="700">
 </center>
 
 ## MIPI CSI 用法
@@ -41,7 +41,7 @@ isp 只有一个但支持 4 个节点：rkisp_vir0~3
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/rk3562_mipi_csi_mode.png)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/rk3562_mipi_csi_mode.png" width="700">
 </center>
 
 ## 配置举例

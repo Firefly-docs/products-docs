@@ -62,6 +62,6 @@ Since the development board is powered by Type-C0, and Type-C1 supports DP video
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc3.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC/roc-rk3399-pc3.jpg" width="700">
 </center>
  <a id="firmware-format"></a>

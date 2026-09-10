@@ -6,7 +6,7 @@ There is one PCIe3.0 x 4 interface and PCIe2.0 x 2 on the ROC-RK3588-RT developm
 On board default support for [M.2 SATA](https://wiki.t-firefly.com/en/ROC-RK3588-RT/usage_sata.html) and [PCIE WiFi/BT module](https://wiki.t-firefly.com/en/ROC-RK3588-RT/module_wireless.html)
 <center>
 
-![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png)
+<img alt="" src="../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png" width="900">
 </center>
 
 ## Software configuration

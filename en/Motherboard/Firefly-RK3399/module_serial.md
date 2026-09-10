@@ -17,7 +17,7 @@ Download driver：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](http
 
 <center>
 
-![](../../../rk3399_img/module_serial_list.en.jpg)
+<img alt="" src="../../../rk3399_img/module_serial_list.en.jpg" width="700">
 </center>
 
 ### Connection Method
@@ -25,7 +25,7 @@ Download driver：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](http
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/debug_connection.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/debug_connection.jpg" width="800">
 </center>
 
 
@@ -38,7 +38,7 @@ Specifications：
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/Pcie_ssd.en.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/Pcie_ssd.en.jpg" width="700">
 </center>
 
 Bandwidth：up to 4GB / s
@@ -49,12 +49,12 @@ Description:Suitable for Firefly-RK3399 or devices with PCIe M.2 (B-KEY)
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/ssd_installation.en.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/ssd_installation.en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/ssd_connection.en.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/ssd_connection.en.jpg" width="700">
 </center>
 
 ## [PCIe M.2(B-KEY) to SATA3.0 Adapter Board](https://www.firefly.store/products/pcie-m-2-to-sata3-0-adapter-board)
@@ -67,7 +67,7 @@ Specifications：
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/Pcie_SATA.en.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/Pcie_SATA.en.jpg" width="700">
 </center>
 
 Interface: Two SATA3.0 interface for 2.5 "SSD or HDD hard drive
@@ -78,11 +78,11 @@ Description: Suitable for Firefly-RK3399 or devices with PCIe M.2 (B-KEY)
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/SATA_installation.en.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/SATA_installation.en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/SATA_connection.en.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/SATA_connection.en.jpg" width="700">
 </center>
 

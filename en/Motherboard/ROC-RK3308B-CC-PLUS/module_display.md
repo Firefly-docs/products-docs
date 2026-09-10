@@ -37,7 +37,7 @@ When compiling the supported 4.0-inch screen firmware with the official website 
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_4.0inch.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_4.0inch.jpg" width="700">
 </center>
 
 ## 7.0 inch RGB LCD module
@@ -67,7 +67,7 @@ When compiling the firmware of the 7.0-inch screen supported by the official web
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display_b1.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display_b1.jpg" width="700">
 </center>
 
 ### connection method
@@ -76,5 +76,5 @@ When compiling the firmware of the 7.0-inch screen supported by the official web
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_7.0inch.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_7.0inch.jpg" width="700">
 </center>

@@ -8,14 +8,14 @@
 
 <center>
 
-![](../../../rv1126b_img/ICORE-1126BQ38/ICORE-1126BQ38-front.png)  
+<img alt="" src="../../../rv1126b_img/ICORE-1126BQ38/ICORE-1126BQ38-front.png" width="700">
 </center>
 
 **ICORE-1126BQ38** 背面：
 
 <center>
 
-![](../../../rv1126b_img/ICORE-1126BQ38/ICORE-1126BQ38-back.png)  
+<img alt="" src="../../../rv1126b_img/ICORE-1126BQ38/ICORE-1126BQ38-back.png" width="700">
 </center>
 
 ### CAM-1126BQ38
@@ -26,14 +26,14 @@ CAM-1126BQ38 正面：
 
 <center>
 
-![](../../../rv1126b_img/ICORE-1126BQ38/CAM-1126BQ38-front.png)  
+<img alt="" src="../../../rv1126b_img/ICORE-1126BQ38/CAM-1126BQ38-front.png" width="700">
 </center>
 
 CAM-1126BQ38 背面：
 
 <center>
 
-![](../../../rv1126b_img/ICORE-1126BQ38/CAM-1126BQ38-back.png)
+<img alt="" src="../../../rv1126b_img/ICORE-1126BQ38/CAM-1126BQ38-back.png" width="700">
 </center>
 
 ### AIO-1126BQ38
@@ -46,13 +46,13 @@ AIO-1126BQ38 正面：
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-front.png)  
+<img alt="" src="../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-front.png" width="700">
 </center>
 
 AIO-1126BQ38 背面：
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-back.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BQ38/AIO-1126BQ38-back.png" width="700">
 </center>
  <a id="firmware-format"></a>

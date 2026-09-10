@@ -32,14 +32,14 @@ The details are shown below：
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/interface_en.png)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/interface_en.png" width="900">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/interface_en1.png)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/interface_en1.png" width="900">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/interface_en2.png)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/interface_en2.png" width="900">
 </center>
 

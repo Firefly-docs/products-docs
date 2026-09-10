@@ -29,7 +29,7 @@
 
 <center>
 
-![](../../../rk1808_img/upgrade_firmware_otg.jpg)
+<img alt="" src="../../../rk1808_img/upgrade_firmware_otg.jpg" width="800">
 </center>
 
 ## Windows
@@ -68,7 +68,7 @@
 下载 [AndroidTool](http://download.t-firefly.com/product/RK1808/Tools/AndroidTool/AndroidTool_Release_v2.69.zip)，解压，运行 AndroidTool_Release_xx 目录里面的 AndroidTool.exe（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：   
 <center>
 
-![](../../../rk1808_img/upgrade_firmware3.png)
+<img alt="" src="../../../rk1808_img/upgrade_firmware3.png" width="800">
 </center>
 
 ### 烧写统一固件 update.img
@@ -83,7 +83,7 @@
 
 <center>
 
-![](../../../rk1808_img/upgrade_firmware4.png)
+<img alt="" src="../../../rk1808_img/upgrade_firmware4.png" width="800">
 </center>
 
 ### 烧写分区映像
@@ -100,7 +100,7 @@
 
 <center>
 
-![](../../../rk1808_img/upgrade_firmware6.png)
+<img alt="" src="../../../rk1808_img/upgrade_firmware6.png" width="800">
 </center>
 
 ## Linux

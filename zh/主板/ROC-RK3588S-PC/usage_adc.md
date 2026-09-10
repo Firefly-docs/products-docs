@@ -15,7 +15,7 @@ ROC-RK3588S-PC 的ADC接口图如下：
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/usage_adc_interface.jpg)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/usage_adc_interface.jpg" width="900">
 </center>
 
 ## DTS配置

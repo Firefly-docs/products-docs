@@ -86,7 +86,7 @@ Linux下：
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware4.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware4.png" width="800">
 </center>
 
 <font color=#ff0000 >如果升级失败，可能是因为你烧写的固件 laoder 版本与原来的机器的不一致，可以尝试先按"擦除Flash"按钮来擦除 Flash，然后再升级。</font>
@@ -111,7 +111,7 @@ Linux下：
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware5.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/upgrade_firmware5.png" width="800">
 </center>
 
 <a id="upgrade-tool"></a>

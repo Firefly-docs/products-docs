@@ -13,7 +13,7 @@
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/module_power_adapter.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/module_power_adapter.jpg" width="700">
 </center>
 
 ## 其他供电方式
@@ -21,9 +21,9 @@ ITX-3588J  除了使用 12V电源适配器，还可以选择 ATX 电源接口 �
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/module_power_atx_adapter.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/module_power_atx_adapter.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588J/module_power_poe_adapter.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/module_power_poe_adapter.jpg" width="700">
 </center>

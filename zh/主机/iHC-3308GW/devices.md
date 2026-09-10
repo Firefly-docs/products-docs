@@ -71,7 +71,7 @@ usb0      Link encap:Ethernet  HWaddr AE:0C:29:A3:9B:6D
 
   <center>
 
-  ![](../../../rk3308_img/IHC-3308GW/ping_usb0.png)
+  <img alt="" src="../../../rk3308_img/IHC-3308GW/ping_usb0.png" width="700">
   </center>
 
 - 其他AT指令
@@ -203,7 +203,7 @@ cansend can0 123#11223344556677
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/gpio_input.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/gpio_input.png" width="700">
 </center>
 
 * 检测
@@ -235,7 +235,7 @@ cat /sys/class/gpio/gpio38/value
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/relay_ctl.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/relay_ctl.png" width="700">
 </center>
 
 * 控制

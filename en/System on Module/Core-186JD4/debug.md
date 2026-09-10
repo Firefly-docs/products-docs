@@ -42,11 +42,11 @@ To here[Download MobaXterm](https://mobaxterm.mobatek.net/)：
 
 <center>
 
-![](../../../bm1688_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../bm1688_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../bm1688_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../bm1688_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ### Using Serial Port Debugging on Linux

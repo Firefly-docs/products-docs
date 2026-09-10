@@ -31,14 +31,14 @@
 
   <center>
 
-  ![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36l.png)
+  <img alt="" src="../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36l.png" width="800">
   </center>
 
 * CT36B 硬件接线图如下：
 
   <center>
 
-  ![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36b.png)
+  <img alt="" src="../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36b.png" width="800">
   </center>
 
 4. 在串口终端输入命令进入 MaskRom 模式
@@ -65,7 +65,7 @@ reboot loader
 
   <center>
 
-  ![](../../../rv1106_img/CT36L/upgrade_maskrom_hard_ct36b.png)
+  <img alt="" src="../../../rv1106_img/CT36L/upgrade_maskrom_hard_ct36b.png" width="800">
   </center>
   
 

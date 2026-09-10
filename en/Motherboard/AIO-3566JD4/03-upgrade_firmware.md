@@ -52,7 +52,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 #### Install RK USB drive
@@ -73,12 +73,12 @@ we can put the device into upgrade mode by hardware as follows:
   * Type-C data cable connects one end to the host and the other end to the development board.
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/otg_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/otg_interface.jpg" width="900">
 </center>
   * Press the `RECOVERY` button(on the phone jack side)  on the device and hold.
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/recovery_key.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/recovery_key.jpg" width="700">
 </center>
    * About two seconds later, release the `RECOVERY` button.
 put the device into upgrade mode by software as follows:
@@ -94,7 +94,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_new_equipment.png)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_new_equipment.png" width="800">
 </center>
 
 ### Linux
@@ -123,7 +123,7 @@ Determine the board AIO-3566JD4 before upgrading unified firmware update.img whe
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/nor_flash-position.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/nor_flash-position.jpg" width="700">
 </center>
 
 If the board has Nor Flash, please refer to chapter [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md) for upgrading, else please follow the steps below to continue: 
@@ -167,7 +167,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux
@@ -233,7 +233,7 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk356x_img/upgrade_downloadfail.png)
+<img alt="" src="../../../rk356x_img/upgrade_downloadfail.png" width="800">
 </center>
 
 ### 3. Has Spi Flash(Nor Flash)，After MaskRom，Download failure

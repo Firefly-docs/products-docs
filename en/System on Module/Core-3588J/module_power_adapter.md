@@ -13,7 +13,7 @@
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/module_power_adapter.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/module_power_adapter.jpg" width="700">
 </center>
 
 ## Other power adapter
@@ -21,9 +21,9 @@ ITX-3588J  in addition to using the 12V power adapter, you can also choose ATX p
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/module_power_atx_adapter.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/module_power_atx_adapter.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588J/module_power_poe_adapter.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/module_power_poe_adapter.jpg" width="700">
 </center>

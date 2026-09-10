@@ -27,12 +27,12 @@ The details are as follows:
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/obverse.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/obverse.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/reverse.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/reverse.jpg" width="700">
 </center>
 
 ## Hardware version 2
@@ -75,12 +75,12 @@ The details are as follows:
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/obverse_V2_1.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/obverse_V2_1.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/reverse_V2_1.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/reverse_V2_1.jpg" width="700">
 </center>
 
 
@@ -108,5 +108,5 @@ Face-rk3399 V2 equip with one expand board mainly include:
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/4G_module_board.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/4G_module_board.jpg" width="700">
 </center>

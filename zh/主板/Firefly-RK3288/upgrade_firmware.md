@@ -62,7 +62,7 @@ Firefly-RK3288：
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/download_otg.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/download_otg.png" width="700">
 </center>
 
 
@@ -71,7 +71,7 @@ Firefly-RK3288-Reload：
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/download_otg_reload.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/download_otg_reload.png" width="700">
 </center>
 
 
@@ -79,7 +79,7 @@ Firefly-RK3288-Reload：
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 ## 烧写固件
@@ -88,7 +88,7 @@ Firefly-RK3288-Reload：
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ### 烧写统一固件 update.img
@@ -104,7 +104,7 @@ Firefly-RK3288-Reload：
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_erase_flash.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
 ### 烧写分区映像
@@ -120,7 +120,7 @@ Firefly-RK3288-Reload：
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ## Linux
@@ -207,7 +207,7 @@ sudo upgrade_tool ef update.img # 擦除
 
 <center>
 
-![](../../../rk3288_img/upgrade_downloadfail.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_downloadfail.jpg" width="800">
 </center>
 
 [《烧写须知》]: upgrade_table.md

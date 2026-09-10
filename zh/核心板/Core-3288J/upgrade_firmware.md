@@ -62,13 +62,13 @@ AIO-3288J：
 
 <center>
 
-![](../../../rk3288_img/AIO-3288J/download_otg.png)
+<img alt="" src="../../../rk3288_img/AIO-3288J/download_otg.png" width="700">
 </center>
 
 
 <center>
 
-![](../../../rk3288_img/AIO-3288J/download_otg_1.png)
+<img alt="" src="../../../rk3288_img/AIO-3288J/download_otg_1.png" width="700">
 </center>
 
 
@@ -77,7 +77,7 @@ AIO-3288J：
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 ## 烧写固件
@@ -86,7 +86,7 @@ AIO-3288J：
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ### 烧写统一固件 update.img
@@ -102,7 +102,7 @@ AIO-3288J：
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_erase_flash.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
 ### 烧写分区映像
@@ -118,7 +118,7 @@ AIO-3288J：
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ## Linux
@@ -205,7 +205,7 @@ sudo upgrade_tool ef update.img # 擦除
 
 <center>
 
-![](../../../rk3288_img/upgrade_downloadfail.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_downloadfail.jpg" width="800">
 </center>
 
 [《烧写须知》]: upgrade_table.md

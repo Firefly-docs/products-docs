@@ -13,14 +13,14 @@ Use USB data cable to connect to the PC and the OTG port of the device.
 
 <center>
 
-![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36l.png)
+<img alt="" src="../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36l.png" width="800">
 </center>
 
 * CT36B hardware picture configuration:
 
 <center>
 
-![](../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36b.png)
+<img alt="" src="../../../rv1106_img/CT36L/upgrade_maskrom_soft_ct36b.png" width="800">
 </center>
 
 

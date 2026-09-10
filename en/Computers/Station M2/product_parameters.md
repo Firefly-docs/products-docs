@@ -2,24 +2,24 @@
 
 <center>
 
-![](../../../rk356x_img/Station-M2/station_m2_interface1.png)
+<img alt="" src="../../../rk356x_img/Station-M2/station_m2_interface1.png" width="900">
 </center>
 <center>
 
-![](../../../rk356x_img/Station-M2/station_m2_interface2.png)
+<img alt="" src="../../../rk356x_img/Station-M2/station_m2_interface2.png" width="900">
 </center>
 
 # Product Specification
 
 <center>
 
-![](../../../rk356x_img/Station-M2/station_m2_details_en.png)
+<img alt="" src="../../../rk356x_img/Station-M2/station_m2_details_en.png" width="700">
 </center>
 
 # Size
 
 <center>
 
-![](../../../rk356x_img/Station-M2/station_m2_size.png)
+<img alt="" src="../../../rk356x_img/Station-M2/station_m2_size.png" width="900">
 </center>
 

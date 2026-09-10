@@ -59,7 +59,7 @@ index d784287..fbe7b6b 100755
 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/module_display_mipi_DSI.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/module_display_mipi_DSI.jpg" width="700">
 </center>
 
 

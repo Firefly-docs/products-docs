@@ -56,14 +56,14 @@ Modify according to the patch, recompile the kernel, then burn boot.img and rebo
 
 <center>
 
-![](../../../rk3399_img/module_camera_ov13850-2.jpg)
+<img alt="" src="../../../rk3399_img/module_camera_ov13850-2.jpg" width="700">
 </center>
 
 ### Connection Method
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/module_camera_connection.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/module_camera_connection.jpg" width="700">
 </center>
 
 ### Renderings
@@ -88,23 +88,23 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
 ### Physical map
 <center>
 
-![](../../../rk3399_img/cam_8ms1m_front.jpg)
+<img alt="" src="../../../rk3399_img/cam_8ms1m_front.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/cam_8ms1m_back.jpg)
+<img alt="" src="../../../rk3399_img/cam_8ms1m_back.jpg" width="700">
 </center>
 
 ### Connection method
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/roc_rk3399_pc_plus_8ms1m.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/roc_rk3399_pc_plus_8ms1m.jpg" width="700">
 </center>
 
 ### Real pictures
 <center>
 
-![](../../../rk3399_img/camera_8ms1m_shoot.jpg)
+<img alt="" src="../../../rk3399_img/camera_8ms1m_shoot.jpg" width="700">
 </center>
 
 ## SV-TAYSH-TQ Camera module
@@ -154,7 +154,7 @@ Modify the above patch and [complie kernel](compile_android10.0_firmware.html#st
 ### Physical map
 <center>
 
-![](../../../rk3399_img/camera_SV-TAYSH-TQ.jpg)
+<img alt="" src="../../../rk3399_img/camera_SV-TAYSH-TQ.jpg" width="700">
 </center>
 
 
@@ -162,14 +162,14 @@ Modify the above patch and [complie kernel](compile_android10.0_firmware.html#st
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/camera_SV-TAYSH-TQ_connect.en.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/camera_SV-TAYSH-TQ_connect.en.jpg" width="700">
 </center>
 
 ### Real pictures
 
 <center>
 
-![](../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png)
+<img alt="" src="../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png" width="700">
 </center>
 
 

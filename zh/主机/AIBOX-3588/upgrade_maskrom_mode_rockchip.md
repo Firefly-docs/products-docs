@@ -16,6 +16,5 @@
 此时设备就会进入 MaskRom 模式。
 
 <center>
-
-![](../../../aibox_img/AIBOX-3588/upgrade_maskrom_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-3588/upgrade_maskrom_zh.png" width="800">
 </center>

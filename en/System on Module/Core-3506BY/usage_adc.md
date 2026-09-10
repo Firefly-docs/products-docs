@@ -17,7 +17,7 @@ The kernel uses the industrial I/O subsystem to control the ADC, which is mainly
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506B-CC/usage_saradc_in.png)
+<img alt="" src="../../../rk3506_img/ROC-RK3506B-CC/usage_saradc_in.png" width="800">
 </center>
 
 

@@ -3,5 +3,5 @@ AIBOX-Orin NX is equipped with the Nvidia Jetson Orin NX module, is available in
 
 <center>
 
-![](../../../aibox_img/AIBOX-Orin-NX/AIBOX-Orin.jpg)
+<img alt="" src="../../../aibox_img/AIBOX-Orin-NX/AIBOX-Orin.jpg" width="700">
 </center>

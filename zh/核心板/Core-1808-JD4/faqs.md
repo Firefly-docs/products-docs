@@ -6,7 +6,7 @@
 
 <center>
 
-![](../../../rk1808_img/faq1.jpg)
+<img alt="" src="../../../rk1808_img/faq1.jpg" width="700">
 </center>
 
 **即贴片图上的电容C223。**

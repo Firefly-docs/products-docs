@@ -15,9 +15,9 @@ EC20 是移远通信推出的 LTE Cat 4 无线通信模块，采用 LTE 3GPP Rel
 
 <!-- ## 发货清单
 ### PCIE 接口
-![](../../../modules_img/EC20/ec20_shop_list_pcie.png)
+<img alt="" src="../../../modules_img/EC20/ec20_shop_list_pcie.png" width="700">
 ### USB 接口
-![](../../../modules_img/EC20/ec20_shop_list_usb.png) -->
+<img alt="" src="../../../modules_img/EC20/ec20_shop_list_usb.png" width="700"> -->
 
 ## 详细参数
 
@@ -60,13 +60,13 @@ EC20 是移远通信推出的 LTE Cat 4 无线通信模块，采用 LTE 3GPP Rel
 | RK3576 | [AIO-3576C](_images/ec20_AIO-3576C.jpg)| -->
 <center>
 
-![](../../../modules_img/EC20/EC20_PCIE.png)
+<img alt="" src="../../../modules_img/EC20/EC20_PCIE.png" width="700">
 </center>
 
 #### USB 接口的连接
 <center>
 
-![](../../../modules_img/EC20/EC20_USB.png)
+<img alt="" src="../../../modules_img/EC20/EC20_USB.png" width="700">
 </center>
 
 ### SIM 卡的插入

@@ -10,7 +10,7 @@ AIO-8550JD4 provides two types of debug console.
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/debug_console.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/debug_console.jpg" width="800">
 </center>
 
 It needs additional usb-to-ttl module, please refer to [Serial Module](../../Accessories/USB-TO-TTL-Serial/started.md)
@@ -19,14 +19,14 @@ It needs additional usb-to-ttl module, please refer to [Serial Module](../../Acc
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/download_port.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/download_port.jpg" width="700">
 </center>
 
 This Type-C port also used as Download port, so you need to set the following dip switch to "ON" to enable Debug function.
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/typec_dip_switch_en.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/typec_dip_switch_en.jpg" width="700">
 </center>
 
 Then use USB cable connect the device with PC.

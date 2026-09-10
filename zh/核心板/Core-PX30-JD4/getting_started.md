@@ -109,7 +109,7 @@ AIO-PX30-JD4串口连接图：
 
 <center>
 
-![](../../../px30_img/uart.jpg)
+<img alt="" src="../../../px30_img/uart.jpg" width="700">
 </center>
 ### 连接参数
 

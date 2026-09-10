@@ -74,19 +74,19 @@ Hardware requirements:
 Click the `Ethernet Network` icon in the upper right corner of the desktop, select `Edit Connection...`
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot1.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot1.png" width="700">
 </center>
 
 Select the `+` icon, Add a new connection
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot2.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot2.png" width="700">
 </center>
 
 Select `Wi-Fi`, then click `Create`
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot3.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot3.png" width="700">
 </center>
 
 Wi-Fi settings:
@@ -95,13 +95,13 @@ Wi-Fi settings:
 * Device: select wireless network card (wlan)
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot4.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot4.png" width="700">
 </center>
 
 Choose the appropriate encryption method:
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot5.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot5.png" width="700">
 </center>
 
 Click `Save` **to complete the hotspot creation immediately**
@@ -431,7 +431,7 @@ write out.jpg succ!
 The official Ubuntu system comes with an on-screen keyboard, you can click to open it in the menu bar:
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/onboard.jpg)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/onboard.jpg" width="700">
 </center>
 
 ## HDMI_IN Image capture
@@ -518,7 +518,7 @@ In the graphical interface, play the prepared audio file, then click the sound i
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/sound_setting.jpg)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/sound_setting.jpg" width="700">
 </center>
 
 
@@ -832,7 +832,7 @@ Just run the script, and the result is as shown in the figure:
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/mipi_csi.jpg)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/mipi_csi.jpg" width="700">
 </center>
 
 

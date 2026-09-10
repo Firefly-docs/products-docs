@@ -46,7 +46,7 @@ u-boot/RK3399MiniLoaderAll_Vx.xx.bin
 
 <center>
 
-![](../../../rk3399_img/uboot_download.jpg)
+<img alt="" src="../../../rk3399_img/uboot_download.jpg" width="700">
 </center>
 
 ## 确认是否正确烧写新的 Loader

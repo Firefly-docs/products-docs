@@ -29,6 +29,6 @@ EC-R3588SPC 使用的接口，主要包括：
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/interface_all.png)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/interface_all.png" width="900">
 </center>
 

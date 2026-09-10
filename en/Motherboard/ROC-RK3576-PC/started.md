@@ -7,6 +7,6 @@ Built-in ARM Mali G52 MC3 GPU, integrated 6 TOPS computing power NPU, support th
 
 <center>
 
-![](../../../rk3576_img/ROC-RK3576-PC/ROC-RK3576-PC.png)  
+<img alt="" src="../../../rk3576_img/ROC-RK3576-PC/ROC-RK3576-PC.png" width="700">
 </center>
 

@@ -3,5 +3,5 @@ AIO-Orin Nano is equipped with the official NVIDIA Jetson Orin Nano core board m
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-Nano/AIO-Orin.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-Nano/AIO-Orin.png" width="700">
 </center>

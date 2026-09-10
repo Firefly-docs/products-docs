@@ -29,7 +29,7 @@ There are two power LEDs controlled by the GPIO port for the development board:
 
 <center>
 
-![](../../../rk3288_img/gpio_leds.png)
+<img alt="" src="../../../rk3288_img/gpio_leds.png" width="700">
 </center>
 
 

@@ -28,14 +28,14 @@
 
 <center>
 
-![](../../../rk3399_img/module_camera_ov13850-2.jpg)
+<img alt="" src="../../../rk3399_img/module_camera_ov13850-2.jpg" width="700">
 </center>
 
 ### 连接方法
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/module_camera_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/module_camera_connection.jpg" width="700">
 </center>
 
 ### 实拍图片
@@ -69,18 +69,18 @@
 ### 实物图参考
 <center>
 
-![](../../../rk3399_img/cam_8ms1m_front.jpg)
+<img alt="" src="../../../rk3399_img/cam_8ms1m_front.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/cam_8ms1m_back.jpg)
+<img alt="" src="../../../rk3399_img/cam_8ms1m_back.jpg" width="700">
 </center>
 
 
 ### 连接方法
 <center>
 
-![](../../../rk3399_img/AIO-3399J/aio_3399j_8ms1m.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/aio_3399j_8ms1m.jpg" width="700">
 </center>
 
 
@@ -88,7 +88,7 @@
 ### 实拍图片
 <center>
 
-![](../../../rk3399_img/camera_8ms1m_shoot.jpg)
+<img alt="" src="../../../rk3399_img/camera_8ms1m_shoot.jpg" width="700">
 </center>
 
 
@@ -141,7 +141,7 @@
 ### 实物图
 <center>
 
-![](../../../rk3399_img/camera_SV-TAYSH-TQ.jpg)
+<img alt="" src="../../../rk3399_img/camera_SV-TAYSH-TQ.jpg" width="700">
 </center>
 
 
@@ -149,14 +149,14 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/camera_SV-TAYSH-TQ_connect.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/camera_SV-TAYSH-TQ_connect.jpg" width="700">
 </center>
 
 ### 实拍图片
 
 <center>
 
-![](../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png)
+<img alt="" src="../../../rk3399_img/camera_SV-TAYSH-TQ_shoot.png" width="700">
 </center>
 
 

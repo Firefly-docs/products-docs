@@ -6,7 +6,7 @@ There are 9 on-chip I2C controllers on the Firefly-RK3399 development board, and
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/i2c_list.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/i2c_list.jpg" width="700">
 </center>
 
 This article mainly describes how to configure I2C on the development board.

@@ -29,6 +29,6 @@
 
 <center>
 
-![](../../../rk3588_img/Core-3588L/interface_all.png)
+<img alt="" src="../../../rk3588_img/Core-3588L/interface_all.png" width="900">
 </center>
 

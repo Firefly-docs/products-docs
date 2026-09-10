@@ -95,11 +95,11 @@ index c3e14e5c031..71f39d23c3f 100755
 #### MIPI_DSI1 正面
 <center>
 
-![](../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_front.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_front.jpg" width="700">
 </center>
 #### MIPI_DSI1 背面
 <center>
 
-![](../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_back.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/module_display_mipi_DSI1_back.jpg" width="700">
 </center>
 

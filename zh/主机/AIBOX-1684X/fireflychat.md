@@ -4,7 +4,7 @@ FireflyChat 是由 Firefly 开源团队开发的图形化大模型应用平台�
 
 <center>
 
-![](../../../bm1684_img/fireflychat.png)
+<img alt="" src="../../../bm1684_img/fireflychat.png" width="800">
 </center>
 
 ## 软件安装

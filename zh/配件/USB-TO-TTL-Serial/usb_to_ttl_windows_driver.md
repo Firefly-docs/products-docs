@@ -15,5 +15,5 @@
 
 <center>
 
-![](../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png)
+<img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png" width="800">
 </center>

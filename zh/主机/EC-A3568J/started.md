@@ -6,15 +6,15 @@ EC-A3568J 嵌入式主机，基于 AIO-3568J 高性能开源平台，配置工�
 
 <center>
 
-![](../../../rk356x_img/EC-A3568J/ec-a3568j_info01.png)
+<img alt="" src="../../../rk356x_img/EC-A3568J/ec-a3568j_info01.png" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/EC-A3568J/ec-a3568j_info02.png)
+<img alt="" src="../../../rk356x_img/EC-A3568J/ec-a3568j_info02.png" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/EC-A3568J/ec-a3568j_info03.png)
+<img alt="" src="../../../rk356x_img/EC-A3568J/ec-a3568j_info03.png" width="700">
 </center>
 
 

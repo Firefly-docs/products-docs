@@ -88,7 +88,7 @@ fiq-debugger {
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/uart.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/uart.jpg" width="700">
 </center>
 
 如果在使用某些适配器时串口控制台没有输出，可以尝试将适配器的 TX 引脚连接到开发板的 RX 引脚，适配器的 RX 引脚连接到开发板的 TX 引脚，即交换一下 TX、RX 引脚。

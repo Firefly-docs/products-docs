@@ -15,7 +15,7 @@ The serial interface diagram of the EC-A3399ProC development board is as follows
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/uart_interface.jpg)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/uart_interface.jpg" width="900">
 </center>
 
 ## DTS configuration

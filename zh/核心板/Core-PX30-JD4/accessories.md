@@ -11,12 +11,12 @@
 #### 实物图
 <center>
 
-![](../../../px30_img/module_transform1.jpg)
+<img alt="" src="../../../px30_img/module_transform1.jpg" width="700">
 </center>
 #### 连接方法
 <center>
 
-![](../../../px30_img/uart.jpg)
+<img alt="" src="../../../px30_img/uart.jpg" width="700">
 </center>
 
 
@@ -68,13 +68,13 @@
 * USB接口连接
 <center>
 
-![](../../../px30_img/USB_EC20.jpg)
+<img alt="" src="../../../px30_img/USB_EC20.jpg" width="700">
 </center>
 
 * Mini-PCIe接口连接
 <center>
 
-![](../../../px30_img/Pcie_EC20.jpg)
+<img alt="" src="../../../px30_img/Pcie_EC20.jpg" width="700">
 </center>
 
 #### 参考固件
@@ -121,7 +121,7 @@
 *  AIO-PX30-JD4的IR接线位置如下图红框所示
 <center>
 
-![](../../../px30_img/IR.jpg)
+<img alt="" src="../../../px30_img/IR.jpg" width="700">
 </center>
 
 
@@ -135,7 +135,7 @@
 #### 实物图
 <center>
 
-![](../../../px30_img/cool_1.jpg)
+<img alt="" src="../../../px30_img/cool_1.jpg" width="700">
 </center>
 
 
@@ -161,12 +161,12 @@
 </center>
 <center>
 
-![](../../../px30_img/module_camera2.jpg)
+<img alt="" src="../../../px30_img/module_camera2.jpg" width="700">
 </center>
 #### 连接方法
 <center>
 
-![](../../../px30_img/module_camera4.jpg)
+<img alt="" src="../../../px30_img/module_camera4.jpg" width="700">
 </center>
 #### 实拍图片
 <center>

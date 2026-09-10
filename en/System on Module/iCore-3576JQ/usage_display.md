@@ -128,7 +128,7 @@ The firmware supports screen by default is [Firefly V3S Version](https://wiki.t-
 
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 Please refer to the device-tree file:

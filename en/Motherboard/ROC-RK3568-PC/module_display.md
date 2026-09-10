@@ -60,12 +60,12 @@ index ae57644a105..0cb9124bec8 100644
 #### MIPI_DSI0 FRONT
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/module_display_mipi_DSI0_front.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/module_display_mipi_DSI0_front.jpg" width="700">
 </center>
 #### MIPI_DSI0 BACK
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/module_display_mipi_DSI0_back.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/module_display_mipi_DSI0_back.jpg" width="700">
 </center>
 
 

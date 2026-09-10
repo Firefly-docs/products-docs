@@ -8,7 +8,7 @@ The DEEPX DX-M1 M.2 module brings server-class AI inference directly to edge dev
 
 <center>
 
-![](../../../modules_img/DX-M1/dx-m1.png)
+<img alt="" src="../../../modules_img/DX-M1/dx-m1.png" width="700">
 </center>
 
 ### Specifications

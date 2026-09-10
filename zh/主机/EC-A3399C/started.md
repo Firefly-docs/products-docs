@@ -6,17 +6,17 @@ EC-A3399C 支持 H.265/HEVC、VP9 硬件解码和 H.264 编码，支持 4K HDR �
 
 <center>
 
-![](../../../rk3399_img/EC-A3399C/ec-a3399c_front.png)
+<img alt="" src="../../../rk3399_img/EC-A3399C/ec-a3399c_front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399C/ec-a3399c_back.png)
+<img alt="" src="../../../rk3399_img/EC-A3399C/ec-a3399c_back.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399C/ec-a3399c_more.png)
+<img alt="" src="../../../rk3399_img/EC-A3399C/ec-a3399c_more.png" width="700">
 </center>
 
 

@@ -10,11 +10,11 @@ encoding, 4K HDR, and has the maximum support of 4K hardware decoding.
 
 <center>
 
-![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-back.jpg)
+<img alt="" src="../../../rk356x_img/EC-R3568PC/ec-r3568pc-back.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-front.jpg)
+<img alt="" src="../../../rk356x_img/EC-R3568PC/ec-r3568pc-front.jpg" width="700">
 </center>
 
 

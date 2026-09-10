@@ -3,6 +3,6 @@
 
 <center>
 
-![](../../../rv1106_img/CT36L/CT36L.png)  
+<img alt="" src="../../../rv1106_img/CT36L/CT36L.png" width="700">
 </center>
  <a id="firmware-format"></a>

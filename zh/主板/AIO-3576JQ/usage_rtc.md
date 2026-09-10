@@ -15,7 +15,7 @@ AIO-3576JQ 存在电容给RTC供电，可以在短时间内保证RTC运行。
 
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/usage_rtc_capacitor.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/usage_rtc_capacitor.jpg" width="800">
 </center>
 
 ## RTC驱动

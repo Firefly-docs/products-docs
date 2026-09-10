@@ -9,17 +9,17 @@ up to 1.3GHz.
 
 <center>
 
-![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_01.jpg)
+<img alt="" src="../../../rk3308_img/EC-R3308CC/ec-r3308cc_01.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_02.jpg)
+<img alt="" src="../../../rk3308_img/EC-R3308CC/ec-r3308cc_02.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_03.jpg)
+<img alt="" src="../../../rk3308_img/EC-R3308CC/ec-r3308cc_03.jpg" width="700">
 </center>
 
 

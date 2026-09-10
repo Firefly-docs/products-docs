@@ -16,7 +16,7 @@
 
 <center>
 
-![](../../../qcom_img/AIBOX-8550/edl_key.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-8550/edl_key.jpg" width="700">
 </center>
 ### 软件方式
 
@@ -28,7 +28,7 @@ sudo systemctl reboot edl
 
 <center>
 
-![](../../../qcom_img/AIBOX-8550/download_port.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-8550/download_port.jpg" width="700">
 </center>
 
 ### 确认是否成功
@@ -37,14 +37,14 @@ sudo systemctl reboot edl
 
 <center>
 
-![](../../../qcom_img/qfil_9008.jpg)
+<img alt="" src="../../../qcom_img/qfil_9008.jpg" width="700">
 </center>
 
 也有可能显示 Please Select an Existing Port，此时点击右侧 SelectPort，也可以看到 Qualcomm HS-USB QDLoader 9008，选中并点击 OK 即可。
 
 <center>
 
-![](../../../qcom_img/qfil_select_port.jpg)
+<img alt="" src="../../../qcom_img/qfil_select_port.jpg" width="700">
 </center>
 
 **注意：必须要显示 9008 设备才行** 如果显示其他编号，如 900E，则说明设备状态异常，请断电重新尝试进入升级模式。
@@ -57,40 +57,40 @@ sudo systemctl reboot edl
 
 <center>
 
-![](../../../qcom_img/qfil_config.jpg)
+<img alt="" src="../../../qcom_img/qfil_config.jpg" width="700">
 </center>
 
 2 在主界面选择 Flat Build，点击 Browse
 
 <center>
 
-![](../../../qcom_img/qfil_browse.jpg)
+<img alt="" src="../../../qcom_img/qfil_browse.jpg" width="700">
 </center>
 
 3 在弹出的窗口中前往你解压好的固件位置，文件类型选择 All Files，然后找到 xbl_s_devprg_ns.melf (也可能是 prog_firehose_ddr.elf，不同芯片不一样)并点击打开。
 
 <center>
 
-![](../../../qcom_img/qfil_open_melf.jpg)
+<img alt="" src="../../../qcom_img/qfil_open_melf.jpg" width="700">
 </center>
 
 4 主界面点击 Load XML，在弹出的串口中，全选所有 xml 文件并点击打开。此时又会弹出相同的窗口，继续选择全部 xml 文件点击打开。
 
 <center>
 
-![](../../../qcom_img/qfil_load_xml1.jpg)
+<img alt="" src="../../../qcom_img/qfil_load_xml1.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../qcom_img/qfil_load_xml2.jpg)
+<img alt="" src="../../../qcom_img/qfil_load_xml2.jpg" width="700">
 </center>
 
 5 最后点击 Download 开始烧录，等待它完成，需要几分钟。完成后如图
 
 <center>
 
-![](../../../qcom_img/qfil_download_finish.jpg)
+<img alt="" src="../../../qcom_img/qfil_download_finish.jpg" width="700">
 </center>
 
 6 完成后等待一会，设备应该会自动重启到正常模式。

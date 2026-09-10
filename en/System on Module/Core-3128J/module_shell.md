@@ -6,14 +6,14 @@
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/module_shell_cad1.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/module_shell_cad1.png" width="700">
 </center>
 
 * Base board:
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/module_shell_cad2.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/module_shell_cad2.png" width="700">
 </center>
 
 * [Source File Download](https://drive.google.com/open?id=0B7HO8lbGgAqAT25KeVJwM1ZqbW8)

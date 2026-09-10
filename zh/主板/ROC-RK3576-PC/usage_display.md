@@ -21,7 +21,7 @@ ROC-RK3576-PC 有三种显示输出接口，分别是 HDMI、Display Port 以及
 
 <center>
 
-![](../../../rk3576_img/ROC-RK3576-PC/usage_display_interface.jpg)  
+<img alt="" src="../../../rk3576_img/ROC-RK3576-PC/usage_display_interface.jpg" width="900">
 </center>
 
 
@@ -141,7 +141,7 @@ ROC-RK3576-PC 有一路 MIPI DSI 显示输出接口，支持 DPHY2.0 和 4 Lane 
 * DSI 接口
 <center>
 
-![](../../../rk3576_img/ROC-RK3576-PC/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3576_img/ROC-RK3576-PC/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 
@@ -156,7 +156,7 @@ ROC-RK3576-PC 有一路 MIPI DSI 显示输出接口，支持 DPHY2.0 和 4 Lane 
 * V2 屏幕上电时序
 <center>
 
-![](../../../rk3576_img/common/usage_display_mipi_v2_power_on.png)  
+<img alt="" src="../../../rk3576_img/common/usage_display_mipi_v2_power_on.png" width="800">
 </center>
   
   
@@ -164,7 +164,7 @@ ROC-RK3576-PC 有一路 MIPI DSI 显示输出接口，支持 DPHY2.0 和 4 Lane 
 * V2 屏幕下电时序
 <center>
 
-![](../../../rk3576_img/common/usage_display_mipi_v2_power_off.png)   
+<img alt="" src="../../../rk3576_img/common/usage_display_mipi_v2_power_off.png" width="800">
 </center>
   
   
@@ -172,7 +172,7 @@ ROC-RK3576-PC 有一路 MIPI DSI 显示输出接口，支持 DPHY2.0 和 4 Lane 
 * V2 屏幕上下电符号参考
 <center>
 
-![](../../../rk3576_img/common/usage_display_mipi_v2_power_menu.png)   
+<img alt="" src="../../../rk3576_img/common/usage_display_mipi_v2_power_menu.png" width="800">
 </center>
   
 

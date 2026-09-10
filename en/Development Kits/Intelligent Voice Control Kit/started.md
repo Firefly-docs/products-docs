@@ -8,7 +8,7 @@ With low-code integration, it enables quick implementation and shortens project 
 
 <center>
 
-![](../../../modules_img/Intelligent-Voice-Control-Kit/intelligent-voice-control-kit.png)
+<img alt="" src="../../../modules_img/Intelligent-Voice-Control-Kit/intelligent-voice-control-kit.png" width="700">
 </center>
 
 ## Detailed Specifications

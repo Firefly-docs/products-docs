@@ -4,12 +4,12 @@
 
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/usage_camera_mipicsi.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588JD4/usage_camera_mipicsi.jpg" width="800">
 </center>
 
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/usage_camera_mipicsi1.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588JD4/usage_camera_mipicsi1.jpg" width="800">
 </center>
 
 AIO-3588JD4 The default firmware only enables the MIPI_CSI0 camera. CSI0/1 share the same i2c group and need to configure gpio port to switching. If two MIPI_CSI are used at the same time, the sensor driver needs to be modified to support dynamic switching.
@@ -34,7 +34,7 @@ and split into three logical dphy: csi2_dphy0, csi2_dphy1, csi2_dphy2 (See detai
 
 <center>
 
-![](../../../rk3588_img/common/usage_camera_rk3588_mipi_csi_mode.png)
+<img alt="" src="../../../rk3588_img/common/usage_camera_rk3588_mipi_csi_mode.png" width="800">
 </center>
 
 In short, if we use single-camera, we can set dphy to full mode, if we use dual-camera, we can set dphy to split mode.

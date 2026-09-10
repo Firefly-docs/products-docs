@@ -11,7 +11,7 @@ onnect the device "Typec" and the computer. AIO-3588JD4 Typec has two functions 
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/button.png)
+<img alt="" src="../../../rk3588_img/Core-3588JD4/button.png" width="700">
 </center>
 
 

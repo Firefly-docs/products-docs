@@ -41,10 +41,10 @@
 * MIPI DSI0
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/mipi101_v2_M101014_BE45_A1_front0.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/mipi101_v2_M101014_BE45_A1_front0.jpg" width="700">
 </center>
 * MIPI DSI1
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/mipi101_v2_M101014_BE45_A1_front1.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/mipi101_v2_M101014_BE45_A1_front1.jpg" width="700">
 </center>

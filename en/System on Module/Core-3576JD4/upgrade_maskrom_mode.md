@@ -12,7 +12,7 @@ Disconnect the power, press and hold Maskrom button, plug in the power, release 
 
 <center>
 
-![](../../../rk3576_img/Core-3576JD4/upgrade_maskrom_key.jpg)
+<img alt="" src="../../../rk3576_img/Core-3576JD4/upgrade_maskrom_key.jpg" width="800">
 </center>
 
 
@@ -23,5 +23,5 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk3576_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rk3576_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

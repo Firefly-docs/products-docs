@@ -33,14 +33,14 @@ Interfaces overview:
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4-AI/interface_front_en.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4-AI/interface_front_en.jpg" width="900">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4-AI/interface_back_en.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4-AI/interface_back_en.jpg" width="900">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4-AI/interface_io_en.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4-AI/interface_io_en.jpg" width="900">
 </center>
 

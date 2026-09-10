@@ -43,7 +43,7 @@
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/size1.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/size1.png" width="900">
 </center>
 
 ## Peripheral Interface
@@ -54,17 +54,17 @@ In addition to the basic `Typec otg` interface and debugging serial port, `CAM-C
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/usb.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/usb.png" width="700">
 </center>
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/interface.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/interface.png" width="900">
 </center>
 
 * Extended interface schematic diagram (save as a picture to view locally)
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/extension_port.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/extension_port.png" width="700">
 </center>

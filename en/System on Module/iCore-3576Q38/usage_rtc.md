@@ -14,7 +14,7 @@ EXT-iCore-3576Q38 reserve a capacitor interface to supply power to the RTC as sh
 
 <center>
 
-![](../../../rk3576_img/iCore-3576Q38/usage_rtc_capacitor_en.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576Q38/usage_rtc_capacitor_en.jpg" width="800">
 </center>
 
 

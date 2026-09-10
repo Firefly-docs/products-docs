@@ -19,7 +19,7 @@
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/maskrom_test_points.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/maskrom_test_points.jpg" width="700">
 </center>
 
 
@@ -27,5 +27,5 @@
 
 <center>
 
-![](../../../rk3562_img/maskrom_zh.png)
+<img alt="" src="../../../rk3562_img/maskrom_zh.png" width="700">
 </center>

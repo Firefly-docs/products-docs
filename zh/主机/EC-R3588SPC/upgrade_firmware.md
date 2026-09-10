@@ -42,7 +42,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux操作系统
@@ -90,21 +90,21 @@ sudo chmod a+x /usr/local/bin/fastboot
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/upgrade_otg_interface.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_otg_interface.jpg" width="900">
 </center>
   
 * EC-3588SPC为整机产品，RECOVERY键及RESET按键并未外漏，裸板位置如下图
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/upgrade_recovery_reset.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_recovery_reset.jpg" width="800">
 </center>
 
 * 我们需要使用镊子捅入3.5MM的耳机孔中并保持
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/recovery_key_interface.jpg)  
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/recovery_key_interface.jpg" width="900">
 </center>
 
 * 接上电源
@@ -127,14 +127,14 @@ reboot loader
 通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](upgrade_firmware.html#windows-cao-zuo-xi-tong)。
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 **Linux操作系统**
@@ -166,7 +166,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_erase_flash_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
 #### 烧写分区映像
@@ -179,7 +179,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux操作系统
@@ -241,7 +241,7 @@ sudo fastboot reboot # 烧写成功后,重启
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_download_fail.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_download_fail.png" width="800">
 </center>
 
 

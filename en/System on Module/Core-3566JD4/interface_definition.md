@@ -37,12 +37,12 @@ The details are as follows:
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/front_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/front_interface.jpg" width="900">
 </center>
 
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/back_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/back_interface.jpg" width="900">
 </center>
 

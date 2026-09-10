@@ -23,7 +23,7 @@ adb shell
 ```
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/otg_interface.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/otg_interface.jpg" width="900">
 </center>
 
 ## 网络 ADB

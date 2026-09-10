@@ -6,17 +6,17 @@ EC-R3308CC 采用Rockchip专用IoT处理器RK3308B，基于 ARM 四核 64 位 Co
 
 <center>
 
-![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_01.jpg)
+<img alt="" src="../../../rk3308_img/EC-R3308CC/ec-r3308cc_01.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_02.jpg)
+<img alt="" src="../../../rk3308_img/EC-R3308CC/ec-r3308cc_02.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3308_img/EC-R3308CC/ec-r3308cc_03.jpg)
+<img alt="" src="../../../rk3308_img/EC-R3308CC/ec-r3308cc_03.jpg" width="700">
 </center>
 
 

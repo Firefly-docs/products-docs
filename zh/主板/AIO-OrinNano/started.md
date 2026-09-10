@@ -3,5 +3,5 @@ AIO-Orin Nano 搭载NVIDIA 官方原装 Jetson Orin Nano 核心板模组，拥�
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-Nano/AIO-Orin.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-Nano/AIO-Orin.png" width="700">
 </center>

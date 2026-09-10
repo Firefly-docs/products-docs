@@ -11,7 +11,7 @@ J2 位置如下图：
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/rtc_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/rtc_interface.jpg" width="900">
 </center>
 
 

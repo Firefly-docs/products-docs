@@ -7,7 +7,7 @@ AIO-3576JD4 board exported 2 I2C for user.
 
 <center>
 
-![](../../../rk3576_img/Core-3576JD4/usage_i2c_interface.jpg)
+<img alt="" src="../../../rk3576_img/Core-3576JD4/usage_i2c_interface.jpg" width="900">
 </center>
 
 I2C0 (which is I2C5 in picture)and I2C3 (which is I2C4 in picture)

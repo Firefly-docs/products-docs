@@ -15,7 +15,7 @@ Our Firefly-RK3399 development board for the convenience of users, leads to a ro
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/uart_interface.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/uart_interface.jpg" width="900">
 </center>
 
 GPIO1_A7 and GPIO1_B0 can be reused as `uart4_rx` and `uart4_tx`,

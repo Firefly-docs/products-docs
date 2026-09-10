@@ -16,22 +16,22 @@ Public Fimware support CAM-8MS1M camera module by default. If it doesn't work, p
 ### Product Images
 <center>
 
-![](../../../rk3562_img/cam_8ms1m_front.jpg)
+<img alt="" src="../../../rk3562_img/cam_8ms1m_front.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3562_img/cam_8ms1m_back.jpg)
+<img alt="" src="../../../rk3562_img/cam_8ms1m_back.jpg" width="700">
 </center>
 
 ### Connection method
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/aio-3562jq_8ms1m.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/aio-3562jq_8ms1m.jpg" width="700">
 </center>
 
 ### Photo by CAM-8MS1M
 <center>
 
-![](../../../rk3562_img/camera_8ms1m_shoot.jpg)
+<img alt="" src="../../../rk3562_img/camera_8ms1m_shoot.jpg" width="700">
 </center>
 

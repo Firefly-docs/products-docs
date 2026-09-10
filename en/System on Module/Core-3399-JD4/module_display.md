@@ -32,7 +32,7 @@ Using official SDK to compile firmware that support 7.85 inch screen firmware ne
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/module_display_mipi_connection.jpg)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/module_display_mipi_connection.jpg" width="700">
 </center>
 
 ## [10.1" LVDS module](https://www.firefly.store/products)
@@ -82,7 +82,7 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/module_display_lvds_new.jpg)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/module_display_lvds_new.jpg" width="700">
 </center>
 
 
@@ -119,5 +119,5 @@ When compiling the supported 7.85-inch screen firmware with the official website
 
 <center>
 
-![](../../../rk3399_img/module_display_edp.jpg)
+<img alt="" src="../../../rk3399_img/module_display_edp.jpg" width="700">
 </center>

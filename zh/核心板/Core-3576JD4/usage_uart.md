@@ -20,5 +20,5 @@ echo out > /sys/class/gpio/gpio99/direction
 
 <center>
 
-![](../../../rk3576_img/Core-3576JD4/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3576_img/Core-3576JD4/usage_uart_interface.jpg" width="900">
 </center>

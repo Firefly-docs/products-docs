@@ -21,14 +21,14 @@
 
 <center>
 
-![](../../../rk3288_img/module_camera_1.png)
+<img alt="" src="../../../rk3288_img/module_camera_1.png" width="700">
 </center>
 
 ### 连接方法
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/module_camera_2.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/module_camera_2.png" width="700">
 </center>
 
 ### 实拍图片

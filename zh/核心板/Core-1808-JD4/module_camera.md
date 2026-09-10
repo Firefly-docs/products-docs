@@ -17,7 +17,7 @@
 ### 连接方法
 <center>
 
-![](../../../rk1808_img/module_camera2.jpg)
+<img alt="" src="../../../rk1808_img/module_camera2.jpg" width="700">
 </center>
 ### 实拍图片
 <center>

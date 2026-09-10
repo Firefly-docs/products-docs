@@ -7,7 +7,7 @@ The default software is configured as M.2 SATA3.0 interface, which supports the 
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png)
+<img alt="" src="../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png" width="900">
 </center>
 
 ## Software configuration

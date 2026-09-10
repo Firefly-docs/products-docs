@@ -22,7 +22,7 @@ adb shell
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/adb_connection.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/adb_connection.png" width="700">
 </center>
 
 

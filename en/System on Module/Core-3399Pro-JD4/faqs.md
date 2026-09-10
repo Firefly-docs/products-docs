@@ -11,7 +11,7 @@ I2S1 signal pin is changed to I2S0 (Core-3399Pro-JD4 does not lead to I2S1), I2C
 </center>
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/5640_pcb.png)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/5640_pcb.png" width="700">
 </center>
 
 The software is modified as follows:
@@ -65,7 +65,7 @@ There are many powerful functions of the Android system that require root permis
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/faqs_android_root.png" width="800">
 </center>
 ## What should I do if the boot is abnormal and restarts cyclically?
 

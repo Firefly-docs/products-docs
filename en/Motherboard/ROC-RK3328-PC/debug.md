@@ -32,7 +32,7 @@ ROC-RK3328-PC serial port connection diagram:
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3328-PC/debug_connection.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3328-PC/debug_connection.jpg" width="800">
 </center>
 
 
@@ -78,11 +78,11 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 
 <center>
 
-![](../../../rk3399_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../rk3399_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../rk3399_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../rk3399_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ## Use serial debug on Ubuntu

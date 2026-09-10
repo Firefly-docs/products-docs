@@ -60,7 +60,7 @@
 
 <center>
 
-![perspective view](../../../servers_img/CSB2-N10/hw_logical_topology.png)
+<img alt="perspective view" src="../../../servers_img/CSB2-N10/hw_logical_topology.png" width="700">
 </center>
 
 #### 网络拓扑图
@@ -102,7 +102,7 @@
 #### 硬盘位置
 <center>
 
-![perspective view](../../../servers_img/CSB2-N10/harddisk_location.png)
+<img alt="perspective view" src="../../../servers_img/CSB2-N10/harddisk_location.png" width="700">
 </center>
 #### 硬盘配置
 
@@ -137,7 +137,7 @@
 
 <center>
 
-![SATA Hard Disk Indicator Location Diagram](../../../servers_img/CSB2-N10/sata_hdd_indicator.png)
+<img alt="SATA Hard Disk Indicator Location Diagram" src="../../../servers_img/CSB2-N10/sata_hdd_indicator.png" width="700">
 </center>
 
 <table border="1" cellPadding="8" cellSpacing="0" width="100%">

@@ -58,5 +58,5 @@ index ae57644a105..0cb9124bec8 100644
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC-SE/module_display_mipi_DSI0.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC-SE/module_display_mipi_DSI0.jpg" width="700">
 </center>

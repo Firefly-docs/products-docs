@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk3576_img/EC-A3576JD4/ec-a3576jd4-front.png)
+<img alt="" src="../../../rk3576_img/EC-A3576JD4/ec-a3576jd4-front.png" width="700">
 </center>
 
 

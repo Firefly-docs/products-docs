@@ -5,6 +5,6 @@
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/CAM-C1126S2U-front.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/CAM-C1126S2U-front.png" width="700">
 </center>
  <a id="firmware-format"></a>

@@ -17,7 +17,7 @@ Download driver：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](http
 
 <center>
 
-![](../../../rk3399_img/module_serial_list.en.jpg)
+<img alt="" src="../../../rk3399_img/module_serial_list.en.jpg" width="700">
 </center>
 
 ### Connection Method
@@ -25,7 +25,7 @@ Download driver：[https://www.prolific.com.tw/en/portfolio-item/pl2303gl/](http
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/debug_connection.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/debug_connection.jpg" width="800">
 </center>
 
 

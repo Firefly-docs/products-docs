@@ -14,7 +14,7 @@ EC-R3588SPCThere is a three color LED light and two monochrome lights on the dev
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/led_position_en.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/led_position_en.jpg" width="700">
 </center>
 
 

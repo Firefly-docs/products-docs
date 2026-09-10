@@ -5,12 +5,12 @@ iHC-3308GW是专为工业环境打造的4G智能网关，采用IoT专用的四�
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/ihc-3308gw-side1.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/ihc-3308gw-side1.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/ihc-3308gw-side2.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/ihc-3308gw-side2.png" width="700">
 </center>
 
 ## 软硬件参数

@@ -13,7 +13,7 @@
 4. 用金属镊子接通核心板上的如下图所示的两个测试点，并保持。
 <center>
 
-![](../../../rk3399_img/Face-RK3399/maskrom3.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/maskrom3.png" width="700">
 </center>
 
 5. 设备插入电源。
@@ -22,5 +22,5 @@
 这时，设备应该就会进入 MaskRom 模式。 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/maskrom2.jpg)  
+<img alt="" src="../../../rk3399_img/Face-RK3399/maskrom2.jpg" width="700">
 </center>

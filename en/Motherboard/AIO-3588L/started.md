@@ -12,6 +12,6 @@ intelligent NVR and other fields.
 
 <center>
 
-![](../../../rk3588_img/Core-3588L/AIO-3588L.png)  
+<img alt="" src="../../../rk3588_img/Core-3588L/AIO-3588L.png" width="700">
 </center>
  <a id="firmware-format"></a>

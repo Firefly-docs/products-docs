@@ -37,7 +37,7 @@ Open the burn tool, connect the USB OTG cable to the board, press and hold the R
 
 <center>
 
-![](../../../rk3288_img/uboot_download.jpg)  
+<img alt="" src="../../../rk3288_img/uboot_download.jpg" width="700">
 </center>
 
 ## Confirm whether the new Loader is properly programmed

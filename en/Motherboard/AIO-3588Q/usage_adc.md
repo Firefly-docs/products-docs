@@ -6,7 +6,7 @@ iCore-3588Q The following figure shows the serial port of the hardware versionï¼
 
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_adc_interface.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_adc_interface.jpg" width="900">
 </center>
 
 ## Introduction

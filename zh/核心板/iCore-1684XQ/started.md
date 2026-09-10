@@ -30,7 +30,7 @@ AIO-1684XQ  主板由核心板 iCore-1684XQ + 底板 SM7-SBASE-EN4  组成，AIO
 
 <center>
 
-![](../../../bm1684_img/iCore-1684XQ/parameter.png)
+<img alt="" src="../../../bm1684_img/iCore-1684XQ/parameter.png" width="900">
 </center>
 
 ## 配件清单

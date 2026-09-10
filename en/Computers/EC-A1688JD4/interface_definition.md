@@ -26,10 +26,10 @@ EC-A1688JD4 has a rich set of interfaces, including:
 
 <center>
 
-![](../../../bm1688_img/EC-A1688JD4/antenna_connection.jpg)
+<img alt="" src="../../../bm1688_img/EC-A1688JD4/antenna_connection.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../bm1688_img/EC-A1688JD4/sim_connection.jpg)
+<img alt="" src="../../../bm1688_img/EC-A1688JD4/sim_connection.jpg" width="700">
 </center>

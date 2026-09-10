@@ -5,7 +5,7 @@ AIO-3588MQ  开发板上有 1 个 PCIe3.0 x 4 接口, 如图：
 
 <center>
 
-![](../../../rk3588_img/iCore-3588MQ/usage_pcie_interface.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588MQ/usage_pcie_interface.jpg" width="900">
 </center>
 
 可以插入 NVME 协议 M.2 转 PCIe3.0 x 4 转接板 + NVME 协议 M.2 的 SSD 使用, 如图：

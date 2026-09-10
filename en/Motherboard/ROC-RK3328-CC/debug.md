@@ -18,7 +18,7 @@ Three wires are required to connect the TX/RX/GND pins together:
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/debug_con.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/debug_con.png" width="800">
 </center>
 
 With some adapters, you may try to connect TX pin of the adapter to RX pin of the board, and RX pin of adapter to TX pin of the board, if you do not get the serial console working.

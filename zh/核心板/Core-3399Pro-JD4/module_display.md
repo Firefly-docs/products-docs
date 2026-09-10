@@ -37,7 +37,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/module_display_lvds.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/module_display_lvds.jpg" width="700">
 </center>
 
 
@@ -74,5 +74,5 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/module_display_mipi.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/module_display_mipi.jpg" width="700">
 </center>

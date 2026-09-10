@@ -23,6 +23,6 @@ In addition, you may need the following accessories during use:
 *   Shipping list
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/started_shipping_list.en.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/started_shipping_list.en.jpg" width="700">
 </center>
  <a id="firmware-format"></a>

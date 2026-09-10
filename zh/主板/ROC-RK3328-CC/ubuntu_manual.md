@@ -76,19 +76,19 @@ Firefly发布的Qt交叉编译工具链，适用于以下环境:
 点击桌面右上角`Ethernet Network`图标，选择`Edit Connection...`
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot1.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot1.png" width="700">
 </center>
 
 选择`+`图标，Add a new connection
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot2.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot2.png" width="700">
 </center>
 
 选择`Wi-Fi`，后点击`Create`
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot3.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot3.png" width="700">
 </center>
 
 Wi-Fi设置：
@@ -97,13 +97,13 @@ Wi-Fi设置：
 * Device: 选择无线网卡（wlan）
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot4.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot4.png" width="700">
 </center>
 
 选择适当的加密方式：
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/Hostspot5.png)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/Hostspot5.png" width="700">
 </center>
 
 点击`Save`**即刻完成热点创建**
@@ -436,7 +436,7 @@ write out.jpg succ!
 官方的 Ubuntu 系统中自带屏幕键盘，可以在菜单栏中点击打开：
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/onboard.jpg)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/onboard.jpg" width="700">
 </center>
 
 ## HDMI_IN 图像抓取
@@ -523,7 +523,7 @@ Playing WAVE 'Front_Center.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Mo
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/sound_setting.jpg)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/sound_setting.jpg" width="700">
 </center>
 
 
@@ -837,7 +837,7 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=640,he
 
 <center>
 
-![](../../../rk3328_img/ROC-RK3328-CC/mipi_csi.jpg)
+<img alt="" src="../../../rk3328_img/ROC-RK3328-CC/mipi_csi.jpg" width="700">
 </center>
 
 ### 开发MIPI 摄像头

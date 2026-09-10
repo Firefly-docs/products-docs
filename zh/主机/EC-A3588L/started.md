@@ -5,11 +5,11 @@ EC-A3588L 嵌入式主机，基于 AIO-3588L 高性能开源平台，配置工�
 
 <center>
 
-![](../../../rk3588_img/EC-A3588L/EC-A3588L_1.png)
+<img alt="" src="../../../rk3588_img/EC-A3588L/EC-A3588L_1.png" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/EC-A3588L/EC-A3588L_2.png)
+<img alt="" src="../../../rk3588_img/EC-A3588L/EC-A3588L_2.png" width="700">
 </center>
 
 

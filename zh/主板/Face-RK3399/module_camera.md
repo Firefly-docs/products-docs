@@ -18,16 +18,16 @@
 ### 实物图
 <center>
 
-![](../../../rk3399_img/Face-RK3399/camera1.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/camera1.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/Face-RK3399/camera2.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/camera2.jpg" width="700">
 </center>
 ### 连接方法
 <center>
 
-![](../../../rk3399_img/Face-RK3399/camera3.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/camera3.jpg" width="700">
 </center>
 
 

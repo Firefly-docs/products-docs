@@ -11,7 +11,7 @@ ADB，全称 Android Debug Bridge，是 Android 的命令行调试工具，可�
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588-RT/upgrade_otg_interface.png)
+<img alt="" src="../../../rk3588_img/ROC-RK3588-RT/upgrade_otg_interface.png" width="900">
 </center>
 
 

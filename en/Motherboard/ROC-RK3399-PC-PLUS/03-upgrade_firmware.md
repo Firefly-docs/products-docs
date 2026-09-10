@@ -55,7 +55,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 ### Upgrade the firmware
@@ -74,7 +74,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 #### Upgrade unified firmware - update.img
@@ -90,7 +90,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_erase_flash.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -110,7 +110,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ## Flash on linux
@@ -213,7 +213,7 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk3399_img/upgrade_downloadfail.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_downloadfail.jpg" width="800">
 </center>
 
 [烧写须知]: 02-upgrade_table.md

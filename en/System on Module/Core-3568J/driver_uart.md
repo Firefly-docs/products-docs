@@ -21,7 +21,7 @@ The serial interface diagram of the AIO-3568J development board is as follows:
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/uart_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/uart_interface.jpg" width="900">
 </center>
 
 ## DTS configuration
@@ -84,7 +84,7 @@ RS232_2:   /dev/ttyS4
 * RS232    
 	<center>
 
-	![](../../../rk356x_img/Core-3568J/AIO-3568J_RS232_pins.jpg)
+	<img alt="" src="../../../rk356x_img/Core-3568J/AIO-3568J_RS232_pins.jpg" width="700">
 	</center>
 
 </br>
@@ -92,13 +92,13 @@ RS232_2:   /dev/ttyS4
 * RS485        
 	<center>
 
-	![](../../../rk356x_img/Core-3568J/AIO-3568J_RS485_pins.jpg)
+	<img alt="" src="../../../rk356x_img/Core-3568J/AIO-3568J_RS485_pins.jpg" width="700">
 	</center>
 
 * UART
 	<center>
 
-	![](../../../rk356x_img/Core-3568J/AIO-3568J_uart_pins.jpg)
+	<img alt="" src="../../../rk356x_img/Core-3568J/AIO-3568J_uart_pins.jpg" width="700">
 	</center>
 
 ## Debug method

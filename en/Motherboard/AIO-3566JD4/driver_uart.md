@@ -15,17 +15,17 @@ The serial interface diagram of the AIO-3566JD4 development board is as follows:
 * UART
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/uart1_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/uart1_interface.jpg" width="900">
 </center>
 * RS232
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/rs232_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/rs232_interface.jpg" width="900">
 </center>
 * RS485
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/rs485_interface.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/rs485_interface.jpg" width="900">
 </center>
 
 ## DTS configuration

@@ -5,7 +5,7 @@ There are 2 PCIe 2.0 x 2 (M.2 SATA/PCIe WiFi/BT modules) on the AIO-3588L develo
 
 <center>
 
-![](../../../rk3588_img/Core-3588L/usage_pcie_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588L/usage_pcie_interface.png" width="900">
 </center>
 
 ## Software configuration

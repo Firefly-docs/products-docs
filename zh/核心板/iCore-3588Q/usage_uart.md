@@ -8,7 +8,7 @@ AIO-3588Q 开发板的串口接口图如下：
 
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_uart_interface.jpg" width="900">
 </center>
 
 RS232、RS485 推荐使用<font color=#ff00>官方的 FC10 转 DP9 串口线</font>，不同厂商的串口线线序可能不同，会导致串口无法通信。

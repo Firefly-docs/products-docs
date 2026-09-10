@@ -4,5 +4,5 @@ AIBOX-8550 features the Qualcomm hexa-core (1+2+3) QCS8550 AI processor with an 
 
 <center>
 
-![](../../../qcom_img/AIBOX-8550/aibox-8550.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-8550/aibox-8550.jpg" width="700">
 </center>

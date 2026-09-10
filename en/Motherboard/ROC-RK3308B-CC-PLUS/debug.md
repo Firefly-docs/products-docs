@@ -28,7 +28,7 @@ ROC-RK3308B-CC-PLUS serial port connection diagram:
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/debug_connection.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/debug_connection.jpg" width="800">
 </center>
 
 ## Parameter Setting
@@ -57,7 +57,7 @@ After the adapter is inserted, the system will prompt for the discovery of new h
 
 <center>
 
-![](../../../rk3308_img/debug_find_com.png)
+<img alt="" src="../../../rk3308_img/debug_find_com.png" width="800">
 </center>
 
 ### Install Software
@@ -73,11 +73,11 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 
 <center>
 
-![](../../../rk3308_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../rk3308_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../rk3308_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../rk3308_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ## Use serial debug on Ubuntu

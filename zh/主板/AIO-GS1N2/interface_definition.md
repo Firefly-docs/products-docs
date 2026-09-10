@@ -2,13 +2,13 @@
 ## 外壳
 <center>
 
-![](../../../gs1-n2_img/GS1-N2/interface-enclosure-zh.png)
+<img alt="" src="../../../gs1-n2_img/GS1-N2/interface-enclosure-zh.png" width="900">
 </center>
 
 ## 主板
 <center>
 
-![](../../../gs1-n2_img/GS1-N2/interface-mainboard-zh.png)
+<img alt="" src="../../../gs1-n2_img/GS1-N2/interface-mainboard-zh.png" width="900">
 </center>
 
 |主模组|仅安装主模组时|

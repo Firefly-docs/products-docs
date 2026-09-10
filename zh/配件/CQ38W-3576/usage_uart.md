@@ -8,12 +8,12 @@ CQ38W-3576 使用了 `UART11` 做 `RS485`，在系统中对应 `/dev/ttyS11` 设
 
 <center>
 
-![](../../../rk3576_img/CQ38W-3576/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3576_img/CQ38W-3576/usage_uart_interface.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/CQ38W-3576/usage_uart_interface2.jpg)
+<img alt="" src="../../../rk3576_img/CQ38W-3576/usage_uart_interface2.jpg" width="900">
 </center>
 
 ## RS485 节点使用

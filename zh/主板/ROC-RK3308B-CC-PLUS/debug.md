@@ -29,7 +29,7 @@ ROC-RK3308B-CC-PLUS  串口连接图：
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/debug_connection.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/debug_connection.jpg" width="800">
 </center>
 
 ## 串口参数配置
@@ -58,7 +58,7 @@ ROC-RK3308B-CC-PLUS 使用以下串口参数：
 
 <center>
 
-![](../../../rk3308_img/debug_find_com.png)
+<img alt="" src="../../../rk3308_img/debug_find_com.png" width="800">
 </center>
 
 ### 安装软件
@@ -74,14 +74,14 @@ Windows 上一般用 putty 或 SecureCRT。其中我们推荐使用 MobaXterm �
 
 <center>
 
-![](../../../rk3308_img/debug_set_MobaXterm1.png)  
+<img alt="" src="../../../rk3308_img/debug_set_MobaXterm1.png" width="800">
 </center>
 
 
 
 <center>
 
-![](../../../rk3308_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../rk3308_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ## Ubuntu 上使用串口调试

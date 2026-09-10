@@ -9,7 +9,7 @@ The default software configuration is M.2 SATA3.0, which supports the SATA SSD .
 
 <center>
 
-![](../../../rk3588_img/iCore-3588JQ/usage_sata_m2_sata.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588JQ/usage_sata_m2_sata.jpg" width="800">
 </center>
 
 ## Software configuration
@@ -21,7 +21,7 @@ Select the option SATA or PCIe that needs to take effect
 
  <center>
 
- ![](../../../rk3588_img/iCore-3588JQ/swtich_sata_pcie.jpg)
+ <img alt="" src="../../../rk3588_img/iCore-3588JQ/swtich_sata_pcie.jpg" width="700">
  </center>
 
  The modification will take effect only after the system is restarted

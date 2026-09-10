@@ -36,14 +36,14 @@
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_display_edp.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_display_edp.jpg" width="700">
 </center>
 
 ### 连接方法
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_display_edp_connection.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_display_edp_connection.jpg" width="700">
 </center>
 
 ##  7.85 寸 MIPI 液晶屏模组
@@ -77,5 +77,5 @@
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_display_mipi_connection.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_display_mipi_connection.jpg" width="700">
 </center>

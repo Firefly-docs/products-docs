@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/screen.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/screen.jpg" width="700">
 </center>
 
 * 屏幕转向
@@ -18,5 +18,5 @@ export QT_QPA_PLATFORM=linuxfb:rotation=90
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/cam-c1126s2u-dsi.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/cam-c1126s2u-dsi.jpg" width="700">
 </center>

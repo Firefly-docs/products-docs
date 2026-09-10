@@ -10,7 +10,7 @@ AIO-3399J 开发板分别带有两个 MIPI，MIPI 支持最高 4K 拍照，并�
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/camera_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/camera_interface.jpg" width="900">
 </center>
 
 ## DTS 配置
@@ -56,7 +56,7 @@ Android：
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/camera_mipi_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/camera_mipi_interface.jpg" width="900">
 </center>
 
 * `AF_VDD28` 可不做配置。

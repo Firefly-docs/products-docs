@@ -44,14 +44,14 @@ AIO-3399J screen wiring instructions:
 
 <center>
 
-![](../../../modules_img/Face-Recognition-Kit/AIO-3399J-module_display_lvds_new.en.jpg)
+<img alt="" src="../../../modules_img/Face-Recognition-Kit/AIO-3399J-module_display_lvds_new.en.jpg" width="700">
 </center>
 
 AIO-3399C screen wiring instructions:
 
 <center>
 
-![](../../../modules_img/Face-Recognition-Kit/AIO-3399C-module_display_lvds.en.png)
+<img alt="" src="../../../modules_img/Face-Recognition-Kit/AIO-3399C-module_display_lvds.en.png" width="700">
 </center>
 
 # Community Forum

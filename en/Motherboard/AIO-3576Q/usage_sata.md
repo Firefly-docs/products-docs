@@ -9,7 +9,7 @@ The default software is configured as M.2 SATA3.1 interface, which supports the 
 
 <center>
 
-![](../../../rk3576_img/iCore-3576Q/usage_sata_interface.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576Q/usage_sata_interface.jpg" width="900">
 </center>
 
 ## Software configuration
@@ -20,7 +20,7 @@ Settings->Connected devices -> M.2 SSD Type
 
 Select the option SATA or PCIe that needs to take effect
 
- ![](../../../rk3576_img/iCore-3576Q/swtich_sata_pcie.jpg)
+ <img alt="" src="../../../rk3576_img/iCore-3576Q/swtich_sata_pcie.jpg" width="700">
 
  The modification will take effect only after the system is restarted
 -->

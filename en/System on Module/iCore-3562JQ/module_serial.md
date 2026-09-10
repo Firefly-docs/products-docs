@@ -15,12 +15,12 @@
 
 <center>
 
-![](../../../rk3562_img/module_serial_list.en.jpg)
+<img alt="" src="../../../rk3562_img/module_serial_list.en.jpg" width="700">
 </center>
 
 ### Connection Method
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/debug_connection.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/debug_connection.jpg" width="800">
 </center>

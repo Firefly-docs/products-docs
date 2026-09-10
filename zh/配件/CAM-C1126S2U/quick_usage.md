@@ -53,14 +53,14 @@
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_login.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_login.png" width="800">
    </center>
 
 7. 登录后，选择设备激活。激活码请联系业务购买。
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_activate.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_activate.png" width="700">
    </center>
 
 8. 激活设备后在 Web 后端管理平台上点击：[人员管理-->人员注册] 来进行人脸注册操作。进行人脸注册操作。
@@ -81,7 +81,7 @@
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/authorization.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/authorization.png" width="700">
 </center>
 
 
@@ -118,19 +118,19 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/arcsetting.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/arcsetting.png" width="700">
    </center>
 
 8. 识别成功，注册成功后可以回到预览页面查看效果：</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png" width="700">
    </center>
 
 9. 识别记录，识别到人脸后会记录在后台：</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/arcuvc_log.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/arcuvc_log.png" width="700">
    </center>
 
 ### Android
@@ -149,56 +149,56 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/androi_activation.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_activation.png" width="700">
    </center>
 
 6. 预览，授权成功后回到预览画面可以看到人脸识别功能已经被激活：</br>
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/android_detect1.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/android_detect1.png" width="800">
    </center>
 
 7. 设置，点击预览界面右上方齿轮可以进入设置界面，默认管理员密码为 `123456` ：</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/android_password.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/android_password.png" width="800">
    </center>
 
 8. 更换自己公司的` logo `和`公司名`：</br>
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/androi_info.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_info.png" width="700">
    </center>
 
 9. 根据自己的需求配置自己的识别参数：</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/android_setting.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/android_setting.png" width="800">
    </center>
 
 10. 点击右上角人脸注册注册自己第一张人脸：</br>
     <center>
 
-    ![](../../../rv1126_img/CAM-C1126S2U/androi_register.png)
+    <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_register.png" width="700">
     </center>
 
 11. 注册成功后，回到预览界面查看效果：</br>
     <center>
 
-    ![](../../../rv1126_img/CAM-C1126S2U/android_detect2.png)
+    <img alt="" src="../../../rv1126_img/CAM-C1126S2U/android_detect2.png" width="800">
     </center>
 
 12. 可以进入设置浏览识别成功和失败记录：</br>
     <center>
 
-    ![](../../../rv1126_img/CAM-C1126S2U/androi_log1.png)
+    <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_log1.png" width="700">
     </center>
 
     <center>
 
-    ![](../../../rv1126_img/CAM-C1126S2U/androi_log2.png)
+    <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_log2.png" width="700">
     </center>
 
 ## 应用授权
@@ -217,7 +217,7 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/androi_activation.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_activation.png" width="700">
 </center>
 
 ## 设备调试
@@ -231,7 +231,7 @@ AI_UVC 根据使用平台不同，需要安装不同的上位机 APP 工具。�
 1. 准备一条 TYPE-C 线。TYPE-C 线一端接电脑的 USB 口，另一端接 USB OTG 调试接口。接线如下图：
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/upgrade_otg_interface.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/upgrade_otg_interface.jpg" width="900">
 </center>
 2. 基于你的系统安装 ADB。
 

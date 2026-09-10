@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3576_img/Core-3576JD4/usage_camera_mipicsi.jpg)
+<img alt="" src="../../../rk3576_img/Core-3576JD4/usage_camera_mipicsi.jpg" width="800">
 </center>
 
 ## MIPI CSI

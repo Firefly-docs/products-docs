@@ -33,7 +33,7 @@ AIO-1684XQ The motherboard consists of a core board iCore-1684XQ + baseboard SM7
 
 <center>
 
-![](../../../bm1684_img/iCore-1684XQ/parameter.png)
+<img alt="" src="../../../bm1684_img/iCore-1684XQ/parameter.png" width="900">
 </center>
 
 ## Accessory List

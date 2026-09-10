@@ -21,6 +21,5 @@
 4. 点击烧写工具的《扫描设备》进行设备识别。
 
 <center>
-
-![](../../../aibox_img/AIBOX-K3/upgrade_maskrom_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_maskrom_zh.png" width="800">
 </center>

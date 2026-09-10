@@ -14,7 +14,7 @@ EC-R3588SPC开发板上有一个三色LED灯，二个单色灯，如下表所示
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/led_position.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/led_position.jpg" width="700">
 </center>
 
 

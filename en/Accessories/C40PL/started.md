@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rv1126_img/C40PL/c40pl.jpg)
+<img alt="" src="../../../rv1126_img/C40PL/c40pl.jpg" width="700">
 </center>
 
 **Core-1126-JD4** adopts Rockchip RV1126 series processor, with built-in AI neural network acceleration NPU computing power up to 2.0Tops, supports 4K H.265/H.264 multi-channel encoding and decoding, built-in 14 million ISP 2.0, with multi-level noise reduction, 3-frame HDR and other technologies, supports 3 cameras input at the same time, meets the industry needs of security products and AIoT, and is widely used in: face recognition, IPC smart network cameras, gate access control, smart security, smart finance/construction sites, smart travel and other industries.
@@ -12,7 +12,7 @@
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/Core-1126-JD4-front.png)  
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/Core-1126-JD4-front.png" width="700">
 </center>
       
 
@@ -20,6 +20,6 @@ The [AIO-1126JD4](https://item.taobao.com/item.htm?id=670519903322) development 
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/AIO-1126JD4.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/AIO-1126JD4.png" width="700">
 </center>
  <a id="firmware-format"></a>

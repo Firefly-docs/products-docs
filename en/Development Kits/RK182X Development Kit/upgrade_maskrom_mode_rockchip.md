@@ -18,7 +18,7 @@ The board is now ready for firmware writing.
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_maskrom_zh.png" width="800">
 </center>
 
 ## Check MaskRom Mode

@@ -1,12 +1,12 @@
 ## Product parameters
 <center>
 
-![](../../../rk3588_img/EC-A3588JQ/en_args.png)
+<img alt="" src="../../../rk3588_img/EC-A3588JQ/en_args.png" width="700">
 </center>
 
 ## Size
 <center>
 
-![](../../../rk3588_img/EC-A3588JQ/size.png)
+<img alt="" src="../../../rk3588_img/EC-A3588JQ/size.png" width="900">
 </center>
 

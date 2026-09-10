@@ -16,7 +16,7 @@ ROC-RK3506B-CC 开发板上的 AD 接口有两种，分别为：温度传感器 
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506B-CC/usage_saradc_in.png)
+<img alt="" src="../../../rk3506_img/ROC-RK3506B-CC/usage_saradc_in.png" width="800">
 </center>
 
 

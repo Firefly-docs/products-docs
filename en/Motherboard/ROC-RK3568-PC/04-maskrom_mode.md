@@ -16,7 +16,7 @@ The operation steps are as follows:
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points.jpg" width="700">
 </center>
 
 Where is the `Maskrom` button?Find in the [Interface Definition](interface_definition.md)
@@ -25,7 +25,7 @@ When the board has NOR flash at the same time, if EMMC is empty and there are bu
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points_flash.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3568-PC/maskrom_test_points_flash.jpg" width="700">
 </center>
 
 
@@ -34,5 +34,5 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk356x_img/maskrom_zh.png)
+<img alt="" src="../../../rk356x_img/maskrom_zh.png" width="700">
 </center>

@@ -25,12 +25,12 @@ The details are as follows:
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/front_interface.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/front_interface.jpg" width="900">
 </center>
 
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/back_interface.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/back_interface.jpg" width="900">
 </center>
 

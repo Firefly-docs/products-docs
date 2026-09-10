@@ -3,5 +3,5 @@ AIBOX-Orin Nano is equipped with the Nvidia Jetson Orin Nano module, is availabl
 
 <center>
 
-![](../../../aibox_img/AIBOX-Orin-Nano/AIBOX-Orin.jpg)
+<img alt="" src="../../../aibox_img/AIBOX-Orin-Nano/AIBOX-Orin.jpg" width="700">
 </center>

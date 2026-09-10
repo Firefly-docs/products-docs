@@ -50,7 +50,7 @@ ITX-3588J_Android12_HDMI_220308
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 #### Linux
@@ -100,12 +100,12 @@ RK182X 开发套件不支持 Loader 模式。通过 USB 升级固件时，需要
 
 <center>
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png)
+<img alt="" src="../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png" width="700">
 </center>
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_maskrom_zh.png" width="800">
 </center>
 
 ### 检查 MaskRom 模式
@@ -135,7 +135,7 @@ sudo upgrade_tool
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_firmware_erase_flash_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
 #### 烧写分区镜像
@@ -147,7 +147,7 @@ sudo upgrade_tool
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux
@@ -200,5 +200,5 @@ sudo fastboot reboot
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_firmware_download_fail.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_firmware_download_fail.png" width="800">
 </center>

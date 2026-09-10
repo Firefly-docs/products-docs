@@ -15,14 +15,14 @@ Picture
 
 <center>
 
-![](../../../px30_img/module_transform1.jpg)
+<img alt="" src="../../../px30_img/module_transform1.jpg" width="700">
 </center>
 
 Connection
 
 <center>
 
-![](../../../px30_img/uart.jpg)
+<img alt="" src="../../../px30_img/uart.jpg" width="700">
 </center>
 
 
@@ -83,14 +83,14 @@ Connection
 
 <center>
 
-![](../../../px30_img/USB_EC20.jpg)
+<img alt="" src="../../../px30_img/USB_EC20.jpg" width="700">
 </center>
 
 * MIPI connection
 
 <center>
 
-![](../../../px30_img/Pcie_EC20.jpg)
+<img alt="" src="../../../px30_img/Pcie_EC20.jpg" width="700">
 </center>
 
 
@@ -147,7 +147,7 @@ The IR wiring position of the AIO-PX30-JD4 is shown in the red box below:
 
 <center>
 
-![](../../../px30_img/IR.jpg)
+<img alt="" src="../../../px30_img/IR.jpg" width="700">
 </center>
 
 
@@ -161,7 +161,7 @@ Product parameters
 Picture
 <center>
 
-![](../../../px30_img/cool_1.jpg)
+<img alt="" src="../../../px30_img/cool_1.jpg" width="700">
 </center>
 
 
@@ -192,14 +192,14 @@ Picture
 
 <center>
 
-![](../../../px30_img/module_camera2.jpg)
+<img alt="" src="../../../px30_img/module_camera2.jpg" width="700">
 </center>
 
 Connection
 
 <center>
 
-![](../../../px30_img/module_camera4.jpg)
+<img alt="" src="../../../px30_img/module_camera4.jpg" width="700">
 </center>
 
 Renderings
@@ -236,7 +236,7 @@ Picture
 
 <center>
 
-![](../../../px30_img/module_display.jpg)
+<img alt="" src="../../../px30_img/module_display.jpg" width="700">
 </center>
 
 ### Compile command

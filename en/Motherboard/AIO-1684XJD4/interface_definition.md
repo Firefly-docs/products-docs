@@ -25,7 +25,7 @@ The specific details are as follows:
 
 <center>
 
-![Front Interface](../../../bm1684_img/AIO-1684XJD4/interface_front.png)
+<img alt="Front Interface" src="../../../bm1684_img/AIO-1684XJD4/interface_front.png" width="900">
 </center>
 
 <center>
@@ -35,7 +35,7 @@ The specific details are as follows:
 
 <center>
 
-![Back Interface](../../../bm1684_img/AIO-1684XJD4/interface_back.png)
+<img alt="Back Interface" src="../../../bm1684_img/AIO-1684XJD4/interface_back.png" width="900">
 </center>
 
 ## WiFi Antenna Connection
@@ -44,7 +44,7 @@ Antenna Specifications: Stick Antenna 5dB; Flat Head
 
 <center>
 
-![WiFi Antenna](../../../bm1684_img/AIO-1684XJD4/wifi_antenna_connection.jpg)
+<img alt="WiFi Antenna" src="../../../bm1684_img/AIO-1684XJD4/wifi_antenna_connection.jpg" width="700">
 </center>
 
 ## 4G Module Antenna Connection
@@ -53,14 +53,14 @@ Antenna Specifications: Stick Antenna 4GLTE-5dB; Round Head
 
 <center>
 
-![4G Antenna](../../../bm1684_img/AIO-1684XJD4/4g_antenna_connection.jpg)
+<img alt="4G Antenna" src="../../../bm1684_img/AIO-1684XJD4/4g_antenna_connection.jpg" width="700">
 </center>
 
 ## SIM Card Connection
 
 <center>
 
-![SIM Card](../../../bm1684_img/AIO-1684XJD4/sim_connection.jpg)
+<img alt="SIM Card" src="../../../bm1684_img/AIO-1684XJD4/sim_connection.jpg" width="700">
 </center>
 
 ## UART Pinout

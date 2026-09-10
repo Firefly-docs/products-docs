@@ -3,5 +3,5 @@ AIO-Orin NX 搭载NVIDIA 官方原装 Jetson Orin NX 核心板模组，拥有 16
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-NX/AIO-Orin.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-NX/AIO-Orin.png" width="700">
 </center>

@@ -8,7 +8,7 @@ The serial interface diagram of the AIO-3588SJD4  development board is as follow
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_uart_interface.jpg" width="900">
 </center>
 
 ## DTS configuration

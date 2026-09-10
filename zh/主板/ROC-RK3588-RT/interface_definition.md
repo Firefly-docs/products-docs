@@ -21,6 +21,6 @@
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588-RT/interface_all.png)
+<img alt="" src="../../../rk3588_img/ROC-RK3588-RT/interface_all.png" width="900">
 </center>
 

@@ -25,6 +25,6 @@
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/started_shipping_list.jpg)
+<img alt="" src="../../../rk3288_img/AIO-3288C/started_shipping_list.jpg" width="700">
 </center>
  <a id="firmware-format"></a>

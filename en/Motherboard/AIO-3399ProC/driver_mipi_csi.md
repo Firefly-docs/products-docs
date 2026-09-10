@@ -8,7 +8,7 @@ This article takes OV13850 camera as an example to explain the configuration pro
 ## Interface rendering
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/camera_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/camera_interface.jpg" width="900">
 </center>
 
 ## DTS configuration

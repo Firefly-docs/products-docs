@@ -4,14 +4,14 @@ Industrial-grade stability, stable operation at -40°C to 85°C for a long time;
 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/iCore-3568JQ.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/iCore-3568JQ.jpg" width="700">
 </center>
 
 [ITX-3568Q]() is composed of core board iCore-3568JQ and baseboard, standard ITX motherboard size, standard interface specification, can be adapted to general ITX computer case. Provide rich expansion interface, so that users can have more imagination space when creating
 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/ITX-3568Q.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/ITX-3568Q.jpg" width="700">
 </center>
 
 ## The standard package of AIO-3568J includes the following accessories(for reference only):

@@ -33,7 +33,7 @@ make -j8 firefly-rk3288-aio-3288c_lvds.img
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/module_display.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/module_display.png" width="700">
 </center>
 
 * Note: The yellow socket is TP socket while the red socket is backlit control socket.

@@ -6,7 +6,7 @@ EC-Orin Nano 支持无线 WIFI,在系统中使用 WIFI 有两种方式。
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-Nano/WIFI.png)
+<img alt="" src="../../../bm1688_img/EC-Orin-Nano/WIFI.png" width="700">
 </center>
 
 ## 命令行方式

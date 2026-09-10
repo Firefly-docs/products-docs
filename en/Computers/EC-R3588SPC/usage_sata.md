@@ -11,7 +11,7 @@ The default software is configured as M.2 SATA3.0 interface, which supports the 
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/usage_sata_interface.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/usage_sata_interface.jpg" width="900">
 </center>
 
 ## Software configuration
@@ -23,7 +23,7 @@ Select the option SATA or PCIe that needs to take effect
 
  <center>
 
- ![](../../../rk3588_img/EC-R3588SPC/swtich_sata_pcie.jpg)
+ <img alt="" src="../../../rk3588_img/EC-R3588SPC/swtich_sata_pcie.jpg" width="700">
  </center>
 
  The modification will take effect only after the system is restarted

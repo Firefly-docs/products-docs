@@ -6,7 +6,7 @@ Station-P2 嵌入式主机，基于 ROC-RK3568-PC 高性能开源平台，配置
 
 <center>
 
-![](../../../rk356x_img/Station-P2/station_p2.png)
+<img alt="" src="../../../rk356x_img/Station-P2/station_p2.png" width="700">
 </center>
 
 <center>
@@ -16,7 +16,7 @@ Station-P2 嵌入式主机，基于 ROC-RK3568-PC 高性能开源平台，配置
 
 <center>
 
-![](../../../rk356x_img/Station-P2/station_p2_info2.png)
+<img alt="" src="../../../rk356x_img/Station-P2/station_p2_info2.png" width="700">
 </center>
 
 

@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk3588_img/Core-3588L/usage_spi_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588L/usage_spi_interface.jpg" width="900">
 </center>
 
 ## How SPI works

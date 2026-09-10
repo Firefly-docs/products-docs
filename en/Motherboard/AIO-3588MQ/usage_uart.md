@@ -8,7 +8,7 @@ The serial interface diagram of the AIO-3588Q development board is as follows:
 
 <center>
 
-![](../../../rk3588_img/iCore-3588MQ/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588MQ/usage_uart_interface.jpg" width="900">
 </center>
 
 RS232 and RS485 are recommended to use <font color=#ff00>official FC10 to DP9 serial port cable</font>. The serial port cable sequence of different manufacturers may be different, which will cause the serial port to fail to communicate.

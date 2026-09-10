@@ -11,7 +11,7 @@ EC-R3588SPC supports an optocoupler isolation input, where IN corresponds to INP
 ### schematic diagram
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/input_sch.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/input_sch.jpg" width="700">
 </center>
 
 ### Detect

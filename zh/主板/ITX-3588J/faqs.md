@@ -13,7 +13,7 @@
 拨码开关位置：
 <center>
 
-![](../../../rk3588_img/Core-3588J/faqs_dip_switch.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/faqs_dip_switch.jpg" width="700">
 </center>
 
 * 当拨码开关为`ON`的状态，设备的上下电依赖于电源适配器插入和拔出。

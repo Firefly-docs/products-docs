@@ -63,7 +63,7 @@ aBMC 提供可视化Web管理界面，可完成服务器整机监控、硬件运
 
 <center>
 
-![MGMT Management Port Wiring Diagram](../../../servers_img/common/mgmt_port_cable_connection.png)
+<img alt="MGMT Management Port Wiring Diagram" src="../../../servers_img/common/mgmt_port_cable_connection.png" width="700">
 </center>
 
 #### 1.1.2 查询aBMC管理IP
@@ -87,28 +87,28 @@ aBMC 提供可视化Web管理界面，可完成服务器整机监控、硬件运
 1. 浏览器地址栏输入 `https://aBMC管理IP`，访问时弹出证书安全告警。
     <center>
 
-    ![aBMC Certificate Warning Operation Schematic Diagram](../../../servers_img/common/abmc_chrome_cert_warning_schematic.png)
+    <img alt="aBMC Certificate Warning Operation Schematic Diagram" src="../../../servers_img/common/abmc_chrome_cert_warning_schematic.png" width="700">
     </center>
 2. 点击页面 `Advanced（高级）`；
 3. 选择 `Proceed to (site) (unsafe)` 忽略证书告警，跳转登录页。
     <center>
 
-    ![aBMC Login Page Schematic Diagram](../../../servers_img/common/abmc_login_page.png)
+    <img alt="aBMC Login Page Schematic Diagram" src="../../../servers_img/common/abmc_login_page.png" width="800">
     </center>
 4. 输入默认账号密码登录，进入整机总览面板：
     - 设备面板：查看ARM计算单元硬件运行状态、执行底层Shell命令；
     <center>
 
-    ![aBMC dashboard View](../../../servers_img/common/abmc_device_list.png)
+    <img alt="aBMC dashboard View" src="../../../servers_img/common/abmc_device_list.png" width="700">
     </center>
     - 固件升级页面：批量更新各计算单元固件；
     <center>
 
-    ![Add Firmware Upgrade Popup Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_popup.png)
+    <img alt="Add Firmware Upgrade Popup Schematic Diagram" src="../../../servers_img/common/abmc_fw_upgrade_popup.png" width="800">
     </center>
     <center>
 
-    ![Firmware Upgrade Task Monitoring Page Schematic Diagram](../../../servers_img/common/abmc_fw_upgrade_monitor_page.png)
+    <img alt="Firmware Upgrade Task Monitoring Page Schematic Diagram" src="../../../servers_img/common/abmc_fw_upgrade_monitor_page.png" width="800">
     </center>
 
 > 安全提示：首次登录请立即修改默认账号密码，并定期更新，降低设备入侵风险。
@@ -127,7 +127,7 @@ aBMC 提供可视化Web管理界面，可完成服务器整机监控、硬件运
 
 <center>
 
-![BMC OS Release Query Command Line Schematic Diagram](../../../servers_img/common/cmd_os_release_info.png)
+<img alt="BMC OS Release Query Command Line Schematic Diagram" src="../../../servers_img/common/cmd_os_release_info.png" width="700">
 </center>
 
 ## 3 SSH远程登录

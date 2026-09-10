@@ -15,7 +15,7 @@
 
 <center>
 
-![](../../../rk3399_img/module_serial_list.jpg)
+<img alt="" src="../../../rk3399_img/module_serial_list.jpg" width="700">
 </center>
 
 ### 连接方法

@@ -55,7 +55,7 @@ echo 1 > /sys/devices/platform/wiegand-gpio/D1
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/module_D0_D1.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/module_D0_D1.png" width="700">
 </center>
 
 

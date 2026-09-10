@@ -12,7 +12,7 @@ AIO-Orin Nano 拥有两路音频输出以及一路音频输入。
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-Nano/Sound.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-Nano/Sound.png" width="700">
 </center>
 
 ### 命令行模式

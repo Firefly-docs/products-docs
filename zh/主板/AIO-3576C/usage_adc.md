@@ -15,7 +15,7 @@ AIO-3576C 的ADC接口图如下：
 
 <center>
 
-![](../../../rk3576_img/AIO-3576C/usage_adc_interface.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576C/usage_adc_interface.jpg" width="900">
 </center>
 
 ## DTS配置

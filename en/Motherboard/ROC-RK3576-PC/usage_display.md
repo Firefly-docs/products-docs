@@ -21,7 +21,7 @@ If each Portx is assigned a separate display controller, it can support three-sc
 
 <center>
 
-![](../../../rk3576_img/ROC-RK3576-PC/usage_display_interface.jpg)   
+<img alt="" src="../../../rk3576_img/ROC-RK3576-PC/usage_display_interface.jpg" width="900">
 </center>
 
 
@@ -142,7 +142,7 @@ Combining ROC-RK3576-PC  DSI interface and screen timing
 * DSI interface
 <center>
 
-![](../../../rk3576_img/ROC-RK3576-PC/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3576_img/ROC-RK3576-PC/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 
@@ -157,7 +157,7 @@ Combining ROC-RK3576-PC  DSI interface and screen timing
 * V2 screen power-on timing
 <center>
 
-![](../../../rk3576_img/common/usage_display_mipi_v2_power_on.png) 
+<img alt="" src="../../../rk3576_img/common/usage_display_mipi_v2_power_on.png" width="800">
 </center>
   
   
@@ -165,7 +165,7 @@ Combining ROC-RK3576-PC  DSI interface and screen timing
 * V2 screen power-down timing
 <center>
 
-![](../../../rk3576_img/common/usage_display_mipi_v2_power_off.png)
+<img alt="" src="../../../rk3576_img/common/usage_display_mipi_v2_power_off.png" width="800">
 </center>
   
   
@@ -173,7 +173,7 @@ Combining ROC-RK3576-PC  DSI interface and screen timing
 * V2 screen power-up symbol reference
 <center>
 
-![](../../../rk3576_img/common/usage_display_mipi_v2_power_menu.png)
+<img alt="" src="../../../rk3576_img/common/usage_display_mipi_v2_power_menu.png" width="800">
 </center>
   
 

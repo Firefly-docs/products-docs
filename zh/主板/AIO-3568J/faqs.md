@@ -4,7 +4,7 @@
 kernel 新建了 dts 文件 `arch/arm64/boot/dts/rockchip/rk3568-firefly-aioj-DEMO.dts`，编译 kernel 时弹出如下对话框
 <center>
 
-![](../../../rk356x_img/faq_rk356x_io-domain_checklist.png)
+<img alt="" src="../../../rk356x_img/faq_rk356x_io-domain_checklist.png" width="700">
 </center>
 
 <br>

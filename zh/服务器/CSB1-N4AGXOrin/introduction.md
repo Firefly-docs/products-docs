@@ -3,7 +3,7 @@ CSB1-N4AGXOrin 是一款1U机架式的ARM准系统高密度阵列式服务器。
 
 <center>
 
-![perspective view](../../../servers_img/CSB1-N4AGXOrin/perspective_view.png)
+<img alt="perspective view" src="../../../servers_img/CSB1-N4AGXOrin/perspective_view.png" width="700">
 </center>
 
 功能亮点
@@ -20,15 +20,15 @@ CSB1-N4AGXOrin 是一款1U机架式的ARM准系统高密度阵列式服务器。
 ### 正面图
 <center>
 
-![perspective view](../../../servers_img/CSB1-N4AGXOrin/front_view.png)
+<img alt="perspective view" src="../../../servers_img/CSB1-N4AGXOrin/front_view.png" width="700">
 </center>
 ### 背面图
 <center>
 
-![perspective view](../../../servers_img/CSB1-N4AGXOrin/rear_view.png)
+<img alt="perspective view" src="../../../servers_img/CSB1-N4AGXOrin/rear_view.png" width="700">
 </center>
 ### 透视图
 <center>
 
-![perspective view](../../../servers_img/CSB1-N4AGXOrin/perspective_view.png)
+<img alt="perspective view" src="../../../servers_img/CSB1-N4AGXOrin/perspective_view.png" width="700">
 </center>

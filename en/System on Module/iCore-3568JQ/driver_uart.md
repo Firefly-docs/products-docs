@@ -44,13 +44,13 @@ RS232:   /dev/ttyS3
 * RS232 & RK485
 	<center>
 
-	![](../../../rk356x_img/iCore-3568JQ/iCore-3568JQ_RS232-RS485_pins.jpg)
+	<img alt="" src="../../../rk356x_img/iCore-3568JQ/iCore-3568JQ_RS232-RS485_pins.jpg" width="700">
 	</center>
 
 * UART9
 	<center>
 
-	![](../../../rk356x_img/iCore-3568JQ/iCore-3568JQ_uart_pins.jpg)
+	<img alt="" src="../../../rk356x_img/iCore-3568JQ/iCore-3568JQ_uart_pins.jpg" width="700">
 	</center>
 
 ## RS232/RS485 Instruction

@@ -71,7 +71,7 @@ usb0 Link encap:Ethernet HWaddr AE:0C:29:A3:9B:6D
 
   <center>
 
-  ![](../../../rk3308_img/IHC-3308GW/ping_usb0.png)
+  <img alt="" src="../../../rk3308_img/IHC-3308GW/ping_usb0.png" width="700">
   </center>
 
 - Other AT commands
@@ -203,7 +203,7 @@ The gateway supports one optocoupler isolation interface, where `DI` corresponds
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/gpio_input.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/gpio_input.png" width="700">
 </center>
 
 * Detection
@@ -235,7 +235,7 @@ The gateway supports one relay interface, `DO` corresponds to `OUTPUT1` in the h
 
 <center>
 
-![](../../../rk3308_img/IHC-3308GW/relay_ctl.png)
+<img alt="" src="../../../rk3308_img/IHC-3308GW/relay_ctl.png" width="700">
 </center>
 
 * control

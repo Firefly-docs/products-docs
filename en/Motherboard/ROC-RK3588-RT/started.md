@@ -13,7 +13,7 @@ intelligent NVR and other fields.
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588-RT/ROC-RK3588-RT.png)  
+<img alt="" src="../../../rk3588_img/ROC-RK3588-RT/ROC-RK3588-RT.png" width="700">
 </center>
 
 

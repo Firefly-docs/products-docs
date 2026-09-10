@@ -5,7 +5,7 @@
 
 <center>
 
-![](../../../rv1126_img/C40PL/usage_camera_mipicsi.jpg)
+<img alt="" src="../../../rv1126_img/C40PL/usage_camera_mipicsi.jpg" width="800">
 </center>
 
 * 注：摄像头上的红线和黑线用作切换滤光片使用。

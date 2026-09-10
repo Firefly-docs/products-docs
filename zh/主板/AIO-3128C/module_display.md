@@ -22,5 +22,5 @@
 ### 连接方法
 <center>
 
-![](../../../rk3128_img/AIO-3128C/aio-3128c_lvds.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/aio-3128c_lvds.png" width="700">
 </center>

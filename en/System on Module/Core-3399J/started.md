@@ -24,6 +24,6 @@ Additionally, the following accessories or devices are needed:
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/started_shipping_list.en.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/started_shipping_list.en.jpg" width="700">
 </center>
  <a id="firmware-format"></a>

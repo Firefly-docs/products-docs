@@ -6,12 +6,12 @@ EC-ThorT5000 is equipped with the Nvidia Jetson Thor T5000 module, is available 
 
 <center>
 
-![](../../../nvidia_img/EC-ThorT5000/interface_01_en.png)
+<img alt="" src="../../../nvidia_img/EC-ThorT5000/interface_01_en.png" width="900">
 </center>
 
 <center>
 
-![](../../../nvidia_img/EC-ThorT5000/interface_can_en.png)
+<img alt="" src="../../../nvidia_img/EC-ThorT5000/interface_can_en.png" width="900">
 </center>
 
 
@@ -19,10 +19,10 @@ EC-ThorT5000 is equipped with the Nvidia Jetson Thor T5000 module, is available 
 
 <center>
 
-![](../../../nvidia_img/EC-ThorT5000/interface_01_en.png)
+<img alt="" src="../../../nvidia_img/EC-ThorT5000/interface_01_en.png" width="900">
 </center>
 
 <center>
 
-![](../../../nvidia_img/EC-ThorT5000/interface_net_en.png)
+<img alt="" src="../../../nvidia_img/EC-ThorT5000/interface_net_en.png" width="900">
 </center>

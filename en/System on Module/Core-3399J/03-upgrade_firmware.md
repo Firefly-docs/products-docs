@@ -62,18 +62,18 @@ The connection method is shown in the figure:
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/upgrade_firmware_otg_port.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/upgrade_firmware_otg_port.jpg" width="800">
 </center>
 <center>
 
-![](../../../rk3399_img/AIO-3399J/otg_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/otg_interface.jpg" width="900">
 </center>
 
 The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and reinstall the driver.
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 ### Upgrade the firmware
@@ -92,7 +92,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 #### Upgrade unified firmware - update.img
@@ -108,7 +108,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_erase_flash.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -128,7 +128,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk3399_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ## Flash on linux
@@ -231,7 +231,7 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk3399_img/upgrade_downloadfail.jpg)
+<img alt="" src="../../../rk3399_img/upgrade_downloadfail.jpg" width="800">
 </center>
 
 [烧写须知]: 02-upgrade_table.md

@@ -13,5 +13,5 @@ AIBOX-8550 provides these interfaces:
 
 <center>
 
-![](../../../qcom_img/AIBOX-8550/interface_en.jpg)
+<img alt="" src="../../../qcom_img/AIBOX-8550/interface_en.jpg" width="900">
 </center>

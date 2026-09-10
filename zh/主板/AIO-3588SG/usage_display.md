@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -35,7 +35,7 @@ AIO-3588SG 有三种显示输出接口，分别是 EDP 、Display Port 以及 MI
 
 <center>
 
-![](../../../rk3588_img/Core-3588SG/usage_display_interface-B.png) 
+<img alt="" src="../../../rk3588_img/Core-3588SG/usage_display_interface-B.png" width="900">
 </center>
 
 
@@ -105,7 +105,7 @@ DSI的软件配置，外接的屏幕是 101-M101014-BE45-A1 显示屏，DSI 软�
 * DSI 接口<br>
 <center>
 
-![](../../../rk3588_img/Core-3588SG/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588SG/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 
@@ -120,7 +120,7 @@ DSI的软件配置，外接的屏幕是 101-M101014-BE45-A1 显示屏，DSI 软�
 * V2 屏幕上电时序<br>
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)  
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_on.png" width="800">
 </center>
   
   
@@ -128,7 +128,7 @@ DSI的软件配置，外接的屏幕是 101-M101014-BE45-A1 显示屏，DSI 软�
 * V2 屏幕下电时序<br>
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)   
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_off.png" width="800">
 </center>
   
   
@@ -136,7 +136,7 @@ DSI的软件配置，外接的屏幕是 101-M101014-BE45-A1 显示屏，DSI 软�
 * V2 屏幕上下电符号参考<br>
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)   
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png" width="800">
 </center>
   
 

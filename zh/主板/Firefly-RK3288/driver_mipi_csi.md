@@ -46,14 +46,14 @@ DOVDD18、AVDD28 由 DVP_PWR 控制：
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/mipi_csi_2.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/mipi_csi_2.png" width="700">
 </center>
 
 DVP_PWR 对应 RK3288 的 GPIO0_B3：
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/mipi_csi_3.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/mipi_csi_3.png" width="700">
 </center>
 
 * DVDD12
@@ -62,7 +62,7 @@ DVDD12 由 CIF_POWER 引脚控制：
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/mipi_csi_4.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/mipi_csi_4.png" width="700">
 </center>
 
 CIF_POWER 对应 RK3288 上的 GPIO7_B4 引脚：

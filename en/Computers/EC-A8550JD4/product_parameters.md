@@ -2,23 +2,23 @@
 
 <center>
 
-![](../../../qcom_img/EC-A8550JD4/ec-a8550jd4-spec-en.jpg)
+<img alt="" src="../../../qcom_img/EC-A8550JD4/ec-a8550jd4-spec-en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../qcom_img/EC-A8550JD4/ec-a8550jd4-io-en.jpg)
+<img alt="" src="../../../qcom_img/EC-A8550JD4/ec-a8550jd4-io-en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../qcom_img/EC-A8550JD4/ec-a8550jd4-ssd-en.jpg)
+<img alt="" src="../../../qcom_img/EC-A8550JD4/ec-a8550jd4-ssd-en.jpg" width="700">
 </center>
 
 # Size
 
 <center>
 
-![](../../../qcom_img/EC-A8550JD4/ec-a8550jd4-size.jpg)
+<img alt="" src="../../../qcom_img/EC-A8550JD4/ec-a8550jd4-size.jpg" width="900">
 </center>
 

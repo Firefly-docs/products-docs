@@ -126,7 +126,7 @@ disp_mipi_init: mipi_dsi_init{
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/mipi_dsi.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/mipi_dsi.png" width="700">
 </center>
 
 ### dsihost 配置

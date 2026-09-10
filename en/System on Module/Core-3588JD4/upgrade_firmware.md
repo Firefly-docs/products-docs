@@ -56,7 +56,7 @@ You can also download [AndroidTool](https://community.t-firefly.com/en/doc/downl
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux Operating System
@@ -100,7 +100,7 @@ Usually we upgrade firmware in two modes, namely `Loader` mode and `MaskRom` mod
 Connect the device "Typec" and the computer. AIO-3588JD4 Typec has two functions (serial port/OTG upgrade) controlled by the dip switch. Please turn the dip switch to "OTG" when upgrading.
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/button.png)
+<img alt="" src="../../../rk3588_img/Core-3588JD4/button.png" width="700">
 </center>
 
 #### Hardware way into Loader mode
@@ -126,14 +126,14 @@ The AndroidTool displays the prompt Found One LOADER Device at the bottom
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](upgrade_firmware.html#install-the-upgrade-tool).
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 **Linux Operating System**
@@ -164,7 +164,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_erase_flash_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -180,7 +180,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 
@@ -243,7 +243,7 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_firmware_download_fail.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_download_fail.png" width="800">
 </center>
 
 [烧写须知]: 02-upgrade_table.md

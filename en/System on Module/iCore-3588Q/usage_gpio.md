@@ -8,7 +8,7 @@ GPIO (General-Purpose Input/Output) is a General pin that can be dynamically con
 The AIO-3588Q  development board leads out a row of extended GPIO ports for user debugging and development in order to facilitate user development and use. The corresponding pins are as follows:
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_gpio_interface.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_gpio_interface.jpg" width="900">
 </center>
 
 <font color=red>Note: GPIO2_C3 is not led to the extension pin in the diagram in baseboard version V1.1 and above </font>

@@ -17,12 +17,12 @@ The MB-JD4-RK3328&PX30 carrier board provides the following main interfaces:
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/interface_front.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/interface_front.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/interface_back.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/interface_back.jpg" width="900">
 </center>
 
 ## Special interface notes

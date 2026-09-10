@@ -17,21 +17,21 @@ EC-A1684JD4 has rich interfaces, mainly including:
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/ec-a1684jd4-interface.jpg)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ec-a1684jd4-interface.jpg" width="900">
 </center>
 
 ## Antenna Connection
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/antenna_connection.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/antenna_connection.png" width="700">
 </center>
 
 ## SIM Card Insertion
 
 <center>
 
-![](../../../bm1684_img/EC-A1684JD4-FD/sim_connection.png)
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/sim_connection.png" width="700">
 </center>
 
 ## Serial Port Pinout

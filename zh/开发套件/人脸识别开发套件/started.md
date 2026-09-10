@@ -44,14 +44,14 @@ AIO-3399J 屏的接线说明：
 
 <center>
 
-![](../../../modules_img/Face-Recognition-Kit/AIO-3399J-module_display_lvds_new.jpg)
+<img alt="" src="../../../modules_img/Face-Recognition-Kit/AIO-3399J-module_display_lvds_new.jpg" width="700">
 </center>
 
 AIO-3399C 屏的接线说明：
 
 <center>
 
-![](../../../modules_img/Face-Recognition-Kit/aio-3399c.png)
+<img alt="" src="../../../modules_img/Face-Recognition-Kit/aio-3399c.png" width="700">
 </center>
 
 # 五、社区论坛

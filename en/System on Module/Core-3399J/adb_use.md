@@ -21,7 +21,7 @@ adb shell
 `` `
 <center>
 
-![](../../../rk3399_img/AIO-3399J/otg_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/otg_interface.jpg" width="900">
 </center>
 
 

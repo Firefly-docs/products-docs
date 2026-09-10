@@ -11,12 +11,12 @@
 #### 实物图
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/module_transform1.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/module_transform1.jpg" width="700">
 </center>
 #### 连接方法
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/uart.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/uart.jpg" width="700">
 </center>
 
 
@@ -68,13 +68,13 @@
 * USB接口连接
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/USB_EC20.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/USB_EC20.jpg" width="700">
 </center>
 
 * Mini-PCIe接口连接
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Pcie_EC20.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Pcie_EC20.jpg" width="700">
 </center>
 
 #### 参考固件
@@ -121,7 +121,7 @@
 *  AIO-RK3328-JD4的IR接线位置如下图红框所示
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/IR.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/IR.jpg" width="700">
 </center>
 
 
@@ -135,5 +135,5 @@
 #### 实物图
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/heatsink.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/heatsink.jpg" width="700">
 </center>

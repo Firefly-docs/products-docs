@@ -36,7 +36,7 @@ SophonSDK 由 Compiler 和 Library 组成：
 
 <center>
 
-![](../../../bm1684_img/sophonsdk_overview.png)
+<img alt="" src="../../../bm1684_img/sophonsdk_overview.png" width="700">
 </center>
 
 ### SDK 开发包
@@ -205,7 +205,7 @@ Sophon SDK 包括基础工具包与高阶工具包。
 
 <center>
 
-![](../../../bm1684_img/new_SophonSDK.png)
+<img alt="" src="../../../bm1684_img/new_SophonSDK.png" width="700">
 </center>
 
 ### Sophon SDK 目录

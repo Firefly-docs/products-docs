@@ -45,7 +45,7 @@ These are files with independent functions, such as the partition table, bootloa
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/upgrade_firmware_titanflasher_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_titanflasher_en.png" width="800">
 </center>
 
 
@@ -97,7 +97,7 @@ Click the following steps: Dev Tools --> USB Download --> Scan Devices --> Local
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/upgrade_firmware_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_en.png" width="800">
 </center>
 
 #### Burning Partition Image
@@ -111,7 +111,7 @@ Configuring partition files requires selecting the partition file.
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/upgrade_firmware_part_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_part_en.png" width="800">
 </center>
 
 ## Frequently Asked Questions

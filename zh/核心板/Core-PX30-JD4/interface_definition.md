@@ -6,11 +6,11 @@ AIO-PX30-JD4 提供了丰富的接口，主要包括：电源接口， 1 x USB3.
 具体如下图：
 <center>
 
-![](../../../px30_img/interface.jpg)
+<img alt="" src="../../../px30_img/interface.jpg" width="900">
 </center>
 <center>
 
-![](../../../px30_img/back.jpg)
+<img alt="" src="../../../px30_img/back.jpg" width="700">
 </center>
 
 #### 特殊接口说明

@@ -55,7 +55,7 @@
 
 <center>
 
-![](../../../rk3308_img/module_wireless_ec20_usb.jpg)
+<img alt="" src="../../../rk3308_img/module_wireless_ec20_usb.jpg" width="700">
 </center>
 
 

@@ -185,15 +185,15 @@ Password: 1000
 
 <center>
 
-![](../../../rk3399_img/opensips1.png)
+<img alt="" src="../../../rk3399_img/opensips1.png" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/opensips2.png)
+<img alt="" src="../../../rk3399_img/opensips2.png" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/opensips3.png)
+<img alt="" src="../../../rk3399_img/opensips3.png" width="700">
 </center>
 
 * Test Results:
@@ -325,7 +325,7 @@ Just run the script, and the result is as shown in the figure:
 
 <center>
 
-![](../../../rk3399_img/mipi_csi.jpg)
+<img alt="" src="../../../rk3399_img/mipi_csi.jpg" width="700">
 </center>
 
 

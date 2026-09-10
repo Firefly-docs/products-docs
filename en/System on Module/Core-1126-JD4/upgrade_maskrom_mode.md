@@ -15,7 +15,7 @@ The operation steps are as follows:
 * The following are the two test points on Core-1126-JD4
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/upgrade_maskrom_test_points_core.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/upgrade_maskrom_test_points_core.png" width="800">
 </center>
 
 
@@ -26,5 +26,5 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rv1126_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rv1126_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

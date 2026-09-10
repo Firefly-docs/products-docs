@@ -10,29 +10,29 @@ video hard decoding.
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_1_en.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_1_en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_2_en.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_2_en.jpg" width="700">
 </center>
 
 ## Product parameters
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_3_en.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_3_en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_4_en.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_4_en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_5_en.jpg)
+<img alt="" src="../../../rk3288_img/IPC-M10R800-A3288C/ipc_a3288c_5_en.jpg" width="700">
 </center>
 
 

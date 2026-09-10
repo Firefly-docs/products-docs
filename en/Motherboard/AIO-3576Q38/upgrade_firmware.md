@@ -46,7 +46,7 @@ You can also download [AndroidTool](https://community.t-firefly.com/en/doc/downl
 
 <center>
 
-![](../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux Operating System
@@ -96,7 +96,7 @@ Connect the device and press the **RECOVERY** button to enter the Loader mode. T
 
 <center>
 
-![](../../../rk3576_img/AIO-3576Q38/upgrade_recovery.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576Q38/upgrade_recovery.jpg" width="800">
 </center>
 
 * Connect to the power supply.
@@ -121,14 +121,14 @@ The AndroidTool displays the prompt Found One LOADER Device at the bottom
 
 <center>
 
-![](../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 if the “Enter Loader mode” operation is performed, and the LOADER prompted by the upgrade tool is not displayed, check whether the Windows host computer you to discover new hardware and configure the driver. Open the Device manager and a new device `Rockusb Device` will appear, as shown below. If not, you can go back to the previous step to [reinstall the driver](#install-the-upgrade-tool).
 
 <center>
 
-![](../../../rk3576_img/common/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3576_img/common/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 **Linux Operating System**
@@ -159,7 +159,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rk3576_img/common/upgrade_firmware_erase_flash_zh.png)
+<img alt="" src="../../../rk3576_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -175,7 +175,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 
@@ -238,5 +238,5 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk3576_img/common/upgrade_firmware_download_fail.png)
+<img alt="" src="../../../rk3576_img/common/upgrade_firmware_download_fail.png" width="800">
 </center>

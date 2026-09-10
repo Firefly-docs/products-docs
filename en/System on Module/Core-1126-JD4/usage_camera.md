@@ -5,7 +5,7 @@
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/usage_camera_mipicsi.jpg)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/usage_camera_mipicsi.jpg" width="800">
 </center>
 
 * Note: The red and black lines on the camera are used as switching filters.

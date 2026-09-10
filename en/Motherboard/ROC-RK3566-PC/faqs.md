@@ -4,7 +4,7 @@
 kernel new dts file `arch/arm64/boot/dts/rockchip/rk3566-roc-pc-DEMO.dts`and when build kernel, will show dialog
 <center>
 
-![](../../../rk356x_img/faq_rk356x_io-domain_checklist.png)
+<img alt="" src="../../../rk356x_img/faq_rk356x_io-domain_checklist.png" width="700">
 </center>
 
 **Perform the following operations first**    
@@ -19,7 +19,7 @@ If you need to use ROC-RK3566-PC to debug SPK and MIC functions, you can use the
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/roc-rk3566-pc-spk_mic.png)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/roc-rk3566-pc-spk_mic.png" width="700">
 </center>
 
 <br>
@@ -33,7 +33,7 @@ RK3566 Dual screen Display uses the same internal input Source, that is, `VOP` i
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/3566_dualscreen.png)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/3566_dualscreen.png" width="700">
 </center>
 
 ## Changes in kernel/buildroot configuration doesn't take effect after compiling

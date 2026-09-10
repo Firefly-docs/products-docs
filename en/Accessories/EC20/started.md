@@ -12,9 +12,9 @@ This module does not support voice calls and SMS, if you need support, please co
 
 <!-- ## Shipping list
 ### PCIE interface
-![](../../../modules_img/EC20/ec20_shop_list_pcie_en.png)
+<img alt="" src="../../../modules_img/EC20/ec20_shop_list_pcie_en.png" width="700">
 ### USB interface
-![](../../../modules_img/EC20/ec20_shop_list_usb_en.png) -->
+<img alt="" src="../../../modules_img/EC20/ec20_shop_list_usb_en.png" width="700"> -->
 
 ## Detailed parameters
 
@@ -48,13 +48,13 @@ This module does not support voice calls and SMS, if you need support, please co
 | RK3576 | [AIO-3576C](_images/ec20_AIO-3576C.jpg)| -->
 <center>
 
-![](../../../modules_img/EC20/EC20_PCIE.png)
+<img alt="" src="../../../modules_img/EC20/EC20_PCIE.png" width="700">
 </center>
 
 #### USB connection
 <center>
 
-![](../../../modules_img/EC20/EC20_USB.png)
+<img alt="" src="../../../modules_img/EC20/EC20_USB.png" width="700">
 </center>
 
 ### SIM insertion

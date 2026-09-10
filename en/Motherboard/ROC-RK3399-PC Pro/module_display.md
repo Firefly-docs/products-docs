@@ -33,7 +33,7 @@
 ### Connection method
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/panel_mipi101.jpg" width="700">
 </center>
 ### Reference data
 

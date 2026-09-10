@@ -30,7 +30,7 @@
 The details are shown below:
 <center>
 
-![](../../../rk3576_img/AIO-3576C/interface_front_en.png)
+<img alt="" src="../../../rk3576_img/AIO-3576C/interface_front_en.png" width="900">
 </center>
 
 

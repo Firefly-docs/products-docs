@@ -25,5 +25,5 @@ PS: The interfaces listed above are supported by RK3588. If the RK3576 core boar
 
 <center>
 
-![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-interface_en.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/AIBOX-PRO-interface_en.png" width="900">
 </center>

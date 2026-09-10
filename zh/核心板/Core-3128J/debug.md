@@ -43,7 +43,7 @@ Firefly-RK3128 使用以下串口参数：
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：  
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_com.png) 
+<img alt="" src="../../../rk3128_img/Core-3128J/win_com.png" width="700">
 </center>
 
 ### 安装软件

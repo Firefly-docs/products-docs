@@ -6,7 +6,7 @@ Firefly 定位模块支持 GPS、GLONASS 或北斗卫星定位，使用 UART/TTL
 
 <center>
 
-![](../../../modules_img/GNSS/gnss_RG4538_en.png)
+<img alt="" src="../../../modules_img/GNSS/gnss_RG4538_en.png" width="700">
 </center>
 
 ## 规格参数

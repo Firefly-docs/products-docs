@@ -34,12 +34,12 @@
 
 <center>
 
-![](../../../rk3576_img/Core-3576JD4/interface_front_zh.png)
+<img alt="" src="../../../rk3576_img/Core-3576JD4/interface_front_zh.png" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/Core-3576JD4/interface_back_zh.png)
+<img alt="" src="../../../rk3576_img/Core-3576JD4/interface_back_zh.png" width="900">
 </center>
 
 <center>

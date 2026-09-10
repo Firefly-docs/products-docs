@@ -1361,7 +1361,7 @@ key 388   TV_KEYMOUSE_MODE_SWITCH
 
 <center>
 
-![](../../../px30_img/IR.jpg)
+<img alt="" src="../../../px30_img/IR.jpg" width="700">
 </center>
 
 
@@ -1567,7 +1567,7 @@ AIO-PX30-JD4开发板外置了一个背光接口用来控制屏幕背光，如�
 
 <center>
 
-![](../../../px30_img/lcd3.png)
+<img alt="" src="../../../px30_img/lcd3.png" width="700">
 </center>
 
 lvds屏上完电后需要完成一些初始化的工作才可以工作。
@@ -1773,7 +1773,7 @@ AIO-PX30-JD4 开发板带有一个MIPI camera，为MIPI_CSI,MIPI最高支持 326
 ### 接口效果图
 <center>
 
-![](../../../px30_img/mipi_csi.jpg)
+<img alt="" src="../../../px30_img/mipi_csi.jpg" width="700">
 </center>
 
 ### DTS配置
@@ -1833,7 +1833,7 @@ Android：
 * mipi接口
 <center>
 
-![](../../../px30_img/mipi_csi1.png)
+<img alt="" src="../../../px30_img/mipi_csi1.png" width="700">
 </center>
 
 * DVP_PWR 对应 PX30 的 GPIO1_B7;

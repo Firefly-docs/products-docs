@@ -28,14 +28,14 @@
 
 <center>
 
-![](../../../rk3399_img/module_camera_ov13850-2.jpg)
+<img alt="" src="../../../rk3399_img/module_camera_ov13850-2.jpg" width="700">
 </center>
 
 ### 连接方法
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_camera_connection.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_camera_connection.jpg" width="700">
 </center>
 
 ### 实拍图片
@@ -78,7 +78,7 @@ S5K4EC.zip
 
 <center>
 
-![](../../../rk3399_img/module_camera_s5k4ec.png)
+<img alt="" src="../../../rk3399_img/module_camera_s5k4ec.png" width="700">
 </center>
 
 

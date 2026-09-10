@@ -5,7 +5,7 @@
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/Core-1126-JD4-front.png)  
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/Core-1126-JD4-front.png" width="700">
 </center>
       
 
@@ -13,6 +13,6 @@ The [AIO-1126JD4](https://item.taobao.com/item.htm?id=670519903322) development 
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/AIO-1126JD4.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/AIO-1126JD4.png" width="700">
 </center>
  <a id="firmware-format"></a>

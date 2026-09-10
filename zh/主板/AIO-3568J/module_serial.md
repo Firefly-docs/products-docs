@@ -16,12 +16,12 @@
 
 <center>
 
-![](../../../rk356x_img/module_serial_list.jpg)
+<img alt="" src="../../../rk356x_img/module_serial_list.jpg" width="700">
 </center>
 
 ### 连接方法
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/debug_connection.jpg)
+<img alt="" src="../../../rk356x_img/Core-3568J/debug_connection.jpg" width="800">
 </center>

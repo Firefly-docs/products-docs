@@ -6,7 +6,7 @@ HAILO-8 是专为边缘计算设计的 M.2 AI 加速模块，提供最高 26 TOP
 
 <center>
 
-![](../../../modules_img/HAILO-8/hailo-8.jpg)
+<img alt="" src="../../../modules_img/HAILO-8/hailo-8.jpg" width="700">
 </center>
 
 **核心特点**

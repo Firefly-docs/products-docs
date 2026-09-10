@@ -11,7 +11,7 @@ The location of J2 is as follows:
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/rtc_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/rtc_interface.jpg" width="900">
 </center>
 
 

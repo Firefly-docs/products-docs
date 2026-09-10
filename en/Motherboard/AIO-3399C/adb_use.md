@@ -15,7 +15,7 @@ ADB (the full name is the Android Debug Bridge) is the command-line debugging to
 	
 <center>
 
-![](../../../rk3399_img/AIO-3399C/adb_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/adb_connection.jpg" width="700">
 </center>
 
 When the device-side status bar prompts `USB debugging connection', debugging can be carried out:

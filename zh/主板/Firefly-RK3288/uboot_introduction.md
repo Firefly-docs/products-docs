@@ -37,7 +37,7 @@ RK3288Loader_uboot_Vx.xx.xx.bin
 
 <center>
 
-![](../../../rk3288_img/uboot_download.jpg)  
+<img alt="" src="../../../rk3288_img/uboot_download.jpg" width="700">
 </center>
 
 ## 确认是否正确烧写新的 Loader

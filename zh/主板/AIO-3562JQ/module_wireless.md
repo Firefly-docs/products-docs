@@ -56,7 +56,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 <center>
 
-![](../../../rk3562_img/module_wireless_ec20_usb.jpg)
+<img alt="" src="../../../rk3562_img/module_wireless_ec20_usb.jpg" width="700">
 </center>
 
 
@@ -64,7 +64,7 @@ EC20 模组分带GNSS和不带GNSS两种，Firefly官网售卖的EC20 4G模组�
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/module_wireless_4G-EC20_MiniPCIe_AntWord.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/module_wireless_4G-EC20_MiniPCIe_AntWord.jpg" width="700">
 </center>
 
 

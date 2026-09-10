@@ -15,5 +15,5 @@ AIBOX-3588S has rich interfaces, mainly including:
 
 <center>
 
-![](../../../aibox_img/AIBOX-3588S/AIBOX-3588S-interface.png)
+<img alt="" src="../../../aibox_img/AIBOX-3588S/AIBOX-3588S-interface.png" width="900">
 </center>

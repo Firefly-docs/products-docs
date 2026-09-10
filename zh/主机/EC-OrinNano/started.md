@@ -3,10 +3,10 @@ EC-Orin Nano 搭载NVIDIA 官方原装 Jetson Orin Nano 核心板模组，拥有
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-Nano/EC-Orin.jpg)
+<img alt="" src="../../../bm1688_img/EC-Orin-Nano/EC-Orin.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-Nano/EC-Orin-back.jpg)
+<img alt="" src="../../../bm1688_img/EC-Orin-Nano/EC-Orin-back.jpg" width="700">
 </center>

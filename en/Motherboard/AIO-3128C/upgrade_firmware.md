@@ -74,14 +74,14 @@ When programming the firmware, you should use the dual male USB data cable. The 
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/AIO-3128C-OTG&USB.jpg)
+<img alt="" src="../../../rk3128_img/AIO-3128C/AIO-3128C-OTG&USB.jpg" width="700">
 </center>
 
 The host will prompt to have new device detected and configured. Open the Device Management, you'll find a new device name "Rockusb Device", as shown below. Return to previous step to reinstall driver if it is not shown.
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_rockusb_driver.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_rockusb_driver.png" width="700">
 </center>
 
 ### Firmware burning
@@ -92,7 +92,7 @@ Now, run AndroidTool.exe: (Note: If using Windows 7/8, you'll need to right clic
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_3128_tool_download.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_3128_tool_download.png" width="700">
 </center>
 
 #### Burn the unified firmware update.img
@@ -108,7 +108,7 @@ Steps of flashing update.img:
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_3128_tool_upgrade.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_3128_tool_upgrade.png" width="700">
 </center>
 
 #### Burn partition image
@@ -122,7 +122,7 @@ Steps of flashing partition images:
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_3128_tool_download.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_3128_tool_download.png" width="700">
 </center>
 
 ## Flash on linux
@@ -190,7 +190,7 @@ sudo dpkg -i rkflashkit_0.1.4_all.deb
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/Fireprime_rkflashkit.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/Fireprime_rkflashkit.png" width="700">
 </center>
 
 * Command line:

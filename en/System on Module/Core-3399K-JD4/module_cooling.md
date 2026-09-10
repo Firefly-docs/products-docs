@@ -15,14 +15,14 @@
 
 <center>
 
-![](../../../rk3399_img/module_cooling_radiator.en.jpg)
+<img alt="" src="../../../rk3399_img/module_cooling_radiator.en.jpg" width="700">
 </center>
 
 ### Installation
 
 <center>
 
-![](../../../rk3399_img/Core-3399-JD4/module_cooling_radiator_install.png)
+<img alt="" src="../../../rk3399_img/Core-3399-JD4/module_cooling_radiator_install.png" width="700">
 </center>
 
 

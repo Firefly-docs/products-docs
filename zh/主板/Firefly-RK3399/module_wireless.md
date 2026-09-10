@@ -51,7 +51,7 @@ SLM630B USB 4G 模组补丁链接：[补丁](https://pan.baidu.com/s/1qYDl7as)
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_wireless_slm630b.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_wireless_slm630b.png" width="700">
 </center>
 
 ### 连接方法
@@ -60,19 +60,19 @@ SLM630B USB 4G 模组补丁链接：[补丁](https://pan.baidu.com/s/1qYDl7as)
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_wireless_aerial.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_wireless_aerial.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_wireless_usb.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_wireless_usb.png" width="700">
 </center>
 
 * Mini-PCIe 接口连接
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_wireless_mini-pcie.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_wireless_mini-pcie.jpg" width="700">
 </center>
 
 ##  [EC20 4G 模组套件](https://store.t-firefly.com/goods.php?id=49)
@@ -125,7 +125,7 @@ SLM630B USB 4G 模组补丁链接：[补丁](https://pan.baidu.com/s/1qYDl7as)
 
 <center>
 
-![](../../../rk3399_img/module_wireless_gps.png)
+<img alt="" src="../../../rk3399_img/module_wireless_gps.png" width="700">
 </center>
 
 ### 参考固件

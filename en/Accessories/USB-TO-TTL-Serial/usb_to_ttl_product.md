@@ -2,13 +2,13 @@
 ## Product introduction
 <center>
 
-![](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_en.png)
+<img alt="" src="../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_en.png" width="700">
 </center>
 
 ## Shipping list
 <center>
 
-![](../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_shop_list_en.png)
+<img alt="" src="../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_shop_list_en.png" width="700">
 </center>
 
 ## Detailed parameters

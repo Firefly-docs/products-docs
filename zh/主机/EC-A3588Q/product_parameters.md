@@ -1,12 +1,12 @@
 ## 产品参数
 <center>
 
-![](../../../rk3588_img/EC-A3588Q/zh_args.png)
+<img alt="" src="../../../rk3588_img/EC-A3588Q/zh_args.png" width="700">
 </center>
 
 ## 主机尺寸
 <center>
 
-![](../../../rk3588_img/EC-A3588Q/size.png)
+<img alt="" src="../../../rk3588_img/EC-A3588Q/size.png" width="900">
 </center>
 

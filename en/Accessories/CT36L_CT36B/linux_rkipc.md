@@ -54,11 +54,11 @@ After obtaining the IP address, enter the IP address of the device in the PC bro
 
 <center>
 
-![](../../../rv1106_img/CT36L/login_in.png)
+<img alt="" src="../../../rv1106_img/CT36L/login_in.png" width="800">
 </center>
 
 The preview effect is as follows:
 <center>
 
-![](../../../rv1106_img/CT36L/web_preview.png)
+<img alt="" src="../../../rv1106_img/CT36L/web_preview.png" width="800">
 </center>

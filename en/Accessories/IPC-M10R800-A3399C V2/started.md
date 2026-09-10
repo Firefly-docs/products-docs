@@ -14,23 +14,23 @@ HD image.
 
 <center>
 
-![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_1_en.jpg)
+<img alt="" src="../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_1_en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_2_en.jpg)
+<img alt="" src="../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_2_en.jpg" width="700">
 </center>
 
 ## Product parameters
 
 <center>
 
-![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s1_en.jpg)
+<img alt="" src="../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s1_en.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s2_en.jpg)
+<img alt="" src="../../../rk3399_img/IPC-M10R800-A3399C-V2/ipc-3399c_v2_s2_en.jpg" width="700">
 </center>
 
 ## Product resources

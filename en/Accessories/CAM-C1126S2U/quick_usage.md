@@ -53,14 +53,14 @@ Method 1: Host computer deployment and debugging steps:
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_login.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_login.png" width="800">
    </center>
 
 7. After logging in, select Device Activation. Please contact the business department to purchase the activation code.
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_activate.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/ArcFaceGo_activate.png" width="700">
    </center>
 8. After activating the device, click [Personnel Management-->Personnel Registration] on the Web backend management platform to perform face registration. Perform face registration.
 
@@ -78,7 +78,7 @@ When the device is connected to a MIPI screen, you will first see the Firefly st
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/authorization.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/authorization.png" width="700">
 </center>
 
 ## AI_UVC Firmware
@@ -113,19 +113,19 @@ Official test uses Windows 10 system. Test steps are as follows:
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/arcsetting.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/arcsetting.png" width="700">
    </center>
 
 8. Successful recognition, after successful registration, you can return to the preview page to view the effect:</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png" width="700">
    </center>
 
 9. Recognition record, after the face is recognized, it will be recorded in the background:</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/arcuvc_log.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/arcuvc_log.png" width="700">
    </center>
 
 ### Android
@@ -144,56 +144,56 @@ Official test uses RK3399 Andorid 7.1. Test steps are as follows:
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/androi_activation.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_activation.png" width="700">
    </center>
 
 6. Preview, after successful authorization, return to the preview screen to see that the face recognition function has been activated:</br>
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/android_detect1.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/android_detect1.png" width="800">
    </center>
 
 7. Settings, click the gear in the upper right corner of the preview interface to enter the settings interface, the default administrator password is `123456`:</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/android_password.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/android_password.png" width="800">
    </center>
 
 8. Change your company's `logo` and `company name`:</br>
 
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/androi_info.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_info.png" width="700">
    </center>
 
 9. Configure your own recognition parameters according to your needs:</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/android_setting.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/android_setting.png" width="800">
    </center>
 
 10. Click the face registration in the upper right corner to register your first face:</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/androi_register.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_register.png" width="700">
    </center>
 
 11. After successful registration, return to the preview interface to view the effect:</br>
    <center>
 
-   ![](../../../rv1126_img/CAM-C1126S2U/android_detect2.png)
+   <img alt="" src="../../../rv1126_img/CAM-C1126S2U/android_detect2.png" width="800">
    </center>
 
 12. You can enter the settings to browse the recognition success and failure records:</br>
     <center>
 
-    ![](../../../rv1126_img/CAM-C1126S2U/androi_log1.png)
+    <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_log1.png" width="700">
     </center>
 
     <center>
 
-    ![](../../../rv1126_img/CAM-C1126S2U/androi_log2.png)
+    <img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_log2.png" width="700">
     </center>
 
 ## Application Authorization
@@ -212,7 +212,7 @@ Whether you use ` Windows ` or ` Android ` for activation, you will enter an int
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/androi_activation.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/androi_activation.png" width="700">
 </center>
 
 
@@ -227,7 +227,7 @@ Whether you use ` Windows ` or ` Android ` for activation, you will enter an int
 1. Prepare a TYPE-C cable. Connect one end of the TYPE-C cable to the USB port of the computer and the other end to the USB OTG debugging interface. The wiring is as shown below:
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/upgrade_otg_interface.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/upgrade_otg_interface.jpg" width="900">
 </center>
 2. Install ADB based on your system.
 

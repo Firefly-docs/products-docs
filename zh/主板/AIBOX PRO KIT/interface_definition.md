@@ -25,14 +25,14 @@ PS: 如上接口为3588支持，如果核心板使用3576，则硬件上无法�
 
 <center>
 
-![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-up.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-up.png" width="700">
 </center>
 <center>
 
-![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-front.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-front.png" width="700">
 </center>
 <center>
 
-![](../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-down.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/AIBOX-PRO-KIT-down.png" width="700">
 </center>
 > 注：加速卡电源目前只用于1828模块，其他模块无需接入。

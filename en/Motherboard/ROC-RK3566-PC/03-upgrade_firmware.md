@@ -52,7 +52,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 #### Install RK USB drive
@@ -86,7 +86,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_new_equipment.png)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_new_equipment.png" width="800">
 </center>
 
 ### Linux
@@ -115,7 +115,7 @@ Determine the board ROC-RK3566-PC before upgrading unified firmware update.img w
 
 <center>
 
-![](../../../rk356x_img/ROC-RK3566-PC/nor_flash-position.jpg)
+<img alt="" src="../../../rk356x_img/ROC-RK3566-PC/nor_flash-position.jpg" width="700">
 </center>
 
 If the board has Nor Flash, please refer to chapter [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md) for upgrading, else please follow the steps below to continue: 
@@ -159,7 +159,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux
@@ -225,7 +225,7 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk356x_img/upgrade_downloadfail.png)
+<img alt="" src="../../../rk356x_img/upgrade_downloadfail.png" width="800">
 </center>
 
 ### 3. Has Spi Flash(Nor Flash)，After MaskRom，Download failure

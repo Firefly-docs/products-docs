@@ -6,7 +6,7 @@ Core-3588J The following figure shows the serial port of the hardware version：
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_adc_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_adc_interface.jpg" width="900">
 </center>
 
 ## Introduction

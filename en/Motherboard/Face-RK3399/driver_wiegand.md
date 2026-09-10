@@ -61,7 +61,7 @@ The following is the connection diagram of control relay with D0, D1, IO port. N
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/module_D0_D1.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/module_D0_D1.png" width="700">
 </center>
 
 ## V2 Wiegand and relay

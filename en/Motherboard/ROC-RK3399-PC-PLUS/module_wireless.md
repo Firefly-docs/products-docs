@@ -56,7 +56,7 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/module_wireless_usb.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/module_wireless_usb.jpg" width="700">
 </center>
 
 
@@ -138,7 +138,7 @@ The official website of the public version of the default firmware support EC200
 
 <center>
 
-![](../../../rk3399_img/module_wireless_gps_delincomm_en.jpg)
+<img alt="" src="../../../rk3399_img/module_wireless_gps_delincomm_en.jpg" width="700">
 </center>
 
 The parameters of each module model of this series will be different, please refer to [DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
@@ -171,7 +171,7 @@ The new firmware of the public version supports GPS module by default, but it ne
 
 <center>
 
-![](../../../rk3399_img/module_wireless_gps.en.jpg)
+<img alt="" src="../../../rk3399_img/module_wireless_gps.en.jpg" width="700">
 </center>
 
 #### Interface Definition

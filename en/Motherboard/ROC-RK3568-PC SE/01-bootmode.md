@@ -11,7 +11,7 @@ ROC-RK3568-PC-SE has 2 working modes. Under normal circumstances, boot directly 
 
 <center>
 
-![](../../../rk356x_img/working_mode_en.png)
+<img alt="" src="../../../rk356x_img/working_mode_en.png" width="700">
 </center>
 
 **ROC-RK3568-PC-SE is classified according to the working mode and can be divided into two working modes:**

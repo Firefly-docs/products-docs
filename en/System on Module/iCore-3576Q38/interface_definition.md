@@ -20,12 +20,12 @@
 The details are shown below:
 <center>
 
-![](../../../rk3576_img/iCore-3576Q38/interface_front_en.png)
+<img alt="" src="../../../rk3576_img/iCore-3576Q38/interface_front_en.png" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/iCore-3576Q38/interface_back_en.png)
+<img alt="" src="../../../rk3576_img/iCore-3576Q38/interface_back_en.png" width="900">
 </center>
 
 

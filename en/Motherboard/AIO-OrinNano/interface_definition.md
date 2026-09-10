@@ -20,9 +20,9 @@ The AIO-Orin Nano interface is rich and mainly includes:
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-en-01.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-en-01.png" width="900">
 </center>
 <center>
 
-![](../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-en-02.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-Nano/AIO-Orin-interface-en-02.png" width="900">
 </center>

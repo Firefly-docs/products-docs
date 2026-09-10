@@ -38,12 +38,12 @@
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/interface_front.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/interface_front.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/interface_back.png)
+<img alt="" src="../../../rk3588_img/Core-3588J/interface_back.png" width="900">
 </center>
 
 [ITX-3588J  旧版本接口定义](interface_definition_old.md)

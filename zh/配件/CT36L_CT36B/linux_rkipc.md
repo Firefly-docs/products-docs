@@ -54,11 +54,11 @@ rtsp://（你的设备的IP地址）/live/0
 
 <center>
 
-![](../../../rv1106_img/CT36L/login_in.png)
+<img alt="" src="../../../rv1106_img/CT36L/login_in.png" width="800">
 </center>
 
 预览效果如下：
 <center>
 
-![](../../../rv1106_img/CT36L/web_preview.png)
+<img alt="" src="../../../rv1106_img/CT36L/web_preview.png" width="800">
 </center>

@@ -11,7 +11,7 @@ Face recognition and RTSP streaming can be realized on the device, and the strea
 
 <center>
 
-![](../../../rv1126_img/C40PL/web.png)
+<img alt="" src="../../../rv1126_img/C40PL/web.png" width="800">
 </center>
 
 ## License plate recognition webcam
@@ -20,11 +20,11 @@ License plate or vehicle recognition and RTSP streaming can be realized on the d
 
 <center>
 
-![](../../../rv1126_img/C40PL/car1.png)
+<img alt="" src="../../../rv1126_img/C40PL/car1.png" width="700">
 </center>
 
 <center>
 
-![](../../../rv1126_img/C40PL/car2.png)
+<img alt="" src="../../../rv1126_img/C40PL/car2.png" width="700">
 </center>
 

@@ -6,7 +6,7 @@ SPI 是一种高速的，全双工，同步串行通信接口，用于连接微�
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_spi_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_spi_interface.jpg" width="900">
 </center>
 
 ## SPI 工作方式

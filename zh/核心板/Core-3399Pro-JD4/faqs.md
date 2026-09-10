@@ -10,7 +10,7 @@ I2S1信号脚位改接I2S0(Core-3399Pro-JD4没有引出I2S1)，I2C和I2S_CLK不�
 </center>
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/5640_pcb.png)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/5640_pcb.png" width="700">
 </center>
 
 软件修改如下:
@@ -64,7 +64,7 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/faqs_android_root.png" width="800">
 </center>
 
 ## 开机异常并循环重启怎么办？

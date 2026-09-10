@@ -28,14 +28,14 @@ CMK-OV13850 camera module is supported by default in public firmware.
 
 <center>
 
-![](../../../rk3399_img/module_camera_ov13850-2.jpg)
+<img alt="" src="../../../rk3399_img/module_camera_ov13850-2.jpg" width="700">
 </center>
 
 ### Connection Method
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/module_camera_connection.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/module_camera_connection.jpg" width="700">
 </center>
 
 ### Renderings
@@ -73,6 +73,6 @@ In additon, The driver of the S5K4EC camera module can be downloaded directly he
 
 <center>
 
-![](../../../rk3399_img/module_camera_s5k4ec.png)
+<img alt="" src="../../../rk3399_img/module_camera_s5k4ec.png" width="700">
 </center>
 

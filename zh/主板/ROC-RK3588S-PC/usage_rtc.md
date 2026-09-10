@@ -16,7 +16,7 @@ ROC-RK3588S-PC 添加电容供电给RTC如下图，可以在短时间内保证RT
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588S-PC/usage_rtc_capacitor.jpg)
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/usage_rtc_capacitor.jpg" width="800">
 </center>
 
 ## RTC驱动

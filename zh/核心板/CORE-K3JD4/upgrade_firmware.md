@@ -47,7 +47,7 @@
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/upgrade_firmware_titanflasher_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_titanflasher_zh.png" width="800">
 </center>
 
 
@@ -99,7 +99,7 @@ fastboot 0
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/upgrade_firmware_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_zh.png" width="800">
 </center>
 
 #### 烧写分区映像
@@ -113,7 +113,7 @@ fastboot 0
 
 <center>
 
-![](../../../aibox_img/AIBOX-K3/upgrade_firmware_part_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_part_zh.png" width="800">
 </center>
 
 ## 常见问题

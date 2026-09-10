@@ -7,19 +7,19 @@ IPC-M10R800-A3568J 工业级行业平板，基于 AIO-3568J 高性能开源平�
 
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info01.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info01.png" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info02.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info02.png" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info03.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info03.png" width="700">
 </center>
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info04.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_info04.png" width="700">
 </center>
 
 ## 产品参数
@@ -31,7 +31,7 @@ IPC-M10R800-A3568J 工业级行业平板，基于 AIO-3568J 高性能开源平�
 ## SATA安装
 <center>
 
-![](../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_sata.png)
+<img alt="" src="../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_sata.png" width="700">
 </center>
 
 ## 产品资源

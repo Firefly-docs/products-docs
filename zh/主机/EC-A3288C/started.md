@@ -7,17 +7,17 @@ EC-A3288C采用RK3288四核Cortex-A17处理器，主频高达1.8GHz，集成四�
 
 <center>
 
-![](../../../rk3288_img/EC-A3288C/ec-a3288c_front.png)
+<img alt="" src="../../../rk3288_img/EC-A3288C/ec-a3288c_front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/EC-A3288C/ec-a3288c_back.png)
+<img alt="" src="../../../rk3288_img/EC-A3288C/ec-a3288c_back.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3288_img/EC-A3288C/ec-a3288c_more.jpg)
+<img alt="" src="../../../rk3288_img/EC-A3288C/ec-a3288c_more.jpg" width="700">
 </center>
 
 

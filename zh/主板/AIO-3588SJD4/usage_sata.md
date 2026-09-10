@@ -5,11 +5,11 @@ AIO-3588SJD4  开发板上有 1 个 SATA 接口和 1 个 M.2 SATA 接口
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_sata_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_sata_interface.jpg" width="900">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_sata2_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_sata2_interface.jpg" width="900">
 </center>
 
 注意事项：

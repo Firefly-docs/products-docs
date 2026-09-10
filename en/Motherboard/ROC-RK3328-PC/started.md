@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3328-PC/hw_board_interface_top_en.png)
+<img alt="" src="../../../rk3399_img/ROC-RK3328-PC/hw_board_interface_top_en.png" width="900">
 </center>
 
 - Core

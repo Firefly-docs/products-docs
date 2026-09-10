@@ -3,10 +3,10 @@ EC-Orin NX is equipped with the official NVIDIA Jetson Orin NX core board module
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-NX/EC-Orin.jpg)
+<img alt="" src="../../../bm1688_img/EC-Orin-NX/EC-Orin.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-NX/EC-Orin-back.jpg)
+<img alt="" src="../../../bm1688_img/EC-Orin-NX/EC-Orin-back.jpg" width="700">
 </center>

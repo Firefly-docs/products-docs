@@ -2,7 +2,7 @@
 ## 1.1 Product introduction
 <center>
 
-![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_en.png)
+<img alt="" src="../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_en.png" width="700">
 </center>
 
 ## 1.2 Detailed parameters
@@ -24,14 +24,14 @@
 
 <center>
 
-![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect.jpg)
+<img alt="" src="../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect.jpg" width="700">
 </center>
 
 ### 2.1.2 40pin MIPI DSI Interface Connection
 
 <center>
 
-![](../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect_40pin.png)
+<img alt="" src="../../../modules_img/DM-M10R800-V3S/dm-m10r800-v3s_connect_40pin.png" width="700">
 </center>
 
 Connection instructions:

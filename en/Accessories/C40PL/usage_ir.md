@@ -29,7 +29,7 @@ Enter the IP address in the PC browser. Click [Configuration-->System-->System S
 
 <center>
 
-![](../../../rv1126_img/C40PL/ircut.png)
+<img alt="" src="../../../rv1126_img/C40PL/ircut.png" width="700">
 </center>
 
 ## Code directory

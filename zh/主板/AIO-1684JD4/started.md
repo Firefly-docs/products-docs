@@ -55,7 +55,7 @@ AIO-1684JD4 主板由核心板 Core-1684JD4 + 底板 MB-JD4-BM1684 组成，AIO-
 - 发货清单参考
 <center>
 
-![](../../../bm1684_img/AIO-1684JD4/started_components.jpg)
+<img alt="" src="../../../bm1684_img/AIO-1684JD4/started_components.jpg" width="700">
 </center>
 
 

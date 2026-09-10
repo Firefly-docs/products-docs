@@ -3,6 +3,6 @@
 
 <center>
 
-![](../../../qcom_img/EC-A8550JD4/ec-a8550jd4.jpg)
+<img alt="" src="../../../qcom_img/EC-A8550JD4/ec-a8550jd4.jpg" width="700">
 </center>
 

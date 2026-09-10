@@ -8,13 +8,13 @@ Front:
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-front.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-front.png" width="700">
 </center>
 
 Back:
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-back.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/AIO-1126BJD4V0-back.png" width="700">
 </center>
  <a id="firmware-format"></a>

@@ -5,7 +5,7 @@ With RK3566 quad-core 64-bit Cortex-A55 processor, features 22nm lithography pro
 
 <center>
 
-![](../../../rk356x_img/Station-M2/station_m2.png)
+<img alt="" src="../../../rk356x_img/Station-M2/station_m2.png" width="700">
 </center>
 
 

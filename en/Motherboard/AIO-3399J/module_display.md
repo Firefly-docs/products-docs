@@ -39,7 +39,7 @@ Using official SDK to compile firmware that support 7.85 inch screen firmware ne
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/module_display_mipi_connection.en.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/module_display_mipi_connection.en.jpg" width="700">
 </center>
 
 ## [10.1" LVDS module](https://www.firefly.store/products)
@@ -85,13 +85,13 @@ Use the following command when compiling the 10.1-inch screen firmware supported
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/module_display_lvds_old.en.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/module_display_lvds_old.en.jpg" width="700">
 </center>
 
 * New version wiring diagram:
 
 <center>
 
-![](../../../rk3399_img/AIO-3399J/module_display_lvds_new.en.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399J/module_display_lvds_new.en.jpg" width="700">
 </center>
 

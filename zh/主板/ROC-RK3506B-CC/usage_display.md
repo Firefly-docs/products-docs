@@ -19,7 +19,7 @@ ROC-RK3506B-CC 有一路 MIPI DSI 显示输出接口，支持 2 Lane 的数据�
 * DSI 接口
 <center>
 
-![](../../../rk3506_img/ROC-RK3506B-CC/usage_display_mipi_v3_interface.png)
+<img alt="" src="../../../rk3506_img/ROC-RK3506B-CC/usage_display_mipi_v3_interface.png" width="900">
 </center>
 
 在设备树上添加：

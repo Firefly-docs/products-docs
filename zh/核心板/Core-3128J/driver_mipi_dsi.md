@@ -183,7 +183,7 @@ disp_timings: display-timings {
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/MIPI_DSI.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/MIPI_DSI.png" width="700">
 </center>
 
 ### dsihost配置

@@ -9,7 +9,7 @@ The baseboard has hardware foundations such as `Ethernet interface`, `MIPI-CSI`,
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/web.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/web.png" width="800">
 </center>
 
 ## Face Recognition Gate
@@ -18,14 +18,14 @@ The device has reserved two sets of `MIPI-CSI` interfaces, which can adapt to RG
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/facial_gate.jpg)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/facial_gate.jpg" width="700">
 </center>
 
 Facial recognition gate web management interface
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/facial_gate_web.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/facial_gate_web.png" width="800">
 </center>
 
 ## Cluster Edge Computing

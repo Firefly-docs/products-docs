@@ -89,7 +89,7 @@ Steps of flashing update.img:
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/upgrade_firmware4.en.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/upgrade_firmware4.en.png" width="800">
 </center>
 
 <font color=#ff0000>If the upgrade fails, Maybe the version of firmware you flash is different from version of the original machine, you can try to erase the Flash by pressing the "EraseFlash" button before upgrading. .</font>
@@ -111,7 +111,7 @@ Steps of flashing partition images:
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/upgrade_firmware3.en.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/upgrade_firmware3.en.png" width="800">
 </center>
 
 <a id="upgrade-tool"></a>

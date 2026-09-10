@@ -11,7 +11,7 @@ EC-R3588SPC supports one relay output where ON corresponds to OUTPUT1 in the har
 ### schematic diagram
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/output_sch.jpg)
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/output_sch.jpg" width="700">
 </center>
 
 ### control

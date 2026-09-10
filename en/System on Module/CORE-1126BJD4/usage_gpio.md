@@ -15,7 +15,7 @@ GPIO group number calculation formula：number = group * 8 + X
 ```
 <center>
 
-![](../../../rv1126b_img/CORE-1126BJD4/usage_gpio.png)
+<img alt="" src="../../../rv1126b_img/CORE-1126BJD4/usage_gpio.png" width="800">
 </center>
 The following demonstrates the GPIO1_B7 pin calculation method:
 

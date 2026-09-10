@@ -4,7 +4,7 @@ EC-Orin Nano 支持 4G LTE, 在系统设置处，有多种网络形式，可以�
 
 <center>
 
-![](../../../bm1688_img/EC-Orin-Nano/4G.png)
+<img alt="" src="../../../bm1688_img/EC-Orin-Nano/4G.png" width="700">
 </center>
 
 在命令行生成网卡：

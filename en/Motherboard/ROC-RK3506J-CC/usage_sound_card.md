@@ -8,7 +8,7 @@ EarPhone and Speak both use dual-channel interfaces
 * The interface of Speak is as follows:
 <center>
 
-![](../../../rk3506_img/ROC-RK3506J-CC/usage_speak.png)
+<img alt="" src="../../../rk3506_img/ROC-RK3506J-CC/usage_speak.png" width="800">
 </center>
 
 Use aplay command to play wav format audio
@@ -22,7 +22,7 @@ aplay /path-to/audio-name.wav
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506J-CC/usage_mic.png)
+<img alt="" src="../../../rk3506_img/ROC-RK3506J-CC/usage_mic.png" width="800">
 </center>
 
 * Mic is turned off by default. You need to turn it on when you use it. To do this, follow the steps below.

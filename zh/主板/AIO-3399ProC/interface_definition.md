@@ -43,5 +43,5 @@ AIO-3399ProC 提供了丰富的接口，主要包括：
 具体如下图：
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/interface.jpg" width="900">
 </center>

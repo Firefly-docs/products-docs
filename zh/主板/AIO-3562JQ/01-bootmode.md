@@ -7,7 +7,7 @@ AIO-3562JQ 有 2 种工作模式。一般情况下，开机直接进入`Normal �
 
 <center>
 
-![](../../../rk3562_img/working_mode.png)
+<img alt="" src="../../../rk3562_img/working_mode.png" width="700">
 </center>
 
 ## Normal 模式

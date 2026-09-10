@@ -34,7 +34,7 @@ Face-RK3399 serial port connection diagram:
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/uart2.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/uart2.jpg" width="700">
 </center>
 
 2. V2 hardware version:
@@ -87,11 +87,11 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 
 <center>
 
-![](../../../rk3399_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../rk3399_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../rk3399_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../rk3399_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ## Use serial debug on Ubuntu

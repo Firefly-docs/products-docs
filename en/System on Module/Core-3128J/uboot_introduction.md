@@ -30,7 +30,7 @@ RK3128MiniLoaderAll(L)_V2.20.bin and uboot.img use the feature of two stages boo
 Open the burn tool, connect the USB OTG cable to the board, press and hold the Recovery button when connecting to power supply, so that the development board enters the U-Boot download mode. Select the required Loader file in the burn tool and click Run, which is shown as below:
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_tool_uboot.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/win_tool_uboot.png" width="700">
 </center>
 
 ## Confirm whether the new Loader is properly programmed

@@ -24,7 +24,7 @@ Additionally, the following accessories or devices are needed:
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/started_shipping_list.en.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/started_shipping_list.en.png" width="700">
 </center>
 
 

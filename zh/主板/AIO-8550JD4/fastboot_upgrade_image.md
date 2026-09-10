@@ -10,7 +10,7 @@ sudo systemctl reboot bootloader
 
 <center>
 
-![](../../../qcom_img/AIO-8550JD4/download_port.jpg)
+<img alt="" src="../../../qcom_img/AIO-8550JD4/download_port.jpg" width="700">
 </center>
 
 ### 确认是否成功

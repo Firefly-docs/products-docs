@@ -10,7 +10,7 @@ AIO-3588MQ  开发板为了方便用户开发使用，引出了一排扩展的GP
 
 <center>
 
-![](../../../rk3588_img/iCore-3588MQ/usage_gpio_interface.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588MQ/usage_gpio_interface.jpg" width="900">
 </center>
 <font color=red>注意：GPIO2_C3 在底板版本 V1.1 及以上版本 是没有引到图中的扩展引脚的 </font>
 

@@ -6,7 +6,7 @@ HAILO-8 is an M.2 AI accelerator module designed for edge computing. It delivers
 
 <center>
 
-![](../../../modules_img/HAILO-8/hailo-8.jpg)
+<img alt="" src="../../../modules_img/HAILO-8/hailo-8.jpg" width="700">
 </center>
 
 **Key Features**

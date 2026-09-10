@@ -43,7 +43,7 @@ Face-RK3399开发板的串口接口图如下：
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/module_uart_485.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/module_uart_485.png" width="700">
 </center>
 
 ## RS485调试方法

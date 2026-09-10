@@ -16,7 +16,7 @@
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BJD4V0/upgrade_maskrom_key.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/upgrade_maskrom_key.png" width="800">
 </center>
 
 
@@ -27,7 +27,7 @@
 
 <center>
 
-![](../../../rv1126b_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rv1126b_img/common/upgrade_maskrom_zh.png" width="800">
 </center>
 
 注意：如果按照上述操作执行，最终 Windows PC 烧写工具还是没发现到 MASKROM 设备，这就要检查下 Windows PC 的软件驱动是否安装到最新版本。

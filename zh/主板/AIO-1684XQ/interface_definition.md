@@ -22,7 +22,7 @@ AIO-1684XQ 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../bm1684_img/AIO-1684XQ/interface_front.png)
+<img alt="" src="../../../bm1684_img/AIO-1684XQ/interface_front.png" width="900">
 </center>
 
 <center>
@@ -36,5 +36,5 @@ AIO-1684XQ 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../bm1684_img/AIO-1684XQ/4g_antenna_connection.jpg)
+<img alt="" src="../../../bm1684_img/AIO-1684XQ/4g_antenna_connection.jpg" width="700">
 </center>

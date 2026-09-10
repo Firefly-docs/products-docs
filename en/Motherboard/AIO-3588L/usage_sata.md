@@ -9,7 +9,7 @@ The default software is configured as M.2 SATA3.0 interface, which supports the 
 
 <center>
 
-![](../../../rk3588_img/Core-3588L/usage_sata_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588L/usage_sata_interface.png" width="900">
 </center>
 
 ## Software configuration
@@ -21,7 +21,7 @@ Select the option SATA or PCIe that needs to take effect
 
  <center>
 
- ![](../../../rk3588_img/Core-3588L/swtich_sata_pcie.jpg)
+ <img alt="" src="../../../rk3588_img/Core-3588L/swtich_sata_pcie.jpg" width="700">
  </center>
 
  The modification will take effect only after the system is restarted

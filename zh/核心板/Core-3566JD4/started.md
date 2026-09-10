@@ -5,14 +5,14 @@ Core-3566JD4 主控采用Rockchip RK3566四核处理器，集成双核心架构G
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/front.png)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/front.png" width="700">
 </center>
 
 AIO-3566JD4开发板由核心板Core-3566JD4+底板MB-JD4-RK3566组成, AIO-3566JD4拥有RGMII、PCIE3.0、USB3.0、I2C、SPI、UART、GPIO、MIPI-DSI等丰富接口，可直接应用到各种智能产品中，加速产品落地
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/AIO-3566JD4.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/AIO-3566JD4.jpg" width="700">
 </center>
 
 ## AIO-3566JD4标准套装包含以下配件(仅供参考):

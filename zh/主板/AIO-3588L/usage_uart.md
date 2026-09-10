@@ -6,7 +6,7 @@ AIO-3588L 硬件版本的串口接口图如下：
 
 <center>
 
-![](../../../rk3588_img/Core-3588L/usage_uart_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588L/usage_uart_interface.png" width="900">
 </center>
 
 ## DTS配置

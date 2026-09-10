@@ -44,12 +44,12 @@ AIO-3399C 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/interface_front.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/interface_front.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/interface_reverse.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/interface_reverse.jpg" width="900">
 </center>
 
 *另外* 客户也可以根据需要定制相关功能接口的板子，如下图所示：
@@ -70,5 +70,5 @@ AIO-3399C 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../rk3399_img/AIO-3399C/interface_with_npu.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399C/interface_with_npu.jpg" width="900">
 </center>

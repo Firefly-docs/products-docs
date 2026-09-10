@@ -20,14 +20,14 @@
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/maskrom_test_points.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/maskrom_test_points.jpg" width="700">
 </center>
 
 板子同时贴有NOR flash，若EMMC为空，而NOR flash中有烧录过文件，则需要短接NOR flash附近的D0和GND测试点进入Maskrom模式。此时升级固件需要参考章节[切换升级存储器](03-upgrade_firmware_with_flash)
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/maskrom_test_points_flash.png)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/maskrom_test_points_flash.png" width="700">
 </center>
 
 
@@ -36,5 +36,5 @@
 
 <center>
 
-![](../../../rk356x_img/maskrom_zh.png)
+<img alt="" src="../../../rk356x_img/maskrom_zh.png" width="700">
 </center>

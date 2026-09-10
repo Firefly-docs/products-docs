@@ -13,7 +13,7 @@ AIO-3588Q  has an HDMI-IN interface, which supports the standard HDMI2.0 protoco
 The interface diagram is as follows:
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_hdmiin_interface.jpg)  
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_hdmiin_interface.jpg" width="900">
 </center>
 
 Currently, there are APK and command methods to debug HDMI-IN functions.
@@ -23,7 +23,7 @@ Currently, there are APK and command methods to debug HDMI-IN functions.
 By default, the Android system of AIO-3588Q  have two APKs,one named **Live Tv**, another named **RockchipCamera2**,as shown below:
 <center>
 
-![](../../../rk3588_img/common/usage_hdmiin_rk3588_apk.png)  
+<img alt="" src="../../../rk3588_img/common/usage_hdmiin_rk3588_apk.png" width="800">
 </center>
 
 Directly click on the APK to display the video input of HDMI-IN, and the audio input of HDMI-IN will be output from the AIO-3588Q  headphone, HDMI, Display Port and other interfaces.

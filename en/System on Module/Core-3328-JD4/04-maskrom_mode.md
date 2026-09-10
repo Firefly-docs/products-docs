@@ -15,7 +15,7 @@ Please follow the steps indicated below:
 1. Find the solder joint (CLK, GND) reserved for AIO-RK3328-JD4, on the front of the development board, as shown below:
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/maskrom_point.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/maskrom_point.png" width="700">
 </center>
 2. Disconnect all power supply to the device.
 3. Unplug the SD card.
@@ -28,5 +28,5 @@ Then the device will enter MaskRom mode.
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/Maskrom_mode.png)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/Maskrom_mode.png" width="700">
 </center>

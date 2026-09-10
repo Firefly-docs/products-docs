@@ -15,7 +15,7 @@
 
 <center>
 
-![](../../../rk3399_img/module_cooling_radiator.en.jpg)
+<img alt="" src="../../../rk3399_img/module_cooling_radiator.en.jpg" width="700">
 </center>
 
 

@@ -7,7 +7,7 @@ ROC-RK3588-RT 开发板上有 1 个 M.2 接口。
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png)
+<img alt="" src="../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png" width="900">
 </center>
 
 ## 软件配置

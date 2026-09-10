@@ -20,7 +20,7 @@ mode, 拆分为csi2_dphy0/csi2_dphy1/csi2_dphy2三个逻辑dphy(参见rk3568.dts
 
 <center>
 
-![](../../../rk356x_img/rk356x_mipi_csi_mode.png)
+<img alt="" src="../../../rk356x_img/rk356x_mipi_csi_mode.png" width="700">
 </center>
 
 简单点来讲，如果用单目摄像头我们可以配置full mode，若使用双目摄像头我们可以配置split mode

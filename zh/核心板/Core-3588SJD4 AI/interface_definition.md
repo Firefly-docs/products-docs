@@ -34,14 +34,14 @@ AIO-3588SJD4-AI 提供了丰富的接口，主要包括：
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4-AI/interface_front_cn.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4-AI/interface_front_cn.jpg" width="900">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4-AI/interface_back_cn.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4-AI/interface_back_cn.jpg" width="900">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4-AI/interface_io_cn.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4-AI/interface_io_cn.jpg" width="900">
 </center>
 

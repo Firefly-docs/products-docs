@@ -7,7 +7,7 @@ AIO-1684JD4 可以使用 RS232 转 USB 接到 PC 机进行串口调试：
 
 <center>
 
-![](../../../bm1684_img/AIO-1684JD4/rs232_connection.png)
+<img alt="" src="../../../bm1684_img/AIO-1684JD4/rs232_connection.png" width="700">
 </center>
 
 
@@ -34,11 +34,11 @@ Windows 上一般用 putty 或 SecureCRT 软件。其中我们推荐使用 MobaX
 
 <center>
 
-![](../../../bm1684_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../bm1684_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../bm1684_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../bm1684_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ### Linux 上使用串口调试

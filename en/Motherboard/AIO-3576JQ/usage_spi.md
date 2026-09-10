@@ -6,7 +6,7 @@ SPI is a high-speed, full-duplex, synchronous serial communication interface for
 
 <center>
 
-![](../../../rk3576_img/iCore-3576JQ/usage_spi_interface.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576JQ/usage_spi_interface.jpg" width="900">
 </center>
 
 

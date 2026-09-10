@@ -24,6 +24,6 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/started_shipping_list.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/started_shipping_list.jpg" width="700">
 </center>
  <a id="firmware-format"></a>

@@ -45,7 +45,7 @@
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/size.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/size.png" width="900">
 </center>
 
 ## Peripheral Interface
@@ -56,10 +56,10 @@
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/interface-0.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/interface-0.png" width="900">
 </center>
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/interface-2.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/interface-2.png" width="900">
 </center>

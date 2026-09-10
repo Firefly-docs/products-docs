@@ -13,6 +13,6 @@
 # SATA install
 <center>
 
-![](../../../rk356x_img/Station-P2/station_p2_zh_Install.png)
+<img alt="" src="../../../rk356x_img/Station-P2/station_p2_zh_Install.png" width="700">
 </center>
 

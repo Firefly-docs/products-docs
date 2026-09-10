@@ -14,5 +14,5 @@ AIBOX-3576 接口丰富，主要包括：
 
 <center>
 
-![](../../../aibox_img/AIBOX-3576/AIBOX-3576-interface.png)
+<img alt="" src="../../../aibox_img/AIBOX-3576/AIBOX-3576-interface.png" width="900">
 </center>

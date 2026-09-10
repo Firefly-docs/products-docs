@@ -4,7 +4,7 @@ AIO-Orin NX 支持 4G LTE, 在系统设置处，有多种网络形式，可以�
 
 <center>
 
-![](../../../bm1688_img/AIO-Orin-NX/4G.png)
+<img alt="" src="../../../bm1688_img/AIO-Orin-NX/4G.png" width="700">
 </center>
 
 在命令行生成网卡：

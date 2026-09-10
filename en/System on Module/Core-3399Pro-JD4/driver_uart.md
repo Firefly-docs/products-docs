@@ -15,7 +15,7 @@ The serial interface diagram of the AIO-3399Pro-JD4 development board is as foll
 
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/uart_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/uart_interface.jpg" width="900">
 </center>
 
 ## DTS configuration

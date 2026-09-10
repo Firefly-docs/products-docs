@@ -11,12 +11,12 @@
 
 <center>
 
-![](../../../rk3288_img/module_cooling_radiator.en.jpg)
+<img alt="" src="../../../rk3288_img/module_cooling_radiator.en.jpg" width="700">
 </center>
 
 ### Installation method
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/module_cooling.jpg)
+<img alt="" src="../../../rk3288_img/AIO-3288C/module_cooling.jpg" width="700">
 </center>

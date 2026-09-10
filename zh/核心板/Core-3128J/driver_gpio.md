@@ -27,7 +27,7 @@ kernel/drivers/pinctrl/pinctrl-rockchip.c
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/Firerprime_leds_schematic.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/Firerprime_leds_schematic.png" width="700">
 </center>
 
 从电路图上看，GPIO 口输出低电平时灯亮，高电平时灯灭。

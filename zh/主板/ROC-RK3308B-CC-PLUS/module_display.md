@@ -37,7 +37,7 @@
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_4.0inch.jpg)  
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_4.0inch.jpg" width="700">
 </center>
 
 ## 7.0寸RGB液晶屏模组
@@ -67,7 +67,7 @@
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display_b1.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display_b1.jpg" width="700">
 </center>
 
 ### 连接方法
@@ -76,6 +76,6 @@
 
 <center>
 
-![](../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_7.0inch.jpg)
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/module_display-roc-rk3308b-cc-plus_7.0inch.jpg" width="700">
 </center>
 

@@ -20,14 +20,14 @@
 * 以下为 AIO-3588Q  上相应的按键  
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/upgrade_maskrom_test_points_key.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/upgrade_maskrom_test_points_key.jpg" width="800">
 </center>
   
   
 * 以下为 iCore-3588Q 上的两个测试点  
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/upgrade_maskrom_test_points_core.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/upgrade_maskrom_test_points_core.jpg" width="800">
 </center>
 
 
@@ -37,5 +37,5 @@
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

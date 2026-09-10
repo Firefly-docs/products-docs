@@ -1,18 +1,18 @@
 ## 产品参数
 <center>
 
-![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-io.jpg)
+<img alt="" src="../../../rk356x_img/EC-R3568PC/ec-r3568pc-io.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-spec-zh.jpg)
+<img alt="" src="../../../rk356x_img/EC-R3568PC/ec-r3568pc-spec-zh.jpg" width="700">
 </center>
 
 ## 主机尺寸
 <center>
 
-![](../../../rk356x_img/EC-R3568PC/ec-r3568pc-size.jpg)
+<img alt="" src="../../../rk356x_img/EC-R3568PC/ec-r3568pc-size.jpg" width="900">
 </center>
 
 

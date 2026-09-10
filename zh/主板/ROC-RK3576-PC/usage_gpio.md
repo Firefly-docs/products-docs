@@ -9,7 +9,7 @@ ROC-RK3576-PC 开发板为了方便用户开发使用，引出了GPIO口供用�
 
 <center>
 
-![](../../../rk3576_img/ROC-RK3576-PC/usage_gpio_interface.jpg)
+<img alt="" src="../../../rk3576_img/ROC-RK3576-PC/usage_gpio_interface.jpg" width="900">
 </center>
 
 本文以 GPIO0_C1  , GPIO0_C2 这个 GPIO 口为例写一份简单操作 GPIO 口的驱动，在 SDK 的路径为 `kernel/drivers/gpio/gpio-firefly.c`,以下就以该驱动为例介绍 GPIO 的操作。

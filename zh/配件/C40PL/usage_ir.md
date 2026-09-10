@@ -35,7 +35,7 @@ C40PL 配备了 IR 红外主板。并且配备了一个光敏传感器用作识�
 
   <center>
 
-  ![](../../../rv1126_img/C40PL/ircut.png)
+  <img alt="" src="../../../rv1126_img/C40PL/ircut.png" width="700">
   </center>
 
 ## 代码目录

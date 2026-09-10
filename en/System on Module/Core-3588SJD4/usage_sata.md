@@ -5,11 +5,11 @@ There are 1 SATA ports and 1 M.2 SATA port on the AIO-3588SJD4  development boar
 
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_sata_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_sata_interface.jpg" width="900">
 </center>
 <center>
 
-![](../../../rk3588_img/Core-3588SJD4/usage_sata2_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588SJD4/usage_sata2_interface.jpg" width="900">
 </center>
 
 Precautions:

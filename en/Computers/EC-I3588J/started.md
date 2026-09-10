@@ -4,11 +4,11 @@ EC-I3588J embedded host, based on ITX-3588 high-performance open-source platform
 
 <center>
 
-![](../../../rk3588_img/EC-I3588J/EC-I3588J.png)
+<img alt="" src="../../../rk3588_img/EC-I3588J/EC-I3588J.png" width="700">
 </center>
 <center>
 
-![](../../../rk3588_img/EC-I3588J/interface_all_en.jpg)
+<img alt="" src="../../../rk3588_img/EC-I3588J/interface_all_en.jpg" width="900">
 </center>
 
 

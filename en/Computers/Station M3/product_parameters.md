@@ -1,12 +1,12 @@
 # Product parameters
 <center>
 
-![](../../../rk3588_img/Station-M3/en_args.jpg)
+<img alt="" src="../../../rk3588_img/Station-M3/en_args.jpg" width="700">
 </center>
 
 # Size
 <center>
 
-![](../../../rk3588_img/Station-M3/size.jpg)
+<img alt="" src="../../../rk3588_img/Station-M3/size.jpg" width="900">
 </center>
 

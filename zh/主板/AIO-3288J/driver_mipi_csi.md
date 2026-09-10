@@ -42,21 +42,21 @@ Kernel：
 
 <center>
 
-![](../../../rk3288_img/AIO-3288J/mipi_csi_2.png)
+<img alt="" src="../../../rk3288_img/AIO-3288J/mipi_csi_2.png" width="700">
 </center>
 
 * MIPI_PWR 和 MIPI_RST 对应 AIO-3288J 上的 GPIO3_B2 和 GPIO3_B0 引脚，默认为高电平：
 
 <center>
 
-![](../../../rk3288_img/AIO-3288J/mipi_csi_3.png)
+<img alt="" src="../../../rk3288_img/AIO-3288J/mipi_csi_3.png" width="700">
 </center>
 
 * MIPI_SDA 和 MIPI_SCL 由 DVP_PWR 控制，DVP_PWR 对应 GPIO0_B3 引脚：
 
 <center>
 
-![](../../../rk3288_img/AIO-3288J/mipi_csi_4.png)
+<img alt="" src="../../../rk3288_img/AIO-3288J/mipi_csi_4.png" width="700">
 </center>
 <center>
 

@@ -7,7 +7,7 @@ CAN模块之间接线：CAN_H接CAN_H，CAN_L接CAN_L。
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/usage_can_interface.jpg)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/usage_can_interface.jpg" width="900">
 </center>
 
 ### DTS 节点配置

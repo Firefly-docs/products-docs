@@ -35,7 +35,7 @@ SophonSDK consists of Compiler and Library:
 
 <center>
 
-![](../../../bm1684_img/sophonsdk_overview.png)
+<img alt="" src="../../../bm1684_img/sophonsdk_overview.png" width="700">
 </center>
 
 #### SDK development kit
@@ -202,7 +202,7 @@ The Advanced Toolkit includes:
 
 <center>
 
-![](../../../bm1684_img/new_SophonSDK.png)
+<img alt="" src="../../../bm1684_img/new_SophonSDK.png" width="700">
 </center>
 
 ### SDK Directory Structure

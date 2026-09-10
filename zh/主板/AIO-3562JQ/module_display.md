@@ -30,6 +30,6 @@
 #### MIPI_DSI 背面
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/module_display_mipi_DSI_back.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/module_display_mipi_DSI_back.jpg" width="700">
 </center>
 

@@ -40,8 +40,7 @@
 
 
 <center>
-
-![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux操作系统
@@ -69,8 +68,7 @@ sudo chmod a+x /usr/local/bin/upgrade_tool
 * Type-C 数据线一端连接主机，另一端连接开发板。
 
 <center>
-
-![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-OTG.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/AIBOX-PRO-OTG.png" width="700">
 </center>
 * 按住设备上的 `RECOVERY` 按键并保持。
 * 接上电源。
@@ -90,15 +88,13 @@ reboot loader
 
 通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
 <center>
-
-![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](upgrade_firmware.html#windows-cao-zuo-xi-tong)。
 
 <center>
-
-![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 **Linux操作系统**
@@ -129,8 +125,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 4. <font color=#ff0000 >如果升级失败，可以尝试先按`EraseFlash `按钮来擦除 Flash，然后再升级。</font>
 
 <center>
-
-![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_erase_flash_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
 #### 烧写分区映像
@@ -142,8 +137,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 4. 点击`Run`按钮开始升级，升级结束后设备会自动重启。
 
 <center>
-
-![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux操作系统
@@ -192,6 +186,5 @@ sudo upgrade_tool ef update.img	# 擦除
 
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 <center>
-
-![](../../../aibox_img/AIBOX-PRO/upgrade_firmware_download_fail.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/upgrade_firmware_download_fail.png" width="800">
 </center>

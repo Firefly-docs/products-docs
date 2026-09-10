@@ -15,21 +15,21 @@ The external screen can give users a complete and good user experience. The scre
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/pass.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/pass.jpg" width="700">
 </center>
 
 * Adapt `IR` camera to effectively prevent cheating such as photos, videos and wax figures.
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/npass.jpg)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/npass.jpg" width="700">
 </center>
 
 * `TYPE-C OTG` provides hardware support for control background, face registration management, and gate background maintenance.
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/weblogin.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/weblogin.png" width="800">
 </center>
 
 ### Bare Metal Gate
@@ -45,7 +45,7 @@ algorithm. PS: The official UVC firmware corresponds to this scenario.
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/arcuvc_face.png" width="700">
 </center>
 
 ## AI Compute Stick

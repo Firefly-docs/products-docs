@@ -2,7 +2,7 @@ Rockchip RK3588S, a new generation of 8-core 64 bit processor, can be configured
 
 <center>
 
-![](../../../rk3588_img/EC-R3588SPC/EC-R3588SPC.png)  
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/EC-R3588SPC.png" width="700">
 </center>
 
 

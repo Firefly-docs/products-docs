@@ -9,7 +9,7 @@ AIO-3588SG 开发板为了方便用户开发使用，引出了一排扩展的GPI
 
 <center>
 
-![](../../../rk3588_img/Core-3588SG/usage_gpio_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588SG/usage_gpio_interface.png" width="900">
 </center>
 
 本文以 GPIO3_B2 和 GPIO3_B7 这两个 GPIO 口为例写一份简单操作 GPIO 口的驱动，在 SDK 的路径为 `kernel-5.10/drivers/gpio/gpio-firefly.c`,以下就以该驱动为例介绍 GPIO 的操作。

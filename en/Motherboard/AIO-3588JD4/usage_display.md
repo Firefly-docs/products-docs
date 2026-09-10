@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -36,7 +36,7 @@ But from the software point of view, there are the following configuration consi
 * HDMI
 <center>
 
-![](../../../rk3588_img/Core-3588JD4/usage_display_dsi_interface.jpg)  
+<img alt="" src="../../../rk3588_img/Core-3588JD4/usage_display_dsi_interface.jpg" width="900">
 </center>
 
 

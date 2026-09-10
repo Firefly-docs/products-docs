@@ -330,7 +330,7 @@ AIO-3399C 原理图上的 Power Domain Map 表以及配置如下表所示：
 
 <center>
 
-![](../../../rk3399_img/gpio_power_domain.jpg)
+<img alt="" src="../../../rk3399_img/gpio_power_domain.jpg" width="700">
 </center>
 
 Through the schematic diagram of RK3399 SDK, we can see that the voltage domain of bt656-supply is connected to vcc18_dvp, and vcc_io is from VLDO1 of PMIC RK808;

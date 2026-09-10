@@ -11,7 +11,7 @@ EC-R3576PC支持一路继电器输出，其中，ON对应于硬件原理图中�
 ### 电路原理图
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/output_sch.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/output_sch.png" width="700">
 </center>
 
 ### 控制

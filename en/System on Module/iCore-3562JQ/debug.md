@@ -31,7 +31,7 @@ AIO-3562JQ serial port connection diagram:
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/debug_connection.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/debug_connection.jpg" width="800">
 </center>
 
 ## Parameter Setting
@@ -58,7 +58,7 @@ After the adapter is inserted, the system will prompt for the discovery of new h
 
 <center>
 
-![](../../../rk3562_img/debug_find_com.png)
+<img alt="" src="../../../rk3562_img/debug_find_com.png" width="800">
 </center>
 
 ### Install Software
@@ -74,11 +74,11 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 
 <center>
 
-![](../../../rk3562_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../rk3562_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../rk3562_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../rk3562_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ## Use serial debug on Ubuntu
@@ -181,7 +181,7 @@ Use Double male USB data cable connect the OTG port of AIO-3562JQ and Host compu
 
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/adb_connection.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/adb_connection.jpg" width="700">
 </center>
 ## Enable ADB
 

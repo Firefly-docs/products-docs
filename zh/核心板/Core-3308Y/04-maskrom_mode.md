@@ -21,12 +21,12 @@
 
 <center>
 
-![](../../../rk3308_img/Core-3308Y/maskrom_test_points.png)
+<img alt="" src="../../../rk3308_img/Core-3308Y/maskrom_test_points.png" width="700">
 </center>
 
 此时设备就会进入 MaskRom 模式。
 
 <center>
 
-![](../../../rk3308_img/maskrom_zh.png)
+<img alt="" src="../../../rk3308_img/maskrom_zh.png" width="700">
 </center>

@@ -5,7 +5,7 @@
 
 <center>
 
-![](../../../rv1126_img/C40PL/rkmedia.png)
+<img alt="" src="../../../rv1126_img/C40PL/rkmedia.png" width="700">
 </center>
 
 ### 视频
@@ -414,7 +414,7 @@ fmpeg -y -f rawvideo -pix_fmt nv12 -ss 00:01 -r 1 -s 1920x1080 -i 1080pl.nv12 -f
 
 <center>
 
-![](../../../rv1126_img/C40PL/vi_get_frame.png)
+<img alt="" src="../../../rv1126_img/C40PL/vi_get_frame.png" width="700">
 </center>
 
 #### VI->UVC
@@ -458,7 +458,7 @@ vlc rtsp://168.168.101.208:554/live/main_stream
 
 <center>
 
-![](../../../rv1126_img/C40PL/vi_rknn_venc_rtsp.png)
+<img alt="" src="../../../rv1126_img/C40PL/vi_rknn_venc_rtsp.png" width="700">
 </center>
 
 #### RTSPGet->VDEC(Multi)->VO
@@ -473,7 +473,7 @@ vlc rtsp://168.168.101.208:554/live/main_stream
 
 <center>
 
-![](../../../rv1126_img/C40PL/rtsp_multi_vo.jpg)
+<img alt="" src="../../../rv1126_img/C40PL/rtsp_multi_vo.jpg" width="700">
 </center>
 
 #### RTSPGet->VDEC->RKNN->VENC->RTSPPush
@@ -497,7 +497,7 @@ vlc rtsp://168.168.101.208:8555/H264_stream_1
 
 <center>
 
-![](../../../rv1126_img/C40PL/rtspget_vdec_rknn_venc_rtsppush.png)
+<img alt="" src="../../../rv1126_img/C40PL/rtspget_vdec_rknn_venc_rtsppush.png" width="700">
 </center>
 
 ### 音频

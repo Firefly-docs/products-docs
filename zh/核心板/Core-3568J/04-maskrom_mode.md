@@ -22,7 +22,7 @@
 
 <center>
 
-![](../../../rk356x_img/Core-3568J/maskrom_test_points.png)
+<img alt="" src="../../../rk356x_img/Core-3568J/maskrom_test_points.png" width="700">
 </center>
 
 
@@ -30,5 +30,5 @@
 
 <center>
 
-![](../../../rk356x_img/maskrom_zh.png)
+<img alt="" src="../../../rk356x_img/maskrom_zh.png" width="700">
 </center>

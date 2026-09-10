@@ -20,5 +20,5 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk3562_img/maskrom_en.png)
+<img alt="" src="../../../rk3562_img/maskrom_en.png" width="700">
 </center>

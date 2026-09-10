@@ -31,7 +31,7 @@ ITX-3568Q serial port connection diagram:
 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/debug_connection.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/debug_connection.jpg" width="800">
 </center>
 
 ## Parameter Setting
@@ -60,7 +60,7 @@ After the adapter is inserted, the system will prompt for the discovery of new h
 
 <center>
 
-![](../../../rk356x_img/debug_find_com.png)
+<img alt="" src="../../../rk356x_img/debug_find_com.png" width="800">
 </center>
 
 ### Install Software
@@ -76,11 +76,11 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 
 <center>
 
-![](../../../rk356x_img/debug_set_MobaXterm1.PNG)
+<img alt="" src="../../../rk356x_img/debug_set_MobaXterm1.PNG" width="800">
 </center>
 <center>
 
-![](../../../rk356x_img/debug_set_MobaXterm2.PNG)
+<img alt="" src="../../../rk356x_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
 ## Use serial debug on Ubuntu

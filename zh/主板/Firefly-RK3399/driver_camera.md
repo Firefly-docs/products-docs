@@ -9,7 +9,7 @@ Firefly-RK3399 开发板分别带有两个 MIPI，一个 DVP 摄像头接口，M
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/camera_interface.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/camera_interface.jpg" width="900">
 </center>
 
 ## DTS 配置
@@ -55,7 +55,7 @@ Android：
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/camera_mipi_interface.jpg)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/camera_mipi_interface.jpg" width="900">
 </center>
 
 * DVP 接口

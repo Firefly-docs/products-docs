@@ -13,10 +13,10 @@ Putty or SecureCRT is generally used on Windows. Among them, we recommend using 
 
 <center>
 
-![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png)
+<img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png" width="800">
 </center>
 
 <center>
 
-![](../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png)
+<img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png" width="800">
 </center>

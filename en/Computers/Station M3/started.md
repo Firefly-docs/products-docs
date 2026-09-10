@@ -4,7 +4,7 @@ Based on Rockchip new generation of flagship AIOT chip -- RK3588S, the Station-M
 
 <center>
 
-![](../../../rk3588_img/Station-M3/Station-M3.png)
+<img alt="" src="../../../rk3588_img/Station-M3/Station-M3.png" width="700">
 </center>
 
 

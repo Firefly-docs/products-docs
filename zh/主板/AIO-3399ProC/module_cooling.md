@@ -14,7 +14,7 @@
 
 <center>
 
-![](../../../rk3399_img/module_cooling_radiator.jpg)
+<img alt="" src="../../../rk3399_img/module_cooling_radiator.jpg" width="700">
 </center>
 
 
@@ -22,7 +22,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/module_cooling_radiator_install.png)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/module_cooling_radiator_install.png" width="700">
 </center>
 
 
@@ -41,12 +41,12 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/module_cooling_fan.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/module_cooling_fan.jpg" width="700">
 </center>
 
 ### 安装方式
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/module_cooling_fan_install.png)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/module_cooling_fan_install.png" width="700">
 </center>
 

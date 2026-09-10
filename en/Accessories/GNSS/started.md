@@ -7,13 +7,13 @@
 
 <center>
 
-![](../../../modules_img/GNSS/gnss_RG4538_en.png)
+<img alt="" src="../../../modules_img/GNSS/gnss_RG4538_en.png" width="700">
 </center>
 
 ### DK2635U7F
 <center>
 
-![](../../../modules_img/GNSS/gnss_DK2635U7F_en.jpg)
+<img alt="" src="../../../modules_img/GNSS/gnss_DK2635U7F_en.jpg" width="700">
 </center>
 
 <!--

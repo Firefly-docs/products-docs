@@ -19,14 +19,14 @@ At this point, the device enters MaskRom mode.
 * the button of  AIO-3588MQ 
 <center>
 
-![](../../../rk3588_img/iCore-3588MQ/upgrade_maskrom_test_points_key.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588MQ/upgrade_maskrom_test_points_key.jpg" width="800">
 </center>
   
   
 *  two test points of iCore-3588MQ
 <center>
 
-![](../../../rk3588_img/iCore-3588MQ/upgrade_maskrom_test_points_core.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588MQ/upgrade_maskrom_test_points_core.jpg" width="800">
 </center>
 
 
@@ -35,5 +35,5 @@ At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk3588_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

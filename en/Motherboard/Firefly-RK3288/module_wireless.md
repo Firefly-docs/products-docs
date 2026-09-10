@@ -53,7 +53,7 @@
 
 <center>
 
-![](../../../rk3288_img/Firefly-RK3288/module_wireless_ec20_2.png)
+<img alt="" src="../../../rk3288_img/Firefly-RK3288/module_wireless_ec20_2.png" width="700">
 </center>
 
 
@@ -71,7 +71,7 @@ The public-version firmware supports EC20 4G module by default.
 
 <center>
 
-![](../../../rk3288_img/module_wireless_gps_delincomm_en.jpg)
+<img alt="" src="../../../rk3288_img/module_wireless_gps_delincomm_en.jpg" width="700">
 </center>
 
 The parameters of each module model of this series will be different, please refer to [DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)
@@ -87,7 +87,7 @@ For DELICOMM series, VCC (red wire), GND (black wire), TX (white wire), connect 
 
 <center>
 
-![](../../../rk3288_img/module_wireless_ublox_en.png)
+<img alt="" src="../../../rk3288_img/module_wireless_ublox_en.png" width="700">
 </center>
 
 #### Connection method

@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rv1126_img/C40PL/mipi_screen.jpg)
+<img alt="" src="../../../rv1126_img/C40PL/mipi_screen.jpg" width="700">
 </center>
 
 * **注：默认公版固件在底板不接摄像头的情况下只显示 firefly LOGO 图标。如果底板接了 0S04A10 摄像头，则屏幕显示摄像头预览界面。rv1126 的系统没有配备桌面环境。**

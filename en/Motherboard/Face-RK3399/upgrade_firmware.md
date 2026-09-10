@@ -77,7 +77,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/upgrade_firmware3.png" width="800">
 </center>
 
 #### Upgrade unified firmware - update.img
@@ -93,7 +93,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/upgrade_firmware4.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/upgrade_firmware4.png" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -117,7 +117,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/upgrade_firmware3.png)
+<img alt="" src="../../../rk3399_img/Face-RK3399/upgrade_firmware3.png" width="800">
 </center>
 
 ### Linux

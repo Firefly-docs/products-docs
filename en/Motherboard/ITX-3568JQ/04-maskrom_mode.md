@@ -17,12 +17,12 @@ The operation steps are as follows:
 Short circuit the D0 and GND test points near EMMC 
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/maskrom_test_points.png)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/maskrom_test_points.png" width="700">
 </center>
 
 At this point, the device should go into `MaskRom mode`.
 
 <center>
 
-![](../../../rk356x_img/maskrom_zh.png)
+<img alt="" src="../../../rk356x_img/maskrom_zh.png" width="700">
 </center>

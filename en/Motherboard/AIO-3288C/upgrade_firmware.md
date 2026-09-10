@@ -61,7 +61,7 @@ AIO-3288C:
 
 <center>
 
-![](../../../rk3288_img/AIO-3288C/download_otg.png)
+<img alt="" src="../../../rk3288_img/AIO-3288C/download_otg.png" width="700">
 </center>
 
 
@@ -70,7 +70,7 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_new_equipment.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 ### Upgrade the firmware
@@ -89,7 +89,7 @@ Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will dis
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 #### Upgrade unified firmware - update.img
@@ -105,7 +105,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_erase_flash.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
 #### Upgrade Partition image
@@ -121,7 +121,7 @@ The steps to upgrade the partition image are as follows:
 
 <center>
 
-![](../../../rk3288_img/upgrade_firmware_androidtool.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
 </center>
 
 ## Linux
@@ -209,7 +209,7 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 
 <center>
 
-![](../../../rk3288_img/upgrade_downloadfail.jpg)
+<img alt="" src="../../../rk3288_img/upgrade_downloadfail.jpg" width="800">
 </center>
 
 ["Instruction of upgrade"]: upgrade_table.md

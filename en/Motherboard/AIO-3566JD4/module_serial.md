@@ -16,13 +16,13 @@
 
 <center>
 
-![](../../../rk356x_img/module_serial_list.en.jpg)
+<img alt="" src="../../../rk356x_img/module_serial_list.en.jpg" width="700">
 </center>
 
 ### Connection Method
 
 <center>
 
-![](../../../rk356x_img/Core-3566JD4/debug_connection.jpg)
+<img alt="" src="../../../rk356x_img/Core-3566JD4/debug_connection.jpg" width="800">
 </center>
 

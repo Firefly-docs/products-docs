@@ -18,12 +18,12 @@
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/interface_front.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/interface_front.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3328_img/Core-3328-JD4/interface_back.jpg)
+<img alt="" src="../../../rk3328_img/Core-3328-JD4/interface_back.jpg" width="900">
 </center>
 
 ## 特殊接口说明

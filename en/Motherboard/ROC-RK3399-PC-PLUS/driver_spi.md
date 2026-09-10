@@ -6,7 +6,7 @@ SPI is a high-speed, full-duplex, synchronous serial communication interface for
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/spi_interface.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/spi_interface.jpg" width="900">
 </center>
 
 
@@ -50,7 +50,7 @@ The hardware connection between ROC-RK3399-PC-PLUS and W25Q128FV is shown in the
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-PLUS/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-PLUS/spi_hardware_connection.jpg" width="700">
 </center>
 
 

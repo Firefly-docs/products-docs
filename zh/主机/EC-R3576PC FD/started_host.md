@@ -4,12 +4,12 @@
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC-FD/ec-r3576pc-fd-front.jpg)
+<img alt="" src="../../../rk3576_img/EC-R3576PC-FD/ec-r3576pc-fd-front.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC-FD/ec-r3576pc-fd-back.jpg)
+<img alt="" src="../../../rk3576_img/EC-R3576PC-FD/ec-r3576pc-fd-back.jpg" width="700">
 </center>
 
 

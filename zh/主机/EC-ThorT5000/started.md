@@ -6,12 +6,12 @@ EC-ThorT5000 搭载NVIDIA 官方原装 Jetson Thor T5000 核心板模组，拥�
 
 <center>
 
-![](../../../nvidia_img/EC-ThorT5000/interface_01_cn.png)
+<img alt="" src="../../../nvidia_img/EC-ThorT5000/interface_01_cn.png" width="900">
 </center>
 
 <center>
 
-![](../../../nvidia_img/EC-ThorT5000/interface_can_cn.png)
+<img alt="" src="../../../nvidia_img/EC-ThorT5000/interface_can_cn.png" width="900">
 </center>
 
 
@@ -19,10 +19,10 @@ EC-ThorT5000 搭载NVIDIA 官方原装 Jetson Thor T5000 核心板模组，拥�
 
 <center>
 
-![](../../../nvidia_img/EC-ThorT5000/interface_01_cn.png)
+<img alt="" src="../../../nvidia_img/EC-ThorT5000/interface_01_cn.png" width="900">
 </center>
 
 <center>
 
-![](../../../nvidia_img/EC-ThorT5000/interface_net_cn.png)
+<img alt="" src="../../../nvidia_img/EC-ThorT5000/interface_net_cn.png" width="900">
 </center>

@@ -3,14 +3,14 @@
 CAM-8MS1M(IMX415) 是一款 MIPI 摄像头模组，采用 8M 动态传感器，优质的动态效果将适应更多恶劣场景，减少复杂光线环境对识别算法产生的不良影响，采用标准MIPI接口输出高质量视频流；产品主要应用于人脸识别门禁、考勤、闸机、人证机等场景。
 <center>
 
-![](../../../modules_img/IMX415/imx415.jpg)
+<img alt="" src="../../../modules_img/IMX415/imx415.jpg" width="700">
 </center>
 
 
 ## 发货清单
 <center>
 
-![](../../../modules_img/IMX415/imx415_shop_list.jpg)
+<img alt="" src="../../../modules_img/IMX415/imx415_shop_list.jpg" width="700">
 </center>
 
 ## 详细参数
@@ -61,7 +61,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 ### 30pin MIPI CSI接口连接
 <center>
 
-![](../../../modules_img/IMX415/interface_30pin.jpg)
+<img alt="" src="../../../modules_img/IMX415/interface_30pin.jpg" width="900">
 </center>
 
 <font color="red">注意：不要接到带有`MIPI DSI`字样的接口，这可能会导致烧坏模组或者开发板。</font>

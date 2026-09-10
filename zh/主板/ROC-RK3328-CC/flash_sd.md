@@ -62,14 +62,14 @@
 4. 可用的固件列表将从网络更新，如下图所示：
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer.png)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer.png" width="700">
     </center>
 5. 选择所需的操作系统和版本，并点击 "OK" 按钮确认。另外也可以从文件管理器中选择本地的一个固件文件，拖放到 `SDCard Installer`。
 6. 插入 SD 卡，工具应该会自动选中该卡；如果插有多张 SD 卡，可以点击 "Change" 按钮进行选择。
 7. 点击 "Flash!" 按钮，开始固件下载、烧写和校验，请耐心等待。
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_flashing.png)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_flashing.png" width="700">
     </center>
 
 **注意事项**：
@@ -78,7 +78,7 @@
 - 有时，当进度达到 99％ 或 100％ 时，可能会出现卸载 SD 卡的错误，这可以忽略，并且不会损坏烧写到 SD 卡的数据：
     <center>
 
-    ![](../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_umount_fail.png)
+    <img alt="" src="../../../rk3328_img/ROC-RK3328-CC/started_sdcard-installer_umount_fail.png" width="700">
     </center>
 - 在线下载的固件会缓存到本地目录，下次烧写时不用重新下载。缓存目录可以点击左下角的设置按钮，在 "Download Location:" 处设置。
 

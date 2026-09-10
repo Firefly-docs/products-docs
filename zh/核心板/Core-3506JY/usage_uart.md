@@ -6,7 +6,7 @@ ROC-RK3506J-CC 硬件版本的串口 5 接口图如下：
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506J-CC/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3506_img/ROC-RK3506J-CC/usage_uart_interface.jpg" width="900">
 </center>
 
 ## DTS配置

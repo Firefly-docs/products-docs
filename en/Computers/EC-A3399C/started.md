@@ -6,12 +6,12 @@ EC-A3399C supports hardware decoding of H.265/HEVC and VP9, H.264 encoding, 4K H
 
 <center>
 
-![](../../../rk3399_img/EC-A3399C/ec-a3399c_back.png)
+<img alt="" src="../../../rk3399_img/EC-A3399C/ec-a3399c_back.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399C/ec-a3399c_front.png)
+<img alt="" src="../../../rk3399_img/EC-A3399C/ec-a3399c_front.png" width="700">
 </center>
 
 

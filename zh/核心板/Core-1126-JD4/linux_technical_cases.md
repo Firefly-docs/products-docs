@@ -11,7 +11,7 @@
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/web.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/web.png" width="800">
 </center>
 
 ## 人脸识别闸机
@@ -20,14 +20,14 @@
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/facial_gate.jpg)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/facial_gate.jpg" width="700">
 </center>
 
 人脸识别闸机 Web 管理界面
 
 <center>
 
-![](../../../rv1126_img/Core-1126-JD4/facial_gate_web.png)
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/facial_gate_web.png" width="800">
 </center>
 
 ## 集群边缘计算

@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk3588_img/iCore-3588Q/usage_camera_mipicsi.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588Q/usage_camera_mipicsi.jpg" width="800">
 </center>
 
 
@@ -29,7 +29,7 @@ mode, 其中 dphy0_hw 拆分为 csi2_dphy0/ csi2_dphy1/ csi2_dphy2 三个逻辑d
 
 <center>
 
-![](../../../rk3588_img/common/usage_camera_rk3588_mipi_csi_mode.png)
+<img alt="" src="../../../rk3588_img/common/usage_camera_rk3588_mipi_csi_mode.png" width="800">
 </center>
 
 简单点来讲，如果用单目摄像头我们可以配置full mode，若使用双目摄像头我们可以配置split mode。

@@ -12,7 +12,7 @@ Use a dual male USB data cable to connnect development board and host.
 The OTG port of the AIO-3128C is shown below:
 <center>
 
-![](../../../rk3128_img/AIO-3128C/AIO-3128C-OTG&USB.jpg)
+<img alt="" src="../../../rk3128_img/AIO-3128C/AIO-3128C-OTG&USB.jpg" width="700">
 </center>
 
 ## Adb Installation for Windows

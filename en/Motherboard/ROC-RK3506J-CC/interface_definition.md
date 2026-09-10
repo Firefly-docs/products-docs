@@ -22,7 +22,7 @@ The details are as follows:
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506J-CC/interface_all1_en.jpg)
+<img alt="" src="../../../rk3506_img/ROC-RK3506J-CC/interface_all1_en.jpg" width="900">
 </center>
 
 <center>

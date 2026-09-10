@@ -12,17 +12,17 @@ Face X2 is an intelligent access control terminal based on face recognition inde
 
 <center>
 
-![](../../../rk3399_img/Face-X2/face_x2_3_en.jpg)
+<img alt="" src="../../../rk3399_img/Face-X2/face_x2_3_en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Face-X2/face_x2_4_en.jpg)
+<img alt="" src="../../../rk3399_img/Face-X2/face_x2_4_en.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/Face-X2/face_x2_5_en.jpg)
+<img alt="" src="../../../rk3399_img/Face-X2/face_x2_5_en.jpg" width="700">
 </center>
 
 
@@ -43,7 +43,7 @@ Face X2 is an intelligent access control terminal based on face recognition inde
 
 <center>
 
-![](../../../rk3399_img/Face-X2/weixian_en.png)
+<img alt="" src="../../../rk3399_img/Face-X2/weixian_en.png" width="700">
 </center>
 
 

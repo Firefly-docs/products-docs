@@ -185,15 +185,15 @@ mysql> select * from subscriber;
 
 <center>
 
-![](../../../rk3399_img/opensips1.png)
+<img alt="" src="../../../rk3399_img/opensips1.png" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/opensips2.png)
+<img alt="" src="../../../rk3399_img/opensips2.png" width="700">
 </center>
 <center>
 
-![](../../../rk3399_img/opensips3.png)
+<img alt="" src="../../../rk3399_img/opensips3.png" width="700">
 </center>
 
 * 测试结果：
@@ -327,7 +327,7 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=640,he
 
 <center>
 
-![](../../../rk3399_img/mipi_csi.jpg)
+<img alt="" src="../../../rk3399_img/mipi_csi.jpg" width="700">
 </center>
 
 ### 开发MIPI 摄像头
@@ -1393,14 +1393,14 @@ MLU220-M.2加速卡用于离线模型的部署，离线模型在MLU220上运行�
 
 <center>
 
-![](../../../rk3399_img/MLU220_Offline_Deploy.png)
+<img alt="" src="../../../rk3399_img/MLU220_Offline_Deploy.png" width="700">
 </center>
 
 #### MLU220 应用流程
 
 <center>
 
-![](../../../rk3399_img/MLU220_Process.png)
+<img alt="" src="../../../rk3399_img/MLU220_Process.png" width="700">
 </center>
 
 ### MLU220 + Firefly AIO-3399J硬件平台

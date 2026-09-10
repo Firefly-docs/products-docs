@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/spi_interface.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/spi_interface.jpg" width="900">
 </center>
 
 
@@ -48,7 +48,7 @@ The hardware connection between AIO-3399Pro-JD4 and W25Q128FV is shown in the fo
 
 <center>
 
-![](../../../rk3399_img/AIO-3399Pro-JD4/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/spi_hardware_connection.jpg" width="700">
 </center>
 
 

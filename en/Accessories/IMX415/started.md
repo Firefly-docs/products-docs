@@ -3,14 +3,14 @@
 CAM-8MS1M(IMX415) is a 1/2.8” industrial-grade HD WDR sensor, suitable for various complex light environments.MIPI standard interface, supports 7x24h operating.It is mainly used in scenarios such as face recognition access control, face recognition attendance, gate machines and identification machines.
 <center>
 
-![](../../../modules_img/IMX415/imx415.jpg)
+<img alt="" src="../../../modules_img/IMX415/imx415.jpg" width="700">
 </center>
 
 
 ## Shipping list
 <center>
 
-![](../../../modules_img/IMX415/imx415_shop_list_en.jpg)
+<img alt="" src="../../../modules_img/IMX415/imx415_shop_list_en.jpg" width="700">
 </center>
 
 ## Detailed parameters
@@ -51,7 +51,7 @@ The Firefly development board has two MIPI CSI interfaces, one is a 30pin interf
 ### 30pin MIPI CSI Interface Connection
 <center>
 
-![](../../../modules_img/IMX415/interface_30pin.jpg)
+<img alt="" src="../../../modules_img/IMX415/interface_30pin.jpg" width="900">
 </center>
 
 <font color="red">Note: Do not connect to an interface with the words `MIPI DSI` as this may cause damage to the module or development board.</font>

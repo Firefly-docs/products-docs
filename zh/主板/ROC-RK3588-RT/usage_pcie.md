@@ -9,7 +9,7 @@ ROC-RK3588-RT 开发板上有 3 个 PCIe2.0 x 3 接口 和 1 个 PCIe3.0 x 4 接
 
 <center>
 
-![](../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png)
+<img alt="" src="../../../rk3588_img/ROC-RK3588-RT/usage_pcie_interface.png" width="900">
 </center>
 
 

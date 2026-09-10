@@ -26,10 +26,10 @@ EC-A1688JD4 接口丰富，主要包括：
 
 <center>
 
-![](../../../bm1688_img/EC-A1688JD4/antenna_connection.jpg)
+<img alt="" src="../../../bm1688_img/EC-A1688JD4/antenna_connection.jpg" width="700">
 </center>
 
 <center>
 
-![](../../../bm1688_img/EC-A1688JD4/sim_connection.jpg)
+<img alt="" src="../../../bm1688_img/EC-A1688JD4/sim_connection.jpg" width="700">
 </center>

@@ -32,7 +32,7 @@ During using, you may need the following accessories:
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/shipping_list.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/shipping_list.png" width="700">
 </center>
 
 
@@ -44,7 +44,7 @@ Select "Shutdown" in Android system, keeping the board's power. AIO-3128C can ch
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/power.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/power.png" width="700">
 </center>
 
 When starting up, the blue indicator will illuminate.

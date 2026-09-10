@@ -4,7 +4,7 @@ Station-M3 嵌入式主机，基于 ROC-3588S-PC 高性能开源平台，长时�
 
 <center>
 
-![](../../../rk3588_img/Station-M3/Station-M3.png)
+<img alt="" src="../../../rk3588_img/Station-M3/Station-M3.png" width="700">
 </center>
 
 

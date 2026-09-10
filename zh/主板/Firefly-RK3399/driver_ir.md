@@ -155,5 +155,5 @@ key 66    TV_MEDIA_STOP
 
 <center>
 
-![](../../../rk3399_img/ir.jpg)
+<img alt="" src="../../../rk3399_img/ir.jpg" width="700">
 </center>

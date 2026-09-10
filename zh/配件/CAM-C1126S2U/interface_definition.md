@@ -45,7 +45,7 @@
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/size1.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/size1.png" width="900">
 </center>
 
 ## 外围接口
@@ -56,17 +56,17 @@
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/usb.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/usb.png" width="700">
 </center>
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/interface.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/interface.png" width="900">
 </center>
 
 * 扩展接口原理图（另存为图片保存到本地查看）
 
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/extension_port.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/extension_port.png" width="700">
 </center>

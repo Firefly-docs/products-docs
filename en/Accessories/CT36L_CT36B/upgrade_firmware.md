@@ -44,7 +44,7 @@ Download [Release_DriverAssistant.zip](https://community.t-firefly.com/en/doc/do
 
 <center>
 
-![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png)
+<img alt="" src="../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png" width="800">
 </center>
 
 ### Linux operating system
@@ -93,11 +93,11 @@ The steps to burn unified firmware update.img are as follows:
 
 <center>
 
-![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png)
+<img alt="" src="../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-1.png" width="800">
 </center>
 <center>
 
-![](../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-2.png)
+<img alt="" src="../../../rv1106_img/CT36L/SocToolKit_upgrade_update-img-2.png" width="800">
 </center>
 
 #### Burn partition image
@@ -112,11 +112,11 @@ The steps to burn a partition image are as follows:
 
 <center>
 
-![](../../../rv1106_img/CT36L/Partition_writing-1.png)
+<img alt="" src="../../../rv1106_img/CT36L/Partition_writing-1.png" width="700">
 </center>
 <center>
 
-![](../../../rv1106_img/CT36L/Partition_writing-2.png)
+<img alt="" src="../../../rv1106_img/CT36L/Partition_writing-2.png" width="700">
 </center>
 
 ### Linux operating system

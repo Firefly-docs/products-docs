@@ -32,7 +32,7 @@ Face-RK3399 is equipped with a 20pin integrated transfer cable, and the connecti
 
 <center>
 
-![](../../../rk3399_img/Face-RK3399/weixian1.jpg)
+<img alt="" src="../../../rk3399_img/Face-RK3399/weixian1.jpg" width="700">
 </center>
 
 

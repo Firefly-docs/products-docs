@@ -4,36 +4,36 @@ EC-A3399ProC six-core 64-bit AI embedded host, based on AIO-3399ProC artificial 
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_front.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_front.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_back.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_back.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_more.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_more.png" width="700">
 </center>
 
 # Specifications
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter1_en.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter1_en.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter2_en.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter2_en.png" width="700">
 </center>
 
 # Other Specifications
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter3_en.png)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/ec-a3399proc_paramter3_en.png" width="700">
 </center>
 
 # Resources

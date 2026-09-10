@@ -9,6 +9,6 @@
 
 <center>
 
-![](../../../rk3576_img/CQ38W-3576/interface_zh.png)
+<img alt="" src="../../../rk3576_img/CQ38W-3576/interface_zh.png" width="900">
 </center>
 

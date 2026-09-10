@@ -6,7 +6,7 @@ Core-3588L The following figure shows the serial port of the hardware version：
 
 <center>
 
-![](../../../rk3588_img/Core-3588L/usage_uart_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588L/usage_uart_interface.png" width="900">
 </center>
 
 ## DTS config

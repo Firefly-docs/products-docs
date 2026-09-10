@@ -24,7 +24,7 @@ adb shell
 ```
 <center>
 
-![](../../../rk356x_img/iCore-3568JQ/otg_interface.jpg)
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/otg_interface.jpg" width="900">
 </center>
 
 ## 网络 ADB

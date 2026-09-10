@@ -17,23 +17,23 @@
 ### 实物图参考
 <center>
 
-![](../../../rk3562_img/cam_8ms1m_front.jpg)
+<img alt="" src="../../../rk3562_img/cam_8ms1m_front.jpg" width="700">
 </center>
 <center>
 
-![](../../../rk3562_img/cam_8ms1m_back.jpg)
+<img alt="" src="../../../rk3562_img/cam_8ms1m_back.jpg" width="700">
 </center>
 
 
 ### 连接方法
 <center>
 
-![](../../../rk3562_img/iCore-3562JQ/aio-3562jq_8ms1m.jpg)
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/aio-3562jq_8ms1m.jpg" width="700">
 </center>
 
 ### 实拍图片
 <center>
 
-![](../../../rk3562_img/camera_8ms1m_shoot.jpg)
+<img alt="" src="../../../rk3562_img/camera_8ms1m_shoot.jpg" width="700">
 </center>
 

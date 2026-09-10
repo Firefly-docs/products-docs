@@ -3,7 +3,7 @@
 
 <center>
 
-![](../../../rk3588_img/common/usage_display_rk3588_vop.png)
+<img alt="" src="../../../rk3588_img/common/usage_display_rk3588_vop.png" width="800">
 </center>
 
 
@@ -36,13 +36,13 @@ ITX-3588J  有四种显示输出接口，分别是 HDMI、Display Port、VGA 以
 * HDMI0/ HDMI1/ Display Port/ VGA  
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_display_interface.jpg)  
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_display_interface.jpg" width="900">
 </center>
 
 * MIPI DSI0/ MIPI DSI1
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_display_dsi_interface.jpg)  
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_display_dsi_interface.jpg" width="900">
 </center>
 
 
@@ -229,7 +229,7 @@ ITX-3588J  有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 Lane 
 * DSI0 接口
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_display_mipi_v2_interface.png)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_display_mipi_v2_interface.png" width="900">
 </center>
   
 
@@ -244,7 +244,7 @@ ITX-3588J  有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 Lane 
 * V2 屏幕上电时序
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_on.png)  
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_on.png" width="800">
 </center>
   
   
@@ -252,7 +252,7 @@ ITX-3588J  有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 Lane 
 * V2 屏幕下电时序
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_off.png)  
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_off.png" width="800">
 </center>
   
   
@@ -260,7 +260,7 @@ ITX-3588J  有两路 MIPI DSI 显示输出接口，均支持 DPHY2.0 和 4 Lane 
 * V2 屏幕上下电符号参考
 <center>
 
-![](../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png)  
+<img alt="" src="../../../rk3588_img/common/usage_display_mipi_v2_power_menu.png" width="800">
 </center>
   
 

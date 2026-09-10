@@ -43,7 +43,7 @@ ROC-RK3399-PC Pro 与 W25Q128FV 硬件连接可参考下表：
 
 <center>
 
-![](../../../rk3399_img/ROC-RK3399-PC-Pro/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/ROC-RK3399-PC-Pro/spi_hardware_connection.jpg" width="700">
 </center>
 
 

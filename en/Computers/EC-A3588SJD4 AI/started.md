@@ -4,7 +4,7 @@ Adopting Rockchip's new AIoT chip RK3588S, 8nm LP process. It is equipped with a
 
 <center>
 
-![](../../../rk3588_img/EC-A3588SJD4-AI/EC-A3588SJD4-AI.jpg)
+<img alt="" src="../../../rk3588_img/EC-A3588SJD4-AI/EC-A3588SJD4-AI.jpg" width="700">
 </center>
 
 

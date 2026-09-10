@@ -5,10 +5,10 @@
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BJD4V0/interface_front_cn.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/interface_front_cn.png" width="900">
 </center>
 
 <center>
 
-![](../../../rv1126b_img/AIO-1126BJD4V0/interface_back_cn.png)
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/interface_back_cn.png" width="900">
 </center>

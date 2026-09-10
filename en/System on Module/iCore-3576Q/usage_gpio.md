@@ -8,7 +8,7 @@ GPIO (General-Purpose Input/Output) is a General pin that can be dynamically con
 AIO-3576Q development board in order to facilitate user development and use, Leads to GPIO oral for user debugging and development,pins are as follows:
 <center>
 
-![](../../../rk3576_img/iCore-3576Q/usage_gpio_interface.jpg)
+<img alt="" src="../../../rk3576_img/iCore-3576Q/usage_gpio_interface.jpg" width="900">
 </center>
 
 This article uses the two general GPIO ports GPIO0_B4 and GPIO0_B5 as examples to write a simple operation GPIO port driver.

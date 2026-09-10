@@ -36,7 +36,7 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/faqs_android_root.png" width="800">
 </center>
 
 ## 开机异常并循环重启怎么办？

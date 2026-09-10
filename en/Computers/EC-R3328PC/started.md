@@ -4,12 +4,12 @@ The EC-R3328PC embedded host is built on the high-performance open-source ROC-RK
 
 <center>
 
-![](../../../rk3328_img/EC-R3328PC/EC-R3328PC-info01.png)
+<img alt="" src="../../../rk3328_img/EC-R3328PC/EC-R3328PC-info01.png" width="700">
 </center>
 
 <center>
 
-![](../../../rk3328_img/EC-R3328PC/EC-R3328PC-info02-en.png)
+<img alt="" src="../../../rk3328_img/EC-R3328PC/EC-R3328PC-info02-en.png" width="700">
 </center>
 
 

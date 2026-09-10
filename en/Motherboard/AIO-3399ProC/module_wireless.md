@@ -57,7 +57,7 @@ There are two types of EC20 modules, one is has GNSS and another is no GNSS. EC2
 
 <center>
 
-![](../../../rk3399_img/AIO-3399ProC/module_wireless_mini-pcie.jpg)
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/module_wireless_mini-pcie.jpg" width="700">
 </center>
 
 * SIM card Connection
@@ -144,7 +144,7 @@ The official website of the public version of the default firmware support EC200
 
 <center>
 
-![](../../../rk3399_img/module_wireless_gps_delincomm_en.jpg)
+<img alt="" src="../../../rk3399_img/module_wireless_gps_delincomm_en.jpg" width="700">
 </center>
 
 The parameters of each module model of this series will be different, please refer to [DelinComm_gps.pdf](http://download.t-firefly.com/product/Board/Common/Peripheral/Wireless/GPS%E6%A8%A1%E5%9D%97/DelinComm_gps.pdf)

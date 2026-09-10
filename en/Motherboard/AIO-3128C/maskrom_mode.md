@@ -20,18 +20,18 @@ Artificial to the Flash data pin connected to ground, the system will think Flas
 Older version (V1.1):
 <center>
 
-![](../../../rk3128_img/AIO-3128C/maskrom1.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/maskrom1.png" width="700">
 </center>
 
 New version (V1.2):
 <center>
 
-![](../../../rk3128_img/AIO-3128C/maskrom2.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/maskrom2.png" width="700">
 </center>
 
 Device should enter MaskRom mode:
 
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_3128_tool_maskrom.png)
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_3128_tool_maskrom.png" width="700">
 </center>

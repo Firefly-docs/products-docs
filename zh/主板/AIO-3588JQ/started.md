@@ -8,14 +8,14 @@
 
 <center>
 
-![](../../../rk3588_img/iCore-3588JQ/iCore-3588JQ-front.png) 
+<img alt="" src="../../../rk3588_img/iCore-3588JQ/iCore-3588JQ-front.png" width="700">
 </center>
 
 [AIO-3588JQ](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-24620095837.11.5de22d45SlERBs&id=688159519320) 开发板由核心板 iCore-3588JQ + 底板 MB-Q-RK3588 组成,。AIO-3588JQ 拥有 RGMII、CAN、PCIE3.0、USB3.0、I2C、SPI、UART、GPIO、MIPI-DSI 以及 MIPI-CSI 等丰富接口。可直接应用到各种智能产品中，加速产品落地，详细内容可参考[接口定义](interface_definition.md)。
   
 <center>
 
-![](../../../rk3588_img/iCore-3588JQ/AIO-3588JQ.jpg)
+<img alt="" src="../../../rk3588_img/iCore-3588JQ/AIO-3588JQ.jpg" width="700">
 </center>
   
 ### AIO-3588JQ 标准套装包含以下配件(仅供参考)：

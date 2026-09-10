@@ -24,7 +24,7 @@ AIO-3128C 开发板的调试串口与 TF 卡接口有信号引脚复用，因此
 注：如使用其它串口适配器遇到TX和RX不能输入和输出的问题，可以尝试对调TX和RX的链接线，AIO-3128C串口连接如图所示:
 <center>
 
-![](../../../rk3128_img/AIO-3128C/AIO-3128C-serial.jpg) 
+<img alt="" src="../../../rk3128_img/AIO-3128C/AIO-3128C-serial.jpg" width="700">
 </center>
 
 ## 连接参数  
@@ -46,7 +46,7 @@ AIO-3128C 使用以下串口参数：
 插入适配器后，系统会提示发现新硬件，并初始化，之后可以在设备管理器找到对应的 COM 口：  
 <center>
 
-![](../../../rk3128_img/AIO-3128C/win_com.png) 
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_com.png" width="700">
 </center>
 
 ### 安装软件

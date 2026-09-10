@@ -29,7 +29,7 @@ kernel/drivers/pinctrl/pinctrl-rockchip.c
 
 <center>
 
-![](../../../rk3288_img/gpio_leds.png)
+<img alt="" src="../../../rk3288_img/gpio_leds.png" width="700">
 </center>
 
 

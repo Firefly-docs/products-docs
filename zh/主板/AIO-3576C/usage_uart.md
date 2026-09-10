@@ -8,12 +8,12 @@ AIO-3576C 使用了 `UART3` 做 `RS485`，在系统中对应 `/dev/ttyS3` 设备
 
 <center>
 
-![](../../../rk3576_img/AIO-3576C/usage_uart_interface.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576C/usage_uart_interface.jpg" width="900">
 </center>
 
 <center>
 
-![](../../../rk3576_img/AIO-3576C/usage_uart_interface2.jpg)
+<img alt="" src="../../../rk3576_img/AIO-3576C/usage_uart_interface2.jpg" width="900">
 </center>
 
 ## RS485 节点使用

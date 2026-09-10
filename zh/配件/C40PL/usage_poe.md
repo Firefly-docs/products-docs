@@ -2,7 +2,7 @@
 * 可添加 `POE` 功能的网口是 `1000M` 网口，如下图所示
 <center>
 
-![](../../../rv1126_img/C40PL/POE-interface.png) 
+<img alt="" src="../../../rv1126_img/C40PL/POE-interface.png" width="900">
 </center>
 需要将 `POE` 模组接到底板的 `POE` 接口处
 ```

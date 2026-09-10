@@ -50,7 +50,7 @@ ITX-3588J_Android12_HDMI_220308
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 #### Linux
@@ -100,12 +100,12 @@ The RK182X development kit does not provide a Loader mode. USB firmware upgrades
 
 <center>
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png)
+<img alt="" src="../../../gs1-n2_img/AIO-GS1N2-RK182X/usb_otg.png" width="700">
 </center>
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_maskrom_zh.png" width="800">
 </center>
 
 ### Check MaskRom Mode
@@ -135,7 +135,7 @@ sudo upgrade_tool
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_firmware_erase_flash_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
 #### Write Partition Images
@@ -147,7 +147,7 @@ sudo upgrade_tool
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### Linux
@@ -200,5 +200,5 @@ If `Download Boot Fail` or another error appears during the upgrade, check the U
 
 <center>
 
-![](../../../gs1-n2_img/common/upgrade_firmware_download_fail.png)
+<img alt="" src="../../../gs1-n2_img/common/upgrade_firmware_download_fail.png" width="800">
 </center>

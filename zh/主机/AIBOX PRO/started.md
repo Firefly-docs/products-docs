@@ -5,11 +5,11 @@
 
 <center>
 
-![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/AIBOX-PRO.png" width="700">
 </center>
 
 ## 主机尺寸
 <center>
 
-![](../../../aibox_img/AIBOX-PRO/AIBOX-PRO-size.png)
+<img alt="" src="../../../aibox_img/AIBOX-PRO/AIBOX-PRO-size.png" width="900">
 </center>

@@ -5,7 +5,7 @@ There is 1 PCIe3.0 x 4 interface on the ITX-3588J development board, as shown in
 
 <center>
 
-![](../../../rk3588_img/Core-3588J/usage_pcie_interface.jpg)
+<img alt="" src="../../../rk3588_img/Core-3588J/usage_pcie_interface.jpg" width="900">
 </center>
 
 It can be inserted into the NVME protocol M.2 to PCIe3.0 x 4 adapter board + NVME protocol M.2 SSD for use, as shown in the figure:

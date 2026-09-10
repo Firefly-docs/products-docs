@@ -14,5 +14,5 @@ AIBOX-3588 接口丰富，主要包括：
 
 <center>
 
-![](../../../aibox_img/AIBOX-3588/AIBOX-3588-interface.png)
+<img alt="" src="../../../aibox_img/AIBOX-3588/AIBOX-3588-interface.png" width="900">
 </center>

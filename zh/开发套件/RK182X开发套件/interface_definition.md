@@ -3,19 +3,19 @@
 ### V1.0
 <center>
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/interface-mainboard-zh-01.png)
+<img alt="" src="../../../gs1-n2_img/AIO-GS1N2-RK182X/interface-mainboard-zh-01.png" width="900">
 </center>
 <center>
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/interface-mainboard-zh-02.png)
+<img alt="" src="../../../gs1-n2_img/AIO-GS1N2-RK182X/interface-mainboard-zh-02.png" width="900">
 </center>
 
 ### V1.1
 <center>
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/interface-mainboard11-zh-01.png)
+<img alt="" src="../../../gs1-n2_img/AIO-GS1N2-RK182X/interface-mainboard11-zh-01.png" width="900">
 </center>
 <center>
 
-![](../../../gs1-n2_img/AIO-GS1N2-RK182X/interface-mainboard11-zh-02.png)
+<img alt="" src="../../../gs1-n2_img/AIO-GS1N2-RK182X/interface-mainboard11-zh-02.png" width="900">
 </center>

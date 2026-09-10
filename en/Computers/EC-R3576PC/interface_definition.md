@@ -26,6 +26,6 @@ The details are shown below：
 
 <center>
 
-![](../../../rk3576_img/EC-R3576PC/ec-r3576pc-io-en.png)
+<img alt="" src="../../../rk3576_img/EC-R3576PC/ec-r3576pc-io-en.png" width="700">
 </center>
 

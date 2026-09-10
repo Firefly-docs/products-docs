@@ -17,7 +17,7 @@
 * 以下为 CAM-C1126S2U 上的两个测试点  
 <center>
 
-![](../../../rv1126_img/CAM-C1126S2U/upgrade_maskrom_test_points_core.png)
+<img alt="" src="../../../rv1126_img/CAM-C1126S2U/upgrade_maskrom_test_points_core.png" width="800">
 </center>
 
 
@@ -28,5 +28,5 @@
 
 <center>
 
-![](../../../rv1126_img/common/upgrade_maskrom_zh.png)
+<img alt="" src="../../../rv1126_img/common/upgrade_maskrom_zh.png" width="800">
 </center>

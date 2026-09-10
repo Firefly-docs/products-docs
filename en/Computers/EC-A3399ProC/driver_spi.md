@@ -4,7 +4,7 @@
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/spi_interface.jpg)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/spi_interface.jpg" width="900">
 </center>
 
 
@@ -48,7 +48,7 @@ The hardware connection between EC-A3399ProC and W25Q128FV is shown in the follo
 
 <center>
 
-![](../../../rk3399_img/EC-A3399ProC/spi_hardware_connection.jpg)
+<img alt="" src="../../../rk3399_img/EC-A3399ProC/spi_hardware_connection.jpg" width="700">
 </center>
 
 

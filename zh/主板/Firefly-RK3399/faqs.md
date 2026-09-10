@@ -37,7 +37,7 @@ Firefly-RK3399 默认录音输入源采用的是板载麦克风 `Builtin Mic`,�
 
 <center>
 
-![](../../../rk3399_img/faqs_android_audio_input.png)
+<img alt="" src="../../../rk3399_img/faqs_android_audio_input.png" width="800">
 </center>
 
 ## 如何强行进入 MaskRom 模式
@@ -129,7 +129,7 @@ Android 系统有很多很强大的功能都需要用到 root 权限，开发者
 
 <center>
 
-![](../../../rk3399_img/Firefly-RK3399/faqs_android_root.png)
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/faqs_android_root.png" width="800">
 </center>
 
 ## 开机异常并循环重启怎么办？

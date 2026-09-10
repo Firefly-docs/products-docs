@@ -9,6 +9,6 @@
 
 <center>
 
-![](../../../rk3399_img/EC-A3399C/ec-a3399c_paramter2.png)
+<img alt="" src="../../../rk3399_img/EC-A3399C/ec-a3399c_paramter2.png" width="700">
 </center>
 

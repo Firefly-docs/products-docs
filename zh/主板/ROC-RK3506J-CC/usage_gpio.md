@@ -14,7 +14,7 @@ ROC-RK3506J-CC 开发板为了方便用户开发使用，引出了GPIO口供用�
 
 <center>
 
-![](../../../rk3506_img/ROC-RK3506J-CC/usage_gpio_interface.png)
+<img alt="" src="../../../rk3506_img/ROC-RK3506J-CC/usage_gpio_interface.png" width="900">
 </center>
 
 
