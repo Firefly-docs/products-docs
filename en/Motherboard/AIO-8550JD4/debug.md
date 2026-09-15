@@ -13,7 +13,7 @@ AIO-8550JD4 provides two types of debug console.
 <img alt="" src="../../../qcom_img/AIO-8550JD4/debug_console.jpg" width="800">
 </center>
 
-It needs additional usb-to-ttl module, please refer to [Serial Module](../../Accessories/USB-TO-TTL-Serial/started.md)
+It needs additional usb-to-ttl module, please refer to [Serial Module](../../Accessories/USB-TO-TTL-Serial/usb_to_ttl_product.md)
 
 * Type-C Port
 
@@ -39,7 +39,7 @@ Then use USB cable connect the device with PC.
 
 Linux PC don't need to install driver.
 
-Windows PC driver installation is in [Serial Module](../../Accessories/USB-TO-TTL-Serial/started.md)
+Windows PC driver installation is in [Serial Module](../../Accessories/USB-TO-TTL-Serial/usb_to_ttl_product.md)
 
 * If you choose Type-C port
 

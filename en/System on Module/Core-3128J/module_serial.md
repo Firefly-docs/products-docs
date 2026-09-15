@@ -12,7 +12,7 @@
 ### Reference material  
 
 * [Download driver](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
-* [Senial debug tutorial](../../Accessories/USB-TO-TTL-Serial/started.md)
+* [Senial debug tutorial](../../Accessories/USB-TO-TTL-Serial/usb_to_ttl_product.md)
 
 ### Picture
 

@@ -1,6 +1,6 @@
 # 上手教程
 - [产品简介](started.md)
-- [串口调试](../../配件/USB-TO-TTL-Serial/index.md)
+- [串口调试](../../配件/USB-TO-TTL-Serial/usb_to_ttl_product.md)
 # 升级固件
 - [介绍](upgrade_bootmode.md)
 - [使用USB线缆升级固件](upgrade_firmware.md)
