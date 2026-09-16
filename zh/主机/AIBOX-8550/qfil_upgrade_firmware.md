@@ -56,7 +56,6 @@ sudo systemctl reboot edl
 1 点击上方 Configuration，再点击 FireHose Configuration，在弹出的窗口中，按照下图设置。完成后点击 OK
 
 <center>
-
 <img alt="" src="../../../qcom_img/qfil_config.jpg" width="700">
 </center>
 

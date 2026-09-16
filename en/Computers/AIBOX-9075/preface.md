@@ -9,6 +9,7 @@ This document mainly introduces the development method based on **AIBOX-9075** p
 | :--: | :--------: | :-------: | :-------: | :-------: |
 | QCS8550 | Linux | 5.15 | √ | Main maintenance |
 | IQ-9075 | Linux | 6.6 | √ | Main maintenance |
+| QCS6490 | Linux | 6.6 | √ | Main maintenance |
 
 ## Current version of the document
 
@@ -16,4 +17,4 @@ This document mainly introduces the development method based on **AIBOX-9075** p
 | :----------: | :-------------: |
 | File name | **AIBOX-9075 Development Manual**  |
 | Author | **Firefly Team**  |
-| Modified date | **2026-06-05**  |
+| Modified date | **2026-09-16**  |

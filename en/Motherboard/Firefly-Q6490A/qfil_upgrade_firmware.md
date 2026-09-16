@@ -1,0 +1,94 @@
+# Upgrade Complete Firmware
+
+## Enter EDL (Emergency Download) mode
+
+### Hardware Way
+
+1. First, make sure the device is completely disconnected from the power supply.
+
+2. Use Type-A to C USB cable to connect the Download port of the device to the PC.
+
+3. Use a needle or other thin object to insert into the headphone jack, press and hold the download button inside.
+
+4. Connect the power supply.
+
+5. Release the download button after 2 seconds.
+
+<center>
+<img alt="" src="../../../qcom_img/Firefly-Q6490A/edl_key.jpg" width="700">
+</center>
+### Software Way
+
+While the device is running normally, connect device's download port with PC through Type-A to C USB cable, run this command on device terminal or debug console:
+
+```shell
+sudo systemctl reboot edl
+```
+
+<center>
+
+<img alt="" src="../../../qcom_img/Firefly-Q6490A/download_port.jpg" width="700">
+</center>
+
+### Check EDL
+
+If the device entered EDL mode, QFIL tool will show "Qualcomm HS-USB QDLoader 9008".
+
+<center>
+
+<img alt="" src="../../../qcom_img/qfil_9008.jpg" width="700">
+</center>
+
+Or it could show "Please Select an Existing Port", then you have to click "SelectPort", also can see "Qualcomm HS-USB QDLoader 9008", select it and click "OK".
+
+<center>
+
+<img alt="" src="../../../qcom_img/qfil_select_port.jpg" width="700">
+</center>
+
+**Notice: The code must be 9008** If the device shows other code like 900E, then it means device is abnormal, please poweroff it and retry.
+
+If tool shows "No Port Available", please check driver installation and usb cable.
+
+## Download Firmware
+
+1 Click "Configuration", then click "FireHose Configuration", in the pop-up window, config it according to the following pictrue, then click "OK".
+
+<center>
+<img alt="" src="../../../qcom_img/qfil_emmc_config.jpg" width="700">
+</center>
+
+2 In the main page, select "Flat Build", then click "Browse"
+
+<center>
+
+<img alt="" src="../../../qcom_img/qfil_browse.jpg" width="700">
+</center>
+
+3 Navigate to your firmware location, choose "All Files" in file type, then find "xbl_s_devprg_ns.melf" (or maybe "prog_firehose_ddr.elf", different SOCs very in filenames)and click "open".
+
+<center>
+
+<img alt="" src="../../../qcom_img/qfil_open_melf.jpg" width="700">
+</center>
+
+4 In the main page, click "Load XML", in the pop-up window, select all xml files and click "open", then the same window will pop-up again, and select all xml files again and click "open".
+
+<center>
+
+<img alt="" src="../../../qcom_img/qfil_load_xml1.jpg" width="700">
+</center>
+
+<center>
+
+<img alt="" src="../../../qcom_img/qfil_load_xml2.jpg" width="700">
+</center>
+
+5 Finally click "Download", wait it to finish, it will take few minutes. Download success will be like:
+
+<center>
+
+<img alt="" src="../../../qcom_img/qfil_download_finish.jpg" width="700">
+</center>
+
+6 After the download is complete, wait for a while and the device will automatically reboot.

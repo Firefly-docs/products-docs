@@ -56,7 +56,6 @@ If tool shows "No Port Available", please check driver installation and usb cabl
 1 Click "Configuration", then click "FireHose Configuration", in the pop-up window, config it according to the following pictrue, then click "OK".
 
 <center>
-
 <img alt="" src="../../../qcom_img/qfil_config.jpg" width="700">
 </center>
 
