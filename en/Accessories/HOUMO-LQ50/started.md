@@ -18,7 +18,7 @@ Please contact sales (sales@t-firefly.com) to obtain the datasheet of the corres
 
 ## Usage
 
-Considering that the Houmo module resources are mainly tested with Docker containers and are large in size, and the driver is automatically compiled and installed via DKMS, which requires network access and a complete development environment on the board for the first installation, Firefly releases resources in two forms. One is the Firefly installation package: based on our own firmware, with the prebuilt driver and test tools packaged together, so that customers using Firefly firmware can test directly (not maintained long-term, mainly used to check whether the module works properly). The other is the official Houmo resource package. After completing the preliminary test of the Houmo module, customers can download the corresponding resources according to their needs. After the driver is installed, usage of the official resource package splits into two paths: **Docker image based** and **bare metal (without Docker)**; see the path summary at the end of the [Driver Installation](#driver-installation-common-to-both-paths) section.
+Considering that the Houmo module resources are mainly tested with Docker containers and are large in size, and the driver is automatically compiled and installed via DKMS, which requires network access and a complete development environment on the board for the first installation, Firefly releases resources in two forms. One is the Firefly installation package: based on our own firmware, with the prebuilt driver and test tools packaged together, so that customers using Firefly firmware can test directly (not maintained long-term, mainly used to check whether the module works properly). The other is the official Houmo resource package. After completing the preliminary test of the Houmo module, customers can download the corresponding resources according to their needs. Driver installation differs between the two forms: the Firefly installation package ships a prebuilt driver that installs directly by running the bundled script, while the official resource package requires setting up the build environment first and then running the .run installer. Once the driver is installed with the official resource package, usage further splits into two paths: **Docker image based** and **bare metal (without Docker)** (see the [Driver Installation](#driver-installation) section).
 
 
 
@@ -58,7 +58,27 @@ For a detailed introduction to the package naming, refer to [3.1. Linux Host Ins
 
 
 
-### Driver Installation (Common to Both Paths)
+### Driver Installation
+
+Driver installation comes in two forms: the **Firefly installation package** ships a prebuilt driver that installs directly by running the installer script; the **official resource package** uses a .run installer that compiles on the board via DKMS, so the build environment must be set up first with network access.
+
+#### Option 1: Firefly Installation Package (No Environment Setup, Run Directly)
+
+For how to obtain the package and what it contains, see the [Firefly Houmo Installation Package](#firefly-houmo-installation-package) section. Run install.sh in the root directory of the extracted package to install the driver and install the runtime into the system Python (the runtime is a source package compiled on the spot, which requires network access):
+
+```bash
+tar -xzf firefly_houmo_v*.tar.gz
+cd firefly_houmo_v*/
+sudo ./install.sh
+```
+
+To install the driver only, you can also install the deb inside the package directly (zero compilation, no network access; after installation it automatically runs depmod, modprobe, udev reload and ldconfig, and performs an hm_smi self-check):
+
+```bash
+sudo dpkg -i houmo-installer-xh2-v*.deb
+```
+
+#### Option 2: Official Resource Package (Environment Setup Required, Run the .run Installer)
 
 The following tutorial uses version V1.2.0 as an example. Replace it according to your needs.
 
