@@ -10,13 +10,13 @@ Debug serial port is very useful during debugging and troubleshooting, especiall
 <img alt="" src="../../../qcom_img/Firefly-Q6490A/debug_console.jpg" width="700">
 </center>
 
-It needs additional usb-to-ttl module, please refer to [Serial Module](../../Accessories/USB-TO-TTL-Serial/usb_to_ttl_product.md)
+It needs additional usb-to-ttl module, please refer to [Serial Module](usb_to_ttl.md)
 
 ## Install Driver
 
 Linux PC don't need to install driver.
 
-Windows PC driver installation is also described in [Serial Module](../../Accessories/USB-TO-TTL-Serial/usb_to_ttl_product.md)
+Windows PC driver installation is also described in [Serial Module](usb_to_ttl.md)
 
 ## Usage
 

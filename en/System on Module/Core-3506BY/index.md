@@ -1,13 +1,12 @@
 # Quick Start
 - [Introduction](started.md)
-- [2. Serial debug](https://wiki.t-firefly.com/en/USB-TO-TTL-Serial/usb-to-ttl-serial.html)
+- [Serial debug](usb_to_ttl.md)
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)
 - [MaskRom mode](upgrade_maskrom_mode.md)
 # Linux
 - [Compile Linux firmware](linux_compile.md)
-- [#linux_technical_cases](#linux_technical_cases.md)
 # Port Usage
 - [ADC](usage_adc.md)
 - [CAN](usage_can.md)

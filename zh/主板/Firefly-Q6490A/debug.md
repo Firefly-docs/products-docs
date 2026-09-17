@@ -10,13 +10,13 @@ Debug 串口在调试和排查问题时非常有用，特别是在图形界面�
 <img alt="" src="../../../qcom_img/Firefly-Q6490A/debug_console.jpg" width="700">
 </center>
 
-需要额外的 usb 转串口模块，详情请查看 [串口模块](../../配件/USB-TO-TTL-Serial/usb_to_ttl_product.md)
+需要额外的 usb 转串口模块，详情请查看 [串口模块](usb_to_ttl.md)
 
 ## 驱动安装
 
 Linux 电脑无需安装驱动。
 
-Windows 电脑驱动的安装方法也在详情链接中 [串口模块](../../配件/USB-TO-TTL-Serial/usb_to_ttl_product.md)
+Windows 电脑驱动的安装方法也在详情链接中 [串口模块](usb_to_ttl.md)
 
 ## 串口使用
 

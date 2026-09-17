@@ -1,6 +1,6 @@
 # 上手教程
 - [介绍](started.md)
-- [串口调试](../../配件/USB-TO-TTL-Serial/usb_to_ttl_product.md)
+- [串口调试](usb_to_ttl.md)
 # 升级固件
 - [介绍](upgrade_bootmode.md)
 - [使用USB线缆升级固件](upgrade_firmware.md)
@@ -8,14 +8,10 @@
 - [使用SD卡升级固件](upgrade_firmware_sd.md)
 # Linux开发
 - [编译 Linux 固件](linux_compile.md)
-- [#linux_technical_cases](#linux_technical_cases.md)
 # Android开发
 - [ADB 使用](android_adb_use.md)
 - [编译环境搭建](android_prepare_compile_android.md)
 - [常见问题](android_compile_android14.0_firmware.md)
-- [#android_firefly_android_manual](#android_firefly_android_manual.md)
-- [#android_fireflyapi2_manual](#android_fireflyapi2_manual.md)
-- [#android_technical_cases](#android_technical_cases.md)
 # 硬件功能使用
 - [Camera 使用](usage_camera.md)
 - [LED 使用](usage_led.md)

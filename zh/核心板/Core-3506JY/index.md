@@ -1,13 +1,12 @@
 # 上手教程
 - [介绍](started.md)
-- [2. 串口调试](https://wiki.t-firefly.com/USB-TO-TTL-Serial/usb-to-ttl-serial.html)
+- [串口调试](usb_to_ttl.md)
 # 升级固件
 - [介绍](upgrade_bootmode.md)
 - [使用USB线缆升级固件](upgrade_firmware.md)
 - [MaskRom模式](upgrade_maskrom_mode.md)
 # Linux开发
 - [编译 Linux 固件](linux_compile.md)
-- [#linux_technical_cases](#linux_technical_cases.md)
 # 接口使用
 - [ADC 使用](usage_adc.md)
 - [CAN 使用](usage_can.md)

@@ -19,10 +19,7 @@
 - [Wireless module](module_wireless.md)
 - [Remote Control](module_ir.md)
 # Hardware
-- [#hardware_doc](#hardware_doc.md)
 - [Interface Definition](hardware_interface.md)
-- [#resources](#resources.md)
-- [#technical_reference](#technical_reference.md)
 # Drivers
 - [ADC Use](driver_adc.md)
 - [Camera Use](driver_camera.md)

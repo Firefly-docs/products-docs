@@ -1,6 +1,6 @@
 # Quick Start
 - [Introduction](started.md)
-- [Serial Debug](../../Accessories/USB-TO-TTL-Serial/usb_to_ttl_product.md)
+- [Serial Debug](usb_to_ttl.md)
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)
@@ -8,7 +8,6 @@
 - [Upgrade the firmware via SD card](upgrade_firmware_sd.md)
 # Linux
 - [Compile Linux firmware](linux_compile.md)
-- [#linux_technical_cases](#linux_technical_cases.md)
 # Hardware Function Usage
 - [Camera](usage_camera.md)
 - [LED](usage_led.md)

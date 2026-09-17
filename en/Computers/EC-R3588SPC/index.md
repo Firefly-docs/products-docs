@@ -1,6 +1,6 @@
 # Quick Start
 - [started](started.md)
-- [Serial Debug](../../Accessories/USB-TO-TTL-Serial/usb_to_ttl_product.md)
+- [Serial Debug](usb_to_ttl.md)
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)
@@ -14,9 +14,6 @@
 - [ADB use](android_adb_use.md)
 - [Compile environment to build](android_prepare_compile_android.md)
 - [Compile Android12.0 firmware](android_compile_android12.0_firmware.md)
-- [#android_firefly_android_manual](#android_firefly_android_manual.md)
-- [#android_fireflyapi2_manual](#android_fireflyapi2_manual.md)
-- [#android_technical_cases](#android_technical_cases.md)
 # Hardware Function Usage
 - [CAN](usage_can.md)
 - [Display](usage_display.md)
