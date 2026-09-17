@@ -22,38 +22,43 @@
 
 
 
-### Firefly Houmo 测试包
+### Firefly Houmo 安装包
 
 内部包括
 
-1. 编译好的Houmo LQ50 模块 aarch64 平台驱动
+1. 编译好的Houmo LQ50 模块 aarch64 平台驱动（考虑到大小，裁剪了GUI工具）
 2. 测试包
 3. runtime 压缩包
 4. 安装脚本
 
+运行install.sh，会自动安装驱动，并将 runtime 以 pip 方式安装到系统 Python（源码包现场编译 tcim_lite，需要网络；缺失的编译依赖脚本会自动补装）。解压测试包，运行run_all.sh，即可进行测试，测试默认只运行 check 测试，用于检测模块与环境是否正常。可运行run_all.sh --aging 进行 2 hour 压力测试。会分别测试模块的DDR读写速率，算力， 以及推理性能（推理性能验证使用的是CNN模型，主要用于验证模块的功能完整）。在 venv 中做模型开发时，需在 venv 内再 pip 安装一次包内的 runtime 压缩包（见[模型测试](#模型测试)裸板小节）；houmo_test 二进制测试工具会自动定位 pip 安装的库，无需 /opt。
+
+安装后，运行`hm_smi -a`测试，若能检测到模块，则请直接跳转到[模块测试](#模块测试)。无需再次配置驱动与运行时环境。
+
+> 注意，Firefly Houmo 安装包仅支持 Firefly 所提供支持的固件，主要是内核版本的原因，因此在使用时请注意。
 
 
-运行安装脚本，会自动安装驱动，并将runtime包放置到 /opt/ 目录下。解压测试包，运行run_all.sh，即可进行测试，测试默认只运行 check 测试，用于检测模块与环境是否正常。可运行run_all.sh --aging 进行 2 hour 压力测试。会分别测试模块的DDR读写速率，算力， 以及推理性能（推理性能验证使用的是CNN模型，主要用于验证模块的功能完整）。
 
-
-
-### 资源包下载
+### 官方资源包下载
 
 请联系销售 (sales@t-firefly.com) 获取 **Houmo 网盘资料** 下载链接，根据需求，选择相应 Houmo 版本进行下载。网盘中有上传的后摩资源，在我们所提供的固件上均已经过验证（如 Debian 12).
 
-
-
-### 安装环境
-
 **下载资源**
 
-```
+```bash
 houmo-drv-<target_hw>_<release>_${distro}_$arch.run			# 驱动包
+houmo_tcim_runtime_xh2_linux_aarch64-<version>.tar.gz		# Python runtime 源码包（裸板 pip 安装用）
 Dadao-deploy-docker-xh2-vx.y.z-<rootfs>-aarch64.tar			# 测试环境镜像
 houmo-examples-xh2_<version>.zip		# 测试程序包
 ```
 
 详细的包命名介绍，请参考[3.1. Linux主机端安装与部署 — M50 软件平台快速入门 1.4.0 文档](https://developer.houmoai.com/hmdoc/m50/software-manual/latest/quickstart/getting-started/quickstart_guide/setup/linux.html) 与 [3.2. Ubuntu/Kylin V11/UOS驱动安装与卸载 — M50 软件平台驱动安装指南 1.4.0 文档](https://developer.houmoai.com/hmdoc/m50/software-manual/latest/system-installation-device-management/environment-deployment/system_software_installation_guide/linux/ubuntu.html)
+
+
+
+
+
+#### 配置环境
 
 如下教程，都以V1.2.0版本举例，请根据需求替换。
 
@@ -64,7 +69,9 @@ houmo-examples-xh2_<version>.zip		# 测试程序包
 apt  update
 sudo apt-get install python3 python3-dev python3-pip -y
 apt install /boot/linux-headers-6.1-arm64_arm64.deb
-pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+# pip 换国内源（华为云/阿里实测较快；清华源在部分网络下 403 不可用）
+pip3 config set global.index-url https://repo.huaweicloud.com/repository/pypi/simple
+pip3 config set global.extra-index-url https://mirrors.aliyun.com/pypi/simple/
 chmod a+x houmo-drv-xh2_v1.2.0_linux_aarch64.run 
 sudo bash ./houmo-drv-xh2_v1.2.0_linux_aarch64.run --build-host false install all
 ```
@@ -159,8 +166,10 @@ hm_smi -a
 ```bash
 sudo apt update
 sudo apt install docker.io
-docker load -i Dadao-docker-xh2-v1.2.0-ubuntu20.04-aarch64.tar
+sudo docker load -i Dadao-docker-xh2-v1.2.0-ubuntu20.04-aarch64.tar
 ```
+
+> 普通用户不在 docker 组，直接执行 `docker` 命令会报 `/var/run/docker.sock` 权限拒绝，本文统一加 `sudo`。如需免 sudo：`sudo usermod -aG docker <用户名>` 后重新登录生效。
 
 > **Docker 安装异常**
 >
@@ -190,10 +199,12 @@ docker load -i Dadao-docker-xh2-v1.2.0-ubuntu20.04-aarch64.tar
 
 ### 模块测试
 
+下载`houmo-examples-xh2_v1.2.0.zip`后，运行如下指令。
+
 ```
 unzip houmo-examples-xh2_v1.2.0.zip
 cd houmo-examples-xh2/
-docker run -it --name Dadao-xh2-1.2.0 --pid=host --privileged --shm-size 64g -v "$PWD:/workspace" -w /workspace harbor.houmo.ai/toolchain/release:Dadao-xh2-v1.2.0-ubuntu20.04-aarch64 /bin/bash
+sudo docker run -it --name Dadao-xh2-1.2.0 --pid=host --privileged --shm-size 64g -v "$PWD:/workspace" -w /workspace harbor.houmo.ai/toolchain/release:Dadao-xh2-v1.2.0-ubuntu20.04-aarch64 /bin/bash
 source env.sh
 
 # 测试 ddr 带宽
@@ -210,38 +221,129 @@ source env.sh
 
 ### 模型测试
 
-进入到我们**模块测试**中解压得到houmo-examples-xh2
+**裸板（不依赖 Docker）**
 
+以下以 v1.4.0 资源为例，请按实际版本替换文件名中的版本号。裸板仅做推理验证：AArch64 不支持模型量化与编译（需要 x86 + CUDA 环境），请使用编译好的 .hmm 模型。
+
+**1. 基础环境**
+
+```bash
+sudo apt update
+sudo apt install -y python3-venv python3-pip build-essential python3-dev
+
+# pip 换国内源（华为云/阿里实测较快；清华源在部分网络下 403 不可用）
+pip3 config set global.index-url https://repo.huaweicloud.com/repository/pypi/simple
+pip3 config set global.extra-index-url https://mirrors.aliyun.com/pypi/simple/
 ```
-# 如果没装 venv 支持
-apt update
-apt install -y python3-venv python3-pip
 
-# 在项目根创建虚拟环境（推荐）
-cd /home/firefly/houmo-examples-xh2
+**2. 安装 runtime（pip 安装，不要解压到 /opt）**
+
+runtime 压缩包是标准 Python 源码包（sdist），直接 pip 安装，会为当前 Python 版本现场编译 tcim_lite：
+
+```bash
+cd houmo-examples-xh2
 python3 -m venv .venv
-
-# 激活（当前 shell 进入 venv）
 source .venv/bin/activate
-
-# 确认
-which python3
-pip -V
-
-# 回到示例目录安装依赖
-cd /home/firefly/houmo-examples-xh2/models/llm/qwen3.5
-python3 -m pip install --upgrade pip
-python3 -m pip install -r requirements.txt
-python3 -m pip install -r ../../../hmodel/gptqmodel/requirements.txt
-
-# 运行
-python3 get_model.py --model_name qwen3.5 --model_size 9b
-# --type raw 由于AArch64架构不支持模型量化和编译操作。用户需要使用编译后二进制模型文件（.hmm或.hmms）在AArch64架构环境中推理。因此这里不拉取raw模型
+pip3 install houmo_tcim_runtime_xh2_linux_aarch64-1.4.0.tar.gz
+python3 -c "import tcim_lite; print(tcim_lite.__file__)"    # 验证
 ```
 
-> 更多模型与使用方法，请参考/home/firefly/houmo-examples-xh2/models目录下的其他模型文件夹下的Readme
+
+**3. 安装 hmatc 工具链**
+
+```bash
+source /etc/profile.d/houmo-sdk.sh    # 提供 HOUMO_SDK_PATH（hmatc 编译扩展时要找 HAL 头文件；非登录 shell 不会自动加载）
+pip3 install "torch==2.8.0" "torchvision==0.23.0"   
+pip3 install -r hmatc/requirements.txt
+pip3 install requests tqdm loguru onnx-graphsurgeon opencv-python-headless    # requirements 漏列的依赖
+export HOUMO_TARGET=xh2        # hmatc 的 setup.py 强制要求
+cd hmatc && ./install.sh
+cd ..
+python3 -c "import hmatc; print(hmatc.__file__)"    # 验证
+```
+
+**4. 环境变量**
+
+| 变量 | 值 | 说明 |
+| ---- | -- | ---- |
+| HOUMO_TARGET | xh2 | 必需。demo / build / get_model 用它拼接模型路径，未设置直接报错 |
+| HOUMO_VERSION | v1.4.0 | get_model 需要（写入模型版本信息），格式 vX.Y.Z |
+| TCIM_FORCE_BACKEND | Xh2HalBackend | 推理必需。未设置会报 No available devices |
+| HOUMO_SDK_PATH | /usr/local/houmo-sdk | 安装 hmatc（编译扩展）时需要。`source /etc/profile.d/houmo-sdk.sh` 获得，非登录 shell 不会自动加载 |
+| TCIM_RUNTIME_PATH、PYTHONPATH | — | 仅旧 /opt 流程需要，pip 安装 runtime 后无需设置 |
+
+注意：仓库根目录的 env.sh 只负责补 PATH / LD_LIBRARY_PATH 等路径，**不会设置**上表变量（Docker 镜像内为预置环境），裸板需先自行 export：
+
+```bash
+export HOUMO_TARGET=xh2 HOUMO_VERSION=v1.4.0 TCIM_FORCE_BACKEND=Xh2HalBackend
+source env.sh    # 可选，仅用于补路径
+```
+
+也可写入系统配置：
+
+```bash
+echo 'export HOUMO_TARGET=xh2 HOUMO_VERSION=v1.4.0 TCIM_FORCE_BACKEND=Xh2HalBackend' | sudo tee /etc/profile.d/houmo-env.sh
+```
+
+**5. 拉取模型并运行（以 qwen3.5 9b 为例）**
+
+qwen3.5 还有 0.8b / 2b / 4b 规格（见该目录 README.MD）。快速验证建议先跑 `--model_size 0.8b`：模型仅约 2.1 GB、加载峰值内存低，8 GB 内存的板子无需加 swap 即可运行（实测 E2E 约 25 tokens/s）。
+
+```bash
+cd models/llm/qwen3.5
+pip3 install transformers==5.5.0 onnx-ir==0.1.13    # demo 依赖；勿用 -r requirements.txt（其内嵌清华源在部分网络 403）
+
+# 只拉预编译 .hmm，务必带 --type hmm 与模型参数；不带会继续去拉全量原始权重（裸板用不上，且缺 modelscope 包会报错）
+python3 get_model.py --type hmm --model_name qwen3.5 --model_size 9b
+# hmm 全部就位后，结尾 tokenizer 阶段仍会报一次 ModuleNotFoundError: modelscope —— 属预期，忽略即可
+
+mkdir -p Qwen3.5-9B && cp -a output/xh2/hmquant/hf_config/. Qwen3.5-9B/
+
+# demo 默认图片不在 examples 包内，先放一张图到默认路径（--image_path 参数因脚本缺陷只能追加、无法替换默认值）
+mkdir -p ../../data/pic && cp ../../hmodel/xh2/examples/llm/qwen3omni/data/cars.jpg ../../data/pic/beach.jpeg
+
+python3 demo.py --model_name qwen3.5 --model_size 9b
+```
+
+> qwen3.5 是多模态模型，非交互模式下固定提问“描述这些图片”，`--question` 参数不生效；描述对象就是上面放置的 `$HOUMO_EXAMPLES_PATH/data/pic/beach.jpeg` 那张图（需先 `source env.sh` 让变量生效）。
+>
+> 更多模型与使用方法，请参考 models 目录下其他模型文件夹下的 README。
+
+**6. 内存不足时加 swap**
+
+9b 级模型加载峰值内存超过 8GB，8GB 内存的板子会触发内核 OOM（dmesg 可见 `Killed process ... python3`）。先加 swap 再运行：
+
+```bash
+sudo fallocate -l 8G /userdata/swapfile
+sudo chmod 600 /userdata/swapfile
+sudo mkswap /userdata/swapfile
+sudo swapon /userdata/swapfile
+echo '/userdata/swapfile none swap sw,nofail 0 0' | sudo tee -a /etc/fstab
+```
 
 
+**依赖docker镜像**
+
+Docker 镜像是 Houmo 官方完整工具链环境（Ubuntu 24.04 + Python 3.12），hmatc、tcim_lite、modelscope 等已预装在镜像内（/opt/venv/dadao），HOUMO_TARGET / HOUMO_VERSION / TCIM_* 等环境变量也已预置，无需再 pip 安装任何依赖、无需 export：
+
+```bash
+cd houmo-examples-xh2/
+sudo docker run -it --name Dadao-deploy-xh2 --pid=host --privileged --shm-size 64g \
+  -v "$PWD:/workspace" -w /workspace \
+  harbor.houmo.ai/toolchain/release:Dadao-deploy-xh2-v1.4.0-ubuntu24.04-aarch64 /bin/bash
+
+source env.sh
+cd models/llm/qwen3.5
+
+# 容器内预装 modelscope，tokenizer 自动下载，无需手动拷 hf_config
+python3 get_model.py --type hmm --model_name qwen3.5 --model_size 0.8b
+
+# demo 默认图片不在 examples 包内，先放一张到默认路径（原因见裸板小节第 5 步的注意）
+mkdir -p /workspace/data/pic && cp /workspace/hmodel/xh2/examples/llm/qwen3omni/data/cars.jpg /workspace/data/pic/beach.jpeg
+python3 demo.py --model_name qwen3.5 --model_size 0.8b
+```
+
+镜像 tag 以实际下载的 tar 为准（`sudo docker images` 查看）；9b 等大模型需先给宿主机加 swap（同裸板小节第 6 步，swap 对容器同样生效）。
 
 ### hm_smi
 
@@ -290,13 +392,33 @@ python3 get_model.py --model_name qwen3.5 --model_size 9b
 
 
 
-### pip install 时找不到'hmatc'类似的 Houmo 包
-镜像内部默认配置好的相关的环境，因此不会遇到此类问题。如果您是不依赖于镜像，而是通过 Firefly 的工具将 Runtime 包自动挂到了/opt/下，则触发此问题。原因是安装程序没有在对应路径检测到包
+### 裸板使用 hmatc / tcim_lite 报 ModuleNotFoundError
 
+runtime 压缩包内的 tcim_lite 预编译扩展只适配 Python 3.9（Docker 镜像环境），解压到 /opt 再设 PYTHONPATH 的方式在 Debian 12（Python 3.11）等环境下无法导入；hmatc 也不随 runtime 分发。正确做法是在目标 Python 环境（建议 venv）内 pip 安装 runtime 源码包，现场编译适配当前 Python 版本：
 
+```bash
+pip3 install houmo_tcim_runtime_xh2_linux_aarch64-<version>.tar.gz
 ```
-# 名称需要根据版本改动
-export LD_LIBRARY_PATH=/opt/houmo_tcim_runtime_xh2_linux_aarch64-1.4.0/lib:/usr/local/houmo-sdk/hal/lib:$LD_LIBRARY_PATH
-export TCIM_FORCE_BACKEND=Xh2HalBackend
+
+纯二进制测试工具（tcim_perf 等）不涉及 Python，只需为其设置 runtime lib 目录的 LD_LIBRARY_PATH。
+### 下载速度太慢
+
+建议更换国内镜像源。
+
+pip 更换国内源（任选其一）：
+
+```bash
+pip3 config set global.index-url https://repo.huaweicloud.com/repository/pypi/simple   # 华为云
+pip3 config set global.index-url https://mirrors.aliyun.com/pypi/simple/               # 阿里云
+pip3 config set global.index-url https://mirrors.ustc.edu.cn/pypi/simple               # 中科大
+pip3 config set global.index-url https://mirrors.cloud.tencent.com/pypi/simple         # 腾讯云
 ```
-在执行对应指令前，先手动设置下路径即可。
+
+apt 源同理（Debian 12，把域名换成上面任意一家）：
+
+```bash
+sudo sed -i 's|deb.debian.org|mirrors.ustc.edu.cn|g; s|security.debian.org|mirrors.ustc.edu.cn|g' /etc/apt/sources.list
+sudo apt update
+```
+
+注意：清华源（tuna）在部分网络环境下返回 403 不可用；examples 内个别 requirements.txt 写死了 tuna 作为 extra-index，遇到下载失败时可改为直接指定包名安装。
