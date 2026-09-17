@@ -20,7 +20,7 @@ The RK1828 AI computing module (model: RM182XMC0) is built around the Rockchip R
 | CPU | Triple-core RISC-V64 |
 | Interface | PCIe 2.1 |
 | Form factor | M.2 2280 (Key B-M) |
-| Supported models | 3B~7B LLM/VLM models |
+| Supported models | Multiple model types such as LLM (3B~7B parameters) / VLM / Omni / ASR / TTS / OCR / CV |
 
 ## 2. Usage
 
@@ -166,6 +166,8 @@ rknn/
 ![](../../../modules_img/RK1828/rknn3-sdk-block-diagram.png)
 </center>
 
+Typical workflow: first convert the trained model to RKNN format with RKNN3-Toolkit on a PC, then run inference on the development board via the RKNN3 Runtime API.
+
 #### RKNN3 Model Zoo
 Provides deployment examples of classic models on the RK1820/RK1828 platform. For more details, refer to [GitHub](https://github.com/airockchip/rknn3-model-zoo).
 
@@ -173,9 +175,12 @@ Provides deployment examples of classic models on the RK1820/RK1828 platform. Fo
 The RKNN3 C API is the C language interface of the RKNN3 Runtime. Developers use C/C++ to develop applications and deploy model inference through the RKNN3 C API.
 
 #### RKNN3 Toolkit
-RKNN3 Toolkit is a development kit that provides users with model transformation, inference, and performance evaluation on the PC platform.
+RKNN3 Toolkit is a development kit that provides users with model transformation, inference, and performance evaluation on the PC platform. Supported Python versions: Python 3.10 and Python 3.12.
 
 **RKNN3 Toolkit** is incompatible with [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) and [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2). For more details, refer to [GitHub](https://github.com/airockchip/rknn3-toolkit).
+
+#### Pre-converted RKNN Models
+Users can download pre-converted RKNN models from the [RKNN3_SDK cloud drive](https://console.box.lenovo.com/l/H1fig1) (access code: `rknn`) without converting them by themselves. The models for the current release (V1.1.0) are available under the `RKNN3_SDK/rknn3_models/v1.1.0` directory.
 
 ### FAQs
 
@@ -199,7 +204,7 @@ WantedBy=sysinit.target
 ```
 
 #### Currently Supported Models
-For currently supported models and detailed information, refer to `rknn/rknn3-runtime/doc/EN/00_RKNN3_SDK_Release_Notes_V1.1.0.pdf` in the SDK.
+The current SDK (V1.1.0) supports multiple model categories, including LLM, VLM, Omni, ASR (speech recognition), TTS (text-to-speech), Embedding / Reranker, translation, OCR, and CV (computer vision), such as Qwen3 / Qwen3.5 / GLM-Edge / MiniCPM5 (LLM), Qwen3-VL / InternVL3.5 / SmolVLM2 (VLM), Whisper / SenseVoice (ASR), PaddleOCR VL (OCR), and YOLOv8 / YOLO26 (CV). For the complete list and detailed information of each model, refer to `rknn/rknn3-runtime/doc/EN/00_RKNN3_SDK_Release_Notes_V1.1.0.pdf` in the SDK.
 
 #### rknn3 API Version shows NA
 Install binutils; some rootfs may not have the strings command.

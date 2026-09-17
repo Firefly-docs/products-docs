@@ -18,7 +18,7 @@
 
 ## 使用方法
 
-考虑到后摩模块资源主要以 docker 容器进行测试，体积较大。同时驱动安装为DKMS自动编译安装，需要板端第一次安装时有网络并配齐对应开发环境。因此 Firefly 发布两种形式的资源。一种是 Firefly 基于自身固件，将编译好的驱动和测试工具直接打包好，让使用 Firefly 固件的客户能直接测试（不进行长期维护，主要用于检测模块是否正常）。另一种则为 Houmo 官方资源包，完成初步对 Houmo模块的测试后，客户可以再根据需求进行下载对应的资源
+考虑到后摩模块资源主要以 docker 容器进行测试，体积较大。同时驱动安装为DKMS自动编译安装，需要板端第一次安装时有网络并配齐对应开发环境。因此 Firefly 发布两种形式的资源。一种是 Firefly 基于自身固件，将编译好的驱动和测试工具直接打包好，让使用 Firefly 固件的客户能直接测试（不进行长期维护，主要用于检测模块是否正常）。另一种则为 Houmo 官方资源包，完成初步对 Houmo模块的测试后，客户可以再根据需求进行下载对应的资源。官方资源包在安装驱动后，后续使用分为两条路径：**依赖 Docker 镜像**与**裸板（不依赖 Docker）**，见[安装驱动](#安装驱动两条路径共同步骤)小节末尾的路径说明
 
 
 
@@ -31,9 +31,9 @@
 3. runtime 压缩包
 4. 安装脚本
 
-运行install.sh，会自动安装驱动，并将 runtime 以 pip 方式安装到系统 Python（源码包现场编译 tcim_lite，需要网络；缺失的编译依赖脚本会自动补装）。解压测试包，运行run_all.sh，即可进行测试，测试默认只运行 check 测试，用于检测模块与环境是否正常。可运行run_all.sh --aging 进行 2 hour 压力测试。会分别测试模块的DDR读写速率，算力， 以及推理性能（推理性能验证使用的是CNN模型，主要用于验证模块的功能完整）。在 venv 中做模型开发时，需在 venv 内再 pip 安装一次包内的 runtime 压缩包（见[模型测试](#模型测试)裸板小节）；houmo_test 二进制测试工具会自动定位 pip 安装的库，无需 /opt。
+运行install.sh，会自动安装驱动，并将 runtime 以 pip 方式安装到系统 Python（源码包现场编译 tcim_lite，需要网络；缺失的编译依赖脚本会自动补装）。解压测试包，运行run_all.sh，即可进行测试，测试默认只运行 check 测试，用于检测模块与环境是否正常。可运行run_all.sh --aging 进行 2 hour 压力测试。会分别测试模块的DDR读写速率，算力， 以及推理性能（推理性能验证使用的是CNN模型，主要用于验证模块的功能完整）。在 venv 中做模型开发时，需在 venv 内再 pip 安装一次包内的 runtime 压缩包（见[路径二：裸板](#路径二裸板不依赖-docker)的「安装 runtime」小节）；houmo_test 二进制测试工具会自动定位 pip 安装的库，无需 /opt。
 
-安装后，运行`hm_smi -a`测试，若能检测到模块，则请直接跳转到[模块测试](#模块测试)。无需再次配置驱动与运行时环境。
+安装后，运行`hm_smi -a`测试，若能检测到模块，则请直接跳转到[路径一：依赖 Docker 镜像](#路径一依赖-docker-镜像)的「模块测试」小节。无需再次配置驱动与运行时环境。
 
 > 注意，Firefly Houmo 安装包仅支持 Firefly 所提供支持的固件，主要是内核版本的原因，因此在使用时请注意。
 
@@ -58,11 +58,9 @@ houmo-examples-xh2_<version>.zip		# 测试程序包
 
 
 
-#### 配置环境
+### 安装驱动（两条路径共同步骤）
 
 如下教程，都以V1.2.0版本举例，请根据需求替换。
-
-**安装驱动**
 
 ```bash
 # 安装加速卡 pcie 驱动
@@ -110,14 +108,14 @@ hm_smi -a
   sdk build infos
 --------------------------------------------------------------------------------
   Build_Time     : 2026-08-20 19:40:00
-  HMSW_Version   : V1.4.3
+  HMSW_Version   : V1.2.0
   HM_SMI_Version : V1.0.0
 --------------------------------------------------------------------------------
   Wed Sep 16 05:35:51 CST 2026
 --------------------------------------------------------------------------------
   device0 detail infos
 --------------------------------------------------------------------------------
-  Driver_Version         : V1.4.3
+  Driver_Version         : V1.2.0
   Vendor                 : Houmo
   BDF                    : 0004:41:00.0
   Dev                    : 0
@@ -157,9 +155,18 @@ hm_smi -a
 
 当能检测到安装的每个后摩模块时，则证明驱动安装完成，启动正常。
 
+驱动安装完成后，后续使用分为两条路径：
 
+| 路径 | 说明 |
+| --- | --- |
+| [路径一：依赖 Docker 镜像](#路径一依赖-docker-镜像) | 使用 Houmo 官方 Docker 镜像，完整工具链与环境变量均已预置，开箱即用 |
+| [路径二：裸板（不依赖 Docker）](#路径二裸板不依赖-docker) | 不依赖 Docker，在板端 Python 环境（建议 venv）pip 安装 runtime 与 hmatc，仅做推理验证 |
 
-**安装 Docker 镜像**
+### 路径一：依赖 Docker 镜像
+
+Docker 镜像是 Houmo 官方完整工具链环境（Ubuntu 24.04 + Python 3.12），hmatc、tcim_lite、modelscope 等已预装在镜像内（/opt/venv/dadao），HOUMO_TARGET / HOUMO_VERSION / TCIM_* 等环境变量也已预置，无需再 pip 安装任何依赖、无需 export。
+
+#### 安装 Docker 镜像
 
 执行如下指令
 
@@ -197,7 +204,7 @@ sudo docker load -i Dadao-docker-xh2-v1.2.0-ubuntu20.04-aarch64.tar
 
 
 
-### 模块测试
+#### 模块测试
 
 下载`houmo-examples-xh2_v1.2.0.zip`后，运行如下指令。
 
@@ -217,15 +224,32 @@ source env.sh
 /workspace/tools/computing_perf# ./run.sh
 ```
 
+#### 模型测试（镜像内）
 
+```bash
+cd houmo-examples-xh2/
+sudo docker run -it --name Dadao-deploy-xh2 --pid=host --privileged --shm-size 64g \
+  -v "$PWD:/workspace" -w /workspace \
+  harbor.houmo.ai/toolchain/release:Dadao-deploy-xh2-v1.4.0-ubuntu24.04-aarch64 /bin/bash
 
-### 模型测试
+source env.sh
+cd models/llm/qwen3.5
 
-**裸板（不依赖 Docker）**
+# 容器内预装 modelscope，tokenizer 自动下载，无需手动拷 hf_config
+python3 get_model.py --type hmm --model_name qwen3.5 --model_size 0.8b
+
+# demo 默认图片不在 examples 包内，先放一张到默认路径（原因见路径二「模型测试」小节的注意）
+mkdir -p /workspace/data/pic && cp /workspace/hmodel/xh2/examples/llm/qwen3omni/data/cars.jpg /workspace/data/pic/beach.jpeg
+python3 demo.py --model_name qwen3.5 --model_size 0.8b
+```
+
+镜像 tag 以实际下载的 tar 为准（`sudo docker images` 查看）；9b 等大模型需先给宿主机加 swap（同[路径二：裸板](#路径二裸板不依赖-docker)的「内存不足时加 swap」小节，swap 对容器同样生效）。
+
+### 路径二：裸板（不依赖 Docker）
 
 以下以 v1.4.0 资源为例，请按实际版本替换文件名中的版本号。裸板仅做推理验证：AArch64 不支持模型量化与编译（需要 x86 + CUDA 环境），请使用编译好的 .hmm 模型。
 
-**1. 基础环境**
+#### 配置基础环境
 
 ```bash
 sudo apt update
@@ -236,7 +260,7 @@ pip3 config set global.index-url https://repo.huaweicloud.com/repository/pypi/si
 pip3 config set global.extra-index-url https://mirrors.aliyun.com/pypi/simple/
 ```
 
-**2. 安装 runtime（pip 安装，不要解压到 /opt）**
+#### 安装 runtime（pip 安装，不要解压到 /opt）
 
 runtime 压缩包是标准 Python 源码包（sdist），直接 pip 安装，会为当前 Python 版本现场编译 tcim_lite：
 
@@ -249,7 +273,7 @@ python3 -c "import tcim_lite; print(tcim_lite.__file__)"    # 验证
 ```
 
 
-**3. 安装 hmatc 工具链**
+#### 安装 hmatc 工具链
 
 ```bash
 source /etc/profile.d/houmo-sdk.sh    # 提供 HOUMO_SDK_PATH（hmatc 编译扩展时要找 HAL 头文件；非登录 shell 不会自动加载）
@@ -262,7 +286,7 @@ cd ..
 python3 -c "import hmatc; print(hmatc.__file__)"    # 验证
 ```
 
-**4. 环境变量**
+#### 设置环境变量
 
 | 变量 | 值 | 说明 |
 | ---- | -- | ---- |
@@ -285,7 +309,7 @@ source env.sh    # 可选，仅用于补路径
 echo 'export HOUMO_TARGET=xh2 HOUMO_VERSION=v1.4.0 TCIM_FORCE_BACKEND=Xh2HalBackend' | sudo tee /etc/profile.d/houmo-env.sh
 ```
 
-**5. 拉取模型并运行（以 qwen3.5 9b 为例）**
+#### 模型测试（裸板）
 
 qwen3.5 还有 0.8b / 2b / 4b 规格（见该目录 README.MD）。快速验证建议先跑 `--model_size 0.8b`：模型仅约 2.1 GB、加载峰值内存低，8 GB 内存的板子无需加 swap 即可运行（实测 E2E 约 25 tokens/s）。
 
@@ -309,7 +333,7 @@ python3 demo.py --model_name qwen3.5 --model_size 9b
 >
 > 更多模型与使用方法，请参考 models 目录下其他模型文件夹下的 README。
 
-**6. 内存不足时加 swap**
+#### 内存不足时加 swap
 
 9b 级模型加载峰值内存超过 8GB，8GB 内存的板子会触发内核 OOM（dmesg 可见 `Killed process ... python3`）。先加 swap 再运行：
 
@@ -320,30 +344,6 @@ sudo mkswap /userdata/swapfile
 sudo swapon /userdata/swapfile
 echo '/userdata/swapfile none swap sw,nofail 0 0' | sudo tee -a /etc/fstab
 ```
-
-
-**依赖docker镜像**
-
-Docker 镜像是 Houmo 官方完整工具链环境（Ubuntu 24.04 + Python 3.12），hmatc、tcim_lite、modelscope 等已预装在镜像内（/opt/venv/dadao），HOUMO_TARGET / HOUMO_VERSION / TCIM_* 等环境变量也已预置，无需再 pip 安装任何依赖、无需 export：
-
-```bash
-cd houmo-examples-xh2/
-sudo docker run -it --name Dadao-deploy-xh2 --pid=host --privileged --shm-size 64g \
-  -v "$PWD:/workspace" -w /workspace \
-  harbor.houmo.ai/toolchain/release:Dadao-deploy-xh2-v1.4.0-ubuntu24.04-aarch64 /bin/bash
-
-source env.sh
-cd models/llm/qwen3.5
-
-# 容器内预装 modelscope，tokenizer 自动下载，无需手动拷 hf_config
-python3 get_model.py --type hmm --model_name qwen3.5 --model_size 0.8b
-
-# demo 默认图片不在 examples 包内，先放一张到默认路径（原因见裸板小节第 5 步的注意）
-mkdir -p /workspace/data/pic && cp /workspace/hmodel/xh2/examples/llm/qwen3omni/data/cars.jpg /workspace/data/pic/beach.jpeg
-python3 demo.py --model_name qwen3.5 --model_size 0.8b
-```
-
-镜像 tag 以实际下载的 tar 为准（`sudo docker images` 查看）；9b 等大模型需先给宿主机加 swap（同裸板小节第 6 步，swap 对容器同样生效）。
 
 ### hm_smi
 

@@ -20,7 +20,7 @@ RK1828 AI 计算模块（型号：RM182XMC0）基于瑞芯微 RK1828 AI 协处�
 | CPU | 三核 RISC-V64 |
 | 接口 | PCIe 2.1 |
 | 外形规格 | M.2 2280（Key B-M） |
-| 支持模型 | 3B~7B 参数量的 LLM/VLM 模型 |
+| 支持模型 | LLM（3B~7B 参数量）/ VLM / Omni / ASR / TTS / OCR / CV 等多类模型 |
 
 ## 二、使用方法
 
@@ -167,6 +167,8 @@ rknn/
 ![](../../../modules_img/RK1828/rknn3-sdk-block-diagram.png)
 </center>
 
+典型工作流程：先在 PC 上使用 RKNN3-Toolkit 将训练好的模型转换为 RKNN 格式，再通过 RKNN3 Runtime API 在开发板上进行推理。
+
 #### RKNN3 Model Zoo
 提供 RK1820/RK1828 平台上经典模型的部署示例。更多详细内容可以参考[github](https://github.com/airockchip/rknn3-model-zoo)
 
@@ -174,9 +176,12 @@ rknn/
 RKNN3 C API 是 RKNN3 Runtime（运行时库）的 C 语言接口。开发者使用 C/C++ 开发应用程序，通过 RKNN3 C API 部署模型推理。
 
 #### RKNN3 Toolkit
-RKNN3 Toolkit 是为用户提供在 PC 平台上进行模型转换、推理和性能评估的开发套件。
+RKNN3 Toolkit 是为用户提供在 PC 平台上进行模型转换、推理和性能评估的开发套件。支持的 Python 版本：Python 3.10、Python 3.12。
 
 **RKNN3 Toolkit** 与 [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) 和 [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2) **不兼容**。更多内容可以参考[github](https://github.com/airockchip/rknn3-toolkit)
+
+#### 预转换 RKNN 模型
+用户可以从 [RKNN3_SDK 网盘](https://console.box.lenovo.com/l/H1fig1) 下载预先转换好的 RKNN 模型（提取码：`rknn`），无需自行转换。当前版本（V1.1.0）发布的模型位于 `RKNN3_SDK/rknn3_models/v1.1.0` 目录。
 
 ### 常见问题
 
@@ -201,7 +206,7 @@ WantedBy=sysinit.target
 
 #### 当前支持的模型
 
-当前支持的模型和详细说明，请参考 SDK 中的 `rknn/rknn3-runtime/doc/CN/00_RKNN3_SDK_发布说明_V1.1.0.pdf`。
+当前 SDK（V1.1.0）支持的模型类别包括 LLM、VLM、Omni、ASR（语音识别）、TTS（文本转语音）、Embedding / Reranker、翻译、OCR、CV（计算机视觉）等，例如 Qwen3 / Qwen3.5 / GLM-Edge / MiniCPM5（LLM），Qwen3-VL / InternVL3.5 / SmolVLM2（VLM），Whisper / SenseVoice（ASR），PaddleOCR VL（OCR），YOLOv8 / YOLO26（CV）等。各模型的完整列表和详细说明请参考 SDK 中的 `rknn/rknn3-runtime/doc/CN/00_RKNN3_SDK_发布说明_V1.1.0.pdf`。
 
 #### rknn3 API Version 显示 NA
 安装一下binutils, 部分rootfs可能没有strings指令
