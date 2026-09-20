@@ -14,4 +14,8 @@
 * 密码：firefly
 * root 用户密码未设置
 
+<center>
+<img alt="" src="../../../qcom_img/ubun24-gnome-desktop.png" width="700">
+</center>
+
  <a id="firmware-format"></a>

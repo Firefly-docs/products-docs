@@ -15,4 +15,8 @@ After the startup is completed, the screen will light up and display the system 
 * Password: firefly
 * Root Password is not set
 
+<center>
+<img alt="" src="../../../qcom_img/ubun24-gnome-desktop.png" width="700">
+</center>
+
  <a id="firmware-format"></a>

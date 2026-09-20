@@ -44,7 +44,7 @@ sudo ln -s /usr/lib/aarch64-linux-gnu/libOpenCL.so.1 /usr/lib/aarch64-linux-gnu/
 
 # 支持 aidlite-sdk 和 aidgen-sdk
 sudo apt install aidlite-sdk aidlite-*
-sudo apt install aidgen-qnn240-sdk
+sudo apt install aidgen-qnn240 aidgen-sdk
 sudo apt-get install libfmt-dev nlohmann-json3-dev
 ```
 
@@ -392,10 +392,10 @@ vim config.json
 * 拷贝示例工程目录到模型目录并编译
 ```bash
 # 拷贝工程目录到模型目录：
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples .
 
 # 编译
-cd ./aidllm
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -404,7 +404,7 @@ make
 * 调用执行
 ```bash
 cd ../../
-./aidllm/build/test_aidllm abort ./config.json
+./examples/build/test_t2t config.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -464,10 +464,10 @@ vim qwen3-8b-encrypt.json
 * 拷贝示例工程目录到模型目录并编译
 ```bash
 # 拷贝工程目录到模型目录：
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
 
 # 编译
-cd ./aidllm
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -476,7 +476,7 @@ make
 * 调用执行
 ```bash
 cd ../../
-./aidllm/build/test_aidllm abort ./qwen3-8b-encrypt.json
+./examples/build/test_t2t qwen3-8b-encrypt.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -504,20 +504,36 @@ mkdir Meta-Llama-3.1-8B-aidllm
 unzip qnn240_qcs9075_cl4096.zip -d Meta-Llama-3.1-8B-aidllm
 ```
 
-* 拷贝示例工程目录到模型目录，并修改模板
+* 拷贝示例工程目录到模型目录
 ```bash
 # 拷贝工程目录到模型目录：
 cd Meta-Llama-3.1-8B-aidllm/qnn240_qcs9075_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# 修改模板
-cd ./aidllm
-vim test_aidllm.cpp
+* 修改模板
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# 将第 48 行的 prompt_template 修改为如下：
-prompt_template = "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\nYou are a pirate chatbot who always responds in pirate speak!<|eot_id|><|start_header_id|>user<|end_header_id|>\n{0}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n";
+test_aidgen_t2t.cpp 中默认的 prompt 是 Qwen2 格式，采用其他格式的模型需要修改 prompt
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# 编译
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+请根据当前模型文件夹中的模板文件 (chat.txt 或 template.txt 等)，修改 test_aidgen_t2t.cpp 中的预设模板和 system 提示词。
+
+* 编译
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -526,7 +542,7 @@ make
 * 调用执行
 ```bash
 cd ../../
-./aidllm/build/test_aidllm multi_turn ./Meta-Llama-3.1-8B-Instruct-htp.json
+./examples/build/test_t2t Meta-Llama-3.1-8B-Instruct-htp.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -554,20 +570,36 @@ mkdir -p Gemma-2-2B-aidllm
 unzip qnn229_qcs8550_cl4096.zip -d Gemma-2-2B-aidllm/
 ```
 
-* 拷贝示例工程目录到模型目录，并修改模板
+* 拷贝示例工程目录到模型目录
 ```bash
 # 拷贝工程目录到模型目录：
 cd Gemma-2-2B-aidllm/qnn229_qcs8550_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# 修改模板
-cd ./aidllm
-vim test_aidllm.cpp
+* 修改模板
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# 将第 48 行的 prompt_template 修改为如下：
-prompt_template = "<bos><start_of_turn>user\n{0}<end_of_turn>\n<start_of_turn>model";
+test_aidgen_t2t.cpp 中默认的 prompt 是 Qwen2 格式，采用其他格式的模型需要修改 prompt
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# 编译
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+请根据当前模型文件夹中的模板文件 (chat.txt 或 template.txt 等)，修改 test_aidgen_t2t.cpp 中的预设模板和 system 提示词。
+
+* 编译
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -576,7 +608,7 @@ make
 * 调用执行
 ```bash
 cd ../../
-./aidllm/build/test_aidllm abort ./gemma-2-2b-it-htp.json
+./examples/build/test_t2t gemma-2-2b-it-htp.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -608,20 +640,36 @@ mkdir -p Falcon3-7B-aidllm
 unzip qnn237_qcs8550_cl4096.zip -d Falcon3-7B-aidllm/
 ```
 
-* 拷贝示例工程目录到模型目录，并修改模板
+* 拷贝示例工程目录到模型目录
 ```bash
 # 拷贝工程目录到模型目录：
 cd Falcon3-7B-aidllm/qnn237_qcs8550_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# 修改模板
-cd ./aidllm
-vim test_aidllm.cpp
+* 修改模板
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# 将第 48 行的 prompt_template 修改为如下：
-prompt_template = "<|system|>\nYou are a helpful friendly assistant Falcon3 from TII, try to follow instructions as much as possible.\n<|user|>\n{0}\n<|assistant|>\n";
+test_aidgen_t2t.cpp 中默认的 prompt 是 Qwen2 格式，采用其他格式的模型需要修改 prompt
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# 编译
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+请根据当前模型文件夹中的模板文件 (chat.txt 或 template.txt 等)，修改 test_aidgen_t2t.cpp 中的预设模板和 system 提示词。
+
+* 编译
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -630,7 +678,7 @@ make
 * 调用执行
 ```bash
 cd ../../
-./aidllm/build/test_aidllm abort ./falcon3-7b-instruct-htp.json
+./examples/build/test_t2t falcon3-7b-instruct-htp.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -658,20 +706,36 @@ mkdir -p DeepSeek-R1-Distill-Qwen-7B-aidllm
 unzip qnn229_qcs8550_cl4096.zip -d DeepSeek-R1-Distill-Qwen-7B-aidllm
 ```
 
-* 拷贝示例工程目录到模型目录，并修改模板
+* 拷贝示例工程目录到模型目录
 ```bash
 # 拷贝工程目录到模型目录：
 cd DeepSeek-R1-Distill-Qwen-7B-aidllm/qnn229_qcs8550_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# 修改模板
-cd ./aidllm
-vim test_aidllm.cpp
+* 修改模板
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# 将第 48 行的 prompt_template 修改为如下：
-prompt_template = "<｜begin▁of▁sentence｜>You are Deepseek-R1, an AI assistant created exclusively by the Chinese Company DeepSeek. You'll provide helpful, harmless, and detailed responses to all user inquiries.<｜User｜>Introduce Qualcomm in 100 words<｜Assistant｜>"
+test_aidgen_t2t.cpp 中默认的 prompt 是 Qwen2 格式，采用其他格式的模型需要修改 prompt
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# 编译
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+请根据当前模型文件夹中的模板文件 (chat.txt 或 template.txt 等)，修改 test_aidgen_t2t.cpp 中的预设模板和 system 提示词。
+
+* 编译
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -680,7 +744,7 @@ make
 * 调用执行
 ```bash
 cd ../../
-./aidllm/build/test_aidllm multi_turn DeepSeek-R1-Distill-Qwen-7B-htp.json
+./examples/build/test_t2t DeepSeek-R1-Distill-Qwen-7B-htp.json "Introduce Qualcomm in 100 words" default
 ```
 
 <center>
@@ -708,20 +772,36 @@ mkdir -p Phi-3.5-mini-aidllm
 unzip qnn229_qcs8550_cl4096.zip -d Phi-3.5-mini-aidllm
 ```
 
-* 拷贝示例工程目录到模型目录，并修改模板
+* 拷贝示例工程目录到模型目录
 ```bash
 # 拷贝工程目录到模型目录：
 cd Phi-3.5-mini-aidllm/qnn229_qcs8550_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# 修改模板
-cd ./aidllm
-vim test_aidllm.cpp
+* 修改模板
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# 将第 48 行的 prompt_template 修改为如下：
-prompt_template = "<|system|>\nYou are a helpful assistant.<|end|>\n<|user|>\nHow to explain Internet for a medieval knight?<|end|>\n<|assistant|>\n"
+test_aidgen_t2t.cpp 中默认的 prompt 是 Qwen2 格式，采用其他格式的模型需要修改 prompt
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# 编译
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+请根据当前模型文件夹中的模板文件 (chat.txt 或 template.txt 等)，修改 test_aidgen_t2t.cpp 中的预设模板和 system 提示词。
+
+* 编译
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -730,7 +810,7 @@ make
 * 调用执行
 ```bash
 cd ../../
-./aidllm/build/test_aidllm multi_turn Phi-3.5-mini-instruct-htp.json
+./examples/build/test_t2t Phi-3.5-mini-instruct-htp.json "How to explain Internet for a medieval knight?" default
 ```
 
 <center>
@@ -778,20 +858,35 @@ vim config.json
 }
 ```
 
-* 拷贝示例工程目录到模型目录，修改模板并编译
+* 拷贝示例工程目录到模型目录
 ```bash
 # 拷贝工程目录到模型目录：
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
+* 修改模板
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# 修改模板
-cd ./aidllm
-vim test_aidllm.cpp
+test_aidgen_t2t.cpp 中默认的 prompt 是 Qwen2 格式，采用其他格式的模型需要修改 prompt
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# 将第 48 行的 prompt_template 修改为如下：
-prompt_template = "<｜hy_begin▁of▁sentence｜><｜hy_place▁holder▁no▁3｜>\n<｜hy_begin▁of▁sentence｜>\n<｜hy_User｜>Translate the following into Chinese, without additional explanation.\n\n{0}\n<｜hy_Assistant｜>\n";
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+请根据当前模型文件夹中的模板文件 (chat.txt 或 template.txt 等)，修改 test_aidgen_t2t.cpp 中的预设模板和 system 提示词。
 
-# 编译
+* 编译
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -800,7 +895,7 @@ make
 * 调用执行
 ```bash
 cd ../../
-./aidllm/build/test_aidllm multi_turn ./config.json
+./examples/build/test_t2t config.json "Success is not final, failure is not fatal: it is the courage to continue that counts." default
 ```
 
 <center>
@@ -818,7 +913,7 @@ Qwen2.5-VL 是 Qwen2-VL 视觉-语言模型的增强型。主要增强功能：
 4. 多格式视觉定位能力：Qwen2.5-VL 能够通过生成边界框或关键点精确定位图像中的物体，并可稳定输出坐标及属性的 JSON 格式数据。
 5. 生成结构化输出：针对发票、表单、表格等扫描数据，Qwen2.5-VL 支持结构化内容输出，有助于在金融、商业等场景的应用。
 
-* 通过 mms 命令下载对应的 Qwen3 模型，需要提前注册模型广场的账号。
+* 通过 mms 命令下载对应的 Qwen2.5-VL 模型，需要提前注册模型广场的账号。
 ```bash
 # 登录，根据提示输入模型广场的账户和密码
 mms login
@@ -843,24 +938,51 @@ vim Qwen2.5-VL-3B-392x392-8550.json
 配置文件内容：
 ```json
 {
-    "vision_model_path": "./veg.serialized.bin.aidem",
-    "pos_embed_cos_path": "./position_ids_cos.raw",
-    "pos_embed_sin_path": "./position_ids_sin.raw",
-    "vocab_embed_path": "./embedding_weights_151936x2048.raw",
-    "window_attention_mask_path": "./window_attention_mask.raw",
-    "full_attention_mask_path": "./full_attention_mask.raw",
-    "llm_path_list": [
-        "./qwen2p5-vl-3b_qnn236_qcs8550_cl2048_1_of_1.serialized.bin.aidem"
-    ]
+    "backend_type": "genie",
+    "model": {},
+    "vlm_model": {
+        "vision_model_path": "veg.serialized.bin.aidem",
+        "pos_embed_cos_path": "position_ids_cos.raw",
+        "pos_embed_sin_path": "position_ids_sin.raw",
+        "vocab_embed_path": "embedding_weights_151936x2048.raw",
+        "window_attention_mask_path": "window_attention_mask.raw",
+        "full_attention_mask_path": "full_attention_mask.raw",
+        "llm_path_list": [
+            "qwen2p5-vl-3b_qnn236_qcs8550_cl2048_1_of_1.serialized.bin.aidem"
+        ]
+    }
 }
 ```
 
-* 拷贝示例工程目录到模型目录并编译
+* 拷贝示例工程目录到模型目录
 ```bash
 # 拷贝工程目录到模型目录下
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidmlm/* ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# 编译可执行程序
+* 修改示例中硬编码的路径和参数
+```bash
+vim ./examples/qwen25vl_test.cpp
+```
+将配置文件路径、图片尺寸、VIT 模型文件路径和测试图片路径修改为模型目录下的实际文件：
+```c++
+    auto ctx = Context::create_instance("./Qwen2.5-VL-3B-392x392-8550.json", props, aidgen_type);
+
+    m_config.img_h               = 392;
+    m_config.img_w               = 392;
+
+    m_path.model_path = "./veg.serialized.bin.aidem";
+    m_path.pos_embed_cos_path = "./position_ids_cos.raw";
+    m_path.pos_embed_sin_path = "./position_ids_sin.raw";
+    m_path.window_attention_mask_path = "./window_attention_mask.raw";
+    m_path.full_attention_mask_path = "./full_attention_mask.raw";
+
+    cv::Mat frame = cv::imread("./bus_input.jpg");
+```
+
+* 编译可执行程序
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -868,8 +990,8 @@ make
 
 * 运行
 ```bash
-cd ..
-./build/test_aidmlm single qwen25vl3b392 Qwen2.5-VL-3B-392x392-8550.json ~/bus_input.jpg "Describe the scene in the picture"
+cd ../../
+./examples/build/test_qwen25vl default
 ```
 
 <center>
@@ -890,24 +1012,9 @@ AidGenSE 是基于 AidGen 封装的适配了 OpenAI HTTP 协议的生成式 AI H
 
 * 环境准备
 ```bash
-# 配置虚拟运行环境
-sudo apt install -y python3-pip python3-venv > /dev/null 2>&1
-sudo python3 -m venv /opt/aidlux/aid-python3
-
-# 创建 aid-python3 命令
-echo '#!/bin/bash
-exec /opt/aidlux/aid-python3/bin/python3 "$@"' | sudo tee /usr/bin/aid-python3 > /dev/null
-sudo chmod +x /usr/bin/aid-python3
-
-# 创建 aid-pip3 命令
-echo '#!/bin/bash
-exec /opt/aidlux/aid-python3/bin/python3 -m pip "$@"' | sudo tee /usr/bin/aid-pip3 > /dev/null
-sudo chmod +x /usr/bin/aid-pip3
-
 # 安装 AidGenSE deb
 sudo apt install aidgense
 sudo aidllm system --sys linux --soc 8550
-sudo apt install aid-pkg
 ```
 
 * 常用指令

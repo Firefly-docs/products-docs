@@ -44,7 +44,7 @@ sudo ln -s /usr/lib/aarch64-linux-gnu/libOpenCL.so.1 /usr/lib/aarch64-linux-gnu/
 
 # install aidlite-sdk and aidgen-sdk
 sudo apt install aidlite-sdk aidlite-*
-sudo apt install aidgen-qnn240-sdk
+sudo apt install aidgen-qnn240 aidgen-sdk
 sudo apt-get install libfmt-dev nlohmann-json3-dev
 ```
 
@@ -390,13 +390,13 @@ The contents of configuration file:
 }
 ```
 
-* Copy the demo project to model directory then build the demo
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples .
 
 # build
-cd ./aidllm
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -405,7 +405,7 @@ make
 * Run the demo
 ```bash
 cd ../../
-./aidllm/build/test_aidllm abort ./config.json
+./examples/build/test_t2t config.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -462,13 +462,13 @@ The contents of configuration file:
 }
 ```
 
-* Copy the demo project to model directory then build the demo
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
 
 # build
-cd ./aidllm
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -477,7 +477,7 @@ make
 * Run the demo
 ```bash
 cd ../../
-./aidllm/build/test_aidllm abort ./qwen3-8b-encrypt.json
+./examples/build/test_t2t qwen3-8b-encrypt.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -505,20 +505,36 @@ mkdir Meta-Llama-3.1-8B-aidllm
 unzip qnn240_qcs9075_cl4096.zip -d Meta-Llama-3.1-8B-aidllm
 ```
 
-* Copy the demo project to model directory, and modify the template
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
 cd Meta-Llama-3.1-8B-aidllm/qnn240_qcs9075_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# modify the template
-cd ./aidllm
-vim test_aidllm.cpp
+* Modify the template
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# change the "prompt_template" in line 48 to this:
-prompt_template = "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\nYou are a pirate chatbot who always responds in pirate speak!<|eot_id|><|start_header_id|>user<|end_header_id|>\n{0}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n";
+The default prompt in test_aidgen_t2t.cpp is in Qwen2 format. Models using other formats require modifying the prompt:
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# build
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+Please modify the preset template and system prompt in test_aidgen_t2t.cpp according to the template file (chat.txt or template.txt, etc.) in the current model folder.
+
+* Build
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -527,7 +543,7 @@ make
 * Run the demo
 ```bash
 cd ../../
-./aidllm/build/test_aidllm multi_turn ./Meta-Llama-3.1-8B-Instruct-htp.json
+./examples/build/test_t2t Meta-Llama-3.1-8B-Instruct-htp.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -555,20 +571,36 @@ mkdir -p Gemma-2-2B-aidllm
 unzip qnn229_qcs8550_cl4096.zip -d Gemma-2-2B-aidllm/
 ```
 
-* Copy the demo project to model directory, and modify the template
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
 cd Gemma-2-2B-aidllm/qnn229_qcs8550_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# modify the template
-cd ./aidllm
-vim test_aidllm.cpp
+* Modify the template
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# change the "prompt_template" in line 48 to this:
-prompt_template = "<bos><start_of_turn>user\n{0}<end_of_turn>\n<start_of_turn>model";
+The default prompt in test_aidgen_t2t.cpp is in Qwen2 format. Models using other formats require modifying the prompt:
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# build
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+Please modify the preset template and system prompt in test_aidgen_t2t.cpp according to the template file (chat.txt or template.txt, etc.) in the current model folder.
+
+* Build
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -577,7 +609,7 @@ make
 * Run the demo
 ```bash
 cd ../../
-./aidllm/build/test_aidllm abort ./gemma-2-2b-it-htp.json
+./examples/build/test_t2t gemma-2-2b-it-htp.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -607,20 +639,36 @@ mkdir -p Falcon3-7B-aidllm
 unzip qnn237_qcs8550_cl4096.zip -d Falcon3-7B-aidllm/
 ```
 
-* Copy the demo project to model directory, and modify the template
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
 cd Falcon3-7B-aidllm/qnn237_qcs8550_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# modify the template
-cd ./aidllm
-vim test_aidllm.cpp
+* Modify the template
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# change the "prompt_template" in line 48 to this:
-prompt_template = "<|system|>\nYou are a helpful friendly assistant Falcon3 from TII, try to follow instructions as much as possible.\n<|user|>\n{0}\n<|assistant|>\n";
+The default prompt in test_aidgen_t2t.cpp is in Qwen2 format. Models using other formats require modifying the prompt:
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# build
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+Please modify the preset template and system prompt in test_aidgen_t2t.cpp according to the template file (chat.txt or template.txt, etc.) in the current model folder.
+
+* Build
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -629,7 +677,7 @@ make
 * Run the demo
 ```bash
 cd ../../
-./aidllm/build/test_aidllm abort ./falcon3-7b-instruct-htp.json
+./examples/build/test_t2t falcon3-7b-instruct-htp.json "Give me a short introduction to large language model" default
 ```
 
 <center>
@@ -657,20 +705,36 @@ mkdir -p DeepSeek-R1-Distill-Qwen-7B-aidllm
 unzip qnn229_qcs8550_cl4096.zip -d DeepSeek-R1-Distill-Qwen-7B-aidllm
 ```
 
-* Copy the demo project to model directory, and modify the template
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
 cd DeepSeek-R1-Distill-Qwen-7B-aidllm/qnn229_qcs8550_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# modify the template
-cd ./aidllm
-vim test_aidllm.cpp
+* Modify the template
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# change the "prompt_template" in line 48 to this:
-prompt_template = "<｜begin▁of▁sentence｜>You are Deepseek-R1, an AI assistant created exclusively by the Chinese Company DeepSeek. You'll provide helpful, harmless, and detailed responses to all user inquiries.<｜User｜>Introduce Qualcomm in 100 words<｜Assistant｜>"
+The default prompt in test_aidgen_t2t.cpp is in Qwen2 format. Models using other formats require modifying the prompt:
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# build
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+Please modify the preset template and system prompt in test_aidgen_t2t.cpp according to the template file (chat.txt or template.txt, etc.) in the current model folder.
+
+* Build
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -679,7 +743,7 @@ make
 * Run the demo
 ```bash
 cd ../../
-./aidllm/build/test_aidllm multi_turn DeepSeek-R1-Distill-Qwen-7B-htp.json
+./examples/build/test_t2t DeepSeek-R1-Distill-Qwen-7B-htp.json "Introduce Qualcomm in 100 words" default
 ```
 
 <center>
@@ -707,20 +771,36 @@ mkdir -p Phi-3.5-mini-aidllm
 unzip qnn229_qcs8550_cl4096.zip -d Phi-3.5-mini-aidllm
 ```
 
-* Copy the demo project to model directory, and modify the template
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
 cd Phi-3.5-mini-aidllm/qnn229_qcs8550_cl4096
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# modify the template
-cd ./aidllm
-vim test_aidllm.cpp
+* Modify the template
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# change the "prompt_template" in line 48 to this:
-prompt_template = "<|system|>\nYou are a helpful assistant.<|end|>\n<|user|>\nHow to explain Internet for a medieval knight?<|end|>\n<|assistant|>\n"
+The default prompt in test_aidgen_t2t.cpp is in Qwen2 format. Models using other formats require modifying the prompt:
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# build
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+Please modify the preset template and system prompt in test_aidgen_t2t.cpp according to the template file (chat.txt or template.txt, etc.) in the current model folder.
+
+* Build
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -729,7 +809,7 @@ make
 * Run the demo
 ```bash
 cd ../../
-./aidllm/build/test_aidllm multi_turn Phi-3.5-mini-instruct-htp.json
+./examples/build/test_t2t Phi-3.5-mini-instruct-htp.json "How to explain Internet for a medieval knight?" default
 ```
 
 <center>
@@ -777,19 +857,35 @@ The contents of configuration file:
 }
 ```
 
-* Copy the demo project to model directory, and modify the template
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidllm/ ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# modify the template
-cd ./aidllm
-vim test_aidllm.cpp
+* Modify the template
+```bash
+vim ./examples/test_aidgen_t2t.cpp
+```
 
-# change the "prompt_template" in line 48 to this:
-prompt_template = "<｜hy_begin▁of▁sentence｜><｜hy_place▁holder▁no▁3｜>\n<｜hy_begin▁of▁sentence｜>\n<｜hy_User｜>Translate the following into Chinese, without additional explanation.\n\n{0}\n<｜hy_Assistant｜>\n";
+The default prompt in test_aidgen_t2t.cpp is in Qwen2 format. Models using other formats require modifying the prompt:
+```c++
+    // ========================================================================
+    // 5. 构建提示词模板 (Qwen2 格式)
+    // ========================================================================
+    std::string system_prompt =
+        "<|im_start|>system\n"
+        "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n";
 
-# build
+    auto make_user_turn = [](const std::string& text) -> std::string {
+        return "<|im_start|>user\n" + text + "<|im_end|>\n<|im_start|>assistant\n";
+    };
+```
+Please modify the preset template and system prompt in test_aidgen_t2t.cpp according to the template file (chat.txt or template.txt, etc.) in the current model folder.
+
+* Build
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -798,7 +894,7 @@ make
 * Run the demo
 ```bash
 cd ../../
-./aidllm/build/test_aidllm multi_turn ./config.json
+./examples/build/test_t2t config.json "Success is not final, failure is not fatal: it is the courage to continue that counts." default
 ```
 
 <center>
@@ -816,7 +912,7 @@ Qwen2.5-VL is the enhanced version of Qwen2-VL vision-language models. Key Enhan
 4. Capable of visual localization in different formats: Qwen2.5-VL can accurately localize objects in an image by generating bounding boxes or points, and it can provide stable JSON outputs for coordinates and attributes.
 5. Generating structured outputs: for data like scans of invoices, forms, tables, etc. Qwen2.5-VL supports structured outputs of their contents, benefiting usages in finance, commerce, etc.
 
-* Use mms command to download Qwen3 model, need Model Farm account.
+* Use mms command to download Qwen2.5-VL model, need Model Farm account.
 ```bash
 # login, enter the account and password of the Model Farm according to the prompt
 mms login
@@ -841,24 +937,51 @@ vim Qwen2.5-VL-3B-392x392-8550.json
 The contents of configuration file:
 ```json
 {
-    "vision_model_path": "./veg.serialized.bin.aidem",
-    "pos_embed_cos_path": "./position_ids_cos.raw",
-    "pos_embed_sin_path": "./position_ids_sin.raw",
-    "vocab_embed_path": "./embedding_weights_151936x2048.raw",
-    "window_attention_mask_path": "./window_attention_mask.raw",
-    "full_attention_mask_path": "./full_attention_mask.raw",
-    "llm_path_list": [
-        "./qwen2p5-vl-3b_qnn236_qcs8550_cl2048_1_of_1.serialized.bin.aidem"
-    ]
+    "backend_type": "genie",
+    "model": {},
+    "vlm_model": {
+        "vision_model_path": "veg.serialized.bin.aidem",
+        "pos_embed_cos_path": "position_ids_cos.raw",
+        "pos_embed_sin_path": "position_ids_sin.raw",
+        "vocab_embed_path": "embedding_weights_151936x2048.raw",
+        "window_attention_mask_path": "window_attention_mask.raw",
+        "full_attention_mask_path": "full_attention_mask.raw",
+        "llm_path_list": [
+            "qwen2p5-vl-3b_qnn236_qcs8550_cl2048_1_of_1.serialized.bin.aidem"
+        ]
+    }
 }
 ```
 
-* Copy demo project to model directory then build the demo
+* Copy the demo project to the model directory
 ```bash
 # copy demo project to model directory
-cp -r /usr/local/share/aidgen/examples/aidgen_qnn240/cpp/aidmlm/* ./
+cp -r /usr/local/share/aidgen/examples ./
+```
 
-# build
+* Modify the hardcoded paths and parameters in the example
+```bash
+vim ./examples/qwen25vl_test.cpp
+```
+Change the config file path, image size, VIT model file paths, and test image path to the actual files in the model directory:
+```c++
+    auto ctx = Context::create_instance("./Qwen2.5-VL-3B-392x392-8550.json", props, aidgen_type);
+
+    m_config.img_h               = 392;
+    m_config.img_w               = 392;
+
+    m_path.model_path = "./veg.serialized.bin.aidem";
+    m_path.pos_embed_cos_path = "./position_ids_cos.raw";
+    m_path.pos_embed_sin_path = "./position_ids_sin.raw";
+    m_path.window_attention_mask_path = "./window_attention_mask.raw";
+    m_path.full_attention_mask_path = "./full_attention_mask.raw";
+
+    cv::Mat frame = cv::imread("./bus_input.jpg");
+```
+
+* Build the executable
+```bash
+cd ./examples
 mkdir build && cd build
 cmake ..
 make
@@ -866,8 +989,8 @@ make
 
 * Run the demo
 ```bash
-cd ..
-./build/test_aidmlm single qwen25vl3b392 Qwen2.5-VL-3B-392x392-8550.json /home/ubuntu/dog.jpg "Describe the scene in the picture."
+cd ../../
+./examples/build/test_qwen25vl default
 ```
 
 <center>
@@ -888,24 +1011,9 @@ The following is an introduction to the usage of AidGenSE:
 
 * Prepare AidGenSE environment
 ```bash
-# setup python virtual env
-sudo apt install -y python3-pip python3-venv > /dev/null 2>&1
-sudo python3 -m venv /opt/aidlux/aid-python3
-
-# create aid-python3 command
-echo '#!/bin/bash
-exec /opt/aidlux/aid-python3/bin/python3 "$@"' | sudo tee /usr/bin/aid-python3 > /dev/null
-sudo chmod +x /usr/bin/aid-python3
-
-# create aid-pip3 command
-echo '#!/bin/bash
-exec /opt/aidlux/aid-python3/bin/python3 -m pip "$@"' | sudo tee /usr/bin/aid-pip3 > /dev/null
-sudo chmod +x /usr/bin/aid-pip3
-
 # install AidGenSE
 sudo apt install aidgense
 sudo aidllm system --sys linux --soc 8550
-sudo apt install aid-pkg
 ```
 
 * Common instructions
