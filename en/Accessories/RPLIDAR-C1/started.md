@@ -6,7 +6,7 @@
 
 RPLIDAR C1 is a hybrid DTOF LiDAR developed by Slamtec for developers and indoor applications. It supports 360° scanning, with a 5 kHz sampling rate and an 8-12 Hz scanning frequency, making it suitable for robot navigation, obstacle avoidance, localization, mapping, and other applications.
 
-![](../../../modules_img/RPLIDAR-C1/rplidar-c1.png)
+![](../../../modules_img/RPLIDAR-C1/rplidar-c1-EN.png)
 
 ### Specifications
 
