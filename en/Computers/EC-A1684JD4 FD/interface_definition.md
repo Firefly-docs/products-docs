@@ -17,7 +17,7 @@ EC-A1684JD4 has rich interfaces, mainly including:
 
 <center>
 
-<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ec-a1684jd4-interface.jpg" width="900">
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ec-a1684jd4-interface.en.jpg" width="900">
 </center>
 
 ## Antenna Connection

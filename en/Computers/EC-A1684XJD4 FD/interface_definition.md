@@ -17,7 +17,7 @@ EC-A1684XJD4 FD has rich interfaces, mainly including:
 
 <center>
 
-![](../../../bm1684_img/EC-A1684XJD4-FD/EC-A1684XJD4-FD-interface.jpg)
+![](../../../bm1684_img/EC-A1684XJD4-FD/EC-A1684XJD4-FD-interface.en.jpg)
 </center>
 
 ## Antenna Connections

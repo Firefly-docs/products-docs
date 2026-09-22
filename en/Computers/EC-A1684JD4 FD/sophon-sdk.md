@@ -202,7 +202,7 @@ The Advanced Toolkit includes:
 
 <center>
 
-<img alt="" src="../../../bm1684_img/new_SophonSDK.png" width="700">
+<img alt="" src="../../../bm1684_img/new_SophonSDK.en.png" width="700">
 </center>
 
 ### SDK Directory Structure
