@@ -65,7 +65,7 @@ cd /data/toolchains/ && 7z x gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu.7
 * Cross-compile (using the `SophUI` source code as an example):    
 
 
-    * enter docker：     
+    * enter docker:     
 
 
     ```

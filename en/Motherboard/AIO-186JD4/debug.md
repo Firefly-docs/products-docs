@@ -33,11 +33,11 @@ The AIO-186JD4 uses the following serial port parameters:
 
 On Windows, PuTTY or SecureCRT software is generally used. We recommend using the free version of MobaXterm. This is a powerful terminal software, and here we introduce it; the usage methods of other software are similar.
 
-To here[Download MobaXterm](https://mobaxterm.mobatek.net/)：
+To here[Download MobaXterm](https://mobaxterm.mobatek.net/):
 
-1. Select `session` For `Serial`。
+1. Select `session` For `Serial`.
 2. Will `Serial port` Change to the COM port found in the Device Manager.
-3. Set `Speed (bsp)` For `115200`。
+3. Set `Speed (bsp)` For `115200`.
 4. Click `OK` Button.
 
 <center>
@@ -65,7 +65,7 @@ Install minicom:
 sudo apt-get install minicom
 ```
 
-After connecting the serial cable, check what the serial device file is (**Note, if using a Type-C interface, the device file in the Linux system is: /dev/ttyACMx**), the following example is `/dev/ttyUSB0`：
+After connecting the serial cable, check what the serial device file is (**Note, if using a Type-C interface, the device file in the Linux system is: /dev/ttyACMx**), the following example is `/dev/ttyUSB0`:
 
 ```
 $ ls /dev/ttyUSB*

@@ -135,7 +135,7 @@ Changing A4:90:CE:DF:64:4F trust succeeded
 
 ### Update resource
 
-Add the new resource list to the  `/etc/apt/sources.list`：
+Add the new resource list to the  `/etc/apt/sources.list`:
 
 ```
 deb-src https://mirrors.huaweicloud.com/ubuntu-ports/ bionic main restricted universe multiverse
@@ -143,7 +143,7 @@ deb-src https://mirrors.huaweicloud.com/ubuntu-ports/ bionic-updates main restri
 deb-src https://mirrors.huaweicloud.com/ubuntu-ports/ bionic-backports main restricted universe multiverse
 deb-src https://mirrors.huaweicloud.com/ubuntu-ports/ bionic-security main restricted universe multiverse
 ```
-Update：
+Update:
 
 ```
 apt-get update

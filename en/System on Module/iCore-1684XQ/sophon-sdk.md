@@ -68,12 +68,12 @@ The structure of the unpacked SDK files is as follows:
  14│   ├── LIBSOPHON_User_Guide.pdf
  15│   ├── LIBSOPHON使用手册.pdf
  16│   ├── release_version.txt
- 17│   ├── sophon-driver_<x.y.z>_amd64.deb                            #x86_64 machine，PCIe card driver installation file corresponding to Debian/Ubuntu system
- 18│   ├── sophon-driver_<x.y.z>_arm64.deb                            #arm64 machine，PCIe card driver installation file corresponding to Debian/Ubuntu system
- 19│   ├── sophon-libsophon_<x.y.z>_amd64.deb                         #x86_64 machine，libsophon runtime environment installation file corresponding to Debian/Ubuntu system
- 20│   ├── sophon-libsophon_<x.y.z>_arm64.deb                         #arm64 machine，libsophon runtime environment installation file corresponding to Debian/Ubuntu system
- 21│   ├── sophon-libsophon-dev_<x.y.z>_amd64.deb                     #x86_64 machine，libsophon runtime environment installation file corresponding to Debian/Ubuntu system
- 22│   └── sophon-libsophon-dev_<x.y.z>_arm64.deb                     #arm64 machine，libsophon runtime environment installation file corresponding to Debian/Ubuntu system
+ 17│   ├── sophon-driver_<x.y.z>_amd64.deb                            #x86_64 machine,PCIe card driver installation file corresponding to Debian/Ubuntu system
+ 18│   ├── sophon-driver_<x.y.z>_arm64.deb                            #arm64 machine,PCIe card driver installation file corresponding to Debian/Ubuntu system
+ 19│   ├── sophon-libsophon_<x.y.z>_amd64.deb                         #x86_64 machine,libsophon runtime environment installation file corresponding to Debian/Ubuntu system
+ 20│   ├── sophon-libsophon_<x.y.z>_arm64.deb                         #arm64 machine,libsophon runtime environment installation file corresponding to Debian/Ubuntu system
+ 21│   ├── sophon-libsophon-dev_<x.y.z>_amd64.deb                     #x86_64 machine,libsophon runtime environment installation file corresponding to Debian/Ubuntu system
+ 22│   └── sophon-libsophon-dev_<x.y.z>_arm64.deb                     #arm64 machine,libsophon runtime environment installation file corresponding to Debian/Ubuntu system
  23├── sophon-demo_<date>_<hash>
  24│   ├── release_version.txt
  25│   ├── sophon-demo.MD5
@@ -166,13 +166,13 @@ The structure of the unpacked SDK files is as follows:
 * **Model Compilation Quantization Tool Chain TPU-NNTC** : supports model conversion of Caffe,Tensorflow,Pytorch,MXNet,Darknet, Paddle Paddle, ONNX and other framework models; supports model quantization: original model -> FP32 UModel -> INT8 UModel -> INT8 BModel, and also provides auto-cali automatic quantization tool.
 * **Tensor Operation and Image Processing Library BMCV** : colour space conversion, scale transformation, affine transformation, projection transformation, linear transformation, frame, JPEG coding, BASE64 coding, NMS, sorting, feature matching
 * **Equipment Management BMLib** : basic interfaces: management of device Handle, memory management, data handling, API sending and synchronisation, A53 enable, etc
-* **SAIL, the Arithmetic AI acceleration library** : supports high-level interfaces to Python/C++ and is wrapper for underlying library interfaces such as BMRuntime、BMCV、BMDecoder
+* **SAIL, the Arithmetic AI acceleration library** : supports high-level interfaces to Python/C++ and is wrapper for underlying library interfaces such as BMRuntime,BMCV,BMDecoder
 * **Custom Operator Advanced Programming Library BMLang**: A C++ based high-level programming library for Sophon TPUs, decoupled from hardware information, no knowledge of hardware architecture is required, code is written using tensor data (bmlang::Tensor) and computation operations (bm- lang::Operator), and finally bmlang::compile or bmlang::compile_with_check is used to generate a BModel that the TPU can run; it also supports the use of the arm cpu in BM168X to implement arithmetic that is not yet supported by the TPU.
 * **Algorithm Parallel Accelerated Programming Library TPUKernel**: underlying programming interface based on the Sophon chip’s underlying atomic operations interface, requiring familiarity with hardware architecture and instruction set
 * **Model Performance and Accuracy Verification Tool TPUPerf**: enables performance analysis and accuracy validation of models
 
 ### Details
-* [Get SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/3_claim_sdk.html)  
-* [Install SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/4_install.html)
+* [Get SDK(v23.05.01 version)](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/3_claim_sdk.html)  
+* [Install SDK(v23.05.01 version)](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/4_install.html)
 
 For additional resources, please visit [here](https://developer.sophon.ai/site/index/material/all/all.html).

@@ -36,7 +36,7 @@ Before using the network remote login, check the IP address of AIBOX-186 etherne
 
 You can easily change the IP address of a PC in the following ways:
 
-- Windows (Open cmd as an administrator and run)：
+- Windows (Open cmd as an administrator and run):
 
 ```bash
 netsh int ipv4 set interface "Ethernet" dhcpstaticipcoexistence=enabled

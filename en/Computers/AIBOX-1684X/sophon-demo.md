@@ -8,7 +8,7 @@ This chapter mainly introduces the SOPHON-DEMO project. For large model deployme
 
 SOPHON-DEMO contains a series of porting routines for mainstream AI algorithms, as well as detailed deployment documentation to make it easy for users to run.
 
-Project repository link: [SOPHON-DEMO](https://github.com/sophgo/sophon-demo)。
+Project repository link: [SOPHON-DEMO](https://github.com/sophgo/sophon-demo).
 
 ## Examples list
 

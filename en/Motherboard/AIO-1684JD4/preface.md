@@ -29,8 +29,8 @@ This document mainly introduces the development method based on the **AIO-1684JD
   - Update content:
     - Initial release
 - V1.1.0
-  - Update time：2023-07-22
-  - Update content：
+  - Update time:2023-07-22
+  - Update content:
     - Support Ubuntu 20.0 System
 
 

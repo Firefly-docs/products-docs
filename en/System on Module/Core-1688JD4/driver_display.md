@@ -1,6 +1,6 @@
 # DISPLAY usage
 
-The Core-1688JD4 features an HDMI interface (supports 4K\@60fps) and a MIPS DSI interface (maximum output capability of 1440P (2560 \* 1440)@60fps,[The interface location is shown in the figure](interface_definition.md)  。
+The Core-1688JD4 features an HDMI interface (supports 4K\@60fps) and a MIPS DSI interface (maximum output capability of 1440P (2560 \* 1440)@60fps,[The interface location is shown in the figure](interface_definition.md).
 
 It is important to note that,` /mnt/system/ko/soph_drm.ko` the driver for the entire display framework, such as HDMI and MIPI DSI module drivers, is packaged within this driver.
 
@@ -9,9 +9,9 @@ It is important to note that,` /mnt/system/ko/soph_drm.ko` the driver for the en
 After booting, the Core-1688JD4 does not have a built-in desktop environment and only runs a display program:
 
 ```
-insmod /mnt/system/ko/soph_drm.ko # 安装显示框架驱动
-systemctl stop SophonHDMI.service # 关闭 HDMI 的显示界面
-systemctl restart SophonHDMI.service  # 恢复 HDMI 的显示界面
+insmod /mnt/system/ko/soph_drm.ko # Install the display framework driver
+systemctl stop SophonHDMI.service # Stop the HDMI display interface
+systemctl restart SophonHDMI.service  # Restart the HDMI display interface
 ```
 
 ## MIPI DSI

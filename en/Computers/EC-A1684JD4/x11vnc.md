@@ -88,30 +88,30 @@ You can now use a VNC client on your PC to remotely connect using the `$bm1684_i
 
 To connect using VNC Viewer:
 
-（1）Download and install [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) on your PC, based on your system.
+(1) Download and install [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) on your PC, based on your system.
 
-（2）Open VNC Viewer and skip the login step.
+(2) Open VNC Viewer and skip the login step.
 
 <center>
 
 <img alt="" src="../../../bm1684_img/EC-A1684JD4/vnc-01.png" width="700">
 </center>
 
-（3）Enter the `$bm1684_ip:0` address of your EC-A1684JD4:
+(3) Enter the `$bm1684_ip:0` address of your EC-A1684JD4:
 
 <center>
 
 <img alt="" src="../../../bm1684_img/EC-A1684JD4/ubuntu-vnc-02.png" width="800">
 </center>
 
-（4）Click on the circular button next to the `linaro` username, select `xfce`, and enter the username and password (both are `linaro`):
+(4) Click on the circular button next to the `linaro` username, select `xfce`, and enter the username and password (both are `linaro`):
 
 <center>
 
 <img alt="" src="../../../bm1684_img/EC-A1684JD4/ubuntu-vnc-03.png" width="800">
 </center>
 
-（5）You will successfully enter the xfce4 desktop environment.
+(5) You will successfully enter the xfce4 desktop environment.
 
 <center>
 

@@ -10,7 +10,7 @@ The Sophon Sail installation package can be directly obtained from [Download Cen
 pip3 install sophon_arm-3.7.0-py3-none-any.whl
 ```
 
-Verify that the software is installed properly：
+Verify that the software is installed properly:
 
 ```bash
 linaro@aibox-1684x:~$ python3
