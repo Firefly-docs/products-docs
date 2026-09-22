@@ -35,7 +35,7 @@ SophonSDK consists of Compiler and Library:
 
 <center>
 
-<img alt="" src="../../../bm1684_img/sophonsdk_overview.png" width="700">
+<img alt="" src="../../../bm1684_img/sophonsdk_overview.en.png" width="700">
 </center>
 
 #### SDK development kit
