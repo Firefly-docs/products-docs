@@ -225,7 +225,10 @@ SophonSDK provides eleven folder modules, as shown in the following table:
    
 ### Unzipped SDK Directory
 
-The structure of the unpacked SDK files is as follows:
+The structure of the unpacked SDK files is as follows.
+
+Note: Some of the manuals below have Chinese file names (for example, `BMCV开发参考手册.pdf`). They are the original Chinese documents bundled with the SDK, so their file names are kept as-is.
+
 ```
   1SophonSDK
   2
