@@ -120,6 +120,34 @@ sudo chown root:root /usr/local/bin/upgrade_tool
 sudo chmod a+x /usr/local/bin/upgrade_tool
 ```
 
+## MaskRom Mode
+`MasRrom` mode is the last line of defense against device being bricked. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the situation that deivce failed entering the `Loader` mode, you can try `MaskRom` mode.
+
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+1. Disconnect all power supplies.
+1. Connect device and host PC with Double male USB data cable.
+1. Use a metal tweezer to short and hold the two test points as shown in the following figure on iCore-3568JQ (as shown in the figure below).
+1. Connect the power.
+1. Wait a few seconds, stop shorting.
+
+Short circuit the D0 and GND test points near EMMC 
+<center>
+
+<img alt="" src="../../../rk356x_img/iCore-3568JQ/maskrom_test_points.png" width="700">
+</center>
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rk356x_img/maskrom_zh.png" width="700">
+</center>
+
+
+
 ## Upgrade the firmware
 
 Determine the board ITX-3568Q before upgrading unified firmware update.img whether has Nor Flash, as shown in the figure below: 
@@ -130,20 +158,6 @@ Determine the board ITX-3568Q before upgrading unified firmware update.img wheth
 </center>
 
 If the board has Nor Flash, please refer to chapter [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md) for upgrading, else please follow the steps below to continue: 
-
-Notice：**Linux SDK v1.2.4a** and later using extboot, please use extboot.img instead of boot.img in the following instructions（Linux only, ignore it if using Android）
-
-How to check SDK version:
-1. The version format is vx.x.xx, eg: v1.2.4a
-1. Firmware filename has SDK version(..._vx.x.xx_date.img)
-1. Buildroot use`cat /etc/version`to get version(rk356x_linux_release_date_vx.x.xx.xml)
-1. Ubuntu use`ffgo version`to get(rk356x_linux_release_date_vx.x.xx.xml)
-1. In SDK check the link:`ls -l .repo/manifests/rk356x_linux_release.xml`
-1. If you can't get version by methods above, that means you are using old version, no support for extboot
-
-**Do not burn extboot.img into old version firmware!**
-
-Besides, extboot ubuntu support update kernel by deb package, please see [Ubuntu Manual](/en/docs/software/os-guide/Ubuntu-Debian/ubuntu-debian)
 
 ### Windows
 
@@ -156,23 +170,6 @@ The steps to update the unified firmware `update.img` are as follows:
 3. Press the "upgrade" button to start the upgrade.
 4. If the upgrade fails, you can try methods in [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md)
 
-#### Upgrade Partition image
-The steps to upgrade the partition image are as follows:
-1. Switch to the "download image" page.
-
-2. Click `Dev Partition`
-
-3. Check the partition to be burned, and select multiple.
-
-4. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
-
-5. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
-
-<center>
-
-<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool_zh.png" width="800">
-</center>
-
 ### Linux
 
 #### Upgrade unified firmware - update.img
@@ -180,67 +177,7 @@ The steps to upgrade the partition image are as follows:
 ```
 sudo upgrade_tool uf update.img
 ```
-
 If the upgrade fails, you can try methods in [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md)
-
-#### Upgrade Partition image
-
-```
-sudo upgrade_tool di -b /path/to/boot.img
-sudo upgrade_tool di -r /path/to/recovery.img
-sudo upgrade_tool di -m /path/to/misc.img
-sudo upgrade_tool di -u /path/to/uboot.img
-sudo upgrade_tool di -dtbo /path/to/dtbo.img
-sudo upgrade_tool di -p paramater   #upgrade parameter
-sudo upgrade_tool ul bootloader.bin #upgrade bootloader
-```
-
-
-#### Android fastboot
-
-Download [Linux_adb_fastboot](https://community.t-firefly.com/en/doc/download/163#other_536), And according to the following method to install into the system, easy to call：
-
-```
-sudo mv adb /usr/local/bin
-sudo chown root:root /usr/local/bin/adb
-sudo chmod a+x /usr/local/bin/adb
-```
-```
-sudo mv fastboot /usr/local/bin
-sudo chown root:root /usr/local/bin/fastboot
-sudo chmod a+x /usr/local/bin/fastboot
-```
-
-**fastboot Burn dynamic partitions**
-
-```
-adb reboot fastboot # enter bootloader
-sudo fastboot flash vendor vendor.img
-sudo fastboot flash system system.img
-sudo fastboot reboot # After the burn is successful, restart
-```
-
-
-## FAQs
-
-### 1. How to forcibly enter MaskRom mode
-
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](04-maskrom_mode.md).
-
-
-
-
-### 2. Analysis of programming failure
-
-If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
-
-<center>
-
-<img alt="" src="../../../rk356x_img/upgrade_downloadfail.png" width="800">
-</center>
-
-### 3. Has Spi Flash(Nor Flash)，After MaskRom，Download failure
-If board has Spi Flash and eMMC，After MaskRom，need select Storage，See operation method [ "Switching Upgrade Storage" ](03-upgrade_firmware_with_flash.md)。
 
 [烧写须知]: 02-upgrade_table.md
 [iCore-3568JQ firmware]: https://community.t-firefly.com/en/doc/download/163

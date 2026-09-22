@@ -28,4 +28,4 @@ Normal mode is the regular startup process. Each component loads in sequence and
 
 MaskRom mode is used to write firmware or repair the system when the bootloader is damaged. For this development kit, USB firmware upgrade always uses the board's `MaskRom` key.
 
-For the hardware operation, see [MaskRom mode](upgrade_maskrom_mode_rockchip.md).
+For the hardware operation, see [Upgrade Firmware](upgrade_firmware.md).

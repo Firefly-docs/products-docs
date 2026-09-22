@@ -3,7 +3,6 @@
 - [串口调试](debug.md)
 # 更新固件
 - [启动模式说明](bootmode.md)
-- [MaskRom模式](maskrom_mode.md)
 - [升级固件](upgrade_firmware.md)
 - [烧写须知](upgrade_table.md)
 - [使用SD卡更新固件](upgrade_firmware_sd.md)

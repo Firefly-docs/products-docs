@@ -1,5 +1,3 @@
-# AIO-Orin NX
-- [Preface](preface.md)
 # User Manual
 - [Introduction](started.md)
 - [First Use](usage_first.md)
@@ -13,6 +11,5 @@
 - [Watchdog](usage_watchdog.md)
 - [RTC](usage_rtc.md)
 - [Update Firmware](firmware_upgrade.md)
-- [Development Documentation](usage_edge_development.md)
 # Accessorie
 - [Wireless Modules](module_wireless.md)

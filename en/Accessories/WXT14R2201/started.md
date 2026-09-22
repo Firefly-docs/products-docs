@@ -21,9 +21,9 @@ supports latest 5.2.
 <!--
 ## Shipping list
 ### PCIE interface
-<img alt="" src="img/ec20_shop_list_pcie_en.png" width="700">
+<img alt="" src="../../../modules_img/EC20/ec20_shop_list_pcie_en.png" width="700">
 ### USB interface
-<img alt="" src="img/ec20_shop_list_usb_en.png" width="700">
+<img alt="" src="../../../modules_img/EC20/ec20_shop_list_usb_en.png" width="700">
 -->
 
 ## General Description

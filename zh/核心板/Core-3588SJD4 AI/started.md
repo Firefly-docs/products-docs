@@ -37,5 +37,3 @@ AIO-3588SJD4-AI 开发板由核心板 Core-3588SJD4-AI + 底板 MB-JD4-BM1688 �
      *   USB 无线/有线的鼠标/键盘
 *    升级固件，调试
      *   串口转 USB 适配器
-
- <a id="firmware-format"></a>

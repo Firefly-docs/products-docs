@@ -130,7 +130,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom模式
 
-进入MaskRom模式的方法，请参考[《MaskRom模式》](04-maskrom_mode.html)
+进入MaskRom模式的方法，请参考[《MaskRom模式》](04-03-upgrade_firmware.html)
 
 ## 烧写固件
 ### Windows操作系统
@@ -148,27 +148,6 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 <img alt="" src="../../../rk3399_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
-
-#### 烧写分区映像
-
-不同系统固件的分区可能不相同,请注意以下几点:
-1. 使用 `Androidtool_2.38` 烧写 `ubuntu(MBR)` 和 `Android7.1` 固件时使用默认配置即可;
-2. 使用 `Androidtool_2.58` 烧写 `ubuntu(GPT)` 使用默认配置即可，烧写 `Android8.1` 固件请先执行以下操作:
-<font color=#ff0000 >切换至`下载镜像页面`; 右键点击表格，选择`导入配置`; 选择rk3399-Android81.cfg</font>
-3. 使用`Androidtool_2.71`烧写`Android10`或`Android9`固件时使用默认配置即可;
-
-烧写分区映像的步骤如下：
-
-1. 切换至`Download Image`页。
-2. 勾选需要烧录的分区，可以多选。
-3. 确保映像文件的路径正确，映像文件的路径可以点`Path`右边一列的空白单元格来重新选择。
-4. 点击`Run`按钮开始升级，升级结束后设备会自动重启。
-
-<center>
-
-<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
-</center>
-
 ### Linux操作系统
 #### 烧写统一固件 update.img
 
@@ -184,71 +163,6 @@ sudo upgrade_tool ef update.img   #update.img :你需要烧写的 Ubuntu 固件
 # 重新烧写
 sudo upgrade_tool uf update.img
 ```
-
-#### 烧写分区镜像
-
-Android7.1、Android8.1使用以下方式:
-```
-sudo upgrade_tool di -b boot.img
-sudo upgrade_tool di -k kernel.img
-sudo upgrade_tool di -s system.img
-sudo upgrade_tool di -r recovery.img
-sudo upgrade_tool di -m misc.img
-sudo upgrade_tool di -re resource.img
-sudo upgrade_tool di -p paramater
-sudo upgrade_tool ul bootloader.bin
-```
-
-Android9.0、Android10.0使用以下方式:
-```
-sudo upgrade_tool di -b boot.img
-sudo upgrade_tool di -dtbo dtbo.img
-sudo upgrade_tool di -misc misc.img
-sudo upgrade_tool di -parameter parameter.txt
-sudo upgrade_tool di -r recovery.img
-sudo upgrade_tool di -super super.img
-sudo upgrade_tool di -trust trust.img
-sudo upgrade_tool di -uboot uboot.img
-sudo upgrade_tool di -vbmeta vbmeta.img
-```
-
-Ubuntu(GPT)使用以下方式:
-```
-sudo upgrade_tool ul $LOADER
-sudo upgrade_tool di -p $PARAMETER
-sudo upgrade_tool di -uboot $UBOOT
-sudo upgrade_tool di -trust $TRUST
-sudo upgrade_tool di -boot $BOOT
-sudo upgrade_tool di -recovery $RECOVERY
-sudo upgrade_tool di -misc $MISC
-sudo upgrade_tool di -oem $OEM
-sudo upgrade_tool di -userdata $USERDATA
-sudo upgrade_tool di -rootfs $ROOTFS
-```
-
-
-如果因 flash 问题导致升级时出错，可以尝试低级格式化、擦除 nand flash：
-```
-sudo upgrade_tool lf update.img	# 低级格式化
-sudo upgrade_tool ef update.img	# 擦除
-```
-
-## 常见问题
-
-### 1. 如何强行进入 MaskRom 升级模式
-
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 升级模式。操作方法见[《MaskRom模式》](04-maskrom_mode.md)。
-
-
-### 2. 烧写失败分析
-
-如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
-<center>
-
-<img alt="" src="../../../rk3399_img/upgrade_downloadfail.jpg" width="800">
-</center>
-
-
 
 [《使用USB线烧写须知(重要)》]: 02-upgrade_table.md
 [RKDevTool]: https://community.t-firefly.com/doc/download/131#other_248

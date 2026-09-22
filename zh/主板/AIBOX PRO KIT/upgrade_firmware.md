@@ -23,8 +23,6 @@
 
 >    通过统一固件解包/打包工具，可以把统一固件解包为多个分区镜像，也可以将多个分区镜像合并为一个统一固件。
 
-
-
 ## 安装烧写工具
 ### Windows操作系统
 * 安装RK USB驱动
@@ -34,7 +32,6 @@
 
 ![](../../../aibox_img/AIBOX-PRO-KIT/upgrade_firmware_install_rk_usb.jpg)
 </center>
-
 
 * 运行AndroidTool的RKDevTool.exe
 
@@ -107,7 +104,24 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 ```
 
 ### MaskRom模式
-进入MaskRom模式的方法，请参考[《MaskRom模式》](upgrade_maskrom_mode_rockchip.md)
+
+`MaskRom` 模式是设备变砖的最后一条防线。强行进入 `MaskRom` 涉及硬件操作，有一定风险，因此仅在设备进入不了 `Loader` 模式的情况下，方可尝试 `MaskRom` 模式。进入 `MaskRom` 的原理是人为的把 EMMC 的数据脚与地线短接，系统会认为 EMMC 数据出错，从而清除 EMMC 数据。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+可以按maskrom 按键，然后进行上电
+
+<center>
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/maskrom.png" width="700">
+</center>
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/upgrade_maskrom_zh.png" width="800">
+</center>
 
 
 ## 烧写固件
@@ -174,15 +188,3 @@ sudo upgrade_tool lf update.img	# 低级格式化
 sudo upgrade_tool ef update.img	# 擦除
 ```
 
-## 常见问题
-### 1. 如何强行进入 MaskRom 模式
-
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom模式》](upgrade_maskrom_mode_rockchip.md)。
-
-
-### 2. 烧写失败分析
-
-如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
-<center>
-<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/upgrade_firmware_download_fail.png" width="800">
-</center>

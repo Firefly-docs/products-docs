@@ -1,5 +1,3 @@
-# Core-1684XJD4
-- [Preface](preface.md)
 # Quick Start
 - [First use](started.md)
 - [Serial debug](debug.md)

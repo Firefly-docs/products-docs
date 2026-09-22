@@ -1,2 +1,2 @@
 # IoT-Development-Kit
-- [介绍](started.md)
+- [简介](started.md)

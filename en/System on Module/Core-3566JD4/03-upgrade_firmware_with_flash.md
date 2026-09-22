@@ -17,13 +17,13 @@ If you enter the loader download mode by executing 'reboot loader' in software o
 
 
 ## Maskrom Mode
-If you enter Maskrom mode through ["How to enter MaskRom mode"](04-maskrom_mode.md), and the board has both Nor-Flash and EMMC storage media, this raises the question of which storage media we use to burn firmware.
+If you enter Maskrom mode through ["How to enter MaskRom mode"](03-upgrade_firmware.md), and the board has both Nor-Flash and EMMC storage media, this raises the question of which storage media we use to burn firmware.
 The following introduces how to download firmware to different storage media. 
 
 ### Download to Nor-Flash
 In Maskrom mode, the system will download firmware to Nor-Flash **by default** if the board has the Nor-Flash. However, Nor-Flash storage space is too small to load the whole system firmware, so only small files will be load, such as `MiniLoaderAll.bin` . 
 
-If we accidentally download the whole system firmware to Nor-Flash, the board will turn brick due to the failure of downloading firmware(`下载固件失败`). At this time, if we want to re-enter Maskrom mode, we could  short circuit test points(or pins)  between  D0(CLK) and GND of Nor-Flash, refer to chapter [MaskRom mode](04-maskrom_mode.md) for more details. 
+If we accidentally download the whole system firmware to Nor-Flash, the board will turn brick due to the failure of downloading firmware(`下载固件失败`). At this time, if we want to re-enter Maskrom mode, we could  short circuit test points(or pins)  between  D0(CLK) and GND of Nor-Flash, refer to chapter [MaskRom mode](03-upgrade_firmware.md) for more details. 
 
 ### Download to EMMC
 There are two methods to burn firmware into EMMC. One is the burning method provided by Rockchip, which needs to burn `MiniLoaderAll.bin` and switch storage media. 
@@ -31,7 +31,7 @@ The other is a reference burning method provided by Firefly to facilitate everyo
 
 #### The 1nd Method From Firefly
 
-<font color="red">This method is only available in the latest official SDK compilation firmware or the latest official firmware.</font> If the firmware is accidentally downloaded to the NOR flash in Maskrom mode, causing the device to fail to start up properly after reboot, you can enter the [MaskRom mode](04-maskrom_mode.md) and upgrade the latest SDK compilation or the firmware provided by the official. Regardless of whether the upgrading is successful or not, when the machine restarts, if there is data in the NOR flash, it will be automatically erased. The erasing process takes about 30 to 60 seconds. After successful erasing, the machine will automatically enter the Loader mode, and then you can directly [upgrade the firmware](03-upgrade_firmware.md).
+<font color="red">This method is only available in the latest official SDK compilation firmware or the latest official firmware.</font> If the firmware is accidentally downloaded to the NOR flash in Maskrom mode, causing the device to fail to start up properly after reboot, you can enter the [MaskRom mode](03-upgrade_firmware.md) and upgrade the latest SDK compilation or the firmware provided by the official. Regardless of whether the upgrading is successful or not, when the machine restarts, if there is data in the NOR flash, it will be automatically erased. The erasing process takes about 30 to 60 seconds. After successful erasing, the machine will automatically enter the Loader mode, and then you can directly [upgrade the firmware](03-upgrade_firmware.md).
 
 #### The 2rd Method From Rockchip
 To download firmware to EMMC, we need to download Boot first, and then select to switch storage media to EMMC. The specific operation steps are as follows: 
@@ -131,7 +131,7 @@ Erasing 0x00000000 ... 0x01ffffff (8192 eraseblock(s))
 => reboot
 ```
 
-Nor-Flash also could be erased by AndroidTool, refer to chapter ["How to enter MaskRom mode"](04-maskrom_mode.md) to short circuit Nor-Flash to enter in Maskrom, the premise is that EMMC is empty. 
+Nor-Flash also could be erased by AndroidTool, refer to chapter ["How to enter MaskRom mode"](03-upgrade_firmware.md) to short circuit Nor-Flash to enter in Maskrom, the premise is that EMMC is empty. 
 If EMMC is not empty, you need to short circuit EMMC at the same time or press `ctrl+c` to enter uboot command line and enter `rbrom` during EMMC startup  
 ```shell
 U-Boot 2017.09 (Jul 07 2021 - 10:03:57 +0800)

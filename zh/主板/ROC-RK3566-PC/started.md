@@ -1,4 +1,6 @@
-# 介绍
+# 简介
+
+[规格书]() | [购买链接](https://store.t-firefly.com//goods.php?id=149) | [下载资料](https://community.t-firefly.com/doc/download/)
 
 ROC-RK3566-PC 是一款迷你PC主板,体积只有小型手机的大小,主控采用Rockchip  RK3566四核处理器，集成双核心架构GPU以及高效能NPU,支持8G大内存,板载M.2,支持2.4/5G WIFI,4G无线网络通讯，可应用于智能NVR、云终端、物联网网关、工业控制等场景，详细资料可参考[《接口定义》](interface_definition.md)和[《文档》](hardware_doc.md) 
 

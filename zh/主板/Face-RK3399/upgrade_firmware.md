@@ -169,7 +169,7 @@ sudo upgrade_tool ef update.img	# 擦除
 
 #### 如何强行进入 MaskRom 模式
 
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《如何进入 MaskRom 模式》](maskrom_mode.md)
+如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《如何进入 MaskRom 模式》](03-upgrade_firmware.md)
 
 
 ## 2.U盘OTA升级固件的方法

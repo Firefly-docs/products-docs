@@ -1,4 +1,6 @@
-# 介绍
+# 简介
+
+[规格书]() | [购买链接]() | [下载资料](https://community.t-firefly.com/doc/download/)
 ## 产品简介
 
 IPC-M10R800-A3568J 工业级行业平板，基于 AIO-3568J 高性能开源平台，采用电容式 10点

@@ -1,23 +1,11 @@
-# AIBOX-1684X
-- [Preface](preface.md)
-# Introduction
-- [Interface definition](interface_definition.md)
-# Basic Usage
-- [First use](started.md)
-- [Network IP configuration](net_ip.md)
-- [USB drive, TF card mount](usage_disk.md)
-- [System firmware upgrade](fw-upgrade-by-sdcard.md)
-- [Memory allocation settings](memory_edit.md)
-- [Fan working strategy](fan_strategy.md)
-# Showcase Apps
-- [FireflyChat](fireflychat.md)
-- [Quickly deploy Llama3](quick-llama3.md)
-# Deployment Samples
-- [AI algorithm deployment](sophon-demo.md)
-- [LLM deployment](llm-tpu.md)
-- [RAG private knowledge base](rag-demo.md)
-- [TTS and ASR](tts-and-asr.md)
-- [Image content retrieval](image-search.md)
-# Development
-- [Sophon SDK development](sophon-sdk.md)
-- [Sophon Sail](sophon-sail.md)
+# Product Introduction
+- [Introduction](started.md)
+# Upgrade Firmware
+- [SD Card Upgrade Firmware](fw-upgrade-by-sdcard.md)
+- [FAQ](upgrade_faq.md)
+# Development Guide
+- [Hardware Function Usage](hardware_usage.md)
+- [Application Development](app_development.md)
+# AI
+- [Demo Applications](demo_apps.md)
+- [Deployment Routines](deployment_routines.md)

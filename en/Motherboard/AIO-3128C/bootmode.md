@@ -65,4 +65,4 @@ The MaskRom mode is used for system recovery when the bootloader is damaged.
 
 In general, the BootRom code will not enter the MaskRom mode, and only if bootloader validation fails (the IDR is not readable or the bootloader is damaged), the BootRom code will enter the MaskRom mode . At this time, the BootRom code waits for the host to pass the bootloader code through the USB interface, and load and run the code.
 
-If you want to forcibly enter the MaskRom mode, please refer to the chapter [《MaskRom》](maskrom_mode.md).
+If you want to forcibly enter the MaskRom mode, please refer to the chapter [《MaskRom》](upgrade_firmware.md).

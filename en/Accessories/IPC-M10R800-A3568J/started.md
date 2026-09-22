@@ -1,4 +1,6 @@
 # Introduction
+
+[Specification]() | [Purchase](https://www.t-firefly.com/products/ipc-m10r800-a3568j-ai-industrial-tablet-pc) | [Downloads](https://community.t-firefly.com/en/doc/download/)
 ## Product introduction
 
 IPC-M10R800-A3568J Industry Panel Computer, Based on AIO-3568J high-performance 

@@ -16,4 +16,3 @@ AIO-3588JD4 开发板由核心板 Core-3588JD4 + 底板 MB-JD4-RK3588 组成,。
 
 <img alt="" src="../../../rk3588_img/Core-3588JD4/AIO-3588JD4-A.png" width="700">
 </center>
- <a id="firmware-format"></a>

@@ -1,71 +1,49 @@
-# Get Started
+# Introduction
 
-## Power On
+[Specification](https://download.t-firefly.com/Spec/Computers/AIBOX-1688_AIBOX-186_Specification_EN.pdf) | [Purchase](https://www.t-firefly.com/products/aibox-186-artificial-intelligence-box-6t-large-model-privatization-deployment-deep-learning-computing-cv186ah) | [Downloads](https://community.t-firefly.com/en/doc/download/278)
 
-AIBOX-186 will turn on automatically when connected to the power supply. If the power supply is connected, please press the power button to turn on the machine.
+**AIBOX-186** is equipped with the Sophgo computing chip CV186AH, a highly integrated visual computing chip designed for AI inference, computer vision, and other applications. It efficiently adapts to various AI algorithms, enabling applications such as image classification, object detection, instance segmentation, semantic segmentation, text recognition, and speech recognition, and supports local private deployment of large language models, meeting the needs of edge computing and AI inference box scenarios.
 
-When the board boots into the Linux system, the LED will be turn on with green color.
+<center>
 
-## Login
+<img alt="" src="../../../bm1688_img/AIBOX-186/AIBOX-186.png" width="600">
+</center>
 
-There are two ways to log in to the AIBOX-186 terminal:
-1. through the Type-C serial port
-2. through the Ethernet
+## Interface Description
 
-### Type-C Serial Port
+**AIBOX-186** provides rich interfaces, mainly including:
 
-To login through the Type-C serial port, prepare a Type C to USB cable and connect it to the Type-C serial port of AIBOX-186 and the USB port of the PC.
+**Front**：
+- Power Button
+- Work LED (RGB LED, default green in Linux OS)
+- Recovery Button (pushed with needle, function undefined)
+- TF Card Slot (support high-speed card)
+- TYPE-C USB 2.0 OTG
+- TYPE-C Serial Port (for system debugging)
 
-Users can use software such as [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) or minicom to connect to the serial port.
+<center>
 
-The serial port parameters are:
-- Baud Rate: 115200 bps
-- Data Bits: 8
-- Stop Bits: 1
-- Parity: none
-- Flow-Control: none
+![](../../../bm1688_img/AIBOX-186/interface_all_en.png)
+</center>
 
-The user name and password used to log in to the terminal are both `linaro`.
+**Back**：
+- HDMI 2.0 (up to 4K@60fps)
+- 2*USB 3.0 (upper slot defaults to support USB 3.0 only, no USB 2.0)
+- 2*1000Mbps Ethernet (0: DHCP, 1: Static IP address 192.168.150.1/24)
+- 12V Power Interface（5.5*2.5mm）
 
-### Network Remote Login
+<center>
+</center>
 
-Before using the network remote login, check the IP address of AIBOX-186 ethernet port:
+## Resources and Support
 
-- Ethernet port 0 (near the 12V power port) has a dynamic IP address. Log in to the terminal using the Type-C serial port and run the `ifconfig` command to check the IP address of ethernet port 0 (eth0).
-- Ethernet port 1 (near the USB port) is set to the static IP `192.168.150.1` with subnet mask `255.255.255.0`. You can set your PC to `192.168.150.2/24` for initial access.
+* [Core board Core-186JD4 documentation](https://wiki.t-firefly.com/en/Core-186JD4/): including SDK compilation tutorials and function development materials
+* [Technical Forum](https://forum.t-firefly.com/): A communication platform with more than 100,000 enterprise customers and users
 
-You can easily change the IP address of a PC in the following ways:
+### Contact
 
-- Windows (Open cmd as an administrator and run):
-
-```bash
-netsh int ipv4 set interface "Ethernet" dhcpstaticipcoexistence=enabled
-netsh int ipv4 add address "Ethernet" 192.168.150.2 255.255.255.0
-```
-
-- Linux
-
-```bash
-sudo ifconfig enp4s0:1 192.168.150.2   # replace enp4s0 with the actual ethernet network interface
-```
-
-After confirming the IP address of the ethernet port, if you can successfully `ping` the IP address of the ethernet port on the PC side, then you can use `ssh` to log in:
-
-```
-# 192.168.150.1 must be replaced with the actual IP address of the ethernet port
-ssh linaro@192.168.150.1
-```
-
-The user name and password are also `linaro`:
-
-To change the IP address of the network port, see [Network IP configuration](net_ip.md)
-
-## Power Off
-
-Note: Please complete the software/hardware shutdown before disconnecting the power, so as not to damage the filesystem data.
-
-* Software shutdown: Run `sudo poweroff` in the terminal.
-
-* Hardware shutdown: Press and hold the power button until the LED stops flashing.
-
-When the fan stops running and the indicator LED is off, AIBOX-186 is powered off. Then you can safely disconnect the power supply.
+* Email: sales@t-firefly.com
+* Mobile: (+86) 186 8811 7175
+* Landline: 0760-89881218
+* National Service Hotline: 4001-511-533
+* Address: Room 2101, Hongyu Building, No. 57 Zhongshan 4th Road, East District, Zhongshan City, Guangdong Province

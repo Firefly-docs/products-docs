@@ -76,6 +76,37 @@ The host should prompt for new hardware and configure the driver. Open Device ma
 <img alt="" src="../../../rk3399_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
+### MaskRom Mode
+# MaskRom mode
+
+`MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try `MaskRom` mode.
+
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+1. Disconnect all power supplies.
+2. Unplug the SD card.
+3. Connect the equipment and host machine with Double male USB data cable.
+4. Use metal tweezers to connect and hold the two test points as shown in the following figure on AIO-3399J (as shown in the figure below).
+5. Plug the device into the power supply.
+6. Wait a moment, then loosen the tweezers.
+
+<center>
+
+<img alt="" src="../../../rk3399_img/AIO-3399J/maskrom_test_points.jpg" width="700">
+</center>
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rk3399_img/maskrom.jpg" width="700">
+</center>
+
+
+
+
 ### Upgrade the firmware
 
 Download [Androidtool_xxx (version number)]. AndroidTool defaults to display in Chinese. We need to change it to English. Open `config.ini` with an text editor (like notepad). The starting lines are:
@@ -220,7 +251,7 @@ sudo upgrade_tool ef update.img	# erase
 
 ### 1. How to forcibly enter MaskRom mode
 
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](04-maskrom_mode.md).
+**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See the "MaskRom Mode" section above.
 
 
 

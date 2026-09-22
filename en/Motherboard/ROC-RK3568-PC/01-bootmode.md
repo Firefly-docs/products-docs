@@ -21,7 +21,7 @@ ROC-RK3568-PC has 2 working modes. Under normal circumstances, boot directly int
 | Working Mode | Normal Mode | Upgrade Mode |
 | :--------: | :-------: | :------- |
 | Boot Media | eMMC Interface/SDMMC Interface| | √ |
-| Description | Normal mode is the normal startup process, <br /> each component is loaded in sequence and enters the system normally. | There are currently 3 upgrade modes supported, each with their own advantages and disadvantages:<br />1. [MaskRom Upgrade Mode](04-maskrom_mode.html)<br />2. [Loader upgrade mode](loader_mode.html)<br />3. [SD upgrade mode](05-upgrade_firmware_sd.html)|
+| Description | Normal mode is the normal startup process, <br /> each component is loaded in sequence and enters the system normally. | There are currently 3 upgrade modes supported, each with their own advantages and disadvantages:<br />1. [MaskRom Upgrade Mode](04-03-upgrade_firmware.html)<br />2. [Loader upgrade mode](loader_mode.html)<br />3. [SD upgrade mode](05-upgrade_firmware_sd.html)|
 
 ## Upgrade mode
 
@@ -29,7 +29,7 @@ ROC-RK3568-PC has 2 working modes. Under normal circumstances, boot directly int
 
 **Among the upgrade modes, the comparison between different upgrade modes:**
 
-| Upgrade mode  | [MaskRom Upgrade Mode](04-maskrom_mode.html) | [Loader upgrade mode](loader_mode.html) | [SD upgrade mode](05-upgrade_firmware_sd.html) |
+| Upgrade mode  | [MaskRom Upgrade Mode](04-03-upgrade_firmware.html) | [Loader upgrade mode](loader_mode.html) | [SD upgrade mode](05-upgrade_firmware_sd.html) |
 | :--------: | :------- | :------- | :------- |
 | Quick description | 1. Use the USB cable to connect the motherboard to the computer;<br />2. The hardware operation makes the board enter the upgrade mode;<br />3. Use USB to upgrade the board firmware on the PC.  |  1. Use the USB cable to connect the motherboard to the computer;<br />2. Software or key operation makes the board enter the upgrade mode;<br />3. Use USB to upgrade the board firmware on the PC. | 1. Use the upgrade card making tool to make the MicroSD card as an upgrade card;<br />2. Insert the upgrade card into the motherboard, power on, and the machine will automatically perform the upgrade.|
 | Connection method | USB | USB | TF card (a few are SD card slots) |
@@ -46,7 +46,7 @@ ROC-RK3568-PC has 2 working modes. Under normal circumstances, boot directly int
 
 In general, there is no need to enter `MaskRom Upgrade Mode`. Only when the bootloader verification fails (the IDB block cannot be read, or the bootloader is damaged), the BootRom code will enter this mode. At this time, the BootRom code waits for the host to transmit the bootloader code through the USB interface, load and run it. When the board becomes bricked and cannot start or upgrade the program normally, you can also manually enter the `MaskRom Upgrade Mode`.
 
-***To forcibly enter `MaskRom Upgrade Mode`, please refer to the chapter ["MaskRom Upgrade Mode"](04-maskrom_mode.md).***
+***To forcibly enter `MaskRom Upgrade Mode`, please refer to the chapter ["MaskRom Upgrade Mode"](03-upgrade_firmware.md).***
 
 
 #### Loader upgrade mode

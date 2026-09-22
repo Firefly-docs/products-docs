@@ -1,4 +1,6 @@
 # Introduction
+
+[Specification]() | [Purchase](https://www.firefly.store/products/roc-rk3308b-cc-plus-iot-quad-core-64-bit-main-board) | [Downloads](https://community.t-firefly.com/en/doc/download/)
 ## Product Specifications
 
 <center>

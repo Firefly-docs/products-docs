@@ -1,0 +1,200 @@
+# 使用USB线缆升级固件
+
+## 前言
+
+本文介绍了如何将主机上的固件，通过Type-C 数据线烧录到 EC-A3588Q 开发板的存储器中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
+
+## 准备工具
+* EC-A3588Q 开发板
+* [固件](https://community.t-firefly.com/doc/download/202)
+* 主机
+* 良好的Type-C 数据线
+
+## 准备固件
+固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/202)处下载公版固件（统一固件）。固件文件一般有两种：
+
+* 单个统一固件
+
+    统一固件是由分区表、bootloader、uboot、kernel、system等所有文件打包合并成的单个文件。Firefly正式发布的固件都是采用统一固件格式，升级统一固件将会更新主板上所有分区的数据和分区表，并且擦除主板上所有数据。
+
+* 多个分区镜像
+
+    即各个功能独立的文件，如分区表、bootloader、kernel等，在开发阶段生成。独立分区镜像可以只更新指定的分区，而保持其它分区数据不被破坏，在开发过程中会很方便调试。
+
+>    通过统一固件解包/打包工具，可以把统一固件解包为多个分区镜像，也可以将多个分区镜像合并为一个统一固件。
+
+
+
+## 安装烧写工具
+### Windows操作系统
+* 安装RK USB驱动
+
+下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/202)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择`驱动卸载`，然后再选择`驱动安装`。
+<center>
+
+![](../../../rk3588_img/common/upgrade_firmware_install_rk_usb.jpg)
+</center>
+
+
+* 运行AndroidTool的RKDevTool.exe
+
+
+
+<center>
+
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
+</center>
+
+### Linux操作系统
+Linux 下无须安装设备驱动
+* [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/202)工具
+
+下载 [Linux_Upgrade_Tool](https://community.t-firefly.com/doc/download/202), 并按以下方法安装到系统中，方便调用：
+
+```
+unzip Linux_Upgrade_Tool_xxxx.zip
+cd Linux_UpgradeTool_xxxx
+sudo mv upgrade_tool /usr/local/bin
+sudo chown root:root /usr/local/bin/upgrade_tool
+sudo chmod a+x /usr/local/bin/upgrade_tool
+```
+
+
+* [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/202)工具
+
+下载 [Linux_adb_fastboot](https://community.t-firefly.com/doc/download/202), 并按以下方法安装到系统中，方便调用：
+
+```
+sudo mv adb /usr/local/bin
+sudo chown root:root /usr/local/bin/adb
+sudo chmod a+x /usr/local/bin/adb
+```
+```
+sudo mv fastboot /usr/local/bin
+sudo chown root:root /usr/local/bin/fastboot
+sudo chmod a+x /usr/local/bin/fastboot
+```
+
+
+## 进入升级模式
+通常我们升级固件的模式有两种，分别是Loader模式和MaskRom模式。烧写固件前，我们需要连接好设备，并让板子进入到可升级模式。
+
+### Loader模式
+
+
+#### 硬件方式进入Loader模式
+连接设备并通过**RECOVERY**按键进入Loader升级模式步骤如下：
+
+EC-A3588Q 整机外壳上没有预留 recovery 按键，所以没有硬件进入 Loader 模式的办法。
+#### 软件方式进入Loader模式
+Type-C 数据线接好后在串口调试终端或adb shell给板子运行以下命令
+
+```shell
+reboot loader
+```
+
+#### 查看Loader模式
+如何确定板子是否进入Loader模式，我们可以通过工具去查看
+
+**Windows操作系统**
+
+通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
+<center>
+
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
+</center>
+
+如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](upgrade_firmware.html#windows-cao-zuo-xi-tong)。
+
+<center>
+
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_new_equipment.jpg" width="800">
+</center>
+
+**Linux操作系统**
+
+运行upgrade_tool后可以看到连接设备中有个`Loader`的提示
+
+```shell
+firefly@T-chip:~/severdir/down_firmware$ sudo upgrade_tool
+List of rockusb connected
+DevNo=1 Vid=0x2207,Pid=0x330c,LocationID=106    Loader
+Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
+```
+
+### MaskRom模式
+`MaskRom` 模式是设备变砖的最后一条防线。强行进入 `MaskRom` 涉及硬件操作，有一定风险，因此仅在设备进入不了 `Loader` 模式的情况下，方可尝试 `MaskRom` 模式。进入 `MaskRom` 的原理是人为的把 EMMC 的数据脚与地线短接，系统会认为 EMMC 数据出错，从而清除 EMMC 数据。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+
+
+
+
+
+1. 设备断开电源
+2. 用针状物捅住 EC-A3588Q 上的 MaskRom 触点/孔位并保持
+3. 设备插入电源上电
+
+MaskRom 触点/孔位位置如下图所示：
+
+
+<center>
+
+<img alt="" src="../../../rk3588_img/EC-A3588Q/EC-3588Q_MASKROM.png" width="400">
+</center>
+
+
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
+</center>
+
+
+## 烧写固件
+### windows操作系统
+
+#### 烧写统一固件 update.img
+
+烧写统一固件 update.img 的步骤如下:
+
+1. 切换至`Upgrade Firmware`页。
+2. 按`Firmware`按钮，打开要升级的固件文件。升级工具会显示详细的固件信息。
+3. 按`Upgrade`按钮开始升级。
+4. <font color=#ff0000 >如果升级失败，可以尝试先按`EraseFlash `按钮来擦除 Flash，然后再升级。</font>
+
+<center>
+
+<img alt="" src="../../../rk3588_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
+</center>
+
+
+### Linux操作系统
+
+#### 烧写统一固件 update.img
+
+```
+sudo upgrade_tool uf update.img
+```
+
+<font color=#ff0000 >如果升级失败，可以尝试先擦除后再升级。 </font>
+
+```
+# 擦除 flash 使用 ef 参数需要指定 loader 文件或者对应的 update.img
+sudo upgrade_tool ef update.img   #update.img :你需要烧写的 Ubuntu 固件
+# 重新烧写
+sudo upgrade_tool uf update.img
+```
+
+
+
+[Androidtool_xxx(版本号)]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.
+[AndroidTool]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.html
+[Release_DriverAssistant.zip]: http://www.t-firefly.com/share/index/index/id/1f98ebd663ed09a32e9ebf3fa893dfc0.html
+[Linux_Upgrade_Tool]: http://www.t-firefly.com/share/index/index/id/f756718dd2bbf82eb405926549e75ef3.html
+[Linux_adb_fastboot]: http://www.t-firefly.com/share/index/index/id/c64b7d743d9368de521a6ced87813dc5.html

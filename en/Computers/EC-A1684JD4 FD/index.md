@@ -1,17 +1,11 @@
-# EC-A1684JD4 FD
-- [Preface](preface.md)
-# Manual
+# Product Introduction
 - [Introduction](started.md)
-- [Development Board wiki](wiki.md)
-- [Sophon SDK development](sophon-sdk.md)
-- [Interface definition](interface_definition.md)
-- [Login](login.md)
-- [Remote Desktop X11VNC](x11vnc.md)
-- [Device ID](device_id.md)
-- [HDMI display test](hdmi_test.md)
-- [Network IP configuration](net_ip.md)
-- [WIFI](usage_wifi.md)
-- [Bluetooth](usage_bt.md)
-- [USB drive, TF card mount](usage_disk.md)
-- [RS485/RS232 use](usage_rs232_rs485.md)
-- [Firmware upgrade](fw_upgrade.md)
+# Upgrade Firmware
+- [SD Card Upgrade Firmware](fw_upgrade.md)
+- [FAQ](upgrade_faq.md)
+# Development Guide
+- [Hardware Function Usage](hardware_usage.md)
+- [Application Development](app_development.md)
+# AI
+- [Demo Applications](demo_apps.md)
+- [Deployment Routines](deployment_routines.md)

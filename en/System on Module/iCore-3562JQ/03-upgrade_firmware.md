@@ -120,6 +120,28 @@ DevNo=1 Vid=0x2207,Pid=0x330c,LocationID=106    Loader
 Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 ```
 
+### MaskRom Mode
+
+`MasRrom` mode is the last line of defense against device being bricked. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the situation that deivce failed entering the `Loader` mode, you can try `MaskRom` mode.
+
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+
+1. Disconnect all power supplies.
+1. Connect device and host PC with Double male USB data cable.
+1. Press and hold Maskrom button on device.
+1. Connect the power.
+1. Wait a few seconds, release Maskrom button.
+
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rk3562_img/maskrom_en.png" width="700">
+</center>
 ## Upgrade the firmware
 
 ### Windows
@@ -169,7 +191,7 @@ sudo upgrade_tool ul bootloader.bin #upgrade bootloader
 
 ### 1. How to forcibly enter MaskRom mode
 
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](04-maskrom_mode.md).
+**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See the "MaskRom Mode" section above.
 
 ### 2. Analysis of programming failure
 

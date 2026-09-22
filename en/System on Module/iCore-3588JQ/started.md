@@ -57,4 +57,3 @@ In addition, you may need the following accessories during use:
 -   Upgrade firmware, debug
     -   Type-C data cable
     -   Serial to USB adapter 
- <a id="firmware-format"></a>

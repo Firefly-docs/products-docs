@@ -1,0 +1,235 @@
+# Upgrade the firmware
+
+## Introduction
+
+This article describes how to upgrade the firmware file on the host to the flash memory of the development board through the Dual male USB data cale. When upgrading, you need to choose the appropriate upgrade mode according to the host operating system and firmware type.
+
+## Preparatory work
+
+* EC-A3288C development board
+* Firmware
+* host computer
+* Dual male USB data cale
+
+## Firmware
+
+There are two types of firmware files:
+
+* A single unified firmware
+
+    The unified firmware is a single file packaged and merged by all files such as the partition table, bootloader, uboot, kernel, system and so on. The firmware officially released by Firefly adopts a unified firmware format. Upgrading the unified firmware will update the data and partition table of all partitions on the motherboard, and erase all data on the motherboard.
+
+* Multiple partition images
+
+    That is, files with independent functions, such as partition table, bootloader, and kernel, are generated during the development phase. The independent partition image can only update the specified partition, while keeping other partition data from being destroyed, it will be very convenient to debug during the development process.
+
+> Through the unified firmware unpacking / packing tool, the unified firmware can be unpacked into multiple partition images, or multiple partition images can be merged into a unified firmware.
+
+## Windows
+
+* Tool: [Androidtool_xxx (version number)]
+
+**<font color=#ff0000 >Note :</font>** Different firmware may use different versions of tools, please download the corresponding version according to the ["Instruction of upgrade"].
+
+### Install RK USB drive
+
+Download [Release_DriverAssistant.zip], extract, and then run the DriverInstall.exe inside.
+In order for all devices to use the updated driver, first select `Driver uninstall` and then select `Driver install`.
+
+<center>
+
+![](../../../rk3288_img/upgrade_firmware_install_RK_USB.jpg)
+</center>
+
+### Connected devices
+
+You can put the device into upgrade mode as follows:
+
+* One way, device is cut off all the power sources, such as power adapter and Micro USB data cable connection:
+   * 1.Use Micro USB data cable to connect host and device together.
+   * 2.Press and hold RECOVERY key.
+   * 3.Power on.
+   * 4.After around two seconds, release RECOVERY key.
+
+* The other way is to keep the power on:
+   * 1.Use Micro USB data cable to connect host and device together.
+   * 2.Press and hold RECOVERY key.
+   * 3.Shortly press RESET key.
+   * 4.After around two seconds, release RECOVERY key.
+
+EC-A3288C:
+
+<center>
+
+<img alt="" src="../../../rk3288_img/EC-A3288C/download_otg.png" width="700">
+</center>
+
+
+
+The host should prompt for new hardware and configure the driver. Open Device manager and you will see the new Device `Rockusb Device` appear as shown below. If not, you need to go back to the previous step and reinstall the driver.
+
+<center>
+
+<img alt="" src="../../../rk3288_img/upgrade_firmware_new_equipment.jpg" width="800">
+</center>
+
+### Upgrade the firmware
+
+Download [AndroidTool]. AndroidTool defaults to display in Chinese. We need to change it to English. Open `config.ini` with an text editor (like notepad). The starting lines are:
+
+```bash
+#选择工具语言:Selected=1(Chinese);Selected=2(English)
+[Language]
+Kinds=2
+Selected=1
+LangPath=Language\
+```
+
+Change `Selected=1` to `Selected=2`, and save. From now on, AndroidTool will display in English. Now, run AndroidTool.exe: (Note: If using Windows 7/8, you’ll need to right click it, select to run it as Administrator)
+
+<center>
+
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
+</center>
+
+#### Upgrade unified firmware - update.img
+
+The steps to update the unified firmware `update.img` are as follows:
+
+1. Switch to the "upgrade firmware" page.
+2. Press the "firmware" button to open the firmware file to be upgraded. The upgrade tool displays detailed firmware information.
+3. Press the "upgrade" button to start the upgrade.
+4. <font color=#ff0000 >If the upgrade fails, you can try to erase the Flash by pressing the `Erase Flash` button first, and then upgrade. Be sure to erase and upgrade according to ["Instruction of upgrade"]</font>.
+
+**Note: if the firmware loader you wrote is inconsistent with the original one, please execute `Erase Flash` before upgrading the firmware.**
+
+<center>
+
+<img alt="" src="../../../rk3288_img/upgrade_firmware_erase_flash.jpg" width="800">
+</center>
+
+#### Upgrade Partition image
+
+The partition of each firmware may be different, please make sure the address information of the partition and the `parameter` file are consistent.
+
+The steps to upgrade the partition image are as follows:
+
+1. Switch to the "download image" page.
+2. Check the partition to be download, and select multiple.
+3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
+4. Click "Run" button to start the upgrade, and the device will restart automatically after the upgrade.
+
+<center>
+
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
+</center>
+
+### MaskRom Mode
+
+`MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try `MaskRom` mode.
+
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+1. Disconnect all power supplies.
+1. Unplug the SD card.
+1. Connect the equipment and host machine with Dual male USB data cale.
+1. Use metal tweezers to connect and hold the two test points as shown in the following figure on EC-A3288C (as shown in the figure below).
+1. Plug the device into the power supply.
+1. Wait a moment, then loosen the tweezers.
+
+EC-A3288C:
+
+<center>
+
+<img alt="" src="../../../rk3288_img/EC-A3288C/maskrom_test_points.png" width="700">
+</center>
+
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rk3288_img/maskrom.png" width="700">
+</center>
+## Linux
+
+There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.
+
+* Tool : [upgrade_tool_xxx (version number)]
+
+**<font color=#ff0000 >Note :</font>** Different firmware may use different versions of tools, please download the corresponding version according to the ["Instruction of upgrade"].
+
+### Upgrade_tool
+
+Download [Linux_Upgrade_Tool], And install it into the system as follows for easy invocation:
+
+```bash
+unzip Linux_Upgrade_Tool_xxxx.zip
+cd Linux_UpgradeTool_xxxx
+sudo mv upgrade_tool /usr/local/bin
+sudo chown root:root /usr/local/bin/upgrade_tool
+sudo chmod a+x /usr/local/bin/upgrade_tool
+```
+
+### Upgrade unified firmware - *update.img*
+
+```bash
+sudo upgrade_tool uf update.img
+```
+
+<font color=#ff0000 >If the upgrade fails, try erasing before upgrading. Be sure to erase and upgrade against the table in ["Instruction of upgrade"]</font>.
+
+```bash
+# erase flash : Using the ef parameter requires the loader file or the corresponding update.img to be specified.
+# update.img :The ubuntu firmware you need to upgrade.
+sudo upgrade_tool ef update.img
+# upgrade again
+sudo upgrade_tool uf update.img
+```
+
+### Upgrade Partition image
+
+Linux(MBR)、Android5.1: Using the following methods:
+
+```bash
+sudo upgrade_tool di -b /path/to/boot.img
+sudo upgrade_tool di -k /path/to/kernel.img
+sudo upgrade_tool di -s /path/to/system.img
+sudo upgrade_tool di -r /path/to/recovery.img
+sudo upgrade_tool di -m /path/to/misc.img
+sudo upgrade_tool di -re /path/to/resource.img
+sudo upgrade_tool di -p paramater   # upgrade parameter
+sudo upgrade_tool ul bootloader.bin # upgrade bootloader
+```
+
+Linux(GPT): Using the following methods:
+
+```bash
+sudo upgrade_tool ul $LOADER
+sudo upgrade_tool di -p $PARAMETER
+sudo upgrade_tool di -uboot $UBOOT
+sudo upgrade_tool di -trust $TRUST
+sudo upgrade_tool di -boot $BOOT
+sudo upgrade_tool di -recovery $RECOVERY
+sudo upgrade_tool di -misc $MISC
+sudo upgrade_tool di -oem $OEM
+sudo upgrade_tool di -userdata $USERDATA
+sudo upgrade_tool di -rootfs $ROOTFS
+```
+
+If the upgrade fails due to flash problems, you can try low-level formatting and erase nand flash:
+
+```bash
+sudo upgrade_tool lf update.img # low-level formatting
+sudo upgrade_tool ef update.img # erase
+```
+
+["Instruction of upgrade"]: upgrade_table.md
+[EC-A3288C firmware]: https://community.t-firefly.com/en/doc/download/51
+[Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/51
+[Androidtool]: https://community.t-firefly.com/en/doc/download/51
+[Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/51
+[Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/51
+[upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/51

@@ -15,13 +15,13 @@ AIO-3562JQ 有 2 种工作模式。一般情况下，开机直接进入`Normal �
 | 工作模式  | Normal 模式 | 升级模式 |
 | :--------: | :-------: | :------- |
 | 启动介质 | eMMC 接口/SDMMC 接口| | √ |
-| 描述 | Normal 模式就是正常的启动过程，<br />各个组件依次加载，正常进入系统。 | 目前支持3种升级模式，各有优缺点：<br />1. [MaskRom 升级模式](04-maskrom_mode.md)<br />2. [Loader 升级模式](loader_mode.md)<br />3. [SD 升级模式](05-upgrade_firmware_sd.md)|
+| 描述 | Normal 模式就是正常的启动过程，<br />各个组件依次加载，正常进入系统。 | 目前支持3种升级模式，各有优缺点：<br />1. [MaskRom 升级模式](03-upgrade_firmware.md)<br />2. [Loader 升级模式](loader_mode.md)<br />3. [SD 升级模式](05-upgrade_firmware_sd.md)|
 
 ## 升级模式
 
 **其中升级模式中，不同升级模式之间的对比：**
 
-| 升级模式  | [MaskRom 升级模式](04-maskrom_mode.md) | [Loader 升级模式](loader_mode.md) | [SD 升级模式](05-upgrade_firmware_sd.md) |
+| 升级模式  | [MaskRom 升级模式](03-upgrade_firmware.md) | [Loader 升级模式](loader_mode.md) | [SD 升级模式](05-upgrade_firmware_sd.md) |
 | :--------: | :------- | :------- | :------- |
 | 简单描述 | 1. 使用USB线将主板连接到电脑上；<br />2. 硬件操作使板子进入升级模式；<br />3. 在PC上使用USB升级单板固件。  |  1. 使用USB线将主板连接到电脑上；<br />2. 软件或按键操作使板子进入升级模式；<br />3. 在PC上使用USB升级单板固件。 | 1.通过升级卡制作工具，将MicroSD卡制作为升级卡；<br />2. 将升级卡插入主板，上电开机，机器自动执行升级。|
 | 连接方式 | USB | USB | TF卡（少数为SD卡槽） |
@@ -35,7 +35,7 @@ AIO-3562JQ 有 2 种工作模式。一般情况下，开机直接进入`Normal �
 
 一般情况下是不用进入 `MaskRom 升级模式`的，只有在板子无法正常启动，且尝试进入`loader 模式`失败，或者`loader 模式`无法升级的情况下才考虑`Maskrom 模式`。该模式 BootRom 代码会等待主机通过 USB 接口传送 bootloader 代码，加载并运行之。在 bootloader 校验失败（读取不了 IDB 块，或 bootloader 损坏） 的情况下会自动进入`Maskrom 模式`，也可以手动进入`MaskRom 升级模式`。
 
-***要进入 `MaskRom 升级模式`，请参阅[《MaskRom 升级模式》](04-maskrom_mode.md)一章。***
+***要进入 `MaskRom 升级模式`，请参阅[《MaskRom 升级模式》](03-upgrade_firmware.md)一章。***
 
 #### Loader 升级模式
 

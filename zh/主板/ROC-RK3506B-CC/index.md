@@ -4,7 +4,6 @@
 # 升级固件
 - [介绍](upgrade_bootmode.md)
 - [使用USB线缆升级固件](upgrade_firmware.md)
-- [MaskRom模式](upgrade_maskrom_mode.md)
 # Linux开发
 - [编译 Linux 固件](linux_compile.md)
 # 接口使用

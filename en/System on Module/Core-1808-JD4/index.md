@@ -6,7 +6,6 @@
 # Upgrade Firmware
 - [Boot mode description](bootmode.md)
 - [Upgrade the firmware](upgrade_firmware.md)
-- [MaskRom mode](maskrom_mode.md)
 # Linux
 - [Compile Buildroot firmware](linux_compile_buildroot.md)
 - [Compile Ubuntu firmware](linux_compile_ubuntu.md)

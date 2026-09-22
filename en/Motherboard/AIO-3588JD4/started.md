@@ -27,4 +27,3 @@ definition"](interface_definition.md).
 
 <img alt="" src="../../../rk3588_img/Core-3588JD4/AIO-3588JD4-A.png" width="700">
 </center>
- <a id="firmware-format"></a>

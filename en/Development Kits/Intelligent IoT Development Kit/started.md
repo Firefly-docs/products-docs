@@ -1,4 +1,6 @@
 # Introduction
+
+[Specification]() | [Purchase](https://www.firefly.store/products/ihc-3308gw-industrial-4g-smart-gateway) | [Downloads](https://community.t-firefly.com/en/doc/download/)
 ## Introduction
 <center>
 

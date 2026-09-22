@@ -5,7 +5,6 @@
 - [Boot mode description](bootmode.md)
 - [Upgrade firmware](upgrade_firmware.md)
 - [Face-X series upgrade firmware](upgrade_firmware_face.md)
-- [MaskRom mode](maskrom_mode.md)
 # Linux
 - [Compile Linux firmware](linux_compile_gpt.md)
 - [Technical cases](more_technical_cases_show.md)

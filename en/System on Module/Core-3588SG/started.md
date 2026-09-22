@@ -71,4 +71,3 @@ The AIO-3588SG does not have an HDMI display port, which can be displayed in two
 AIO-3588SG can be connected to ADB in two ways:
 * Use OTG to access ADB, OTG interface is TYPE-C, that is to say, when using ADB can not use TYPE-C power supply, at this time need to connect to the battery.
 * Use network ADB, which doesn't care if the battery is connected.
- <a id="firmware-format"></a>

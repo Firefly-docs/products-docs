@@ -1,4 +1,6 @@
 # Introduction
+
+[Specification]() | [Purchase](https://www.firefly.store/products/core-3568j-ai-core-board-with-rockchip-64-bit-processor-rk3568) | [Downloads](https://community.t-firefly.com/en/doc/download/)
 [Core-3568J](https://www.firefly.store/products/core-3568j-ai-core-board-with-rockchip-64-bit-processor-rk3568) uses RK3568 quad-core 64-bit Cortex-A55 processor, with 22nm lithography process, has frequency up to 2.0GHz, with dual-core GPU and high-performance NPU, supporting up to 8G RAM. It supports WiFi 6, 5G/4G and other high-speed wireless network communications. Having different video input and output interfaces, it is suitable for scenarios such as smart NVR, cloud terminal, IoT gateway and industrial control
 
 <center>

@@ -1,5 +1,3 @@
-# AIO-1684XJD4
-- [前言](preface.md)
 # 上手教程
 - [初次使用](started.md)
 - [串口调试](debug.md)

@@ -1,18 +1,9 @@
-# EC-Orin NX
-- [前言](preface.md)
-# 使用手册
+# 产品简介
 - [简介](started.md)
-- [初次使用](usage_first.md)
-- [接口介绍](interface_definition.md)
-- [登录](login.md)
-- [WIFI](usage_wifi.md)
-- [蜂窝网络](usage_4g.md)
-- [RS485/RS232](usage_rs232_rs485.md)
-- [CAN](usage_can.md)
-- [Audio ](usage_audio.md)
-- [看门狗](usage_watchdog.md)
-- [RTC](usage_rtc.md)
-- [更新固件](firmware_upgrade.md)
-- [开发文档](usage_edge_development.md)
-# 配件
-- [通信模组](module_wireless.md)
+# 固件升级
+- [USB升级固件](upgrade_firmware.md)
+- [FAQ](upgrade_faq.md)
+# 开发指南
+- [硬件功能使用](hardware_usage.md)
+# AI
+- [JetPack](ai.md)

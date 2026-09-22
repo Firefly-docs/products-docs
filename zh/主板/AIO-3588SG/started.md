@@ -59,4 +59,3 @@ AIO-3588SG 是没有HDMI显示接口的，有两种方式显示：
 AIO-3588SG 两种方式接入ADB：
 * 使用OTG接入ADB，OTG接口是TYPE-C,也就是说在使用ADB的时候不能使用TYPE-C供电，此时需要接入电池；
 * 使用网络ADB，该方法对电池是否接入不作要求。
- <a id="firmware-format"></a>

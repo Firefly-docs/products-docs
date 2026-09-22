@@ -1,10 +1,16 @@
 # Hardware Function Usage
 
+## Debug Serial
+
+The AIBOX-K3 has an onboard Type-C Console debug serial port. No external serial module is required: just connect the host to the PC with a Type-C cable for serial debugging.
+
+For the connection and usage of the debug serial port, see: [Debug Serial](debug.md).
+
 ## Login
 
 There are two ways to login to AIBOX-K3, one is via Console (Debug serial), the other is via HDMI.
 
-### Console Login
+### Console Login (Debug Serial)
 Type-C Connects to the Console port. The login account is `root`. By default, the `root password` is not set.<br>
 Use the following serial port parameters:
 * Baud rate: 115200
@@ -12,6 +18,11 @@ Use the following serial port parameters:
 * Stop bit: 1
 * Parity check: None
 * Flow control: None
+
+<center>
+
+<img alt="" src="../../../aibox_img/AIBOX-3588S/AIBOX-3588S-console.png" width="400">
+</center>
 
 ### HDMI Login
 When logging in via the HDMI, it automatically logs in as the user `firefly`, with the password also being `firefly`.

@@ -33,8 +33,6 @@ Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 
 Among them, `0955:7523 NVIDIA Corp. APX` indicates that the computer has detected NVIDIA devices that have entered Recovery mode.
 
-Notice: If do not found `0955:7523 NVIDIA Corp. APX`, board need to change to `OTG` by `TYPE C-SEL`.
-
 * `0955:7523 NVIDIA Corp. APX` : Jetson Orin Nano 8GB
 * `0955:7423 NVIDIA Corp. APX` : Jetson Orin NX 8GB
 * `0955:7323 NVIDIA Corp. APX` : Jetson Orin NX 16GB

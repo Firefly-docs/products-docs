@@ -1,4 +1,6 @@
 # Introduction
+
+[Specification]() | [Purchase](https://www.firefly.store/products/core-3308by-iot-quad-core-64-bit-core-board) | [Downloads](https://community.t-firefly.com/en/doc/download/)
 ## Product Specifications
 
 <center>

@@ -32,9 +32,6 @@ Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 
 其中`0955:7523 NVIDIA Corp. APX` 表示电脑检测到已经进入 Recovery 模式的 NVIDIA 设备。
 
-注意：如果没有发现 `0955:7523 NVIDIA Corp. APX`，需要通过板端的拨码开关(TYPE C-SEL)去切换到OTG，整机需要拆机。
-
-
 * `0955:7523 NVIDIA Corp. APX` : Jetson Orin Nano 8GB
 * `0955:7423 NVIDIA Corp. APX` : Jetson Orin NX 8GB
 * `0955:7323 NVIDIA Corp. APX` : Jetson Orin NX 16GB

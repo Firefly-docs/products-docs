@@ -149,8 +149,26 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 ```
 
 ### MaskRom模式
-进入MaskRom模式的方法，请参考[《MaskRom模式》](upgrade_maskrom_mode.md)
 
+`MaskRom` 模式是设备变砖的最后一条防线。强行进入 `MaskRom` 涉及硬件操作，有一定风险，因此仅在设备进入不了 `Loader` 模式的情况下，方可尝试 `MaskRom` 模式。进入 `MaskRom` 的原理是人为的把 EMMC 的数据脚与地线短接，系统会认为 EMMC 数据出错，从而清除 EMMC 数据。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+先断开电源，然后按住 maskrom 按键（Boot 按键），再上电，几秒后松开
+<center>
+
+<img alt="" src="../../../rk3506_img/ROC-RK3506J-CC/upgrade_maskrom_key.jpg" width="800">
+</center>
+
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+
+<img alt="" src="../../../rk3506_img/common/upgrade_maskrom_zh.png" width="800">
+</center>
 MaskRom烧写固件前先确定板子ROC-RK3506J-CC是否有贴Nor Flash存储器，如下图：
 
 <center>
@@ -240,7 +258,7 @@ sudo fastboot reboot # 烧写成功后,重启
 ## 常见问题
 ### 1. 如何强行进入 MaskRom 模式
 
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom模式》](upgrade_maskrom_mode.md)。
+如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见上文「MaskRom模式」章节。
 
 
 ### 2. 烧写失败分析

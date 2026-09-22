@@ -1,16 +1,9 @@
-# EC-ThorT5000
-- [前言](preface.md)
-# 上手教程
+# 产品简介
 - [简介](started.md)
-- [串口调试](debug.md)
-- [初次使用](usage_first.md)
-# 更新固件
-- [更新固件](upgrade_firmware.md)
-# 接口使用
-- [CAN 使用](usage_can.md)
-- [UART 使用](usage_uart_rs232_rs485.md)
-- [Watchdog 使用](usage_watchdog.md)
-- [IO 使用 ](usage_io.md)
-- [NETWORKS 使用 ](usage_networks.md)
-- [Audio ](usage_audio.md)
-# 配件
+# 固件升级
+- [USB升级固件](upgrade_firmware.md)
+- [FAQ](upgrade_faq.md)
+# 开发指南
+- [硬件功能使用](hardware_usage.md)
+# AI
+- [JetPack](ai.md)

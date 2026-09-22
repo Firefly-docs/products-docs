@@ -1,5 +1,37 @@
 # 升级固件
 
+### MaskRom模式
+
+***有关启动模式的介绍，请参阅[《启动模式说明》](bootmode.md)一章***
+
+
+`MaskRom` 模式是设备变砖的最后一条防线。强行进入 `MaskRom` 涉及硬件操作，有一定风险，因此仅在设备进入不了 `Loader` 模式的情况下，方可尝试 `MaskRom` 模式。进入 `MaskRom` 的原理是人为的把 Flash 的数据脚与地线短接，系统会认为 Flash 数据出错，从而清除 Flash 数据。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+1. 设备断开所有电源。
+1. 拔出 SD 卡。
+1. 用双公头 USB 数据线连接好设备和主机。
+1. 用金属镊子接通AIO-3288J上的如下图所示的两个测试点并保持(如下图所示)。
+1. 设备插入电源。
+1. 稍候片刻，之后松开镊子。
+
+AIO-3288J：
+
+<center>
+
+<img alt="" src="../../../rk3288_img/AIO-3288J/maskrom_test_points.png" width="700">
+</center>
+
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+
+<img alt="" src="../../../rk3288_img/maskrom.png" width="700">
+</center>
 ## 前言
 
 本文介绍了如何将主机上的固件，通过双公头 USB 数据线烧录到 AIO-3288J 开发板的闪存中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
@@ -192,20 +224,5 @@ sudo upgrade_tool di -rootfs $ROOTFS
 sudo upgrade_tool lf update.img # 低级格式化
 sudo upgrade_tool ef update.img # 擦除
 ```
-
-## 常见问题
-
-### 1. 如何强行进入 MaskRom 模式
-
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom 模式》](maskrom_mode.md)。
-
-### 2. 烧写失败分析
-
-如果烧写过程中出现 Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的 USB 线连接不良、劣质线材，或者电脑 USB 口驱动能力不足导致的，请更换 USB 线或者电脑 USB 端口排查。
-
-<center>
-
-<img alt="" src="../../../rk3288_img/upgrade_downloadfail.jpg" width="800">
-</center>
 
 [《烧写须知》]: upgrade_table.md

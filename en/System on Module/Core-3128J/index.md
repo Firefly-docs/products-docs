@@ -3,7 +3,6 @@
 - [Serial port debugging](debug.md)
 - [Firmware upgrade](upgrade_firmware.md)
 - [Boot Mode description](bootmode.md)
-- [MaskRom Mode](maskrom_mode.md)
 # Android
 - [ADB Usage](adb_use.md)
 - [Compile the Android firmware](compile_android.md)

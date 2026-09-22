@@ -1,19 +1,10 @@
-# EC-A186JD4
-- [前言](preface.md)
-# 使用手册
+# 产品简介
 - [简介](started.md)
-- [开发板 wiki](wiki.md)
-- [登录](login.md)
-- [远程桌面 X11VNC](x11vnc.md)
-- [网络 IP 配置](net_ip.md)
-# 硬件功能使用
-- [接口介绍](interface_definition.md)
-- [HDMI 显示测试](hdmi_test.md)
-- [音频接口测试](audio_test.md)
-- [WIFI](usage_wifi.md)
-- [U 盘、TF 卡、SSD 挂载](usage_disk.md)
-- [RS485/RS232](usage_rs232_rs485.md)
-- [CAN](usage_can.md)
-- [固件升级](fw_upgrade.md)
-# Linux 开发
-- [Sophon SDK 开发](sophon-sdk.md)
+# 固件升级
+- [SD卡升级固件](fw_upgrade.md)
+- [FAQ](upgrade_faq.md)
+# 开发指南
+- [硬件功能使用](hardware_usage.md)
+- [应用开发](app_development.md)
+# AI
+- [部署例程](deployment_routines.md)

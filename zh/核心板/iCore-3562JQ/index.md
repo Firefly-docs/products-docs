@@ -6,7 +6,6 @@
 # 升级固件
 - [更新固件介绍](01-bootmode.md)
 - [使用USB线缆升级固件](03-upgrade_firmware.md)
-- [MaskRom模式](04-maskrom_mode.md)
 - [使用SD卡升级固件](05-upgrade_firmware_sd.md)
 - [制作SD启动卡](06-boot_firmware_sd.md)
 # Linux开发

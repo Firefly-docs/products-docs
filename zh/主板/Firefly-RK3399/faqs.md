@@ -42,7 +42,7 @@ Firefly-RK3399 默认录音输入源采用的是板载麦克风 `Builtin Mic`,�
 
 ## 如何强行进入 MaskRom 模式
 
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom模式》](04-maskrom_mode.md)。
+如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom模式》](03-upgrade_firmware.md)。
 
 ## PCIE
 * 开发板上的两个 PCIE 的区别?

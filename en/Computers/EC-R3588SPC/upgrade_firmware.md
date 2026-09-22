@@ -102,29 +102,23 @@ Usually we upgrade firmware in two modes, namely `Loader` mode and `MaskRom` mod
 
 Connect the device and press the **RECOVERY** button to enter the Loader mode. The steps are as follows:
 
-* Disconnect the power adapter first:
-* Type-C data cable connects one end to the host and the other end to the development board.
-<center>
+1. Disconnect the device from the power supply
+2. Press and hold the earphone hole on EC-R3588SPC with a pin tool
+3. The device is plugged into the power supply and powered on
 
-<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_otg_interface.jpg" width="900">
-</center>
-
-* EC-3588SPC is a complete machine product. The RECOVERY key and RESET key are not exposed. The bare board position is shown in the figure below
+The earphone hole position is shown in the figure below:
 
 <center>
 
-<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_recovery_reset.jpg" width="800">
+<img alt="" src="../../../rk3588_img/common/upgrade_hole.png" width="150">
 </center>
 
-* We need to use tweezers to poke into the 3.5MM earphone hole and hold on
+At this point, the device enters Recovery mode.
 
 <center>
 
-<img alt="" src="../../../rk3588_img/EC-R3588SPC/recovery_key_interface.jpg" width="900">
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
 </center>
-
-* Connect to the power supply.
-* About two seconds later, release the `RECOVERY` button.
 #### Software way into Loader mode
 
 Type-C data cable is connected, use the command in the serial debugging terminal or `adb shell`:
@@ -166,8 +160,31 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom mode
 
-To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode.md).
+`MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try `MaskRom` mode. The principle of entering `MaskRom` is to artificially short the EMMC data pin to the ground wire, and the system will consider the EMMC data error, thereby clearing the EMMC data.
 
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+
+
+
+
+You can press the MaskROM key and then power on the device  
+
+<center>
+
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_maskrom_key.png" width="800">
+</center>
+
+
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
+</center>
 ## Upgrade the firmware
 ### Windows Operating System
 #### Upgrade unified firmware - update.img
@@ -184,21 +201,6 @@ The steps to update the unified firmware `update.img` are as follows:
 <img alt="" src="../../../rk3588_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
-#### Upgrade Partition image
-
-The steps to upgrade the partition image are as follows:
-1. Switch to the `Download Image` page.
-
-2. Check the partition to be burned, and select multiple.
-
-3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
-
-4. Click `Run` button to start the upgrade, and the device will restart automatically after the upgrade.
-
-<center>
-
-<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
-</center>
 
 
 ### Linux Operating System
@@ -218,50 +220,6 @@ sudo upgrade_tool ef update.img
 sudo upgrade_tool uf update.img
 ```
 
-#### Upgrade Partition image
-
-```
-sudo upgrade_tool di -b /path/to/boot.img
-sudo upgrade_tool di -r /path/to/recovery.img
-sudo upgrade_tool di -m /path/to/misc.img
-sudo upgrade_tool di -u /path/to/uboot.img
-sudo upgrade_tool di -dtbo /path/to/dtbo.img
-sudo upgrade_tool di -p paramater   #upgrade parameter
-sudo upgrade_tool ul bootloader.bin #upgrade bootloader
-```
-
-If the upgrade fails due to flash problems, you can try low-level formatting and erase nand flash:
-
-```
-sudo upgrade_tool lf update.img	# low-level formatting
-sudo upgrade_tool ef update.img	# erase
-```
-
-fastboot Burn dynamic partitions:
-
-```
-adb reboot fastboot # enter bootloader
-sudo fastboot flash vendor vendor.img
-sudo fastboot flash system system.img
-sudo fastboot reboot # After the burn is successful, restart
-```
-
-
-## FAQs
-
-### 1. How to forcibly enter MaskRom mode
-
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode.md).
-
-
-### 2. Analysis of programming failure
-
-If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
-
-<center>
-
-<img alt="" src="../../../rk3588_img/common/upgrade_firmware_download_fail.png" width="800">
-</center>
 
 [烧写须知]: 02-upgrade_table.md
 [EC-R3588SPC firmware]: https://community.t-firefly.com/en/doc/download/182
@@ -269,3 +227,4 @@ If Download Boot Fail occurs during the programming process, or an error occurs 
 [Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/182#windows_341
 [Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/182#linux_12
 [upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/182#linux_12
+

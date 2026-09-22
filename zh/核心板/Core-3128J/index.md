@@ -3,7 +3,6 @@
 - [串口调试](debug.md)
 - [升级固件](upgrade_firmware.md)
 - [启动模式说明](bootmode.md)
-- [MaskRom模式](maskrom_mode.md)
 # Android 开发
 - [ADB 使用](adb_use.md)
 - [编译 Android 固件](compile_android.md)

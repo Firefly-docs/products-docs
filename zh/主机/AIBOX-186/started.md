@@ -1,69 +1,52 @@
-# 初次使用
+# 简介
 
-## 开机
+[规格书](https://download.t-firefly.com/Spec/Computers/AIBOX-1688_AIBOX-186_Specification_CN.pdf) | [购买链接](https://item.taobao.com/item.htm?id=852613533931) | [下载资料](https://community.t-firefly.com/doc/download/278)
 
-AIBOX-186 在连接电源时会自动开机。若已连接电源，且机器使用了关机命令，请短按电源键使机器开机。
+**AIBOX-186** 搭载算能智算芯片 CV186AH，是面向 AI 推理、计算机视觉等应用的高集成视觉算力芯片。可高效适配市场上各类 AI 算法，实现图片分类、目标检测、实例分割、语义分割、文字识别、语音识别等应用，并支持大语言模型的本地私有化部署，可满足边缘智算、AI 推理盒子等应用场景需求。
 
-开机进入系统后指示灯会绿色长亮。
+<center>
 
-## 登录终端
+<img alt="" src="../../../bm1688_img/AIBOX-186/AIBOX-186.png" width="600">
+</center>
 
-登录 AIBOX-186 的终端共有两种方式，一种是通过 Type-C 串口登录，另一种是通过网络进行远程登录。
+## 接口描述
 
-### Type-C 串口登录
+**AIBOX-186** 提供了丰富的接口，主要包括：
 
-使用 Type-C 串口登录需要准备一条 Type-C 数据线，并用其连接 AIBOX-186 的 Type-C 调试串口 和 PC 的 USB 口。
+**正面接口**：
+- 电源键
+- 工作指示灯 (三色灯，进入系统默认为绿色)
+- Recovery 按键 (需要用小针捅进去，功能暂未定义)
+- TF 卡座 (支持高速卡)
+- TYPE-C USB 2.0 OTG
+- TYPE-C 调试串口
 
-用户可以通过 [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) 或 minicom 等软件连接串口。
+<center>
 
-串口参数设置为：
-- 波特率：115200
-- 数据位：8
-- 停止位：1
-- 奇偶校验：无
-- 流控：无
+![](../../../bm1688_img/AIBOX-186/interface_all.png)
+</center>
 
-登录终端所使用的用户名、密码均为 `linaro`。
+**背面接口**：
+- HDMI 2.0 (最高支持 4K@60fps)
+- 2*USB 3.0 (上面接口默认只支持 USB 3.0，不支持 USB 2.0)
+- 2*千兆以太网 (网口0: DHCP, 网口 1: 静态 IP 地址 192.168.150.1/24)
+- 12V 电源接口（5.5*2.5mm）
+## 结构尺寸
 
-### 网络远程登录
+<center>
 
-使用网络远程登录前需确认 AIBOX-186 对应网口的 IP 地址：
+<img alt="" src="../../../bm1688_img/AIBOX-186/size.png" width="800">
+</center>
 
-- 网口 0 （靠近电源接口）设置了动态 IP，可用 Type-C 串口登录终端后，使用 `ifconfig` 命令查看网口 0（eth0）的 IP 地址。
-- 网口 1 （靠近 USB 接口）设置了静态 IP `192.168.150.1`，子网掩码 `255.255.255.0`，可以将 PC 设置成 `192.168.150.2/24` 来做初次访问。
+## 资源与技术支持
 
-用户可以使用以下方法快速修改 PC 的 IP 地址：
+* [核心板 Core-186JD4 开发文档](https://wiki.t-firefly.com/Core-186JD4/)：包含 SDK 编译教程、各功能开发等资料
+* [技术交流论坛](https://forum.t-firefly.com/)：超过10万企业客户和用户沟通交流平台
 
-- Windows 以管理员身份打开 cmd 执行：
+### 联系方式
 
-```bash
-netsh int ipv4 set interface "以太网" dhcpstaticipcoexistence=enabled
-netsh int ipv4 add address "以太网" 192.168.150.2 255.255.255.0
-```
-
-- Linux
-
-```bash
-sudo ifconfig enp4s0:1 192.168.150.2  # enp4s0 要替换为实际的有线网络接口
-```
-
-确认网口的 IP 地址后，如果能够在 PC 端成功 `ping` 通网口 IP 地址，接着就可以用 `ssh` 登录了:
-
-```
-# 192.168.150.1 需替换为对应网口的实际 IP 地址
-ssh linaro@192.168.150.1
-```
-
-登录所使用的用户名、密码同样均为 `linaro`。
-
-如需更改网口 IP 地址，请参考[网络 IP 配置](net_ip.md)章节进行操作
-
-## 关机
-
-注意：请先完成软/硬件关机后，再断开电源，以免损坏文件系统数据。
-
-* 软件关机：在终端中运行 `sudo poweroff`。
-
-* 按键关机：长按电源键，直至工作指示灯停止闪烁。
-
-当风扇停止运转、工作指示灯熄灭时，说明 AIBOX-186 已完成关机，此时可安全断开电源。
+* 邮箱：sales@t-firefly.com
+* 手机：(+86) 186 8811 7175
+* 座机：0760-89881218
+* 全国服务热线：4001-511-533
+* 地址：广东省中山市东区中山四路 57 号宏宇大厦 2101 室

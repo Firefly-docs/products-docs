@@ -58,4 +58,4 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 
 一般情况下是不用进入 `MaskRom 模式`的，只有在 bootloader 校验失败（读取不了 IDB 块，或 bootloader 损坏） 的情况下，BootRom 代码 就会进入此模式。此时 BootRom 代码等待主机通过 USB 接口传送 bootloader 代码，加载并运行之。当板子变砖无法正常启动或升级程序时，也可以手动进入`MaskRom 模式`.
 
-***要强行进入 `MaskRom 模式`，请参阅[《MaskRom 模式》](04-maskrom_mode.md)一章。***
+***要强行进入 `MaskRom 模式`，请参阅[《MaskRom 模式》](03-upgrade_firmware.md)一章。***

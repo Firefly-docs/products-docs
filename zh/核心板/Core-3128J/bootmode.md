@@ -57,4 +57,4 @@ Normal 模式就是正常的启动过程，各个组件依次加载，正常进�
 ### MaskRom 模式  
 MaskRom 模式用于 bootloader 损坏时的系统修复。  
 一般情况下是不用进入 MaskRom 模式的，只有在 bootloader 校验失败（读取不了 IDR 块，或 bootloader 损坏） 的情况下，BootRom 代码 就会进入 MaskRom 模式。此时 BootRom 代码等待主机通过 USB 接口传送 bootloader 代码，加载并运行之。  
-要强行进入 MaskRom 模式，请参阅[《MaskRom》](maskrom_mode.md)一章。  
+要强行进入 MaskRom 模式，请参阅[《MaskRom》](upgrade_firmware.md)一章。  

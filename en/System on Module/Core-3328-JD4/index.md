@@ -3,7 +3,6 @@
 - [Serial Debug](debug.md)
 # Upgrade Firmware
 - [Boot mode description](01-bootmode.md)
-- [MaskRom mode](04-maskrom_mode.md)
 - [Flashing Notes](02-upgrade_table.md)
 - [Flash Image](03-upgrade_firmware.md)
 # Linux

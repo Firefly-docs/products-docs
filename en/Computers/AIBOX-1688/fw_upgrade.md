@@ -23,8 +23,3 @@ AIBOX-1688 uses a TF card to upgrade the firmware, and users must strictly follo
 (5) If the upgrade is successful, the green LED will flash continuously; at this time, remove the TF card and power cycle the device;
 
 (6) If the upgrade fails, all LED lights will turn off.
-
-Notes:
-
-- If the TF card exceeds 32GB, it may not be formatable to FAT32 due to Windows system limitations, so it is best to choose a TF card smaller than 32GB.
-- The upgrade process may take a while, approximately six minutes, so please be patient.

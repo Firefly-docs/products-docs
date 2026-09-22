@@ -1,5 +1,3 @@
-# AIO-Orin Nano
-- [前言](preface.md)
 # 使用手册
 - [简介](started.md)
 - [初次使用](usage_first.md)
@@ -13,6 +11,5 @@
 - [看门狗](usage_watchdog.md)
 - [RTC](usage_rtc.md)
 - [更新固件](firmware_upgrade.md)
-- [开发文档](usage_edge_development.md)
 # 配件
 - [通信模组](module_wireless.md)

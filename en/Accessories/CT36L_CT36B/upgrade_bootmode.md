@@ -53,4 +53,4 @@ Normal mode is the normal startup process. Each component is loaded in sequence 
 
 MaskRom mode is used for firmware programming.
 
-***To forcefully enter `MaskRom mode`, please refer to the chapter ["MaskRom Mode"](upgrade_maskrom_mode.md). ***
+***To forcefully enter `MaskRom mode`, please refer to the chapter [Upgrade Firmware](upgrade_firmware.md). ***

@@ -49,4 +49,4 @@ MaskRom mode is used for system repair when the bootloader is damaged.
 
 Under normal circumstances, it is not necessary to enter `MaskRom mode`. Only when the bootloader verification fails (IDB block cannot be read, or the bootloader is damaged), the BootRom code will enter `MaskRom mode`. At this time, the BootRom code waits for the host to transmit the bootloader code through the USB interface, load and run it.
 
-***Forcibly enter `MaskRom mode`, please refer to the chapter [MaskRom Mode](upgrade_maskrom_mode_rockchip.md).***
+***Forcibly enter `MaskRom mode`, please refer to the chapter [Upgrade Firmware](upgrade_firmware.md).***

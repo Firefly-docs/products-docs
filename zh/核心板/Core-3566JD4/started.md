@@ -1,4 +1,6 @@
-# 介绍
+# 简介
+
+[规格书]() | [购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-24099170634.61.2f0d3f47aGZmRO&id=660974808418) | [下载资料](https://community.t-firefly.com/doc/download/)
 
 Core-3566JD4 主控采用Rockchip RK3566四核处理器，集成双核心架构GPU以及高效能NPU,支持8G大内存,板载M.2,支持2.4/5G WIFI,4G无线网络通讯，拥有丰富的接口扩展，支持多种视频输入输出接口，可应用于智能NVR、云终端、物联网网关、工业控制等场景，详细资料可参考[《接口定义》](interface_definition.md)和[《文档》](hardware_doc.md) 
 

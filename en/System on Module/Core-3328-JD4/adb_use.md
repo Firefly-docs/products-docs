@@ -217,7 +217,7 @@ The apk file path and package name are separated by `=`.
 [RK Firmware]: 02-upgrade_table.md#rk-firmware-format
 [Compile Linux Firmware]:linux_compile_gpt.md
 [Compile Android Firmware]:compile_android8.1_firmware.md
-[MaskRom]:04-maskrom_mode.md
+[MaskRom]:03-upgrade_firmware.md
 [Flashing Notes]:02-upgrade_table.md
 [Boot Mode]:01-bootmode.md
 [ROC-RK3328-PC]: http://en.t-firefly.com/product/rocrk3328pc.html "ROC-RK3328-PC Official Website"

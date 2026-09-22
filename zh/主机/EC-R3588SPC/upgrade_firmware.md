@@ -85,33 +85,23 @@ sudo chmod a+x /usr/local/bin/fastboot
 #### 硬件方式进入Loader模式
 连接设备并通过**RECOVERY**按键进入Loader升级模式步骤如下：
 
-* 先断开电源适配器连接
-* 使用 Type-C 数据线一端连接主机，一端连接开发板
+1. 设备断开电源
+2. 用针状物捅住 EC-R3588SPC 上的耳机孔位并保持
+3. 设备插入电源上电
+
+耳机孔位位置如下图所示：
 
 <center>
 
-<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_otg_interface.jpg" width="900">
+<img alt="" src="../../../rk3588_img/common/upgrade_hole.png" width="150">
 </center>
-  
-* EC-3588SPC为整机产品，RECOVERY键及RESET按键并未外漏，裸板位置如下图
+
+此时设备就会进入 Recovery 模式。
 
 <center>
 
-<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_recovery_reset.jpg" width="800">
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
 </center>
-
-* 我们需要使用镊子捅入3.5MM的耳机孔中并保持
-
-<center>
-
-<img alt="" src="../../../rk3588_img/EC-R3588SPC/recovery_key_interface.jpg" width="900">
-</center>
-
-* 接上电源
-* 大约两秒钟后，松开镊子
-
-
-
 #### 软件方式进入Loader模式
 Type-C 数据线接好后在串口调试终端或adb shell给板子运行以下命令
 
@@ -149,7 +139,30 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 ```
 
 ### MaskRom模式
-进入MaskRom模式的方法，请参考[《MaskRom模式》](upgrade_maskrom_mode.md)
+`MaskRom` 模式是设备变砖的最后一条防线。强行进入 `MaskRom` 涉及硬件操作，有一定风险，因此仅在设备进入不了 `Loader` 模式的情况下，方可尝试 `MaskRom` 模式。进入 `MaskRom` 的原理是人为的把 EMMC 的数据脚与地线短接，系统会认为 EMMC 数据出错，从而清除 EMMC 数据。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+
+
+
+
+可以按maskrom 按键，然后进行上电
+<center>
+
+<img alt="" src="../../../rk3588_img/EC-R3588SPC/upgrade_maskrom_key.png" width="800">
+</center>
+
+
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
+</center>
 
 
 ## 烧写固件
@@ -169,18 +182,6 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 <img alt="" src="../../../rk3588_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
-#### 烧写分区映像
-烧写分区映像的步骤如下：
-
-1. 切换至`Upgrade Firmware`页。
-2. 勾选需要烧录的分区，可以多选。
-3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
-4. 点击`Run`按钮开始升级，升级结束后设备会自动重启。
-
-<center>
-
-<img alt="" src="../../../rk3588_img/common/upgrade_firmware_androidtool_zh.png" width="800">
-</center>
 
 ### Linux操作系统
 
@@ -199,50 +200,6 @@ sudo upgrade_tool ef update.img   #update.img :你需要烧写的 Ubuntu 固件
 sudo upgrade_tool uf update.img
 ```
 
-#### 烧写分区镜像
-
-```
-sudo upgrade_tool di -b /path/to/boot.img
-sudo upgrade_tool di -r /path/to/recovery.img
-sudo upgrade_tool di -m /path/to/misc.img
-sudo upgrade_tool di -u /path/to/uboot.img
-sudo upgrade_tool di -dtbo /path/to/dtbo.img
-sudo upgrade_tool di -p paramater   #烧写 parameter
-sudo upgrade_tool ul bootloader.bin # 烧写 bootloader
-```
-
-
-如果因 flash 问题导致升级时出错，可以尝试低级格式化、擦除 emmc：
-```
-sudo upgrade_tool lf update.img	# 低级格式化
-sudo upgrade_tool ef update.img	# 擦除
-```
-
-
-fastboot 烧写动态分区
-
-```
-adb reboot fastboot # 进入bootloader
-sudo fastboot flash vendor vendor.img
-sudo fastboot flash system system.img
-sudo fastboot reboot # 烧写成功后,重启
-```
-
-
-
-## 常见问题
-### 1. 如何强行进入 MaskRom 模式
-
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom模式》](upgrade_maskrom_mode.md)。
-
-
-### 2. 烧写失败分析
-
-如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
-<center>
-
-<img alt="" src="../../../rk3588_img/common/upgrade_firmware_download_fail.png" width="800">
-</center>
 
 
 [Androidtool_xxx(版本号)]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.

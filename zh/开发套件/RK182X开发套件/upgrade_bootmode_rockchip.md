@@ -28,4 +28,4 @@ Normal 模式就是正常的启动过程，各个组件依次加载，系统正�
 
 MaskRom 模式用于烧写固件，或在 bootloader 损坏时修复系统。对于本开发套件，USB 升级始终使用主板上的 `MaskRom` 按键进入该模式。
 
-硬件操作方法请参阅 [MaskRom 模式](upgrade_maskrom_mode_rockchip.md)。
+硬件操作方法请参阅 [MaskRom 模式](upgrade_firmware_rockchip.md)。

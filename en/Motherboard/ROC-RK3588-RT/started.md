@@ -16,5 +16,3 @@ intelligent NVR and other fields.
 <img alt="" src="../../../rk3588_img/ROC-RK3588-RT/ROC-RK3588-RT.png" width="700">
 </center>
 
-
- <a id="firmware-format"></a>

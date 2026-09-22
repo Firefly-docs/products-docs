@@ -4,7 +4,6 @@
 # Upgrade Firmware
 - [Boot mode description](01-bootmode.md)
 - [Upgrade the firmware via USB cable](loader_mode.md)
-- [MaskRom mode](04-maskrom_mode.md)
 - [Upgrade the firmware via SD card](05-upgrade_firmware_sd.md)
 - [Instructions for writing with USB cable (important)](02-upgrade_table.md)
 # Linux

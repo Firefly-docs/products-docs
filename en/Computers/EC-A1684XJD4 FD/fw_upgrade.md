@@ -23,8 +23,3 @@ EC-A1684XJD4 FD uses TF card to upgrade firmware, users need to strictly follow 
 (5) If the upgrade is successful, the green LED light will keep flashing;
 
 (6) If the upgrade fails, all LED lights will be off.
-
-Precautions:
-
-- If the TF card exceeds 32GB, it may not be formatted into FAT32 format due to the limitations of the Windows system, so it is best to choose a TF card with a size below 32GB
-- The upgrade time is a bit long, about six minutes, please be patient

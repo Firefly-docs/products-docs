@@ -1,5 +1,3 @@
-# iCore-1684XQ
-- [Preface](preface.md)
 # Quick Start
 - [First use](started.md)
 - [Serial debug](debug.md)

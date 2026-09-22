@@ -70,6 +70,41 @@
 <img alt="" src="../../../rk3399_img/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
+### MaskRom模式
+# MaskRom 模式
+
+***有关启动模式的介绍，请参阅[《介绍》](01-bootmode.md)一章***
+
+
+`MaskRom 升级模式`升级是最基本的固件升级方式，也是设备变砖的最后一条防线。因为 `MaskRom 升级模式` 涉及硬件操作，**如需短路焊盘请谨慎操作，以免观察失误造成其它元件被错误短路**。因此在设备可以进入`Loader 升级模式`的情况下，优先使用`Loader 升级模式`。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+1. 设备断开所有电源。
+2. 拔出 SD 卡。
+3. 用双公头USB数据线连接好设备和主机。
+4. 用金属镊子接通AIO-3399J上的如下图所示的两个测试点并保持(如下图所示)。
+5. 设备插入电源。
+6. 稍候片刻，之后松开镊子。
+
+<center>
+
+<img alt="" src="../../../rk3399_img/AIO-3399J/maskrom_test_points.jpg" width="700">
+</center>
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+
+<img alt="" src="../../../rk3399_img/maskrom.jpg" width="700">
+</center>
+
+
+
+
+
 ## 烧写固件
 
 下载 [RKDevTool](**若系统是 Android8.1 则需要 2.54 以上版本**)，解压，运行 `RKDevTool_Release_v2.38` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
@@ -201,7 +236,7 @@ sudo upgrade_tool ef update.img	# 擦除
 
 ### 1. 如何强行进入 MaskRom 升级模式
 
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 升级模式。操作方法见[《MaskRom 升级模式》](04-maskrom_mode.md)。
+如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 升级模式。操作方法见上文「MaskRom模式」章节。
 
 
 ### 2. 烧写失败分析

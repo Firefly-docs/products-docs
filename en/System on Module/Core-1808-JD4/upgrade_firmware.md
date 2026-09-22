@@ -99,6 +99,28 @@ The steps to upgrade the partition image are as follows:
 <img alt="" src="../../../rk1808_img/upgrade_firmware3_en.png" width="800">
 </center>
 
+### MaskRom Mode
+
+` MaskRom ` pattern is the last line of defense equipment burn out. Forced entry ` MaskRom ` involved hardware operation, have certain risk, so only in the equipment into the ` Loader ` mode, can try ` MaskRom ` mode.
+
+Please read carefully and operate carefully!<br />
+The operation steps are as follows:  
+1. Disconnect all power supplies.
+2. Unplug the SD card.
+3. Connect the equipment and host machine with Dual male usb data cable.
+4. Use metal tweezers to connect the two test points on the core board as shown in the figure below and hold.<br />
+<center>
+
+<img alt="" src="../../../rk1808_img/maskrom1.png" width="700">
+</center>
+5. Plug the device into the power supply.
+6. Wait a moment, then loosen the tweezers.
+
+At this point, the device should go into `MaskRom mode`.
+<center>
+
+<img alt="" src="../../../rk1808_img/maskrom2_en.png" width="700">
+</center>
 ## Linux
 There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.
 
@@ -152,4 +174,4 @@ sudo upgrade_tool ef update.img	# erase
 
 ### Q1: How to enter MaskRom mode
 
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](maskrom_mode.html).
+**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method the "MaskRom Mode" section above.

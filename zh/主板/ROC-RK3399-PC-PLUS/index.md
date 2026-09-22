@@ -4,7 +4,6 @@
 # 升级固件
 - [介绍](01-bootmode.md)
 - [使用USB线缆升级固件](loader_mode.md)
-- [MaskRom 模式](04-maskrom_mode.md)
 - [使用 SD 卡升级固件](05-upgrade_firmware_sd.md)
 - [使用USB线烧写须知(重要)](02-upgrade_table.md)
 - [Windows 上制作 SD 启动卡](06-boot_firmware_sd.md)

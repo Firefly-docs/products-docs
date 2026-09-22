@@ -4,7 +4,6 @@
 # Upgrade Firmware
 - [Boot mode description](upgrade_bootmode.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)
-- [MaskRom mode](upgrade_maskrom_mode.md)
 - [Upgrade the firmware via SD card](upgrade_firmware_sd.md)
 # Linux
 - [Compile Linux Firmware (kernel-6.1)](linux6.1_compile.md)

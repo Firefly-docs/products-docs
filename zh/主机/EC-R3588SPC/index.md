@@ -1,36 +1,13 @@
-# 上手教程
-- [started](started.md)
-- [串口调试](usb_to_ttl.md)
-# 升级固件
-- [介绍](upgrade_bootmode.md)
-- [使用USB线缆升级固件](upgrade_firmware.md)
-- [MaskRom模式](upgrade_maskrom_mode.md)
-- [使用SD卡升级固件](upgrade_firmware_sd.md)
-# Linux开发
-- [编译 Linux 固件 (内核版本 6.1)](linux6.1_compile.md)
-- [编译 Linux 固件 (内核版本 5.10)](linux_compile.md)
-- [技术案例](linux_technical_cases.md)
-# Android开发
-- [ADB 使用](android_adb_use.md)
-- [编译环境搭建](android_prepare_compile_android.md)
-- [编译 Android12.0 固件](android_compile_android12.0_firmware.md)
-# 硬件功能使用
-- [CAN 使用](usage_can.md)
-- [Display 使用](usage_display.md)
-- [Ethernet 使用](usage_ethernet.md)
-- [LED 使用](usage_led.md)
-- [RELAY 使用](usage_relay.md)
-- [DIN 使用](usage_din.md)
-- [RTC 使用](usage_rtc.md)
-- [SATA 使用](usage_sata.md)
-- [UART使用](usage_uart.md)
-- [Watchdog 使用](usage_watchdog.md)
-# 配件
-- [通信模组](module_wireless.md)
-# 其他
-- [大语言模型](usage_rkllm.md)
-- [NPU使用](usage_npu.md)
-# 常见问题解答
-- [Linux 设备树 (DTS) 指南](linux_dts_manual.md)
-# 参考资料
-- [接口定义](interface_definition.md)
+# 产品简介
+- [简介](started.md)
+# 固件升级
+- [USB升级固件](upgrade_firmware.md)
+- [SD卡升级固件](upgrade_firmware_sd.md)
+- [FAQ](upgrade_faq.md)
+# 开发指南
+- [Android 开发](https://community.t-firefly.com/docs/software/os-guide/Android)
+- [Ubuntu-Debian 开发](https://community.t-firefly.com/docs/software/os-guide/Ubuntu-Debian)
+- [硬件功能使用](hardware_usage.md)
+# AI
+- [NPU 使用](usage_npu.md)
+- [大模型部署](usage_rkllm.md)

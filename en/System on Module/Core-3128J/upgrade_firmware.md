@@ -1,5 +1,34 @@
 # Firmware upgrade
 
+### MaskRom Mode
+
+MaskRom mode is the bottom line preventing the device from bricking. Enforcing device into MaskRom mode involves hardware operation, which is risky. Therefore, please try to put the device into Loader mode, or boot the device with sd-card, before risking MaskRom mode.  
+
+**<font color=#ff0000 size=3>Please read and operate with great care!</font>**
+
+## Firefly-RK3128 enter MaskRom mode
+
+principle：  
+Artificial to the Flash data pin connected to ground, the system will think Flash data error, so clearing the Flash data.
+
+1. Power down the device.
+2. Plug out SD card.
+3. Use a Micro USB OTG cable to connnect device and host pc.
+4. Use metal tweezers to turn on the two test points shown on the red board on the core board as shown below.
+5. Power on the board.
+6. Wait a moment, then release the metal tweezers.
+
+<center>
+
+<img alt="" src="../../../rk3128_img/Core-3128J/maskrom_1.png" width="700">
+</center>
+
+Device should enter MaskRom mode:
+
+<center>
+
+<img alt="" src="../../../rk3128_img/Core-3128J/win_3128_tool_maskrom.png" width="700">
+</center>
 ## Introduction
 
 This article describes how to burn the firmware files on the host to the flash memory of the development board via the Micro USB OTG cable.  
@@ -220,4 +249,4 @@ You may find examples in help information. It shows that one single command can 
 
 ### How to enter MaskRom mode
 
-If the board cannot enter Loader mode, the SD card fails to start, and you can try to enter MaskRom mode. Please refer to [《How to enter MaskRom mode》](maskrom_mode.md)。
+If the board cannot enter Loader mode, the SD card fails to start, and you can try to enter MaskRom mode. See the "MaskRom Mode" section above.

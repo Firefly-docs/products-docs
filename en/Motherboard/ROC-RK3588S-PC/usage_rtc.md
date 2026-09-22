@@ -14,7 +14,7 @@ ROC-RK3588S-PC add a capacitor to supply power to the RTC as shown in the follow
 
 <center>
 
-<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/usage_rtc_capacitor.jpg" width="800">
+<img alt="" src="../../../rk3588_img/ROC-RK3588S-PC/usage_rtc_capacitor.jpg" width="400">
 </center>
 
 ## Driver RTC

@@ -191,7 +191,7 @@ sudo upgrade_tool ef update.img	# erase
 
 ### Enter MaskRom mode
 
-If the development board cannot enter recovery mode. You can try to enter MakRom mode. For the operation method, see [How to enter MaskRom mode](maskrom_mode.md)
+If the development board cannot enter recovery mode. You can try to enter MakRom mode. For the operation method, see [How to enter MaskRom mode](03-upgrade_firmware.md)
 
 
 ## Upgrade through U Disk

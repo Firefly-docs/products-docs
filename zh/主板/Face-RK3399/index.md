@@ -5,7 +5,6 @@
 - [启动模式说明](bootmode.md)
 - [升级固件](upgrade_firmware.md)
 - [Face-X系列套件升级固件](upgrade_firmware_face.md)
-- [MaskRom模式](maskrom_mode.md)
 # Linux开发
 - [编译 Linux 固件](linux_compile_gpt.md)
 - [技术案例](more_technical_cases_show.md)

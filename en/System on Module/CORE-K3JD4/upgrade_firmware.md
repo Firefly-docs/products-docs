@@ -100,19 +100,6 @@ Click the following steps: Dev Tools --> USB Download --> Scan Devices --> Local
 <img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_en.png" width="800">
 </center>
 
-#### Burning Partition Image
-
-Click Steps: Dev Tools --> USB Download --> Scan Devices --> Local File --> Select Zip File --> Reboot After Flashing --> Configure Partition File --> Start Flashing.
-
-Configuring partition files requires selecting the partition file.
-
-1. `partition_4M.json` updates the NOR flash on the core board.
-2. `partition_universal.json` updates the UFS partition image on the core board.
-
-<center>
-
-<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_part_en.png" width="800">
-</center>
 
 ## Frequently Asked Questions
 

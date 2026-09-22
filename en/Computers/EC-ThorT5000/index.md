@@ -1,16 +1,9 @@
-# EC-ThorT5000
-- [Preface](preface.md)
-# Quick Start
+# Product Introduction
 - [Introduction](started.md)
-- [Serial debug](debug.md)
-- [First Use](usage_first.md)
 # Upgrade Firmware
-- [Update Firmware](upgrade_firmware.md)
-# Port Usage
-- [CAN](usage_can.md)
-- [UART ](usage_uart_rs232_rs485.md)
-- [Watchdog](usage_watchdog.md)
-- [IO ](usage_io.md)
-- [NETWORKS ](usage_networks.md)
-- [Audio ](usage_audio.md)
-# Accessories
+- [USB Upgrade Firmware](upgrade_firmware.md)
+- [FAQ](upgrade_faq.md)
+# Development Guide
+- [Hardware Function Usage](hardware_usage.md)
+# AI
+- [JetPack](ai.md)

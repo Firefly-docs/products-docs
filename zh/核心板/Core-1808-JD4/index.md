@@ -5,7 +5,6 @@
 - [启动模式说明](bootmode.md)
 - [升级固件](upgrade_firmware.md)
 - [SD卡升级](sdupdate_firmware.md)
-- [MaskRom模式](maskrom_mode.md)
 # Linux开发
 - [编译 Buildroot 固件](linux_compile_buildroot.md)
 - [编译 Ubuntu 固件](linux_compile_ubuntu.md)

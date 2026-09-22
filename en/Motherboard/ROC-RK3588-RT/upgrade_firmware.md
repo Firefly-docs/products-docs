@@ -158,8 +158,23 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom mode
 
-To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode.md).
+`MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try `MaskRom` mode. The principle of entering `MaskRom` is to artificially short the EMMC data pin to the ground wire, and the system will consider the EMMC data error, thereby clearing the EMMC data.
 
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+
+
+
+
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rk3588_img/common/upgrade_maskrom_zh.png" width="800">
+</center>
 ## Upgrade the firmware
 ### Windows Operating System
 #### Upgrade unified firmware - update.img
@@ -238,26 +253,10 @@ sudo fastboot flash system system.img
 sudo fastboot reboot # After the burn is successful, restart
 ```
 
-
-## FAQs
-
-### 1. How to forcibly enter MaskRom mode
-
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode.md).
-
-
-### 2. Analysis of programming failure
-
-If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
-
-<center>
-
-<img alt="" src="../../../rk3588_img/common/upgrade_firmware_download_fail.png" width="800">
-</center>
-
 [烧写须知]: 02-upgrade_table.md
 [ROC-RK3588-RT firmware]: https://community.t-firefly.com/en/doc/download/233
 [Androidtool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/233#windows_12
 [Release_DriverAssistant.zip]: https://community.t-firefly.com/en/doc/download/233#windows_341
 [Linux_Upgrade_Tool]: https://community.t-firefly.com/en/doc/download/233#linux_12
 [upgrade_tool_xxx (version number)]: https://community.t-firefly.com/en/doc/download/233#linux_12
+

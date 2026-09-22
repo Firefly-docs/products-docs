@@ -2,9 +2,9 @@
 
 ## 登录
 
-AIBOX-3588S 登录方式有两种，一种是通过 Console 串口进行终端登录，一种是通过 HDMI 登录。
+AIBOX-3588S 登录方式有两种，一种是通过 Console（调试串口）进行终端登录，一种是通过 HDMI 登录。
 
-### Console 登录
+### Console 登录（调试串口）
 Type-C 线接入 Console 口，登录账号为`root`，默认没有设置`root`密码。<br>
 使用以下串口参数：
 * 波特率：115200
@@ -12,6 +12,58 @@ Type-C 线接入 Console 口，登录账号为`root`，默认没有设置`root`�
 * 停止位：1
 * 奇偶校验：无
 * 流控：无
+
+Console 口位置如下图所示：
+
+<center>
+
+<img alt="" src="../../../aibox_img/AIBOX-3588S/AIBOX-3588S-console.png" width="400">
+</center>
+
+#### Windows 下使用串口调试
+
+用 Type-C 数据线将板卡与电脑连接后，系统会提示发现新硬件并完成初始化，之后可以在设备管理器中找到对应的 COM 口：
+
+<center>
+
+<img alt="" src="../../../modules_img/TypeC-Serial-Debug/debug_find_com.png" width="800">
+</center>
+
+Windows 上一般用 putty 或 SecureCRT。这里推荐使用 MobaXterm 免费版本，这是一款功能强大的终端软件，其它串口软件的使用方法与之类似。
+
+1. 选择 `session` 为 `Serial`。
+2. 将 `Serial port` 修改为在设备管理器中找到的 COM 端口。
+3. 设置 `Speed (bsp)` 为 `115200`。
+4. 点击 `OK` 按钮。
+
+<center>
+
+<img alt="" src="../../../modules_img/TypeC-Serial-Debug/debug_set_MobaXterm1.png" width="800">
+</center>
+
+
+<center>
+
+<img alt="" src="../../../modules_img/TypeC-Serial-Debug/debug_set_MobaXterm2.png" width="800">
+</center>
+
+#### Ubuntu 下使用串口调试
+
+安装 minicom：
+
+```
+sudo apt-get install minicom
+```
+
+使用 `minicom -s` 打开配置界面，进入 `Serial port setup`，将串口参数设置为 `115200 8N1`：
+
+* `E - Bps/Par/Bits`：`115200 8N1`
+* `F - Hardware Flow Control`：`No`
+* `G - Software Flow Control`：`No`
+
+**注意：** `Hardware Flow Control` 和 `Software Flow Control` 都要设成 No，否则可能导致无法输入。
+
+设置完成后选择 `Save setup as dfl` 保存为默认配置，退出后 minicom 即以 115200-8-N-1 连接调试串口，使用 `root` 账号登录（默认没有设置密码）。
 
 ### HDMI 登录
 在界面登录的时候，自动登录`firefly`用户，`firefly` 用户密码也为`firefly`。

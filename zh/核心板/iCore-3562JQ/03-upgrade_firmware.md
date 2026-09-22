@@ -112,8 +112,32 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 ```
 
 ### MaskRom模式
-进入MaskRom模式的方法，请参考[《MaskRom模式》](04-maskrom_mode.md)
 
+`MaskRom` 模式是设备变砖的最后一条防线。强行进入 `MaskRom` 涉及硬件操作，有一定风险，因此仅在设备进入不了 `Loader` 模式的情况下，方可尝试 `MaskRom` 模式。进入 `MaskRom` 的原理是人为的把 EMMC 的数据脚与地线短接，系统会认为 EMMC 数据出错，从而清除 EMMC 数据。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+
+* 设备断开电源
+* 使用双公头 USB 数据线连接板子的 otg 口和电脑
+* 按住设备上的 Maskrom 按键
+* 设备插入电源
+* 稍候几秒，之后松开按键
+
+<center>
+
+<img alt="" src="../../../rk3562_img/iCore-3562JQ/maskrom_test_points.jpg" width="700">
+</center>
+
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+
+<img alt="" src="../../../rk3562_img/maskrom_zh.png" width="700">
+</center>
 ## 烧写固件
 
 ### windows操作系统
@@ -162,7 +186,7 @@ sudo upgrade_tool ul bootloader.bin # 烧写 bootloader
 ## 常见问题
 ### 1. 如何强行进入 MaskRom 模式
 
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom模式》](04-maskrom_mode.md)。
+如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见上文「MaskRom模式」章节。
 
 
 ### 2. 烧写失败分析

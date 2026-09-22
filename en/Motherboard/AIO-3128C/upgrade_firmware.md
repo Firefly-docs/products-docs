@@ -1,5 +1,40 @@
 # Firmware upgrade
 
+### MaskRom Mode
+
+MaskRom mode is the bottom line preventing the device from bricking. Enforcing device into MaskRom mode involves hardware operation, which is risky. Therefore, please try to put the device into Loader mode, or boot the device with sd-card, before risking MaskRom mode.    	
+**<font color=#ff0000 size=3>Please read and operate with great care!</font>**
+
+## AIO-3128C enter MaskRom mode
+
+principle：  
+Artificial to the Flash data pin connected to ground, the system will think Flash data error, so clearing the Flash data.
+
+1. Power down the device.
+2. Plug out SD card.
+3. Use a Dual male USB data cable to connnect device and host pc.
+4. Use metal tweezers to turn on the two test points shown on the red board on the core board as shown below.
+5. Power on the board.
+6. Wait a moment, then release the metal tweezers.
+
+Older version (V1.1):
+<center>
+
+<img alt="" src="../../../rk3128_img/AIO-3128C/maskrom1.png" width="700">
+</center>
+
+New version (V1.2):
+<center>
+
+<img alt="" src="../../../rk3128_img/AIO-3128C/maskrom2.png" width="700">
+</center>
+
+Device should enter MaskRom mode:
+
+<center>
+
+<img alt="" src="../../../rk3128_img/AIO-3128C/win_3128_tool_maskrom.png" width="700">
+</center>
 ## Introduction
 
 This page describes how to flash the image file from the host to the development board's flash memory, via the Dual male USB data cable.  
@@ -217,4 +252,4 @@ See the example above, which is really handy to flash multiple images then reboo
 
 ### How to enter MaskRom mode
 
-If the board cannot enter Loader mode, the SD card fails to start, and you can try to enter MaskRom mode. Please refer to [《How to enter MaskRom mode》](maskrom_mode.md)。
+If the board cannot enter Loader mode, the SD card fails to start, and you can try to enter MaskRom mode. See the "MaskRom Mode" section above.

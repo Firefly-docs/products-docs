@@ -1,4 +1,12 @@
-# EC-R3588RT_2G5
-- [Product introduction](started.md)
-- [Product parameters](product_parameters.md)
-- [Product resources](product_resources.md)
+# Product Introduction
+- [Introduction](started.md)
+# Upgrade Firmware
+- [USB Upgrade Firmware](upgrade_firmware.md)
+- [SD Card Upgrade Firmware](upgrade_firmware_sd.md)
+- [FAQ](upgrade_faq.md)
+# Development Guide
+- [Android Development](https://community.t-firefly.com/en/docs/software/os-guide/Android)
+- [Ubuntu-Debian Development](https://community.t-firefly.com/en/docs/software/os-guide/Ubuntu-Debian)
+- [Hardware Function Usage](hardware_usage.md)
+# AI
+- [NPU Usage](usage_npu.md)

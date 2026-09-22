@@ -1,5 +1,7 @@
 # Introduction
 
+[Specification]() | [Purchase](https://www.firefly.store/products/core-3566jd4-aio-3566jd4-quad-core-64-bit-ai-core-board) | [Downloads](https://community.t-firefly.com/en/doc/download/)
+
 Core-3566JD4 equipped with Rockchip quad-core processor RK3566 which is configured with dual-core GPU and high-performance NPU, supporting up to 8G RAM. It supports onboard M.2 , WiFi 2.4G/5G and 4G mobile network . Providing various interfaces, the mainboard is suitable for scenarios such as smart NVR, cloud terminal, IoT gateway and industrial control,Detailed information can be found in the [Interface Definition](interface_definition.md) and [Hardware DOC](hardware_doc.md).
 
 <center>

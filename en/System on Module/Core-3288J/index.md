@@ -3,7 +3,6 @@
 - [Serial debug](debug.md)
 # Upgrade Firmware
 - [Boot mode description](bootmode.md)
-- [MaskRom mode](maskrom_mode.md)
 - [Upgrade the firmware](upgrade_firmware.md)
 - [Instruction of upgrade](upgrade_table.md)
 - [Upgrade to SD card](upgrade_firmware_sd.md)

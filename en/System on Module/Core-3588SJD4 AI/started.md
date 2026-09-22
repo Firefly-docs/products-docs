@@ -29,4 +29,3 @@ In addition, you may need the following accessories during use:
 * Firmware upgrade and debugging
     * Usb cable
     * Serial port to serial adapter
- <a id="firmware-format"></a>

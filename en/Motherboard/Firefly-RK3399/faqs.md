@@ -45,7 +45,7 @@ Firefly-RK3399 The default recording input source is an onboard microphone `Buil
 
 ## How to forcefully enter MaskRom mode
 
-If the board cannot enter the Loader mode, you can try to enter the MaskRom mode forcibly. Please refer to ["MaskRom mode"] (04-maskrom_mode.md) for the operation method.
+If the board cannot enter the Loader mode, you can try to enter the MaskRom mode forcibly. Please refer to ["MaskRom mode"](03-upgrade_firmware.md) for the operation method.
 
 ## PCIE
 * What is the difference between the two PCIEs on the development board?

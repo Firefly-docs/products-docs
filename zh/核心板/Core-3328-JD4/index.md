@@ -3,7 +3,6 @@
 - [串口调试](debug.md)
 # 升级固件
 - [启动模式说明](01-bootmode.md)
-- [MaskRom模式](04-maskrom_mode.md)
 - [烧写须知(重要)](02-upgrade_table.md)
 - [升级固件](03-upgrade_firmware.md)
 # Linux开发

@@ -1,4 +1,6 @@
 # Introduction
+
+[Specification]() | [Purchase]() | [Downloads](https://community.t-firefly.com/en/doc/download/)
 [iCore-3568JQ]() Onboard RK3568J quad-core 64-bit industrial grade processor, supporting 8GB large memory; Support WiFi6, 5G/4G and other high-speed wireless network communication; BTB interface is adopted, with stronger transmission capacity;
 Industrial-grade stability, stable operation at -40°C to 85°C for a long time; Provide motherboard reference design materials, users can customize independently 
 

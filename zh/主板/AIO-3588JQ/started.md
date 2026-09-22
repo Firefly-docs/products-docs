@@ -41,4 +41,3 @@
 *    升级固件，调试
      *   Type-C 数据线
      *   串口转 USB 适配器
- <a id="firmware-format"></a>

@@ -140,8 +140,43 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom mode
 
-To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode.md).
+`MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try `MaskRom` mode.
 
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+1. Disconnect the device from the power supply.
+2. Connect one end of the Type-C data cable to the host computer and the other end to the development board.
+3. Press and hold the MASKROM button on the baseboard.
+4. Connect the device to the power supply.
+
+<center>
+
+<img alt="" src="../../../rv1126b_img/AIO-1126BQ38/upgrade_maskrom_key.png" width="800">
+</center>
+
+
+
+
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rv1126b_img/common/upgrade_maskrom_zh.png" width="800">
+</center>
+
+Note: If the Windows PC programming tool still doesn't detect the MASKROM device after following the above steps, check if the Windows PC software driver is installed to the latest version.
+
+Click: [Driver Download](https://community.t-firefly.com/en/doc/download/367)
+
+First, click 1 to uninstall the driver, then click 2 to install the driver. After installing the driver, follow the steps above in sequence. The Windows PC programming tool should then be able to recognize the MASKROM device.
+
+<center>
+
+![](../../../rv1126b_img/common/DriverAssitant.png)
+</center>
 ## Upgrade the firmware
 ### Windows Operating System
 #### Upgrade unified firmware - update.img
@@ -293,7 +328,7 @@ sudo fastboot reboot # After the burn is successful, restart
 
 ### 1. How to forcibly enter MaskRom mode
 
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode.md).
+**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See the "MaskRom Mode" section above.
 
 
 ### 2. Analysis of programming failure

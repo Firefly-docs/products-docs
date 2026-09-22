@@ -120,8 +120,33 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 ```
 
 ### MaskRom模式
-进入MaskRom模式的方法，请参考[《MaskRom模式》](04-maskrom_mode.md)
 
+`MaskRom` 模式是设备变砖的最后一条防线。强行进入 `MaskRom` 涉及硬件操作，有一定风险，因此仅在设备进入不了 `Loader` 模式的情况下，方可尝试 `MaskRom` 模式。进入 `MaskRom` 的原理是人为的把 EMMC 的数据脚与地线短接，系统会认为 EMMC 数据出错，从而清除 EMMC 数据。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+
+1. 设备断开所有电源。
+1. 拔出 SD 卡。
+1. 用Type-C 数据线连接好设备和主机。
+1. 用金属镊子接通ROC-RK3308B-CC-PLUS上的如下图所示的两个测试点并保持(如下图所示)。
+1. 设备插入电源。
+1. 稍候片刻，之后松开镊子。
+
+
+<center>
+
+<img alt="" src="../../../rk3308_img/ROC-RK3308B-CC-PLUS/maskrom_test_points.png" width="700">
+</center>
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+
+<img alt="" src="../../../rk3308_img/maskrom_zh.png" width="700">
+</center>
 
 ## 烧写固件
 ### windows操作系统
@@ -183,21 +208,6 @@ sudo upgrade_tool di -dtbo /path/to/dtbo.img
 sudo upgrade_tool di -p paramater   #烧写 parameter
 sudo upgrade_tool ul bootloader.bin # 烧写 bootloader
 ```
-
-
-## 常见问题
-### 1. 如何强行进入 MaskRom 模式
-
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 模式。操作方法见[《MaskRom模式》](04-maskrom_mode.md)。
-
-
-### 2. 烧写失败分析
-
-如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
-<center>
-
-<img alt="" src="../../../rk3308_img/upgrade_downloadfail.png" width="800">
-</center>
 
 
 

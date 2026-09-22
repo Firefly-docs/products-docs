@@ -43,7 +43,7 @@
 
 <center>
 
-![](../../../rk356x_img/upgrade_firmware_install_RK_USB.jpg)
+![](../../../rk356x_img/upgrade_firmware_install_RK_USB.png)
 </center>
 
 ### 连接设备
@@ -60,7 +60,7 @@
 
 <center>
 
-<img alt="" src="../../../rk356x_img/upgrade_firmware_new_equipment.jpg" width="800">
+<img alt="" src="../../../rk356x_img/upgrade_firmware_new_equipment.png" width="800">
 </center>
 
 ## 烧写固件
@@ -69,7 +69,7 @@
 
 <center>
 
-<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool.jpg" width="800">
+<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 ### 烧写统一固件 update.img
@@ -85,7 +85,7 @@
 
 <center>
 
-<img alt="" src="../../../rk356x_img/upgrade_firmware_erase_flash.jpg" width="800">
+<img alt="" src="../../../rk356x_img/Loader_EraseFlash.png" width="800">
 </center>
 
 ### 烧写分区映像
@@ -99,7 +99,7 @@
 
 <center>
 
-<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool.jpg" width="800">
+<img alt="" src="../../../rk356x_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 
@@ -107,7 +107,7 @@
 
 ### 1. 如何强行进入 MaskRom 升级模式
 
-如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 升级模式。操作方法见[《MaskRom模式》](04-maskrom_mode.md)。
+如果板子进入不了 Loader 模式，此时可以尝试强行进入 MaskRom 升级模式。操作方法见上文「MaskRom模式」章节。
 
 
 ### 2. 烧写失败分析
@@ -115,6 +115,6 @@
 如果烧写过程中出现Download Boot Fail, 或者烧写过程中出错，如下图所示，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 <center>
 
-<img alt="" src="../../../rk356x_img/upgrade_downloadfail.jpg" width="800">
+<img alt="" src="../../../rk356x_img/upgrade_downloadfail.png" width="800">
 </center>
 

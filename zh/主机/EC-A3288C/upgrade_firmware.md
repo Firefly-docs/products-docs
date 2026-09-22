@@ -1,0 +1,222 @@
+# 升级固件
+
+### MaskRom模式
+
+***有关启动模式的介绍，请参阅[《启动模式说明》](bootmode.md)一章***
+
+
+`MaskRom` 模式是设备变砖的最后一条防线。强行进入 `MaskRom` 涉及硬件操作，有一定风险，因此仅在设备进入不了 `Loader` 模式的情况下，方可尝试 `MaskRom` 模式。进入 `MaskRom` 的原理是人为的把 Flash 的数据脚与地线短接，系统会认为 Flash 数据出错，从而清除 Flash 数据。
+
+**请小心阅读，并谨慎操作！**
+
+操作步骤如下：
+
+1. 设备断开所有电源。
+1. 拔出 SD 卡。
+1. 用双公头 USB 数据线连接好设备和主机。
+1. 用金属镊子接通EC-A3288C上的如下图所示的两个测试点并保持(如下图所示)。
+1. 设备插入电源。
+1. 稍候片刻，之后松开镊子。
+
+EC-A3288C：
+
+<center>
+
+<img alt="" src="../../../rk3288_img/EC-A3288C/maskrom_test_points.png" width="700">
+</center>
+
+
+此时设备就会进入 MaskRom 模式。
+
+<center>
+
+<img alt="" src="../../../rk3288_img/maskrom.png" width="700">
+</center>
+## 前言
+
+本文介绍了如何将主机上的固件，通过双公头 USB 数据线烧录到 EC-A3288C 开发板的闪存中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
+
+## 准备工作
+
+* EC-A3288C 开发板
+* 固件
+* 主机
+* 良好的双公头 USB 数据线
+
+## 固件文件
+
+固件文件一般有两种：
+
+* 单个统一固件
+
+    统一固件是由分区表、bootloader、uboot、kernel、system 等所有文件打包合并成的单个文件。Firefly 正式发布的固件都是采用统一固件格式，升级统一固件将会更新主板上所有分区的数据和分区表，并且擦除主板上所有数据。
+
+* 多个分区镜像
+
+    即各个功能独立的文件，如分区表、bootloader、kernel 等，在开发阶段生成。独立分区镜像可以只更新指定的分区，而保持其它分区数据不被破坏，在开发过程中会很方便调试。
+
+> 通过统一固件解包/打包工具，可以把统一固件解包为多个分区镜像，也可以将多个分区镜像合并为一个统一固件。
+
+## Windows
+
+* 工具: [Androidtool_xxx(版本号)](https://community.t-firefly.com/doc/download/51)
+
+**<font color=#ff0000 >注意</font>**：不同固件使用的工具版本可能不同,请根据[《烧写须知》]下载对应的版本。
+
+### 安装 RK USB 驱动
+
+下载 [Release_DriverAssistant.zip](https://community.t-firefly.com/doc/download/51)，解压，然后运行里面的 DriverInstall.exe。为了所有设备都使用更新的驱动，请先选择 `驱动卸载`，然后再选择 `驱动安装`。
+
+<center>
+
+![](../../../rk3288_img/upgrade_firmware_install_RK_USB.jpg)
+</center>
+
+### 连接设备
+
+设备进入升级模式的方式如下：
+
+* 一种方法是设备先断开电源适配器和 Micro USB 数据线的连接：
+
+   * USB 一端连接主机，另一端连接开发板
+   * 按住设备上的 RECOVERY （恢复）键并保持
+   * 接上电源
+   * 大约两秒钟后，松开 RECOVERY 键
+
+* 另一种方法，无需断开电源适配器和 Micro USB 数据线的连接：
+
+   * USB 一端连接主机，另一端连接开发板
+   * 按住设备上的 RECOVERY （恢复）键并保持
+   * 短按一下 RESET（复位）键
+   * 大约两秒钟后，松开 RECOVERY 键
+
+EC-A3288C：
+
+<center>
+
+<img alt="" src="../../../rk3288_img/EC-A3288C/download_otg.png" width="700">
+</center>
+
+
+
+主机应该会提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，则需要返回上一步重新安装驱动。
+
+<center>
+
+<img alt="" src="../../../rk3288_img/upgrade_firmware_new_equipment.jpg" width="800">
+</center>
+
+## 烧写固件
+
+下载 [AndroidTool](https://community.t-firefly.com/doc/download/51)，解压，运行 `AndroidTool_Release_vxx` 目录里面的 `AndroidTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
+
+<center>
+
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
+</center>
+
+### 烧写统一固件 update.img
+
+烧写统一固件 update.img 的步骤如下:
+
+1. 切换至 `升级固件` 页。
+2. 按 `固件` 按钮，打开要升级的固件文件。升级工具会显示详细的固件信息。
+3. 按 `升级` 按钮开始升级。
+4. <font color=#ff0000 >如果升级失败，可以尝试先按 `擦除 Flash` 按钮来擦除 Flash，然后再升级。一定要根据[《烧写须知》]进行擦除烧写</font>。
+
+**注意：如果你烧写的固件 loader 版本与原来的机器的不一致，请在升级固件前先执行`擦除 Flash`。**
+
+<center>
+
+<img alt="" src="../../../rk3288_img/upgrade_firmware_erase_flash.jpg" width="800">
+</center>
+
+### 烧写分区映像
+
+每个固件的分区可能不相同，请确保分区的地址信息和 `parameter` 文件保持一致。
+
+烧写分区映像的步骤如下：
+
+1. 切换至 `下载镜像` 页。
+2. 勾选需要烧录的分区，可以多选。
+3. 确保映像文件的路径正确，需要的话，点路径右边的空白表格单元格来重新选择。
+4. 点击 `执行` 按钮开始升级，升级结束后设备会自动重启。
+
+<center>
+
+<img alt="" src="../../../rk3288_img/upgrade_firmware_androidtool.jpg" width="800">
+</center>
+
+## Linux
+
+Linux 下无须安装设备驱动，参照 Windows 章节连接设备则可。
+
+* 工具：[upgrade_tool_xxx(版本号)](https://community.t-firefly.com/doc/download/51)
+
+**<font color=#ff0000 >注意</font>**:不同固件使用的工具版本可能不同，请根据[《烧写须知》]下载对应的版本。
+
+### upgrade_tool
+
+下载 Linux_Upgrade_Tool，并按以下方法安装到系统中，方便调用：
+
+```bash
+unzip Linux_Upgrade_Tool_xxxx.zip
+cd Linux_UpgradeTool_xxxx
+sudo mv upgrade_tool /usr/local/bin
+sudo chown root:root /usr/local/bin/upgrade_tool
+sudo chmod a+x /usr/local/bin/upgrade_tool
+```
+
+烧写统一固件 update.img：
+
+```bash
+sudo upgrade_tool uf update.img
+```
+
+<font color=#ff0000 >如果升级失败，可以尝试先擦除后再升级。一定要根据[《烧写须知》]的表格进行擦除烧写</font>。
+
+```bash
+# 擦除 flash 使用 ef 参数需要指定 loader 文件或者对应的 update.img
+sudo upgrade_tool ef update.img   #update.img：你需要烧写的固件
+# 重新烧写
+sudo upgrade_tool uf update.img
+```
+
+烧写分区镜像：
+
+Linux(MBR)、Android5.1，使用以下方式：
+
+```bash
+sudo upgrade_tool di -b /path/to/boot.img
+sudo upgrade_tool di -k /path/to/kernel.img
+sudo upgrade_tool di -s /path/to/system.img
+sudo upgrade_tool di -r /path/to/recovery.img
+sudo upgrade_tool di -m /path/to/misc.img
+sudo upgrade_tool di -re /path/to/resource.img
+sudo upgrade_tool di -p paramater   #烧写 parameter
+sudo upgrade_tool ul bootloader.bin # 烧写 bootloader
+```
+
+Linux(GPT)，使用以下方式：
+
+```bash
+sudo upgrade_tool ul $LOADER
+sudo upgrade_tool di -p $PARAMETER
+sudo upgrade_tool di -uboot $UBOOT
+sudo upgrade_tool di -trust $TRUST
+sudo upgrade_tool di -boot $BOOT
+sudo upgrade_tool di -recovery $RECOVERY
+sudo upgrade_tool di -misc $MISC
+sudo upgrade_tool di -oem $OEM
+sudo upgrade_tool di -userdata $USERDATA
+sudo upgrade_tool di -rootfs $ROOTFS
+```
+
+如果因 flash 问题导致升级时出错，可以尝试低级格式化、擦除 nand flash：
+
+```bash
+sudo upgrade_tool lf update.img # 低级格式化
+sudo upgrade_tool ef update.img # 擦除
+```
+
+[《烧写须知》]: upgrade_table.md

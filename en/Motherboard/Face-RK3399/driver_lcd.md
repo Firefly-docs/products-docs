@@ -6,7 +6,7 @@ Face-RK3399 supports MIPI screen, The interface corresponds to the position of t
 
 <center>
 
-<img alt="" src="img/mipi.png" width="700">
+<img alt="" src="../../../rk3399_img/Face-RK3399/mipi.png" width="700">
 </center>
 
 ### Configuration

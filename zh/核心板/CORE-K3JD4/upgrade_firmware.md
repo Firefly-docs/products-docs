@@ -102,29 +102,6 @@ fastboot 0
 <img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_zh.png" width="800">
 </center>
 
-#### 烧写分区映像
-
-点击步骤：研发工具 --> 单机烧录 --> 扫描设备 --> 本地文件 --> 选择刷机文件 --> 刷完自启动 --> 配置分区文件 --> 开始刷机。
-
-配置分区文件需要选择分区文件。
-
-1. partition_4M.json 是更新核心板上的 nor flash 。
-2. partition_universal.json 是更新核心板上的 UFS 分区映像。
-
-<center>
-
-<img alt="" src="../../../aibox_img/AIBOX-K3/upgrade_firmware_part_zh.png" width="800">
-</center>
-
-## 常见问题
-
-### 1. 如何强行进入硬件烧录模式
-
-如果板子进入不了 Loader 模式，此时可以尝试强行进入硬件烧录模式。操作方法见[《硬件烧录模式》](upgrade_boot_mode_spacemit.md)。
-
-### 2. 烧写失败分析
-
-如果烧写过程中出错，通常是由于使用的USB线连接不良、劣质线材，或者电脑USB口驱动能力不足导致的，请更换USB线或者电脑USB端口排查。
 
 [Androidtool_xxx(版本号)]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.
 [AndroidTool]: http://www.t-firefly.com/share/index/index/id/2ea171f2235fe841e89734ca5189da8b.html

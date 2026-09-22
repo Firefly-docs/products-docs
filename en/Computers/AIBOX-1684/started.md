@@ -1,57 +1,44 @@
-# First use
+# Introduction
 
-## Power On
+[Specification](https://download.t-firefly.com/Spec/Computers/AIBOX-1684X_AIBOX-1684_Specification_EN.pdf) | [Purchase](https://www.t-firefly.com/products/aibox-1684-computing-box-17-6t-deep-learning-multi-channel-video-decoder-bmnnsdk2-computing-bm1684) | [Downloads](https://community.t-firefly.com/en/doc/download/280)
 
-AIBOX-1684 will turn on automatically when connected to the power supply. If the power supply is connected, please press the power button to turn on the machine.
+The AIBOX-1684 is a high-computing-power AI box equipped with the SOPHON AI computing processor BM1684. It boasts an INT8 computing power of up to 17.6TOPS, supports mainstream programming frameworks, features a comprehensive toolchain for easy usability, and comes with low algorithm migration costs. It is suitable for various AI computing scenarios such as visual computing, edge computing, and general computing services.
 
-## Login Terminal
+<center>
+<img alt="" src="../../../bm1684_img/AIBOX-1684/AIBOX-1684.png" width="600">
+</center>
 
-There are two ways to log in to the AIBOX-1684 terminal. One is to log in through the Type C serial port, and the other is to log in remotely through the network.
+## Interface Description
 
-### Type C Serial Port Login
+**AIBOX-1684** provides rich interfaces, mainly including:
 
-To log in through the Type C serial port, prepare a Type C to USB cable and connect it to the Type C port of AIBOX-1684 and the USB port of the PC.
+- 12V Power interface (5.5*2.5mm)
+- Power button
+- 1000Mbps Ethernet x 2
+- USB 3.0 x 2
+- TF card slot
+- Type C (Debug serial)
 
-Users can use software such as [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html) or minicom to connect to the serial port. The baud rate of the serial port is 115200. The user name and password used to log in to the terminal are both `linaro`.
+<center>
 
-### Network Remote Login
+![](../../../bm1684_img/AIBOX-1684/interface_all_en.png)
+</center>
+## 结构尺寸
 
-Before using the network remote login, check the IP address of AIBOX-1684 ethernet port:
+<center>
 
-Ethernet port 0 (near the USB port) has a dynamic IP address. Log in to the terminal using the Type C serial port and run the `ifconfig` command to check the IP address of ethernet port 0 (eth0).
+<img alt="" src="../../../bm1684_img/AIBOX-1684/size.png" width="800">
+</center>
 
-Ethernet port 1 (near the 12V power port) is set to the static IP `192.168.150.1`, subnet mask `255.255.255.0`. you can set the PC to `192.168.150.2/24` for initial access.
+## Resources and Support
 
-You can easily change the IP address of a PC in the following ways:
+* [Core board Core-1684JD4 Wiki](https://wiki.t-firefly.com/en/Core-1684JD4/): including debug serial port, system firmware and other development materials
+* [Technical Support Forum](https://forum.t-firefly.com/): a communication platform with more than 100,000 enterprise customers and users
 
-- Windows (Open cmd as an administrator and run):
+### Contact
 
-```bash
-netsh int ipv4 set interface "Ethernet" dhcpstaticipcoexistence=enabled
-netsh int ipv4 add address "Ethernet" 192.168.150.2 255.255.255.0
-```
-
-- Linux
-
-```bash
-ifconfig enp4s0:1 192.168.150.2
-```
-
-After confirming the IP address of the ethernet port, if you can successfully `ping` the IP address of the ethernet port on the PC side, then you can use `ssh` to log in, where the port number is 22, and the user name and password are also `linaro`:
-
-```
-# 192.168.150.1 must be replaced with the actual IP address of the ethernet port
-ssh linaro@192.168.150.1
-```
-
-To change the IP address of the network port, see [Network IP configuration](net_ip.md)
-
-## Power Off
-
-Note: Please complete the software/hardware shutdown before disconnecting the power, so as not to damage the file system data.
-
-* Software shutdown: Run `sudo poweroff` in the terminal.
-
-* Hardware shutdown: Press and hold the power button until the indicator light stops flashing.
-
-When the fan stops running and the indicator light is off, AIBOX-1684 is powered off. You can safely disconnect the power supply.
+* Email: sales@t-firefly.com
+* Mobile: (+86) 186 8811 7175
+* Tel: 0760-89881218
+* National Service Hotline: 4001-511-533
+* Address: Room 2101, Hongyu Building, No. 57 Zhongshan 4th Road, East District, Zhongshan City, Guangdong Province

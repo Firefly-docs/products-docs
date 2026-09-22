@@ -286,7 +286,7 @@ Press CTRL-A Z for help on special keys
 [《编译 Linux 根文件系统》]: linux_build_ubuntu_rootfs.md
 [《编译 Linux 固件》]:linux_compile_gpt.md
 [《编译 Android 固件》]:compile_android8.1_firmware.md
-[《MaskRom》]:04-maskrom_mode.md
+[《MaskRom》]:03-upgrade_firmware.md
 [《编译Linux固件(GPT)》]:linux_compile_gpt.md
 [《烧写须知》]: 02-upgrade_table.md
 [《ADB 介绍》]: adb_use.md

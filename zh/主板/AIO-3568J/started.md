@@ -1,4 +1,6 @@
-# 介绍
+# 简介
+
+[规格书]() | [购买链接](https://store.t-firefly.com/goods.php?id=145) | [下载资料](https://community.t-firefly.com/doc/download/)
 [Core-3568J](https://store.t-firefly.com/goods.php?id=145)采用RK3568四核64位Cortex-A55 处理器, 22 nm 先进工艺，主频最高2.0GHz,，集成双核心架构GPU以及高效能NPU；最大支持8G大内存；支持WiFi6，5G/4G等高速无线网络通讯；拥有丰富的
 接口扩展，支持多种视频输入输出接口，可适用于智能NVR、云终端、物联网网关、工业控制等场景
 

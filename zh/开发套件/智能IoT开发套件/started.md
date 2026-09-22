@@ -1,4 +1,6 @@
-# 介绍
+# 简介
+
+[规格书]() | [购买链接](https://store.t-firefly.com/goods.php?id=147) | [下载资料](https://community.t-firefly.com/doc/download/)
 
 ## 简介
 <center>

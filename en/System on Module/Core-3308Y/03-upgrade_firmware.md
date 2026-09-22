@@ -124,6 +124,32 @@ The steps to upgrade the partition image are as follows:
 <img alt="" src="../../../rk3308_img/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
+### MaskRom Mode
+
+`MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try `MaskRom` mode.
+
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+1. Disconnect all power supplies.
+1. Unplug the SD card.
+1. Connect the equipment and host machine with Type-C data cable.
+1. Use metal tweezers to connect and hold the two test points as shown in the following figure on Core-3308Y (as shown in the figure below).
+1. Plug the device into the power supply.
+1. Wait a moment, then loosen the tweezers.
+
+<center>
+
+<img alt="" src="../../../rk3308_img/Core-3308Y/maskrom_test_points.png" width="700">
+</center>
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rk3308_img/maskrom_zh.png" width="700">
+</center>
 ## Linux
 
 There is no need to install device driver under Linux. Please refer to the Windows section to connect the device.
@@ -170,26 +196,6 @@ sudo upgrade_tool di -dtbo /path/to/dtbo.img
 sudo upgrade_tool di -p paramater   #upgrade parameter
 sudo upgrade_tool ul bootloader.bin #upgrade bootloader
 ```
-
-
-
-## FAQs
-
-### 1. How to forcibly enter MaskRom mode
-
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](04-maskrom_mode.md).
-
-
-
-
-### 2. Analysis of programming failure
-
-If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
-
-<center>
-
-<img alt="" src="../../../rk3308_img/upgrade_downloadfail.png" width="800">
-</center>
 
 
 [烧写须知]: 02-upgrade_table.md

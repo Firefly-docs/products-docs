@@ -139,8 +139,32 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom mode
 
-To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode.md).
+`MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try `MaskRom` mode.
 
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+1. Disconnect the power supply of the device
+2. Use tweezers to short the two test points on Core-1126-JD4 (both as shown in the figure below)
+3. Plug the device into the power supply and power it on
+
+* The following are the two test points on Core-1126-JD4
+<center>
+
+<img alt="" src="../../../rv1126_img/Core-1126-JD4/upgrade_maskrom_test_points_core.png" width="800">
+</center>
+
+
+
+
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rv1126_img/common/upgrade_maskrom_zh.png" width="800">
+</center>
 ## Upgrade the firmware
 ### Windows Operating System
 #### Upgrade unified firmware - update.img
@@ -297,7 +321,7 @@ sudo fastboot reboot # After the burn is successful, restart
 
 ### 1. How to forcibly enter MaskRom mode
 
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode.md).
+**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See the "MaskRom Mode" section above.
 
 
 ### 2. Analysis of programming failure

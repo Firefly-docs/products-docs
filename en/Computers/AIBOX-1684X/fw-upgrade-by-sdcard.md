@@ -26,7 +26,5 @@ If the system firmware is damaged due to improper operations or the system firmw
 
 Precautions:
 
-- If the TF card exceeds 32GB, it may not be formatted into FAT32 format due to the limitation of Windows system, so it is best to choose a TF card with a size below 32GB.
-- The upgrade time is a bit long, about six minutes, please be patient.
 
 [Download Center]: https://community.t-firefly.com/en/doc/download/248

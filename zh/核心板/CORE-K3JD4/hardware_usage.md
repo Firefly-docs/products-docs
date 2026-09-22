@@ -1,10 +1,16 @@
 # 硬件功能使用
 
+## 调试串口
+
+AIBOX-K3 板载 Type-C Console 调试串口，无需外接串口模块，使用 Type-C 数据线连接主机与 PC 即可进行串口调试。
+
+调试串口的连接方式与使用方法详见：[调试串口](debug.md)。
+
 ## 登录
 
-AIBOX-K3 登录方式有两种，一种是通过 Console 串口进行终端登录，一种是通过 HDMI 登录。
+AIBOX-K3 登录方式有两种，一种是通过 Console（调试串口）进行终端登录，一种是通过 HDMI 登录。
 
-### Console 登录
+### Console 登录（调试串口）
 Type-C 线接入 Console 口，登录账号为`root`，默认没有设置`root`密码。<br>
 使用以下串口参数：
 * 波特率：115200
@@ -12,6 +18,11 @@ Type-C 线接入 Console 口，登录账号为`root`，默认没有设置`root`�
 * 停止位：1
 * 奇偶校验：无
 * 流控：无
+
+<center>
+
+<img alt="" src="../../../aibox_img/AIBOX-3588S/AIBOX-3588S-console.png" width="400">
+</center>
 
 ### HDMI 登录
 在界面登录的时候，自动登录`firefly`用户，`firefly` 用户密码也为`firefly`。

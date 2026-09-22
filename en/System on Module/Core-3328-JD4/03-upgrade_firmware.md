@@ -183,7 +183,7 @@ upgrade_tool ef update.img # erase flash
 ```
 ## FAQS
 ### How to enter MaskRom mode
-If Loader mode is unavailable, force the device into MaskRom mode as described in [MaskRom mode](04-maskrom_mode.md).
+If Loader mode is unavailable, force the device into MaskRom mode as described in [MaskRom mode](03-upgrade_firmware.md).
 
 [Getting Started]: started.md
 [FAQ]: faqs.md
@@ -194,7 +194,7 @@ If Loader mode is unavailable, force the device into MaskRom mode as described i
 [RK Firmware]: 02-upgrade_table.md#rk-firmware-format
 [Compile Linux Firmware]:linux_compile_gpt.md
 [Compile Android Firmware]:compile_android8.1_firmware.md
-[MaskRom]:04-maskrom_mode.md
+[MaskRom]:03-upgrade_firmware.md
 [Flashing Notes]:02-upgrade_table.md
 [Boot Mode]:01-bootmode.md
 [ROC-RK3328-PC]: http://en.t-firefly.com/product/rocrk3328pc.html "ROC-RK3328-PC Official Website"

@@ -1,5 +1,3 @@
-# AIO-186JD4
-- [Preface](preface.md)
 # Getting Started Tutorial
 - [First Use](started.md)
 - [Serial port debugging](debug.md)

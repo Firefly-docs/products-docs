@@ -6,7 +6,7 @@
 
 <center>
 
-<img alt="" src="img/AIO-1126BJD4V0/usage_camera_mipicsi.jpg" width="800">
+<img alt="" src="../../../rv1126b_img/AIO-1126BJD4V0/usage_camera_mipicsi.jpg" width="800">
 </center>
 
 

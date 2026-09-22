@@ -2,16 +2,66 @@
 
 ## Login
 
-There are two ways to login to AIBOX-3576, one is via Console (Debug serial), the other is via HDMI.
+There are two ways to log in to the AIBOX-3576: one is terminal login through the Console (Debug Serial), and the other is login through HDMI.
 
-### Console Login
-Type-C Connects to the Console port. The login account is `root`. By default, the `root password` is not set.<br>
+### Console Login (Debug Serial)
+Connect the Type-C cable to the Console port. The login account is `root`, and no `root` password is set by default.<br>
 Use the following serial port parameters:
 * Baud rate: 115200
-* Data bit: 8
-* Stop bit: 1
+* Data bits: 8
+* Stop bits: 1
 * Parity check: None
 * Flow control: None
+
+<center>
+
+<img alt="" src="../../../aibox_img/AIBOX-3588S/AIBOX-3588S-console.png" width="400">
+</center>
+
+#### Serial Debugging on Windows
+
+After connecting the board to the computer with a Type-C cable, the system will prompt that new hardware is found and complete the initialization. Then you can find the corresponding COM port in Device Manager:
+
+<center>
+
+<img alt="" src="../../../modules_img/TypeC-Serial-Debug/debug_find_com.png" width="800">
+</center>
+
+On Windows, putty or SecureCRT is generally used. Here we recommend the free version of MobaXterm, which is a powerful terminal software. Other serial port software is used in a similar way.
+
+1. Select `Serial` as the `session` type.
+2. Set the `Serial port` to the COM port found in Device Manager.
+3. Set `Speed (bsp)` to `115200`.
+4. Click the `OK` button.
+
+<center>
+
+<img alt="" src="../../../modules_img/TypeC-Serial-Debug/debug_set_MobaXterm1.png" width="800">
+</center>
+
+
+<center>
+
+<img alt="" src="../../../modules_img/TypeC-Serial-Debug/debug_set_MobaXterm2.png" width="800">
+</center>
+
+#### Serial Debugging on Ubuntu
+
+Install minicom:
+
+```
+sudo apt-get install minicom
+```
+
+Use `minicom -s` to open the configuration interface, enter `Serial port setup`, and set the serial port parameters to `115200 8N1`:
+
+* `E - Bps/Par/Bits`: `115200 8N1`
+* `F - Hardware Flow Control`: `No`
+* `G - Software Flow Control`: `No`
+
+**Note:** Both `Hardware Flow Control` and `Software Flow Control` must be set to No, otherwise input may become impossible.
+
+After the configuration is completed, select `Save setup as dfl` to save it as the default configuration. After exiting, minicom will connect to the debug serial port at 115200-8-N-1. Log in with the `root` account (no password is set by default).
 
 ### HDMI Login
 When logging in via the HDMI, it automatically logs in as the user `firefly`, with the password also being `firefly`.

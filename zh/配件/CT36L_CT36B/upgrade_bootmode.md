@@ -51,4 +51,4 @@ Normal 模式就是正常的启动过程，各个组件依次加载，正常进�
 
 MaskRom 模式用于固件烧写。
 
-***要强行进入 `MaskRom 模式`，请参阅[《MaskRom模式》](upgrade_maskrom_mode.md)一章。***
+***要强行进入 `MaskRom 模式`，请参阅[《升级固件》](upgrade_firmware.md)一章。***

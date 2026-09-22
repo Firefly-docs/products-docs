@@ -127,7 +127,21 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom mode
 
-To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode_rockchip.md).
+`MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the Loader mode, can try `MaskRom` mode.
+
+***The steps are as follows:***
+
+You can press the maskrom button and then power on.
+
+<center>
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/maskrom.png" width="700">
+</center>
+
+The device will then enter MaskRom mode.
+
+<center>
+<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/upgrade_maskrom_zh.png" width="800">
+</center>
 
 ## Upgrade the firmware
 ### Windows Operating System
@@ -158,7 +172,6 @@ The steps to upgrade the partition image are as follows:
 <center>
 <img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
-
 
 ### Linux Operating System
 #### Upgrade unified firmware - update.img
@@ -195,17 +208,4 @@ If the upgrade fails due to flash problems, you can try low-level formatting and
 sudo upgrade_tool lf update.img	# low-level formatting
 sudo upgrade_tool ef update.img	# erase
 ```
-## FAQs
 
-### 1. How to forcibly enter MaskRom mode
-
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode_rockchip.md).
-
-
-### 2. Analysis of programming failure
-
-If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
-
-<center>
-<img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/upgrade_firmware_download_fail.png" width="800">
-</center>

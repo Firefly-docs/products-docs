@@ -6,7 +6,6 @@
 # Upgrade Firmware
 - [Introduction to updating firmware](01-bootmode.md)
 - [Upgrade the firmware via USB cable](03-upgrade_firmware.md)
-- [MaskRom mode](04-maskrom_mode.md)
 - [Switching Upgrade Storage](03-upgrade_firmware_with_flash.md)
 - [Upgrade the firmware via SD card](05-upgrade_firmware_sd.md)
 # Linux

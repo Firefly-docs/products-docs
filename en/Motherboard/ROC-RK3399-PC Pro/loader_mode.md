@@ -130,7 +130,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom mode
 
-To enter MaskRom mode, please refer to [MaskRom mode](04-maskrom_mode.html).
+To enter MaskRom mode, please refer to [MaskRom mode](04-03-upgrade_firmware.html).
 
 ## Upgrade the firmware
 ### Windows Operating System
@@ -151,30 +151,6 @@ The steps to update the unified firmware `update.img` are as follows:
 <img alt="" src="../../../rk3399_img/upgrade_firmware_erase_flash.jpg" width="800">
 </center>
 
-#### Upgrade Partition image
-
-Each firmware partition may be different, please note the following some points:
-
-1. When upgrading `ubuntu(MBR)` and `Android7.1` firmware with `Androidtool_2.38`, the default configuration can be used.
-2. When upgrading `ubuntu(GPT)` with `Androidtool_2.58`, the default configuration can be used. Please first perform the following actions to upgrade `Android8.1` firmware:<br />
-<font color=#ff0000 >Switch to `Download Image` page; Right click on the table and select `import configuration`; Select the `rk3399-Android81.cfg`.</font><br />       
-3. When upgrading `Android9.0` and `Android10.0` firmware with `Androidtool_2.71`, the default configuration can be used.
-
-The steps to upgrade the partition image are as follows:
-
-1. Switch to the `Download Image` page.
-
-2. Check the partition to be burned, and select multiple.
-
-3. Make sure the Path to the image file is correct. The path to the image file can be re-selected by clicking on the blank cell in the column to the right of `Path`.
-
-4. Click `Run` button to start the upgrade, and the device will restart automatically after the upgrade.
-
-<center>
-
-<img alt="" src="../../../rk3399_img/upgrade_firmware_androidtool.jpg" width="800">
-</center>
-
 
 ### Linux Operating System
 #### Upgrade unified firmware - update.img
@@ -192,67 +168,3 @@ sudo upgrade_tool ef update.img
 # upgrade again
 sudo upgrade_tool uf update.img
 ```
-
-#### Upgrade Partition image
-
-Android7.1, Android8.1 use the following methods:
-```
-sudo upgrade_tool di -b boot.img
-sudo upgrade_tool di -k kernel.img
-sudo upgrade_tool di -s system.img                                                                                                                                      
-sudo upgrade_tool di -r recovery.img
-sudo upgrade_tool di -m misc.img
-sudo upgrade_tool di -re resource.img
-sudo upgrade_tool di -p paramater
-sudo upgrade_tool ul bootloader.bin
-```
-
-Android9.0、Android10.0 use the following way:
-```
-sudo upgrade_tool di -b boot.img
-sudo upgrade_tool di -dtbo dtbo.img
-sudo upgrade_tool di -misc misc.img
-sudo upgrade_tool di -parameter parameter.txt
-sudo upgrade_tool di -r recovery.img
-sudo upgrade_tool di -super super.img
-sudo upgrade_tool di -trust trust.img
-sudo upgrade_tool di -uboot uboot.img
-sudo upgrade_tool di -vbmeta vbmeta.img
-```
-
-Ubuntu (GPT) uses the following methods:
-```
-sudo upgrade_tool ul $LOADER
-sudo upgrade_tool di -p $PARAMETER
-sudo upgrade_tool di -uboot $UBOOT
-sudo upgrade_tool di -trust $TRUST
-sudo upgrade_tool di -boot $BOOT
-sudo upgrade_tool di -recovery $RECOVERY
-sudo upgrade_tool di -misc $MISC
-sudo upgrade_tool di -oem $OEM
-sudo upgrade_tool di -userdata $USERDATA
-sudo upgrade_tool di -rootfs $ROOTFS
-```
-
-If the upgrade fails due to flash problems, you can try low-level formatting and erase nand flash:
-
-```
-sudo upgrade_tool lf update.img # low-level formatting
-sudo upgrade_tool ef update.img # erase
-```
-
-## FAQs
-
-### 1. How to forcibly enter MaskRom mode
-
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](04-maskrom_mode.md).
-
-
-### 2. Analysis of programming failure
-
-If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
-
-<center>
-
-<img alt="" src="../../../rk3399_img/upgrade_downloadfail.jpg" width="800">
-</center>

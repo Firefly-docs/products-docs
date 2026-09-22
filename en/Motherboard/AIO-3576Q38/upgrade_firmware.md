@@ -144,7 +144,27 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### MaskRom mode
 
-To enter MaskRom mode, please refer to [MaskRom mode](upgrade_maskrom_mode.md).
+To enter MaskRom mode, `MaskRom` pattern is the last line of defense equipment burn out. Forced entry `MaskRom` involved hardware operation, have certain risk, so only in the equipment into the `Loader` mode, can try `MaskRom` mode.
+
+**Please read carefully and operate carefully!**
+
+The operation steps are as follows:
+
+Disconnect the power, press and hold Maskrom button, plug in the power, release button after few seconds.
+
+<center>
+
+<img alt="" src="../../../rk3576_img/AIO-3576Q38/upgrade_maskrom_key.jpg" width="800">
+</center>
+
+
+At this point, the device should go into `MaskRom mode`.
+
+<center>
+
+<img alt="" src="../../../rk3576_img/common/upgrade_maskrom_zh.png" width="800">
+</center>
+
 
 ## Upgrade the firmware
 ### Windows Operating System
@@ -160,22 +180,6 @@ The steps to update the unified firmware `update.img` are as follows:
 <center>
 
 <img alt="" src="../../../rk3576_img/common/upgrade_firmware_erase_flash_zh.png" width="800">
-</center>
-
-#### Upgrade Partition image
-
-The steps to upgrade the partition image are as follows:
-1. Switch to the `Download Image` page.
-
-2. Check the partition to be burned, and select multiple.
-
-3. Make sure the path of the image file is correct. If necessary, click the blank table cell on the right side of the path to select it again.
-
-4. Click `Run` button to start the upgrade, and the device will restart automatically after the upgrade.
-
-<center>
-
-<img alt="" src="../../../rk3576_img/common/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 
@@ -195,48 +199,3 @@ sudo upgrade_tool ef update.img
 # upgrade again
 sudo upgrade_tool uf update.img
 ```
-
-#### Upgrade Partition image
-
-```
-sudo upgrade_tool di -b /path/to/boot.img
-sudo upgrade_tool di -r /path/to/recovery.img
-sudo upgrade_tool di -m /path/to/misc.img
-sudo upgrade_tool di -u /path/to/uboot.img
-sudo upgrade_tool di -dtbo /path/to/dtbo.img
-sudo upgrade_tool di -p paramater   #upgrade parameter
-sudo upgrade_tool ul bootloader.bin #upgrade bootloader
-```
-
-If the upgrade fails due to flash problems, you can try low-level formatting and erase nand flash:
-
-```
-sudo upgrade_tool lf update.img	# low-level formatting
-sudo upgrade_tool ef update.img	# erase
-```
-
-fastboot Burn dynamic partitions:
-
-```
-adb reboot fastboot # enter bootloader
-sudo fastboot flash vendor vendor.img
-sudo fastboot flash system system.img
-sudo fastboot reboot # After the burn is successful, restart
-```
-
-
-## FAQs
-
-### 1. How to forcibly enter MaskRom mode
-
-**A1 :** If the board does not enter Loader mode, you can try to force your way into MaskRom mode. See operation method ["How to enter MaskRom mode"](upgrade_maskrom_mode.md).
-
-
-### 2. Analysis of programming failure
-
-If Download Boot Fail occurs during the programming process, or an error occurs during the programming process, as shown in the figure below, it is usually caused by the poor connection of the USB cable, the inferior cable, or the insufficient drive capability of the USB port of the computer. Troubleshoot the computer USB port.
-
-<center>
-
-<img alt="" src="../../../rk3576_img/common/upgrade_firmware_download_fail.png" width="800">
-</center>
