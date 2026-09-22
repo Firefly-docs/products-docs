@@ -195,7 +195,7 @@ Recovery 孔位置如下图所示：
 
 <center>
 
-<img alt="" src="../../../rk3588_img/common/upgrade_hole.png" width="200">
+<img alt="" src="../../../rk3588_img/common/upgrade_hole.png" width="150">
 </center>
 
 MaskRom烧写固件前先确定板子ROC-RK3568-PC-SE是否有贴Nor Flash存储器，如下图：

@@ -1,5 +1,7 @@
 # 产品简介
 
+[规格书](https://download.t-firefly.com/Spec/Computers/EC-A3576C_Specification_CN.pdf) | [购买链接](https://item.taobao.com/item.htm?ft=t&id=902727124992) | [下载资料](https://community.t-firefly.com/doc/download/340)
+
 **EC-A3576C** 配置 Rockchip 八核 64 位 AIOT 处理器 RK3576，采用先进工艺制程，高性能低功耗，内置 ARM Mali G52 MC3 GPU，集成 6 TOPS 算力 NPU，支持 Transformer 架构下大模型的私有化部署；支持 4K@120fps 解码 / 4K@60fps 编码，具备强大的 4K@120fps 高清高帧率显示能力，配置工业级全金属外壳，无风扇被动散热，支持外部看门狗，拥有工业级的稳定性，广泛适用于AI本地部署的应用场景。
 
 <center>
@@ -7,21 +9,11 @@
 <img alt="" src="../../../rk3576_img/EC-A3576C/ec-a3576c-front.png" width="700">
 </center>
 
-<center>
-
-<img alt="" src="../../../rk3576_img/EC-A3576C/ec-a3576c-back.png" width="700">
-</center>
-
 # 产品参数
 
 <center>
 
 <img alt="" src="../../../rk3576_img/EC-A3576C/ec-a3576c-io.png" width="700">
-</center>
-
-<center>
-
-<img alt="" src="../../../rk3576_img/EC-A3576C/ec-a3576c-spec-zh.png" width="700">
 </center>
 
 # 产品尺寸
@@ -34,7 +26,6 @@
 # 产品资源
 
 * [开发使用文档](../../主板/AIO-3576C/index.md) 包含固件编译、系统使用、接口使用等教程 (参考 AIO-3576C wiki)
-* [资源下载页面](https://community.t-firefly.com/doc/download/340) 包括固件、文件系统以及各种工具的下载地址
 * [技术交流论坛](http://dev.t-firefly.com/forum.php) 超过 10 万企业客户和用户沟通交流平台
 
 # 技术支持

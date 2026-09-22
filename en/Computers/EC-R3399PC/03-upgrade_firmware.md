@@ -93,7 +93,7 @@ The MaskRom hole position is shown in the figure below:
 
 <center>
 
-<img alt="" src="../../../rk3588_img/common/upgrade_hole.png" width="200">
+<img alt="" src="../../../rk3588_img/common/upgrade_hole.png" width="150">
 </center>
 
 

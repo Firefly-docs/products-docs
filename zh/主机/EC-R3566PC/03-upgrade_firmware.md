@@ -185,7 +185,7 @@ Recovery 孔位置如下图所示：
 
 <center>
 
-<img alt="" src="../../../rk3588_img/common/upgrade_hole.png" width="200">
+<img alt="" src="../../../rk3588_img/common/upgrade_hole.png" width="150">
 </center>
 
 
