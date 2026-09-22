@@ -29,7 +29,7 @@ AIO-1684JD4 consists of Core-1684JD4 + MB-JD4-BM1684, AIO-1684JD4 onboard HDMI, 
 
 <center>
 
-![](../../../bm1684_img/BM1684_parameter.jpg)
+![](../../../bm1684_img/BM1684_parameter.en.jpg)
 </center>
 
 ## Accessories List
@@ -55,7 +55,7 @@ In addition, during use, you may need the following accessories:
 - Shipping list reference
 <center>
 
-<img alt="" src="../../../bm1684_img/AIO-1684JD4/started_components.jpg" width="700">
+<img alt="" src="../../../bm1684_img/AIO-1684JD4/started_components.en.jpg" width="700">
 </center>
 
 

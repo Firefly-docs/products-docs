@@ -12,7 +12,7 @@ Parameters for each RELAY unit:
 
 <center>
 
-![](../../../bm1684_img/AIO-1684XQ/relay_parameter.png)
+![](../../../bm1684_img/AIO-1684XQ/relay_parameter.en.png)
 </center>
 ```
 # RELAY0 Connection State (Connecting both circuits of the relay)

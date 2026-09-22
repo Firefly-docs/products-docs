@@ -29,7 +29,7 @@ The AIO-1684XJD4 Mainboard is comprised of the Core Board AIO-1684XJD4 + Baseboa
 
 <center>
 
-![Specifications](../../../bm1684_img/BM1684X_parameter.jpg)
+![Specifications](../../../bm1684_img/BM1684X_parameter.en.jpg)
 </center>
 
 ## Accessory List
@@ -55,7 +55,7 @@ Additionally, during usage, you might require the following:
 - Reference for the delivered components:
 <center>
 
-<img alt="Component Reference" src="../../../bm1684_img/AIO-1684XJD4/started_components.jpg" width="700">
+<img alt="Component Reference" src="../../../bm1684_img/AIO-1684XJD4/started_components.en.jpg" width="700">
 </center>
 
 ## Power On
