@@ -1,3 +1,4 @@
+
 # Update Firmware
 
 ## Preparation before upgrading
@@ -100,3 +101,4 @@ sudo ./l4t_flash_prerequisites.sh
 Enter these commands in the directory of `fireflyFlash`: `./firefly_flash.sh -d aio-orin`
 
 <font color=red>Notice: After burning, the device must be on the desktop for at least 5 minutes before it can be powered off.</font>
+

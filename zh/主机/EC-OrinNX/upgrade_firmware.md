@@ -1,3 +1,4 @@
+
 # 更新固件
 
 ## 升级前准备
@@ -102,3 +103,4 @@ sudo ./l4t_flash_prerequisites.sh
 在 `fireflyFlash` 目录下，执行命令：  `./firefly_flash.sh -d aio-orin`  
 
 <font color=red>注意：烧录完，设备进入桌面后至少 5 分钟才能断电。</font>
+
