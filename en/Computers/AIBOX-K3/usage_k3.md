@@ -142,18 +142,57 @@ The default username for the firmware is `root`, and the password is `firefly`.
 
 ##### Preparation
 
-Download the root filesystem: [Bianbu Root Filesystem (64-bit)](https://community.t-firefly.com/en/doc/download/376)
+Download the firmware archive and extract it to obtain the rootfs.ext4 root filesystem.
 
-After downloading, extract the filesystem to SDK/buildroot-ext/board/spacemit/k3/ and rename it.
+#### Check SDK Version
 
 ```bash
-7z x Bianbu-Lxqt_rootfs_xxx.7z
-
-# Move the extracted rootfs image to the specified directory in the SDK. The name must be rootfs.ext4.
-mv Bianbu-Lxqt_rootfs_xxx.ext4 /SDK/buildroot-ext/board/spacemit/k3/rootfs.ext4
+$ realpath .repo/manifests/k3_linux6.18_release.xml
 ```
 
+Example output for SDK v1.0.0:
 
+```bash
+$ realpath .repo/manifests/k3_linux6.18_release.xml
+K3_SDK/.repo/manifests/k3/k3_linux6.18_release_20260611_v1.0.0a.xml
+```
+
+Example output for SDK v1.0.9:
+
+```bash
+$ realpath .repo/manifests/k3_linux6.18_release.xml
+K3_SDK/.repo/manifests/k3/k3_linux6.18_release_20261010_v1.0.9a.xml
+```
+
+**Note: The firmware packaging method differs between SDK v1.0.0 and SDK v1.0.9 (or later). It is recommended to update the SDK to the latest version before proceeding with the tutorial.**
+
+* Firmware packaging tutorial for SDK v1.0.0 only
+
+After downloading the firmware archive, extract it and copy the `rootfs.ext4` file from the extracted contents to `SDK/buildroot-ext/board/spacemit/k3/`:
+
+```bash
+# Example: If the firmware filename is Firefly-K3_Bianbu-LXQt_v1.0.9a_261010.zip, adjust the unzip command accordingly.
+unzip Firefly-K3_Bianbu-LXQt_v1.0.9a_261010.zip -d Firefly-K3_Bianbu-LXQt_v1.0.9a_261010
+
+# Copy the extracted rootfs.ext4 to the specified SDK directory. The file must be named `rootfs.ext4`.
+cp Firefly-K3_Bianbu-LXQt_v1.0.9a_261010/rootfs.ext4 /SDK/buildroot-ext/board/spacemit/k3/rootfs.ext4
+```
+
+* Firmware packaging tutorial for SDK V1.0.9 and later versions
+
+```bash
+# Example: If the firmware file is named Firefly-K3_Bianbu-LXQt_v1.0.9a_261010.zip and has been copied to the SDK root directory. Adjust the decompression command according to the actual firmware filename.
+unzip Firefly-K3_Bianbu-LXQt_v1.0.9a_261010.zip -d Firefly-K3_Bianbu-LXQt_v1.0.9a_261010
+
+# Copy the extracted rootfs.ext4 to the directory specified by the SDK
+cd /path/to/sdk
+mkdir -p prebuilt_rootfs
+cp Firefly-K3_Bianbu-LXQt_v1.0.9a_261010/rootfs.ext4 /SDK/prebuilt_rootfs/Bianbu-Lxqt_rootfs.ext4
+cd prebuilt_rootfs/
+ln -sf Bianbu-Lxqt_rootfs.ext4 rootfs.ext4
+```
+
+Note: `rootfs.ext4` must be a symbolic link pointing to the actual filesystem file. The build script uses this `rootfs.ext4` link to determine the target filename and generate the corresponding firmware image.
 
 #### Pre-compilation configuration
 

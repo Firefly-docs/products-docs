@@ -146,20 +146,61 @@ Successfully generated at /firefly-k3/images/Buildroot-firefly-k3-20260508163419
 
 ### 编译 Bianbu 固件
 
-##### 准备工作
+#### 准备工作
 
-下载根文件系统：[Bianbu 根文件系统(64位)](https://community.t-firefly.com/doc/download/376) 
+下载固件压缩包并解压获得 rootfs.ext4 根文件系统。
 
-下载后将文件系统解压到 SDK/buildroot-ext/board/spacemit/k3/ 下，并重命名
+#### 查看 SDK 版本
 
 ```bash
-# 解压
-7z x Bianbu-Lxqt_rootfs_xxx.7z
-
-# 将解压后的 rootfs 镜像移动到 sdk 指定目录。名称需指定为 rootfs.ext4
-mv Bianbu-Lxqt_rootfs_xxx.ext4 /SDK/buildroot-ext/board/spacemit/k3/rootfs.ext4
+$ realpath .repo/manifests/k3_linux6.18_release.xml
 ```
 
+例如 SDK v1.0.0 版本输出信息
+
+```bash
+$ realpath .repo/manifests/k3_linux6.18_release.xml
+K3_SDK/.repo/manifests/k3/k3_linux6.18_release_20260611_v1.0.0a.xml
+```
+
+例如 SDK v1.0.9 版本输出信息
+
+```bash
+$ realpath .repo/manifests/k3_linux6.18_release.xml
+K3_SDK/.repo/manifests/k3/k3_linux6.18_release_20261010_v1.0.9a.xml
+```
+
+**注意：SDK V1.0.0 版本和 SDK 1.0.9 及以上版本进行打包固件的方式不一样。建议更新 SDK 到最新再根据教程进行操作。**
+
+
+
+* 仅 SDK V1.0.0 版本固件打包教程
+
+下载固件压缩包后将固件解压，并拷贝固件内的 rootfs.ext4 文件到 SDK/buildroot-ext/board/spacemit/k3/ 下
+
+```bash
+# 例如固件名称是 Firefly-K3_Bianbu-LXQt_v1.0.9a_261010.zip 。根据固件名称自行调整解压命令
+unzip Firefly-K3_Bianbu-LXQt_v1.0.9a_261010.zip -d Firefly-K3_Bianbu-LXQt_v1.0.9a_261010
+
+# 将固件解压后的 rootfs.ext4 拷贝到 sdk 指定目录。名称需指定为 rootfs.ext4
+cp Firefly-K3_Bianbu-LXQt_v1.0.9a_261010/rootfs.ext4 /SDK/buildroot-ext/board/spacemit/k3/rootfs.ext4
+```
+
+* SDK V1.0.9 及以上版本固件打包教程
+
+```bash
+# 例如固件名称是 Firefly-K3_Bianbu-LXQt_v1.0.9a_261010.zip 并拷贝到 SDK 根目录。根据固件名称自行调整解压命令
+unzip Firefly-K3_Bianbu-LXQt_v1.0.9a_261010.zip -d Firefly-K3_Bianbu-LXQt_v1.0.9a_261010
+
+# 将固件解压后的 rootfs.ext4 拷贝到 sdk 指定目录
+cd /path/to/sdk
+mkdir -p prebuilt_rootfs
+cp Firefly-K3_Bianbu-LXQt_v1.0.9a_261010/rootfs.ext4 /SDK/prebuilt_rootfs/Bianbu-Lxqt_rootfs.ext4
+cd prebuilt_rootfs/
+ln -sf Bianbu-Lxqt_rootfs.ext4 rootfs.ext4
+```
+
+说明：rootfs.ext4 需要链接到实际的文件系统文件。编译脚本会根据 rootfs.ext4 链接到不同的名称，从而生成对应的固件名称。
 
 
 #### 编译前配置
@@ -181,7 +222,7 @@ Your choice (1-5):
 
 
 
-编译过程会使用 /SDK/buildroot-ext/board/spacemit/k3/rootfs.ext4 文件系统来替换 buildroot 的文件系统。
+SDK V1.0.0 版本固件打包说明：编译过程会使用 /SDK/buildroot-ext/board/spacemit/k3/rootfs.ext4 文件系统来替换 buildroot 的文件系统。
 
 
 
