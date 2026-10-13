@@ -7,7 +7,7 @@ AIBOX-9075 KIT is equipped with the Qualcomm IQ-9075 processor, delivering a pea
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/aibox-9075.jpg" width="600">
+<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/aibox-9075-kit.jpg" width="600">
 </center>
 
 ## Interface Description
