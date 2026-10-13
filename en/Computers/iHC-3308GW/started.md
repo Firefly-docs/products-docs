@@ -70,6 +70,5 @@ Dimensions: 99.4 mm × 84 mm × 35.2 mm, operating temperature -10℃~60℃, ope
 * Email: sales@t-firefly.com
 * Mobile: (+86) 186 8811 7175
 * Landline: 0760-89881218
-* National Service Hotline: 4001-511-533
 * Address: Room 2101, Hongyu Building, No. 57 Zhongshan 4th Road, East District, Zhongshan City, Guangdong Province
  <a id="firmware-format"></a>

@@ -42,5 +42,4 @@ The interface layout and product specifications are shown below (the complete in
 * Email: sales@t-firefly.com
 * Mobile: (+86) 186 8811 7175
 * Landline: 0760-89881218
-* Service Hotline: 4001-511-533
 * Address: Room 2101, Hongyu Building, No. 57 Zhongshan 4th Road, East District, Zhongshan City, Guangdong Province

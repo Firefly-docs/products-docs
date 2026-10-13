@@ -54,5 +54,4 @@ EC-Orin Nano is equipped with the official NVIDIA Jetson Orin Nano core board mo
 * Email: sales@t-firefly.com
 * Mobile: (+86) 186 8811 7175
 * Landline: 0760-89881218
-* National Service Hotline: 4001-511-533
 * Address: Room 2101, Hongyu Building, No. 57 Zhongshan 4th Road, East District, Zhongshan City, Guangdong Province
