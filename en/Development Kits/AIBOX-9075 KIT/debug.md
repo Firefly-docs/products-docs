@@ -1,0 +1,32 @@
+# Debug Console
+
+Debug serial port is very useful during debugging and troubleshooting, especially when the GUI is unavailable.
+
+## Connection
+
+Use USB cable to connect the device `Console` port with PC.
+
+<center>
+
+<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/debug_console.jpg" width="800">
+</center>
+
+## Install Driver
+
+The serial-to-USB chip is CH342.
+
+Linux PC don't need to install driver.
+
+Windows PC needs driver, please download `CH343SER.EXE` from [Download Link](https://community.t-firefly.com/en/doc/download/420)
+
+Double click the exe file to install.
+
+## Usage
+
+After driver installation, you will find two serial port "USB-Enhanced-SERIAL-A CH342" and "USB-Enhanced-SERIAL-A CH342" in Windows device manager.
+
+The SERIAL-A is the debug port of main Linux system, and the SERIAL-B is the debug port of RTOS subsystem.
+
+In Linux it will be /dev/ttyUSBX or /dev/ttyACMX, the number X may be different, you can unplug and plug again to find the corresponding device.
+
+Use the serial tool like MobaXterm or Minicom to open the serial device, baudrate is 115200, 8 data bit, 1 stop bit, no parity check.
