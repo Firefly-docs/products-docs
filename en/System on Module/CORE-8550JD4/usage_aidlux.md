@@ -1,4 +1,4 @@
-# AI Tutorial
+# AidLux
 
 QCS8550 has Hexagon Digital Signal Processor (DSP), which contains Neural Processing Unit (NPU) for AI computing.
 
@@ -24,7 +24,7 @@ Otherwise you need to install it.
 
 ## Install Aidlux Web Desktop
 
-Download archive form [here](https://community.t-firefly.com/en/doc/download/356), transfer it to the device, extract and run "setup.sh":
+Download archive form [here](https://community.t-firefly.com/en/doc/download/371), transfer it to the device, extract and run "setup.sh":
 ```bash
 # Extract
 tar -zxf aidlux_docker.tgz

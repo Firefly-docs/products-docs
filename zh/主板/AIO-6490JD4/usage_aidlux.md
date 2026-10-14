@@ -1,4 +1,4 @@
-# AI 教程
+# AidLux
 
 ## AidLux 介绍
 
@@ -64,7 +64,7 @@ pip install extract/tmp/pyaidlitewhl/pyaidlite-2.5.0.284-cp312-none-any.whl
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/check_aid_files.png" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/check_aid_files.png" width="700">
 </center>
 
 ## 模型广场
@@ -108,19 +108,19 @@ python3 python/run_test.py --target_model ../models/QCS6490/W8A8/cutoff_yolov8s_
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/bus_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/bus_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/yolov8s_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/yolov8s_run.jpg" width="700">
 </center>
 
 * 检查生成的结果 code/python/result.jpg
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/yolov8s_result.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/yolov8s_result.jpg" width="700">
 </center>
 
 ### ConvNeXt-Tiny
@@ -146,12 +146,12 @@ python3 python/run_test.py --target_model ../models/QCS6490/W8A16/convnext_tiny_
 ```
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/convnext-tiny_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/convnext-tiny_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/convnext-tiny_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/convnext-tiny_run.jpg" width="700">
 </center>
 
 
@@ -179,19 +179,19 @@ python3 python/run_test.py --target_model ../models/QCS6490/W8A16/depth_anything
 ```
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/depth_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/depth_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/depth_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/depth_run.jpg" width="700">
 </center>
 
 * 检查生成的结果
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/depth_result.png" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/depth_result.png" width="700">
 </center>
 
 ### YOLO11l-Pose
@@ -218,19 +218,19 @@ python3 python/run_test.py --target_model ../models/QCS6490/W8A16/cutoff_yolo11l
 ```
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/yolo11l-pose_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/yolo11l-pose_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/yolo11l-pose_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/yolo11l-pose_run.jpg" width="700">
 </center>
 
 * 检查生成的结果
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/yolo11l-pose_result.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/yolo11l-pose_result.jpg" width="700">
 </center>
 
 ### YOLO11s-obb
@@ -263,19 +263,19 @@ python3 python/run_test.py --target_model ../models/QCS6490/W8A16/cutoff_yolo11s
 ```
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/yolo11s-obb_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/yolo11s-obb_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/yolo11s-obb_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/yolo11s-obb_run.jpg" width="700">
 </center>
 
 * 检查生成的结果
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/yolo11s-obb_result.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/yolo11s-obb_result.jpg" width="700">
 </center>
 
 ## AidGen
@@ -350,7 +350,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/qwen2-0.5b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/qwen2-0.5b_run.jpg" width="700">
 </center>
 
 ### Qwen2.5-0.5B-Instruct
@@ -404,7 +404,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/qwen2.5-0.5b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/qwen2.5-0.5b_run.jpg" width="700">
 </center>
 
 ## AidGenSE
@@ -440,7 +440,7 @@ sudo aidllm stop api
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/aidllm_start_api.png" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/aidllm_start_api.png" width="700">
 </center>
 
 ## AidVoice
@@ -461,7 +461,7 @@ ASR：在Linux 系统中识别音频文件
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/aidvoice-workflow-asr_zh.png" height="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/aidvoice-workflow-asr_zh.png" height="700">
 </center>
 
 * TTS
@@ -470,7 +470,7 @@ TTS：在Linux 系统中文字转语音
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/aidvoice-workflow-tts_zh.png" height="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/aidvoice-workflow-tts_zh.png" height="700">
 </center>
 
 * 例子
@@ -522,5 +522,5 @@ make
 
 <center>
 
-<img alt="" src="../../../qcom_img/Firefly-Q6490A/Whisper-small_result.png" width="700">
+<img alt="" src="../../../qcom_img/AIO-6490JD4/Whisper-small_result.png" width="700">
 </center>

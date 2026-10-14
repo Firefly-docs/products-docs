@@ -1,4 +1,4 @@
-# AI 教程
+# AidLux
 
 EC-A8550JD4 所采用的 QCS8550 处理器拥有 Hexagon 数据处理芯片(DSP)，里面包含用于处理 AI 计算的 NPU。
 

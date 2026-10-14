@@ -5,7 +5,7 @@
 - [Start](start.md)
 - [Debug Console](debug.md)
 # AI Development
-- [AI Tutorial](usage_npu.md)
+- [AidLux](usage_aidlux.md)
 # Functions
 - [Video Usage](usage_video.md)
 - [Audio Usage](usage_audio.md)

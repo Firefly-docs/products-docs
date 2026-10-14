@@ -7,4 +7,5 @@
 - [Linux Development](linux_compile.md)
 - [Hardware Function Usage](hardware_usage.md)
 # AI
-- [AI Tutorial](usage_npu.md)
+- [QAI AppBuilder](usage_qai_appbuilder.md)
+- [AidLux](usage_aidlux.md)

@@ -63,4 +63,4 @@ The default video framework of the AIBOX-9075 is Gstreamer. For the codec capabi
 
 ## NPU (AI)
 
-The IQ-9075 delivers a peak computing power of 200 TOPS and supports private deployment of edge-side large models. For AI development, please refer to [AI Tutorial](usage_npu.md).
+The IQ-9075 delivers a peak computing power of 200 TOPS and supports private deployment of edge-side large models. For AI development, please refer to [AidLux](usage_aidlux.md).

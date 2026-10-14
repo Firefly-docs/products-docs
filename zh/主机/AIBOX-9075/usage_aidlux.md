@@ -1,4 +1,4 @@
-# AI 教程
+# AidLux
 
 ## AidLux 介绍
 
@@ -52,7 +52,7 @@ sudo apt-get install libfmt-dev nlohmann-json3-dev
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/check_aid_files.png" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/check_aid_files.png" width="700">
 </center>
 
 ## 模型广场
@@ -94,19 +94,19 @@ python3 python/run_test.py --target_model ../models/IQ9/FP16/yolov8s_qcs9100_fp1
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/bus_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/bus_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/yolov8s_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/yolov8s_run.jpg" width="700">
 </center>
 
 * 检查生成的结果 python/result.jpg
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/yolov8s_result.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/yolov8s_result.jpg" width="700">
 </center>
 
 ### ControlNet
@@ -132,19 +132,19 @@ python3 python/run_test.py
 ```
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/controlnet_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/controlnet_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/controlnet_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/controlnet_run.jpg" width="700">
 </center>
 
 * 检查生成的结果 python/output.jpg
 
 <center>
 
-![](../../../qcom_img/AIBOX-9075-KIT/controlnet_result.jpg)
+![](../../../qcom_img/AIBOX-9075/controlnet_result.jpg)
 </center>
 
 ### ConvNeXt-Tiny
@@ -169,12 +169,12 @@ python3  python/run_test.py --target_model ../models/QCS8550/FP16/convnext_tiny_
 ```
 <center>
 
-![](../../../qcom_img/AIBOX-9075-KIT/convnext-tiny_input.jpg)
+![](../../../qcom_img/AIBOX-9075/convnext-tiny_input.jpg)
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/convnext-tiny_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/convnext-tiny_run.jpg" width="700">
 </center>
 
 
@@ -202,19 +202,19 @@ python3 run_test.py
 ```
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/depth_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/depth_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/depth_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/depth_run.jpg" width="700">
 </center>
 
 * 检查生成的结果
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/depth_result.png" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/depth_result.png" width="700">
 </center>
 
 ### FastSAM-S
@@ -239,19 +239,19 @@ python3 python/run_test.py --target_model ../models/IQ9/FP16/cutoff_fastsam_s_qc
 ```
 <center>
 
-![](../../../qcom_img/AIBOX-9075-KIT/fastsam_input.jpg)
+![](../../../qcom_img/AIBOX-9075/fastsam_input.jpg)
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/fastsam_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/fastsam_run.jpg" width="700">
 </center>
 
 * 检查生成的结果
 
 <center>
 
-![](../../../qcom_img/AIBOX-9075-KIT/fastsam_result.jpg)
+![](../../../qcom_img/AIBOX-9075/fastsam_result.jpg)
 </center>
 
 ### YOLO11l-Pose
@@ -276,19 +276,19 @@ python3 python/run_test.py --target_model ../models/IQ9/FP16/yolo11l-pose_qcs910
 ```
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/yolo11l-pose_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/yolo11l-pose_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/yolo11l-pose_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/yolo11l-pose_run.jpg" width="700">
 </center>
 
 * 检查生成的结果
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/yolo11l-pose_result.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/yolo11l-pose_result.jpg" width="700">
 </center>
 
 ### YOLO11s-obb
@@ -319,19 +319,19 @@ sudo python3 python/run_test.py --target_model ../models/QCS8550/FP16/yolo11s-ob
 ```
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/yolo11s-obb_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/yolo11s-obb_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/yolo11s-obb_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/yolo11s-obb_run.jpg" width="700">
 </center>
 
 * 检查生成的结果
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/yolo11s-obb_result.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/yolo11s-obb_result.jpg" width="700">
 </center>
 
 ## AidGen
@@ -409,7 +409,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/minicpm5-1b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/minicpm5-1b_run.jpg" width="700">
 </center>
 
 ### Qwen3-8B-CL8192
@@ -481,7 +481,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/qwen3-8b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/qwen3-8b_run.jpg" width="700">
 </center>
 
 ### Meta-Llama-3.1-8B-Instruct
@@ -547,7 +547,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/meta-llama-8b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/meta-llama-8b_run.jpg" width="700">
 </center>
 
 ### Gemma-2-2B-it
@@ -613,7 +613,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/gemma-2-2b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/gemma-2-2b_run.jpg" width="700">
 </center>
 
 ### Falcon3-7B-Instruct
@@ -683,7 +683,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/falcon3-7b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/falcon3-7b_run.jpg" width="700">
 </center>
 
 ### DeepSeek-R1-Distill-Qwen-7B
@@ -749,7 +749,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/deepseek-r1-distill-qwen-7b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/deepseek-r1-distill-qwen-7b_run.jpg" width="700">
 </center>
 
 ### Phi-3.5-mini-instruct
@@ -815,7 +815,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/phi-3.5-mini_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/phi-3.5-mini_run.jpg" width="700">
 </center>
 
 ### HY-MT1.5-1.8B
@@ -900,7 +900,7 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/hy-mt1.5-1.8b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/hy-mt1.5-1.8b_run.jpg" width="700">
 </center>
 
 ### Qwen2.5-VL-3B-Instruct
@@ -996,12 +996,12 @@ cd ../../
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/bus_input.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/bus_input.jpg" width="700">
 </center>
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/qwen2.5-vl-3b_run.jpg" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/qwen2.5-vl-3b_run.jpg" width="700">
 </center>
 
 ## AidGenSE
@@ -1035,7 +1035,7 @@ sudo aidllm stop api
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/aidllm_start_api.png" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/aidllm_start_api.png" width="700">
 </center>
 
 ## AidStream
@@ -1073,7 +1073,7 @@ vim aidstream-gst.conf
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/aidstream_conf.png" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/aidstream_conf.png" width="700">
 </center>
 
 * 演示
@@ -1104,7 +1104,7 @@ ASR：在Linux 系统中识别音频文件
 
 <center>
 
-![](../../../qcom_img/AIBOX-9075-KIT/aidvoice-workflow-asr_zh.png)
+![](../../../qcom_img/AIBOX-9075/aidvoice-workflow-asr_zh.png)
 </center>
 
 * TTS
@@ -1112,7 +1112,7 @@ TTS：在Linux 系统中文字转语音
 
 <center>
 
-![](../../../qcom_img/AIBOX-9075-KIT/aidvoice-workflow-tts_zh.png)
+![](../../../qcom_img/AIBOX-9075/aidvoice-workflow-tts_zh.png)
 </center>
 
 * 例子
@@ -1160,7 +1160,7 @@ make
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/Whisper-small_result.png" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/Whisper-small_result.png" width="700">
 </center>
 
 ### MeloTTS-English（TTS）
@@ -1213,5 +1213,5 @@ make
 
 <center>
 
-<img alt="" src="../../../qcom_img/AIBOX-9075-KIT/MeloTTS-English_result.png" width="700">
+<img alt="" src="../../../qcom_img/AIBOX-9075/MeloTTS-English_result.png" width="700">
 </center>

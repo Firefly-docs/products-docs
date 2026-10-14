@@ -5,7 +5,8 @@
 - [开始使用](start.md)
 - [串口调试](debug.md)
 # AI 开发
-- [AI 教程](usage_npu.md)
+- [QAI AppBuilder](usage_qai_appbuilder.md)
+- [AidLux](usage_aidlux.md)
 # 功能教程
 - [视频教程](usage_video.md)
 - [音频教程](usage_audio.md)

@@ -122,4 +122,4 @@ gst-launch-1.0 videotestsrc ! qtic2venc ! h264parse ! qtmux ! filesink location=
 
 ## NPU（AI）
 
-QCS8550 集成 48 TOPS NPU（Hexagon DSP），AI 部署与开发方法详见[AI 教程](usage_npu.md)。
+QCS8550 集成 48 TOPS NPU（Hexagon DSP），AI 部署与开发方法详见[AidLux](usage_aidlux.md)。

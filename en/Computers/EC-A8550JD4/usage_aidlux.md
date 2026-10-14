@@ -1,4 +1,4 @@
-# AI Tutorial
+# AidLux
 
 The QCS8550 processor of the EC-A8550JD4 has a Hexagon Digital Signal Processor (DSP), which contains the Neural Processing Unit (NPU) for AI computing.
 

@@ -1,4 +1,4 @@
-# AI Tutorial
+# AidLux
 
 QCS8550 has Hexagon Digital Signal Processor (DSP), which contains Neural Processing Unit (NPU) for AI computing.
 

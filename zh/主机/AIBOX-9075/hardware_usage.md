@@ -63,4 +63,4 @@ AIBOX-9075 默认的视频框架为 Gstreamer，编解码能力与播放、编�
 
 ## NPU（AI）
 
-IQ-9075 峰值算力 200 TOPS，支持端侧大模型私有化部署，AI 开发方法详见[AI 教程](usage_npu.md)。
+IQ-9075 峰值算力 200 TOPS，支持端侧大模型私有化部署，AI 开发方法详见[AidLux](usage_aidlux.md)。
