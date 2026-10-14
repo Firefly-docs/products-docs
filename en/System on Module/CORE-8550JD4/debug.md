@@ -37,24 +37,19 @@ Then use USB cable connect the device with PC.
 
 * If you choose 3pin ttl slot
 
-Linux PC don't need to install driver.
-
-Windows PC driver installation is in [Serial Module](usb_to_ttl.md)
+  Linux PC don't need to install driver.  
+  Windows PC driver installation is in [Serial Module](usb_to_ttl.md)
 
 * If you choose Type-C port
 
-The serial-to-USB chip is PL2303GL.
-
-Linux PC don't need to install driver.
-
-Windows PC needs driver, please download `PL23XX-M_LogoDriver_Setup_4500.zip` from [Download Link](https://community.t-firefly.com/en/doc/download/371)
-
-Extract the archive and double click the exe file to install, accept the EULA and always click "next", then click "finish".
+  The serial-to-USB chip is PL2303GL.  
+  Linux PC don't need to install driver.  
+  Windows PC needs driver, please download `PL23XX-M_LogoDriver_Setup_4500.zip` from [Download Link](https://community.t-firefly.com/en/doc/download/371)  
+  Extract the archive and double click the exe file to install, accept the EULA and always click "next", then click "finish".
 
 ## Usage
 
-After driver installation, you will find "Prolific PL2303GL USB Serial COM Port" or "Silicon Labs CP210x USB to UART Bridge" in Windows device manager.
-
+After driver installation, you will find "Prolific PL2303GL USB Serial COM Port" or "Silicon Labs CP210x USB to UART Bridge" in Windows device manager.  
 In Linux it will be /dev/ttyUSBX or /dev/ttyACMX, the number X may be different, you can unplug and plug again to find the corresponding device.
 
 Use the serial tool like MobaXterm or Minicom to open the serial device, baudrate is 115200, 8 data bit, 1 stop bit, no parity check.

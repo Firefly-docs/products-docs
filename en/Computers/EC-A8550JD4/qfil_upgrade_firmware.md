@@ -17,36 +17,30 @@ You can build firmware from SDK, or download from [Resources Download](https://c
 
 * Complete firmware
 
-    Complete firmware is an archive with every part (like parameter, bootloader, kernel, system, etc.) in it. Complete firmware will be an archive contains lots of files. Firmwares released officially by Firefly Team will all be complete firmwares. Download complete firmware to device will erase all data and partitions.
+  Complete firmware is an archive with every part (like parameter, bootloader, kernel, system, etc.) in it. Complete firmware will be an archive contains lots of files. Firmwares released officially by Firefly Team will all be complete firmwares. Download complete firmware to device will erase all data and partitions.
 
 * Partition image
 
-    A partition image only contains the content of a single partition. The most commonly used ones are boot.img and dtbo.img. Download partition images is often used for partial upgrades, functional verification, and comparative analysis. The prerequisite for using partition images is that the device is operating normally. If the device cannot boot up, only the complete firmware can be used.
+  A partition image only contains the content of a single partition. The most commonly used ones are boot.img and dtbo.img. Download partition images is often used for partial upgrades, functional verification, and comparative analysis. The prerequisite for using partition images is that the device is operating normally. If the device cannot boot up, only the complete firmware can be used.
 
 ### Install Tools
 * Install USB drivers
 
-Please download from [USB Driver](https://community.t-firefly.com/en/doc/download/371).
-
-There are two drivers. First install Qualcomm USB Driver, double click the exe file to run, accept the EULA and always click "next", finally click "finish".
-
-Then install Google USB driver, extract `usb_driver_r13-windows.zip`, right click the `android_winusb.inf` and click "install", always click "confirm".
+  Please download from [USB Driver](https://community.t-firefly.com/en/doc/download/371).  
+  There are two drivers. First install Qualcomm USB Driver, double click the exe file to run, accept the EULA and always click "next", finally click "finish".  
+  Then install Google USB driver, extract `usb_driver_r13-windows.zip`, right click the `android_winusb.inf` and click "install", always click "confirm".
 
 * Install QTSP
 
-Please download form [QTSP Tool](https://community.t-firefly.com/en/doc/download/371).
-
-Extract, then double click `QPST.2.7.496.1.exe`, accept the EULA and always click "next", then click "install", finally click "finish".
-
-After installation, the tool we need is C:\Program Files (x86)\Qualcomm\QPST\bin\QFIL.exe
-
-Double click QFIL.exe to open it.
+  Please download form [QTSP Tool](https://community.t-firefly.com/en/doc/download/371).  
+  Extract, then double click `QPST.2.7.496.1.exe`, accept the EULA and always click "next", then click "install", finally click "finish".  
+  After installation, the tool we need is C:\Program Files (x86)\Qualcomm\QPST\bin\QFIL.exe  
+  Double click QFIL.exe to open it.
 
 * Install Android SDK Platform-Tools
 
-Download from [Platform Tools](https://community.t-firefly.com/en/doc/download/371).
-
-Extract it after download, you will find adb.exe and fastboot.exe
+  Download from [Platform Tools](https://community.t-firefly.com/en/doc/download/371).  
+  Extract it after download, you will find adb.exe and fastboot.exe
 
 
 ## Enter EDL (Emergency Download) mode
@@ -56,6 +50,7 @@ Extract it after download, you will find adb.exe and fastboot.exe
 The hardware operation method for the EC-A8550JD4 to enter EDL mode is to be supplemented.
 
 While the device is running normally, it is recommended to use the software way: connect the download port of the device with the PC through the Type-A to Tyep-C USB cable, then run `sudo systemctl reboot edl` on the device terminal or debug console to enter EDL mode.
+
 ### Software Way
 
 While the device is running normally, connect device's download port with PC through Type-A to Tyep-C USB cable, run this command on device terminal or debug console:

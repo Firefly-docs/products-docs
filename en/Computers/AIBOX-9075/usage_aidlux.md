@@ -296,10 +296,10 @@ python3 python/run_test.py --target_model ../models/IQ9/FP16/yolo11l-pose_qcs910
 
 **Key Features**:
 
-- **Anchor-Free Design**: Simplifies the model architecture and speeds up inference;
-- **Orientation-Aware Head**: Predicts rotation angles along with bounding boxes and classes, enabling accurate detection of rotated objects like drones, vehicles, road signs, and text regions;
-- **Lightweight Backbone**: Combines a compact backbone with orientation detection modules to keep parameter count and computation low, allowing near real-time performance;
-- **Wide Applicability**: Ideal for use cases such as drone imagery analysis, industrial part inspection, and map element detection where object orientation matters.
+1. **Anchor-Free Design**: Simplifies the model architecture and speeds up inference;
+2. **Orientation-Aware Head**: Predicts rotation angles along with bounding boxes and classes, enabling accurate detection of rotated objects like drones, vehicles, road signs, and text regions;
+3. **Lightweight Backbone**: Combines a compact backbone with orientation detection modules to keep parameter count and computation low, allowing near real-time performance;
+4. **Wide Applicability**: Ideal for use cases such as drone imagery analysis, industrial part inspection, and map element detection where object orientation matters.
 
 * Use mms command to download YOLO11s-obb model, need Model Farm account.
 
@@ -337,14 +337,10 @@ sudo python3 python/run_test.py --target_model ../models/QCS8550/FP16/yolo11s-ob
 
 ## AidGen
 
-AidGen is a dedicated inference framework for generative Transformer models, built based on AidLite. Its purpose is to fully utilize the various computing units (CPU, GPU, NPU) of the hardware to achieve inference acceleration for large models on the edge side.
+AidGen is a dedicated inference framework for generative Transformer models, built based on AidLite. Its purpose is to fully utilize the various computing units (CPU, GPU, NPU) of the hardware to achieve inference acceleration for large models on the edge side. AidGen offers an atomic-level large model inference interface, which is suitable for developers to integrate large model inference into their own applications.
 
-AidGen offers an atomic-level large model inference interface, which is suitable for developers to integrate large model inference into their own applications.
-
-AidGen supports:
-
-Large Language Model -> AidLLM
-
+AidGen supports:  
+Large Language Model -> AidLLM  
 Multimodal Large Models -> AidMLM
 
 Demos:

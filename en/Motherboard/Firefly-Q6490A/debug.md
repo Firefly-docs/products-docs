@@ -14,14 +14,12 @@ It needs additional usb-to-ttl module, please refer to [Serial Module](usb_to_tt
 
 ## Install Driver
 
-Linux PC don't need to install driver.
-
+Linux PC don't need to install driver.  
 Windows PC driver installation is also described in [Serial Module](usb_to_ttl.md)
 
 ## Usage
 
-After driver installation, you will find "Silicon Labs CP210x USB to UART Bridge" in Windows device manager.
-
+After driver installation, you will find "Silicon Labs CP210x USB to UART Bridge" in Windows device manager.  
 In Linux it will be /dev/ttyUSBX or /dev/ttyACMX, the number X may be different, you can unplug and plug again to find the corresponding device.
 
 Use the serial tool like MobaXterm or Minicom to open the serial device, baudrate is 115200, 8 data bit, 1 stop bit, no parity check.
