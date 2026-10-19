@@ -14,7 +14,8 @@
 - [Watchdog Usage](usage_watchdog.md)
 - [RTC Usage](usage_rtc.md)
 # Linux
-- [Linux Compile](linux_compile.md)
+- [Qualcomm Linux 1.7 Compile](qcom_linux_1.7_compile.md)
+- [Linux Application Compile](linux_compile.md)
 # Android
 # Upgrade Firmware
 - [Before Upgrade](upgrade_intro.md)

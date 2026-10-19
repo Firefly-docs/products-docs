@@ -10,7 +10,7 @@
 - [Video Usage](usage_video.md)
 - [Audio Usage](usage_audio.md)
 # Linux
-- [Linux Compile](linux_compile.md)
+- [Linux Application Compile](linux_compile.md)
 # Android
 # Upgrade Firmware
 - [Before Upgrade](upgrade_intro.md)

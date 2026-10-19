@@ -10,7 +10,7 @@
 - [视频教程](usage_video.md)
 - [音频教程](usage_audio.md)
 # Linux 开发
-- [Linux 编译](linux_compile.md)
+- [Linux 应用编译](linux_compile.md)
 # Android 开发
 # 升级固件
 - [升级前准备](upgrade_intro.md)

@@ -1,4 +1,4 @@
-# Linux Compile
+# Linux Application Compile
 
 This tutorial introduces how to compile programs for EC-A8550JD4.
 

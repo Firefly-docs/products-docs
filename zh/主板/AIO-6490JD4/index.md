@@ -14,7 +14,8 @@
 - [看门狗教程](usage_watchdog.md)
 - [RTC 教程](usage_rtc.md)
 # Linux 开发
-- [Linux 编译](linux_compile.md)
+- [高通 Linux 1.7 编译](qcom_linux_1.7_compile.md)
+- [Linux 应用编译](linux_compile.md)
 # Android 开发
 # 升级固件
 - [升级前准备](upgrade_intro.md)

@@ -1,4 +1,4 @@
-# Linux 编译
+# Linux 应用编译
 
 这篇教程介绍如何给 Firefly-Q6490A 编译应用程序。
 

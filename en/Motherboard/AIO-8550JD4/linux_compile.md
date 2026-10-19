@@ -1,4 +1,4 @@
-# Linux Compile
+# Linux Application Compile
 
 This tutorial introduces how to compile programs for AIO-8550JD4.
 
