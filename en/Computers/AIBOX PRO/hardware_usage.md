@@ -151,6 +151,98 @@ For detailed usage instructions, please refer to document `kernel-jammy-src/Docu
 
 AIBOX PRO has one RS485 interface. If the CPU is RK3588, the device name is `/dev/ttyS6`; if the CPU is RK3576, the device name is `/dev/ttyS3`. It supports half-duplex communication, and the default baud rate is `9600`. This interface uses a Phoenix terminal block, so a compatible terminal connector is required. Once connected, it can be debugged using standard serial port methods.
 
+## CAN
+
+### CAN Introduction
+
+CAN (Controller Area Network) is a serial communication network that effectively supports distributed or real-time control. CAN bus is widely used in automobiles, and it was designed for microcontroller communication in automotive environments. For more information, refer to the [CAN Application Report](https://www.ti.com/lit/an/sloa101b/sloa101b.pdf).
+
+### Hardware Connection
+
+The AIBOX PRO provides one CAN interface on a Phoenix terminal block. When wiring, connect CAN_H to CAN_H and CAN_L to CAN_L. For the interface location, see [Hardware Interface](interface_definition.md).
+
+Since there is only one CAN interface, the first device created in the kernel is `can0` by default.
+
+### CAN Communication Test
+
+Use `candump` and `cansend` to send and receive messages. These tools are included in the SDK and can also be downloaded from [GitHub](https://github.com/linux-can/can-utils).
+
+```
+# Bring down can0 on both ends
+ip link set can0 down
+# Set the bitrate to 250Kbps on both ends
+ip link set can0 type can bitrate 250000
+# Bring up can0 on both ends
+ip link set can0 up
+# Run candump on the receiving end, blocking and waiting for frames
+candump can0
+# Run cansend on the sending end to send a frame
+cansend can0 123#1122334455667788
+```
+
+The bitrates of both communication ends must be configured identically, otherwise no frames can be received.
+
+#### More Commands
+
+```
+1. ip link set canX down                      //Bring down the CAN device
+2. ip link set canX up                        //Bring up the CAN device
+3. ip -details link show canX                 //Show detailed CAN device information
+4. ip link set canX type can bitrate 250000   //Set the CAN bitrate
+5. candump canX                               //Receive data from the CAN bus
+6. cansend canX --identifier=ID#data          //Send data
+7. candump canX,ID:mask                       //Receive frames with matching IDs using a filter
+```
+
+### FAQ
+
+#### Messages are received long after sending, or not received at all
+
+Check whether the CAN_H and CAN_L bus wires are loose or connected in reverse.
+
+## DI/DO Optocoupler Isolation
+
+The AIBOX PRO provides one optocoupler-isolated digital input (DI) and one optocoupler-isolated digital output (DO) on the Phoenix terminal block. The mapping between the terminal pins and the SoC pins is as follows:
+
+| Terminal pin | SoC pin | Description |
+| --- | --- | --- |
+| DI | GPIO47 | Digital input |
+| DI_COM | - | Reference ground (level reference) of DI |
+| DO | GPIO46 | Digital output |
+| DO_COM | - | Reference ground (level reference) of DO |
+
+### DI (Digital Input)
+
+DI_COM is the reference level of DI. When a high level is applied to DI relative to DI_COM, the optocoupler turns on and GPIO47 on the SoC side is pulled low, so the value read is `0`. When there is no input between DI and DI_COM, GPIO47 stays high and the value read is `1`.
+
+To read the DI level (taking GPIO47 as an example):
+
+```
+# Export GPIO47 and configure it as an input
+echo 47 > /sys/class/gpio/export
+echo in > /sys/class/gpio/gpio47/direction
+# Read the level: 0 is read when a high level is applied to DI
+cat /sys/class/gpio/gpio47/value
+```
+
+### DO (Digital Output)
+
+DO_COM is connected to the external ground. DO must be pulled up to an external supply (VCC) through a pull-up resistor, and the data is read from DO. When GPIO46 on the SoC side outputs a low level, the optocoupler turns on and DO is pulled low to the DO_COM level; when GPIO46 outputs a high level, the optocoupler turns off and DO is pulled high by the external pull-up resistor.
+
+To drive DO (taking GPIO46 as an example):
+
+```
+# Export GPIO46 and configure it as an output
+echo 46 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio46/direction
+# Output low: the optocoupler turns on and DO is pulled low
+echo 0 > /sys/class/gpio/gpio46/value
+# Output high: the optocoupler turns off and DO is pulled high by the pull-up resistor
+echo 1 > /sys/class/gpio/gpio46/value
+```
+
+The GPIO numbering rules may differ between kernel versions. If the nodes of GPIO47 and GPIO46 in your system differ from the example above, use `cat /sys/kernel/debug/gpio` to check the actual mapping.
+
 ## SIM Card
 
 The SIM card slot of the AIBOX PRO is used together with a 4G module to provide mobile network connectivity. **The 4G module is optional**, and the SIM card function is available only after the module has been installed inside the chassis. The SIM card insertion direction is shown in the figure below. Please power off the device before inserting or removing the SIM card.
