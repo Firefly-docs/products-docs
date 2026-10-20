@@ -67,7 +67,7 @@ git config --global http.followRedirects true
 
 ## Download
 
-Exit the container and go back to the host. Go to the [download page]() to download the SDK.
+Exit the container and go back to the host. Go to the [download page](https://community.t-firefly.com/en/doc/download/407) to download the SDK.
 
 Put the downloaded archives somewhere the container can access (the location mounted with `-v` when creating the container earlier), and check the md5 of the split archives:
 ```bash

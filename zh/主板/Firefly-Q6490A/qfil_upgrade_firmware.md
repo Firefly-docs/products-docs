@@ -12,7 +12,7 @@
 * 良好的 Type-A 转 C USB 数据线
 
 ### 准备固件
-固件可以通过编译 SDK 获得，也可以通过[资源下载](TODO)处下载公版固件（完整固件）。
+固件可以通过编译 SDK 获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/426)处下载公版固件（完整固件）。
 
 * 完整固件
 
@@ -25,20 +25,20 @@
 ### 安装烧写工具
 * 安装 USB 驱动
 
-  前往 [USB 驱动](TODO) 下载驱动。  
+  前往 [USB 驱动](https://community.t-firefly.com/doc/download/426) 下载驱动。  
   有两份驱动，先安装高通 usb 驱动： Qualcomm USB Driver，双击 exe 文件运行，接受用户协议一直点 next 即可，最后点 finish 安装完成。  
   再安装 Google USB 驱动，解压 usb_driver_r13-windows，右键里面的 android_winusb.inf，点击安装，一直点确认即可。
 
 * 安装 QTSP
 
-  前往 [QTSP 工具](TODO) 下载工具。  
+  前往 [QTSP 工具](https://community.t-firefly.com/doc/download/426) 下载工具。  
   解压后，双击 QPST.2.7.496.1.exe 开始安装。接受用户协议一直点 next 即可，最后点 install 安装，点 finish 安装完成。  
   安装完成后，我们要用到的工具位于 C:\Program Files (x86)\Qualcomm\QPST\bin\QFIL.exe  
   双击 QFIL.exe 打开工具。
 
 * 安装 Android SDK Platform-Tools
 
-  前往 [Platform Tools](TODO) 下载工具。  
+  前往 [Platform Tools](https://community.t-firefly.com/doc/download/426) 下载工具。  
   下载后解压即可，内含 adb.exe 和 fastboot.exe
 
 

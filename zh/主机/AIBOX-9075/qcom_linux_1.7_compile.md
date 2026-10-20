@@ -67,7 +67,7 @@ git config --global http.followRedirects true
 
 ## 下载
 
-从容器中退出，回到宿主机。前往 [下载页面]() 下载 SDK。
+从容器中退出，回到宿主机。前往 [下载页面](https://community.t-firefly.com/doc/download/407) 下载 SDK。
 
 将下载好的压缩包存放到容器能访问到的地方（前文创建容器时 -v 的位置），检查分卷压缩的 md5 值:
 ```bash

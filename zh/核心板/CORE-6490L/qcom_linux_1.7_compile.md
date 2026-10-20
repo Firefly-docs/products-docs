@@ -67,7 +67,7 @@ git config --global http.followRedirects true
 
 ## 下载
 
-从容器中退出，回到宿主机。前往 [下载页面]() 下载 SDK。
+从容器中退出，回到宿主机。前往 [下载页面](https://community.t-firefly.com/doc/download/426) 下载 SDK。
 
 将下载好的压缩包存放到容器能访问到的地方（前文创建容器时 -v 的位置），检查分卷压缩的 md5 值:
 ```bash
@@ -159,7 +159,7 @@ bitbake dtb-qcom-image
 
 ## 制作 Ubuntu 固件
 
-Ubuntu 系统不支持直接编译，请前往[下载中心](TODO)下载发布的现成固件。如有自定义需求，需要将 QLI 编译生成的 kernel、modules、firmware 等部分移植到 Ubuntu 系统中。
+Ubuntu 系统不支持直接编译，请前往[下载中心](https://community.t-firefly.com/doc/download/426)下载发布的现成固件。如有自定义需求，需要将 QLI 编译生成的 kernel、modules、firmware 等部分移植到 Ubuntu 系统中。
 
 ### 准备工作
 
