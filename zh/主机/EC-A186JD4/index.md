@@ -5,5 +5,6 @@
 - [FAQ](upgrade_faq.md)
 # 开发指南
 - [硬件功能使用](hardware_usage.md)
+- [远程桌面 X11VNC](x11vnc.md)
 # AI
 - [部署例程](deployment_routines.md)

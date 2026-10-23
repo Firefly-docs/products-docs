@@ -6,6 +6,7 @@
 # 开发指南
 - [硬件功能使用](hardware_usage.md)
 - [应用开发](app_development.md)
+- [远程桌面 X11VNC](x11vnc.md)
 # AI
 - [演示应用](demo_apps.md)
 - [部署例程](deployment_routines.md)
