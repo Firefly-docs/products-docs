@@ -15,7 +15,9 @@ Please contact sales (sales@t-firefly.com) to obtain the SDK download link and r
 **3. Do not put SDK under shared directory of VM or non-English path.**
 
 **4. Please get/build SDK as a normal user, root privilege are neither allowed nor required (except installing sth. with apt)**
-</font>## Linux SDK Configuration Introduction
+</font>
+
+## Linux SDK Configuration Introduction
 
 ### Directory
 
@@ -126,7 +128,7 @@ The Yocto project provides some images that can be used without layers. The foll
 
 **The process of building with the bitbake command needs to ensure that the network connection is normal. If it is a customer in inland China, you need to ensure that it can ping the external network**
 
-* Enter the directory <path/to/yocto/poky> and execute the following commands in sequence
+* Enter the directory `<path/to/yocto/poky>` and execute the following commands in sequence
 ```bash
 # Install the required environment packages
 # sudo apt install zstd
