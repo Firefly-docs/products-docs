@@ -40,7 +40,7 @@
 
 ## 资源与技术支持
 
-* [核心板 Core-186JD4 开发文档](https://wiki.t-firefly.com/Core-186JD4/)：包含 SDK 编译教程、各功能开发等资料
+* [核心板 Core-186JD4 开发文档](https://community.t-firefly.com/docs/products/system-on-modules/Core-186JD4/started)：包含 SDK 编译教程、各功能开发等资料
 * [技术交流论坛](https://forum.t-firefly.com/)：超过10万企业客户和用户沟通交流平台
 
 ### 联系方式

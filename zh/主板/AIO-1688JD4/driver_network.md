@@ -11,7 +11,7 @@ AIO-1688JD4 默认使能了这三种网络，取决于用户的使用，[各接�
 AIO-1688JD4 只打开了 4G 的接口（因为 5G 网络硬件上和 USB3 座子有冲突，需要修改硬件去打开 5G 接口）。假若你做了修改，在硬件支持了 5G，也只能在 4G / 5G 接口之间去选择其中一个去使用。
 接入步骤：
 * SIM 卡
-* [EC20](https://wiki.t-firefly.com/EC20/ec20.html) /RM500U-CN
+* [EC20](https://community.t-firefly.com/docs/products/accessories/EC20/started) /RM500U-CN
 * 设备上电
 
 在系统中，模块的网卡名字为 `wwan0`。

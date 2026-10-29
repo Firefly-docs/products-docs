@@ -37,7 +37,7 @@
 
 ## Resources and Support
 
-* [Core board Core-186JD4 documentation](https://wiki.t-firefly.com/en/Core-186JD4/): including SDK compilation tutorials and function development materials
+* [Core board Core-186JD4 documentation](https://community.t-firefly.com/en/docs/products/system-on-modules/Core-186JD4/started): including SDK compilation tutorials and function development materials
 * [Technical Forum](https://forum.t-firefly.com/): A communication platform with more than 100,000 enterprise customers and users
 
 ### Contact

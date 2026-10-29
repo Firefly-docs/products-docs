@@ -11,7 +11,7 @@ AIO-186JD4 has enabled these three networks by default, depending on user usage.
 AIO-186JD4 only has the 4G interface enabled (because the 5G network hardware conflicts with the USB3 port, requiring hardware modification to enable the 5G interface). If you make modifications and the hardware supports 5G, you can only choose one to use between the 4G and 5G interfaces.
 Access steps:
 * SIM card
-* [EC20](https://wiki.t-firefly.com/EC20/ec20.html) /RM500U-CN
+* [EC20](https://community.t-firefly.com/en/docs/products/accessories/EC20/started) /RM500U-CN
 * Power on the device
 
 In the system, the module's network card name is `wwan0`.

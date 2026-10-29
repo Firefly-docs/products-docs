@@ -43,7 +43,7 @@ EC-A1684XJD4 采用 SOPHON 算能 AI 处理器 BM1684X，可配置 16GB 大内�
 
 ## 资源与技术支持
 
-* [核心板 Core-1684XJD4 Wiki](https://wiki.t-firefly.com/Core-1684XJD4/)：包含调试串口、系统固件等开发资料
+* [核心板 Core-1684XJD4 Wiki](https://community.t-firefly.com/docs/products/system-on-modules/Core-1684XJD4/started)：包含调试串口、系统固件等开发资料
 * [技术交流论坛](https://forum.t-firefly.com/)：超过10万企业客户和用户沟通交流平台
 
 ### 联系方式

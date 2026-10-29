@@ -7,7 +7,7 @@ The Core-1688JD4 features 3 `MIPI CSI` interfaces (1*4 lanes / 2*2 lanes), with 
 
 ### Command for Capturing Images
 
-Taking the Firefly's [CAM-8MS1M](https://wiki.t-firefly.com/CAM-8MS1M/cam-8ms1m.html) camera as an example (connected to MIPI CSI0):
+Taking the Firefly's [CAM-8MS1M](https://community.t-firefly.com/en/docs/products/accessories/CAM-8MS1M/started) camera as an example (connected to MIPI CSI0):
 After entering the system, gain root privileges using `sudo -s`, and execute the following capture command.
 ```
 insmod /mnt/system/ko/v4l2_xc7160.ko # Install driver

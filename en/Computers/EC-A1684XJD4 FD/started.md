@@ -43,7 +43,7 @@ As shown in the figure below:
 
 ## Resources and Support
 
-* [Core board Core-1684XJD4 Wiki](https://wiki.t-firefly.com/en/Core-1684XJD4/): including debug serial port, system firmware and other development materials
+* [Core board Core-1684XJD4 Wiki](https://community.t-firefly.com/en/docs/products/system-on-modules/Core-1684XJD4/started): including debug serial port, system firmware and other development materials
 * [Technical Support Forum](https://forum.t-firefly.com/): a communication platform with more than 100,000 enterprise customers and users
 
 ### Contact
