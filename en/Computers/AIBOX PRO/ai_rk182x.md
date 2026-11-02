@@ -51,6 +51,10 @@ rknn/
 ![](../../../aibox_img/AIBOX-PRO/RKNN3-SDK-Block-Diagram.png)
 </center>
 
+
+### Using RK1820/RK1828
+Refer to the [RK1828 AI Computing Module](/en/docs/products/accessories/RK182x/started)
+
 ### RKNN3 Model Zoo
 Provide deployment examples of classic models on the RK1820/RK1828 platform. For more details, refer to [GitHub](https://github.com/airockchip/rknn3-model-zoo).
 

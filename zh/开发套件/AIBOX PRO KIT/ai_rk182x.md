@@ -51,6 +51,10 @@ rknn/
 ![](../../../aibox_img/AIBOX-PRO-KIT/RKNN3-SDK-Block-Diagram.png)
 </center>
 
+
+### RK1820/RK1828 的使用方法
+参考 [RK1828 AI 计算模块](/docs/products/accessories/RK182x/started)
+
 ### RKNN3 Model Zoo
 提供 RK1820/RK1828 平台上经典模型的部署示例。更多详细内容可以参考[github](https://github.com/airockchip/rknn3-model-zoo)
 

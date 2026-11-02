@@ -8,7 +8,7 @@ The RK1828 AI computing module (model: RM182XMC0) is built around the Rockchip R
 
 | Front | Back |
 | :---: | :---: |
-| ![](../../../modules_img/RK1828/rk-1828-1.png) | ![](../../../modules_img/RK1828/rk-1828-2.png) |
+| ![](../../../modules_img/RK182x/rk-1828-1.png) | ![](../../../modules_img/RK182x/rk-1828-2.png) |
 
 ### Specifications
 
@@ -32,22 +32,20 @@ Insert the RK1828 AI computing module into the M.2 slot of the host device and p
 * RK1820/RK1828 Coprocessor (Device): As an AI computing acceleration unit, focused on high-performance neural network inference tasks.
 * PCIe (Communication Interface): Realizes low latency and high bandwidth data exchange between the main control and coprocessor.
 
-### Compile the RK1820/RK1828 Installer
+
+### Download the SDK Package
 
 Please contact `sales@t-firefly.com` to get the **RK182X SDK** download link.
 
 <font color=red>
 
 **Notice:**
-<br>
 **1. The SDK uses cross-compilation, so use the SDK on an x86_64 PC. Do not download the SDK to the device**<br>
 **2. Use Ubuntu 20.04 or Ubuntu 22.04 (real PC or docker) as the build environment. Other OS versions may cause build failures**<br>
 **3. Do not place or decompress the SDK archive in a virtual machine shared folder or a non-English directory**<br>
 **4. Use a regular user (not root) throughout the process of obtaining and compiling the SDK. Root privilege is not allowed or needed (except for apt installing software)**
-
 </font>
 
-<br>
 For example, the SDK archive is `rk182x_linux_release_20260908_v1.X.X.tgz`. (The specific version is subject to the latest release name on the cloud drive.)
 
 ```
@@ -57,7 +55,7 @@ tar xf rk182x_linux_release_20260908_v1.X.X.tgz
 .repo/repo/repo sync -l
 ```
 
-#### Bundle Update
+### Bundle Update
 Subsequent updates after 1.1.0a will be released as bundles to reduce download time.
 After downloading and decompressing the SDK base package above and completing the synchronization, place the bundle package in the SDK root directory:
 
@@ -78,7 +76,7 @@ Run the bundle's internal script from the SDK root directory:
 ./bundle_xx_to_xx/bundle_update.sh
 ```
 
-#### Config
+### Configure and Build
 Use `./build.sh config` to configure.
 
 ```
@@ -105,7 +103,8 @@ Select Security Boot Mode:
 Select `1`
 > This option is used to apply security encryption to the firmware. Incorrect operation may prevent the firmware from being upgraded later, so please choose carefully. For more information, refer to 1828SDK_Path/docs/Develop/Rockchip_RK1820_RK1828_User_Guide_SecureBoot_EN.pdf
 
-#### Build
+
+**Build**
 ```
 ./build.sh
 ```
@@ -125,7 +124,7 @@ You need to manually install the RK1820/RK1828 software package. Follow the step
 In the SDK provided by Firefly, the deb package build scripts have been added under `1828sdk_path/tools/build_helper`. Run `/tools/build_helper/build-helper.sh sodimm m2` directly, and the corresponding deb packages will be generated in that directory, so that they can be installed directly with `dpkg -i xxx.deb`.
 > The deb build provided natively by Rockchip installs the source code and requires a network environment, installing build tools and compiling the driver. Since the rkep driver has already been compiled into our firmware, the deb build script in the provided SDK has been adjusted to no longer install the driver source code or check for build tools.
 
-### rknn-smi
+## 3. rknn-smi
 
 rknn-smi (System Management Interface) is a tool for RK1820/RK1828 device information collection, function configuration, and log management.
 
@@ -149,7 +148,7 @@ rknn3 API version             : 1.1.0
 
 How to use, see the RK182X SDK: `docs/Tools/Rockchip_User_Guide_RKNN-SMI_Tool_EN.pdf`
 
-### RKNN3
+## 4. RKNN3
 
 The rknn directory of the RK182X SDK:
 ```
@@ -163,7 +162,7 @@ rknn/
 **RKNN3 SDK Block Diagram**
 <center>
 
-![](../../../modules_img/RK1828/rknn3-sdk-block-diagram.png)
+![](../../../modules_img/RK182x/rknn3-sdk-block-diagram.png)
 </center>
 
 Typical workflow: first convert the trained model to RKNN format with RKNN3-Toolkit on a PC, then run inference on the development board via the RKNN3 Runtime API.
@@ -182,9 +181,9 @@ RKNN3 Toolkit is a development kit that provides users with model transformation
 #### Pre-converted RKNN Models
 Users can download pre-converted RKNN models from the [RKNN3_SDK cloud drive](https://console.box.lenovo.com/l/H1fig1) (access code: `rknn`) without converting them by themselves. The models for the current release (V1.1.0) are available under the `RKNN3_SDK/rknn3_models/v1.1.0` directory.
 
-### FAQs
+## FAQs
 
-#### Probability "Failed to initialize rknnsmi"
+### Probability "Failed to initialize rknnsmi"
 Add an appropriate delay to `/lib/systemd/system/rknn3.service`:
 
 ```
@@ -203,10 +202,10 @@ ExecStop=/bin/rknn3_startup stop
 WantedBy=sysinit.target
 ```
 
-#### Currently Supported Models
+### Currently Supported Models
 The current SDK (V1.1.0) supports multiple model categories, including LLM, VLM, Omni, ASR (speech recognition), TTS (text-to-speech), Embedding / Reranker, translation, OCR, and CV (computer vision), such as Qwen3 / Qwen3.5 / GLM-Edge / MiniCPM5 (LLM), Qwen3-VL / InternVL3.5 / SmolVLM2 (VLM), Whisper / SenseVoice (ASR), PaddleOCR VL (OCR), and YOLOv8 / YOLO26 (CV). For the complete list and detailed information of each model, refer to `rknn/rknn3-runtime/doc/EN/00_RKNN3_SDK_Release_Notes_V1.1.0.pdf` in the SDK.
 
-#### rknn3 API Version shows NA
+### rknn3 API Version shows NA
 Install binutils; some rootfs may not have the strings command.
 
 ```sh
@@ -214,7 +213,7 @@ sudo apt update
 sudo apt install binutils
 ```
 
-## 3. More Resources
+## More Resources
 
 * RKNN3 Model Zoo: https://github.com/airockchip/rknn3-model-zoo
 * RKNN3 Toolkit: https://github.com/airockchip/rknn3-toolkit
