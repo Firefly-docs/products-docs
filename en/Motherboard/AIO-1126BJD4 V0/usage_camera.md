@@ -147,7 +147,7 @@ rv1126b-evb-dual-cam-csi1.dtsi
 ## Previewing the Camera on a Linux System
 
 
-The camera feed can be previewed using ffmedia. For ffmedia installation instructions, please click here: [ffmedia Tutorial](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/manual_ubuntu.html#ffmedia)
+The camera feed can be previewed using ffmedia. For ffmedia installation instructions, please click here: [ffmedia Tutorial](https://community.t-firefly.com/en/docs/software/multimedia/FFMedia/ffmedia-core)
 
 After installing ffmedia, select the video node corresponding to rkisp_mainpath as described above to perform RTSP streaming. Assuming rkisp_mainpath corresponds to the video11 node, the following command uses video11 for RTSP streaming:
 ```bash

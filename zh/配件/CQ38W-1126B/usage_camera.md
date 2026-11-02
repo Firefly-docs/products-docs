@@ -110,7 +110,7 @@ rv1126b-evb-dual-cam-csi1.dtsi
 
 ## Linux 系统预览摄像头
 
-摄像头画面可以使用 ffmedia 进行预览。ffmedia 安装点击跳转：[ffmedia 教程](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/manual_ubuntu.html#ffmedia)
+摄像头画面可以使用 ffmedia 进行预览。ffmedia 安装点击跳转：[ffmedia 教程](https://community.t-firefly.com/docs/software/multimedia/FFMedia/ffmedia-core)
 ```
 .
 ├── etc

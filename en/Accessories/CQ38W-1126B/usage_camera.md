@@ -112,7 +112,7 @@ rv1126b-evb-dual-cam-csi1.dtsi
 ## Previewing the Camera on a Linux System
 
 
-The camera feed can be previewed using ffmedia. For ffmedia installation instructions, please click here: [ffmedia Tutorial](https://wiki.t-firefly.com/en/Firefly-Linux-Guide/manual_ubuntu.html#ffmedia)
+The camera feed can be previewed using ffmedia. For ffmedia installation instructions, please click here: [ffmedia Tutorial](https://community.t-firefly.com/en/docs/software/multimedia/FFMedia/ffmedia-core)
 ```
 .
 ├── etc

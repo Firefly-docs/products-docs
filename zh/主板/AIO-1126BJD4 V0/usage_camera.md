@@ -145,7 +145,7 @@ rv1126b-evb-dual-cam-csi1.dtsi
 ## Linux 系统预览摄像头
 
 
-摄像头画面可以使用 ffmedia 进行预览。ffmedia 安装点击跳转：[ffmedia 教程](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/manual_ubuntu.html#ffmedia)
+摄像头画面可以使用 ffmedia 进行预览。ffmedia 安装点击跳转：[ffmedia 教程](https://community.t-firefly.com/docs/software/multimedia/FFMedia/ffmedia-core)
 
 安装好 ffmedia 后，根据上述描述选好 rkisp_mainpath 所对应的 video 节点进行 rtsp 推流命令。假设 rkisp_mainpath 对应的是 video11 节点。以 video11 进行推流 rtsp 为例。
 ```bash
