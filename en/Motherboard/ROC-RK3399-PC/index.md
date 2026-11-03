@@ -1,5 +1,5 @@
 # Quick Start
-- [ROC-RK3399-PC is a phone sized mini PC board。](started.md)
+- [Introduction](started.md)
 - [Serial debug](debug.md)
 # Upgrade Firmware
 - [Boot mode description](01-bootmode.md)
@@ -36,4 +36,3 @@
 - [U-Boot](uboot_introduction.md)
 # Questions and answers
 - [FAQS](faqs.md)
-# Hardware resources

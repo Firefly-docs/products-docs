@@ -18,4 +18,3 @@
 - [Unpack/Packing Rockchip Firmware](fw_pack_unpack.md)
 # Questions and answers
 - [FAQS](faqs.md)
-# Hardware resources

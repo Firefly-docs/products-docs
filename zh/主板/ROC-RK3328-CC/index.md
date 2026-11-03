@@ -18,4 +18,3 @@
 - [解包/打包 RK 固件](fw_pack_unpack.md)
 # 常见问题解答
 - [FAQs](faqs.md)
-# 硬件资料

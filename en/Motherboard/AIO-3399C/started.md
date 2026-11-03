@@ -1,29 +1,57 @@
-*   AIO-3399C main board ×1
-*   Brass antenna ×1
-*   12V-2A Power adapter ×1
-*   Type-A to Type-C data cable ×1
+## Interface Definition
 
-Other optional accessories:
+AIO-3399C provides rich interfaces, including :
 
-*   Firefly Serial Module
+* Power interface,
+* Type - C (OTG),
+* 1 x USB3.0, 4 x USB2.0 (interface 2, seat 2),
+* HDMI,
+* Ethernet,
+* Double an LVDS interface screen, eDP screen interface,
+* TP touch interface,
+* Screen voltage jump line interface,
+* Backlight interface,
+* WIFI antenna,
+* Bluetooth antenna,
+* Power button,
+* MIC interface,
+* Audio input/output (linein, lineout), 3.5 mm headphone jack,
+* Power RTC interfaces,
+* 12 v power supply interface,
+* IR interface,
+* TF card slot, SIM card slot,
+* Interface extension buttons,
+* I2C,I2S，
+* Speaker interface,
+* USB2.0 HOST,
+* Recovery button,
+* EDP screen interface,
+* debugging serial port,
+* Industrial serial port (RS485,RS232,2TTL),
+* RTC power interface,
+* MIPI screen interface (dual LVDS multiplex),
+* mini-pcie.
 
-In addition, you may need the following accessories during use:
-
-*   Display device
-      - Monitor or TV with HDMI interface and HDMI cable
-*   Network
-      - 100M/1000M Ethernet cable, and wired router
-      - WiFi router
-*   Input devices
-      - USB wire/wireless mouse/keyboard
-      - Infrared remote control (need to connect to the infrared receiver)
-*   Firmware upgrade and debugging
-      - Type-A to Type-C data cable
-      - Serial port to serial adapter
-*   Shipping list
+The details are as follows:
 
 <center>
 
-<img alt="" src="../../../rk3399_img/AIO-3399C/started_shipping_list.en.jpg" width="700">
+![](../../../rk3399_img/AIO-3399C/interface_details.en.jpg)
+</center>
+
+*In addition, customers can also customize the boards of relevant functional interfaces as required, as shown in the figure below:*
+
+<center>
+
+![](../../../rk3399_img/AIO-3399C/interface_customized.en.jpg)
+</center>
+
+Beside interface above，AIO-3399C(AI) support NPU speeding for it drive SPR2801S .Howerver, AIO-3399C(AI) do not support all Type-C function (ADB, OTG, DP display)，but it can be used to download firmware with Type-C.
+
+***Note：The hardware version of AIO-3399C(AI) without SPR2801S dosen't support function of npu speeding up. To use the function of NPU please choose and buy the hardware version of AIO-3399C(AI) with the chip of SPR2801S.***
+
+<center>
+
+![](../../../rk3399_img/AIO-3399C/interface_with_npu.en.jpg)
 </center>
  <a id="firmware-format"></a>

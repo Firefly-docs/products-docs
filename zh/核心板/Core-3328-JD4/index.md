@@ -17,5 +17,3 @@
 - [配件](accessories.md)
 # 常见问题解答
 - [FAQs](faqs.md)
-# 硬件资料
-- [接口定义](interface_definition.md)

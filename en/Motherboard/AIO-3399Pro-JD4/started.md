@@ -1,23 +1,46 @@
-*   AIO-3399Pro-JD4 main board ×1
-*   Brass antenna ×1
-*   12V-2A Power adapter ×1
-*   Type-A to Type-C data cable ×1
+## Interface Definition
 
-Other optional accessories:
+AIO-3399Pro-JD4 provides rich interfaces, including:
 
-*   Firefly Serial Module
+* Power interface,
+* 1 x USB3.0(host/device), 7 x USB2.0 (interface 2, seat 5),
+* HDMI,
+* Ethernet,
+* double an LVDS interface screen, eDP screen interface,
+* TP touch interface,
+* screen voltage jump line interface,
+* backlight interface,
+* WIFI antenna,
+* bluetooth antenna,
+* power button,
+* MIC interface,
+* audio input/output (linein, lineout), 3.5 mm headphone jack,
+* 12 v power supply interface,
+* IR interface,
+* TF card slot, SIM card slot,
+* interface extension buttons,
+* speaker interface,
+* recovery button,
+* EDP screen interface,
+* debugging serial port,
+* industrial serial port (RS485,RS232,2TTL),
+* RTC power interface,
+* MIPI screen interface (dual LVDS multiplex),
+* mini-pcie.
 
-In addition, you may need the following accessories during use:
+The details are as follows:
 
-*   Display device
-      - Monitor or TV with HDMI interface and HDMI cable
-*   Network
-      - 100M/1000M Ethernet cable, and wired router
-      - WiFi router
-*   Input devices
-      - USB wire/wireless mouse/keyboard
-      - Infrared remote control (need to connect to the infrared receiver)
-*   Firmware upgrade and debugging
-      - Dual male usb data cable
-      - Serial port to serial adapter
+<center>
+
+<img alt="" src="../../../rk3399_img/AIO-3399Pro-JD4/interface_front.png" width="900">
+</center>
+
+<center>
+
+![](../../../rk3399_img/AIO-3399Pro-JD4/interface_reverse.png)
+</center>
+
+#### Special interface
+
+Software&Hardware: Not support LINE_IN/LINE_OUT, USB_HOST2, Only support SPEAKER One channel (Baseboard JD4-v1.0).
  <a id="firmware-format"></a>

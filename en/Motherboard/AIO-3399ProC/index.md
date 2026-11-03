@@ -1,5 +1,5 @@
 # Quick Start
-- [started](started.md)
+- [Interface Definition](started.md)
 - [Serial debug](debug.md)
 # Upgrade Firmware
 - [Boot mode description](01-bootmode.md)
@@ -39,5 +39,3 @@
 - [U-Boot](uboot_introduction.md)
 # Questions and answers
 - [FAQS](faqs.md)
-# Hardware resources
-- [Interface definition](interface_definition.md)

@@ -1,5 +1,5 @@
 # 上手教程
-- [发货清单(仅供参考)](started.md)
+- [介绍](started.md)
 - [串口调试](debug.md)
 # 升级固件
 - [介绍](01-bootmode.md)
@@ -39,4 +39,3 @@
 - [U-Boot 使用](uboot_introduction.md)
 # 常见问题解答
 - [FAQs](faqs.md)
-# 硬件资料

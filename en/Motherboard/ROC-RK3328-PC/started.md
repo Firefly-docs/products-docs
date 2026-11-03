@@ -1,3 +1,4 @@
+## Introduction
 
 [ROC-RK3328-PC], the first credit card sized and affordable open source main board honored by Firefly, features:
 

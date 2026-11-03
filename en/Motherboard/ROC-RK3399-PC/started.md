@@ -1,5 +1,6 @@
+## Introduction
 
-## ROC-RK3399-PC is a phone sized mini PC board。
+ROC-RK3399-PC is a phone sized mini PC board.
 
 
 * Dual-core Cortex-A72 up to 1.8GHz & Quad-core Cortex-A53 up to 1.5GHz

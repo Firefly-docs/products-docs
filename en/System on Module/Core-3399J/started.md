@@ -1,29 +1,49 @@
-*   AIO-3399J board (1pcs)
-*   Others
+## Interface Definition
 
-The optional accessories are:
+AIO-3399J provides a lot of interfaces, which include:
 
-*   Acrylic rack (to protect the board)
-*   12V/2A DC USB power adapter (support 220V/100V input)
+* DC power imterface,
+* Double USB3.0 HOST,
+* USB2.0x6,
+* HDMI,
+* HDMI-IN,
+* ethernet,
+* Dual LVDS,
+* EDP LCD,
+* TP Touch Interface,
+* Screen voltage jumper interface,
+* Blacklight control interface,
+* Wifi antenna,
+* BT antenna,
+* Dual MIPI Camera(one of them is reused with HDMIIN),
+* Fan interface,
+* Reset button,
+* Power button,
+* Silicon microphone(HDMIIN audio multiplexing),
+* Audio input/output(linein,lineout),　
+* 3.5mm earphone interface,
+* RTC power interface,
+* IR receiver,
+* TF card slot,
+* SIM Kaka slot,
+* Extended key interface,
+* I2C,
+* I2S,
+* Speaker interface,
+* USB2.0 HOST,
+* recovery/reset button,
+* Serial debug interface,
+* Industrial level serial port (RS485, RS232, 2TTL),
+* M.2PCIE-M.key interface,
+* RTC Battery-powered interface,
+* MIPI LCD(double LVDS reuse),
+* MINI-PCIE,
+* MIPI-CSI.
 
-Additionally, the following accessories or devices are needed:
-
-*   Display
-      - Display or TV which supports VGA interface, and VGA cable
-      - Display or TV which supports HDMI interface, and HDMI cable
-*   Network
-      - 100M/1000M ethernet cable, and corresponding router
-      - WiFi router
-*   Input devices
-      - USB wire/wireless mouse/keyboard
-      - Infrared remote control
-*   Flash image, debugging
-      - Micro Type-C USB cable
-      - USB to serial adapter
-*   Shipping list
+Such as followings:
 
 <center>
 
-<img alt="" src="../../../rk3399_img/AIO-3399J/started_shipping_list.en.jpg" width="700">
+<img alt="" src="../../../rk3399_img/AIO-3399J/interface.en.jpg" width="900">
 </center>
  <a id="firmware-format"></a>

@@ -1,28 +1,45 @@
-*   AIO-3399ProC main board ×1
-*   Brass antenna ×1
-*   12V-2A Power adapter ×1
-*   Type-A to Type-C data cable ×1
+## Interface Definition
 
-Other optional accessories:
+AIO-3399ProC provides a wealth of interfaces, mainly including:
 
-*   Firefly Serial Module
+* Power interface
+* Type-C (OTG)
+* 1 x USB3.0
+* 2 x USB2.0
+* HDMI
+* Ethernet
+* LVDS screen interface
+* EDP screen interface
+* TP touch interface
+* Screen voltage jumper interface
+* Backlight interface
+* WIFI antenna
+* Bluetooth antenna
+* Power button
+* MIC interface
+* Audio input and output (linein, lineout)
+* 3.5mm headphone jack
+* RTC power connector
+* 12V power interface
+* IR interface
+* TF card slot
+* SIM card slot
+* Extended button interface
+* I2C
+* I2S
+* Speaker interface
+* recovery button
+* EDP screen interface
+* Debug serial port
+* Industrial-grade serial port (RS485, RS232, 2TTL)
+* CAN bus
+* RTC power inlet
+* MIPI screen interface (dual LVDS multiplexing)
+* MINI-PCIE
 
-In addition, you may need the following accessories during use:
-
-*   Display device
-      - Monitor or TV with HDMI interface and HDMI cable
-*   Network
-      - 100M/1000M Ethernet cable, and wired router
-      - WiFi router
-*   Input devices
-      - USB wire/wireless mouse/keyboard
-      - Infrared remote control (need to connect to the infrared receiver)
-*   Firmware upgrade and debugging
-      - Type-A to Type-C data cable
-      - Serial port to serial adapter
-*   Shipping list
+The details are as follows:
 <center>
 
-<img alt="" src="../../../rk3399_img/AIO-3399ProC/started_shipping_list.en.jpg" width="700">
+<img alt="" src="../../../rk3399_img/AIO-3399ProC/interface.jpg" width="900">
 </center>
  <a id="firmware-format"></a>

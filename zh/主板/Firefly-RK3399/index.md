@@ -39,5 +39,3 @@
 - [U-Boot 使用](uboot_introduction.md)
 # 常见问题解答
 - [FAQs](faqs.md)
-# 硬件资料
-- [接口定义](interface_definition.md)

@@ -17,5 +17,3 @@
 - [Accessories](accessories.md)
 # Questions and answers
 - [FAQS](faqs.md)
-# Hardware resources
-- [Interface definition](interface_definition.md)

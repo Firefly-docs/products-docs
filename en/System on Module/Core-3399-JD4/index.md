@@ -37,5 +37,3 @@
 - [U-Boot](uboot_introduction.md)
 # Questions and answers
 - [FAQS](faqs.md)
-# Hardware resources
-- [Interface definition](interface_definition.md)
