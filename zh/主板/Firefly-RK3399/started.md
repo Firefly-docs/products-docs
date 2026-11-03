@@ -1,34 +1,39 @@
-* Firefly-RK3399 主板一块
-* 12V-2A 电源适配器一个
 
-另外可以选购的配件有：
+## 接口定义
 
-* Firefly 串口模块
+Firefly-RK3399 提供了丰富的接口，主要包括：
 
-另外，在使用过程中，你可能需要以下配件：
+* 电源接口，
+* USB3.0 HOST，
+* 数字光纤，
+* Type-C，
+* HDMI，
+* 以太网，
+* WIFI 天线，
+* 蓝牙天线，
+* 双 MIPI 摄像头，
+* 风扇接口，
+* 复位按键，
+* 电源按键，
+* 硅麦，
+* 音频输入输出，
+* RTC 电源接口，
+* 红外接收，
+* TF 卡槽，
+* USB2.0 HOST，
+* recovery 按键，
+* EDP 屏接口，
+* DVP 摄像头接口，
+* 调试串口，
+* PCIE 接口，
+* 电池电源输入口，
+* MIPI 屏接口，
+* MINI-PCIE。
 
-*    显示设备
-     * 带 HDMI 接口的显示器或电视，及 HDMI 连接线
-*    网络
-     *   100M/1000M 以太网线缆，及有线路由器
-     *   WiFi 路由器
-*    输入设备
-     *   USB 无线/有线的鼠标/键盘
-     *   红外遥控器(需要接上红外接收器)
-*    升级固件，调试
-     *   Type-C 数据线
-     *   串口转 USB 适配器
-
-*    发货清单参考
+除此之外还包括一排扩展接口。具体如下图：
 
 <center>
 
-<img alt="" src="../../../rk3399_img/Firefly-RK3399/started_components.jpg" width="700">
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/interface.jpg" width="900">
 </center>
-
-Firefly-RK3399 支持从以下存储设备启动：
-
-* eMMC
-
-我们需要将系统固件烧写到 eMMC 里，这样开发板上电后才能正常启动进入操作系统。
  <a id="firmware-format"></a>

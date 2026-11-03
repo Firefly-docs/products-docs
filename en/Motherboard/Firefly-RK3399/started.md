@@ -1,36 +1,38 @@
-*   Firefly-RK3399 board (1pcs)
-*   Others
+## Interface Definition
 
-The optional accessories are:
+Firefly-RK3399 provides a wealth of interfaces, including:
 
-*   Acrylic rack (to protect the board)
-*   12V/2A DC USB power adapter (support 220V/100V input)
+* Power interface,
+* USB3.0 HOST,
+* Digital optical fiber,
+* Type-C,
+* HDMI,
+* Ethernet,
+* WIFI antenna,
+* Bluetooth antenna,
+* Dual MIPI camera,
+* Fan interface,
+* Reset button,
+* Power button,
+* Silicon wheat,
+* Audio input and output,
+* RTC power interface,
+* Infrared reception,
+* TF card slot,
+* USB2.0 HOST,
+* Recovery key,
+* EDP screen interface,
+* DVP camera interface,
+* Debug serial port,
+* PCIE interface,
+* Battery power input port,
+* MIPI screen interface,
+* MINI-PCIE.
 
-Additionally, the following accessories or devices are needed:
-
-*   Display
-      - Display or TV which supports VGA interface, and VGA cable
-      - Display or TV which supports HDMI interface, and HDMI cable
-*   Network
-      - 100M/1000M ethernet cable, and corresponding router
-      - WiFi router
-*   Input devices
-      - USB wire/wireless mouse/keyboard
-      - Infrared remote control
-*   Flash image, debugging
-      - Micro Type-C USB cable
-      - USB to serial adapter
-*   Shipping list
+In addition, there is a row of extended interfaces. Specifically as follows:
 
 <center>
 
-<img alt="" src="../../../rk3399_img/Firefly-RK3399/started_shipping_list.en.png" width="700">
+<img alt="" src="../../../rk3399_img/Firefly-RK3399/interface.jpg" width="900">
 </center>
-
-
-Firefly-RK3399 supports booting from the following storage devices:
-
-* eMMC
-
-We need to flash the system firmware into the eMMC, so that the development board can be normally booted into the operating system after power on.
  <a id="firmware-format"></a>
