@@ -5,5 +5,5 @@ Firefly 支持的通信模组如下：
 
 - [EC20 4G-LTE 模组](../../配件/EC20/started.md)
 - [EG25-G 4G模组](../../配件/EG25/started.md)
-- [GPS & GLONASS & RG4538](https://wiki.t-firefly.com/GNSS/gnss.html)
+- [GPS & GLONASS & RG4538](https://community.t-firefly.com/docs/products/accessories/GNSS/started)
 

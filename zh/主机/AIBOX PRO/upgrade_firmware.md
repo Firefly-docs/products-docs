@@ -129,7 +129,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 ## 烧写固件
 ### windows操作系统
 
-#### 烧写统一固件 update.img
+**烧写统一固件 update.img**
 
 烧写统一固件 update.img 的步骤如下:
 
@@ -145,7 +145,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### Linux操作系统
 
-#### 烧写统一固件 update.img
+**烧写统一固件 update.img**
 
 ```
 sudo upgrade_tool uf update.img

@@ -127,7 +127,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 ## 烧写固件
 ### windows操作系统
 
-#### 烧写统一固件 update.img
+**烧写统一固件 update.img**
 
 烧写统一固件 update.img 的步骤如下:
 
@@ -140,7 +140,8 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 <img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
-#### 烧写分区映像
+
+**烧写分区映像**
 烧写分区映像的步骤如下：
 
 1. 切换至`Upgrade Firmware`页。
@@ -154,7 +155,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 ### Linux操作系统
 
-#### 烧写统一固件 update.img
+**烧写统一固件 update.img**
 
 ```
 sudo upgrade_tool uf update.img
@@ -169,7 +170,8 @@ sudo upgrade_tool ef update.img   #update.img :你需要烧写的 Ubuntu 固件
 sudo upgrade_tool uf update.img
 ```
 
-#### 烧写分区镜像
+
+**烧写分区镜像**
 
 ```
 sudo upgrade_tool di -b /path/to/boot.img

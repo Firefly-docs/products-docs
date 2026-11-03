@@ -145,7 +145,7 @@ The device will then enter MaskRom mode.
 
 ## Upgrade the firmware
 ### Windows Operating System
-#### Upgrade unified firmware - update.img
+**Upgrade unified firmware - update.img**
 
 The steps to update the unified firmware `update.img` are as follows:
 
@@ -158,7 +158,8 @@ The steps to update the unified firmware `update.img` are as follows:
 <img alt="" src="../../../aibox_img/AIBOX-PRO-KIT/upgrade_firmware_erase_flash_zh.png" width="800">
 </center>
 
-#### Upgrade Partition image
+
+**Upgrade Partition image**
 
 The steps to upgrade the partition image are as follows:
 1. Switch to the `Download Image` page.
@@ -174,7 +175,7 @@ The steps to upgrade the partition image are as follows:
 </center>
 
 ### Linux Operating System
-#### Upgrade unified firmware - update.img
+**Upgrade unified firmware - update.img**
 
 ```
 sudo upgrade_tool uf update.img
@@ -190,7 +191,8 @@ sudo upgrade_tool ef update.img
 sudo upgrade_tool uf update.img
 ```
 
-#### Upgrade Partition image
+
+**Upgrade Partition image**
 
 ```
 sudo upgrade_tool di -b /path/to/boot.img

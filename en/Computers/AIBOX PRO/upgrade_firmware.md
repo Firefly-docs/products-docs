@@ -147,7 +147,7 @@ The device will then enter MaskRom mode.
 
 ## Upgrade the firmware
 ### Windows Operating System
-#### Upgrade unified firmware - update.img
+**Upgrade unified firmware - update.img**
 
 The steps to update the unified firmware `update.img` are as follows:
 
@@ -162,7 +162,7 @@ The steps to update the unified firmware `update.img` are as follows:
 
 
 ### Linux Operating System
-#### Upgrade unified firmware - update.img
+**Upgrade unified firmware - update.img**
 
 ```
 sudo upgrade_tool uf update.img

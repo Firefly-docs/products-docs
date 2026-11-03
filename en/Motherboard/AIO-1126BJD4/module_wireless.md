@@ -9,6 +9,6 @@ Firefly supports the following Wireless modules:
 
 - [RM500Q-GL 5G module](../../Accessories/RM500Q-GL-5G/started.md)
 
-- [GPS & GLONASS & RG4538](https://wiki.t-firefly.com/en/GNSS/gnss.html)
+- [GPS & GLONASS & RG4538](https://community.t-firefly.com/docs/products/accessories/GNSS/started)
 
 

@@ -3,6 +3,7 @@
 # 使用手册
 - [硬件接口介绍](interface_definition.md)
 - [硬件功能使用](hardware_usage.md)
+- [Linux 开发](linux_dev.md)
 # 固件升级
 - [介绍](upgrade_bootmode_rockchip.md)
 - [使用USB线缆升级固件](upgrade_firmware.md)
@@ -10,7 +11,5 @@
 # AI
 - [Host 平台](ai.md)
 - [RK1820/RK1828 平台](ai_rk182x.md)
-# Linux开发
-- [Linux 开发](linux_dev.md)
 # 配件
 - [通信模组](module_wireless.md)
