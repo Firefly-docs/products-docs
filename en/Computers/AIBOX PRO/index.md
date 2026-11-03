@@ -11,4 +11,4 @@
 - [Linux Development](linux_dev.md)
 # AI
 - [Host Platform](ai.md)
-- [RK1820/RK1828 ](ai_rk182x.md)
+- [RK1820/RK1828 Platform](ai_rk182x.md)

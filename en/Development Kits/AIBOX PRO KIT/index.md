@@ -9,7 +9,7 @@
 - [Upgrade the firmware via SD card](upgrade_firmware_sd_rockchip.md)
 # AI
 - [Host Platform](ai.md)
-- [RK1820/RK1828 ](ai_rk182x.md)
+- [RK1820/RK1828 Platform](ai_rk182x.md)
 # Linux Development
 - [Linux Development](linux_dev.md)
 # Accessories
