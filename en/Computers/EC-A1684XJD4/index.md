@@ -7,6 +7,7 @@
 - [Hardware Function Usage](hardware_usage.md)
 - [Application Development](app_development.md)
 - [Remote Desktop X11VNC](x11vnc.md)
+- [Memory Allocation Settings](memory_edit.md)
 # AI
 - [Demo Applications](demo_apps.md)
 - [Deployment Routines](deployment_routines.md)
