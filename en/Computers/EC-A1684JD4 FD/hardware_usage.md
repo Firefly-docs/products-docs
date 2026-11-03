@@ -447,3 +447,208 @@ dd if=sn.txt of=/sys/bus/nvmem/devices/1-006a0/nvmem count=17 bs=1
 ```shell
 echo 1 > /sys/devices/platform/5001c000.i2c/i2c-1/1-0017/lock
 ```
+
+## Remote Desktop X11VNC
+
+x11vnc is a tool that allows administrators to connect to the server's real X desktop directly through the VNC Viewer.
+### Debian
+EC-A1684JD4 FD has installed the xfce4 desktop and configured the x11vnc related environment by default. The user directly executes the following command to wait for the connection:
+
+```shell
+sudo x11vnc -display :0 -auth /var/lib/lightdm/.Xauthority &
+```
+
+Then you can use `$bm1684_ip:0` address to VNC remote connection on the PC.
+
+The following is the specific operation process of VNC Viewer:
+
+(1) The user first downloads [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) from the official website, and selects the corresponding installation package according to the PC system to download and install.
+
+(2) After the installation is complete, open VNC Viewer and skip login:
+
+<center>
+
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-01.png" width="700">
+</center>
+
+(3) Enter `$bm1684_ip:0` address of EC-A1684JD4 FD:
+
+<center>
+
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-02.png" width="700">
+</center>
+
+(4) Enter the user and password, both `linaro`:
+
+<center>
+
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-03.png" width="700">
+</center>
+
+(5) Successfully entered the xfce4 desktop:
+
+<center>
+
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-04.png" width="700">
+</center>
+
+### Ubuntu
+To use the X Desktop environment on Ubuntu system, you need to manually install it. Follow these steps, and during the installation process, select `lightdm` as the Display Manager:
+```
+sudo apt update
+sudo apt install -y xserver-xorg-video-dummy x11vnc xfce4
+sudo vim /etc/X11/xorg.conf
+sudo reboot
+```
+Edit the Xorg configuration file:
+```
+Section "Device"
+    Identifier  "Configured Video Device"
+    Driver      "dummy"
+    VideoRam 256000
+EndSection
+
+Section "Monitor"
+    Identifier  "Configured Monitor"
+    HorizSync 5.0 - 1000.0
+    VertRefresh 5.0 - 200.0
+    ModeLine "1920x1080" 148.50 1920 2448 2492 2640 1080 1084 1089 1125 +Hsync +Vsync
+#    Modeline "1280x800" 24.15 1280 1312 1400 1432 800 819 822 841
+EndSection
+
+Section "Screen"
+    Identifier  "Default Screen"
+    Monitor     "Configured Monitor"
+    Device      "Configured Video Device"
+    DefaultDepth 24
+    SubSection "Display"
+    Depth 24
+    Modes "1920x1080"
+#    Modes "1280x800"
+    EndSubSection
+EndSection
+```
+Start the x11vnc service:
+
+```shell
+sudo x11vnc -display :0 -auth /var/lib/lightdm/.Xauthority &
+```
+
+You can now use a VNC client on your PC to remotely connect using the `$bm1684_ip:0` address.
+
+To connect using VNC Viewer:
+
+(1) Download and install [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) on your PC, based on your system.
+
+(2) Open VNC Viewer and skip the login step.
+
+<center>
+
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/vnc-01.png" width="700">
+</center>
+
+(3) Enter the `$bm1684_ip:0` address of your EC-A1684JD4 FD:
+
+<center>
+
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-02.png" width="800">
+</center>
+
+(4) Click on the circular button next to the `linaro` username, select `xfce`, and enter the username and password (both are `linaro`):
+
+<center>
+
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-03.png" width="800">
+</center>
+
+(5) You will successfully enter the xfce4 desktop environment.
+
+<center>
+
+<img alt="" src="../../../bm1684_img/EC-A1684JD4-FD/ubuntu-vnc-04.png" width="800">
+</center>
+
+## Memory allocation settings
+
+A portion of the memory of EC-A1684JD4 FD is allocated to NPU, VPP, and VPU devices. So the memory data obtained using commands such as `free -h` is inconsistent with the actual memory of EC-A1684JD4 FD.
+
+If you need to view detailed memory allocation settings or if the default memory allocation conflicts with actual requirements, you can adjust the memory allocation by referring to the following documents.
+
+### Install the memory allocation tool
+
+Obtain the memory allocation tool package from [Download Center] and transfer it to EC-A1684JD4 FD. Run the following command to decompress the package:
+
+```bash
+tar -xvf memory_edit_v2.9.tar.xz
+```
+
+### View memory allocation settings
+
+After decompressing the package, run the following command to view memory allocation settings:
+
+```bash
+cd memory_edit
+./memory_edit.sh -p
+```
+
+The following is an example of memory allocation settings. The result displayed under `Info: get max memory size...` is the maximum memory that can be configured for each device, and the result displayed under `Info: get now memory size...` is the memory currently allocated for each device.
+
+```bash
+linaro@aibox-1684x:~/memory_edit$ ./memory_edit.sh -p
+INFO: version: 2.9
+Info: use dts file /home/linaro/memory_edit/output/bm1684x_se7_v1_mini.dts
+Info: =======================================================================
+Info: get ddr information ...
+Info: ddr12_size 8589934592 Byte [8192 MiB]
+Info: ddr3_size 4294967296 Byte [4096 MiB]
+Info: ddr4_size 4294967296 Byte [4096 MiB]
+Info: ddr_size 16384 MiB
+Info: =======================================================================
+Info: get max memory size ...
+Info: max npu size: 0x1dbf00000 [7615 MiB]
+Info: max vpu size: 0xc0000000 [3072 MiB]
+Info: max vpp size: 0x100000000 [4096 MiB]
+Info: =======================================================================
+Info: get now memory size ...
+Info: now npu size: 0xf6e00000 [3950 MiB]
+Info: now vpu size: 0x80000000 [2048 MiB]
+Info: now vpp size: 0xc0000000 [3072 MiB]
+```
+
+### Modify memory allocation settings
+
+You can set memory allocation by referring to the following command. The three parameters are decimal digits (unit: MiB) of the size to be configured for NPU, VPU, and VPP. The value can also be a hexadecimal value, in Byte.
+
+```bash
+# decimal, in MiB
+./memory_edit.sh -c -npu 2048 -vpu 2048 -vpp 2048
+# hexadecimal, in bytes
+./memory_edit.sh -c -npu 0x80000000 -vpu 0x80000000 -vpp 0x80000000
+```
+
+After executing one of the above commands, check whether there is an Error in the output and whether the size of the three parts in the output similar to the following is the same as the size that needs to be configured.
+
+```bash
+Info: output configuration results ...
+Info: vpu mem area(ddr3): 0x8000000 [128 MiB] 0x20000000 -> 0x27ffffff
+Info: ion npu mem area(ddr1): 0x80000000 [2048 MiB] 0x24100000 -> 0xa40fffff
+Info: ion vpu mem area(ddr3): 0x80000000 [2048 MiB] 0x80000000 -> 0xffffffff
+Info: ion vpp mem area(ddr4): 0x80000000 [2048 MiB] 0x80000000 -> 0xffffffff
+Info: =======================================================================
+Info: start check memory size ...
+Info: check npu size: 0x80000000 [2048 MiB]
+Info: check vpu size: 0x80000000 [2048 MiB]
+Info: check vpp size: 0x80000000 [2048 MiB]
+Info: check edit size ok
+Info: en_emmcfile ok
+```
+
+If the check is correct, save the current work, replace the boot image in the boot partition with the modified `emmcboot.itb` file, and restart the machine for the changes to take effect.
+
+```bash
+sudo cp emmcboot.itb /boot
+sync
+sudo reboot
+```
+
+[Download Center]: https://community.t-firefly.com/en/doc/download/212
