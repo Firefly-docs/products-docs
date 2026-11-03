@@ -24,7 +24,7 @@ The RK3588 SDK must be updated to at least `rk3588/linux6.1_release_v1.3.0e`
 * Download root filesystem: [Debian Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/414), please use the filesystem from the `kernel-6.1` directory.
 * Extract rootfs and link it
 
-**RK3588**
+#### RK3588
 ```
 # Extract
 7z x debian12_xxxx_rootfs_xxxx.7z
@@ -38,13 +38,13 @@ cd ..
 ```
 
 ### Configure
-**Core-3588JD4**
+#### Core-3588JD4
 
 ```
 ./build.sh firefly_rk3588_aibox-pro-3588jd4_rk182x_debian_defconfig
 ```
 
-**Core-3576JD4**
+#### Core-3576JD4
 
 ```
 ./build.sh firefly_rk3576_aibox-pro-3576jd4-rk182x-m2_debian_defconfig
@@ -63,7 +63,7 @@ The generated firmware is in the `output/update/` directory, e.g., `AIBOX-PRO-35
 * Download root filesystem: [Ubuntu Rootfs(64-bit) Kernel6.1](https://community.t-firefly.com/en/doc/download/414), please use the filesystem from the `kernel-6.1` directory.
 * Extract rootfs and link it
 
-**RK3588**
+#### RK3588
 ```
 # Extract
 7z x Ubuntu22.04-xxxx.7z
@@ -76,13 +76,13 @@ cd ..
 ```
 
 ### Configure
-**RK3588**
+### RK3588
 
 ```
 ./build.sh firefly_rk3588_aibox-pro-3588jd4_rk182x_ubuntu_defconfig
 ```
 
-**RK3576**
+### RK3576
 
 ```
 ./build.sh firefly_rk3576_aibox-pro-3576jd4-rk182x-m2_ubuntu_defconfig

@@ -179,7 +179,7 @@ RKNN3 Toolkit 是为用户提供在 PC 平台上进行模型转换、推理和�
 
 **RKNN3 Toolkit** 与 [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) 和 [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2) **不兼容**。更多内容可以参考 [github](https://github.com/airockchip/rknn3-toolkit)
 
-#### 预转换 RKNN 模型
+#### 模型获取
 用户可以从 [RKNN3_SDK 网盘](https://console.box.lenovo.com/l/H1fig1) 下载预先转换好的 RKNN 模型（提取码：`rknn`），无需自行转换。当前版本（V1.1.0）发布的模型位于 `RKNN3_SDK/rknn3_models/v1.1.0` 目录。
 
 ## 常见问题

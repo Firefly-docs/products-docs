@@ -178,7 +178,7 @@ RKNN3 Toolkit is a development kit that provides users with model transformation
 
 **RKNN3 Toolkit** is incompatible with [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) and [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2). For more details, refer to [GitHub](https://github.com/airockchip/rknn3-toolkit).
 
-#### Pre-converted RKNN Models
+#### Obtaining Models
 Users can download pre-converted RKNN models from the [RKNN3_SDK cloud drive](https://console.box.lenovo.com/l/H1fig1) (access code: `rknn`) without converting them by themselves. The models for the current release (V1.1.0) are available under the `RKNN3_SDK/rknn3_models/v1.1.0` directory.
 
 ## FAQs

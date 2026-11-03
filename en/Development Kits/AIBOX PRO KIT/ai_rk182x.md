@@ -1,6 +1,6 @@
 # RK1820/RK1828 
 
-* RK3588 Soc(Host) : As the core of the system, responsible for task scheduling, resource allocation, and overall control.
+* RK3588/RK3576 Soc(Host) : As the core of the system, responsible for task scheduling, resource allocation, and overall control.
 * RK1820/RK1828 Coprocessor(Device) : As an AI computing acceleration unit, we focus on high-performance neural network inference tasks.
 * PCIe : Realize low latency and high bandwidth data exchange between the main control and co processors.
 

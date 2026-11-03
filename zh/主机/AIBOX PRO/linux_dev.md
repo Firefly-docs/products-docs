@@ -24,7 +24,7 @@ RK3588 SDK 请至少更新到 `rk3588/linux6.1_release_v1.3.0e`
 * 下载根文件系统：[Debian 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/414)，请使用网盘中 kernel-6.1 目录下的文件系统。
 * 解压 rootfs 并链接 rootfs
 
-**RK3588**
+#### RK3588 
 ```
 # 解压
 7z x debian12_xxxx_rootfs_xxxx.7z
@@ -38,13 +38,13 @@ cd ..
 ```
 
 ### 配置
-**Core-3588JD4**
+#### Core-3588JD4
 
 ```
 ./build.sh firefly_rk3588_aibox-pro-3588jd4_rk182x_debian_defconfig
 ```
 
-**Core-3576JD4**
+#### Core-3576JD4
 
 ```
 ./build.sh firefly_rk3576_aibox-pro-3576jd4-rk182x-m2_debian_defconfig
@@ -63,7 +63,7 @@ cd ..
 * 下载根文件系统：[Ubuntu 根文件系统(64位) Kernel6.1](https://community.t-firefly.com/doc/download/414)，请使用网盘中 kernel-6.1 目录下的文件系统。
 * 解压 rootfs 并链接 rootfs
 
-**RK3588**
+#### RK3588 
 ```
 # 解压
 7z x Ubuntu22.04-xxxx.7z
@@ -76,13 +76,13 @@ cd ..
 ```
 
 ### 配置
-**RK3588**
+### RK3588
 
 ```
 ./build.sh firefly_rk3588_aibox-pro-3588jd4_rk182x_ubuntu_defconfig
 ```
 
-**RK3576**
+### RK3576
 
 ```
 ./build.sh firefly_rk3576_aibox-pro-3576jd4-rk182x-m2_ubuntu_defconfig
