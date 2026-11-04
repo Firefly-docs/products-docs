@@ -1,0 +1,17 @@
+{
+  "title": "Hardware Usage",
+  "pagesIndex": "index",
+  "pages": [
+    "index",
+    "serial_debug.md",
+    "usage_camera.md",
+    "usage_can.md",
+    "usage_display.md",
+    "usage_gpio.md",
+    "usage_led.md",
+    "usage_rtc.md",
+    "usage_sata.md",
+    "usage_uart.md",
+    "usage_watchdog.md"
+  ]
+}

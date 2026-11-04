@@ -1,0 +1,15 @@
+{
+  "title": "硬件功能使用",
+  "pagesIndex": "index",
+  "pages": [
+    "index",
+    "usb_to_ttl.md",
+    "usage_camera.md",
+    "usage_can.md",
+    "usage_gpio.md",
+    "usage_led.md",
+    "usage_rtc.md",
+    "usage_uart.md",
+    "usage_watchdog.md"
+  ]
+}

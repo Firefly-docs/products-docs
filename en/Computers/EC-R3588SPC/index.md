@@ -1,13 +1,10 @@
 # Product Introduction
-- [Introduction](started.md)
-# Upgrade Firmware
-- [USB Upgrade Firmware](upgrade_firmware.md)
-- [SD Card Upgrade Firmware](upgrade_firmware_sd.md)
-- [FAQ](upgrade_faq.md)
-# Development Guide
-- [Android Development](https://community.t-firefly.com/en/docs/software/os-guide/Android)
-- [Ubuntu-Debian Development](https://community.t-firefly.com/en/docs/software/os-guide/Ubuntu-Debian)
-- [Hardware Function Usage](hardware_usage.md)
+- [Introduction](product_introduction/index.md)
+# Firmware Upgrade
+- [Firmware Upgrade](firmware_upgrade/index.md)
+# Software Development
+- [Development Guide](software_development/index.md)
+# Hardware Usage
+- [Hardware Usage](hardware_usage/index.md)
 # AI
-- [NPU Usage](usage_npu.md)
-- [Large Model Deployment](usage_rkllm.md)
+- [AI](ai/index.md)

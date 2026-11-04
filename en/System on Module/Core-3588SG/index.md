@@ -1,37 +1,10 @@
-# Quick Start
-- [Introduction](started.md)
-- [Serial Debug](usb_to_ttl.md)
-# Upgrade Firmware
-- [Boot mode description](upgrade_bootmode.md)
-- [Upgrade the firmware via USB cable](upgrade_firmware.md)
-- [Upgrade the firmware via SD card](upgrade_firmware_sd.md)
-# Linux
-- [Compile Linux Firmware (kernel-6.1)](linux6.1_compile.md)
-- [Compile Linux Firmware (kernel-5.10)](linux_compile.md)
-- [Technical Case](linux_technical_cases.md)
-# Android
-- [ADB use](android_adb_use.md)
-- [Compile environment to build](android_prepare_compile_android.md)
-- [Compile Android12.0 firmware](android_compile_android12.0_firmware.md)
-- [Compile Android14.0 firmware](android_compile_android14.0_firmware.md)
-# Hardware Function Usage
-- [ADC](usage_adc.md)
-- [BATTERY ](usage_battery.md)
-- [Camera](usage_camera.md)
-- [Display](usage_display.md)
-- [Ethernet](usage_ethernet.md)
-- [GPIO](usage_gpio.md)
-- [I2C ](usage_i2c.md)
-- [LED](usage_led.md)
-- [RTC](usage_rtc.md)
-- [SPI](usage_spi.md)
-- [UART](usage_uart.md)
-- [Watchdog](usage_watchdog.md)
-# Accessories
-- [Camera module](module_camera.md)
-# Other
-# Questions and answers
-- [Linux Device Tree (DTS) Manual](linux_dts_manual.md)
-# Hardware resources
-- [Interface definition](interface_definition.md)
-- [hardware_doc](hardware_doc.md)
+# Product Introduction
+- [Introduction](product_introduction/index.md)
+# Firmware Upgrade
+- [Firmware Upgrade](firmware_upgrade/index.md)
+# Software Development
+- [Software Development](software_development/index.md)
+# Hardware Usage
+- [Hardware Usage](hardware_usage/index.md)
+# Accessories & Modules
+- [Accessories & Modules](module_overview.md)

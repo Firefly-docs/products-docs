@@ -1,0 +1,10 @@
+{
+  "title": "Firmware Upgrade",
+  "pagesIndex": "index",
+  "pages": [
+    "index",
+    "upgrade_firmware.md",
+    "upgrade_firmware_sd.md",
+    "upgrade_faq.md"
+  ]
+}

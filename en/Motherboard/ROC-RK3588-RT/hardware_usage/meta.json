@@ -1,0 +1,14 @@
+{
+  "title": "Hardware Usage",
+  "pagesIndex": "index",
+  "pages": [
+    "index",
+    "usb_to_ttl.md",
+    "android_adb_use.md",
+    "usage_ethernet.md",
+    "usage_led.md",
+    "usage_pcie.md",
+    "usage_rtc.md",
+    "usage_sata.md"
+  ]
+}

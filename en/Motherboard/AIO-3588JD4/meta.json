@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "product_introduction",
+    "firmware_upgrade",
+    "software_development",
+    "hardware_usage",
+    "ai",
+    "module_overview.md"
+  ],
+  "pagesIndex": "product_introduction/index.md"
+}

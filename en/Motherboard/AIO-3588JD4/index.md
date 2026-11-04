@@ -1,32 +1,12 @@
-# Quick Start
-- [Introduction](started.md)
-- [Serial Port DeBug](serial_debug.md)
-# Upgrade Firmware
-- [Boot mode description](upgrade_bootmode.md)
-- [Upgrade the firmware via USB cable](upgrade_firmware.md)
-- [Upgrade the firmware via SD card](upgrade_firmware_sd.md)
-# Linux
-- [Compile Linux Firmware (kernel-6.1)](linux6.1_compile.md)
-- [Compile Linux Firmware (kernel-5.10)](linux_compile.md)
-- [Technical Case](linux_technical_cases.md)
-# Hardware Function Usage
-- [Camera](usage_camera.md)
-- [CAN](usage_can.md)
-- [Display](usage_display.md)
-- [GPIO](usage_gpio.md)
-- [LED](usage_led.md)
-- [RTC](usage_rtc.md)
-- [SATA](usage_sata.md)
-- [UART](usage_uart.md)
-- [Watchdog](usage_watchdog.md)
-# Accessories
-- [Camera module](module_camera.md)
-- [Wireless module](module_wireless.md)
-# Other
-- [Large Language Model](usage_rkllm.md)
-- [NPU](usage_npu.md)
-# Questions and answers
-- [Linux Device Tree (DTS) Manual](linux_dts_manual.md)
-# Hardware resources
-- [Interface definition](interface_definition.md)
-- [hardware_doc](hardware_doc.md)
+# Product Introduction
+- [Introduction](product_introduction/index.md)
+# Firmware Upgrade
+- [Firmware Upgrade](firmware_upgrade/index.md)
+# Software Development
+- [Software Development](software_development/index.md)
+# Hardware Usage
+- [Hardware Usage](hardware_usage/index.md)
+# AI
+- [AI](ai/index.md)
+# Accessories & Modules
+- [Accessories & Modules](module_overview.md)

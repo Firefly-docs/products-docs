@@ -1,36 +1,10 @@
-# 上手教程
-- [介绍](started.md)
-- [串口调试](usb_to_ttl.md)
-# 升级固件
-- [介绍](upgrade_bootmode.md)
-- [使用USB线缆升级固件](upgrade_firmware.md)
-- [使用SD卡升级固件](upgrade_firmware_sd.md)
-# Linux开发
-- [编译 Linux 固件 (内核版本 6.1)](linux6.1_compile.md)
-- [编译 Linux 固件 (内核版本 5.10)](linux_compile.md)
-- [技术案例](linux_technical_cases.md)
-# Android开发
-- [ADB 使用](android_adb_use.md)
-- [编译环境搭建](android_prepare_compile_android.md)
-- [编译 Android12.0 固件](android_compile_android12.0_firmware.md)
-- [编译 Android14.0 固件](android_compile_android14.0_firmware.md)
+# 产品简介
+- [简介](product_introduction/index.md)
+# 固件升级
+- [固件升级](firmware_upgrade/index.md)
+# 软件开发使用
+- [软件开发使用](software_development/index.md)
 # 硬件功能使用
-- [ADC 使用](usage_adc.md)
-- [Battery 使用](usage_battery.md)
-- [Camera 使用](usage_camera.md)
-- [Display 使用](usage_display.md)
-- [Ethernet 使用](usage_ethernet.md)
-- [GPIO 使用](usage_gpio.md)
-- [I2C 使用](usage_i2c.md)
-- [LED 使用](usage_led.md)
-- [RTC 使用](usage_rtc.md)
-- [SPI 使用](usage_spi.md)
-- [UART 使用](usage_uart.md)
-- [Watchdog 使用](usage_watchdog.md)
-# 配件
-- [摄像头模组](module_camera.md)
-# 其他
-# 常见问题解答
-- [Linux 设备树 (DTS) 指南](linux_dts_manual.md)
-# 参考资料
-- [接口定义](interface_definition.md)
+- [硬件功能使用](hardware_usage/index.md)
+# 配件与模组
+- [配件与模组](module_overview.md)
