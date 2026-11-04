@@ -400,6 +400,9 @@ For more hm_smi commands, refer to [M50 SMI Tool User Guide 1.0.0](https://devel
 
 Please refer to the [Houmo Dadao® M50 TCIM User Manual 1.4.0](https://developer.houmoai.com/hmdoc/m50/software-manual/latest/model-build-and-inference/tcim_user_guide/index.html)
 
+## Benchmark
+
+Please refer to [Houmo PostMo-ModelZoo Model Library User Guide](https://developer.houmoai.com/hmdoc/v3/software/software-manual/v1.5.0/applications/modelzoo_user_guide/02_models/index.html)
 
 
 

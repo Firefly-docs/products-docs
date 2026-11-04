@@ -398,8 +398,9 @@ echo '/userdata/swapfile none swap sw,nofail 0 0' | sudo tee -a /etc/fstab
 
 请参考[后摩大道® M50 TCIM用户手册 — M50 TCIM用户手册 1.4.0 文档](https://developer.houmoai.com/hmdoc/m50/software-manual/latest/model-build-and-inference/tcim_user_guide/index.html)
 
+## Benchmark
 
-
+请参考[后摩PostMo-ModelZoo模型库用户指南](https://developer.houmoai.com/hmdoc/v3/software/software-manual/v1.5.0/applications/modelzoo_user_guide/02_models/index.html)
 
 
 
