@@ -1,4 +1,4 @@
-# 一、产品介绍
+# 1. 产品介绍
 ## 产品简介
 ### 智能语音开发套件
 
@@ -37,7 +37,7 @@
 | 接口 | 1 × 12V功放供电&UAC（6Pin-2mm）、1 × Type-C（5V供电&音频传输）、1 × 4&6麦板接口（14Pin-0.5mm FPC座）、1 × 3.5mm音频输入接口、1 × AEC接口（5Pin-1.25mm）、1 × 左声道喇叭（2Pin-2mm）、1 × 右声道喇叭（2Pin-2mm） |
 | 尺寸 | 88mm × 40mm，限高8mm |
 
-# 二、硬件使用
+# 2. 硬件使用
 
 <!--
 ## 使用说明
@@ -47,17 +47,17 @@
 
 <center>
 
-![](img/connection.png)
+![](../../../modules_img/Intelligent-Voice-Control-Kit/connection.png)
 </center>
 
 ### 拨码开关
 
 <center>
 
-![](img/toggle_switch.png)
+![](../../../modules_img/Intelligent-Voice-Control-Kit/toggle_switch.png)
 </center>
 
-# 三、安卓开发
+# 3. 安卓开发
 量产授权SN码和安卓平台SDK请联系商务（sales@t-firefly.com）获取
 ## 1. 降噪算法授权
 每台设备需要使用唯一的SN码进行鉴权，demo中自带的SN号，配置在app模块的 assets/auth.ini 。目前在用的降噪算法引擎授权api是：
@@ -78,7 +78,7 @@ public static native int CAEAuth(String sn);
 ### 2.1 降噪算法的处理框架
 <center>
 
-![](img/cae_algorithm_framework.png)
+![](../../../modules_img/Intelligent-Voice-Control-Kit/cae_algorithm_framework.png)
 </center>
 
 <br>
@@ -216,7 +216,7 @@ public interface ICAEListener {
 
 <center>
 
-![](img/api_process.png)
+![](../../../modules_img/Intelligent-Voice-Control-Kit/api_process.png)
 </center>
 
 ### 2.5 接口封装示例

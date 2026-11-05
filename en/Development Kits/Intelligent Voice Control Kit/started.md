@@ -45,14 +45,14 @@ With low-code integration, it enables quick implementation and shortens project 
 
 <center>
 
-![](img/connection_en.png)
+![](../../../modules_img/Intelligent-Voice-Control-Kit/connection_en.png)
 </center>
 
 ### DIP Switch
 
 <center>
 
-![](img/toggle_switch.png)
+![](../../../modules_img/Intelligent-Voice-Control-Kit/toggle_switch.png)
 </center>
 
 # Android Development
@@ -76,7 +76,7 @@ For official mass production, it is necessary to purchase official SN authorizat
 ### 2.1 Processing Framework of the Noise Reduction Algorithm
 <center>
 
-![](img/cae_algorithm_framework_en.png)
+![](../../../modules_img/Intelligent-Voice-Control-Kit/cae_algorithm_framework_en.png)
 </center>
 
 <br>
@@ -214,7 +214,7 @@ public interface ICAEListener {
 
 <center>
 
-![](img/api_process_en.png)
+![](../../../modules_img/Intelligent-Voice-Control-Kit/api_process_en.png)
 </center>
 
 ### 2.5 Interface Encapsulation Example
