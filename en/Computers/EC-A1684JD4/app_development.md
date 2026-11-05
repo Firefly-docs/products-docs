@@ -350,10 +350,8 @@ The structure of the unpacked SDK files is as follows:
 * **Model Performance and Accuracy Verification Tool TPUPerf**: enables performance analysis and accuracy validation of models
 
 ### Details
-* [Get SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/3_claim_sdk.html)  
-* [Install SDK（v23.05.01 version）](https://doc.sophgo.com/sdk-docs/v23.05.01/docs_latest_release/docs/SophonSDK_doc/en/html/sdk_intro/4_install.html)
 
-For additional resources, please visit [here](https://developer.sophon.ai/site/index/material/all/all.html).
+* [Get SDK and Detailed Documentation](https://developer.sophgo.com/site/index/material/all/all.html)
 
 ---
 
