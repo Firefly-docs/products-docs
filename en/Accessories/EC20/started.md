@@ -1,4 +1,4 @@
-# 一、Introduction
+# 1. Introduction
 ## Product introduction
 ### EC20
 
@@ -28,7 +28,7 @@ This module does not support voice calls and SMS, if you need support, please co
 
 <!-- |Interface connector|USB: USB 2.0 high-speed interface, 480Mbps<br>digital voice: 1 digital voice interface (optional)）<br>USIM: 1.8/3.3V<br>network indicator: ×2, NET_STATUS and NET_MODE<br>UART: x1 UART<br>reset: low level<br>PWRKEY: low level<br>antenna interface: 3 (main antenna, diversity antenna and GNSS antenna interface)<br>ADC: x2| -->
 
-# 二、Usage
+# 2. Usage
 
 ## Hardware connection
 ### Module connection
@@ -63,11 +63,11 @@ This module does not support voice calls and SMS, if you need support, please co
 ![](../../../modules_img/EC20/ec20_sim.png)
 </center>
 
-# 三、Firmware and Resource download
+# 3. Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/134)
 
 
-# 四、Tutorial
+# 4. Tutorial
 ## Flash firmware
 
 | CPU | USB upgrade | SD upgrade |

@@ -1,4 +1,4 @@
-# 一、产品介绍
+# 1. 产品介绍
 ## 产品简介
 CAM-2MS2MF 是一款双 MIPI 双目宽动态+近红外模组，可见光采用 2M宽动态传感器，优质的宽动态效果将适应更多恶劣场景，减少复杂光线环境对识别算法产生的不良影响，采用标准 MIPI 接口输出高质量视频流；近红外部分采用2M 低照度传感器，配合优质的红外效果及窄带滤光片，减少环境光线对红外成像的影响，产品主要应用于人脸识别门禁、考勤、闸机、人证机等场景。
 
@@ -58,7 +58,7 @@ CAM-2MS2MF 是一款双 MIPI 双目宽动态+近红外模组，可见光采用 2
 ## 产品选型
 -->
 
-# 二、使用方法
+# 2. 使用方法
 
 <!--
 ## 使用说明
@@ -96,7 +96,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 | RK3588 | [ITX-3588J](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_ITX-3588J.png), [AIO-3588Q](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588Q.png),[AIO-3588JQ](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588Q.png),[AIO-3588MQ](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588Q.png) |
 | RK3588S | [AIO-3588SJD4](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588SJD4.png), [ROC-RK3588S-PC](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_ROC-RK3588S-PC.png) |
 
-# 三、资料与固件下载
+# 3. 资料与固件下载
 相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/130)。
 
 <!--
@@ -106,7 +106,7 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 ## 固件下载
 -->
 
-# 四、入门教程
+# 4. 入门教程
 ## 固件烧写
 
 <!--

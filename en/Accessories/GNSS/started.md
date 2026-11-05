@@ -1,4 +1,4 @@
-# Introduction
+# 1. Introduction
 ## Product introduction
 ### DELINCOMM
 * Single GPS receiver RG4538
@@ -52,7 +52,7 @@
 ## 产品选型
 -->
 
-# 二、Usage
+# 2. Usage
 
 <!--
 ## Usage
@@ -205,7 +205,7 @@ Solution: Give 0666 permission to the serial port path.
 ### The GPS test APK has a small number of stars or fails to locate
 When the GPS module is connected correctly and *gps.default.so* is loaded normally, the GPS test APK may find that the number of satellites is small or the positioning fails. It is necessary to check whether the **GPS antenna** is placed in an **open outdoor**.
 
-# 三、Firmware and Resource Download
+# 3. Firmware and Resource Download
 For related documents and firmware download, see [Data Download](https://en.t-firefly.com/doc/download/120.html) on the official website .
 
 <!--
@@ -215,7 +215,7 @@ For related documents and firmware download, see [Data Download](https://en.t-fi
 ## 固件下载
 -->
 
-# 四、Getting Started
+# 4. Getting Started
 ## Flash firmware
 
 | CPU | USB flash | SD upgrade |

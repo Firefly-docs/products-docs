@@ -1,4 +1,4 @@
-# 一、Introduction
+# 1. Introduction
 ## Product introduction
 ### RM500Q-GL
 
@@ -68,7 +68,7 @@
 **Note：**`*` indicates that Quectel is under development
 
 
-# 二、Usage
+# 2. Usage
 
 <!--
 ## 使用说明
@@ -94,7 +94,7 @@
 ![](../../../modules_img/RM500Q-GL-5G/ec20_sim.png)
 </center>
 
-# 三、Firmware and Resource download
+# 3. Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/133)。
 
 <!--
@@ -104,7 +104,7 @@ Related documents and firmware download, see the official website [Resource Down
 ## 固件下载
 -->
 
-# 四、Tutorial
+# 4. Tutorial
 ## Flash firmware
 
 | CPU | USB upgrade | SD upgrade |

@@ -1,6 +1,6 @@
 # DX-M1 AI 加速卡
 
-## 一、产品介绍
+## 1. 产品介绍
 
 ### 产品简介
 
@@ -27,7 +27,7 @@ DEEPX DX-M1 M.2 模块将服务器级 AI 推理直接带到边缘设备。DX-M1 
 | 内存配置 | 4GB LPDDR5 + 1Gbit QSPI NAND Flash |
 | 调试接口 | UART0, JTAG1 |
 
-## 二、使用方法
+## 2. 使用方法
 
 ### 安装
 
@@ -95,6 +95,6 @@ dxrt-cli -u ./m1/latest/mdot2/fw.bin
 run_model -m ./YoloV5S.dxnn -b -l 100 -v
 ```
 
-## 三、更多资料
+## 3. 更多资料
 
 * GitHub: https://github.com/DEEPX-AI/

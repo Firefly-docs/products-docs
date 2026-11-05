@@ -1,4 +1,4 @@
-# 一、产品介绍
+# 1. 产品介绍
 ## 产品简介
 <center>
 
@@ -24,7 +24,7 @@
 ## 产品选型
 -->
 
-# 二、使用方法
+# 2. 使用方法
 
 <!--
 ## 使用说明
@@ -63,7 +63,7 @@
 | RK3576|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/interface_definition.md),[AIO-3576Q](../../主板/AIO-3576Q/interface_definition.md), [AIO-3576C](../../主板/AIO-3576C/interface_definition.md)|
 |RK3399|[AIO-3399C](../../主板/AIO-3399C/interface_definition.md), [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/started.md)| 
 
-# 三、固件与资料下载
+# 3. 固件与资料下载
 相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/291)。
 
 <!--
@@ -73,7 +73,7 @@
 ## 固件下载
 -->
 
-# 四、入门教程
+# 4. 入门教程
 ## 固件烧写
 
 | 主控 | USB 线刷 | SD 卡升级 |

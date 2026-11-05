@@ -1,6 +1,6 @@
 # RPLIDAR C1 激光雷达
 
-## 一、产品介绍
+## 1. 产品介绍
 ### 产品简介
 
 RPLIDAR C1 是思岚科技推出的融合型 DTOF 激光雷达，面向开发者和室内应用场景。雷达支持 360° 扫描，具有 5kHz 采样频率和 8~12Hz 扫描频率，可用于机器人导航、避障、定位与建图等应用。
@@ -27,7 +27,7 @@ RPLIDAR C1 是思岚科技推出的融合型 DTOF 激光雷达，面向开发者
 | 数据通讯接口 | TTL UART，460800 bps |
 | 工作温度 | 0°C~50°C |
 
-## 二、使用方法
+## 2. 使用方法
 ### SDK 使用
 
 最新版本 SDK 可从 GitHub 获取：
@@ -138,7 +138,7 @@ rviz2 -d rviz/rplidar_ros.rviz
 
 
 
-## 三、资料
+## 3. 资料
 
 * [RPLIDAR C1 产品介绍](https://www.slamtec.com/cn/c1)
 * [RPLIDAR C1 文档与 SDK](https://www.slamtec.com/cn/support#rplidar-c1)

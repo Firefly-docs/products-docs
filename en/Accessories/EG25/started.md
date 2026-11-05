@@ -1,4 +1,4 @@
-# 一、Introduction
+# 1. Introduction
 ## Product introduction
 
 ### EG25-G
@@ -32,7 +32,7 @@ This module does not support voice calls and SMS, if you need support, please co
 |Authentication|Deutsche Telekom<br> Verizon/AT&T/Sprint/U.S. Cellular/T-Mobile<br> Telus/Rogers* <br> SRRC/CCC/NAL <br> GCF <br> CE <br> UKCA <br>PTCRB <br>FCC <br> IC <br> Anatel <br> IFETEL <br> KC <br> NCC <br> JATE/TELEC <br> RCM <br> NBTC <br> IMDA <br> ICASA <br>  RoHS <br> WHQL <br>|
 |Antenna Connectors|x3 main antenna, diversity antenna and GNSS antenna|
 
-# 二、Usage
+# 2. Usage
 
 ## Hardware connection
 ### Module connection
@@ -68,11 +68,11 @@ This module does not support voice calls and SMS, if you need support, please co
 ![](../../../modules_img/EG25/EG25_sim.png)
 </center>
 
-# 三、Firmware and Resource download
+# 3. Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/171)
 
 
-# 四、Tutorial
+# 4. Tutorial
 ## Flash firmware
 <!--
 | PX30 | [AIO-PX30-JD4](../../Motherboard/AIO-PX30-JD4/programming_firmware.md) | |

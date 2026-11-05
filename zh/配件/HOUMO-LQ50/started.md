@@ -1,6 +1,6 @@
 # 后摩 LQ50 AI 计算卡
 
-## 产品介绍
+## 1. 产品介绍
 
 ### 产品简介
 
@@ -16,7 +16,7 @@
 
 
 
-## 使用方法
+## 2. 使用方法
 
 考虑到后摩模块资源主要以 docker 容器进行测试，体积较大。同时驱动安装为DKMS自动编译安装，需要板端第一次安装时有网络并配齐对应开发环境。因此 Firefly 发布两种形式的资源。一种是 Firefly 基于自身固件，将编译好的驱动和测试工具直接打包好，让使用 Firefly 固件的客户能直接测试（不进行长期维护，主要用于检测模块是否正常）。另一种则为 Houmo 官方资源包，完成初步对 Houmo模块的测试后，客户可以再根据需求进行下载对应的资源。两种资源的驱动安装方式不同：Firefly 安装包内的驱动已编译好，直接运行安装脚本即可；官方资源包则需先配置编译环境，再运行 .run 安装。官方资源包装好驱动后，后续使用又分为两条路径：**依赖 Docker 镜像**与**裸板（不依赖 Docker）**，见[安装驱动](#安装驱动)小节
 
@@ -394,18 +394,18 @@ echo '/userdata/swapfile none swap sw,nofail 0 0' | sudo tee -a /etc/fstab
 
 
 
-## 模型编译
+## 3. 模型编译
 
 请参考[后摩大道® M50 TCIM用户手册 — M50 TCIM用户手册 1.4.0 文档](https://developer.houmoai.com/hmdoc/m50/software-manual/latest/model-build-and-inference/tcim_user_guide/index.html)
 
-## Benchmark
+## 4. Benchmark
 
 请参考[后摩PostMo-ModelZoo模型库用户指南](https://developer.houmoai.com/hmdoc/v3/software/software-manual/v1.5.0/applications/modelzoo_user_guide/02_models/index.html)
 
 
 
 
-## FAQ
+## 5. FAQ
 
 ### PCIe的通道lane数不同
 

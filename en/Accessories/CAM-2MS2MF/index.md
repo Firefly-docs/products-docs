@@ -1,2 +1,2 @@
 # Quick Start
-- [一、Introduction](started.md)
+- [1. Introduction](started.md)

@@ -1,7 +1,7 @@
 
 # HDMI TO MIPI CSI RK628D 驱动板
 
-## 一、产品介绍
+## 1. 产品介绍
 ### 产品简介
 #### HDMI TO MIPI CSI 驱动板
 HDMI TO MIPI CSI驱动板，采用视频桥接芯片RK628D，可实现HDMI视频信号转换为MIPI CSI信号的转换需求，可极大简化硬件设计，提高硬件设计效率，并节约整机成本。可应用于智能微型投影仪、智能显示屏、视频采集转换类产品。
@@ -43,7 +43,7 @@ HDMI TO MIPI CSI驱动板，采用视频桥接芯片RK628D，可实现HDMI视频
 </center>
 
 Line Out：将声卡处理后的模拟信号通过此接口输出到音频设备上。
-## 二、使用方法
+## 2. 使用方法
 
 <!--
 ### 使用说明
@@ -94,7 +94,7 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-raw,format=NV12,width=${WIDT
 
 wait
 ```
-## 三、固件与资料下载
+## 3. 固件与资料下载
 相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/206)。
 
 <!--
@@ -103,7 +103,7 @@ wait
 ### 软件工具
 ### 固件下载
 -->
-## 四、入门教程
+## 4. 入门教程
 ### 固件烧写
 
 | 主控 | USB 线刷 | SD 卡升级 |

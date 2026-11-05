@@ -1,4 +1,4 @@
-# 一、Introduction
+# 1. Introduction
 ## Product introduction
 CAM-2MS2MF is a dual-MIPI dual-lens WDR+NIR module. It is mainly used in scenarios such as face recognition access control, face recognition attendance, gate machines and identification machines.
 
@@ -58,7 +58,7 @@ CAM-2MS2MF is a dual-MIPI dual-lens WDR+NIR module. It is mainly used in scenari
 ## 产品选型
 -->
 
-# 二、Usage
+# 2. Usage
 
 <!--
 ## 使用说明
@@ -97,7 +97,7 @@ The Firefly development board has two MIPI CSI interfaces, one is a 30pin interf
 | RK3588 | [ITX-3588J](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_ITX-3588J.png), [AIO-3588Q](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588Q.png), [AIO-3588JQ](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588Q.png), [AIO-3588MQ](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588Q.png) |
 | RK3588S | [AIO-3588SJD4](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_AIO-3588SJD4.png), [ROC-RK3588S-PC](../../../modules_img/CAM-2MS2MF/cam-2ms2mf_ROC-RK3588S-PC.png) |
 
-# 三、Firmware and Resource download
+# 3. Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/130)。
 
 <!--
@@ -107,7 +107,7 @@ Related documents and firmware download, see the official website [Resource Down
 ## 固件下载
 -->
 
-# 四、Tutorial
+# 4. Tutorial
 ## Flash firmware
 
 <!--

@@ -1,6 +1,6 @@
 # USB转TTL串口模块
 
-## 一、产品介绍
+## 1. 产品介绍
 
 ### 产品简介
 
@@ -28,7 +28,7 @@ USB转串口模块基于CP2104，MicroUSB供电，3PIN排针输出，板载三�
 | 排针 | 2.54mm 3PIN |
 
 
-## 二、使用方法
+## 2. 使用方法
 ### 硬件连接
 
 | 主控 | 板卡型号 | 
@@ -201,5 +201,5 @@ Press CTRL-A Z for help on special keys
 
 设置完成后回到上一菜单，选择 `Save setup as dfl` 即可保存为默认配置，以后将默认使用该配置。
 
-## 三、资料下载
+## 3. 资料下载
 [Firefly USB转UART串口模块（驱动程序）](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)

@@ -1,6 +1,6 @@
 # RK1828 AI 计算模块
 
-## 一、产品介绍
+## 1. 产品介绍
 
 ### 产品简介
 
@@ -22,7 +22,7 @@ RK1828 AI 计算模块（型号：RM182XMC0）基于瑞芯微 RK1828 AI 协处�
 | 外形规格 | M.2 2280（Key B-M） |
 | 支持模型 | LLM（3B~7B 参数量）/ VLM / Omni / ASR / TTS / OCR / CV 等多类模型 |
 
-## 二、使用方法
+## 2. 使用方法
 
 ### 硬件安装
 
@@ -125,7 +125,7 @@ firefly 提供的 sdk 中，在 `1828sdk_path/tools/build_helper` 补充了对�
 会生成对应的 deb 包到目录下，这样就能够直接 `dpkg -i xxx.deb` 进行安装了。
 > Rockchip 原生提供的 deb 编译会安装源代码并需求网络环境，安装编译工具并编译驱动。由于我们的固件里面已经编译了对应的 rkep 驱动，因此提供的 sdk 中已调整 deb 编译脚本，不再装入驱动代码并检测编译工具。
 
-## 三、rknn-smi
+## 3. rknn-smi
 
 rknn-smi (System Management Interface) 工具用于 RK1820/RK1828 设备信息收集、功能配置、日志管理等功能。
 
@@ -149,7 +149,7 @@ rknn3 API version             : 1.1.0
 
 具体使用，详见 RK182X SDK 里的 `docs/Tools/Rockchip_User_Guide_RKNN-SMI_Tool_CN.pdf`
 
-## 四、RKNN3
+## 4. RKNN3
 
 RK182X SDK 的 rknn 目录：
 ```
@@ -182,7 +182,7 @@ RKNN3 Toolkit 是为用户提供在 PC 平台上进行模型转换、推理和�
 #### 模型获取
 用户可以从 [RKNN3_SDK 网盘](https://console.box.lenovo.com/l/H1fig1) 下载预先转换好的 RKNN 模型（提取码：`rknn`），无需自行转换。当前版本（V1.1.0）发布的模型位于 `RKNN3_SDK/rknn3_models/v1.1.0` 目录。
 
-## 常见问题
+## 5. 常见问题
 
 ### 概率性 "Failed to initialize rknnsmi"
 `/lib/systemd/system/rknn3.service` 适当添加延迟：
@@ -215,7 +215,7 @@ sudo apt update
 sudo apt install binutils
 ```
 
-## 更多资料
+## 6. 更多资料
 
 * RKNN3 Model Zoo: https://github.com/airockchip/rknn3-model-zoo
 * RKNN3 Toolkit: https://github.com/airockchip/rknn3-toolkit

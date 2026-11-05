@@ -1,4 +1,4 @@
-# 一、Introduction
+# 1. Introduction
 ## Product introduction
 CAM-8MS1M(IMX415) is a 1/2.8” industrial-grade HD WDR sensor, suitable for various complex light environments.MIPI standard interface, supports 7x24h operating.It is mainly used in scenarios such as face recognition access control, face recognition attendance, gate machines and identification machines.
 <center>
@@ -42,7 +42,7 @@ CAM-8MS1M(IMX415) is a 1/2.8” industrial-grade HD WDR sensor, suitable for var
 |Storage Temperature|-20° C~ +65° C (Humidity : 10%RH ~75%RH)|
 
 
-# 二、Usage
+# 2. Usage
 
 ## Hardware connection
 
@@ -63,11 +63,11 @@ The Firefly development board has two MIPI CSI interfaces, one is a 30pin interf
 | RK3588 | [ITX-3588J](../../../modules_img/IMX415/imx415_ITX-3588J.jpg),[ROC-RK3588S-PC](../../../modules_img/IMX415/imx415_ROC-RK3588S-PC.jpg), [AIO-3588SJD4](../../../modules_img/IMX415/imx415_AIO-3588SJD4.jpg) ,[AIO-3588Q](../../../modules_img/IMX415/imx415_AIO-3588Q.jpg), [AIO-3588JD4](../../Motherboard/AIO-3588JD4/usage_camera.md) |
 | RK3576 | [ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/usage_camera.md), [AIO-3576JD4](../../Motherboard/AIO-3576JD4/usage_camera.md)，[AIO-3576Q](../../Motherboard/AIO-3576Q/usage_camera.md), [AIO-3576C](../../Motherboard/AIO-3576C/usage_camera.md)|
 
-# 三、Firmware and Resource download
+# 3. Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://community.t-firefly.com/en/doc/download/261)
 
 
-# 四、Tutorial
+# 4. Tutorial
 ## Flash firmware
 
 | CPU | USB upgrade | SD upgrade |

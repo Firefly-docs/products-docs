@@ -1,6 +1,6 @@
 # HAILO-8 AI 加速卡
 
-## 一、产品介绍
+## 1. 产品介绍
 ### 产品简介
 HAILO-8 是专为边缘计算设计的 M.2 AI 加速模块，提供最高 26 TOPS INT8 算力，支持 PCIe Gen3 x4，适用于嵌入式设备、工业控制、智能安防和 IoT 推理场景。
 
@@ -40,7 +40,7 @@ HAILO-8 是专为边缘计算设计的 M.2 AI 加速模块，提供最高 26 TOP
 |最佳性能(INT8)|26TOPS|
 
 
-## 二、使用方法
+## 2. 使用方法
 **firefly适配资料通过邮件的方式获取，把订单号发送到<font color=red>sales@t-firefly.com</font>邮箱并注明需获取Hailo-8资料**
 
 ### 部署
@@ -89,7 +89,7 @@ root@firefly:/home/firefly# dmesg | grep hailo
 #### Android
 Firefly 目前已适配 RK3576 的 Android 14 和 RK3588 的 Android 12 两个版本。部署时可参考 Firefly 提供的 Android 部分资料，或依据 Hailo-8 官方文档自行操作。完成部署后，请确认模块是否被识别，可参照 Linux 部署中的“确认加载日志”步骤进行验证。
 
-## 三、性能
+## 3. 性能
 * **PCIe 2.0 x2**
 ```
 root@firefly:/usr/local# hailortcli run /usr/local/yolov8n.hef
@@ -124,7 +124,7 @@ Network yolov8n/yolov8n: 100% | 2814 | FPS: 562.12 | ETA: 00:00:00
 
 <font color=red>注：模块在PCIe 3.0 x4接口下可实现最佳性能，而Firefly多数 M.2 接口为PCIe 2.0 x2，请结合测试数据评估。另需注意散热，散热不足也会导致性能下降。</font>
 
-## 四、资料
+## 4. 资料
 ### HAILO-8 官方资料
 * 驱动: https://github.com/hailo-ai/hailort-drivers
 * 模型: https://github.com/hailo-ai/hailo_model_zoo/tree/master

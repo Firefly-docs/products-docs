@@ -1,4 +1,4 @@
-# Introduction
+# 1. Introduction
 ## Product introduction
 
 ### WCT1FR2201
@@ -55,7 +55,7 @@ WCT1FR2201 WIFI/BT module supports dual -frequency WIFI and Bluetooth 5.0. The m
 * OFDM with BPSK, QPSK, 16QAM,64QAM and 256QAM modulation.Convolutional CodingRate: 1/2,2/3, 3/4,and 5/6
 * HSF compliant.
 
-# 二、Usage
+# 2. Usage
 
 ## Hardware connection
 ### Module connection
@@ -75,11 +75,11 @@ WCT1FR2201 WIFI/BT module supports dual -frequency WIFI and Bluetooth 5.0. The m
 
 
 
-# 三、Firmware and Resource download
+# 3. Firmware and Resource download
 Related documents and firmware download, see the official website [Resource Download](https://en.t-firefly.com/doc/download/207.html)
 
 
-# 四、Tutorial
+# 4. Tutorial
 ## Flash firmware
 <!--
 | PX30 | [AIO-PX30-JD4](https://wiki.t-firefly.com/en/Core-PX30-JD4/programming_firmware.html) | |
