@@ -9,9 +9,30 @@
 <img alt="" src="../../../../rk3576_img/CQ38W-3576/CQ38W-3576.png" width="480">
 </center>
 
-## Size
+## Interface Description
+
+**CQ38W-3576** interfaces include:
+
+The details are shown below:
+<center>
+
+<img alt="" src="../../../../rk3576_img/CQ38W-3576/interface_en.png" width="900">
+</center>
+
+## Structure and Dimensions
 
 <center>
 
 <img alt="" src="../../../../rk3576_img/CQ38W-3576/CQ38W-3576_size.png" width="480">
 </center>
+
+## Resources and Support
+
+* [[Technical Forum]](https://forum.t-firefly.com/): A communication platform with more than 100,000 enterprise customers and users
+
+### Contact
+
+* Email: sales@t-firefly.com
+* Mobile: (+86) 186 8811 7175
+* Landline: 0760-89881218
+* Address: Room 2101, Hongyu Building, No. 57 Zhongshan 4th Road, East District, Zhongshan City, Guangdong Province

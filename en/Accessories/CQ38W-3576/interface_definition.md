@@ -1,6 +1,6 @@
-# Hardware Interfaces
+# Interface Description
 
-## Board Interface Specification
+## Board Interface Description
 
 **CQ38W-3576** interfaces include:
 
