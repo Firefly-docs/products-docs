@@ -1,0 +1,9 @@
+{
+  "title": "开发指南",
+  "pagesIndex": "index",
+  "pages": [
+    "index",
+    "software_usage_guide.md",
+    "board_usage.md"
+  ]
+}

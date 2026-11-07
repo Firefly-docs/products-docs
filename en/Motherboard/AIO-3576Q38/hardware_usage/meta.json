@@ -1,0 +1,16 @@
+{
+  "title": "Hardware Usage",
+  "pagesIndex": "index",
+  "pages": [
+    "index",
+    "usb_to_ttl.md",
+    "android_adb_use.md",
+    "usage_camera.md",
+    "usage_can.md",
+    "usage_led.md",
+    "usage_rtc.md",
+    "usage_sata.md",
+    "usage_uart.md",
+    "usage_watchdog.md"
+  ]
+}

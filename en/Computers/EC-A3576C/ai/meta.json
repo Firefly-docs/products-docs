@@ -1,0 +1,9 @@
+{
+  "title": "AI",
+  "pagesIndex": "index",
+  "pages": [
+    "index",
+    "usage_rkllm.md",
+    "usage_npu.md"
+  ]
+}
