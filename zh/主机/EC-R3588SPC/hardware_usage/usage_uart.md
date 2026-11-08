@@ -1,10 +1,14 @@
 # UART使用
 
-<font color=#FF0000> 本章包含RS232节点和RS485节点的说明</font>
+<Callout title="说明" type="info">
+
+本章包含 RS232 节点和 RS485 节点的说明
+
+</Callout>
 
 ## 硬件 [step]
 
-EC-R3588SPC的串口接口图如下：
+EC-R3588SPC 的串口接口图如下：
 
 <center>
 

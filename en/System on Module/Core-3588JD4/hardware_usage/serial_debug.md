@@ -73,7 +73,9 @@ Connect the device "Typec" and the computer. AIO-3588JD4 Typec has two functions
     After connecting the serial cable, check the serial device file:
 
     <Callout title="Note" type="info">
+
       The debug serial port of this device is exported through the Type-C interface, so the device file under Ubuntu is `/dev/ttyACM0`; if an ordinary USB-to-serial adapter is used, the device file will be `/dev/ttyUSBx`.
+
     </Callout>
 
     ```
@@ -148,7 +150,9 @@ Connect the device "Typec" and the computer. AIO-3588JD4 Typec has two functions
     ```
 
     <Callout title="Note" type="warn">
+
       `Hardware Flow Control` and `Software Flow Control` must be set to No, otherwise it may result in failure to input.
+
     </Callout>
 
     After the setup is complete, go back to the previous menu and select `Save setup as dfl` to save it as the default configuration, which will be used by default in the future.

@@ -33,15 +33,13 @@ GPIO group number calculation formula：number = group * 8 + X
 ```
 For example, if we want to calculate GPIO Pin GPIO0_B4, we could refer to the following step: 
 
-bank = 0;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//GPIO<font color=red>0</font>_B4 => 0,  bank ∈ [0,4]
-
-group = 1;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//GPIO0_<font color=red>B</font>1 => 1,  group ∈ {(A=0), (B=1), (C=2), (D=3)}
-
-X = 4;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//GPIO0_B<font color=red>4</font> => 4, X ∈ [0,7]
-
+```text
+bank = 0;       //GPIO0_B4 => 0,  bank ∈ [0,4]
+group = 1;      //GPIO0_B1 => 1,  group ∈ {(A=0), (B=1), (C=2), (D=3)}
+X = 4;          //GPIO0_B4 => 4, X ∈ [0,7]
 number = group * 8 + X = 1 * 8 + 4 = 12
-
 pin = bank*32 + number= 0 * 32 + 12 = 12;
+```
 
 GPIO0_B4 property of dts is described as:<&gpio0 12 GPIO_ACTIVE_HIGH>,by `kernel/include/dt-bindings/pinctrl/rockchip.h` macro definition,GPIO0_B4 can also be described as <&gpio0 RK_PB4 GPIO_ACTIVE_HIGH>。
 

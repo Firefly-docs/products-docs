@@ -44,7 +44,9 @@ SDK source code and bundle compression package are stored in the Google Drive.
    ```
 
 <Callout title="Note" type="warn">
+
 	To avoid unnecessary errors, please do not unzip the SDK in shared folders, mounted folders or non-english directories.
+
 </Callout>
 
 #### Second, Update SDK
@@ -74,6 +76,7 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 
 
 <Callout title="git clone remote bundle repository failed" type="info">
+
 	When updating the SDK, the following error may occur while cloning the remote bundle repository:
 
 	```
@@ -93,6 +96,7 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	```
 	git config --global https.postBuffer 1048576000
 	```
+
 </Callout>
 ## Core-3588J product compilation method [step]
 
@@ -104,21 +108,21 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
   </CodeBlockTabsList>
 
   <CodeBlockTab value="full">
-	### The overall compilation [step]
+### The overall compilation [step]
 
-	#### HDMI Firmware Compilation
+#### HDMI Firmware Compilation
 	```
 	./FFTools/make.sh -d rk3588-firefly-itx-3588j -j8 -l rk3588_firefly_itx_3588j-userdebug
 	./FFTools/mkupdate/mkupdate.sh -l rk3588_firefly_itx_3588j-userdebug
 	```
 
-	#### 10.1‘ MIPI DSI0 Firmware Compilation：
+#### 10.1‘ MIPI DSI0 Firmware Compilation：
 	```
 	./FFTools/make.sh -d rk3588-firefly-itx-3588j-mipi101-M101014-BE45-A1 -j8 -l rk3588_firefly_itx_3588j_mipi-userdebug
 	./FFTools/mkupdate/mkupdate.sh -l rk3588_firefly_itx_3588j_mipi-userdebug
 	```
-	#### Dual Camera CAM-2MS2MF Compile
-	##### HDMI+CAM-2MS2MF
+#### Dual Camera CAM-2MS2MF Compile
+##### HDMI+CAM-2MS2MF
 	* modify dts
 	```
 	--- a/kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-itx-3588j.dts
@@ -138,7 +142,7 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	./FFTools/make.sh -d rk3588-firefly-itx-3588j -j8 -l rk3588_firefly_itx_3588j-userdebug
 	./FFTools/mkupdate/mkupdate.sh -l rk3588_firefly_itx_3588j-userdebug
 	```
-	#### HDMI TO MIPI_CSI(RK628D) Compile
+#### HDMI TO MIPI_CSI(RK628D) Compile
 	* modify dts
 	```
 	--- a/kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-itx-3588j.dts
@@ -162,7 +166,7 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
   </CodeBlockTab>
 
   <CodeBlockTab value="partial">
-	### Step by step to compile [step]
+### Step by step to compile [step]
 
 	1. Compile the kernel:
 
@@ -192,7 +196,7 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	./mkimage.sh
 	```
 
-	### Packaged into unified firmware update.img [step]
+### Packaged into unified firmware update.img [step]
 
 	After compilation, you can use Firefly official scripts to package into unified firmware, execute the following command：
 	```
@@ -223,19 +227,19 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
   </CodeBlockTab>
 
   <CodeBlockTab value="ota">
-	## OTA Compilation 
+## OTA Compilation
 
-	### Firefly full OTA compilation and upgrade
-	#### Add the -o parameter for OTA full compilation
+### Firefly full OTA compilation and upgrade
+#### Add the -o parameter for OTA full compilation
 	```
 	./FFTools/make.sh -d rk3588-firefly-itx-3588j -j8 -l rk3588_firefly_itx_3588j-userdebug -o
 	```
 
-	#### Generate the full package path
+#### Generate the full package path
 	```
 	out/target/product/rk3588_firefly_itx_3588j/rk3588_firefly_itx_3588j-ota-eng.xxx.zip 
 	```
-	#### Generate the base material package path
+#### Generate the base material package path
 	```
 	out/target/product/rk3588_firefly_itx_3588j/obj/PACKAGING/target_files_intermediates/rk3588_firefly_itx_3588j-target_files-eng.xxx.zip
 	```
@@ -244,14 +248,14 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	cp out/target/product/rk3588_firefly_itx_3588j/obj/PACKAGING/target_files_intermediates/rk3588_firefly_itx_3588j-target_files-eng.xxx.zip ~/ota/v1.zip 
 	```
 
-	#### Package compiled firmware and upgrades
+#### Package compiled firmware and upgrades
 	```
 	./FFTools/mkupdate/mkupdate.sh -l rk3588_firefly_itx_3588j-userdebug
 	```
 	In the `rockdev/Image-rk3588_firefly_itx_3588j/` directory, find the corresponding firmware and burn it to the machine, then the machine can carry out the full package upgrade and the difference package upgrade,put 'update.zip' into /sdcard/ and restart the full package as prompted.
 
-	### Generate the incremental OTA package
-	#### Generate a new base material package 
+### Generate the incremental OTA package
+#### Generate a new base material package
 	The v1.zip basic material package has been made, and another v2.zip material package needs to be made to generate the difference package. You need to modify the kernel DTS code or Android code, and then run the command again.
 
 	```
@@ -262,14 +266,14 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	```
 	 cp out/target/product/rk3588_firefly_itx_3588j/obj/PACKAGING/target_files_intermediates/rk3588_firefly_itx_3588j-target_files-eng.xxx.zip  ~/ota/v2.zip
 	```
-	#### Generate the incremental OTA package command
+#### Generate the incremental OTA package command
 	```
 	out/host/linux-x86/bin/ota_from_target_files --block -v -i ~/ota/v1.zip -p out/host/linux-x86/ -k build/target/product/security/testkey ~/ota/v2.zip update.zip
 	```
-	#### Upgrade OTA incremental OTA package
+#### Upgrade OTA incremental OTA package
 	Put update.zip to the machine sdcard directory reboot, it will automatically recognize, and then click the steps to complete the upgrade.
 
-	### OTA server setup
+### OTA server setup
 
 	Refer to [OTA Documentation](https://community.t-firefly.com/en/doc/download/161) to setup the sever.
 
@@ -277,6 +281,7 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 </CodeBlockTabs>
 
 <Callout title="Some Introduction about Compiling" type="info">
+
 	**Android12.0 can’t be upgraded directly kernel.img and resource.img**
 
 	`kernel.img` and `resource.img` for Android12.0 are included in `boot.img`, After compiling the kernel, you need to run the `./mkimage.sh` command in the android root directory to repackage `boot.img`, and then upgrade `boot.img` of the rockdev/Image-rk3588_firefly_itx_3588j/ directory.
@@ -294,6 +299,7 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	```
 
 	After compiling, `boot.img` in the kernel directory can be directly upgrade.
+
 </Callout>
 
   </CodeBlockTab>
@@ -346,7 +352,9 @@ SDK source code and bundle compression package are stored in the Google Drive.
     ```
 
 <Callout title="Note" type="warn">
+
 	To avoid unnecessary errors, please do not unzip the SDK in shared folders, mounted folders or non-english directories.
+
 </Callout>
 
 #### Second, Update SDK
@@ -376,6 +384,7 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 
 
 <Callout title="git clone remote bundle repository failed" type="info">
+
 	When updating the SDK, the following error may occur while cloning the remote bundle repository:
 
 	```
@@ -395,6 +404,7 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	```
 	git config --global https.postBuffer 1048576000
 	```
+
 </Callout>
 ## Core-3588J product compilation method [step]
 
@@ -406,22 +416,22 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
   </CodeBlockTabsList>
 
   <CodeBlockTab value="full">
-	### The overall compilation [step]
+### The overall compilation [step]
 
-	#### HDMI Firmware Compilation
+#### HDMI Firmware Compilation
 	```
 	./FFTools/make.sh -d rk3588-firefly-itx-3588j -j8 -l rk3588_firefly_itx_3588j-userdebug
 	./FFTools/mkupdate/mkupdate.sh -l rk3588_firefly_itx_3588j-userdebug
 	```
 
-	#### 10.1‘ V3S MIPI DSI0 Firmware Compilation：
+#### 10.1‘ V3S MIPI DSI0 Firmware Compilation：
 	```
 	./FFTools/make.sh -d rk3588-firefly-itx-3588j-mipi101-BSD1218-A101KL68 -j8 -l rk3588_firefly_itx_3588j_mipi-userdebug
 	./FFTools/mkupdate/mkupdate.sh -l rk3588_firefly_itx_3588j_mipi-userdebug
 	```
 	<!--
-	#### Dual Camera CAM-2MS2MF Compile
-	##### HDMI+CAM-2MS2MF
+#### Dual Camera CAM-2MS2MF Compile
+##### HDMI+CAM-2MS2MF
 	* modify dts
 	```
 	--- a/kernel-6.1/arch/arm64/boot/dts/rockchip/rk3588-firefly-itx-3588j.dts
@@ -442,7 +452,7 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	./FFTools/mkupdate/mkupdate.sh -l rk3588_firefly_itx_3588j-userdebug
 	```
 
-	#### HDMI TO MIPI_CSI(RK628D) Compile
+#### HDMI TO MIPI_CSI(RK628D) Compile
 	* modify dts
 	```
 	--- a/kernel-6.1/arch/arm64/boot/dts/rockchip/rk3588-firefly-itx-3588j.dts
@@ -467,7 +477,7 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
   </CodeBlockTab>
 
   <CodeBlockTab value="partial">
-	### Step by step to compile [step]
+### Step by step to compile [step]
 
 	1. Compile the kernel:
 
@@ -497,7 +507,7 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	./mkimage.sh
 	```
 
-	### Packaged into unified firmware update.img [step]
+### Packaged into unified firmware update.img [step]
 
 	After compilation, you can use Firefly official scripts to package into unified firmware, execute the following command：
 	```
@@ -528,19 +538,19 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
   </CodeBlockTab>
 
   <CodeBlockTab value="ota">
-	## OTA Compilation 
+## OTA Compilation
 
-	### Firefly full OTA compilation and upgrade
-	#### Add the -o parameter for OTA full compilation
+### Firefly full OTA compilation and upgrade
+#### Add the -o parameter for OTA full compilation
 	```
 	./FFTools/make.sh -d rk3588-firefly-itx-3588j -j8 -l rk3588_firefly_itx_3588j-userdebug -o
 	```
 
-	#### Generate the full package path
+#### Generate the full package path
 	```
 	out/target/product/rk3588_firefly_itx_3588j/rk3588_firefly_itx_3588j-ota-eng.xxx.zip 
 	```
-	#### Generate the base material package path
+#### Generate the base material package path
 	```
 	out/target/product/rk3588_firefly_itx_3588j/obj/PACKAGING/target_files_intermediates/rk3588_firefly_itx_3588j-target_files-eng.xxx.zip
 	```
@@ -549,14 +559,14 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	cp out/target/product/rk3588_firefly_itx_3588j/obj/PACKAGING/target_files_intermediates/rk3588_firefly_itx_3588j-target_files-eng.xxx.zip ~/ota/v1.zip 
 	```
 
-	#### Package compiled firmware and upgrades
+#### Package compiled firmware and upgrades
 	```
 	./FFTools/mkupdate/mkupdate.sh -l rk3588_firefly_itx_3588j-userdebug
 	```
 	In the `rockdev/Image-rk3588_firefly_itx_3588j/` directory, find the corresponding firmware and burn it to the machine, then the machine can carry out the full package upgrade and the difference package upgrade,put 'update.zip' into /sdcard/ and restart the full package as prompted.
 
-	### Generate the incremental OTA package
-	#### Generate a new base material package 
+### Generate the incremental OTA package
+#### Generate a new base material package
 	The v1.zip basic material package has been made, and another v2.zip material package needs to be made to generate the difference package. You need to modify the kernel DTS code or Android code, and then run the command again.
 
 	```
@@ -567,14 +577,14 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	```
 	 cp out/target/product/rk3588_firefly_itx_3588j/obj/PACKAGING/target_files_intermediates/rk3588_firefly_itx_3588j-target_files-eng.xxx.zip  ~/ota/v2.zip
 	```
-	#### Generate the incremental OTA package command
+#### Generate the incremental OTA package command
 	```
 	out/host/linux-x86/bin/ota_from_target_files --block -v -i ~/ota/v1.zip -p out/host/linux-x86/ -k build/target/product/security/testkey ~/ota/v2.zip update.zip
 	```
-	#### Upgrade OTA incremental OTA package
+#### Upgrade OTA incremental OTA package
 	Put update.zip to the machine sdcard directory reboot, it will automatically recognize, and then click the steps to complete the upgrade.
 
-	### OTA server setup
+### OTA server setup
 
 	Refer to [OTA Documentation](https://community.t-firefly.com/en/doc/download/161) to setup the sever.
 
@@ -582,6 +592,7 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 </CodeBlockTabs>
 
 <Callout title="Some Introduction about Compiling" type="info">
+
 	**Android14.0 can’t be upgraded directly kernel.img and resource.img**
 
 	`kernel.img` and `resource.img` for Android14.0 are included in `boot.img`, After compiling the kernel, you need to run the `./mkimage.sh` command in the android root directory to repackage `boot.img`, and then upgrade `boot.img` of the rockdev/Image-rk3588_firefly_itx_3588j/ directory.
@@ -599,6 +610,7 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	```
 
 	After compiling, `boot.img` in the kernel directory can be directly upgrade.
+
 </Callout>
 
   </CodeBlockTab>

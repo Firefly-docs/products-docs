@@ -73,7 +73,9 @@
     连接好串口线后，查看串口设备文件：
 
     <Callout title="注意" type="info">
+
       本设备的调试串口由 Type-C 接口引出，在 Ubuntu 系统下的设备文件为 `/dev/ttyACM0`；若使用普通 USB 转串口适配器，则设备文件为 `/dev/ttyUSBx`。
+
     </Callout>
 
     ```
@@ -148,7 +150,9 @@
     ```
 
     <Callout title="注意" type="warn">
+
       `Hardware Flow Control` 和 `Software Flow Control` 都要设成 No，否则可能导致无法输入。
+
     </Callout>
 
     设置完成后回到上一菜单，选择 `Save setup as dfl` 即可保存为默认配置，以后将默认使用该配置。

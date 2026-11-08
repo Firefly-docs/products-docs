@@ -13,7 +13,6 @@
 <img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_back.png" width="480">
 </center>
 
-** **
 **Can be matched with the development of baseboard EXT-iCore-3576Q38**
 <center>
 

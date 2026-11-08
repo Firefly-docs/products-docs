@@ -40,7 +40,7 @@ mode, 其中 dphy0_hw 拆分为 csi2_dphy0/ csi2_dphy1/ csi2_dphy2 三个逻辑d
 ### Full Mode设备树配置要点
 
 ### 配置sensor端
-我们需要根据板子原理图的MIPI CSI接口找到sensor是挂在哪个I2C总线上，然后在对应的I2C节点配置camera节点，正确配置camera模组的I2C设备地址、引脚等属性。如下iCore-3588Q的xc7160配置：
+我们需要根据板子原理图的MIPI CSI接口找到sensor是挂在哪个I2C总线上，然后在对应的I2C节点配置camera节点，正确配置camera模组的I2C设备地址、引脚等属性。如下 iCore-3588Q 的xc7160配置：
 * 参考kernel-5.10/arch/arm64/boot/dts/rockchip/rk3588-firefly-aio-cam-8ms1m.dtsi
 ```
 &i2c3 {
@@ -110,7 +110,7 @@ csi2_dphy0与csi2_dphy1/csi2_dphy2互斥,不可同时使用。另外需要使能
 ### isp相关配置
 其中rkisp_vir0节点的`remote-endpoint`指向`mipi_lvds2_sditf`
 
-**iCore-3588Q的xc7160自带ISP，因此不需要RKISP，其他情况sensor默认请打开以下配置**
+**iCore-3588Q 的xc7160自带ISP，因此不需要RKISP，其他情况sensor默认请打开以下配置**
 ```shell
 &rkcif_mipi_lvds2_sditf {
         status = "disabled";
@@ -140,7 +140,7 @@ sensor2->csi2_dphy2->mipi3_csi2->rkcif_mipi_lvds3 - - -> rkcif_mipi_lvds3_sditf-
 ### Split Mode设备树配置要点
 
 ### 配置sensor端
-我们需要根据板子原理图的MIPI CSI接口找到两个sensor是挂在哪个I2C总线上，然后在对应的I2C节点配置两个camera节点，正确配置camera模组的I2C设备地址、引脚等属性。如下iCore-3588Q的gc2053/gc2093配置：
+我们需要根据板子原理图的MIPI CSI接口找到两个sensor是挂在哪个I2C总线上，然后在对应的I2C节点配置两个camera节点，正确配置camera模组的I2C设备地址、引脚等属性。如下 iCore-3588Q 的gc2053/gc2093配置：
 
 
 ### csi2_dphy1/csi2_dphy2相关配置

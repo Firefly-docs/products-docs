@@ -12,7 +12,6 @@
 First prepare an empty folder to place SDK, better under home, here we use `~/proj` as example.
 
 <Callout title="Compilation Notes" type="info">
-	<font color=red>
 
 **Attention:**
 
@@ -23,7 +22,7 @@ First prepare an empty folder to place SDK, better under home, here we use `~/pr
 **3. Do not put SDK under shared directory of VM or non-English path.**
 
 **4. Please get/build SDK as a normal user, root privilege are neither allowed nor required (except installing sth. with apt)**
-	</font>
+
 </Callout>
 
 ### Install Tools [step]
@@ -160,7 +159,9 @@ You can use the following command to update the SDK later:
 	```
 
 	<Callout title="Parameter Description" type="info">
+
 	The CMDLINE attribute is where we are concerned. Take uboot as an example. In 0x00002000@0x00004000(uboot), 0x00004000 is the starting position of the uboot partition, 0x00002000 is the size of the partition, and so on.
+
 	</Callout>
 
 	**package-file**
@@ -197,18 +198,18 @@ You can use the following command to update the SDK later:
 
 
     <CodeBlockTab value="yocto">
-	## Compile Yocto firmware
+## Compile Yocto firmware
 
-	### Get SDK [step]
+### Get SDK [step]
 
 	```bash
 	repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo.git -u https://gitlab.com/firefly-linux/manifests.git -b master -m rk3588_yocto_kirkstone_release.xml
 	.repo/repo/repo sync -c
 	```
 
-	### Compile [step]
+### Compile [step]
 
-	#### Select image
+#### Select image
 	The Yocto project provides some images that can be used without layers. The following table lists currently supported build images and associated recipes.
 
 	| Image name  | Target | provided by layer |
@@ -220,7 +221,7 @@ You can use the following command to update the SDK later:
 	| core-image-x11 | A very basic X11 image with a terminal | Poky |
 
 
-	### Build image [step]
+### Build image [step]
 
 	**The process of building with the bitbake command needs to ensure that the network connection is normal. If it is a customer in inland China, you need to ensure that it can ping the external network**
 
@@ -301,7 +302,7 @@ You can use the following command to update the SDK later:
 
 
 
-	### Adjust compilation speed
+### Adjust compilation speed
 
 	Modify the BB_NUMBER_THREADS and PARALLEL_MAKE variables in the file ```/path/to/yocto/meta-rockchip/conf/machine/firefly-rk3588.conf```. If the number of threads is set too large, the machine may run out of memory and cause compilation failure. Please set the compilation speed according to the configuration of the compilation machine.
 
@@ -316,7 +317,7 @@ You can use the following command to update the SDK later:
 	- [PARALLEL_MAKEINST](https://docs.yoctoproject.org/ref-manual/variables.html#term-PARALLEL_MAKEINST): Extra options passed to the `make` command during the [do_install](https://docs.yoctoproject.org/ref-manual/tasks.html#ref-tasks-install) task in order to specify parallel installation on the local build host.
 
 
-	### More bitbake options
+### More bitbake options
 
 	Fundamentally, BitBake is a generic task execution engine that allows shell and Python tasks to be run efficiently and in parallel while working within complex inter-task dependency constraints. One of BitBake’s main users, OpenEmbedded, takes this core and builds embedded Linux software stacks using a task-oriented approach.For more detailed usage, please check[《bitbake-user-manual》](https://docs.yoctoproject.org/bitbake/2.0/bitbake-user-manual/bitbake-user-manual-intro.html#)。
 
@@ -335,7 +336,7 @@ You can use the following command to update the SDK later:
 	| -c compile -f | It is not recommended that the source code under the temporary directory is changed directly, but if it is, the Yocto Project might not rebuild it unless this option is used. Use this option to force a recompile after the image is deployed. |
 	| -c listtasks | Lists all defined tasks for a target |
 
-	### Partition firmware upgrade
+### Partition firmware upgrade
 
 	The compiled firmware is located in the directory ```<path/to/yocto>/build/tmp/deploy/images/<board>/```
 
@@ -349,7 +350,7 @@ You can use the following command to update the SDK later:
 	* Partition burning is suitable for debugging stage. For firmware verification, please use the unified firmware burning below.
 	* Rootfs does not support separate burning. You need to pack the complete firmware before burning.
 
-	### Unified firmware upgrade
+### Unified firmware upgrade
 
 	The compiled firmware is located in the directory ```<path/to/yocto>/build/tmp/deploy/images/<board>/```, the files to be downloaded are .wic and update.img, and after entering the loader mode, execute the following commands :
 
@@ -362,10 +363,10 @@ You can use the following command to update the SDK later:
 
 	Note: If you are developing on a Windows PC, you can use RKdevtool to directly burn update.img, **no need to burn `<IMAGE NAME>.wic`**. However, please note that update.img is a link file, so you must select the actual file that the link file points to.
 
-	### Related overview
+### Related overview
 	The Yocto Project is an open source collaborative project focused on embedded Linux® operating system development that provides a flexible toolset and development environment that allows embedded device developers worldwide to share technologies, software stacks, configurations and tools for creating these customizations Best Practices for Linux Imaging Collaboration. For more information about the Yocto Project, please refer to the official Yocto Project website:[www.yoctoproject.org/](www.yoctoproject.org/). The Yocto Project home page has the [Yocto Project Reference Manual](https://docs.yoctoproject.org/current/ref-manual/index.html) and the [Yocto Project Overview](https://docs.yoctoproject.org/) and other related documents describe in detail how to build the system.
 
-	### Introduction to Yocto Project Release layer
+### Introduction to Yocto Project Release layer
 
 	| layer  | path | priority(The higher the number, the higher the priority) | describe |
 	| :--------: | :-------: | :-------: | :-------: |
@@ -391,7 +392,6 @@ You can use the following command to update the SDK later:
 Please contact sales@t-firefly.com to get SDK download link and read the readme file
 
 <Callout title="Compilation Notes" type="info">
-	<font color="red">
 
 **Notice:**
 
@@ -402,7 +402,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 **3. Do not place or decompress the SDK archive in Virtual Machine share folder or non-english folder**
 
 **4. Please use the regular user to get/compile the SDK, use root privilege may cause building failure**
-	</font>
+
 </Callout>
 
 	**SDK Introduction**
@@ -488,9 +488,11 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	uuid:boot=7A3F0000-0000-446A-8000-702F00006273
 	```
 	<Callout title="Parameter Description" type="info">
+
 	CMDLINE is what we need to focus on, in "0x00002000@0x00004000(uboot)", 0x00004000 is the start position of uboot, and 0x00002000 is the size of uboot partition. Start position + Partition size = Start position of the next partition. All partitions follow the same rule.
 
 	And the unit of these hex numbers is "block", each block is 512 Byte, which means uboot partition size 0x00002000 is 8192 block = 8192 x 512 / 1024 / 1024 = 4 MiB
+
 	</Callout>
 
 	</Accordion>

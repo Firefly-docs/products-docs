@@ -48,7 +48,9 @@ SDK 源码与 bundle 压缩包均存放在云盘中。
     git reset --hard
     ```
 <Callout title="注意" type="warn">
+
 	不要在共享文件夹、挂载文件夹以及非英文目录解压SDK，避免产生不必要的错误。
+
 </Callout>
 
 ### 更新 SDK
@@ -75,6 +77,7 @@ git rebase FETCH_HEAD
 下载页面选择云盘下载 [Android12.0 Bundle](https://community.t-firefly.com/doc/download/233)。
 
 <Callout title="git clone 远程 bundle 仓库失败" type="info">
+
 	更新 SDK 时，git clone 远程 bundle 仓库可能报如下错误：
 
 	```
@@ -94,6 +97,7 @@ git rebase FETCH_HEAD
 	```
 	git config --global https.postBuffer 1048576000
 	```
+
 </Callout>
 ## ROC-RK3588-RT 产品编译方法 [step]
 
@@ -105,9 +109,9 @@ git rebase FETCH_HEAD
   </CodeBlockTabsList>
 
   <CodeBlockTab value="full">
-	### 整体编译 [step]
+### 整体编译 [step]
 
-	#### HDMI 固件编译 
+#### HDMI 固件编译
 	```
 	./FFTools/make.sh -d roc-rk3588-rt -j8 -l roc_rk3588_rt-userdebug
 	./FFTools/mkupdate/mkupdate.sh -l roc_rk3588_rt-userdebug
@@ -115,7 +119,7 @@ git rebase FETCH_HEAD
   </CodeBlockTab>
 
   <CodeBlockTab value="partial">
-	### 分步编译 [step]
+### 分步编译 [step]
 
 	1. 编译 kernel：
 
@@ -146,7 +150,7 @@ git rebase FETCH_HEAD
 	./mkimage.sh
 	```
 
-	### 打包成统一固件 update.img [step]
+### 打包成统一固件 update.img [step]
 
 	编译完可以用Firefly官方的脚本打包成统一固件，执行如下命令：
 	```
@@ -176,19 +180,19 @@ git rebase FETCH_HEAD
   </CodeBlockTab>
 
   <CodeBlockTab value="ota">
-	## OTA 编译 
+## OTA 编译
 
-	### Firefly 完整OTA编译和升级
-	#### 添加-o 参数进行OTA全局编译
+### Firefly 完整OTA编译和升级
+#### 添加-o 参数进行OTA全局编译
 	```
 	./FFTools/make.sh -d roc-rk3588-rt -j8 -l roc_rk3588_rt-userdebug -o
 	```
 
-	#### 生成完整包路径
+#### 生成完整包路径
 	```
 	out/target/product/roc_rk3588_rt/roc_rk3588_rt-ota-eng.xxx.zip 
 	```
-	#### 生成基础素材包路径
+#### 生成基础素材包路径
 	```
 	out/target/product/roc_rk3588_rt/obj/PACKAGING/target_files_intermediates/roc_rk3588_rt-target_files-eng.xxx.zip
 	```
@@ -197,7 +201,7 @@ git rebase FETCH_HEAD
 	cp out/target/product/roc_rk3588_rt/obj/PACKAGING/target_files_intermediates/roc_rk3588_rt-target_files-eng.xxx.zip ~/ota/v1.zip 
 	```
 
-	#### 打包编译的固件和升级
+#### 打包编译的固件和升级
 	```
 	./FFTools/mkupdate/mkupdate.sh -l roc_rk3588_rt-userdebug
 	```
@@ -205,8 +209,8 @@ git rebase FETCH_HEAD
 	在`rockdev/Image-roc_rk3588_rt/` 目录下，找到对应的固件烧录到机器，此后机器就可以进行全量包升级和差分包升级，
 	把刚刚编译的完整包命名`roc_rk3588_rt-ota-eng.xxx.zip` 为update.zip 放到/sdcard/目录下重启,并按照提示进行全量包升级。
 
-	### OTA 差分包生成
-	#### 生成新的基础素材包 
+### OTA 差分包生成
+#### 生成新的基础素材包
 	如上已经制作了v1.zip的基础素材包，需要再做一个v2.zip的素材包才能生成差分包，需修改内核dts相关代码或android的代码，然后重新执行命令
 	```
 	./FFTools/make.sh -d roc-rk3588-rt -j8 -l roc_rk3588_rt-userdebug -o
@@ -217,20 +221,21 @@ git rebase FETCH_HEAD
 	```
 	 cp out/target/product/roc_rk3588_rt/obj/PACKAGING/target_files_intermediates/roc_rk3588_rt-target_files-eng.xxx.zip  ~/ota/v2.zip
 	```
-	#### 生成差分包命令
+#### 生成差分包命令
 	```
 	out/host/linux-x86/bin/ota_from_target_files --block -v -i ~/ota/v1.zip -p out/host/linux-x86/ -k build/target/product/security/testkey ~/ota/v2.zip update.zip
 	```
-	#### 升级OTA差分包 
+#### 升级OTA差分包
 	把update.zip 放到机器sdcard目录下重启，就会自动识别到，然后按步骤点击升级即可完成。
 
-	### OTA 服务器搭建
+### OTA 服务器搭建
 
 	参考[OTA 文档](https://community.t-firefly.com/doc/download/233)搭建服务器。  
   </CodeBlockTab>
 </CodeBlockTabs>
 
 <Callout title="其他编译说明" type="info">
+
 	**Android12.0 不能直接烧写 kernel.img 和 resource.img**
 
 	Android12.0的`kernel.img`和`resource.img`包含在`boot.img`中，编译kernel后需要在android根目录下执行`./mkimage.sh`重新打包`boot.img`,然后烧写rockdev/Image-roc_rk3588_rt/目录下的`boot.img`。
@@ -247,6 +252,7 @@ git rebase FETCH_HEAD
 	msk ARCH=arm64   BOOT_IMG=../rockdev/Image-roc_rk3588_rt/boot.img roc-rk3588-rt.img -j8
 	```
 	编译后可以直接烧写kernel目录下的`boot.img`。
+
 </Callout>
 
   </CodeBlockTab>
@@ -301,7 +307,9 @@ SDK 源码与 bundle 压缩包均存放在云盘中。如有需要请联系商�
     git reset --hard
     ```
 <Callout title="注意" type="warn">
+
 	不要在共享文件夹、挂载文件夹以及非英文目录解压SDK，避免产生不必要的错误。
+
 </Callout>
 
 ### 更新 SDK
@@ -328,6 +336,7 @@ git rebase FETCH_HEAD
 下载页面选择云盘下载 [Android14.0 Bundle](https://community.t-firefly.com/doc/download/233)。
 
 <Callout title="git clone 远程 bundle 仓库失败" type="info">
+
 	更新 SDK 时，git clone 远程 bundle 仓库可能报如下错误：
 
 	```
@@ -347,6 +356,7 @@ git rebase FETCH_HEAD
 	```
 	git config --global https.postBuffer 1048576000
 	```
+
 </Callout>
 ## ROC-RK3588-RT 产品编译方法 [step]
 
@@ -358,21 +368,21 @@ git rebase FETCH_HEAD
   </CodeBlockTabsList>
 
   <CodeBlockTab value="full">
-	### 整体编译 [step]
+### 整体编译 [step]
 
-	#### HDMI 固件编译 
+#### HDMI 固件编译
 	```
 	./FFTools/make.sh -d roc-rk3588-rt -j8 -l roc_rk3588_rt-userdebug
 	./FFTools/mkupdate/mkupdate.sh -l roc_rk3588_rt-userdebug
 	```
 	<!--
-	#### 显示屏 DM-M10R800 V2 固件编译：
+#### 显示屏 DM-M10R800 V2 固件编译：
 	```
 	./FFTools/make.sh -d  -j8 -l 
 	./FFTools/mkupdate/mkupdate.sh -l 
 	```
-	#### 双目摄像头 CAM-2MS2MF 编译：
-	##### HDMI+CAM-2MS2MF
+#### 双目摄像头 CAM-2MS2MF 编译：
+##### HDMI+CAM-2MS2MF
 	* 修改 dts
 	```
 	--- a/kernel-6.1/arch/arm64/boot/dts/rockchip/roc-rk3588-rt.dts
@@ -393,7 +403,7 @@ git rebase FETCH_HEAD
 	./FFTools/mkupdate/mkupdate.sh -l roc_rk3588_rt-userdebug
 	```
 
-	#### HDMI TO MIPI_CSI(RK628D) 编译
+#### HDMI TO MIPI_CSI(RK628D) 编译
 	* 修改 dts
 	```
 	--- a/kernel-6.1/arch/arm64/boot/dts/rockchip/roc-rk3588-rt.dts
@@ -418,7 +428,7 @@ git rebase FETCH_HEAD
   </CodeBlockTab>
 
   <CodeBlockTab value="partial">
-	### 分步编译 [step]
+### 分步编译 [step]
 
 	1. 编译 kernel：
 
@@ -449,7 +459,7 @@ git rebase FETCH_HEAD
 	./mkimage.sh
 	```
 
-	### 打包成统一固件 update.img [step]
+### 打包成统一固件 update.img [step]
 
 	编译完可以用Firefly官方的脚本打包成统一固件，执行如下命令：
 	```
@@ -479,19 +489,19 @@ git rebase FETCH_HEAD
   </CodeBlockTab>
 
   <CodeBlockTab value="ota">
-	## OTA 编译 
+## OTA 编译
 
-	### Firefly 完整OTA编译和升级
-	#### 添加-o 参数进行OTA全局编译
+### Firefly 完整OTA编译和升级
+#### 添加-o 参数进行OTA全局编译
 	```
 	./FFTools/make.sh -d roc-rk3588-rt -j8 -l roc_rk3588_rt-userdebug -o
 	```
 
-	#### 生成完整包路径
+#### 生成完整包路径
 	```
 	out/target/product/roc_rk3588_rt/roc_rk3588_rt-ota-eng.xxx.zip 
 	```
-	#### 生成基础素材包路径
+#### 生成基础素材包路径
 	```
 	out/target/product/roc_rk3588_rt/obj/PACKAGING/target_files_intermediates/roc_rk3588_rt-target_files-eng.xxx.zip
 	```
@@ -500,7 +510,7 @@ git rebase FETCH_HEAD
 	cp out/target/product/roc_rk3588_rt/obj/PACKAGING/target_files_intermediates/roc_rk3588_rt-target_files-eng.xxx.zip ~/ota/v1.zip 
 	```
 
-	#### 打包编译的固件和升级
+#### 打包编译的固件和升级
 	```
 	./FFTools/mkupdate/mkupdate.sh -l roc_rk3588_rt-userdebug
 	```
@@ -508,8 +518,8 @@ git rebase FETCH_HEAD
 	在`rockdev/Image-roc_rk3588_rt/` 目录下，找到对应的固件烧录到机器，此后机器就可以进行全量包升级和差分包升级，
 	把刚刚编译的完整包命名`roc_rk3588_rt-ota-eng.xxx.zip` 为update.zip 放到/sdcard/目录下重启,并按照提示进行全量包升级。
 
-	### OTA 差分包生成
-	#### 生成新的基础素材包 
+### OTA 差分包生成
+#### 生成新的基础素材包
 	如上已经制作了v1.zip的基础素材包，需要再做一个v2.zip的素材包才能生成差分包，需修改内核dts相关代码或android的代码，然后重新执行命令
 	```
 	./FFTools/make.sh -d roc-rk3588-rt -j8 -l roc_rk3588_rt-userdebug -o
@@ -520,20 +530,21 @@ git rebase FETCH_HEAD
 	```
 	 cp out/target/product/roc_rk3588_rt/obj/PACKAGING/target_files_intermediates/roc_rk3588_rt-target_files-eng.xxx.zip  ~/ota/v2.zip
 	```
-	#### 生成差分包命令
+#### 生成差分包命令
 	```
 	out/host/linux-x86/bin/ota_from_target_files --block -v -i ~/ota/v1.zip -p out/host/linux-x86/ -k build/target/product/security/testkey ~/ota/v2.zip update.zip
 	```
-	#### 升级OTA差分包 
+#### 升级OTA差分包
 	把update.zip 放到机器sdcard目录下重启，就会自动识别到，然后按步骤点击升级即可完成。
 
-	### OTA 服务器搭建
+### OTA 服务器搭建
 
 	参考[OTA 文档](https://community.t-firefly.com/doc/download/233)搭建服务器。  
   </CodeBlockTab>
 </CodeBlockTabs>
 
 <Callout title="其他编译说明" type="info">
+
 	**Android14.0 不能直接烧写 kernel.img 和 resource.img**
 
 	Android14.0的`kernel.img`和`resource.img`包含在`boot.img`中，编译kernel后需要在android根目录下执行`./mkimage.sh`重新打包`boot.img`,然后烧写rockdev/Image-roc_rk3588_rt/目录下的`boot.img`。
@@ -550,6 +561,7 @@ git rebase FETCH_HEAD
 	msk ARCH=arm64 BOOT_IMG=../rockdev/Image-roc_rk3588_rt/boot.img roc-rk3588-rt.img -j8
 	```
 	编译后可以直接烧写kernel目录下的`boot.img`。
+
 </Callout>
 
   </CodeBlockTab>

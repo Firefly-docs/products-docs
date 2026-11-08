@@ -48,7 +48,9 @@ RKNN-Toolkit2 is a development kit that provides users with model conversion, in
 <br></br>
 * <font color=blue>**Quantization**</font>: support to convert float model to quantization model, currently support quantized methods including asymmetric quantization(asymmetric_quantized-8, asymmetric_quantized-16). and support hybrid quantization. 
 <Callout title="Note" type="info">
+
 	Asymmetric_quantized-16 not supported yet
+
 </Callout>
 <br></br>
 * <font color=blue>**Model inference**</font>: Able to simulate Rockchip NPU to run RKNN model on PC and get the inference result.

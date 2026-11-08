@@ -1,5 +1,5 @@
 # Camera
-* Hardware interface
+- Hardware interface
 
 <center>
 
@@ -94,9 +94,9 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! queue ! video/x-raw,width=800,height
 ```
 
 ## Open and preview the camera through streaming [step]
-**Taking EXT-iCore-3576Q38 Debian12 as an example**
+**Taking EXT-iCore-3576Q38 Debian 12 as an example**
 
-1.[FFmedia_demo download](https://drive.google.com/drive/folders/19rIw3ew0D-7FXyh9fxqH20KEM21JbVI2?usp=sharing)
+1. [FFmedia_demo download](https://drive.google.com/drive/folders/19rIw3ew0D-7FXyh9fxqH20KEM21JbVI2?usp=sharing)
 ```
 .
 ├── etc
@@ -116,15 +116,15 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! queue ! video/x-raw,width=800,height
 
 7 directories, 7 files
 ```
-After updating the aforementioned file to the corresponding directory and restarting, EXT-iCore-3576Q38 can be connected to the network and its IP address can be found .
+After updating the aforementioned file to the corresponding directory and restarting, EXT-iCore-3576Q38 can be connected to the network and its IP address can be found.
 
-2.Linux: command to preview:
+2. Linux: command to preview:
 ``` 
 ffplay -rtsp_transport tcp -x 640 -y 480 -an \
   "rtsp://192.168.1.100:8554/live/test"
 ```
 
-3.Windows/Linux: download VLC media player
+3. Windows/Linux: download VLC media player
 ```
 Media -> network streaming
 URL: rtsp://192.168.1.100:8554/live/test

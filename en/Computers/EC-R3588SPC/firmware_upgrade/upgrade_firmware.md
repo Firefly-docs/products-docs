@@ -47,7 +47,9 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
     * Run AndroidTool's RKDevTool.exe
 
     <Callout title="Note" type="warn">
+
       In order to avoid the burning problem caused by the download tool version, it is recommended to use the tool packaged inside the public firmware package for burning.
+
     </Callout>
 
     You can also download [AndroidTool](https://community.t-firefly.com/en/doc/download/182) separately, unzip it, and run `RKDevTool.exe` in the `RKDevTool_Release_v2.xx` directory (note that if you are running Windows 7/8, you need to right-click and select Run as administrator), as shown below:
@@ -235,7 +237,9 @@ At this point, the device should go into `MaskRom mode`.
     ```
 
     <Callout title="Note" type="warn">
+
       If the upgrade fails, try erasing before upgrading.
+
     </Callout>
 
     ```

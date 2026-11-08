@@ -28,7 +28,7 @@
 * 1 x MIPI-D/CPHY-CSI
 * 2 x RJ45 (Support 1Gbps ethernet)
 
-具体如下图：
+As shown in the figure below:
 
 <center>
 

@@ -1,6 +1,10 @@
 # UART
 
-<font color=#FF0000>This chapter contains descriptions of RS232 and RS485 </font>
+<Callout title="Note" type="info">
+
+This chapter contains descriptions of RS232 and RS485
+
+</Callout>
 
 ## Hardware interface [step]
 

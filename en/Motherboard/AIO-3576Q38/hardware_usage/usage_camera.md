@@ -1,5 +1,5 @@
 # Camera
-* Hardware interface
+- Hardware interface
 
 <center>
 
@@ -11,7 +11,7 @@ RK3576 platform has one DCPHY and two DPHY. DPHY can work in two modes: full mod
 
 In short, if we use single-camera, we can set dphy to full mode, if we use dual-camera, we can set dphy to split mode.
 
-**AIO-3576Q38 hardware 1 DPHY is unavailable (CSI3/4)。**
+**AIO-3576Q38 hardware 1 DPHY is unavailable (CSI3/4).**
 
 ## Full Mode Configuration [step]
 

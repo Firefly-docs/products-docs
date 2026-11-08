@@ -2,13 +2,13 @@
 
 ## 前言
 
-本文介绍了如何将主机上的固件，通过Type-C 数据线烧录到 EC-R3588RT_10G 开发板的存储器中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
+本文介绍了如何将主机上的固件，通过 Type-C 数据线烧录到 EC-R3588RT_10G 开发板的存储器中。升级时，需要根据主机操作系统和固件类型来选择合适的升级方式。
 
 ## 准备工具 [step]
 * EC-R3588RT_10G 开发板
 * [固件](https://community.t-firefly.com/doc/download/233)
 * 主机
-* 良好的Type-C 数据线
+* 良好的 Type-C 数据线
 
 ## 准备固件 [step]
 固件可以通过编译SDK获得，也可以通过[资源下载](https://community.t-firefly.com/doc/download/233)处下载公版固件（统一固件）。固件文件一般有两种：
@@ -45,7 +45,9 @@
     * 运行AndroidTool的RKDevTool.exe
 
     <Callout title="注意" type="warn">
+
       为避免由下载工具版本引起的烧写问题，推荐使用公版固件压缩包内部打包好的工具进行烧写
+
     </Callout>
 
     也可以单独下载 [AndroidTool](https://community.t-firefly.com/doc/download/233)，解压，运行 `RKDevTool_Release_v2.xx` 目录里面的 `RKDevTool.exe`（注意，如果是 Windows 7/8,需要按鼠标右键，选择以管理员身份运行），如下图：
@@ -216,7 +218,9 @@ MaskRom 触点/孔位位置如下图所示：
     ```
 
     <Callout title="注意" type="warn">
+
       如果升级失败，可以尝试先擦除后再升级。
+
     </Callout>
 
     ```

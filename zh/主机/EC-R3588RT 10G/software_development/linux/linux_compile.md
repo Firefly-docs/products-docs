@@ -12,7 +12,6 @@
 首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
 
 <Callout title="编译说明" type="info">
-	<font color=red>
 
 **注意：**
 
@@ -23,7 +22,7 @@
 **3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**
 
 **4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
-	</font>
+
 </Callout>
 
 ## 安装工具 [step]
@@ -167,7 +166,9 @@ cd ~/proj/rk3588_sdk
 	```
 
 	<Callout title="parameter参数说明" type="info">
+
 	CMDLINE 属性是我们关注的地方，以 uboot 为例， 0x00002000@0x00004000(uboot) 中 0x00004000 为uboot 分区的起始位置，0x00002000 为分区的大小，以此类推。
+
 	</Callout>
 
 	**package-file**
@@ -215,7 +216,6 @@ cd ~/proj/rk3588_sdk
 请联系销售(sales@t-firefly.com)获取 SDK 下载链接, 并且阅读下载链接的 readme 文档。
 
 <Callout title="编译说明" type="info">
-	<font color="red">
 
 	**注意：**
 
@@ -226,7 +226,7 @@ cd ~/proj/rk3588_sdk
 	**3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**
 
 	**4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
-	</font>
+
 </Callout>
 	**SDK 配置介绍**
 
@@ -312,9 +312,11 @@ cd ~/proj/rk3588_sdk
 	uuid:boot=7A3F0000-0000-446A-8000-702F00006273
 	```
 	<Callout title="parameter参数说明" type="info">
+
 	CMDLINE 属性是我们关注的地方，以 uboot 为例， 0x00002000@0x00004000(uboot) 中 0x00004000 为 uboot 分区的起始位置，0x00002000 为分区的大小，以此类推。分区的起始位置 + 分区大小 = 下一个分区的起始位置。
 
 	parameter 中数字的单位是 “块”，每块 512 字节。所以 uboot 分区大小为 0x00002000，即 8192 块，共 8192 x 512 / 1024 / 1024 = 4 MiB
+
 	</Callout>
 
 	</Accordion>

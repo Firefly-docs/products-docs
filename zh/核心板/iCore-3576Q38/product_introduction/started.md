@@ -13,7 +13,6 @@
 <img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_back.png" width="480">
 </center>
 
-** **
 **可配套开发底板 EXT-iCore-3576Q38**
 <center>
 

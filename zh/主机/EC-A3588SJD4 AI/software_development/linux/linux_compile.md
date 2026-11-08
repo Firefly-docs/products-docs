@@ -13,7 +13,6 @@
 请联系销售(sales@t-firefly.com)获取 SDK 下载链接, 并且阅读下载链接的 readme 文档。
 
 <Callout title="编译说明" type="info">
-	<font color="red">
 
 	**注意：**
 
@@ -24,7 +23,7 @@
 	**3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**
 
 	**4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
-	</font>
+
 </Callout>
 	**SDK 配置介绍**
 
@@ -110,9 +109,11 @@
 	uuid:boot=7A3F0000-0000-446A-8000-702F00006273
 	```
 	<Callout title="parameter参数说明" type="info">
+
 	CMDLINE 属性是我们关注的地方，以 uboot 为例， 0x00002000@0x00004000(uboot) 中 0x00004000 为 uboot 分区的起始位置，0x00002000 为分区的大小，以此类推。分区的起始位置 + 分区大小 = 下一个分区的起始位置。
 
 	parameter 中数字的单位是 “块”，每块 512 字节。所以 uboot 分区大小为 0x00002000，即 8192 块，共 8192 x 512 / 1024 / 1024 = 4 MiB
+
 	</Callout>
 
 	</Accordion>
@@ -130,7 +131,7 @@
     <CodeBlockTab value="ubuntu">
 	编译 Ubuntu 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -158,7 +159,7 @@
 	cd ..
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 ubuntu 字样的配置文件：
 	```bash
@@ -205,9 +206,9 @@
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -216,7 +217,7 @@
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	一般来说自定义开发只涉及 kernel 和 uboot。因此，在进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 
@@ -242,7 +243,7 @@
     <CodeBlockTab value="debian">
 	编译 Debian 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -270,7 +271,7 @@
 	cd ..
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 debian 字样的配置文件：
 	```bash
@@ -305,9 +306,9 @@
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -316,7 +317,7 @@
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	一般来说自定义开发只涉及 kernel 和 uboot。因此，在进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 
@@ -342,7 +343,7 @@
     <CodeBlockTab value="buildroot">
 	编译 Buildroot 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -354,7 +355,7 @@
 	unzip device-tree-compiler ncurses-dev
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 buildroot 字样的配置文件：
 	```bash
@@ -389,9 +390,9 @@
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -400,7 +401,7 @@
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 

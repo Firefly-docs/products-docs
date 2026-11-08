@@ -1,5 +1,5 @@
 # Camera
-* Hardware interface
+- Hardware interface
 
 <center>
 

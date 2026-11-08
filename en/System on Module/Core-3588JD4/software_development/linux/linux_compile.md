@@ -12,7 +12,6 @@
 First prepare an empty folder to place SDK, better under home, here we use `~/proj` as example.
 
 <Callout title="Compilation Notes" type="info">
-	<font color=red>
 
 **Attention:**
 
@@ -23,7 +22,7 @@ First prepare an empty folder to place SDK, better under home, here we use `~/pr
 **3. Do not put SDK under shared directory of VM or non-English path.**
 
 **4. Please get/build SDK as a normal user, root privilege are neither allowed nor required (except installing sth. with apt)**
-	</font>
+
 </Callout>
 
 ### Install Tools [step]
@@ -160,7 +159,9 @@ You can use the following command to update the SDK later:
 	```
 
 	<Callout title="Parameter Description" type="info">
+
 	The CMDLINE attribute is where we are concerned. Take uboot as an example. In 0x00002000@0x00004000(uboot), 0x00004000 is the starting position of the uboot partition, 0x00002000 is the size of the partition, and so on.
+
 	</Callout>
 
 	**package-file**
@@ -198,19 +199,23 @@ You can use the following command to update the SDK later:
     </CodeBlockTabsList>
 
     <CodeBlockTab value="ubuntu">
-	## Compile Ubuntu firmware
+## Compile Ubuntu firmware
 
 	This chapter introduces the compilation process of Ubuntu firmware. It is recommended to develop under Ubuntu 18.04 system environment. If you use other system versions, you may need to adjust the compilation environment accordingly.
 
-<font color=red>**The compilation portion of this tutorial works with SDK versions above v1.0.6e**</font>
+<Callout title="Note" type="warn">
 
-```
+The compilation portion of this tutorial works with SDK versions above v1.0.6e
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK root directory>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### Preparatory work [step]
+### Preparatory work [step]
 
-	#### Set up compilation environment
+#### Set up compilation environment
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -220,9 +225,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### Compile SDK [step]
+### Compile SDK [step]
 
-	#### Precompile Configuration
+#### Precompile Configuration
 
 	There are configuration files for different board in `device/rockchip/rk3588/`, select the configuration file:
 
@@ -230,9 +235,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588jd4-ubuntu.mk
 	```
 
-	#### Build
+#### Build
 
-	##### Automatic compilation
+##### Automatic compilation
 
 	* Download: [Ubuntu rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/290)，put in SDK path
 
@@ -248,7 +253,7 @@ $ readlink -f .repo/manifest.xml
 	```
 	the firmware will be saved to the directory `rockdev/pack/`.
 
-	##### Partial compilation
+##### Partial compilation
 
 	* u-boot
 
@@ -291,19 +296,23 @@ $ readlink -f .repo/manifest.xml
 
 
     <CodeBlockTab value="debian">
-	## Compile Debian firmware
+## Compile Debian firmware
 
 	This chapter introduces the compilation process of Debian firmware. It is recommended to develop under Ubuntu 18.04 system environment. If you use other system versions, you may need to adjust the compilation environment accordingly.
 
-<font color=red>**The compilation portion of this tutorial works with SDK versions above v1.0.6e**</font>
+<Callout title="Note" type="warn">
 
-```
+The compilation portion of this tutorial works with SDK versions above v1.0.6e
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK root directory>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### Preparatory work [step]
+### Preparatory work [step]
 
-	#### Set up compilation environment
+#### Set up compilation environment
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -313,9 +322,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### Compile SDK [step]
+### Compile SDK [step]
 
-	#### Precompile Configuration
+#### Precompile Configuration
 
 	There are configuration files for different board in `device/rockchip/rk3588/`, select the configuration file:
 
@@ -323,9 +332,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588jd4-debian.mk
 	```
 
-	#### Build
+#### Build
 
-	##### Automatic compilation
+##### Automatic compilation
 
 	* Download: [Debian rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/290)，put in SDK path
 
@@ -341,7 +350,7 @@ $ readlink -f .repo/manifest.xml
 	```
 	the firmware will be saved to the directory `rockdev/pack/`.
 
-	##### Partial compilation
+##### Partial compilation
 
 	* u-boot
 
@@ -383,19 +392,23 @@ $ readlink -f .repo/manifest.xml
     </CodeBlockTab>
 
     <CodeBlockTab value="buildroot">
-	## Compile Buildroot firmware
+## Compile Buildroot firmware
 
 	This chapter introduces the compilation process of Buildroot firmware. It is recommended to develop under Ubuntu 18.04 system environment. If you use other system versions, you may need to adjust the compilation environment accordingly.
 
-<font color=red>**The compilation portion of this tutorial works with SDK versions above v1.0.6e**</font>
+<Callout title="Note" type="warn">
 
-```
+The compilation portion of this tutorial works with SDK versions above v1.0.6e
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK root directory>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### Preparatory work [step]
+### Preparatory work [step]
 
-	#### Set up compilation environment
+#### Set up compilation environment
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -405,9 +418,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### Compile SDK [step]
+### Compile SDK [step]
 
-	#### Precompile Configuration
+#### Precompile Configuration
 
 	There are configuration files for different board in `device/rockchip/rk3588/`, select the configuration file:
 
@@ -415,9 +428,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588jd4-buildroot.mk
 	```
 
-	#### Build
+#### Build
 
-	##### Automatic compilation
+##### Automatic compilation
 
 	* start compiling
 	```bash
@@ -425,7 +438,7 @@ $ readlink -f .repo/manifest.xml
 	```
 	the firmware will be saved to the directory `rockdev/pack/`.
 
-	##### Partial compilation
+##### Partial compilation
 
 	* u-boot
 
@@ -473,7 +486,6 @@ $ readlink -f .repo/manifest.xml
 Please contact sales@t-firefly.com to get SDK download link and read the readme file
 
 <Callout title="Compilation Notes" type="info">
-	<font color="red">
 
 **Notice:**
 
@@ -484,7 +496,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 **3. Do not place or decompress the SDK archive in Virtual Machine share folder or non-english folder**
 
 **4. Please use the regular user to get/compile the SDK, use root privilege may cause building failure**
-	</font>
+
 </Callout>
 
 	**SDK Introduction**
@@ -570,9 +582,11 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	uuid:boot=7A3F0000-0000-446A-8000-702F00006273
 	```
 	<Callout title="Parameter Description" type="info">
+
 	CMDLINE is what we need to focus on, in "0x00002000@0x00004000(uboot)", 0x00004000 is the start position of uboot, and 0x00002000 is the size of uboot partition. Start position + Partition size = Start position of the next partition. All partitions follow the same rule.
 
 	And the unit of these hex numbers is "block", each block is 512 Byte, which means uboot partition size 0x00002000 is 8192 block = 8192 x 512 / 1024 / 1024 = 4 MiB
+
 	</Callout>
 
 	</Accordion>
@@ -588,9 +602,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
     </CodeBlockTabsList>
 
     <CodeBlockTab value="ubuntu">
-	## Build Ubuntu Firmware
+## Build Ubuntu Firmware
 
-	### Preparations [step]
+### Preparations [step]
 
 	Run these two commands to install necessary tools
 	```bash
@@ -617,7 +631,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	```
 
 
-	### Configurations [step]
+### Configurations [step]
 
 	Run `./build.sh lunch` to list all available configs, enter a number to select. Please choose one with "ubuntu" keyword:
 	```bash
@@ -664,9 +678,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	Which would you like? [1]:
 	```
 
-	### Compilation [step]
+### Compilation [step]
 
-	#### Full Compilation
+#### Full Compilation
 
 	Run
 	```bash
@@ -675,7 +689,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 
 	The output firmware will be `output/update/update.img`
 
-	#### Partial Compilation
+#### Partial Compilation
 
 	After a full compilation, if you modified kernel or uboot, you can do partial compilation to save time.
 
@@ -699,9 +713,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
     </CodeBlockTab>
 
     <CodeBlockTab value="debian">
-	## Build Debian Firmware
+## Build Debian Firmware
 
-	### Preparations [step]
+### Preparations [step]
 
 	Run these two commands to install necessary tools
 	```bash
@@ -728,7 +742,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	cd ..
 	```
 
-	### Configurations [step]
+### Configurations [step]
 
 	Run `./build.sh lunch` to list all available configs, enter a number to select. Please choose one with "debian" keyword:
 	```bash
@@ -763,9 +777,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	Which would you like? [1]:
 	```
 
-	### Compilation [step]
+### Compilation [step]
 
-	#### Full Compilation
+#### Full Compilation
 
 	Run
 	```bash
@@ -774,7 +788,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 
 	The output firmware will be `output/update/update.img`
 
-	#### Partial Compilation
+#### Partial Compilation
 
 	After a full compilation, if you modified kernel or uboot, you can do partial compilation to save time.
 
@@ -798,9 +812,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
     </CodeBlockTab>
 
     <CodeBlockTab value="buildroot">
-	## Build Buildroot Firmware
+## Build Buildroot Firmware
 
-	### Preparations [step]
+### Preparations [step]
 
 	Run these two commands to install necessary tools
 	```bash
@@ -812,7 +826,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	unzip device-tree-compiler ncurses-dev
 	```
 
-	### Configurations [step]
+### Configurations [step]
 
 	Run `./build.sh lunch` to list all available configs, enter a number to select. Please choose one with "buildroot" keyword:
 	```bash
@@ -847,9 +861,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	Which would you like? [1]:
 	```
 
-	### Compilation [step]
+### Compilation [step]
 
-	#### Full Compilation
+#### Full Compilation
 
 	Run
 	```bash
@@ -858,7 +872,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 
 	The output firmware will be `output/update/update.img`
 
-	#### Partial Compilation
+#### Partial Compilation
 
 	After a full compilation, if you modified kernel or uboot, you can do partial compilation to save time.
 

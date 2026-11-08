@@ -7,13 +7,12 @@ Based on Rockchip new generation of flagship AIOT chip -- RK3588, the
 Cortex-A55x4) 64-bit CPU with up to 2.4 GHz.
 
 Integrated ARM Mali-G610MP4 quad-core GPU, built-in AI accelerator NPU,
-can provide 6Tops computing power, support the mains, support up to 32 GB of memory, support WiFi 6,5G/4G and other
+can provide 6 TOPS computing power, support the mains, support up to 32 GB of memory, support WiFi 6,5G/4G and other
 high-speed wireless network communication, support 8K video codec and
 multiple formats of video input and output, support multiple operating
 systems can be applied to ARM PC, edge computing, cloud server,
 intelligent NVR and other fields.
 
-  
 
 <center>
 
@@ -35,30 +34,30 @@ definition"](../interface_definition.md).
 </center>
 
 
-### The ITX-3588J standard kit contains the following accessories (for reference only): 
+## The ITX-3588J standard kit contains the following accessories (for reference only):
 
--   Core-3588J Core Board x 1
--   12V/7A power adapter x 1
--   MB-JM3-RK3588ITX  x 1
--   Copper tube antenna x 2
--   Type-C data cable x 1
+- Core-3588J Core Board x 1
+- 12V/7A power adapter x 1
+- MB-JM3-RK3588ITX  x 1
+- Copper tube antenna x 2
+- Type-C data cable x 1
 
 Optional accessories include:
 
--   Serial port module of Firefly
+- Serial port module of Firefly
 
 In addition, you may need the following accessories during use:
 
--   Display device
-    -   Monitor or TV with HDMI connector and HDMI cable
--   Network
-    -   100M/1000M Ethernet cable and wired router
-    -   WiFi router
--   Input device
-    -   USB wireless/wired mouse/keyboard
--   Upgrade firmware, debug
-    -   Type-C data cable
-    -   Serial to USB adapter 
+- Display device
+    - Monitor or TV with HDMI connector and HDMI cable
+- Network
+    - 100M/1000M Ethernet cable and wired router
+    - WiFi router
+- Input device
+    - USB wireless/wired mouse/keyboard
+- Upgrade firmware, debug
+    - Type-C data cable
+    - Serial to USB adapter 
 ## Interface Description
 
 **ITX-3588J  V1.3** provides rich interfaces, including:

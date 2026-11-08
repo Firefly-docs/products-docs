@@ -19,7 +19,7 @@ The available hardware resources of RK3588 PCIe and the corresponding relationsh
 ### DTS configuration
 Generally, configure the power supply pin and reset pin in DTS according to the schematic diagram, and select the correct `pcie` controller node and PHY node to enable.
 
-There is the following configuration about [4 x 2.5G mesh EXT board]() in `kernel-5.10/arch/arm64/boot/dts/rockchip/roc-rk3588-rt-ext.dtsi`:
+There is the following configuration about 4 x 2.5G mesh EXT board in `kernel-5.10/arch/arm64/boot/dts/rockchip/roc-rk3588-rt-ext.dtsi`:
 ```
 /* pcie3.0 x 4 Lane */
 &pcie30phy {

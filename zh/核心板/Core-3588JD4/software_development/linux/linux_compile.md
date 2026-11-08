@@ -12,7 +12,6 @@
 首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
 
 <Callout title="编译说明" type="info">
-	<font color=red>
 
 **注意：**
 
@@ -23,7 +22,7 @@
 **3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**
 
 **4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
-	</font>
+
 </Callout>
 
 ## 安装工具 [step]
@@ -167,7 +166,9 @@ cd ~/proj/rk3588_sdk
 	```
 
 	<Callout title="parameter参数说明" type="info">
+
 	CMDLINE 属性是我们关注的地方，以 uboot 为例， 0x00002000@0x00004000(uboot) 中 0x00004000 为uboot 分区的起始位置，0x00002000 为分区的大小，以此类推。
+
 	</Callout>
 
 	**package-file**
@@ -209,15 +210,19 @@ cd ~/proj/rk3588_sdk
 
 	本章介绍 Ubuntu 固件的编译流程，推荐在 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
 
-<font color=red>**本教程的编译部分适用于 v1.0.6e 以上 SDK 版本**</font>
+<Callout title="注意" type="warn">
 
-```
+本教程的编译部分适用于 v1.0.6e 以上 SDK 版本。
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK 根目录>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### 准备工作 [step]
+### 准备工作 [step]
 
-	#### 搭建编译环境
+#### 搭建编译环境
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -227,9 +232,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### 编译 SDK [step]
+### 编译 SDK [step]
 
-	#### 编译前配置
+#### 编译前配置
 
 	在 `device/rockchip/rk3588/` 目录下，有不同板型的配置文件，选择配置文件：
 
@@ -237,9 +242,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588jd4-ubuntu.mk 
 	```
 
-	#### 编译
+#### 编译
 
-	##### 全自动编译
+##### 全自动编译
 
 	* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/161)，放到 SDK 路径下
 
@@ -256,7 +261,7 @@ $ readlink -f .repo/manifest.xml
 
 	生成的完整固件会保存到 `rockdev/pack/` 目录。
 
-	##### 部分编译
+##### 部分编译
 
 	* 编译 u-boot
 
@@ -303,15 +308,19 @@ $ readlink -f .repo/manifest.xml
 
 	本章介绍 Debian 固件的编译流程，推荐在 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
 
-<font color=red>**本教程的编译部分适用于 v1.0.6e 以上 SDK 版本**</font>
+<Callout title="注意" type="warn">
 
-```
+本教程的编译部分适用于 v1.0.6e 以上 SDK 版本。
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK 根目录>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### 准备工作 [step]
+### 准备工作 [step]
 
-	#### 搭建编译环境
+#### 搭建编译环境
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -321,9 +330,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### 编译 SDK [step]
+### 编译 SDK [step]
 
-	#### 编译前配置
+#### 编译前配置
 
 	在 `device/rockchip/rk3588/` 目录下，有不同板型的配置文件，选择配置文件：
 
@@ -331,9 +340,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588jd4-debian.mk
 	```
 
-	#### 编译
+#### 编译
 
-	##### 全自动编译
+##### 全自动编译
 
 	* 下载根文件系统：[Debian 根文件系统(64位)](https://community.t-firefly.com/doc/download/161)，放到 SDK 路径下
 
@@ -350,7 +359,7 @@ $ readlink -f .repo/manifest.xml
 
 	生成的完整固件会保存到 `rockdev/pack/` 目录。
 
-	##### 部分编译
+##### 部分编译
 
 	* 编译 u-boot
 
@@ -396,15 +405,19 @@ $ readlink -f .repo/manifest.xml
 
 	本章介绍 Buildroot 固件的编译流程，推荐在 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
 
-<font color=red>**本教程的编译部分适用于 v1.0.6e 以上 SDK 版本**</font>
+<Callout title="注意" type="warn">
 
-```
+本教程的编译部分适用于 v1.0.6e 以上 SDK 版本。
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK 根目录>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### 准备工作 [step]
+### 准备工作 [step]
 
-	#### 搭建编译环境
+#### 搭建编译环境
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -414,9 +427,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### 编译 SDK [step]
+### 编译 SDK [step]
 
-	#### 编译前配置
+#### 编译前配置
 
 	在 `device/rockchip/rk3588/` 目录下，有不同板型的配置文件，选择配置文件：
 
@@ -424,9 +437,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588jd4-buildroot.mk
 	```
 
-	#### 编译
+#### 编译
 
-	##### 全自动编译
+##### 全自动编译
 
 	全自动编译会执行上述编译、打包操作，生成 RK 固件。
 
@@ -436,7 +449,7 @@ $ readlink -f .repo/manifest.xml
 
 	打包固件，生成的完整固件会保存到 `rockdev/pack/` 目录。
 
-	##### 部分编译
+##### 部分编译
 
 	* 编译 u-boot
 
@@ -485,7 +498,6 @@ $ readlink -f .repo/manifest.xml
 请联系销售(sales@t-firefly.com)获取 SDK 下载链接, 并且阅读下载链接的 readme 文档。
 
 <Callout title="编译说明" type="info">
-	<font color="red">
 
 	**注意：**
 
@@ -496,7 +508,7 @@ $ readlink -f .repo/manifest.xml
 	**3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**
 
 	**4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
-	</font>
+
 </Callout>
 	**SDK 配置介绍**
 
@@ -582,9 +594,11 @@ $ readlink -f .repo/manifest.xml
 	uuid:boot=7A3F0000-0000-446A-8000-702F00006273
 	```
 	<Callout title="parameter参数说明" type="info">
+
 	CMDLINE 属性是我们关注的地方，以 uboot 为例， 0x00002000@0x00004000(uboot) 中 0x00004000 为 uboot 分区的起始位置，0x00002000 为分区的大小，以此类推。分区的起始位置 + 分区大小 = 下一个分区的起始位置。
 
 	parameter 中数字的单位是 “块”，每块 512 字节。所以 uboot 分区大小为 0x00002000，即 8192 块，共 8192 x 512 / 1024 / 1024 = 4 MiB
+
 	</Callout>
 
 	</Accordion>
@@ -602,7 +616,7 @@ $ readlink -f .repo/manifest.xml
     <CodeBlockTab value="ubuntu">
 	编译 Ubuntu 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -630,7 +644,7 @@ $ readlink -f .repo/manifest.xml
 	cd ..
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 ubuntu 字样的配置文件：
 	```bash
@@ -677,9 +691,9 @@ $ readlink -f .repo/manifest.xml
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -688,7 +702,7 @@ $ readlink -f .repo/manifest.xml
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	一般来说自定义开发只涉及 kernel 和 uboot。因此，在进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 
@@ -714,7 +728,7 @@ $ readlink -f .repo/manifest.xml
     <CodeBlockTab value="debian">
 	编译 Debian 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -742,7 +756,7 @@ $ readlink -f .repo/manifest.xml
 	cd ..
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 debian 字样的配置文件：
 	```bash
@@ -777,9 +791,9 @@ $ readlink -f .repo/manifest.xml
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -788,7 +802,7 @@ $ readlink -f .repo/manifest.xml
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	一般来说自定义开发只涉及 kernel 和 uboot。因此，在进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 
@@ -814,7 +828,7 @@ $ readlink -f .repo/manifest.xml
     <CodeBlockTab value="buildroot">
 	编译 Buildroot 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -826,7 +840,7 @@ $ readlink -f .repo/manifest.xml
 	unzip device-tree-compiler ncurses-dev
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 buildroot 字样的配置文件：
 	```bash
@@ -861,9 +875,9 @@ $ readlink -f .repo/manifest.xml
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -872,7 +886,7 @@ $ readlink -f .repo/manifest.xml
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 

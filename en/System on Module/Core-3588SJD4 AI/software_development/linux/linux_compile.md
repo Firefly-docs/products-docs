@@ -13,7 +13,6 @@
 Please contact sales@t-firefly.com to get SDK download link and read the readme file
 
 <Callout title="Compilation Notes" type="info">
-	<font color="red">
 
 **Notice:**
 
@@ -24,7 +23,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 **3. Do not place or decompress the SDK archive in Virtual Machine share folder or non-english folder**
 
 **4. Please use the regular user to get/compile the SDK, use root privilege may cause building failure**
-	</font>
+
 </Callout>
 
 	**SDK Introduction**
@@ -110,9 +109,11 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	uuid:boot=7A3F0000-0000-446A-8000-702F00006273
 	```
 	<Callout title="Parameter Description" type="info">
+
 	CMDLINE is what we need to focus on, in "0x00002000@0x00004000(uboot)", 0x00004000 is the start position of uboot, and 0x00002000 is the size of uboot partition. Start position + Partition size = Start position of the next partition. All partitions follow the same rule.
 
 	And the unit of these hex numbers is "block", each block is 512 Byte, which means uboot partition size 0x00002000 is 8192 block = 8192 x 512 / 1024 / 1024 = 4 MiB
+
 	</Callout>
 
 	</Accordion>
@@ -128,9 +129,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
     </CodeBlockTabsList>
 
     <CodeBlockTab value="ubuntu">
-	## Build Ubuntu Firmware
+## Build Ubuntu Firmware
 
-	### Preparations [step]
+### Preparations [step]
 
 	Run these two commands to install necessary tools
 	```bash
@@ -157,7 +158,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	```
 
 
-	### Configurations [step]
+### Configurations [step]
 
 	Run `./build.sh lunch` to list all available configs, enter a number to select. Please choose one with "ubuntu" keyword:
 	```bash
@@ -204,9 +205,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	Which would you like? [1]:
 	```
 
-	### Compilation [step]
+### Compilation [step]
 
-	#### Full Compilation
+#### Full Compilation
 
 	Run
 	```bash
@@ -215,7 +216,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 
 	The output firmware will be `output/update/update.img`
 
-	#### Partial Compilation
+#### Partial Compilation
 
 	After a full compilation, if you modified kernel or uboot, you can do partial compilation to save time.
 
@@ -239,9 +240,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
     </CodeBlockTab>
 
     <CodeBlockTab value="debian">
-	## Build Debian Firmware
+## Build Debian Firmware
 
-	### Preparations [step]
+### Preparations [step]
 
 	Run these two commands to install necessary tools
 	```bash
@@ -268,7 +269,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	cd ..
 	```
 
-	### Configurations [step]
+### Configurations [step]
 
 	Run `./build.sh lunch` to list all available configs, enter a number to select. Please choose one with "debian" keyword:
 	```bash
@@ -303,9 +304,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	Which would you like? [1]:
 	```
 
-	### Compilation [step]
+### Compilation [step]
 
-	#### Full Compilation
+#### Full Compilation
 
 	Run
 	```bash
@@ -314,7 +315,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 
 	The output firmware will be `output/update/update.img`
 
-	#### Partial Compilation
+#### Partial Compilation
 
 	After a full compilation, if you modified kernel or uboot, you can do partial compilation to save time.
 
@@ -338,9 +339,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
     </CodeBlockTab>
 
     <CodeBlockTab value="buildroot">
-	## Build Buildroot Firmware
+## Build Buildroot Firmware
 
-	### Preparations [step]
+### Preparations [step]
 
 	Run these two commands to install necessary tools
 	```bash
@@ -352,7 +353,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	unzip device-tree-compiler ncurses-dev
 	```
 
-	### Configurations [step]
+### Configurations [step]
 
 	Run `./build.sh lunch` to list all available configs, enter a number to select. Please choose one with "buildroot" keyword:
 	```bash
@@ -387,9 +388,9 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 	Which would you like? [1]:
 	```
 
-	### Compilation [step]
+### Compilation [step]
 
-	#### Full Compilation
+#### Full Compilation
 
 	Run
 	```bash
@@ -398,7 +399,7 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 
 	The output firmware will be `output/update/update.img`
 
-	#### Partial Compilation
+#### Partial Compilation
 
 	After a full compilation, if you modified kernel or uboot, you can do partial compilation to save time.
 

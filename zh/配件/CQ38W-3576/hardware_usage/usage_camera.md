@@ -1,6 +1,6 @@
 # Camera 使用
 
-* 接口效果图
+- 接口效果图
 
 <center>
 
@@ -8,7 +8,7 @@
 </center>
 
 ## PHY 介绍 [step]
-RK3576 芯片有 1 个 DCPHY 和 2 个 DPHY, 两个 DPHY 可以工作在两个模式: full mode 和 split mode。DCPHY 则只有 full mode。
+RK3576 芯片有 1 个 DCPHY 和 2 个 DPHY，两个 DPHY 可以工作在两个模式：full mode 和 split mode。DCPHY 则只有 full mode。
 
 简单点来讲，如果用单目摄像头我们可以配置 full mode，若使用双目摄像头我们可以配置 split mode。
 
@@ -89,9 +89,9 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! queue ! video/x-raw,width=800,height
 ```
 
 ## 通过网络推流打开并预览摄像头 [step]
-**以CQ38W-3576 Debian12为例:**
+**以 CQ38W-3576 Debian 12 为例：**
 
-1.[FFmedia_demo下载](https://pan.baidu.com/e/1MOu9zL7f9vurKo_Dgg7gWA&pwd=1234)
+1. [FFmedia_demo 下载](https://pan.baidu.com/e/1MOu9zL7f9vurKo_Dgg7gWA&pwd=1234)
 ```
 .
 ├── etc
@@ -111,15 +111,15 @@ gst-launch-1.0 v4l2src device=/dev/video0 ! queue ! video/x-raw,width=800,height
 
 7 directories, 7 files
 ```
-更新上述文件到对应目录后重启, CQ38W-3576 连接网络后查得IP地址.
+更新上述文件到对应目录后重启，CQ38W-3576 连接网络后查得 IP 地址。
 
-2.Linux系统命令方式打开预览:
+2. Linux 系统命令方式打开预览：
 ```
 ffplay -rtsp_transport tcp -x 640 -y 480 -an \
   "rtsp://192.168.1.100:8554/live/test"
 ```
 
-3.Windows/Linux系统下载VLC媒体播放器
+3. Windows/Linux 系统下载 VLC 媒体播放器
 ```
 打开 媒体 -> 打开网络串流
 输入: rtsp://192.168.1.100:8554/live/test

@@ -1,6 +1,6 @@
 # Camera 使用
 
-* 接口效果图
+- 接口效果图
 
 <center>
 
@@ -8,11 +8,11 @@
 </center>
 
 ## PHY 介绍 [step]
-RK3576 芯片有 1 个 DCPHY 和 2 个 DPHY, 两个 DPHY 可以工作在两个模式: full mode 和 split mode。DCPHY 则只有 full mode。
+RK3576 芯片有 1 个 DCPHY 和 2 个 DPHY，两个 DPHY 可以工作在两个模式：full mode 和 split mode。DCPHY 则只有 full mode。
 
 简单点来讲，如果用单目摄像头我们可以配置 full mode，若使用双目摄像头我们可以配置 split mode。
 
-**目前AIO-3576Q38硬件 1 个 DPHY 不可用 (CSI3/4)。**
+**目前 AIO-3576Q38 硬件 1 个 DPHY 不可用 (CSI3/4)。**
 
 ## Full Mode 配置 [step]
 

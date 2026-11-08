@@ -26,15 +26,13 @@ GPIO 小组编号计算公式：number = group * 8 + X
 ```
 下面演示GPIO0_C1 pin脚计算方法：
 
-bank = 0;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//GPIO<font color=red>0</font>_C1 => 0,  bank ∈ [0,4]
-
-group = 2;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//GPIO0_<font color=red>C</font>1 => 2,  group ∈ {(A=0), (B=1), (C=2), (D=3)}
-
-X = 1;    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//GPIO0_C<font color=red>1</font> => 1, X ∈ [0,7]
-
+```text
+bank = 0;       //GPIO0_C1 => 0,  bank ∈ [0,4]
+group = 2;      //GPIO0_C1 => 2,  group ∈ {(A=0), (B=1), (C=2), (D=3)}
+X = 1;          //GPIO0_C1 => 1, X ∈ [0,7]
 number = group * 8 + X = 2 * 8 + 1 = 17
-
 pin = bank*32 + number= 0 * 32 + 17 = 17;
+```
 
 GPIO0_C1 对应的设备树属性描述为:<&gpio0 17 GPIO_ACTIVE_HIGH>,由`kernel/include/dt-bindings/pinctrl/rockchip.h`的宏定义可知，也可以将GPIO0_C1描述为<&gpio0 RK_PC1 GPIO_ACTIVE_HIGH>。
 
@@ -232,7 +230,7 @@ static irqreturn_t firefly_gpio_irq(int irq, void *dev_id) //中断函数
 调用 `gpio_to_irq` 把 GPIO 的 PIN 值转换为相应的 IRQ 值，调用 `gpio_request` 申请占用该 IO 口，调用 `request_irq` 申请中断，如果失败要调用 `free_irq` 释放，该函数中 `gpio_info-firefly_irq` 是要申请的硬件中断号，`firefly_gpio_irq` 是中断函数，`gpio_info->firefly_irq_mode` 是中断处理的属性，`firefly-gpio` 是设备驱动程序名称，`gpio_info` 是该设备的 `device` 结构，在注册共享中断时会用到。
 
 ## 复用 [step]
-`该案例仅供参考，最终以实际硬件接口为准`<br>
+该案例仅供参考，最终以实际硬件接口为准。
 GPIO 口除了通用输入输出、中断功能外，还可能有其它复用功能，以GPIO0_C1为例，就有如下几个功能：
 
 |  func0  |  func1  |  func2  |  func3  |

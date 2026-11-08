@@ -50,7 +50,9 @@ RKNN-Toolkit2 是为用户提供在 PC、Rockchip NPU 平台上进行模型转�
 *  <font color=blue>**量化功能**</font>: 支持将浮点模型量化为定点模型，目前支持的量化方法为非对称量化
 ( asymmetric_quantized-8 及 asymmetric_quantized-16 )，并支持混合量化功能 。
 <Callout title="说明" type="info">
+
 	asymmetric_quantized-16 目前版本暂不支持
+
 </Callout>
 <br></br>
 * <font color=blue>**模型推理**</font>: 能够在 PC 上模拟 Rockchip NPU 运行 RKNN 模型并获取推理结果; 或将 RKNN

@@ -12,7 +12,6 @@
 首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
 
 <Callout title="编译说明" type="info">
-	<font color=red>
 
 **注意：**
 
@@ -23,7 +22,7 @@
 **3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**
 
 **4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
-	</font>
+
 </Callout>
 
 ## 安装工具 [step]
@@ -167,7 +166,9 @@ cd ~/proj/rk3588_sdk
 	```
 
 	<Callout title="parameter参数说明" type="info">
+
 	CMDLINE 属性是我们关注的地方，以 uboot 为例， 0x00002000@0x00004000(uboot) 中 0x00004000 为uboot 分区的起始位置，0x00002000 为分区的大小，以此类推。
+
 	</Callout>
 
 	**package-file**
@@ -210,15 +211,19 @@ cd ~/proj/rk3588_sdk
 
 	本章介绍 Ubuntu 固件的编译流程，推荐在 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
 
-<font color=red>**本教程的编译部分适用于 v1.0.6e 以上 SDK 版本**</font>
+<Callout title="注意" type="warn">
 
-```
+本教程的编译部分适用于 v1.0.6e 以上 SDK 版本。
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK 根目录>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### 准备工作 [step]
+### 准备工作 [step]
 
-	#### 搭建编译环境
+#### 搭建编译环境
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -228,9 +233,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### 编译 SDK [step]
+### 编译 SDK [step]
 
-	#### 编译前配置
+#### 编译前配置
 
 	在 `device/rockchip/rk3588/` 目录下，有不同板型的配置文件，选择配置文件：
 
@@ -238,9 +243,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588l-ubuntu.mk 
 	```
 
-	#### 编译
+#### 编译
 
-	##### 全自动编译
+##### 全自动编译
 
 	* 下载根文件系统：[Ubuntu 根文件系统(64位)](https://community.t-firefly.com/doc/download/161)，放到 SDK 路径下
 
@@ -257,7 +262,7 @@ $ readlink -f .repo/manifest.xml
 
 	生成的完整固件会保存到 `rockdev/pack/` 目录。
 
-	##### 部分编译
+##### 部分编译
 
 	* 编译 u-boot
 
@@ -301,16 +306,16 @@ $ readlink -f .repo/manifest.xml
     <CodeBlockTab value="yocto">
 	编译 Yocto 固件
 
-	### 获取SDK [step]
+### 获取SDK [step]
 
 	```bash
 	repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo.git -u https://gitlab.com/firefly-linux/manifests.git -b master -m rk3588_yocto_kirkstone_release.xml
 	.repo/repo/repo sync -c
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 选择映像
+#### 选择映像
 	Yocto 项目提供了一些可用于不 layer 的映像。下表列出目前支持构建的映像和相关配方。
 
 	| 映像名字  | 描述 | 提供的layer |
@@ -321,7 +326,7 @@ $ readlink -f .repo/manifest.xml
 	| core-image-weston | A very basic Wayland image with a terminal | Poky |
 	| core-image-x11 | A very basic X11 image with a terminal | Poky |
 
-	### 编译映像文件 [step]
+### 编译映像文件 [step]
 
 	**使用 bitbake 命令构建的过程需要保证网络连接正常，如果是中国内陆客户需要保证能 ping 通外网**
 
@@ -403,7 +408,7 @@ $ readlink -f .repo/manifest.xml
 
 
 
-	### 调整编译速度
+### 调整编译速度
 
 	修改文件```/path/to/yocto/meta-rockchip/conf/machine/firefly-rk3588.conf``` 中的 BB_NUMBER_THREADS 和 PARALLEL_MAKE 变量配置。若线程数量设置过大可能会导致机器内存不足，导致编译失败。请根据编译机器的配置来设置编译速度。
 
@@ -417,7 +422,7 @@ $ readlink -f .repo/manifest.xml
 	- [PARALLEL_MAKE](https://docs.yoctoproject.org/ref-manual/variables.html#term-PARALLEL_MAKE): Extra options passed to the `make` command during the [do_compile](https://docs.yoctoproject.org/ref-manual/tasks.html#ref-tasks-compile) task in order to specify parallel compilation on the local build host.
 	- [PARALLEL_MAKEINST](https://docs.yoctoproject.org/ref-manual/variables.html#term-PARALLEL_MAKEINST): Extra options passed to the `make` command during the [do_install](https://docs.yoctoproject.org/ref-manual/tasks.html#ref-tasks-install) task in order to specify parallel installation on the local build host.
 
-	### 更多 bitbake 选项
+### 更多 bitbake 选项
 
 	从根本上说，BitBake 是一个通用任务执行引擎，它允许 shell 和 Python 任务高效并行运行，同时在复杂的任务间依赖约束下工作。 BitBake 的主要用户之一，OpenEmbedded，利用这个核心并使用面向任务的方法构建嵌入式 Linux 软件堆栈。更多详细使用方法请查看[《bitbake-user-manual》](https://docs.yoctoproject.org/bitbake/2.0/bitbake-user-manual/bitbake-user-manual-intro.html#)。
 
@@ -438,7 +443,7 @@ $ readlink -f .repo/manifest.xml
 
 
 
-	### 分区固件烧写
+### 分区固件烧写
 
 	编译生成的固件位于目录```<path/to/yocto>/build/tmp/deploy/images/<board>/```
 
@@ -452,7 +457,7 @@ $ readlink -f .repo/manifest.xml
 	* 分区烧写适用于调试阶段，固件验证请使用下文的统一固件烧写
 	* rootfs 不支持单独烧写，需要打包完整固件再烧写
 
-	### 统一固件烧写
+### 统一固件烧写
 
 	编译生成的固件位于目录```<path/to/yocto>/build/tmp/deploy/images/<board>/```，待下载的文件为.wic与update.img，进入loader模式后执行如下命令：
 
@@ -464,11 +469,11 @@ $ readlink -f .repo/manifest.xml
 
 	注意：如果客户在 Windows PC 上开发，使用 RKdevtool 直接烧录 update.img 即可，**不需要烧录 `<IMAGE NAME>.wic`**。但是要注意一点是 update.img 是一个链接文件，实际得选择链接文件所指向的实际文件。
 
-	### 相关概述
+### 相关概述
 	Yocto Project 是一个专注于嵌入式 Linux® 操作系统开发的开源协作项目，它提供灵活的工具集和开发环境，允许全球的嵌入式设备开发人员通过共享技术，软件堆栈，配置和用于创建这些定制的Linux映像的最佳实践进行协作。有关 Yocto 项目的更多信息，请参阅 Yocto Project 官网：[www.yoctoproject.org/](www.yoctoproject.org/)。 Yocto Project 官网上有 [Yocto Project Reference Manual](https://docs.yoctoproject.org/current/ref-manual/index.html) 和 [Yocto Project Overview](https://docs.yoctoproject.org/) 等相关文档详细描述了如何构建系统。
 
 
-	### Yocto Project Release layer 介绍
+### Yocto Project Release layer 介绍
 
 	| layer  | 路径 | 优先级(数字越大优先级越高) | 描述 |
 	| :--------: | :-------: | :-------: | :-------: |
@@ -488,15 +493,19 @@ $ readlink -f .repo/manifest.xml
 
 	本章介绍 Debian 固件的编译流程，推荐在 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
 
-<font color=red>**本教程的编译部分适用于 v1.0.6e 以上 SDK 版本**</font>
+<Callout title="注意" type="warn">
 
-```
+本教程的编译部分适用于 v1.0.6e 以上 SDK 版本。
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK 根目录>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### 准备工作 [step]
+### 准备工作 [step]
 
-	#### 搭建编译环境
+#### 搭建编译环境
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -506,9 +515,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### 编译 SDK [step]
+### 编译 SDK [step]
 
-	#### 编译前配置
+#### 编译前配置
 
 	在 `device/rockchip/rk3588/` 目录下，有不同板型的配置文件，选择配置文件：
 
@@ -516,9 +525,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588l-debian.mk
 	```
 
-	#### 编译
+#### 编译
 
-	##### 全自动编译
+##### 全自动编译
 
 	* 下载根文件系统：[Debian 根文件系统(64位)](https://community.t-firefly.com/doc/download/161)，放到 SDK 路径下
 
@@ -535,7 +544,7 @@ $ readlink -f .repo/manifest.xml
 
 	生成的完整固件会保存到 `rockdev/pack/` 目录。
 
-	##### 部分编译
+##### 部分编译
 
 	* 编译 u-boot
 
@@ -581,15 +590,19 @@ $ readlink -f .repo/manifest.xml
 
 	本章介绍 Buildroot 固件的编译流程，推荐在 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
 
-<font color=red>**本教程的编译部分适用于 v1.0.6e 以上 SDK 版本**</font>
+<Callout title="注意" type="warn">
 
-```
+本教程的编译部分适用于 v1.0.6e 以上 SDK 版本。
+
+</Callout>
+
+```bash
 $ readlink -f .repo/manifest.xml
-/home/daijh/p/rk3588/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
+<SDK 根目录>/.repo/manifests/rk3588/rk3588_linux_release_20230301_v1.0.6e.xml
 ```
-	### 准备工作 [step]
+### 准备工作 [step]
 
-	#### 搭建编译环境
+#### 搭建编译环境
 
 	```bash
 	sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
@@ -599,9 +612,9 @@ $ readlink -f .repo/manifest.xml
 	device-tree-compiler ncurses-dev \
 	```
 
-	### 编译 SDK [step]
+### 编译 SDK [step]
 
-	#### 编译前配置
+#### 编译前配置
 
 	在 `device/rockchip/rk3588/` 目录下，有不同板型的配置文件，选择配置文件：
 
@@ -609,9 +622,9 @@ $ readlink -f .repo/manifest.xml
 	./build.sh aio-3588l-buildroot.mk
 	```
 
-	#### 编译
+#### 编译
 
-	##### 全自动编译
+##### 全自动编译
 
 	全自动编译会执行上述编译、打包操作，生成 RK 固件。
 
@@ -621,7 +634,7 @@ $ readlink -f .repo/manifest.xml
 
 	打包固件，生成的完整固件会保存到 `rockdev/pack/` 目录。
 
-	##### 部分编译
+##### 部分编译
 
 	* 编译 u-boot
 
@@ -670,7 +683,6 @@ $ readlink -f .repo/manifest.xml
 请联系销售(sales@t-firefly.com)获取 SDK 下载链接, 并且阅读下载链接的 readme 文档。
 
 <Callout title="编译说明" type="info">
-	<font color="red">
 
 	**注意：**
 
@@ -681,7 +693,7 @@ $ readlink -f .repo/manifest.xml
 	**3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**
 
 	**4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
-	</font>
+
 </Callout>
 	**SDK 配置介绍**
 
@@ -767,9 +779,11 @@ $ readlink -f .repo/manifest.xml
 	uuid:boot=7A3F0000-0000-446A-8000-702F00006273
 	```
 	<Callout title="parameter参数说明" type="info">
+
 	CMDLINE 属性是我们关注的地方，以 uboot 为例， 0x00002000@0x00004000(uboot) 中 0x00004000 为 uboot 分区的起始位置，0x00002000 为分区的大小，以此类推。分区的起始位置 + 分区大小 = 下一个分区的起始位置。
 
 	parameter 中数字的单位是 “块”，每块 512 字节。所以 uboot 分区大小为 0x00002000，即 8192 块，共 8192 x 512 / 1024 / 1024 = 4 MiB
+
 	</Callout>
 
 	</Accordion>
@@ -787,7 +801,7 @@ $ readlink -f .repo/manifest.xml
     <CodeBlockTab value="ubuntu">
 	编译 Ubuntu 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -815,7 +829,7 @@ $ readlink -f .repo/manifest.xml
 	cd ..
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 ubuntu 字样的配置文件：
 	```bash
@@ -862,9 +876,9 @@ $ readlink -f .repo/manifest.xml
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -873,7 +887,7 @@ $ readlink -f .repo/manifest.xml
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	一般来说自定义开发只涉及 kernel 和 uboot。因此，在进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 
@@ -899,7 +913,7 @@ $ readlink -f .repo/manifest.xml
     <CodeBlockTab value="debian">
 	编译 Debian 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -927,7 +941,7 @@ $ readlink -f .repo/manifest.xml
 	cd ..
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 debian 字样的配置文件：
 	```bash
@@ -962,9 +976,9 @@ $ readlink -f .repo/manifest.xml
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -973,7 +987,7 @@ $ readlink -f .repo/manifest.xml
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	一般来说自定义开发只涉及 kernel 和 uboot。因此，在进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 
@@ -999,7 +1013,7 @@ $ readlink -f .repo/manifest.xml
     <CodeBlockTab value="buildroot">
 	编译 Buildroot 固件
 
-	### 准备工作 [step]
+### 准备工作 [step]
 
 	执行下面两条命令来安装需要的工具
 	```bash
@@ -1011,7 +1025,7 @@ $ readlink -f .repo/manifest.xml
 	unzip device-tree-compiler ncurses-dev
 	```
 
-	### 编译前配置 [step]
+### 编译前配置 [step]
 
 	执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应的配置文件，注意要选择带有 buildroot 字样的配置文件：
 	```bash
@@ -1046,9 +1060,9 @@ $ readlink -f .repo/manifest.xml
 	Which would you like? [1]:
 	```
 
-	### 编译 [step]
+### 编译 [step]
 
-	#### 完整编译
+#### 完整编译
 
 	执行如下命令即可
 	```bash
@@ -1057,7 +1071,7 @@ $ readlink -f .repo/manifest.xml
 
 	编译完成后会生成完整固件 `output/update/update.img`
 
-	#### 部分编译
+#### 部分编译
 
 	进行过一次完整编译后，如果后续又修改了 kernel 或 uboot，可以部分编译来加快速度。
 

@@ -26,7 +26,7 @@ ROC-RK3588-RT 开发板上的 PCIe3.0 x 4 接口使用了 RK3588 的 `PCIe Gen3 
 
 示例： 
 
-以下是一段 [4 x 2.5G 网口扩展板]() 的DTS配置 `kernel-5.10/arch/arm64/boot/dts/rockchip/roc-rk3588-rt-ext.dtsi` ：
+以下是一段 4 x 2.5G 网口扩展板的DTS配置 `kernel-5.10/arch/arm64/boot/dts/rockchip/roc-rk3588-rt-ext.dtsi` ：
 ```
 /* pcie3.0 x 4 Lane */
 &pcie30phy {
