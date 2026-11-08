@@ -15,7 +15,7 @@ intelligent NVR and other fields.
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/ROC-RK3588-RT/ROC-RK3588-RT.png" width="600">
+<img alt="" src="../../../../rk3588_img/ROC-RK3588-RT/ROC-RK3588-RT.png" width="480">
 </center>
 
 ## Interface Description

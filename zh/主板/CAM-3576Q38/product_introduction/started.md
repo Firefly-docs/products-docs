@@ -1,26 +1,27 @@
 # 介绍
 
 [规格书](https://download.t-firefly.com/Spec/CoreBorads/ICORE-3576Q38_ICORE-3576JQ38_ICORE-3576MQ38_Specification_CN.pdf) | [购买链接](https://item.taobao.com/item.htm?id=961156815691) | [下载资料](https://community.t-firefly.com/doc/download/327)
+
 **iCore-3576Q38**采用 Rockchip 八核 AIOT 处理器 RK3576，核心板尺寸仅 38 × 38mm，集成 6 TOPS 算力 NPU，具有实时网络、Flexbus、硬件资源隔离、DSMC 等工业新特性，支持现代主流大模型私有化部署，最高支持 8K 视频解码，广泛适用于边缘计算、大模型本地化、机器视觉、工业摄像头、工控主机、汽车电子等行业领域。
 
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_front.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_front.png" width="480">
 </center>
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_back.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_back.png" width="480">
 </center>
 
 ** **
 **可配套开发底板 EXT-iCore-3576Q38**
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q38/EXT-iCore-3576Q38_front.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q38/EXT-iCore-3576Q38_front.png" width="480">
 </center>
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q38/EXT-iCore-3576Q38_back.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q38/EXT-iCore-3576Q38_back.png" width="480">
 </center>
 
 ## 接口描述

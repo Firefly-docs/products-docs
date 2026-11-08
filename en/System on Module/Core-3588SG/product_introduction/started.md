@@ -15,7 +15,7 @@ intelligent NVR and other fields.
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588SG/Core-3588SG-B.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588SG/Core-3588SG-B.png" width="480">
 </center>
 
 The AIO-3588SG development board consists of the core board **Core-3588SG** + **MB-G-
@@ -29,7 +29,7 @@ definition"](../interface_definition.md).
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588SG/AIO-3588SG-B-1.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588SG/AIO-3588SG-B-1.png" width="480">
 </center>
 
 ### The AIO-3588SG standard kit contains the following accessories (for reference only): 

@@ -7,7 +7,7 @@ The EC-R3588SPC embedded computer is based on the high-performance open-source R
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-R3588SPC/EC-R3588SPC.png" width="600">
+<img alt="" src="../../../../rk3588_img/EC-R3588SPC/EC-R3588SPC.png" width="480">
 </center>
 
 ## Interface Description

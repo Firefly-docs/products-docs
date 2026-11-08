@@ -9,14 +9,14 @@
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588SG/Core-3588SG-B.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588SG/Core-3588SG-B.png" width="480">
 </center>
 
 开发板由核心板 Core-3588J + 底板 MB-G-RK3588S 组成。AIO-3588SG 拥有 RGMII、CAN、USB3.0、I2C、SPI、UART、GPIO、MIPI-DSI 以及 MIPI-CSI 等丰富接口，提供多种的供电方式。可直接应用到各种智能产品中，加速产品落地，详细内容可参考下方接口描述。  
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588SG/AIO-3588SG-B-1.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588SG/AIO-3588SG-B-1.png" width="480">
 </center>
 
 ### AIO-3588SG 标准套装包含以下配件(仅供参考)：

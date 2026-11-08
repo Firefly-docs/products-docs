@@ -10,7 +10,7 @@
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588J/Core-3588J-front.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588J/Core-3588J-front.png" width="480">
 </center>
       
 
@@ -18,7 +18,7 @@
   
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588J/ITX-3588J.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588J/ITX-3588J.png" width="480">
 </center>
   
 ### ITX-3588J 标准套装包含以下配件(仅供参考)：

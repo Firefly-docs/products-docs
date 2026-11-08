@@ -6,7 +6,7 @@
 
 <center>
 
-<img alt="" src="../../../../rk3576_img/Core-3576JD4/Core-3576JD4.png" width="600">
+<img alt="" src="../../../../rk3576_img/Core-3576JD4/Core-3576JD4.png" width="480">
 </center>
 
 ## Interface Description

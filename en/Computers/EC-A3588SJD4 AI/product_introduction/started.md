@@ -7,7 +7,7 @@ The EC-A3588SJD4-AI embedded host is based on the AIO-3588SJD4 AI high-performan
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-A3588SJD4-AI/EC-A3588SJD4-AI.jpg" width="600">
+<img alt="" src="../../../../rk3588_img/EC-A3588SJD4-AI/EC-A3588SJD4-AI.jpg" width="480">
 </center>
 
 ## Interface Description

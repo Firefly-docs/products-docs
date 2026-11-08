@@ -1,26 +1,27 @@
 # Introduction
 
 [Specification](https://download.t-firefly.com/Spec/CoreBorads/iCore-3576Q38_Specification_EN.pdf) | [Purchase](https://www.firefly.store/collections/industrial-modules/products/icore-3576q38) | [Downloads](https://community.t-firefly.com/en/doc/download/327)
+
 **iCore-3576Q38** Equipped with Rockchip octa-core AIoT processor RK3576, supports private deployment of modern mainstream large models and decoding of up to 8K video. With a compact size of just 38 × 38mm, this SoM integrates 6 TOPS NPU and features industrial-grade innovations such as real-time networking, Flexbus, hardware resource isolation, and DSMC.
 
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_front.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_front.png" width="480">
 </center>
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_back.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q38/iCore-3576Q38_back.png" width="480">
 </center>
 
 ** **
 **Can be matched with the development of baseboard EXT-iCore-3576Q38**
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q38/EXT-iCore-3576Q38_front.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q38/EXT-iCore-3576Q38_front.png" width="480">
 </center>
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q38/EXT-iCore-3576Q38_back.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q38/EXT-iCore-3576Q38_back.png" width="480">
 </center>
 
 ## Interface Description

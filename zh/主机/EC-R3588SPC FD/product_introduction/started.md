@@ -7,7 +7,7 @@ EC-R3588S-FD 嵌入式主机，基于 ROC-3588S-PC 高性能开源平台，长�
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-R3588SPC-FD/EC-R3588SPC-FD.png" width="600">
+<img alt="" src="../../../../rk3588_img/EC-R3588SPC-FD/EC-R3588SPC-FD.png" width="480">
 </center>
 
 ## 接口描述

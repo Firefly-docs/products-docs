@@ -17,7 +17,7 @@ intelligent NVR and other fields.
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588SJD4/Core-3588SJD4-front.jpg" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588SJD4/Core-3588SJD4-front.jpg" width="480">
 </center>
 
 The [AIO-3588SJD4](https://item.taobao.com/item.htm?id=676534397877) development board consists of the core board **Core-3588SJD4** + **MB-JD4-
@@ -31,7 +31,7 @@ definition"](../interface_definition.md).
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588SJD4/AIO-3588SJD4.jpg" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588SJD4/AIO-3588SJD4.jpg" width="480">
 </center>
 
 

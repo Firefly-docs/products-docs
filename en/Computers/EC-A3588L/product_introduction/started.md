@@ -7,7 +7,7 @@ It is based on Rockchip's new-generation flagship AIoT chip -- **RK3588**, which
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-A3588L/EC-A3588L_1.png" width="600">
+<img alt="" src="../../../../rk3588_img/EC-A3588L/EC-A3588L_1.png" width="480">
 </center>
 ## Interface Description
 

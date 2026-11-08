@@ -19,7 +19,7 @@ intelligent NVR and other fields.
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/iCore-3588Q/iCore-3588Q-front.png" width="600">
+<img alt="" src="../../../../rk3588_img/iCore-3588Q/iCore-3588Q-front.png" width="480">
 </center>
 
 The [AIO-3588Q](https://www.firefly.store/products/aio-3588q-8k-ai-mainboard) development board consists of the core board **iCore-3588Q** + **MB-Q-RK3588**. AIO-3588Q
@@ -32,7 +32,7 @@ definition"](../interface_definition.md).
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/iCore-3588Q/AIO-3588Q.jpg" width="600">
+<img alt="" src="../../../../rk3588_img/iCore-3588Q/AIO-3588Q.jpg" width="480">
 </center>
 
 

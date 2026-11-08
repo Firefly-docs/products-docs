@@ -6,7 +6,7 @@
 
 <center>
 
-<img alt="" src="../../../../rk3576_img/AIO-3576C/AIO-3576C.jpg" width="600">
+<img alt="" src="../../../../rk3576_img/AIO-3576C/AIO-3576C.jpg" width="480">
 </center>
 
 ## Interface Description

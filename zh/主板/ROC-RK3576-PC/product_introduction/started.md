@@ -11,7 +11,7 @@
 
 <center>
 
-<img alt="" src="../../../../rk3576_img/ROC-RK3576-PC/ROC-RK3576-PC.png" width="600">
+<img alt="" src="../../../../rk3576_img/ROC-RK3576-PC/ROC-RK3576-PC.png" width="480">
 </center>
 
 ## 接口描述

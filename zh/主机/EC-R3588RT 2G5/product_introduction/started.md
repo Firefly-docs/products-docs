@@ -8,7 +8,7 @@ EC-R3588RT_2G5 采用Rockchip RK3588旗舰级八核64位处理器，主频高达
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-R3588RT_2G5/EC-R3588RT_2G51.jpg" width="600">
+<img alt="" src="../../../../rk3588_img/EC-R3588RT_2G5/EC-R3588RT_2G51.jpg" width="480">
 </center>
 ## 接口描述
 

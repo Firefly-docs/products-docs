@@ -8,7 +8,7 @@ EC-I3588J 嵌入式主机，基于 ITX-3588J 高性能开源平台，配置工�
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-I3588J/EC-I3588J.png" width="600">
+<img alt="" src="../../../../rk3588_img/EC-I3588J/EC-I3588J.png" width="480">
 </center>
 
 ## 接口描述

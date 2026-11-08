@@ -8,7 +8,7 @@ Based on Rockchip's all-new flagship AIoT chip -- **RK3588**, it adopts an 8nm L
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-I3588J/EC-I3588J.png" width="600">
+<img alt="" src="../../../../rk3588_img/EC-I3588J/EC-I3588J.png" width="480">
 </center>
 
 ## Interface Description

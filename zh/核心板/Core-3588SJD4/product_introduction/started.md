@@ -10,7 +10,7 @@
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588SJD4/Core-3588SJD4-front.jpg" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588SJD4/Core-3588SJD4-front.jpg" width="480">
 </center>
       
 
@@ -18,7 +18,7 @@
   
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588SJD4/AIO-3588SJD4.jpg" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588SJD4/AIO-3588SJD4.jpg" width="480">
 </center>
   
 ### AIO-3588SJD4 标准套装包含以下配件(仅供参考)：

@@ -15,7 +15,7 @@ intelligent NVR and other fields.
  
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588JD4/Core-3588JD4-front.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588JD4/Core-3588JD4-front.png" width="480">
 </center>
 
 The AIO-3588JD4 development board consists of the core board **Core-3588JD4** + **MB-JD4-RK3588**. AIO-3588JD4
@@ -27,7 +27,7 @@ definition"](../interface_definition.md).
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588JD4/AIO-3588JD4-A.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588JD4/AIO-3588JD4-A.png" width="480">
 </center>
 
 ## Interface Description

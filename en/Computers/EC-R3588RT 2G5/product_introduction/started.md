@@ -8,7 +8,7 @@ the 2.5G Ethernet port supports jumbo frames, and features high bandwidth and lo
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-R3588RT_2G5/EC-R3588RT_2G51.jpg" width="600">
+<img alt="" src="../../../../rk3588_img/EC-R3588RT_2G5/EC-R3588RT_2G51.jpg" width="480">
 </center>
 ## Interface Description
 

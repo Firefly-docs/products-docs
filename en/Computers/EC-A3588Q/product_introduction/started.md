@@ -6,7 +6,7 @@ The EC-A3588Q adopts the Rockchip RK3588 octa-core 64-bit processor and can be c
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-A3588Q/EC-A3588JQ1.png" width="600">
+<img alt="" src="../../../../rk3588_img/EC-A3588Q/EC-A3588JQ1.png" width="480">
 </center>
 
 ## Interface Description

@@ -6,7 +6,7 @@
 
 <center>
 
-<img alt="" src="../../../../rk3576_img/AIO-3576Q38/AIO-3576Q38.jpg" width="600">
+<img alt="" src="../../../../rk3576_img/AIO-3576Q38/AIO-3576Q38.jpg" width="480">
 </center>
 
 ## 接口描述

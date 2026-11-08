@@ -8,7 +8,7 @@ EC-A3588L 嵌入式主机，基于 AIO-3588L 高性能开源平台，配置工�
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/EC-A3588L/EC-A3588L_1.png" width="600">
+<img alt="" src="../../../../rk3588_img/EC-A3588L/EC-A3588L_1.png" width="480">
 </center>
 
 ## 接口描述

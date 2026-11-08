@@ -6,7 +6,7 @@
 
 <center>
 
-<img alt="" src="../../../../rk3576_img/iCore-3576Q/iCore-3576Q.png" width="600">
+<img alt="" src="../../../../rk3576_img/iCore-3576Q/iCore-3576Q.png" width="480">
 </center>
 
 ## 接口描述

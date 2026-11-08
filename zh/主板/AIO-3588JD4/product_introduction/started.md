@@ -9,14 +9,14 @@
 
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588JD4/Core-3588JD4-front.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588JD4/Core-3588JD4-front.png" width="480">
 </center>
 
 AIO-3588JD4 开发板由核心板 Core-3588JD4 + 底板 MB-JD4-RK3588 组成,。AIO-3588JD4 拥有 以太网、CAN、Mini PCIe、USB3.0、HDMI、RS485/232 以及 MIPI-CSI 等丰富接口。可直接应用到各种智能产品中，加速产品落地，详细内容可参考下方接口描述。
   
 <center>
 
-<img alt="" src="../../../../rk3588_img/Core-3588JD4/AIO-3588JD4-A.png" width="600">
+<img alt="" src="../../../../rk3588_img/Core-3588JD4/AIO-3588JD4-A.png" width="480">
 </center>
 
 ## 接口描述
