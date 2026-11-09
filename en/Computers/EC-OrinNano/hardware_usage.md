@@ -1,5 +1,5 @@
 # Hardware Function Usage
-
+# Login 
 The device can also log in to the desktop via HDMI: at the login interface, select `nvidia` for both the Ubuntu session and the password.
 
 ## Important Notes

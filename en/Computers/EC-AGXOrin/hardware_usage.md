@@ -1,4 +1,7 @@
 # Hardware Function Usage
+## Login 
+The device can also log in to the desktop via HDMI: at the login interface, select `nvidia` for both the Ubuntu session and the password.
+
 ## Debug Serial
 
 The EC-AGXOrin has an onboard Type-C debug serial port. Just connect the device to the PC directly with a Type-C cable for serial debugging. The baud rate is 115200, and no extra USB-to-serial adapter is required.
