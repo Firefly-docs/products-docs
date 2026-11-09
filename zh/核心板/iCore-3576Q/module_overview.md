@@ -12,7 +12,7 @@
   <CodeBlockTab value="camera">
 ## 摄像头模组 [step]
 
-Firefly 提供 MIPI 接口摄像头模组，满足图像采集与 AI 视觉应用需求。下表汇总各板型当前 SDK 已完成驱动适配/调试的摄像头（以传感器型号列出）：
+Firefly 提供 MIPI 接口摄像头模组，满足图像采集与 AI 视觉应用需求。下表按平台分组，汇总各板型当前 SDK 已完成驱动适配/调试的摄像头（以传感器型号列出）：
 
 > 表中 `√` 仅表示当前 SDK 设备树下的驱动已适配、调试通过，**并不代表 IQ（图像质量）已调好**。自动曝光、白平衡、降噪等实际成像效果取决于对应的 ISP/IQ 配置，需结合对应 SDK 确认。
 >
@@ -28,6 +28,21 @@ Firefly 提供 MIPI 接口摄像头模组，满足图像采集与 AI 视觉应�
 
 其他传感器/摄像头仅完成适配说明，Firefly 并不售卖；如需采购，请自行寻找摄像头及对应排线。
 
+<CodeBlockTabs defaultValue="rk3588">
+  <CodeBlockTabsList>
+    <CodeBlockTabsTrigger value="rk3588">RK3588</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rk3576">RK3576</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rk356x">RK356X</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rk3506">RK3506</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rv1126">RV1126</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rv1126b">RV1126B</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="k3">K3</CodeBlockTabsTrigger>
+  </CodeBlockTabsList>
+
+  <CodeBlockTab value="rk3588">
+
+**RK3588**
+
 | 板型 | [IMX415](../../配件/IMX415/started.md) | IMX586 | [XC7160](../../配件/CAM-8MS1M/started.md) | SC3336 | IMX335 | OS04A10 | [gc2053/gc2093](../../配件/CAM-2MS2MF/started.md) |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | AIO-3588Q | √ | √ | √ | — | — | — | — |
@@ -38,28 +53,87 @@ Firefly 提供 MIPI 接口摄像头模组，满足图像采集与 AI 视觉应�
 | AIO-3588SJD4-AI | √ | — | — | — | — | — | — |
 | AIO-3588SJD4 | √ | — | √ | — | — | — | — |
 | ROC-3588S-PC | √ | √ | √ | — | — | — | √ |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rk3576">
+
+**RK3576**
+
+| 板型 | [IMX415](../../配件/IMX415/started.md) | IMX586 | [XC7160](../../配件/CAM-8MS1M/started.md) | SC3336 | IMX335 | OS04A10 | [gc2053/gc2093](../../配件/CAM-2MS2MF/started.md) |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | AIO-3576C | √ | — | √ | — | — | — | — |
 | AIO-3576JD4 | √ | — | √ | — | — | — | — |
 | AIO-3576Q | √ | — | √ | — | — | — | — |
 | AIO-3576Q38 | √ | √ | √ | — | — | — | — |
 | EXT-ICORE-3576Q38 | √ | — | √ | √ | √ | — | — |
 | ROC-RK3576-PC | √ | — | √ | — | — | — | — |
-| AIO-1126BJD4 | √ | √ | √ | — | — | √ | — |
-| AIO-1126BQ38 | √ | √ | √ | — | — | √ | — |
-| CAM-1126BQ38 | √ | — | — | √ | √ | — | — |
-| AIO-1126BJD4V0 | √ | — | — | — | — | √ | — |
-| ROC-RK3506-PC | — | — | — | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rk356x">
+
+**RK356X**
+
+| 板型 | [IMX415](../../配件/IMX415/started.md) | IMX586 | [XC7160](../../配件/CAM-8MS1M/started.md) | SC3336 | IMX335 | OS04A10 | [gc2053/gc2093](../../配件/CAM-2MS2MF/started.md) |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | AIO-3566JD4 | √ | — | √ | — | — | — | √ |
 | ROC-RK3566-PC | √ | — | √ | — | — | — | √ |
 | AIO-3568J | √ | — | √ | — | — | — | √ |
 | ITX-3568Q | √ | — | √ | — | — | — | √ |
 | ROC-RK3568-PC-SE | √ | — | √ | — | — | — | √ |
-| AIO-1126BJD4V0（旧底板） | √ | — | — | — | — | √ | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rk3506">
+
+**RK3506**
+
+该平台暂无已确认适配的摄像头传感器。
+
+| 板型 | [IMX415](../../配件/IMX415/started.md) | IMX586 | [XC7160](../../配件/CAM-8MS1M/started.md) | SC3336 | IMX335 | OS04A10 | [gc2053/gc2093](../../配件/CAM-2MS2MF/started.md) |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| ROC-RK3506-PC | — | — | — | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rv1126">
+
+**RV1126**
+
+| 板型 | [IMX415](../../配件/IMX415/started.md) | IMX586 | [XC7160](../../配件/CAM-8MS1M/started.md) | SC3336 | IMX335 | OS04A10 | [gc2053/gc2093](../../配件/CAM-2MS2MF/started.md) |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | CAM-C1126S2U | — | — | — | — | — | — | √ |
 | C40PL | — | — | — | — | — | √ | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rv1126b">
+
+**RV1126B**
+
+| 板型 | [IMX415](../../配件/IMX415/started.md) | IMX586 | [XC7160](../../配件/CAM-8MS1M/started.md) | SC3336 | IMX335 | OS04A10 | [gc2053/gc2093](../../配件/CAM-2MS2MF/started.md) |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| AIO-1126BJD4 | √ | √ | √ | — | — | √ | — |
+| AIO-1126BQ38 | √ | √ | √ | — | — | √ | — |
+| CAM-1126BQ38 | √ | — | — | √ | √ | — | — |
+| AIO-1126BJD4V0 | √ | — | — | — | — | √ | — |
+| AIO-1126BJD4V0（旧底板） | √ | — | — | — | — | √ | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="k3">
+
+**K3**
+
+| 板型 | [IMX415](../../配件/IMX415/started.md) | IMX586 | [XC7160](../../配件/CAM-8MS1M/started.md) | SC3336 | IMX335 | OS04A10 | [gc2053/gc2093](../../配件/CAM-2MS2MF/started.md) |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | CORE-K3JD4 | — | — | — | — | — | — | — |
 | ITX-K3L | √ | — | — | — | — | — | — |
 | AIBOX-K3 | — | — | — | — | — | — | — |
+
+  </CodeBlockTab>
+</CodeBlockTabs>
   </CodeBlockTab>
 
   <CodeBlockTab value="display">
@@ -79,6 +153,21 @@ Firefly 适配了以下显示屏，其中仅 **DM-M10R800-V3S**（10.1寸 800×1
 - 10.1寸 1080P 双通道 LVDS 屏：未售卖（仅作 DTS 参考）
 - 10.1寸 800×1280 单通道 LVDS 屏：未售卖（仅作 DTS 参考）
 
+<CodeBlockTabs defaultValue="rk3588">
+  <CodeBlockTabsList>
+    <CodeBlockTabsTrigger value="rk3588">RK3588</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rk3576">RK3576</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rk356x">RK356X</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rk3506">RK3506</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rv1126">RV1126</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rv1126b">RV1126B</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="k3">K3</CodeBlockTabsTrigger>
+  </CodeBlockTabsList>
+
+  <CodeBlockTab value="rk3588">
+
+**RK3588**
+
 | 板型 | [10.1寸 800×1280 MIPI](../../配件/DM-M10R800-V3S/started.md) | 15.6寸 4K EDP | 15.6寸 1080P EDP | 10.1寸 1080P LVDS | 10.1寸 800×1280 LVDS |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | AIO-3588Q | √ | — | √ | — | — |
@@ -89,28 +178,85 @@ Firefly 适配了以下显示屏，其中仅 **DM-M10R800-V3S**（10.1寸 800×1
 | AIO-3588SJD4-AI | — | — | — | — | — |
 | AIO-3588SJD4 | √ | — | — | — | — |
 | ROC-3588S-PC | √ | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rk3576">
+
+**RK3576**
+
+| 板型 | [10.1寸 800×1280 MIPI](../../配件/DM-M10R800-V3S/started.md) | 15.6寸 4K EDP | 15.6寸 1080P EDP | 10.1寸 1080P LVDS | 10.1寸 800×1280 LVDS |
+| ---- | ---- | ---- | ---- | ---- | ---- |
 | AIO-3576C | √ | √ | — | √ | √ |
 | AIO-3576JD4 | — | — | — | — | — |
 | AIO-3576Q | √ | — | — | — | — |
 | AIO-3576Q38 | — | — | — | — | — |
 | EXT-ICORE-3576Q38 | √ | — | — | — | — |
 | ROC-RK3576-PC | √ | — | — | — | — |
-| AIO-1126BJD4 | √ | — | — | — | — |
-| AIO-1126BQ38 | √ | — | — | — | — |
-| CAM-1126BQ38 | — | — | — | — | — |
-| AIO-1126BJD4V0 | √ | — | — | — | — |
-| ROC-RK3506-PC | √ | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rk356x">
+
+**RK356X**
+
+| 板型 | [10.1寸 800×1280 MIPI](../../配件/DM-M10R800-V3S/started.md) | 15.6寸 4K EDP | 15.6寸 1080P EDP | 10.1寸 1080P LVDS | 10.1寸 800×1280 LVDS |
+| ---- | ---- | ---- | ---- | ---- | ---- |
 | AIO-3566JD4 | √ | — | √ | — | — |
 | ROC-RK3566-PC | √ | — | — | — | — |
 | AIO-3568J | √ | — | √ | — | — |
 | ITX-3568Q | √ | — | — | — | √ |
 | ROC-RK3568-PC-SE | √ | — | √ | — | — |
-| AIO-1126BJD4V0（旧底板） | √ | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rk3506">
+
+**RK3506**
+
+| 板型 | [10.1寸 800×1280 MIPI](../../配件/DM-M10R800-V3S/started.md) | 15.6寸 4K EDP | 15.6寸 1080P EDP | 10.1寸 1080P LVDS | 10.1寸 800×1280 LVDS |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| ROC-RK3506-PC | √ | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rv1126">
+
+**RV1126**
+
+| 板型 | [10.1寸 800×1280 MIPI](../../配件/DM-M10R800-V3S/started.md) | 15.6寸 4K EDP | 15.6寸 1080P EDP | 10.1寸 1080P LVDS | 10.1寸 800×1280 LVDS |
+| ---- | ---- | ---- | ---- | ---- | ---- |
 | CAM-C1126S2U | √ | — | — | — | — |
 | C40PL | √ | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rv1126b">
+
+**RV1126B**
+
+| 板型 | [10.1寸 800×1280 MIPI](../../配件/DM-M10R800-V3S/started.md) | 15.6寸 4K EDP | 15.6寸 1080P EDP | 10.1寸 1080P LVDS | 10.1寸 800×1280 LVDS |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| AIO-1126BJD4 | √ | — | — | — | — |
+| AIO-1126BQ38 | √ | — | — | — | — |
+| CAM-1126BQ38 | — | — | — | — | — |
+| AIO-1126BJD4V0 | √ | — | — | — | — |
+| AIO-1126BJD4V0（旧底板） | √ | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="k3">
+
+**K3**
+
+| 板型 | [10.1寸 800×1280 MIPI](../../配件/DM-M10R800-V3S/started.md) | 15.6寸 4K EDP | 15.6寸 1080P EDP | 10.1寸 1080P LVDS | 10.1寸 800×1280 LVDS |
+| ---- | ---- | ---- | ---- | ---- | ---- |
 | CORE-K3JD4 | — | — | — | — | — |
 | ITX-K3L | √ | — | — | — | — |
 | AIBOX-K3 | — | — | — | — | — |
+
+  </CodeBlockTab>
+</CodeBlockTabs>
   </CodeBlockTab>
 </CodeBlockTabs>
 
