@@ -10,7 +10,6 @@
 - [制作SD启动卡](06-boot_firmware_sd.md)
 # Linux开发
 - [编译 Linux 固件 (内核版本 6.1)](linux6.1_compile.md)
-- [编译 Linux 固件 (内核版本 5.10)](linux_compile_linux5.10.md)
 # Android开发
 # 驱动开发
 - [driver_adc](driver_adc.md)
