@@ -1,6 +1,4 @@
 # iCore-3562JQ
-- [前言](preface.md)
-# 上手教程
 - [介绍](started.md)
 - [串口调试](debug.md)
 # 升级固件

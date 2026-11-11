@@ -1,6 +1,4 @@
 # iCore-3562JQ
-- [Preface](preface.md)
-# Quick Start
 - [Introduction](started.md)
 - [Senial debug](debug.md)
 # Upgrade Firmware
