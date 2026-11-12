@@ -73,7 +73,8 @@ Firefly的开发板有两种MIPI CSI接口，分别是30pin和24pin接口，连�
 | RK3566 | [AIO-3566JD4](../../../modules_img/IMX415/imx415_AIO-3566-JD4.jpg), [ROC-RK3566-PC](../../../modules_img/IMX415/imx415_ROC-RK3566-PC.jpg) |
 | RK3568 | [AIO-3568J](../../../modules_img/IMX415/imx415_AIO-3568J.jpg), [ROC-RK3568-PC](../../../modules_img/IMX415/imx415_ROC-3568-PC.jpg), [ROC-RK3568-PC SE](../../../modules_img/IMX415/imx415_ROC-3568-PC%20SE.jpg) |
 | RK3588 | [ITX-3588J](../../../modules_img/IMX415/imx415_ITX-3588J.jpg),[ROC-RK3588S-PC](../../../modules_img/IMX415/imx415_ROC-RK3588S-PC.jpg), [AIO-3588SJD4](../../../modules_img/IMX415/imx415_AIO-3588SJD4.jpg),[AIO-3588Q](../../../modules_img/IMX415/imx415_AIO-3588Q.jpg), [AIO-3588JD4](../../主板/AIO-3588JD4/usage_camera.md) |
-| RK3576 | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/usage_camera.md)，[AIO-3576JD4](../../主板/AIO-3576JD4/usage_camera.md)，[AIO-3576Q](../../主板/AIO-3576Q/usage_camera.md), [AIO-3576C](../../主板/AIO-3576C/usage_camera.md)|
+| RK3576 | [ROC-RK3576-PC](../../主板/ROC-RK3576-PC/usage_camera.md)，[AIO-3576JD4](../../主板/AIO-3576JD4/usage_camera.md)，[AIO-3576Q](../../主板/AIO-3576Q/usage_camera.md), [AIO-3576C](../../主板/AIO-3576C/usage_camera.md), [CAM-3576Q38](../../../modules_img/IMX415/imx415_cam-3576q38.jpg) |
+| RV1126B | [CAM-1126BQ38](../../../modules_img/IMX415/imx415_cam-3576q38.jpg) |
 
 
 # 3. 固件与资料下载
