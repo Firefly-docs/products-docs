@@ -29,7 +29,7 @@ The HDMI TO MIPI CSI Driver board uses the video bridge chip RK628D, which can r
 * MIPI CSI Interface:
   * Compliant with MIPI DPHY V1.2
   * Support Format: YUV422
-  * Main Support Resolution:3840x2160@30fps,1920x1080@60fps,1280x720@60fps,720x480@60fps	
+  * Main Support Resolution: 3840x2160@30fps,1920x1080@60fps,1280x720@60fps,720x480@60fps	
 * LINEOUT Interface:
   * Same audio output: 3.5mm headphone interface  * 1, 3P-2mm * 1, 2P-1.25mm * 1
 

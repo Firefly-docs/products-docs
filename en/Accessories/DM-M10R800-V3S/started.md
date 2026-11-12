@@ -11,7 +11,7 @@
 |----|----|
 |Model|BSD1218-A101KL68|
 |Size | 10.1 inch|
-|Resolution | 800x1280 (10:16)|
+|Resolution | 800x1280 (10&#58;16)|
 |Display interface| MIPI|
 |Visual Angle| 160°|
 |Touch screen| multi-point capacitive touch|

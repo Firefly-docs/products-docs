@@ -26,22 +26,22 @@ CAM-2MS2MF is a dual-MIPI dual-lens WDR+NIR module. It is mainly used in scenari
 | Camera center distance | 17mm |
 | Power Supply | 2.8V-2.8V-1.8V-1.2V-1.2V Five-way power supply |
 | Connection Way | 30pin 0.5mm FPC |
-| Operating Temperature | -10℃ ~ +55℃(Humidity:10%RH ~ 75%RH) |
-| Storage Temperature | -20℃ ~ +65℃(Humidity:10%RH ~ 75%RH) | 
+| Operating Temperature | -10℃ ~ +55℃(Humidity: 10%RH ~ 75%RH) |
+| Storage Temperature | -20℃ ~ +65℃(Humidity: 10%RH ~ 75%RH) | 
 
 <br>
 
 | camera| GC2093 | GC2053 |
 | ---- | ---- | ---- |
 | Sensor | 1/2.9 sensor/RGB | 1/2.9 sensor/IR |
-| Max Resolution | 1920(H)x1080(V) (16:9 mode) | 1920(H)x1080(V) (16:9 mode) |
+| Max Resolution | 1920(H)x1080(V) (16&#58;9 mode) | 1920(H)x1080(V) (16&#58;9 mode) |
 | Pixel Size | 2.8umx2.8um | 2.8umx2.8um |
 | Low illuminance | 0.15Lux/F2.0 | 0.15Lux/F2.0 |
 | Maximum transmission rate | 1920x1080P/60fps | 1920x1080P/30fps |
 | Signal-to-noise ratio | 38dB | TBD |
 | dynamic range | 105DB | TBD |
 | lens | M8x0.25 lens/650NM filter | M8x0.25 lens/850NM spike filter |
-| FOV  | H:61°；V:35° | H:61°；V:35° |
+| FOV  | H: 61°；V: 35° | H: 61°；V: 35° |
 | aperture | F2.0 | F2.0 |
 | Focal length | 4.3mm | 4.3mm |
 | Focusing type | Fixed focus, focus distance is 70cm | Fixed focus, focus distance is 70cm |

@@ -21,7 +21,7 @@ CAM-8MS1M CAM-8MS1M 1/2.7”industrial-grade HD WDR sensor 100dB WDR, suitable f
 |Sensor|SC8238|
 |CMOS Sensor|1/2.7 sensor/RGB|
 |ISP|built in XC7160|
-|Max Resolution|3840(H) x 2160(V) (16:9 mode)|
+|Max Resolution|3840(H) x 2160(V) (16&#58;9 mode)|
 |Sensor Pixel Size|1.5um x 1.5um|
 |Low Lux|≤0.3Lux/F2.4|
 |Image Transmission Rate|4K/25fps|

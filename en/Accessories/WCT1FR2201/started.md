@@ -28,7 +28,7 @@ WCT1FR2201 WIFI/BT module supports dual -frequency WIFI and Bluetooth 5.0. The m
 |Software| Linux / Android<br>|
 |Chipset| RTL8822CE-CG<br> |
 |Interface| Wifi@PCIe<br> BT@USB<br> |
-|Hardware ID| WIFI→VID:10EC,PID:C822,SVID: 10EC,SPID:C822 <br> BT→VID:0BDA,PID:C822<br> |
+|Hardware ID| WIFI→VID: 10EC,PID: C822,SVID: 10EC,SPID: C822 <br> BT→VID: 0BDA,PID: C822<br> |
 |Structure size| 22.0 mm × 30.0 mm × 2.5 mm<br> |
 |Card type| M.2 Type 2230-S3-A-E<br> |
 |Antenna| IPEX-G4<br> WIFI&BT→TX&RX(two ant)<br> |

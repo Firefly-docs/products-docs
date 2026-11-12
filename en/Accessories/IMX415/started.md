@@ -20,13 +20,13 @@ CAM-8MS1M(IMX415) is a 1/2.8” industrial-grade HD WDR sensor, suitable for var
 | ---- | ---- |
 |Camera|CAM-8MS1M(IMX415)|
 |CMOS Sensor|1/2.8 sensor/RGB|
-|Max Resolution|3840(H) x 2160(V) (16:9 mode)|
+|Max Resolution|3840(H) x 2160(V) (16&#58;9 mode)|
 |Sensor Pixel Size|1.45um x 1.45um|
 |Low Lux|≤0.5Lux/F2.0|
 |Image Transmission Rate|3840x2160/60fps|
 |SNR|TBD|
 |WDR|TBD|
-|FOV|D:120.3° H: 111° V: 76.4°|
+|FOV|D: 120.3° H: 111° V: 76.4°|
 |Aperture|F2.0|
 |Focal Length|1.95mm|
 |Distortion|TV Distortion<-3.3%|
