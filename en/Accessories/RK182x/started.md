@@ -77,6 +77,15 @@ Run the bundle's internal script from the SDK root directory:
 ```
 
 ### Configure and Build
+
+Before the first build, activate the chip symlink. `scripts/chips/target` is the SDK's single source of truth for the active chip; it is listed in `.gitignore` and not shipped with the repo, so every `./build.sh` subcommand fails with `Error: scripts/chips/target not found!` until it exists:
+
+```shell
+ln -sfn rk1820 scripts/chips/target
+```
+
+> The series alias `rk182x` points to `rk1820`, so `ln -sfn rk182x scripts/chips/target` is equivalent.
+
 Use `./build.sh config` to configure (since V1.2.0 the menu goes: target system -> board -> storage -> security).
 
 ```

@@ -77,6 +77,15 @@ tar xzf bundle_xx_to_xx.tgz
 ```
 
 ### 配置编译项并编译
+
+首次编译前要先激活芯片软链接。`scripts/chips/target` 是 SDK 判断当前芯片的唯一依据，它被 `.gitignore` 忽略、不随仓库下发，缺失时任何一条 `./build.sh` 子命令都会直接报 `Error: scripts/chips/target not found!`：
+
+```shell
+ln -sfn rk1820 scripts/chips/target
+```
+
+> 系列别名 `rk182x` 指向 `rk1820`，写成 `ln -sfn rk182x scripts/chips/target` 等价。
+
 通过 `./build.sh config` 配置（V1.2.0 起菜单依次为：目标系统 → 板型 → 存储 → 安全）。
 
 ```
