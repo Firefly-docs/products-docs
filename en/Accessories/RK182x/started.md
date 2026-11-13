@@ -77,19 +77,29 @@ Run the bundle's internal script from the SDK root directory:
 ```
 
 ### Configure and Build
-Use `./build.sh config` to configure.
+Use `./build.sh config` to configure (since V1.2.0 the menu goes: target system -> board -> storage -> security).
 
 ```
+Target chip: RK182X (via scripts/chips/target -> rk1820)
+Select target system:
+1) rt-thread
+2) linux
+3) Cancel
+#? 1
 Select board type:
-1) RK182X EVB1
-2) RK182X SODIMM
-3) RK182X SODIMM USB
-4) RK182X M2
-5) Cancel
-#?
+1) evb1
+2) ext-sodimm
+3) ext-sodimm-net
+4) ext-m2
+5) ext-m2-2242
+6) Cancel
+#? 4
+Storage type auto-selected: mem
 ```
 
-Select `4`
+Select `1` (rt-thread) then `4` (ext-m2); the storage type is fixed to `mem`.
+
+> Board types: `evb1` (EVB), `ext-sodimm` / `ext-sodimm-net` (SODIMM, with and without Ethernet), `ext-m2` / `ext-m2-2242` (M.2 modules).
 
 
 ```
@@ -121,8 +131,21 @@ You need to manually install the RK1820/RK1828 software package. Follow the step
 
 ### Build deb
 
-In the SDK provided by Firefly, the deb package build scripts have been added under `1828sdk_path/tools/build_helper`. Run `/tools/build_helper/build-helper.sh sodimm m2` directly, and the corresponding deb packages will be generated in that directory, so that they can be installed directly with `dpkg -i xxx.deb`.
-> The deb build provided natively by Rockchip installs the source code and requires a network environment, installing build tools and compiling the driver. Since the rkep driver has already been compiled into our firmware, the deb build script in the provided SDK has been adjusted to no longer install the driver source code or check for build tools.
+In the SDK provided by Firefly, the deb build scripts are available under `1828sdk_path/tools/build_helper`. Complete `./build.sh config` as described above, then run:
+
+```
+cd tools/build_helper
+./build-helper.sh sodimm m2
+```
+
+This generates `rknn3-rk182x-sodimm_v<version>_arm64.deb` and `rknn3-rk182x-m2_v<version>_arm64.deb` under `output/firmware/`, which can be installed with `dpkg -i xxx.deb`. The board argument accepts `sodimm`, `m2`, or any `ext-xxx` (for example `ext-m2-2242`).
+> The deb build provided natively by Rockchip ships the driver source code and compiles the driver on the board, which requires a network environment and build tools. Since the `pcie-rkep` driver is already built into Firefly firmware, the deb build script in the provided SDK has been adjusted to no longer ship the driver source code or check for board-side build tools.
+> The native Rockchip build flow also detects the cross-compilation toolchain and builds the corresponding test demos. To lower the cost of setting up a build environment, Firefly skips these builds by default. To build the demos for your platform, export the toolchain variables before building:
+> ```shell
+> export HOST_TOOLCHAIN_PATH=${HOST_TOOLCHAIN_PATH:-"$SDK_PATH/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/"}
+> export HOST_TOOLCHAIN_NAME=${HOST_TOOLCHAIN_NAME:-"aarch64-linux-gnu"}
+> ```
+> Once a gcc toolchain is detected during the build, the demos are no longer skipped.
 
 ## 3. rknn-smi
 
@@ -135,16 +158,21 @@ rknn-smi (System Management Interface) is a tool for RK1820/RK1828 device inform
 * Power Consumption: This feature is not supported on hardware
     * `sudo rknn-smi info -t power`
 
-Reference version information of `sudo rknn-smi -v` (V 1.1.0):
+Reference version information of `sudo rknn-smi -v` (V 1.2.0, example with 4 modules installed):
 
 ```
 rknn-smi version              : 1.3.0
 PCIe driver version           : 3.3.1
 RC chips connect version      : 3.3.2
 EP chips connect version      : 0.0.2
-PCIe Device 0 firmware version: 1.1.0
-rknn3 API version             : 1.1.0
+PCIe Device 0 firmware version: 1.2.0
+PCIe Device 1 firmware version: 1.2.0
+PCIe Device 2 firmware version: 1.2.0
+PCIe Device 3 firmware version: 1.2.0
+rknn3 API version             : 1.2.0
 ```
+
+> The number of `PCIe Device N` lines depends on how many modules are actually installed.
 
 How to use, see the RK182X SDK: `docs/Tools/Rockchip_User_Guide_RKNN-SMI_Tool_EN.pdf`
 
@@ -179,7 +207,16 @@ RKNN3 Toolkit is a development kit that provides users with model transformation
 **RKNN3 Toolkit** is incompatible with [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) and [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2). For more details, refer to [GitHub](https://github.com/airockchip/rknn3-toolkit).
 
 #### Obtaining Models
-Users can download pre-converted RKNN models from the [RKNN3_SDK cloud drive](https://console.box.lenovo.com/l/H1fig1) (access code: `rknn`) without converting them by themselves. The models for the current release (V1.1.0) are available under the `RKNN3_SDK/rknn3_models/v1.1.0` directory.
+Users can download pre-converted RKNN models from the [RKNN3_SDK cloud drive](https://console.box.lenovo.com/l/H1fig1) (access code: `rknn`) without converting them by themselves. The models for the current release (V1.2.0) are available under the `RKNN3_SDK/rknn3_models/v1.2.0` directory.
+Models are also recommended from ModelScope:
+[Rockchip official model library](https://www.modelscope.cn/models/RKNNAI/)
+[Firefly official model library](https://www.modelscope.cn/organization/t-firefly)
+
+
+#### Model Testing
+For performance figures when testing models, refer to `rknn/rknn3-runtime/doc/EN/00_RKNN3_SDK_Release_Notes_V1.2.0.pdf` in the SDK; it is the official benchmark. When comparing results, pay attention to the reproduction conditions:
+1. Check whether RK3588 performance mode is enabled during the test: `echo performance | tee $(find /sys/devices -name *governor)` Run it as root; a few governor errors may be printed afterwards, which is expected.
+2. Keep the reproduction conditions the same: mainly the language (C++ performs better), the number of input/output tokens, and the model quantization level. It is recommended to test with the official models and stress-test with the test code built from the SDK. The test code is located in the folder of each model under `SDK/rknn/rknn3-model-zoo/examples`.
 
 ## FAQs
 
@@ -203,7 +240,7 @@ WantedBy=sysinit.target
 ```
 
 ### Currently Supported Models
-The current SDK (V1.1.0) supports multiple model categories, including LLM, VLM, Omni, ASR (speech recognition), TTS (text-to-speech), Embedding / Reranker, translation, OCR, and CV (computer vision), such as Qwen3 / Qwen3.5 / GLM-Edge / MiniCPM5 (LLM), Qwen3-VL / InternVL3.5 / SmolVLM2 (VLM), Whisper / SenseVoice (ASR), PaddleOCR VL (OCR), and YOLOv8 / YOLO26 (CV). For the complete list and detailed information of each model, refer to `rknn/rknn3-runtime/doc/EN/00_RKNN3_SDK_Release_Notes_V1.1.0.pdf` in the SDK.
+The current SDK (V1.2.0) supports multiple model categories, including LLM, VLM, Omni, ASR (speech recognition), TTS (text-to-speech), Embedding / Reranker, translation, OCR, and CV (computer vision), such as Qwen3 / Qwen3.5 / Qwen3.8-27B / MiniCPM5 / GLM-Edge (LLM), Qwen3-VL / InternVL3.5 / MiniCPM-V / SmolVLM2 (VLM), Whisper / SenseVoice (ASR), PaddleOCR VL / dots.ocr (OCR), and YOLOv8 / YOLO26 (CV). Since V1.2.0, MoE models (Qwen3-30B-A3B, Qwen3.5-35B-A3B, GPT-OSS-20B-A3.6B) and robotics models (GR00T-N1.7-3B, openpi) are also supported. For the complete list and detailed information of each model, refer to `rknn/rknn3-runtime/doc/EN/00_RKNN3_SDK_Release_Notes_V1.2.0.pdf` in the SDK.
 
 ### rknn3 API Version shows NA
 Install binutils; some rootfs may not have the strings command.

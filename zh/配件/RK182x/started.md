@@ -26,7 +26,7 @@ RK1828 AI 计算模块（型号：RM182XMC0）基于瑞芯微 RK1828 AI 协处�
 
 ### 硬件安装
 
-将 RK1828 AI 计算模块插入主控设备的 M.2 插槽，上电开机。主控通过 PCIe 高速接口连接协处理器:
+将 RK1828 AI 计算模块插入主控设备的 M.2 插槽，上电开机。主控通过 PCIe 高速接口连接协处理器：
 
 * RK3588/RK3576 主控（Host）：作为系统核心，负责任务调度、资源分配和整体控制。
 * RK1820/RK1828 协处理器（Device）：作为 AI 计算加速单元，专注于高性能神经网络推理任务。
@@ -41,8 +41,8 @@ RK1828 AI 计算模块（型号：RM182XMC0）基于瑞芯微 RK1828 AI 协处�
 
 **注意：**
 **1. SDK 采用交叉编译，所以要在 X86_64 电脑上使用 SDK，不要将 SDK 下载到板子上**<br>
-**2. 编译环境请使用 Ubuntu20.04或Ubuntu22.04（真机或 docker 容器），如果使用其他版本可能导致编译出错**<br>
-**3. 不要在虚拟机共享文件夹以及非英文目录存放、解压SDK**<br>
+**2. 编译环境请使用 Ubuntu 20.04 或 Ubuntu 22.04（真机或 docker 容器），如果使用其他版本可能导致编译出错**<br>
+**3. 不要在虚拟机共享文件夹以及非英文目录存放、解压 SDK**<br>
 **4. 获取、编译 SDK 请全程使用普通用户，不允许也不需要使用 root 权限（除非需要 apt 安装软件）**
 </font>
 
@@ -77,19 +77,29 @@ tar xzf bundle_xx_to_xx.tgz
 ```
 
 ### 配置编译项并编译
-通过 `./build.sh config` 配置。
+通过 `./build.sh config` 配置（V1.2.0 起菜单依次为：目标系统 → 板型 → 存储 → 安全）。
 
 ```
+Target chip: RK182X (via scripts/chips/target -> rk1820)
+Select target system:
+1) rt-thread
+2) linux
+3) Cancel
+#? 1
 Select board type:
-1) RK182X EVB1
-2) RK182X SODIMM
-3) RK182X SODIMM USB
-4) RK182X M2
-5) Cancel
-#?
+1) evb1
+2) ext-sodimm
+3) ext-sodimm-net
+4) ext-m2
+5) ext-m2-2242
+6) Cancel
+#? 4
+Storage type auto-selected: mem
 ```
 
-选择 `4`
+依次选择 `1`（rt-thread）→ `4`（ext-m2）；存储类型固定自动选择 `mem`。
+
+> 板型说明：`evb1` 为 EVB 开发板；`ext-sodimm` / `ext-sodimm-net` 为 SODIMM（含网口版本）；`ext-m2` / `ext-m2-2242` 为 M.2 模组。
 
 
 ```
@@ -121,31 +131,48 @@ Select Security Boot Mode:
 
 
 ### 编译 deb
-firefly 提供的 sdk 中，在 `1828sdk_path/tools/build_helper` 补充了对应的 deb 包脚本，可以直接运行 `/tools/build_helper/build-helper.sh sodimm m2`
-会生成对应的 deb 包到目录下，这样就能够直接 `dpkg -i xxx.deb` 进行安装了。
-> Rockchip 原生提供的 deb 编译会安装源代码并需求网络环境，安装编译工具并编译驱动。由于我们的固件里面已经编译了对应的 rkep 驱动，因此提供的 sdk 中已调整 deb 编译脚本，不再装入驱动代码并检测编译工具。
+firefly 提供的 sdk 中，在 `1828sdk_path/tools/build_helper` 提供了 deb 打包脚本。先按上一节完成 `./build.sh config`，再执行：
+
+```
+cd tools/build_helper
+./build-helper.sh sodimm m2
+```
+
+会在 `output/firmware/` 生成 `rknn3-rk182x-sodimm_v<version>_arm64.deb` 与 `rknn3-rk182x-m2_v<version>_arm64.deb`，可以直接 `dpkg -i xxx.deb` 安装。板型参数支持 `sodimm`、`m2`，以及任意 `ext-xxx`（如 `ext-m2-2242`）。
+> Rockchip 原生提供的 deb 编译会装入驱动源代码，并在板端依赖网络环境安装编译工具后编译驱动。由于 Firefly 固件中已内置 `pcie-rkep` 驱动，SDK 中的 deb 打包脚本已调整为不再装入驱动代码、也不再检测板端编译工具。
+> Rockchip 原生提供的编译流程，会默认检测交叉编译链编译对应的测试 demo，为了降低编译环境成本配置成本，Firefly 默认将对应编译流程跳过，如果需要编译对应平台的 demo，参考
+> ```shell
+> export HOST_TOOLCHAIN_PATH=${HOST_TOOLCHAIN_PATH:-"$SDK_PATH/prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu/"}
+> export HOST_TOOLCHAIN_NAME=${HOST_TOOLCHAIN_NAME:-"aarch64-linux-gnu"}
+> ```
+> 在编译时配置对应编译链变量后再次进行编译，检测到 gcc 编译链存在后，对应的 demo 就不会被跳过编译。
 
 ## 3. rknn-smi
 
 rknn-smi (System Management Interface) 工具用于 RK1820/RK1828 设备信息收集、功能配置、日志管理等功能。
 
-* 查询软件版本信息: `sudo rknn-smi -v`
-* 查询硬件版本信息: `sudo rknn-smi info -l`
-* 状态监控: `sudo rknn-smi info -w`
-* 性能模式: `sudo rknn-smi set -t work_mode -s 2`
+* 查询软件版本信息：`sudo rknn-smi -v`
+* 查询硬件版本信息：`sudo rknn-smi info -l`
+* 状态监控：`sudo rknn-smi info -w`
+* 性能模式：`sudo rknn-smi set -t work_mode -s 2`
 * 查询功耗：此功能硬件上不支持
     * `sudo rknn-smi info -t power`
 
-`sudo rknn-smi -v` 版本信息参考（V 1.1.0）：
+`sudo rknn-smi -v` 版本信息参考（V 1.2.0，下例为主控下挂 4 片模组）：
 
 ```
 rknn-smi version              : 1.3.0
 PCIe driver version           : 3.3.1
 RC chips connect version      : 3.3.2
 EP chips connect version      : 0.0.2
-PCIe Device 0 firmware version: 1.1.0
-rknn3 API version             : 1.1.0
+PCIe Device 0 firmware version: 1.2.0
+PCIe Device 1 firmware version: 1.2.0
+PCIe Device 2 firmware version: 1.2.0
+PCIe Device 3 firmware version: 1.2.0
+rknn3 API version             : 1.2.0
 ```
+
+> `PCIe Device N` 的行数取决于实际安装的模组数量。
 
 具体使用，详见 RK182X SDK 里的 `docs/Tools/Rockchip_User_Guide_RKNN-SMI_Tool_CN.pdf`
 
@@ -180,7 +207,16 @@ RKNN3 Toolkit 是为用户提供在 PC 平台上进行模型转换、推理和�
 **RKNN3 Toolkit** 与 [RKNN-Toolkit](https://github.com/airockchip/rknn-toolkit) 和 [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2) **不兼容**。更多内容可以参考 [github](https://github.com/airockchip/rknn3-toolkit)
 
 #### 模型获取
-用户可以从 [RKNN3_SDK 网盘](https://console.box.lenovo.com/l/H1fig1) 下载预先转换好的 RKNN 模型（提取码：`rknn`），无需自行转换。当前版本（V1.1.0）发布的模型位于 `RKNN3_SDK/rknn3_models/v1.1.0` 目录。
+用户可以从 [RKNN3_SDK 网盘](https://console.box.lenovo.com/l/H1fig1) 下载预先转换好的 RKNN 模型（提取码：`rknn`），无需自行转换。当前版本（V1.2.0）发布的模型位于 `RKNN3_SDK/rknn3_models/v1.2.0` 目录。
+此外，还推荐从 ModelScope 获取：
+[Rockchip 官方模型库](https://www.modelscope.cn/models/RKNNAI/)
+[Firefly 官方模型库](https://www.modelscope.cn/organization/t-firefly)
+
+
+#### 模型测试
+模型测试时，性能请参考 SDK 中的 `rknn/rknn3-runtime/doc/CN/00_RKNN3_SDK_发布说明_V1.2.0.pdf`，文档为官方 Benchmark，比对时，请注意复现条件：
+1. 检查是否测试时启动了3588性能模式：`echo performance | tee $(find /sys/devices -name *governor)`，请以 Root 角色执行，执行后会有部分 governor 报错，正常现象。
+2. 确保复现条件保持一致，主要是语言，C++ 性能会更好，输入输出 token 数量，模型量化水平。建议测试时，采用官方提供的模型，并使用 SDK 自带的测试代码编译后进行压测。测试代码位于 SDK/rknn/rknn3-model-zoo/examples 下各自模型的文件夹内。
 
 ## 5. 常见问题
 
@@ -205,7 +241,7 @@ WantedBy=sysinit.target
 
 ### 当前支持的模型
 
-当前 SDK（V1.1.0）支持的模型类别包括 LLM、VLM、Omni、ASR（语音识别）、TTS（文本转语音）、Embedding / Reranker、翻译、OCR、CV（计算机视觉）等，例如 Qwen3 / Qwen3.5 / GLM-Edge / MiniCPM5（LLM），Qwen3-VL / InternVL3.5 / SmolVLM2（VLM），Whisper / SenseVoice（ASR），PaddleOCR VL（OCR），YOLOv8 / YOLO26（CV）等。各模型的完整列表和详细说明请参考 SDK 中的 `rknn/rknn3-runtime/doc/CN/00_RKNN3_SDK_发布说明_V1.1.0.pdf`。
+当前 SDK（V1.2.0）支持的模型类别包括 LLM、VLM、Omni、ASR（语音识别）、TTS（文本转语音）、Embedding / Reranker、翻译、OCR、CV（计算机视觉）等，例如 Qwen3 / Qwen3.5 / Qwen3.8-27B / MiniCPM5 / GLM-Edge（LLM），Qwen3-VL / InternVL3.5 / MiniCPM-V / SmolVLM2（VLM），Whisper / SenseVoice（ASR），PaddleOCR VL / dots.ocr（OCR），YOLOv8 / YOLO26（CV）；V1.2.0 起还支持 MoE 模型（Qwen3-30B-A3B、Qwen3.5-35B-A3B、GPT-OSS-20B-A3.6B）与机器人模型（GR00T-N1.7-3B、openpi）。各模型的完整列表和详细说明请参考 SDK 中的 `rknn/rknn3-runtime/doc/CN/00_RKNN3_SDK_发布说明_V1.2.0.pdf`。
 
 ### rknn3 API Version 显示 NA
 安装一下 binutils，部分 rootfs 可能没有 strings 指令
