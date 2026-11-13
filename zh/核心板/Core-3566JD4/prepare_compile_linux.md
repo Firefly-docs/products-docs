@@ -1,32 +1,34 @@
-## 编译环境搭建
+## 编译环境搭建 [step]
 
-本章介绍 Linux SDK 的编译环境搭建
+本章介绍 Linux SDK 的编译环境搭建。
 
-<font color=red>
+<Callout title="注意" type="warn">
 
-**注意：**
+1. 推荐在 X86_64 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。
+2. 使用普通用户进行编译，不要使用 root 用户权限进行编译。
 
-**（1）推荐在 X86_64 Ubuntu 18.04 系统环境下进行开发，若使用其它系统版本，可能需要对编译环境做相应调整。**
-
-**（2）使用普通用户进行编译，不要使用 root 用户权限进行编译。**
-
-</font>
+</Callout>
 
 ### 获取 SDK
 
-首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以`~/proj`为例
+首先准备一个空文件夹用于存放 SDK，建议在 home 目录下，本文以 `~/proj` 为例。
 
-<font color=red>**不要在虚拟机共享文件夹以及非英文目录存放、解压SDK，避免产生不必要的错误**</font>
+<Callout title="注意" type="warn">
+
+不要在虚拟机共享文件夹以及非英文目录存放、解压 SDK，避免产生不必要的错误。
+
+</Callout>
 
 获取 SDK 需要先安装：
-```
+
+```bash
 sudo apt update
 sudo apt install -y repo git python
 ```
 
-* 方法一（推荐）
+- 方法一（推荐）
 
-**由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持4G以上文件或单个文件网络传输较慢, 所以我们采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：**[Firefly_Linux_SDK源码包](https://community.t-firefly.com/doc/download/136)
+由于 Firefly_Linux_SDK 源码包比较大，部分用户电脑不支持 4 GB 以上文件或单个文件网络传输较慢，所以采用分卷压缩的方法来打包 SDK。用户可以通过如下方式获取 Firefly_Linux_SDK 源码包：[Firefly_Linux_SDK 源码包](https://community.t-firefly.com/doc/download/136)
 
 下载完成后先验证一下 MD5 码：
 
@@ -43,7 +45,8 @@ $ md5sum rk356x_linux_release_v1.3.0b_20221213_split_dir/*firefly_split*
 1a512fa7c9e2fd1a0781f8d40e228402  rk356x_linux_release_v1.3.0b_20221213_split_dir/rk356x_linux_release_v1.3.0b_20221213_firefly_split.file08
 ```
 
-确认无误后，就可以解压：
+确认无误后，即可解压：
+
 ```bash
 # 解压
 mkdir ~/proj/
@@ -54,9 +57,9 @@ cat path/to/rk356x_linux_release_v1.3.0b_20221213_split_dir/*firefly_split* | ta
 .repo/repo/repo sync -l
 ```
 
-* 方法二
+- 方法二
 
-通过 repo 拉取代码，此方法对网络要求较高，有条件可以使用
+通过 repo 拉取代码，此方法对网络要求较高，有条件可以使用。
 
 可选择获取完整 SDK 或者 BSP：
 
@@ -95,7 +98,7 @@ cd ~/proj/rk356x_linux_release_v1.3.0b_20221213/
 
 ### 目录结构
 
-```bash
+```text
 .
 ├── app
 ├── buildroot														# Buildroot 根文件系统编译目录
@@ -116,7 +119,7 @@ cd ~/proj/rk356x_linux_release_v1.3.0b_20221213/
 ```
 ### 安装依赖
 
-* 方法一：
+- 方法一：
 
 在 PC 中自行安装环境：
 ```bash
@@ -125,13 +128,13 @@ expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
 qemu-user-static live-build bison flex fakeroot cmake \
 unzip device-tree-compiler python-pip ncurses-dev python-pyelftools
 ```
-* 方法二：使用 Docker
+- 方法二：使用 Docker
 
 使用 dockerfile 创建容器，在容器中进行编译，完美解决编译环境问题，并且与主机环境隔离，互不影响。
 
 首先在主机中安装 docker，请参考：[安装教程](https://wiki.t-firefly.com/zh_CN/Firefly-Linux-Guide/first_use.html#an-zhuang-docker)
 
-创建一个目录作为 docker 工作目录，例如`~/docker/`，在其中创建文件`dockerfile`，内容如下：
+创建一个目录作为 docker 工作目录，例如 `~/docker/`，在其中创建文件 `dockerfile`，内容如下：
 ```dockerfile
 FROM ubuntu:18.04
 MAINTAINER firefly "service@t-firefly.com"
@@ -167,14 +170,18 @@ RUN usermod -a -G sudo firefly
 USER firefly
 WORKDIR /home/firefly
 ```
-创建镜像
+
+创建镜像：
+
 ```bash
 cd ~/docker
 docker build -t sdkcompiler .
 # sdkcompiler 是镜像名称，可随意更改，注意命令最后有一个‘.’
 # 此过程需要一段时间，请耐心等待
 ```
-镜像创建完毕后，创建容器并启动
+
+镜像创建完毕后，创建容器并启动：
+
 ```bash
 # 此处将主机内 SDK 所在文件夹挂载到容器内，这样容器内就能访问主机中的 SDK 了
 # source= 填 SDK 所在目录；target= 填容器内的一个目录，必须是空目录
@@ -182,9 +189,11 @@ docker build -t sdkcompiler .
 # sdkcompiler 是上一步的镜像名
 docker run --privileged --mount type=bind,source=/home/fierfly/proj,target=/home/firefly/proj --name="ubuntu18" -h firefly -it sdkcompiler
 ```
+
 现在就可以在容器中进行 SDK 的编译了。
 
 退出容器、重启容器的方法：
+
 ```bash
 # 在容器内输入 exit 即可退出
 

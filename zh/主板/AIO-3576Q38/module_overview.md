@@ -27,8 +27,7 @@ Firefly 提供 MIPI 接口摄像头模组，满足图像采集与 AI 视觉应�
 
 其他传感器/摄像头仅完成适配说明，Firefly 并不售卖；如需采购，请自行寻找摄像头及对应排线。
 
-<CodeBlockTabs defaultValue="rk3588">
-  <CodeBlockTabsList>
+<CodeBlockTabs defaultValue="rk3576">  <CodeBlockTabsList>
     <CodeBlockTabsTrigger value="rk3588">RK3588</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk3576">RK3576</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk356x">RK356X</CodeBlockTabsTrigger>

@@ -1,29 +1,32 @@
-## Build the build environment
+## Build the build environment [step]
 
-This chapter introduces the compilation environment of the Linux SDK
+This chapter introduces the compilation environment of the Linux SDK.
 
-<font color=red>
+<Callout title="Note" type="warn">
 
-**Note:**
+1. It is recommended to develop in the Ubuntu 18.04 system environment. If other system versions are used, the compilation environment may need to be adjusted accordingly.
+2. Compile with ordinary user, do not compile with root user authority.
 
-**(1) It is recommended to develop in the Ubuntu 18.04 system environment. If other system versions are used, the compilation environment may need to be adjusted accordingly.**
-
-**(2) Compile with ordinary user, do not compile with root user authority.**
-
-</font>
+</Callout>
 
 ### Download Firefly_Linux_SDK
 
 First prepare an empty folder to place SDK, better under home, here we use `~/proj` as example.
 
-<font color=red>**Attention: To avoid unnecessary errors, please do not place/unzip the SDK in VM shared folders or non-english directories.**</font>
+<Callout title="Attention" type="warn">
+
+To avoid unnecessary errors, please do not place/unzip the SDK in VM shared folders or non-English directories.
+
+</Callout>
 
 Get SDK needs:
-```
+
+```bash
 sudo apt update
 sudo apt install -y repo git python
 ```
-* Method One
+
+- Method One
 
 Download via repo, you can choose to get full SDK or BSP:
 
@@ -39,7 +42,7 @@ repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo
 repo init --no-clone-bundle --repo-url https://gitlab.com/firefly-linux/git-repo.git --no-repo-verify -u https://gitlab.com/firefly-linux/manifests.git -b master -m rk356x_linux_bsp_release.xml
 ```
 
-* Method Two
+- Method Two
 
 Download Firefly_Linux_SDK sub-volume compressed package: [Firefly_Linux_SDK Source](https://community.t-firefly.com/en/doc/download/106)
 
@@ -59,6 +62,7 @@ $ md5sum rk356x_linux_release_v1.3.0b_20221213_split_dir/*firefly_split*
 ```
 
 After confirming that it is correct, you can unzip:
+
 ```bash
 # unzip
 mkdir ~/proj/
@@ -90,7 +94,7 @@ You can use the following command to update the SDK later:
 
 ### Directory
 
-```bash
+```text
 .
 ├── app
 ├── buildroot														# Buildroot root filesystem build directory
@@ -111,16 +115,16 @@ You can use the following command to update the SDK later:
 ```
 ### Install dependencies
 
-* Method 1:
+- Method 1:
 
-Install directly on PC：
+Install directly on PC:
 ```bash
 sudo apt-get install repo git ssh make gcc libssl-dev liblz4-tool \
 expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
 qemu-user-static live-build bison flex fakeroot cmake \
 unzip device-tree-compiler python-pip ncurses-dev python-pyelftools
 ```
-* Method 2: Use Docker
+- Method 2: Use Docker
 
 Use dockerfile to create a container, build SDK in the container, it will perfectly solve environment problems and isolate with host environments.
 
@@ -159,7 +163,9 @@ RUN usermod -a -G sudo firefly
 USER firefly
 WORKDIR /home/firefly
 ```
-Create image
+
+Create image:
+
 ```bash
 cd ~/docker
 docker build -t sdkcompiler .
@@ -174,9 +180,11 @@ Then create a container
 # sdkcompiler is the image created in last step
 docker run --privileged --mount type=bind,source=/home/fierfly/proj,target=/home/firefly/proj --name="ubuntu18" -h firefly -it sdkcompiler
 ```
+
 Now you can build SDK inside the container.
 
 How to quit container and how to reopen:
+
 ```bash
 # Execute "exit" inside container will quit and close it
 

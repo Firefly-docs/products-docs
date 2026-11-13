@@ -1,0 +1,91 @@
+# 硬件功能使用
+
+## 调试串口 [step]
+
+IPC-M10R800-A3568J 整机面板未引出调试串口接口，需要拆开外壳后才能接入主板（AIO-3568J）上的调试串口进行调试，调试时需外接 USB 转 TTL 串口模块。
+
+调试串口的连接方式与使用方法详见：[调试串口](../hardware_usage/debug.md)。
+
+## 显示接口 [step]
+
+IPC-M10R800-A3568J 标配 1 块 10.1 寸 MIPI 屏，出厂时已连接到主板（AIO-3568J）的 MIPI 接口，Android 系统可在 `设置 -> 显示` 中调整显示设置。
+
+此外，AIO-3568J 提供 1 个 HDMI 2.0 输出接口，最高支持 4K 输出；整机面板的引出情况以实际整机配置为准。
+
+获取 HDMI 的 edid、支持的分辨率与连接状态：
+
+```bash
+busybox hexdump /sys/class/drm/card0-HDMI-A-1/edid
+cat /sys/class/drm/card0-HDMI-A-1/modes
+cat /sys/class/drm/card0-HDMI-A-1/status
+```
+
+一般如果遇到 HDMI 无法显示的问题，都需要先执行上面的命令查看连接状态、edid 和分辨率是否正确。
+
+## 以太网 [step]
+
+IPC-M10R800-A3568J 整机面板提供 RJ45 千兆网口，对应系统中的以太网设备（如 `eth0`，以实际系统为准），与主板 AIO-3568J 的以太网方案一致。
+
+网口接入网络后，可以通过调试串口或者 adb 查看 IP 地址：
+
+```bash
+ifconfig eth0
+```
+
+连通性测试：
+
+```bash
+ping -I eth0 -c 10 www.baidu.com
+```
+
+测试时，目标域名/IP 请根据实际网络环境修改。Linux 系统下可通过 `ip addr` 或 `ifconfig` 查看网口状态与 IP 地址。
+
+## USB 接口 [step]
+
+IPC-M10R800-A3568J 整机面板提供 USB 接口，可外接 U 盘、USB 键鼠等设备（接口数量与规格以实际整机配置为准）。插入设备后，可通过 `lsusb` 查看设备是否被识别：
+
+```bash
+lsusb
+```
+
+此外，整机面板上的 USB OTG 接口可用于连接主机进行 adb 调试或固件升级（接口形式以实际整机配置为准）。
+
+## UART（RS232 / RS485） [step]
+
+AIO-3568J 提供 RS232 与 RS485 接口（接线端子），信号定义见主板接口图；整机面板的引出形式以实际整机配置为准。串口设备节点以实际系统为准，可通过 `ls /dev/ttyS*` 查看。
+
+### 收发验证
+
+以 RS485 为例，使用 USB 转 RS485 适配器连接主机与整机（主机端适配器节点以实际为准，如 `/dev/ttyUSB0`，整机端 RS485 节点以实际系统为准，下述以 `/dev/ttyS1` 为例）。
+
+整机发送，主机接收：
+
+```bash
+# 主机终端先执行
+cat /dev/ttyUSB0
+# 整机调试串口终端执行
+echo "firefly RS485 test..." > /dev/ttyS1
+```
+
+主机终端即可接收到字符串 `firefly RS485 test...`。
+
+主机发送，整机接收：
+
+```bash
+# 整机调试串口终端先执行
+busybox stty -echo -F /dev/ttyS1       # 关闭回显
+cat /dev/ttyS1
+# 主机终端执行
+echo "firefly RS485 test..." > /dev/ttyUSB0
+```
+
+整机调试串口终端即可接收到字符串 `firefly RS485 test...`。RS232 的验证方法同理，将节点换成对应的 RS232 设备节点即可。
+
+## SATA 硬盘安装 [step]
+
+IPC-M10R800-A3568J 整机内部提供 1 个 SATA 3.0 接口，支持 2.5 寸 SSD/HDD，安装方式如下图：
+
+<center>
+
+<img alt="" src="../../../../rk356x_img/IPC-M10R800-A3568J/ipc-m10r800-a3568j_usage_sata.png" width="700">
+</center>

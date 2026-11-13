@@ -1,10 +1,8 @@
 # 产品简介
-- [简介](started.md)
+- [简介](product_introduction/index.md)
 # 固件升级
-- [USB升级固件](03-upgrade_firmware.md)
-- [SD卡升级固件](05-upgrade_firmware_sd.md)
-- [FAQ](upgrade_faq.md)
-# 开发指南
-- [Android 开发](https://community.t-firefly.com/docs/software/os-guide/Android)
-- [Ubuntu-Debian 开发](https://community.t-firefly.com/docs/software/os-guide/Ubuntu-Debian)
-- [硬件功能使用](hardware_usage.md)
+- [固件升级](firmware_upgrade/index.md)
+# 软件开发使用
+- [开发指南](software_development/index.md)
+# AI
+- [AI](ai/index.md)

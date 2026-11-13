@@ -9,8 +9,7 @@ Core-3568J The Ubuntu Desktop system is based on the Ubuntu 64bit system. Curren
 1. Provide video hard codec support based on Rockchip VPU + Mpp.
 1. Adapt to QT, Docker and other development frameworks.
 1. Provide a series of interfaces to operate onboard resource devices.
-1. The system adopts overlayfs file system, supports exporting rootfs, secondary packaging, restoring factory settings and other functions
-
+1. The system adopts overlayfs file system, supports exporting rootfs, secondary packaging, restoring factory settings and other functions.
 
 ## basic information
 
@@ -20,8 +19,7 @@ After the Firefly Linux Desktop system boots up, it will automatically log in to
 
 If there is a debugging serial port connected, the serial terminal automatically logs in to the root user.
 
-* Firefly user password: firefly
-
-* Root user: No root password is set by default. Firefly users configure the root password by themselves through the `sudo passwd root` command.
+- Firefly user password: firefly
+- Root user: No root password is set by default. Firefly users configure the root password by themselves through the `sudo passwd root` command.
 
 For more introduction, please refer to ["Firefly Ubuntu User Manual"](ubuntu_manual.md)

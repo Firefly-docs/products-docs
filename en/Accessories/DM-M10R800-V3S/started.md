@@ -80,17 +80,17 @@ Related documents and firmware download, see the official website [Resource Down
 
 |  System  |  Board | 
 |  ----  | ----  | 
-| Android11.0  | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/compile_android11.0_firmware.md#display-dm-m10r800-v3s-compile), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/compile_android11.0_firmware.md#display-dm-m10r800-v3s-compile) | 
-| Ubuntu | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
-| Buildroot | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-buildroot-firmware) |
+| Android11.0  | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/software_development/android/android_compile_firmware.md#display-dm-m10r800-v3s-compile), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/software_development/android/android_compile_firmware.md#display-dm-m10r800-v3s-compile) | 
+| Ubuntu | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/software_development/linux/linux_compile.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/software_development/linux/linux_compile.md#compile-ubuntu-firmware) |
+| Buildroot | [AIO-3566JD4](../../Motherboard/AIO-3566JD4/software_development/linux/linux_compile.md#compile-buildroot-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/software_development/linux/linux_compile.md#compile-buildroot-firmware) |
 
 ### RK3568 platform
 
 |  System  |  Board | 
 |  ----  | ----  | 
-| Android11.0  | [AIO-3568J](../../Motherboard/AIO-3568J/compile_android11.0_firmware.md#display-dm-m10r800-v3s-compile), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/compile_android11.0_firmware.md#display-dm-m10r800-v3s-compile), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/compile_android11.0_firmware.md#display-dm-m10r800-v3s-compile), [ITX-3568JQ](../../Motherboard/ITX-3568JQ/compile_android11.0_firmware.md#display-dm-m10r800-v3s-compile)  | 
-| Ubuntu | [AIO-3568J](../../Motherboard/AIO-3568J/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ITX-3568JQ](../../Motherboard/ITX-3568JQ/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
-| Buildroot | [AIO-3568J](../../Motherboard/AIO-3568J/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-buildroot-firmware), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/linux_compile_linux5.10.md#compile-buildroot-firmware), [ITX-3568JQ](../../Motherboard/ITX-3568JQ/linux_compile_linux5.10.md#compile-buildroot-firmware) |
+| Android11.0  | [AIO-3568J](../../Motherboard/AIO-3568J/software_development/android/android_compile_firmware.md#display-dm-m10r800-v3s-compile), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/software_development/android/android_compile_firmware.md#display-dm-m10r800-v3s-compile), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/software_development/android/android_compile_firmware.md#display-dm-m10r800-v3s-compile), [ITX-3568JQ](../../Motherboard/ITX-3568JQ/software_development/android/android_compile_firmware.md#display-dm-m10r800-v3s-compile)  | 
+| Ubuntu | [AIO-3568J](../../Motherboard/AIO-3568J/software_development/linux/linux_compile.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/software_development/linux/linux_compile.md#compile-ubuntu-firmware), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/software_development/linux/linux_compile.md#compile-ubuntu-firmware), [ITX-3568JQ](../../Motherboard/ITX-3568JQ/software_development/linux/linux_compile.md#compile-ubuntu-firmware) |
+| Buildroot | [AIO-3568J](../../Motherboard/AIO-3568J/software_development/linux/linux_compile.md#compile-buildroot-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/software_development/linux/linux_compile.md#compile-buildroot-firmware), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/software_development/linux/linux_compile.md#compile-buildroot-firmware), [ITX-3568JQ](../../Motherboard/ITX-3568JQ/software_development/linux/linux_compile.md#compile-buildroot-firmware) |
 
 ### RK3588 系列
 

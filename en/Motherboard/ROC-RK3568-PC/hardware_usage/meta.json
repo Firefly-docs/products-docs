@@ -1,0 +1,19 @@
+{
+  "title": "Hardware Usage",
+  "pagesIndex": "index",
+  "pages": [
+    "index",
+    "debug.md",
+    "adb_use.md",
+    "driver_adc.md",
+    "driver_camera.md",
+    "driver_i2c.md",
+    "driver_lcd.md",
+    "driver_ethernet.md",
+    "driver_gpio.md",
+    "driver_led.md",
+    "driver_pwm.md",
+    "driver_rtc.md",
+    "driver_uart.md"
+  ]
+}

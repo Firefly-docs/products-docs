@@ -28,8 +28,7 @@ Firefly 提供 MIPI 接口摄像头模组，满足图像采集与 AI 视觉应�
 
 其他传感器/摄像头仅完成适配说明，Firefly 并不售卖；如需采购，请自行寻找摄像头及对应排线。
 
-<CodeBlockTabs defaultValue="rk3588">
-  <CodeBlockTabsList>
+<CodeBlockTabs defaultValue="rk3588">  <CodeBlockTabsList>
     <CodeBlockTabsTrigger value="rk3588">RK3588</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk3576">RK3576</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk356x">RK356X</CodeBlockTabsTrigger>
@@ -153,8 +152,7 @@ Firefly 适配了以下显示屏，其中仅 **DM-M10R800-V3S**（10.1寸 800×1
 - 10.1寸 1080P 双通道 LVDS 屏：未售卖（仅作 DTS 参考）
 - 10.1寸 800×1280 单通道 LVDS 屏：未售卖（仅作 DTS 参考）
 
-<CodeBlockTabs defaultValue="rk3588">
-  <CodeBlockTabsList>
+<CodeBlockTabs defaultValue="rk3588">  <CodeBlockTabsList>
     <CodeBlockTabsTrigger value="rk3588">RK3588</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk3576">RK3576</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk356x">RK356X</CodeBlockTabsTrigger>

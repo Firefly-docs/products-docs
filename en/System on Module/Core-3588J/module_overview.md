@@ -28,8 +28,7 @@ Only the following three cameras are for sale. The sensor-to-product mapping is 
 
 Other sensors/cameras are only covered by adaptation notes and are not sold by Firefly. If you need to purchase one, please source the camera and its matching FPC cable yourself.
 
-<CodeBlockTabs defaultValue="rk3588">
-  <CodeBlockTabsList>
+<CodeBlockTabs defaultValue="rk3588">  <CodeBlockTabsList>
     <CodeBlockTabsTrigger value="rk3588">RK3588</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk3576">RK3576</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk356x">RK356X</CodeBlockTabsTrigger>
@@ -153,8 +152,7 @@ Adapted screen models:
 - 10.1" 1080P dual-channel LVDS screen: not sold (DTS reference only)
 - 10.1" 800×1280 single-channel LVDS screen: not sold (DTS reference only)
 
-<CodeBlockTabs defaultValue="rk3588">
-  <CodeBlockTabsList>
+<CodeBlockTabs defaultValue="rk3588">  <CodeBlockTabsList>
     <CodeBlockTabsTrigger value="rk3588">RK3588</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk3576">RK3576</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk356x">RK356X</CodeBlockTabsTrigger>

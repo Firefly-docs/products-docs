@@ -1,4 +1,4 @@
-# 以太网使用
+# Ethernet 使用
 
 ## dts 配置 [step]
 

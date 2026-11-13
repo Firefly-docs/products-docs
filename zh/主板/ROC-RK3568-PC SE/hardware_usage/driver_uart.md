@@ -1,0 +1,190 @@
+
+
+# UART 使用
+
+## 简介 [step]
+
+ROC-RK3568-PC-SE 支持 UART、RS232、RS485 接口，分别为双扩展接口上的 UART7、集成在 RJ45 接口的两路 RS232 和一路 RS485，其串口接口图如下：
+
+<center>
+
+<img alt="" src="../../../../rk356x_img/ROC-RK3568-PC-SE/uart_interface.jpg" width="900">
+
+</center>
+
+<Callout title="注意" type="info">
+
+在此章节 wiki 说明中，会将两路 RS232 分别定义为 `RS232_1`、`RS232_2`，以此定义来说明讲解 UART 的使用。
+
+</Callout>
+
+## PIN脚定义 [step]
+
+### UART7
+
+UART7 的 TX、RX 引脚存在复用的情况，实际 `UART7 TX` 和 `UART7 RX` 分别对应着开发板上的丝印 `PWM14`、`SPDIF`，公版固件默认 UART7 是打开的，用作其他功能需先关闭 UART7，以下是复用详情：
+
+| func0 | func1 | func2 | func3 | func4 | func5 |
+| --- | --- | --- | --- | --- | --- |
+| GPIO3_C4 | PWM14_M0 | VOP_PWM_M1 | GMAC1_MDC_M0 | UART7_TX_M1 | PDM_CLK1_M2 |
+| GPIO3_C5 | SPDIF_TX_M1 | PWM15_IR_M0 | GMAC1_MDIO_M0 | UART7_RX_M1 | I2S1_LRCK_RX_M2 |
+
+### RS232和RS485
+
+RS232_1、RS232_2 和 RS485 分别从主控的 UART2、UART3、UART4 转换而来，其中由于 UART2 默认作为 DEBUG 串口，RS232_1 无法直接使用，需要将[UART2配置为普通串口](#ru-he-jiang-uart2-pei-zhi-wei-pu-tong-chuan-kou)后才可使用。相关的硬件连接及定义可以参考[ROC-RK3568-PC-SE 原理图](https://community.t-firefly.com/doc/download/180)，以下是 RJ45 接口的部分 PIN 脚定义：
+
+| RJ45引脚 |    定义    | RJ45引脚 |    定义    |
+| :------: | :--------: | :------: | :--------: |
+|    1     | RS232_2 TX |    5     |    GND     |
+|    2     | RS232_2 RX |    6     | RS232_1 RX |
+|    3     | RS232_1 TX |    7     |  RS485_A   |
+|    4     |    GND     |    8     |  RS485_B   |
+
+## DTS配置 [step]
+
+由于 UART2 默认为 DEBUG 口，其转换出来的 RS232_1 不能直接使用，只需在 `kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc.dtsi` 配置：
+
+- RS232_2
+  - 对应节点 `/dev/ttyS3`
+
+    ```dts
+    &uart3 {
+	    status = "okay";
+	    pinctrl-0 = <&uart3m1_xfer>;
+    };
+    ```
+
+- RS485
+  - 对应节点 `/dev/ttyS4`
+
+    ```dts
+    &uart4 {
+	    status = "okay";
+	    pinctrl-0 = <&uart4m1_xfer>;
+    };
+    ```
+
+- UART7
+  - 对应节点 `/dev/ttyS7`
+
+    ```dts
+    &uart7 {
+	    status = "okay";
+	    pinctrl-0 = <&uart7m1_xfer>;
+    };
+    ```
+
+## 调试方法 [step]
+
+用户可以根据不同的接口使用不同的主机的 USB 转串口适配器向开发板的串口收发数据，例如 RS485 的调试步骤如下：
+
+(1) 连接硬件
+
+将开发板 RS485 所在 RJ45 第 5(GND)、7(A)、8(B) 脚分别与主机串口适配器（USB 转 485 转串口模块）的 GND、A、B 引脚相连。
+
+(2) 打开主机的串口终端
+
+在终端输入安装 kermit 命令 `sudo apt install ckermit`，安装完成后打开 kermit，设置波特率并连接：
+
+```text
+$ sudo kermit
+C-Kermit> set line /dev/ttyUSB0
+C-Kermit> set speed 9600
+C-Kermit> set flow-control none
+C-Kermit> connect
+```
+
+- `/dev/ttyUSB0` 为主机 USB 转串口适配器的设备文件
+
+(3) 开发板发送数据
+
+开发板的 RS485 设备文件为 `/dev/ttyS4`。在开发板设备上运行下列命令：
+
+```bash
+echo "firefly RS485 test..." > /dev/ttyS4
+```
+
+主机中的串口终端即可接收到字符串 "firefly RS485 test..."
+
+(4) 开发板接收数据
+
+首先在开发板设备上运行下列命令：
+
+```bash
+cat /dev/ttyS4
+```
+
+然后在主机的串口终端输入字符串 "Firefly RS485 test..."，设备端即可见到相同的字符串。
+
+(5) 主机退出 kermit 串口连接
+
+`ctrl+\` 后按 c，退回终端可输入 exit
+
+```text
+C-Kermit>exit
+OK to exit? ok
+```
+## 如何将UART2配置为普通串口 [step]
+
+公版固件中，UART2 默认为 DEBUG 串口，下面以 Android 平台为例，将 UART2 修改为普通串口。
+
+### kernel的修改
+
+- 去掉 `kernel/arch/arm64/configs/firefly_defconfig` 中 `CONFIG_SERIAL_8250_CONSOLE` 的配置
+
+```diff
+diff --git a/kernel/arch/arm64/configs/firefly_defconfig b/kernel/arch/arm64/configs/firefly_defconfig
+index 57ed787..8d6bc18 100644
+--- a/kernel/arch/arm64/configs/firefly_defconfig
++++ b/kernel/arch/arm64/configs/firefly_defconfig
+@@ -500,7 +500,7 @@ CONFIG_INPUT_RK805_PWRKEY=y
+ # CONFIG_LEGACY_PTYS is not set
+ CONFIG_SERIAL_8250=y
+ # CONFIG_SERIAL_8250_DEPRECATED_OPTIONS is not set
+-CONFIG_SERIAL_8250_CONSOLE=y
++#CONFIG_SERIAL_8250_CONSOLE=y
+ # CONFIG_SERIAL_8250_PCI is not set
+ CONFIG_SERIAL_8250_NR_UARTS=10
+ CONFIG_SERIAL_8250_RUNTIME_UARTS=10
+```
+
+- 关闭 `kernel/arch/arm64/boot/dts/rockchip/rk3568-android.dtsi` 中的 `fiq-debugger` 节点
+
+```diff
+diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-android.dtsi b/kernel/arch/arm64/boot/dts/rockchip/rk3568-android.dtsi
+index 55a1716..0e297e6 100644
+--- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-android.dtsi
++++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-android.dtsi
+@@ -26,7 +26,7 @@
+                interrupts = <GIC_SPI 252 IRQ_TYPE_LEVEL_LOW>;
+                pinctrl-names = "default";
+                pinctrl-0 = <&uart2m0_xfer>;
+-               status = "okay";
++               status = "disabled";
+        };
+
+        debug: debug@fd904000 {
+
+```
+
+- 打开 UART2
+
+```diff
+diff --git a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dtsi b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dtsi
+index f4af38a..fb9a3ff 100644
+--- a/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dtsi
++++ b/kernel/arch/arm64/boot/dts/rockchip/rk3568-firefly-roc-pc-se.dtsi
+@@ -137,6 +137,10 @@
+        status = "okay";
+ };
+
++&uart2 {
++       status = "okay";
++};
++
+```
+重新编译 kernel 并烧录后生效，生效后即会生成 `/dev/ttyS2` 节点。
+
+
+
+

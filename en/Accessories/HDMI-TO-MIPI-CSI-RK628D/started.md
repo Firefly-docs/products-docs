@@ -109,15 +109,15 @@ Related documents and firmware download, see the official website [Resource Down
 
 |  System   |  Board | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile) |
-| Ubuntu20.04 | [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Android11.0 | [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/software_development/android/android_compile_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/software_development/android/android_compile_firmware.md#hdmi-to-mipi_csi-rk628d-compile) |
+| Ubuntu20.04 | [AIO-3566JD4](../../System%20on%20Module/Core-3566JD4/software_development/linux/linux_compile.md#compile-ubuntu-firmware), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/software_development/linux/linux_compile.md#compile-ubuntu-firmware) |
 
 #### RK3568 platform
 
 |  System  |  Board | 
 |  ----  | ----  | 
-| Android11.0 | [AIO-3568J](../../System%20on%20Module/Core-3568J/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/compile_android11.0_firmware.md#hdmi-to-mipi_csi-rk628d-compile) |
-| Ubuntu20.04 | [AIO-3568J](../../System%20on%20Module/Core-3568J/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/linux_compile_linux5.10.md#compile-ubuntu-firmware), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/linux_compile_linux5.10.md#compile-ubuntu-firmware) |
+| Android11.0 | [AIO-3568J](../../System%20on%20Module/Core-3568J/software_development/android/android_compile_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/software_development/android/android_compile_firmware.md#hdmi-to-mipi_csi-rk628d-compile), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/software_development/android/android_compile_firmware.md#hdmi-to-mipi_csi-rk628d-compile) |
+| Ubuntu20.04 | [AIO-3568J](../../System%20on%20Module/Core-3568J/software_development/linux/linux_compile.md#compile-ubuntu-firmware), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/software_development/linux/linux_compile.md#compile-ubuntu-firmware), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/software_development/linux/linux_compile.md#compile-ubuntu-firmware) |
 
 #### RK3588 platform
 
