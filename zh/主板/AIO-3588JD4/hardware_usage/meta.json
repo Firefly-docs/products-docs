@@ -1,8 +1,6 @@
 {
   "title": "硬件功能使用",
-  "pagesIndex": "index",
   "pages": [
-    "index",
     "serial_debug.md",
     "usage_camera.md",
     "usage_can.md",

@@ -1,8 +1,6 @@
 {
   "title": "硬件功能使用",
-  "pagesIndex": "index",
   "pages": [
-    "index",
     "usb_to_ttl.md",
     "usage_camera.md",
     "usage_can.md",

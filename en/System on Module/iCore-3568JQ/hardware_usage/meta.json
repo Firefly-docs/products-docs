@@ -1,8 +1,6 @@
 {
   "title": "Hardware Usage",
-  "pagesIndex": "index",
   "pages": [
-    "index",
     "debug.md",
     "adb_use.md",
     "driver_adc.md",
