@@ -1,2 +1,2 @@
-# Quick Start
+# Product Introduction
 - [Product introduction](started.md)

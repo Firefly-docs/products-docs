@@ -1,7 +1,7 @@
-# Quick Start
+# Product Introduction
 - [Interface Definition](started.md)
 - [Serial debug](debug.md)
-# Upgrade Firmware
+# Getting Started
 - [Boot mode description](01-bootmode.md)
 - [Upgrade the firmware via USB cable](loader_mode.md)
 - [Upgrade the firmware via SD card](05-upgrade_firmware_sd.md)

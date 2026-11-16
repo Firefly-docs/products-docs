@@ -79,4 +79,4 @@ The result will be under `SDK/kernel`: an image `extboot.img` and a directory `e
 Download to board(choose one method):
 
 1. Copy all files under `SDK/kernel/extboot/` to the `/boot/` of board, and reboot the board.
-2. Or follow the kernel part of [Upgrade Firmware](../../firmware_upgrade/upgrade_firmware.md) to download extboot.img.
+2. Or follow the kernel part of [Upgrade Firmware](../../getting_started/firmware_upgrade/upgrade_firmware.md) to download extboot.img.

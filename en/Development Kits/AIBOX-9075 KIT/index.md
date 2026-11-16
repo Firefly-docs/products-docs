@@ -1,6 +1,6 @@
 # Product Introduction
 - [Introduction](started.md)
-# Upgrade Firmware
+# Getting Started
 - [Upgrade Firmware](qfil_upgrade_firmware.md)
 - [FAQ](upgrade_faq.md)
 # Development Guide

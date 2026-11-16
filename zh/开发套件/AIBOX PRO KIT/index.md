@@ -4,7 +4,7 @@
 - [硬件接口介绍](interface_definition.md)
 - [硬件功能使用](hardware_usage.md)
 - [Linux 开发](linux_dev.md)
-# 固件升级
+# 上手指南
 - [介绍](upgrade_bootmode_rockchip.md)
 - [使用USB线缆升级固件](upgrade_firmware.md)
 - [使用SD卡升级固件](upgrade_firmware_sd_rockchip.md)

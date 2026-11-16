@@ -1,7 +1,7 @@
-# Getting Started Tutorial
+# Product Introduction
 - [First Use](started.md)
 - [Serial port debugging](debug.md)
-# Update Firmware
+# Getting Started
 - [Upgrade System Firmware Using TF Card](fw-upgrade-by-sdcard.md)
 # Linux Development 
 - [Sophon SDK Development](sophon-sdk.md)

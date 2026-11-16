@@ -1,0 +1,7 @@
+{
+  "title": "Getting Started",
+  "pages": [
+    "quick_start.md",
+    "firmware_upgrade"
+  ]
+}

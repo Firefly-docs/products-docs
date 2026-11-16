@@ -83,4 +83,4 @@ A.dts include B.dtsi include C.dtsi ... N.dtsi
 烧录方法（二选一）：
 
 1. 可以将 `SDK/kernel/extboot/` 下的所有东西复制到板子的 `/boot/` 下，然后重启板子。
-2. 或者根据[固件烧录](../../firmware_upgrade/upgrade_firmware.md)中烧写 kernel 分区的方法烧录 extboot.img
+2. 或者根据[固件烧录](../../getting_started/firmware_upgrade/upgrade_firmware.md)中烧写 kernel 分区的方法烧录 extboot.img

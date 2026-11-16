@@ -1,6 +1,6 @@
 # AIBOX-Orin Nano
 - [Introduction](started.md)
-# Firmware Upgrade
+# Getting Started
 - [USB Upgrade](upgrade_firmware.md)
 - [FAQ](upgrade_faq.md)
 # Development Guide

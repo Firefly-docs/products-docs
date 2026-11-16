@@ -1,6 +1,6 @@
 # AIO-6490JD4
 - [Preface](preface.md)
-# Quick Start
+# Product Introduction
 - [Introduction](intro.md)
 - [Start](start.md)
 - [Debug Console](debug.md)
@@ -17,7 +17,7 @@
 - [Qualcomm Linux 1.7 Compile](qcom_linux_1.7_compile.md)
 - [Linux Application Compile](linux_compile.md)
 # Android
-# Upgrade Firmware
+# Getting Started
 - [Before Upgrade](upgrade_intro.md)
 - [Upgrade Complete Firmware](qfil_upgrade_firmware.md)
 # Accessories

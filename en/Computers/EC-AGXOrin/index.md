@@ -1,6 +1,6 @@
 # Product Introduction
 - [Introduction](started.md)
-# Upgrade Firmware
+# Getting Started
 - [USB Upgrade Firmware](upgrade_firmware.md)
 - [FAQ](upgrade_faq.md)
 # Development Guide

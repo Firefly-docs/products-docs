@@ -1,6 +1,6 @@
 # 产品简介
 - [简介](started.md)
-# 固件升级
+# 上手指南
 - [升级固件](qfil_upgrade_firmware.md)
 - [FAQ](upgrade_faq.md)
 # 开发指南

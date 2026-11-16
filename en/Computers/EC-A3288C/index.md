@@ -1,6 +1,6 @@
 # Product Introduction
 - [Introduction](started.md)
-# Upgrade Firmware
+# Getting Started
 - [USB Upgrade Firmware](upgrade_firmware.md)
 - [SD Card Upgrade Firmware](upgrade_firmware_sd.md)
 - [FAQ](upgrade_faq.md)

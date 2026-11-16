@@ -225,7 +225,7 @@ Google Driver [Android12.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	| vbmeta.img | including avb verification information, used for AVB verification |
 	| update.img | including the above img files to be flashed, can be used for the tool to directly flash the whole image package |
 
-	For details about how to upgrade a partition image file, see [USB Firmware Upgrade](../../firmware_upgrade/upgrade_firmware.md).
+	For details about how to upgrade a partition image file, see [USB Firmware Upgrade](../../getting_started/firmware_upgrade/upgrade_firmware.md).
   </CodeBlockTab>
 
   <CodeBlockTab value="ota">
@@ -536,7 +536,7 @@ Google Driver [Android14.0 Bundle](https://community.t-firefly.com/en/doc/downlo
 	| vbmeta.img | including avb verification information, used for AVB verification |
 	| update.img | including the above img files to be flashed, can be used for the tool to directly flash the whole image package |
 
-	For details about how to upgrade a partition image file, see [USB Firmware Upgrade](../../firmware_upgrade/upgrade_firmware.md).
+	For details about how to upgrade a partition image file, see [USB Firmware Upgrade](../../getting_started/firmware_upgrade/upgrade_firmware.md).
   </CodeBlockTab>
 
   <CodeBlockTab value="ota">

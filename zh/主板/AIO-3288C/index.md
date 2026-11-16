@@ -1,7 +1,7 @@
-# 上手教程
+# 产品简介
 - [介绍](started.md)
 - [串口调试](debug.md)
-# 更新固件
+# 上手指南
 - [启动模式说明](bootmode.md)
 - [升级固件](upgrade_firmware.md)
 - [烧写须知](upgrade_table.md)

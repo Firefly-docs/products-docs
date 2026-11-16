@@ -1,0 +1,7 @@
+{
+  "title": "上手指南",
+  "pages": [
+    "quick_start.md",
+    "firmware_upgrade"
+  ]
+}

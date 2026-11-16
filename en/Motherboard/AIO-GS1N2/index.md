@@ -15,5 +15,5 @@
 - [SOPHGO ](ai_sophgo.md)
 # FAQs
 - [FAQs](faqs.md)
-# Upgrade Firmware
+# Getting Started
 - [ROCKCHIP ](upgrade_rockchip.md)

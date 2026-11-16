@@ -1,7 +1,7 @@
-# Quick Start
+# Product Introduction
 - [Introduction](started.md)
 - [Serial debug](debug.md)
-# Upgrade Firmware
+# Getting Started
 - [Boot mode description](bootmode.md)
 - [Upgrade the firmware](upgrade_firmware.md)
 - [Instruction of upgrade](upgrade_table.md)

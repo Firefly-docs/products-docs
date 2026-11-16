@@ -1,8 +1,8 @@
-# 上手教程
+# 产品简介
 - [简介](started.md)
 - [串口调试](debug.md)
 - [ADB 使用](adb_use.md)
-# 升级固件
+# 上手指南
 - [介绍](01-bootmode.md)
 - [使用USB线缆升级固件](03-upgrade_firmware.md)
 # Linux开发

@@ -1,7 +1,7 @@
-# CORE-1808-JD4简介
+# 产品简介
 - [入手指南](started.md)
 - [串口调试   ](debug.md)
-# 烧写固件
+# 上手指南
 - [启动模式说明](bootmode.md)
 - [升级固件](upgrade_firmware.md)
 - [SD卡升级](sdupdate_firmware.md)

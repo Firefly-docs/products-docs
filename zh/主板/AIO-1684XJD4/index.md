@@ -1,7 +1,7 @@
-# 上手教程
+# 产品简介
 - [初次使用](started.md)
 - [串口调试](debug.md)
-# 更新固件
+# 上手指南
 - [使用 TF 卡升级系统固件](fw-upgrade-by-sdcard.md)
 - [新旧系统固件的升级与降级](fw-upgrade-and-downgrade.md)
 # Linux 开发

@@ -1,4 +1,4 @@
-# Core-PX30-JD4简介
+# 产品简介
 - [产品简介](core-px30-jd4.md)
 # 配套底板MB-JD4-RK3328&px30
 - [上手教程](getting_started.md)

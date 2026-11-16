@@ -1,6 +1,6 @@
 # RK182X开发套件
 - [前言](preface.md)
-# 快速开始
+# 产品简介
 - [简介](started.md)
 - [接口](interface_definition.md)
 - [登录](login.md)
@@ -16,7 +16,7 @@
 - [RK3588/RK3588S/RK3576 - 大语言模型](usage_llm_rockchip.md)
 # RK1820/RK1828 AI 开发
 - [RK1820/RK1828 AI 开发](ai_rk182x.md)
-# 固件升级
+# 上手指南
 - [启动模式](upgrade_bootmode_rockchip.md)
 - [使用 USB 线升级固件](upgrade_firmware_rockchip.md)
 - [使用 SD 卡升级固件](upgrade_firmware_sd_rockchip.md)

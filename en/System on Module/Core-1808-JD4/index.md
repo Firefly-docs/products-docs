@@ -1,9 +1,8 @@
-# CORE-1808-JD4 brief introduction
+# Product Introduction
 - [core-1808-jd4](core-1808-jd4.md)
-# Tutorial
 - [User manual](started.md)
 - [Serial debuge  ](debug.md)
-# Upgrade Firmware
+# Getting Started
 - [Boot mode description](bootmode.md)
 - [Upgrade the firmware](upgrade_firmware.md)
 # Linux

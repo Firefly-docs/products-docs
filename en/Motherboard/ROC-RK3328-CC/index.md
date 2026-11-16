@@ -1,8 +1,8 @@
-# Quick Start
+# Product Introduction
 - [Introduction](started.md)
 - [Getting Started](getting_started.md)
 - [Serial Debug](debug.md)
-# Upgrade Firmware
+# Getting Started
 - [Flashing to the SD Card](flash_sd.md)
 - [Flashing to the eMMC](flash_emmc.md)
 - [Flash Image](03-upgrade_firmware.md)

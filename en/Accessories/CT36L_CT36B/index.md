@@ -1,7 +1,7 @@
-# Quick Start
+# Product Introduction
 - [Introduction](started.md)
 - [Serial debug](usb_to_ttl.md)
-# Upgrade Firmware
+# Getting Started
 - [Boot mode description](upgrade_bootmode.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)
 - [Use SD card to upgrade firmware](upgrade_firmware_sd.md)

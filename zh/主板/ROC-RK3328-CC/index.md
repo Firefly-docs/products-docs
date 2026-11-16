@@ -1,8 +1,8 @@
-# 上手教程
+# 产品简介
 - [简介](started.md)
 - [上手指南](getting_started.md)
 - [串口调试](debug.md)
-# 升级固件
+# 上手指南
 - [烧写 SD 卡](flash_sd.md)
 - [烧写 eMMC](flash_emmc.md)
 - [升级固件](03-upgrade_firmware.md)

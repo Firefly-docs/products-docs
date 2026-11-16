@@ -15,5 +15,5 @@
 - [SOPHGO 平台](ai_sophgo.md)
 # FAQs
 - [常见问题](faqs.md)
-# 更新固件
+# 上手指南
 - [ROCKCHIP 平台 ](upgrade_rockchip.md)

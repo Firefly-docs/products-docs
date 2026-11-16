@@ -1,8 +1,9 @@
-# 上手教程
-- [入手指南](started.md)
-- [串口调试](debug.md)
+# 上手指南
 - [升级固件](upgrade_firmware.md)
 - [启动模式说明](bootmode.md)
+# 产品简介
+- [入手指南](started.md)
+- [串口调试](debug.md)
 # Android 开发
 - [ADB 使用](adb_use.md)
 - [编译 Android 固件](compile_android.md)

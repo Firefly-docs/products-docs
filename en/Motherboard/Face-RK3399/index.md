@@ -1,7 +1,7 @@
-# Quick Start
+# Product Introduction
 - [User manual](started.md)
 - [Serial debug](debug.md)
-# Upgrade Firmware
+# Getting Started
 - [Boot mode description](bootmode.md)
 - [Upgrade firmware](upgrade_firmware.md)
 - [Face-X series upgrade firmware](upgrade_firmware_face.md)

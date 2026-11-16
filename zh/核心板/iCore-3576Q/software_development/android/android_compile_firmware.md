@@ -274,7 +274,7 @@ out/host/linux-x86/bin/ota_from_target_files --block -v -i ~/ota/v1.zip -p out/h
 | vbmeta.img | 包含avb校验信息,用于AVB校验 |
 | update.img | 包含以上需要烧写的img文件,可以用于工具直接烧写整个固件包 |
 
-请参照 [《USB升级固件》](../../firmware_upgrade/upgrade_firmware.md) 一文来烧写分区镜像文件。
+请参照 [《USB升级固件》](../../getting_started/firmware_upgrade/upgrade_firmware.md) 一文来烧写分区镜像文件。
 
   </CodeBlockTab>
 </CodeBlockTabs>

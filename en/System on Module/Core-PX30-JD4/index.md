@@ -1,4 +1,4 @@
-# Core-PX30-JD4 Introduction
+# Product Introduction
 - [Product introduction](core-px30-jd4.md)
 # MB-JD4-RK3328&PX30
 - [Getting start](getting_started.md)

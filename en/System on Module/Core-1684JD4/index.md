@@ -1,7 +1,7 @@
-# Quick Start
+# Product Introduction
 - [First use](started.md)
 - [Serial debug](debug.md)
-# Upgrade Firmware
+# Getting Started
 - [Use TF card to upgrade firmware](fw-upgrade-by-sdcard.md)
 # Linux
 - [Sophon SDK development](sophon-sdk.md)

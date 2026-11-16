@@ -4,7 +4,7 @@
 - [Hardware Interface Introduction](interface_definition.md)
 - [Hardware Function Usage](hardware_usage.md)
 - [Linux Development](linux_dev.md)
-# Upgrade Firmware
+# Getting Started
 - [Boot mode description](upgrade_bootmode_rockchip.md)
 - [Upgrade the firmware via USB cable](upgrade_firmware.md)
 - [Upgrade the firmware via SD card](upgrade_firmware_sd_rockchip.md)

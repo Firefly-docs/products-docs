@@ -1,7 +1,7 @@
-# 上手教程
+# 产品简介
 - [产品概述](started.md)
 - [串口调试](debug.md)
-# 升级固件
+# 上手指南
 - [介绍](01-bootmode.md)
 - [使用USB线缆升级固件](loader_mode.md)
 - [使用 SD 卡升级固件](05-upgrade_firmware_sd.md)

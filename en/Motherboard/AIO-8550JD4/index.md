@@ -1,6 +1,6 @@
 # AIO-8550JD4
 - [Preface](preface.md)
-# Quick Start
+# Product Introduction
 - [Introduction](intro.md)
 - [Start](start.md)
 - [Debug Console](debug.md)
@@ -12,7 +12,7 @@
 # Linux
 - [Linux Application Compile](linux_compile.md)
 # Android
-# Upgrade Firmware
+# Getting Started
 - [Before Upgrade](upgrade_intro.md)
 - [Upgrade Complete Firmware](qfil_upgrade_firmware.md)
 - [Upgrade Partition Image](fastboot_upgrade_image.md)

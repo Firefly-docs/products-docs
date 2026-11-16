@@ -1,6 +1,6 @@
 # AIBOX-Orin Nano
 - [简介](started.md)
-# 固件升级
+# 上手指南
 - [USB升级](upgrade_firmware.md)
 - [FAQ](upgrade_faq.md)
 # 开发指南

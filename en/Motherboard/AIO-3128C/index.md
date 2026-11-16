@@ -1,8 +1,9 @@
-# Quick Start
-- [User manual](started.md)
-- [Serial port debugging](debug.md)
+# Getting Started
 - [Firmware upgrade](upgrade_firmware.md)
 - [Boot mode description](bootmode.md)
+# Product Introduction
+- [User manual](started.md)
+- [Serial port debugging](debug.md)
 # Android
 - [ADB Usage](adb_use.md)
 - [Compile the Android firmware](compile_android.md)

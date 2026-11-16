@@ -1,7 +1,7 @@
-# 上手教程
+# 产品简介
 - [入手指南](started.md)
 - [串口调试](debug.md)
-# 升级固件
+# 上手指南
 - [启动模式说明](bootmode.md)
 - [升级固件](upgrade_firmware.md)
 - [Face-X系列套件升级固件](upgrade_firmware_face.md)

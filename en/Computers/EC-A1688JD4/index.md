@@ -1,6 +1,6 @@
 # Product Introduction
 - [Introduction](started.md)
-# Upgrade Firmware
+# Getting Started
 - [SD Card Upgrade Firmware](fw_upgrade.md)
 - [FAQ](upgrade_faq.md)
 # Development Guide

@@ -1,7 +1,7 @@
 # Product Introduction
 - [Introduction](product_introduction/index.md)
-# Firmware Upgrade
-- [Firmware Upgrade](firmware_upgrade/index.md)
+# Getting Started
+- [Getting Started](getting_started/index.md)
 # Software Development
 - [Software Development](software_development/index.md)
 # Hardware Usage

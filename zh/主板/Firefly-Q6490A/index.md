@@ -1,6 +1,6 @@
 # Firefly-Q6490A
 - [前言](preface.md)
-# 上手教程
+# 产品简介
 - [介绍](intro.md)
 - [开始使用](start.md)
 - [串口调试](debug.md)
@@ -17,7 +17,7 @@
 - [高通 Linux 1.7 编译](qcom_linux_1.7_compile.md)
 - [Linux 应用编译](linux_compile.md)
 # Android 开发
-# 升级固件
+# 上手指南
 - [升级前准备](upgrade_intro.md)
 - [升级完整固件](qfil_upgrade_firmware.md)
 # 配件

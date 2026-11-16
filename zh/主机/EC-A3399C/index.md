@@ -1,6 +1,6 @@
 # 产品简介
 - [简介](started.md)
-# 固件升级
+# 上手指南
 - [USB升级固件](03-upgrade_firmware.md)
 - [SD卡升级固件](05-upgrade_firmware_sd.md)
 - [FAQ](upgrade_faq.md)

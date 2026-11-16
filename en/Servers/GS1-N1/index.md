@@ -14,5 +14,5 @@
 - [NVIDIA ](ai_nvidia.md)
 # FAQs
 - [FAQs](faqs.md)
-# Upgrade Firmware
+# Getting Started
 - [ROCKCHIP ](upgrade_rockchip.md)

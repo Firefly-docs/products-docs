@@ -1,7 +1,7 @@
-# Quick Start
+# Product Introduction
 - [Introduction](started.md)
 - [ADB use](adb_use.md)
-# Upgrade Firmware
+# Getting Started
 - [Boot mode description](01-bootmode.md)
 - [Upgrade the firmware via USB cable](03-upgrade_firmware.md)
 # Linux

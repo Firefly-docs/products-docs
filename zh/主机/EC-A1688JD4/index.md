@@ -1,6 +1,6 @@
 # 产品简介
 - [简介](started.md)
-# 固件升级
+# 上手指南
 - [SD卡升级固件](fw_upgrade.md)
 - [FAQ](upgrade_faq.md)
 # 开发指南

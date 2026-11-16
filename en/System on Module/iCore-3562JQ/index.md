@@ -1,7 +1,7 @@
 # iCore-3562JQ
 - [Introduction](started.md)
 - [Senial debug](debug.md)
-# Upgrade Firmware
+# Getting Started
 - [Introduction to updating firmware](01-bootmode.md)
 - [02-upgrade_table](02-upgrade_table.md)
 - [Upgrade the firmware via USB cable](03-upgrade_firmware.md)

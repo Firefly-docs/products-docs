@@ -1,6 +1,6 @@
 # 产品简介
 - [简介](started.md)
-# 固件升级
+# 上手指南
 - [USB升级固件](upgrade_firmware.md)
 - [SD卡升级固件](upgrade_firmware_sd_rockchip.md)
 - [FAQ](upgrade_faq.md)

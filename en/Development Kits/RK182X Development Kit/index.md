@@ -1,6 +1,6 @@
 # RK182X Developer Kit
 - [Preface](preface.md)
-# Quick Start
+# Product Introduction
 - [Introduction](started.md)
 - [Interface ](interface_definition.md)
 - [Login](login.md)
@@ -16,7 +16,7 @@
 - [RK3588/RK3588S/RK3576 - Large Language Model](usage_llm_rockchip.md)
 # RK1820/RK1828 AI Development
 - [RK1820/RK1828 AI Development](ai_rk182x.md)
-# Firmware Upgrade
+# Getting Started
 - [Boot Modes](upgrade_bootmode_rockchip.md)
 - [Upgrade Firmware via USB Cable](upgrade_firmware_rockchip.md)
 - [Upgrade the firmware via SD card](upgrade_firmware_sd_rockchip.md)
