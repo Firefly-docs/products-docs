@@ -106,7 +106,7 @@ AI 开发合集示意图如下：
 
 <center><img alt="AI 开发合集" src="../../../../common_img/quick_start/ai_dev_collection_zh.png" width="1523"></center>
 
-<center>[AI 开发合集](https://community.t-firefly.com/docs#software-os-guide)</center>
+<center>[AI 开发合集](https://community.t-firefly.com/docs#ai)</center>
 
 <Callout title="特别提示：LlamaPi" type="info">LlamaPi（读作“拉马派”）是 Firefly AI 团队自研的大模型部署与管理工具，仅支持 Linux 系统。它面向具备大模型推理能力的边缘设备，帮助用户在本地部署和管理开源大模型，并通过 OpenAI 兼容 API 为第三方应用提供推理能力，可以快速本地化部署 AI 模型。</Callout>
 

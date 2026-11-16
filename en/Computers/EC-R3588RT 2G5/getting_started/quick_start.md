@@ -106,7 +106,7 @@ The AI development collection is shown below:
 
 <center><img alt="AI development collection" src="../../../../common_img/quick_start/ai_dev_collection_en.png" width="1523"></center>
 
-<center>[AI Development Collection](https://community.t-firefly.com/en/docs#software-os-guide)</center>
+<center>[AI Development Collection](https://community.t-firefly.com/en/docs#ai)</center>
 
 <Callout title="Special note: LlamaPi" type="info">LlamaPi (pronounced “llama-pie”) is a large model deployment and management tool developed by the Firefly AI team, and it only supports Linux systems. Designed for edge devices with LLM inference capability, it helps users deploy and manage open-source large models locally and provides inference capabilities for third-party applications through an OpenAI-compatible API, enabling rapid local AI model deployment.</Callout>
 
