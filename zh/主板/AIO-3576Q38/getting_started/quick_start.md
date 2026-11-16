@@ -10,7 +10,7 @@
 
 <center><img alt="auto_pwr 拨码开关正确位置示例" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
-AIO-3576Q38 接通电源后即开机，上电过程会看到开机 logo：
+AIO-3576Q38 接通电源后即开机，上电过程会看到开机 logo（NVIDIA 平台产品显示 NVIDIA logo；部分平台可能无开机 logo，以实际显示为准）：
 
 <center><img alt="Firefly" src="../../../../common_img/quick_start/firefly_logo.png" width="1006"></center>
 
@@ -29,9 +29,15 @@ AIO-3576Q38 接通电源后即开机，上电过程会看到开机 logo：
 
 ### 1. 账号与密码
 
-- 登录账号：`firefly`；密码：`firefly`（Debian/Ubuntu 等 Linux 固件统一）
-- root 密码：大部分固件默认未设置，登录后执行 `sudo passwd root` 自行设置；若已设置，密码同为 `firefly`
-- 特殊型号（NVIDIA 平台产品，如 EC-AGXOrin、EC-OrinNX、EC-OrinNano 等）：登录账号与密码均为 `nvidia`
+| 平台 | 登录账号 | 密码 |
+| --- | --- | --- |
+| 瑞芯微（Rockchip） | `firefly` | `firefly` |
+| 算能（Sophgo） | `linaro` | `linaro` |
+| 高通（Qualcomm） | `firefly` | `firefly` |
+| 英伟达（NVIDIA） | `nvidia` | `nvidia` |
+| 进迭时空（SpacemiT） | `firefly` | `firefly` |
+
+各平台固件统一不设置 root 密码，登录后执行 `sudo passwd root` 自行设置；若固件已设置 root 密码，则与当前平台的普通用户密码相同。
 
 ### 2. 选择任一登录方式进入系统
 
@@ -39,7 +45,7 @@ AIO-3576Q38 接通电源后即开机，上电过程会看到开机 logo：
 - **调试串口**：所有产品均提供，可直接登录命令行
 - **ADB**：部分产品提供（多为 Type-C 接口），是否支持以产品规格为准
 - 各调试接口的具体位置，见产品文档「硬件功能使用」中的 debug / adb 章节
-- 个别无屏产品（如 3576Q38、1126Q38 系列）必须通过调试串口或 ADB 登录
+- 个别无屏产品（如 3576Q38、1126BQ38 系列）必须通过调试串口或 ADB 登录
 
 ### 3. SSH 远程登录（可选）
 
@@ -74,9 +80,12 @@ Linux 应用开发可参考社区文档 [Ubuntu/Debian 开发指南](https://com
 
 见产品文档「硬件功能使用」中的 debug / adb 章节
 
-### 4. 应用开发
+### 4. Android 系统定制化开发与 FireflyAPI 调用开发
 
-见下方「应用软件开发合集」
+以下内容仅针对 Rockchip 平台产品：
+
+- [Android 系统定制化开发指南](https://community.t-firefly.com/docs/software/os-guide/Android/customization-overview)
+- [FireflyAPI 调用开发指南](https://community.t-firefly.com/docs/software/other/Android-FireflyApi/firefly-api-overview)
 
 </CodeBlockTab>
 </CodeBlockTabs>

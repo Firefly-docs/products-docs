@@ -8,5 +8,3 @@
 - [硬件功能使用](hardware_usage/index.md)
 # AI
 - [AI](ai/index.md)
-# 配件与模组
-- [配件与模组](module_overview.md)

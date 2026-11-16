@@ -10,7 +10,7 @@ The image below shows the power connector of Core-3588J. Connect the power adapt
 
 <center><img alt="Correct auto_pwr DIP switch position" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
-Core-3588J boots up as soon as it is connected to power. During boot, the following logo is displayed:
+Core-3588J boots up as soon as it is connected to power. During boot, the following logo is displayed (NVIDIA-based products show the NVIDIA logo; some platforms may have no boot logo — refer to your actual device):
 
 <center><img alt="Firefly" src="../../../../common_img/quick_start/firefly_logo.png" width="1006"></center>
 
@@ -29,9 +29,15 @@ The image below shows the Linux desktop (XFCE) of a 3588-series product as an ex
 
 ### 1. Account and Password
 
-- Login account: `firefly`; password: `firefly` (unified across Debian/Ubuntu and other Linux firmware)
-- root password: not set by default on most firmware images; run `sudo passwd root` after login to set one; if it has been set, the password is also `firefly`
-- Special models (NVIDIA-based products such as EC-AGXOrin, EC-OrinNX, EC-OrinNano): both the login account and password are `nvidia`
+| Platform | Account | Password |
+| --- | --- | --- |
+| Rockchip | `firefly` | `firefly` |
+| Sophgo | `linaro` | `linaro` |
+| Qualcomm | `firefly` | `firefly` |
+| NVIDIA | `nvidia` | `nvidia` |
+| SpacemiT | `firefly` | `firefly` |
+
+root passwords are not set by default on these firmwares: run `sudo passwd root` after login to set one. If a firmware has set a root password, it is the same as the normal user password of that platform.
 
 ### 2. Log in to the System via Any of the Following Methods
 
@@ -39,7 +45,7 @@ The image below shows the Linux desktop (XFCE) of a 3588-series product as an ex
 - **Debug serial port**: available on all products, log in to the command line directly
 - **ADB**: available on some products (mostly via the Type-C port); see the product specification
 - For the exact locations of these debug interfaces, see the debug / adb chapters under "Hardware Usage" in the product documentation
-- A few headless products (such as the 3576Q38 and 1126Q38 series) must be accessed through the debug serial port or ADB
+- A few headless products (such as the 3576Q38 and 1126BQ38 series) must be accessed through the debug serial port or ADB
 
 ### 3. SSH Remote Login (Optional)
 
@@ -74,9 +80,12 @@ Most Android products support ADB, which allows terminal debugging; the debug se
 
 See the debug / adb chapters under "Hardware Usage" in the product documentation
 
-### 4. Application Development
+### 4. Android System Customization and FireflyAPI Development
 
-See the "Application Software Development Collection" below
+The following applies to Rockchip products only:
+
+- [Android System Customization Guide](https://community.t-firefly.com/en/docs/software/os-guide/Android/customization-overview)
+- [FireflyAPI Integration Guide](https://community.t-firefly.com/en/docs/software/other/Android-FireflyApi/firefly-api-overview)
 
 </CodeBlockTab>
 </CodeBlockTabs>

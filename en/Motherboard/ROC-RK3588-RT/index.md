@@ -8,5 +8,3 @@
 - [Hardware Usage](hardware_usage/index.md)
 # AI
 - [AI](ai/index.md)
-# Accessories & Modules
-- [Accessories & Modules](module_overview.md)
