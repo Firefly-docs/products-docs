@@ -11,7 +11,13 @@ Firefly-R3572A 支持两种供电方式（二选一）：
 
 <img alt="供电接口（Type-C DCIN 与 DC Wafer 4Pin-2mm）" src="../../../../rk3572_img/Firefly-R3572A/interface_dc_in.jpg" width="600">
 
-Firefly-R3572A 接通电源后即开机，上电过程会看到开机 logo（部分平台可能无开机 logo，以实际显示为准），系统启动完成后进入桌面。
+Firefly-R3572A 接通电源后即开机，上电过程会看到开机 logo：
+
+<Callout title="提示" type="info">部分平台可能无开机 logo，以实际显示为准。</Callout>
+
+<center><img alt="Firefly" src="../../../../common_img/quick_start/firefly_logo.png" width="1006"></center>
+
+系统启动完成后进入桌面。
 
 ## 系统登录 [step]
 
@@ -60,7 +66,7 @@ Firefly-R3572A 接通电源后即开机，上电过程会看到开机 logo（部
 
     <Callout title="切勿执行系统整体升级" type="warn">
 
-    不要执行 `sudo apt-get upgrade`。此类产品均为嵌入式设备，内核及操作系统都是高度定制版本，执行 upgrade 极有可能破坏系统的相关依赖，导致系统异常。
+    不要执行 `sudo apt-get upgrade`、`sudo apt full-upgrade`、`sudo do-release-upgrade`。此类产品均为嵌入式设备，内核及操作系统都是高度定制版本，执行 upgrade 极有可能破坏系统的相关依赖，导致系统异常。
 
     </Callout>
 
@@ -99,17 +105,17 @@ Firefly-R3572A 接通电源后即开机，上电过程会看到开机 logo（部
 
 应用软件开发合集示意图如下，点击下方链接进入：
 
-<img alt="应用软件开发合集" src="../../../../rk3572_img/common/app_dev_collection.png" width="800">
+<center><img alt="应用软件开发合集" src="../../../../rk3572_img/common/app_dev_collection.png" width="800"></center>
 
-[应用软件开发合集](https://community.t-firefly.com/docs#software-os-guide)
+<center>[应用软件开发合集](https://community.t-firefly.com/docs#software-os-guide)</center>
 
 ### AI 开发合集
 
 AI 开发合集示意图如下：
 
-<img alt="AI 开发合集" src="../../../../rk3572_img/common/ai_dev_collection.png" width="800">
+<center><img alt="AI 开发合集" src="../../../../rk3572_img/common/ai_dev_collection.png" width="800"></center>
 
-[AI 开发合集](https://community.t-firefly.com/docs#software-os-guide)
+<center>[AI 开发合集](https://community.t-firefly.com/docs#ai)</center>
 
 <Callout title="特别提示：LlamaPi" type="idea">
 

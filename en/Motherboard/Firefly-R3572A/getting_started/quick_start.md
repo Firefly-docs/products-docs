@@ -11,7 +11,13 @@ The two red boxes in the image below mark the power connectors described above: 
 
 <img alt="Power connectors (Type-C DCIN and DC Wafer 4Pin-2mm)" src="../../../../rk3572_img/Firefly-R3572A/interface_dc_in.jpg" width="600">
 
-Firefly-R3572A boots as soon as power is connected. The boot logo appears during startup (some platforms may have no boot logo — refer to your actual display), and the system enters the desktop after booting completes.
+Firefly-R3572A boots as soon as power is connected. The boot logo appears during startup:
+
+<Callout title="Note" type="info">Some platforms may have no boot logo — refer to your actual display.</Callout>
+
+<center><img alt="Firefly" src="../../../../common_img/quick_start/firefly_logo.png" width="1006"></center>
+
+The system enters the desktop after booting completes.
 
 ## System Login [step]
 
@@ -58,9 +64,9 @@ Firefly-R3572A boots as soon as power is connected. The boot logo appears during
 
     For Linux application development, refer to the community document [Ubuntu/Debian Development Guide](https://community.t-firefly.com/docs/software/os-guide/Ubuntu-Debian/ubuntu-login).
 
-    <Callout title="Never upgrade the whole system" type="warn">
+    <Callout title="Do not run a full system upgrade" type="warn">
 
-    Do not run `sudo apt-get upgrade`. These products are embedded devices with highly customized kernels and operating systems. Running upgrade is very likely to break system dependencies and cause system failures.
+    Do not run `sudo apt-get upgrade`, `sudo apt full-upgrade`, or `sudo do-release-upgrade`. These are embedded products with highly customized kernels and operating systems; running upgrade is very likely to break system dependencies and cause system malfunctions.
 
     </Callout>
 
@@ -99,17 +105,17 @@ Firefly-R3572A boots as soon as power is connected. The boot logo appears during
 
 The application software development collection diagram is as follows; click the link below to enter:
 
-<img alt="Application software development collection" src="../../../../rk3572_img/common/app_dev_collection_en.png" width="800">
+<center><img alt="Application software development collection" src="../../../../rk3572_img/common/app_dev_collection_en.png" width="800"></center>
 
-[Application Software Development Collection](https://community.t-firefly.com/docs#software-os-guide)
+<center>[Application Software Development Collection](https://community.t-firefly.com/docs#software-os-guide)</center>
 
 ### AI Development Collection
 
 The AI development collection diagram is as follows:
 
-<img alt="AI development collection" src="../../../../rk3572_img/common/ai_dev_collection_en.png" width="800">
+<center><img alt="AI development collection" src="../../../../rk3572_img/common/ai_dev_collection_en.png" width="800"></center>
 
-[AI Development Collection](https://community.t-firefly.com/docs#software-os-guide)
+<center>[AI Development Collection](https://community.t-firefly.com/docs#ai)</center>
 
 <Callout title="Tip: LlamaPi" type="idea">
 
