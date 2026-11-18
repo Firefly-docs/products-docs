@@ -30,6 +30,7 @@ Firefly 提供 MIPI 接口摄像头模组，满足图像采集与 AI 视觉应�
 <CodeBlockTabs defaultValue="rk3588">  <CodeBlockTabsList>
     <CodeBlockTabsTrigger value="rk3588">RK3588</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk3576">RK3576</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="rk3572">RK3572</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk356x">RK356X</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rk3506">RK3506</CodeBlockTabsTrigger>
     <CodeBlockTabsTrigger value="rv1126">RV1126</CodeBlockTabsTrigger>
@@ -129,6 +130,16 @@ Firefly 提供 MIPI 接口摄像头模组，满足图像采集与 AI 视觉应�
 | CORE-K3JD4 | — | — | — | — | — | — | — |
 | ITX-K3L | √ | — | — | — | — | — | — |
 | AIBOX-K3 | — | — | — | — | — | — | — |
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="rk3572">
+
+**RK3572**
+
+| 板型 | [IMX415](../../配件/IMX415/started.md) | IMX586 | [XC7160](../../配件/CAM-8MS1M/started.md) | SC3336 | IMX335 | OS04A10 | [gc2053/gc2093](../../配件/CAM-2MS2MF/started.md) |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Firefly-R3572A | √ | — | √ | — | — | — | — |
 
   </CodeBlockTab>
 </CodeBlockTabs>
