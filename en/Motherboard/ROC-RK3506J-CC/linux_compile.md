@@ -94,13 +94,12 @@ Using the AMP feature, you can run linux on Cortex-A7 * 3, and Cortex-M0 * 1 as 
 
 This chapter introduces the compilation environment setup for Linux SDK
 
-<font color=red>
+<Callout title="Note" type="warn">
 
-**Note:**
+1. It is recommended to develop in the X86_64 Ubuntu 22.04 system environment. If you use other system versions, you may need to make corresponding adjustments to the compilation environment.
+2. Use a normal user to compile, and do not use root user privileges to compile.
 
-**(1) It is recommended to develop in the X86_64 Ubuntu 22.04 system environment. If you use other system versions, you may need to make corresponding adjustments to the compilation environment. **
-
-**(2) Use a normal user to compile, and do not use root user privileges to compile. **</font>
+</Callout>
 
 ## Get SDK
 

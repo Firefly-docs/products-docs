@@ -4,13 +4,12 @@
 
 This chapter introduces the compilation environment of the Linux SDK
 
-<font color=red>
+<Callout title="Note" type="warn">
 
-**Note:**
+1. It is recommended to develop in the Ubuntu 18.04 system environment. If other system versions are used, the compilation environment may need to be adjusted accordingly.
+2. Unzip and Compile with normal user, do not unzip or compile with root user authority. Do not unzip SDK to shared directory of VMs.
 
-**(1) It is recommended to develop in the Ubuntu 18.04 system environment. If other system versions are used, the compilation environment may need to be adjusted accordingly.**
-
-**(2) Unzip and Compile with normal user, do not unzip or compile with root user authority. Do not unzip SDK to shared directory of VMs.** </font>
+</Callout>
 
 
 ### Download Firefly_Linux_SDK

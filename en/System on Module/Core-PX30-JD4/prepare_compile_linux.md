@@ -2,13 +2,12 @@
 
 This chapter introduces the compilation environment of the Linux SDK.
 
-<font color=red>
+<Callout title="Note" type="warn">
 
-**Note:**
+1. It is recommended to develop in the Ubuntu 16.04 system environment. If other system versions are used, the compilation environment may need to be adjusted accordingly.
+2. Compile with ordinary user, do not compile with root user authority.
 
-**(1) It is recommended to develop in the Ubuntu 16.04 system environment. If other system versions are used, the compilation environment may need to be adjusted accordingly.**
-
-**(2) Compile with ordinary user, do not compile with root user authority.** </font>
+</Callout>
 
 ## Download Firefly_Linux_SDK
 
