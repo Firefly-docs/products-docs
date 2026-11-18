@@ -1,16 +1,16 @@
 # 部署例程
 
-## 人工智能算法部署例程
+## 人工智能算法部署例程 [step]
 
 AIBOX-1688X 具备全面的人工智能算法本地私有化部署能力，无论是新颖、高算力需求的大语言模型，还是经典的 YOLOv5 目标检测模型，AIBOX-1688X 均可胜任。
 
 本章节主要介绍 SOPHON-DEMO 项目，大模型部署请参考「大模型部署例程」这一章节。
 
-## SOPHON-DEMO 项目简介
+## SOPHON-DEMO 项目简介 [step]
 
 SOPHON-DEMO 包含了一系列主流人工智能算法的移植例程，以及详细的部署文档以便于用户运行，项目仓库：[SOPHON-DEMO](https://github.com/sophgo/sophon-demo)。
 
-## 例程清单
+## 例程清单 [step]
 
 SOPHON-DEMO 提供的例子从易到难分为`tutorial`、`sample`、`application`三个模块：
 * `tutorial`模块存放一些基础接口的使用示例

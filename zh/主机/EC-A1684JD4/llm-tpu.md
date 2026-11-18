@@ -1,12 +1,12 @@
 # 大模型部署
 
-## LLM-TPU 项目简介
+## LLM-TPU 项目简介 [step]
 
 LLM-TPU 包含了各类开源生成式 AI 模型的移植部署例程，其中以 LLM 为主，也包含 Stable Diffusion（AI 绘画）。
 
 项目仓库链接：[LLM-TPU](https://github.com/sophgo/LLM-TPU)。
 
-## 例程清单
+## 例程清单 [step]
 
 |Model                |INT4                |INT8                |FP16/BF16           |Huggingface Link                                                          |
 |:-                   |:-                  |:-                  |:-                  |:-                                                                        |

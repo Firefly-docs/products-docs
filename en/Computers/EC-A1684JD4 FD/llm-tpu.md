@@ -1,12 +1,12 @@
 # LLM deployment
 
-## LLM-TPU project introduction
+## LLM-TPU project introduction [step]
 
 LLM-TPU contains migration deployment routines for various open source generative AI models, mainly LLM, also Stable Diffusion (AI painting).
 
 Project repository link: [LLM-TPU](https://github.com/sophgo/LLM-TPU).
 
-## Examples list
+## Examples list [step]
 
 |Model                |INT4                |INT8                |FP16/BF16           |Huggingface Link                                                          |
 |:-                   |:-                  |:-                  |:-                  |:-                                                                        |

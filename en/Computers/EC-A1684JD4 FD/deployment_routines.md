@@ -1,18 +1,18 @@
 # Deployment Routines
 
-## AI algorithm deployment
+## AI algorithm deployment [step]
 
 EC-A1684JD4 FD has a comprehensive local private deployment capability of AI algorithms, whether it is a novel large language model with high computing requirements, or a classic YOLOv5 object detection model, EC-A1684JD4 FD can be competent.
 
 This chapter mainly introduces the SOPHON-DEMO project. For large model deployment, refer to the [LLM deployment](llm-tpu.md) chapter.
 
-## SOPHON-DEMO project introduction
+## SOPHON-DEMO project introduction [step]
 
 SOPHON-DEMO contains a series of porting routines for mainstream AI algorithms, as well as detailed deployment documentation to make it easy for users to run.
 
 Project repository link: [SOPHON-DEMO](https://github.com/sophgo/sophon-demo)。
 
-## Examples list
+## Examples list [step]
 
 The examples provided by SOPHON-DEMO are divided into three modules from easy to difficult: `tutorial`, `sample` and `application`.
 
@@ -72,15 +72,15 @@ The examples provided by SOPHON-DEMO are divided into three modules from easy to
 
 ---
 
-## LLM deployment
+## LLM deployment [step]
 
-## LLM-TPU project introduction
+## LLM-TPU project introduction [step]
 
 LLM-TPU contains migration deployment routines for various open source generative AI models, mainly LLM, also Stable Diffusion (AI painting).
 
 Project repository link: [LLM-TPU](https://github.com/sophgo/LLM-TPU).
 
-## Examples list
+## Examples list [step]
 
 |Model                |INT4                |INT8                |FP16/BF16           |Huggingface Link                                                          |
 |:-                   |:-                  |:-                  |:-                  |:-                                                                        |
@@ -107,7 +107,7 @@ Project repository link: [LLM-TPU](https://github.com/sophgo/LLM-TPU).
 
 ---
 
-## RAG private knowledge base
+## RAG private knowledge base [step]
 
 Retrieval-Augmented Generation (RAG) is a technology that utilizes information from private or proprietary data sources to enhance text generation. It combines the generative capabilities of large language models (LLMs) with the ability to retrieve relevant information from external knowledge bases, thereby producing more accurate and contextually relevant responses or text content.
 
@@ -115,19 +115,19 @@ By leveraging RAG techniques, key issues inherent in large models such as outdat
 
 This section provides three RAG deployment cases that can be deployed on EC-A1684JD4 FD, namely FireflyChat, ChatDoc-TPU and LangChain-Chatchat-TPU.
 
-## FireflyChat project introduction
+## FireflyChat project introduction [step]
 
 FireflyChat is a graphical application platform for LLM developed by the Firefly team. It requires only simple installation with no need for compilation, allowing for quick experience of the enhancement that RAG brings to LLM.
 
 For details, see [FireflyChat](fireflychat.md).
 
-## ChatDoc-TPU project introduction
+## ChatDoc-TPU project introduction [step]
 
 ChatDoc-TPU is a fully localized inference document conversation tool whose main goal is to simplify interactions with documents and extract valuable information by using natural language.
 
 Project repository link: [ChatDoc-TPU](https://github.com/wangyifan2018/ChatDoc-TPU)
 
-## LangChain-Chatchat-TPU project introduction
+## LangChain-Chatchat-TPU project introduction [step]
 
 LangChain-Chatchat-TPU is a fully localized inference knowledge base enhancement scheme based on Langchain-Chatchat.
 
@@ -135,15 +135,15 @@ Project repository link: [LangChain-Chatchat-TPU](https://github.com/wangyifan20
 
 ---
 
-## TTS and ASR
+## TTS and ASR [step]
 
-## VITS-TPU project introduction
+## VITS-TPU project introduction [step]
 
 VITS is an end-to-end text-to-speech (TTS) model. The VITS-TPU project implements TPU algorithm porting to VITS.
 
 Project repository link: [VITS-TPU](https://github.com/wangyifan2018/VITS-TPU)
 
-## Whisper-UI-TPU project introduction
+## Whisper-UI-TPU project introduction [step]
 
 Whisper is an open source speech recognition (ASR) model developed by OpenAI that enables real-time, multilingual speech recognition.
 
@@ -153,9 +153,9 @@ Project repository link: [Whisper-UI-TPU](https://github.com/wangyifan2018/Whisp
 
 ---
 
-## Image content retrieval
+## Image content retrieval [step]
 
-## CLIP-TPU project introduction
+## CLIP-TPU project introduction [step]
 
 CLIP, which stands for Constrastive Language-Image Pre-training, is a text-image pre-training model implemented by OpenAI using contrast learning. CLIP has a very impressive performance in zero-shot text-image retrieval, zero-shot image classification, Vincennes chart task guidance, open-domain detection segmentation and other tasks.
 
@@ -163,7 +163,7 @@ The CLIP-TPU project implements the TPU algorithm transplantation of CLIP, and u
 
 Project repository link: [CLIP-TPU](https://github.com/wangyifan2018/CLIP-TPU)
 
-## ImageSearch-tpu project introduction
+## ImageSearch-tpu project introduction [step]
 
 ImageSearch-tpu project realizes the function of searching a large number of images based on CLIP, and provides a visual WebUI for users to use.
 

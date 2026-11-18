@@ -1,12 +1,17 @@
 # FAQ
 
-## Q: What are the requirements for the TF card used for firmware upgrade?
+
+<Accordions>
+
+<Accordion title="Q: What are the requirements for the TF card used for firmware upgrade?" type="single" id="bm1688_upgrade_faq_1">
 
 **A:** The TF card needs to use an MBR partition and be formatted to FAT32. Class 10 or higher is recommended, with 8/16/32 GB capacity selected according to the firmware size.
 
 Note: If the TF card exceeds 32GB, it may not be formatable to FAT32 due to Windows system limitations, so it is best to choose a TF card smaller than 32GB.
 
-## Q: What are the steps for TF card upgrade? How to tell whether the upgrade succeeded?
+</Accordion>
+
+<Accordion title="Q: What are the steps for TF card upgrade? How to tell whether the upgrade succeeded?" type="single" id="bm1688_upgrade_faq_2">
 
 **A:** The steps are as follows:
 
@@ -17,4 +22,8 @@ Note: If the TF card exceeds 32GB, it may not be formatable to FAT32 due to Wind
 5. If the upgrade fails, all LED lights will turn off
 
 For details, please refer to [Firmware Upgrade](fw_upgrade.md).
+
+</Accordion>
+
+</Accordions>
 

@@ -1,16 +1,16 @@
 # Deployment Routines
 
-## Artificial Intelligence Algorithm Deployment Routine
+## Artificial Intelligence Algorithm Deployment Routine [step]
 
 AIBOX-1688X has comprehensive capabilities for local private deployment of artificial intelligence algorithms. Whether it's a novel, high-computational-demand large language model or the classic YOLOv5 object detection model, AIBOX-1688X can handle both.
 
 This chapter mainly introduces the SOPHON-DEMO project. For large model deployment, please refer to the "Large Model Deployment Routine" section.
 
-## SOPHON-DEMO Project Introduction
+## SOPHON-DEMO Project Introduction [step]
 
 SOPHON-DEMO includes a series of transplantation routines for mainstream artificial intelligence algorithms, as well as detailed deployment documentation to facilitate user operation. Project repository: [SOPHON-DEMO](https://github.com/sophgo/sophon-demo).
 
-## Routine List
+## Routine List [step]
 
 The examples provided by SOPHON-DEMO are categorized from easy to difficult into three modules: `tutorial`, `sample`, and `application`:
 * The `tutorial` module contains examples of basic interface usage.

@@ -10,7 +10,9 @@
 
 <center><img alt="auto_pwr 拨码开关正确位置示例" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
-EC-A3588Q 接通电源后即开机，上电过程会看到开机 logo（NVIDIA 平台产品显示 NVIDIA logo；部分平台可能无开机 logo，以实际显示为准）：
+EC-A3588Q 接通电源后即开机，上电过程会看到开机 logo：
+
+<Callout title="提示" type="info">NVIDIA 平台产品显示 NVIDIA logo；部分平台可能无开机 logo，以实际显示为准。</Callout>
 
 <center><img alt="Firefly" src="../../../../common_img/quick_start/firefly_logo.png" width="1006"></center>
 
@@ -41,28 +43,95 @@ EC-A3588Q 接通电源后即开机，上电过程会看到开机 logo（NVIDIA �
 
 ### 2. 选择任一登录方式进入系统
 
-- **HDMI 显示器 + 鼠标键盘**：登录桌面后打开终端即可开发
-- **调试串口**：所有产品均提供，可直接登录命令行
-- **ADB**：部分产品提供（多为 Type-C 接口），是否支持以产品规格为准
-- 各调试接口的具体位置，见产品文档「硬件功能使用」中的 debug / adb 章节
-- 个别无屏产品（如 3576Q38、1126BQ38 系列）必须通过调试串口或 ADB 登录
+<CodeBlockTabs defaultValue="login-rockchip">
+  <CodeBlockTabsList>
+    <CodeBlockTabsTrigger value="login-rockchip">瑞芯微</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="login-sophgo">算能</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="login-qcom">高通</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="login-nvidia">英伟达</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="login-spacemit">进迭时空</CodeBlockTabsTrigger>
+  </CodeBlockTabsList>
 
-### 3. SSH 远程登录（可选）
+  <CodeBlockTab value="login-rockchip">
 
-SSH 是常用的网络登录方式。设备默认使用动态 IP，需先通过上述任一方式登录系统、为设备配置静态 IP 后，再使用 SSH 连接：
+    - **HDMI 显示器 + 鼠标键盘**：登录桌面后打开终端即可开发
+    - **调试串口**：所有产品均提供，可直接登录命令行
+    - **ADB**：部分产品提供（多为 Type-C 接口），是否支持以产品规格为准
+    - 各调试接口的具体位置，见产品文档「硬件功能使用」中的 debug / adb 章节
+    - 个别无屏产品（如 3576Q38、1126BQ38 系列）必须通过调试串口或 ADB 登录
 
-```bash
-ssh firefly@<设备静态 IP>
-```
+    **SSH 远程登录（可选）**：SSH 是常用的网络登录方式。设备默认使用动态 IP，需先通过上述任一方式登录系统、为设备配置静态 IP 后，再使用 SSH 连接：
 
-### 4. 应用开发入门
+    ```bash
+    ssh firefly@<设备静态 IP>
+    ```
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="login-sophgo">
+
+    算能平台产品支持通过网络或调试串口登录系统：
+
+    - **网络登录**：具体内容见产品文档「硬件功能使用」中的以太网章节
+    - **调试串口**：具体内容见产品文档「硬件功能使用」中的调试串口章节
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="login-qcom">
+
+    - **HDMI 显示器 + 鼠标键盘**：登录桌面后打开终端即可开发
+    - **调试串口**：所有产品均提供，可直接登录命令行
+    - **ADB**：部分产品提供（多为 Type-C 接口），是否支持以产品规格为准
+    - 各调试接口的具体位置，见产品文档「硬件功能使用」中的 debug / adb 章节
+
+    **SSH 远程登录（可选）**：SSH 是常用的网络登录方式。设备默认使用动态 IP，需先通过上述任一方式登录系统、为设备配置静态 IP 后，再使用 SSH 连接：
+
+    ```bash
+    ssh firefly@<设备静态 IP>
+    ```
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="login-nvidia">
+
+    - **HDMI 显示器 + 鼠标键盘**：登录桌面后打开终端即可开发
+    - **调试串口**：所有产品均提供，可直接登录命令行
+    - 各调试接口的具体位置，见产品文档「硬件功能使用」中的 debug 章节
+
+    **SSH 远程登录（可选）**：SSH 是常用的网络登录方式。设备默认使用动态 IP，需先通过上述任一方式登录系统、为设备配置静态 IP 后，再使用 SSH 连接：
+
+    ```bash
+    ssh nvidia@<设备静态 IP>
+    ```
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="login-spacemit">
+
+    - **HDMI 显示器 + 鼠标键盘**：登录桌面后打开终端即可开发
+    - **调试串口**：所有产品均提供，可直接登录命令行
+    - **ADB**：部分产品提供（多为 Type-C 接口），是否支持以产品规格为准
+    - 各调试接口的具体位置，见产品文档「硬件功能使用」中的 debug / adb 章节
+
+    **SSH 远程登录（可选）**：SSH 是常用的网络登录方式。设备默认使用动态 IP，需先通过上述任一方式登录系统、为设备配置静态 IP 后，再使用 SSH 连接：
+
+    ```bash
+    ssh firefly@<设备静态 IP>
+    ```
+
+  </CodeBlockTab>
+</CodeBlockTabs>
+
+### 3. 应用开发入门
 
 Linux 应用开发可参考社区文档 [Ubuntu/Debian 开发指南](https://community.t-firefly.com/docs/software/os-guide/Ubuntu-Debian/ubuntu-login)。
 
-<Callout title="切勿执行系统整体升级" type="warn">不要执行 `sudo apt-get upgrade`。此类产品均为嵌入式设备，内核及操作系统都是高度定制版本，执行 upgrade 极有可能破坏系统的相关依赖，导致系统异常。</Callout>
+<Callout title="切勿执行系统整体升级" type="warn">不要执行 `sudo apt-get upgrade`、`sudo apt full-upgrade`、`sudo do-release-upgrade`。此类产品均为嵌入式设备，内核及操作系统都是高度定制版本，执行 upgrade 极有可能破坏系统的相关依赖，导致系统异常。</Callout>
 
 </CodeBlockTab>
 <CodeBlockTab value="android">
+
+<Callout title="注意" type="warn">进迭时空（K3）、英伟达（NVIDIA）、算能（Sophgo）平台产品没有 Android 系统，本节仅适用于提供 Android 系统的平台产品。</Callout>
 
 下图以 3588 系列产品的 Android 12 桌面为例，其他平台请以实际显示为准：
 

@@ -387,7 +387,7 @@ $ aplay -D hw:CARD=cv186xdac,DEV=1  test.wav # 播放录制好的音频
     * NPU : `cat /sys/kernel/debug/ion/cvi_npu_heap_dump/summary`
     * VPP : `cat /sys/kernel/debug/ion/cvi_vpp_heap_dump/summary`
 
-## 远程桌面 X11VNC
+## 远程桌面 X11VNC [step]
 
 x11vnc 是一个可以让管理员直接通过 VNC Viewer 来连接服务器的真实 X 桌面的工具。
 

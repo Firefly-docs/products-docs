@@ -1,6 +1,6 @@
 # 演示应用
 
-## FireflyChat
+## FireflyChat [step]
 
 FireflyChat 是由 Firefly 开源团队开发的图形化大模型应用平台，用户可在 FireflyChat 提供的可视化 WebUI 中快速体验各种大模型的实际使用效果。
 
@@ -9,7 +9,7 @@ FireflyChat 是由 Firefly 开源团队开发的图形化大模型应用平台�
 <img alt="" src="../../../bm1684_img/fireflychat.png" width="800">
 </center>
 
-## 软件安装
+## 软件安装 [step]
 
 安装 FireflyChat 需要先从[下载中心]获取所需的安装包。共两个安装包，分别为 `fireflychat*.deb` 和 `libfirefly-ai*.deb`。
 
@@ -27,7 +27,7 @@ sudo dpkg -i fireflychat*.deb
 
 在安装完 FireflyChat 后，还需将所需的模型文件导入进 FireflyChat 中，才能够正常使用。
 
-## 模型导入
+## 模型导入 [step]
 
 ### 大模型
 
@@ -59,7 +59,7 @@ sudo mv <model_path> /models/embedding/
 sudo systemctl restart FireflyChat
 ```
 
-## 软件使用
+## 软件使用 [step]
 
 ### WebUI 使用（主要使用方法）
 
@@ -87,11 +87,11 @@ sudo journalctl -u FireflyChat
 
 ---
 
-## 快速部署 Llama3
+## 快速部署 Llama3 [step]
 
 为了便于用户快速体验 Llama3，Firefly 开源团队提供了开箱即用的快速部署包，请从[下载中心]获取快速部署包。
 
-## 部署流程
+## 部署流程 [step]
 
 将部署包传输至 EC-A1684JD4 机器，推荐使用 `scp` 命令传输：
 

@@ -1,6 +1,6 @@
 # Use TF card to upgrade firmware
 
-## Preparation
+## Preparation [step]
 
 - EC-A1684JD4
 - PC
@@ -8,7 +8,7 @@
 - TF card (Class10 or higher is recommended, and choose 8/16/32 GB capacity according to firmware size)
 - System firmware (Please go to [Download Center] to download)
 
-## Upgrade steps
+## Upgrade steps [step]
 
 1. Format TF card using MBR partition and FAT32 format.
 2. Extract all files in the upgrade firmware package directly to the TF card (TF card does not contain folders).
@@ -16,7 +16,7 @@
 4. After the machine upgrade is completed, remove the TF card and disconnect the power supply.
 5. Power on and start the system again to complete the upgrade.
 
-## Indicator status
+## Indicator status [step]
 
 1. During the upgrade process, the LED light will flash briefly, indicating that the upgrade is in progress.
 2. If the upgrade is successful, the green LED light will keep flashing.

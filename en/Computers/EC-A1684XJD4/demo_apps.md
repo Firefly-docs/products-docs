@@ -1,6 +1,6 @@
 # Demo Applications
 
-## FireflyChat
+## FireflyChat [step]
 
 FireflyChat is a graphical application platform for LLM developed by the Firefly team. Users can quickly experience the actual use of various large models on the visual WebUI provided by FireflyChat.
 
@@ -9,7 +9,7 @@ FireflyChat is a graphical application platform for LLM developed by the Firefly
 <img alt="" src="../../../bm1684_img/fireflychat.png" width="800">
 </center>
 
-## Installation
+## Installation [step]
 
 You need to obtain the required installation package from the [Download Center] to install FireflyChat. There are two installation packages, which are `fireflychat*.deb` and `libfirefly-ai*.deb`.
 
@@ -27,7 +27,7 @@ sudo dpkg -i fireflychat*.deb
 
 After installing FireflyChat, you need to import the model file to FireflyChat to use it properly.
 
-## Model import
+## Model import [step]
 
 ### LLM
 
@@ -59,7 +59,7 @@ After adding or modifying the required model files, you need to restart FireflyC
 sudo systemctl restart FireflyChat
 ```
 
-## Software usage
+## Software usage [step]
 
 ### WebUI usage (Main usage methods)
 
@@ -87,11 +87,11 @@ sudo journalctl -u FireflyChat
 
 ---
 
-## Quickly deploy Llama3
+## Quickly deploy Llama3 [step]
 
 To facilitate a quick experience with Llama3, Firefly team has provided an out-of-the-box rapid deployment package, which can be obtained from [Download Center].
 
-## Deployment process
+## Deployment process [step]
 
 Transfer the deployment package to the EC-A1684XJD4 machine, using the `scp` command is recommended:
 

@@ -1,18 +1,18 @@
 # 部署例程
 
-## 人工智能算法部署
+## 人工智能算法部署 [step]
 
 EC-A1684JD4 FD 具备全面的人工智能算法本地私有化部署能力，无论是新颖、高算力需求的大语言模型，还是经典的 YOLOv5 目标检测模型，EC-A1684JD4 FD 均可胜任。
 
 本章节主要介绍 SOPHON-DEMO 项目，大模型部署请参考[大模型部署](llm-tpu.md)这一章节。
 
-## SOPHON-DEMO 项目简介
+## SOPHON-DEMO 项目简介 [step]
 
 SOPHON-DEMO 包含了一系列主流人工智能算法的移植例程，以及详细的部署文档以便于用户运行。
 
 项目仓库链接：[SOPHON-DEMO](https://github.com/sophgo/sophon-demo)。
 
-## 例程清单
+## 例程清单 [step]
 
 SOPHON-DEMO 提供的例子从易到难分为 `tutorial`、`sample`、`application` 三个模块：
 
@@ -72,15 +72,15 @@ SOPHON-DEMO 提供的例子从易到难分为 `tutorial`、`sample`、`applicati
 
 ---
 
-## 大模型部署
+## 大模型部署 [step]
 
-## LLM-TPU 项目简介
+## LLM-TPU 项目简介 [step]
 
 LLM-TPU 包含了各类开源生成式 AI 模型的移植部署例程，其中以 LLM 为主，也包含 Stable Diffusion（AI 绘画）。
 
 项目仓库链接：[LLM-TPU](https://github.com/sophgo/LLM-TPU)。
 
-## 例程清单
+## 例程清单 [step]
 
 |Model                |INT4                |INT8                |FP16/BF16           |Huggingface Link                                                          |
 |:-                   |:-                  |:-                  |:-                  |:-                                                                        |
@@ -107,7 +107,7 @@ LLM-TPU 包含了各类开源生成式 AI 模型的移植部署例程，其中�
 
 ---
 
-## RAG 私有知识库
+## RAG 私有知识库 [step]
 
 检索增强生成（RAG）是一种使用来自私有或专有数据源的信息来辅助文本生成的技术，该技术通过结合大型语言模型（LLM）的生成能力与从外部知识库中检索相关信息的能力，来生成更加精准和上下文相关的回答或文本内容。
 
@@ -115,19 +115,19 @@ LLM-TPU 包含了各类开源生成式 AI 模型的移植部署例程，其中�
 
 本章节提供三个可部署于 EC-A1684JD4 FD 上的 RAG 部署案例，分别为 FireflyChat、ChatDoc-TPU 和 LangChain-Chatchat-TPU。
 
-## FireflyChat 项目简介
+## FireflyChat 项目简介 [step]
 
 FireflyChat 是由 Firefly 开源团队开发的图形化大模型应用平台，部署仅需简单安装、无需编译，快速体验 RAG 对大模型的提升。
 
 项目详情参考 [FireflyChat](fireflychat.md) 章节。
 
-## ChatDoc-TPU 项目简介
+## ChatDoc-TPU 项目简介 [step]
 
 ChatDoc-TPU 是一个完全本地化推理的文档对话工具，其主要目标是通过使用自然语言来简化与文档的交互，并提取有价值的信息。
 
 项目仓库链接：[ChatDoc-TPU](https://github.com/wangyifan2018/ChatDoc-TPU)
 
-## LangChain-Chatchat-TPU 项目简介
+## LangChain-Chatchat-TPU 项目简介 [step]
 
 Langchain-Chatchat-TPU 是基于 Langchain-Chatchat 开发的完全本地化推理的知识库增强方案。
 
@@ -135,15 +135,15 @@ Langchain-Chatchat-TPU 是基于 Langchain-Chatchat 开发的完全本地化推�
 
 ---
 
-## 语音识别与文本转语音
+## 语音识别与文本转语音 [step]
 
-## VITS-TPU 项目简介
+## VITS-TPU 项目简介 [step]
 
 VITS 是一个端到端的文本转语音（TTS）模型，VITS-TPU 项目实现了对 VITS 的 TPU 算法移植。
 
 项目仓库链接：[VITS-TPU](https://github.com/wangyifan2018/VITS-TPU)
 
-## Whisper-UI-TPU 项目简介
+## Whisper-UI-TPU 项目简介 [step]
 
 Whisper 是一个由 OpenAI 开发的开源语音识别（ASR）模型，它能够实现实时、多语言的语音识别。
 
@@ -153,9 +153,9 @@ Whisper-UI-TPU 实现了对 Whisper 的 TPU 算法移植，同时提供了便于
 
 ---
 
-## 图片内容检索
+## 图片内容检索 [step]
 
-## CLIP-TPU 项目简介
+## CLIP-TPU 项目简介 [step]
 
 CLIP 全称 Constrastive Language-Image Pre-training，是 OpenAI 推出的采用对比学习的文本-图像预训练模型。CLIP 在 zero-shot 文本-图像检索，zero-shot 图像分类，文生图任务 guidance，open-domain 检测分割等任务上均有非常惊艳的表现。
 
@@ -163,7 +163,7 @@ CLIP-TPU 项目实现了对 CLIP 的 TPU 算法移植，用户可使用该项目
 
 项目仓库链接：[CLIP-TPU](https://github.com/wangyifan2018/CLIP-TPU)
 
-## ImageSearch-tpu 项目简介
+## ImageSearch-tpu 项目简介 [step]
 
 ImageSearch-tpu 项目基于 CLIP 实现了对大量图片进行内容搜索的功能，同时提供了可视化的 WebUI 便于用户使用。
 

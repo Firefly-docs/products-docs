@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "started.md",
+    "fw_upgrade.md",
+    "upgrade_faq.md",
+    "hardware_usage.md",
+    "app_development.md",
+    "demo_apps.md",
+    "deployment_routines.md"
+  ],
+  "pagesIndex": "started.md"
+}

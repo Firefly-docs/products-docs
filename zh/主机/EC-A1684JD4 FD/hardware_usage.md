@@ -448,7 +448,7 @@ dd if=sn.txt of=/sys/bus/nvmem/devices/1-006a0/nvmem count=17 bs=1
 echo 1 > /sys/devices/platform/5001c000.i2c/i2c-1/1-0017/lock
 ```
 
-## 远程桌面 X11VNC
+## 远程桌面 X11VNC [step]
 
 x11vnc 是一个可以让管理员直接通过 VNC Viewer 来连接服务器的真实 X 桌面的工具。
 

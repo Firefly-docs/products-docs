@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "started.md",
+    "usage_first.md",
+    "interface_definition.md",
+    "login.md",
+    "usage_wifi.md",
+    "usage_4g.md",
+    "usage_rs232_rs485.md",
+    "usage_can.md",
+    "usage_audio.md",
+    "usage_watchdog.md",
+    "usage_rtc.md",
+    "firmware_upgrade.md",
+    "module_wireless.md"
+  ],
+  "pagesIndex": "started.md"
+}

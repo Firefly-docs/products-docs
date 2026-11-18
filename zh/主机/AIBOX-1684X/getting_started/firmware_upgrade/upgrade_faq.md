@@ -1,0 +1,39 @@
+# FAQ
+
+<Accordions>
+
+<Accordion title="Q：AIBOX-1684X 支持哪些固件升级方式？" type="single" id="bm1684_upgrade_faq_1">
+
+**A：** AIBOX-1684X 通过 TF 卡升级固件：
+
+* TF 卡使用 MBR 分区，并格式化为 FAT32 格式；
+* 将待升级固件压缩包内的全部文件解压到 TF 卡根目录（TF 卡内无文件夹）；
+* TF 卡插入卡槽后上电开机，设备自动完成升级。
+
+EC 系列整机详细步骤请参阅[《固件升级》](../../fw_upgrade.md)，AIBOX 系列请参阅[《系统固件升级》](fw-upgrade-by-sdcard.md)。
+
+</Accordion>
+
+<Accordion title="Q：升级过程中如何判断升级状态？" type="single" id="bm1684_upgrade_faq_2">
+
+**A：** 通过板载 LED 指示灯判断：
+
+1. 升级过程中，工作指示灯会在蓝、绿色之间交替闪烁，表示升级正在进行。
+2. 如果升级成功，工作指示灯会变成绿色并一直闪烁。
+3. 如果升级失败，工作指示灯熄灭。
+
+</Accordion>
+
+<Accordion title="Q：TF 卡无法格式化成 FAT32 怎么办？" type="single" id="bm1684_upgrade_faq_3">
+
+**A：** TF 卡如果超过 32GB，可能因 Windows 系统的限制而无法格式化成 FAT32 格式，建议选择 32GB 以下大小的 TF 卡。
+
+</Accordion>
+
+<Accordion title="Q：升级大约需要多长时间？升级失败怎么办？" type="single" id="bm1684_upgrade_faq_4">
+
+**A：** 升级时间有点长，大概要六分钟左右，请耐心等待。若升级失败，请确认 TF 卡为 MBR 分区 + FAT32 格式、固件包内全部文件已直接解压到 TF 卡根目录，然后重新上电升级。
+
+</Accordion>
+
+</Accordions>

@@ -448,7 +448,7 @@ dd if=sn.txt of=/sys/bus/nvmem/devices/1-006a0/nvmem count=17 bs=1
 echo 1 > /sys/devices/platform/5001c000.i2c/i2c-1/1-0017/lock
 ```
 
-## Remote Desktop X11VNC
+## Remote Desktop X11VNC [step]
 
 x11vnc is a tool that allows administrators to connect to the server's real X desktop directly through the VNC Viewer.
 ### Debian

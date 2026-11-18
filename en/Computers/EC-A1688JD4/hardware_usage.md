@@ -387,7 +387,7 @@ It may be caused by insufficient power current. Please use a power supply with a
     * NPU : `cat /sys/kernel/debug/ion/cvi_npu_heap_dump/summary`
     * VPP : `cat /sys/kernel/debug/ion/cvi_vpp_heap_dump/summary`
 
-## Remote Desktop X11VNC
+## Remote Desktop X11VNC [step]
 
 x11vnc is a tool that allows administrators to connect to the server's real X desktop directly via VNC Viewer.
 

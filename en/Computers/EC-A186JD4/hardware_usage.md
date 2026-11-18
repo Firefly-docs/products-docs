@@ -381,7 +381,7 @@ $ aplay -D hw:CARD=cv186xdac,DEV=1  test.wav # Play the recorded audio
 It may be caused by insufficient power current. Please use a power supply with a voltage of 12V and a current of 5A or more.
 
 
-## Remote Desktop X11VNC
+## Remote Desktop X11VNC [step]
 
 x11vnc is a tool that allows administrators to connect to the server's real X desktop directly via VNC Viewer.
 

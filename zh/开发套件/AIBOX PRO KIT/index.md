@@ -1,15 +1,10 @@
-# AIBOX PRO KIT
-- [简介](started.md)
-# 使用手册
-- [硬件接口介绍](interface_definition.md)
-- [硬件功能使用](hardware_usage.md)
-- [Linux 开发](linux_dev.md)
+# 产品简介
+- [简介](product_introduction/index.md)
 # 上手指南
-- [介绍](upgrade_bootmode_rockchip.md)
-- [使用USB线缆升级固件](upgrade_firmware.md)
-- [使用SD卡升级固件](upgrade_firmware_sd_rockchip.md)
+- [上手指南](getting_started/index.md)
+# 开发指南
+- [开发指南](software_development/index.md)
 # AI
-- [Host 平台](ai.md)
-- [RK1820/RK1828 平台](ai_rk182x.md)
-# 配件
+- [AI](ai/index.md)
+# 配件与模组
 - [通信模组](module_wireless.md)

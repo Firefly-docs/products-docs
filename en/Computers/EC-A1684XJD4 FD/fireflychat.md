@@ -7,7 +7,7 @@ FireflyChat is a graphical application platform for LLM developed by the Firefly
 <img alt="" src="../../../bm1684_img/fireflychat.png" width="800">
 </center>
 
-## Installation
+## Installation [step]
 
 You need to obtain the required installation package from the [Download Center] to install FireflyChat. There are two installation packages, which are `fireflychat*.deb` and `libfirefly-ai*.deb`.
 
@@ -25,7 +25,7 @@ sudo dpkg -i fireflychat*.deb
 
 After installing FireflyChat, you need to import the model file to FireflyChat to use it properly.
 
-## Model import
+## Model import [step]
 
 ### LLM
 
@@ -57,7 +57,7 @@ After adding or modifying the required model files, you need to restart FireflyC
 sudo systemctl restart FireflyChat
 ```
 
-## Software usage
+## Software usage [step]
 
 ### WebUI usage (Main usage methods)
 

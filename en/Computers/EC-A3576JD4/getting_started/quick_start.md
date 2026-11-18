@@ -10,7 +10,9 @@ The image below shows the power connector of EC-A3576JD4. Connect the power adap
 
 <center><img alt="Correct auto_pwr DIP switch position" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
-EC-A3576JD4 boots up as soon as it is connected to power. During boot, the following logo is displayed (NVIDIA-based products show the NVIDIA logo; some platforms may have no boot logo — refer to your actual device):
+EC-A3576JD4 boots up as soon as it is connected to power. During boot, the following logo is displayed:
+
+<Callout title="Note" type="info">NVIDIA-based products show the NVIDIA logo; some platforms may have no boot logo — refer to your actual device.</Callout>
 
 <center><img alt="Firefly" src="../../../../common_img/quick_start/firefly_logo.png" width="1006"></center>
 
@@ -41,28 +43,95 @@ root passwords are not set by default on these firmwares: run `sudo passwd root`
 
 ### 2. Log in to the System via Any of the Following Methods
 
-- **HDMI monitor + mouse and keyboard**: log in to the desktop and open a terminal for development
-- **Debug serial port**: available on all products, log in to the command line directly
-- **ADB**: available on some products (mostly via the Type-C port); see the product specification
-- For the exact locations of these debug interfaces, see the debug / adb chapters under "Hardware Usage" in the product documentation
-- A few headless products (such as the 3576Q38 and 1126BQ38 series) must be accessed through the debug serial port or ADB
+<CodeBlockTabs defaultValue="login-rockchip">
+  <CodeBlockTabsList>
+    <CodeBlockTabsTrigger value="login-rockchip">Rockchip</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="login-sophgo">Sophgo</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="login-qcom">Qualcomm</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="login-nvidia">NVIDIA</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="login-spacemit">SpacemiT</CodeBlockTabsTrigger>
+  </CodeBlockTabsList>
 
-### 3. SSH Remote Login (Optional)
+  <CodeBlockTab value="login-rockchip">
 
-SSH is a common way to log in over the network. The device uses a dynamic IP by default, so first log in via one of the methods above, configure a static IP for the device, and then connect with SSH:
+    - **HDMI monitor + mouse and keyboard**: log in to the desktop and open a terminal for development
+    - **Debug serial port**: available on all products, log in to the command line directly
+    - **ADB**: available on some products (mostly via the Type-C port); see the product specification
+    - For the exact locations of these debug interfaces, see the debug / adb chapters under "Hardware Usage" in the product documentation
+    - A few headless products (such as the 3576Q38 and 1126BQ38 series) must be accessed through the debug serial port or ADB
 
-```bash
-ssh firefly@<device static IP>
-```
+    **SSH Remote Login (Optional)**: SSH is a common way to log in over the network. The device uses a dynamic IP by default, so first log in via one of the methods above, configure a static IP for the device, and then connect with SSH:
 
-### 4. Getting Started with Application Development
+    ```bash
+    ssh firefly@<device static IP>
+    ```
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="login-sophgo">
+
+    Sophgo-platform products can be accessed over the network or via the debug serial port:
+
+    - **Network login**: see the Ethernet chapter under "Hardware Usage" in the product documentation
+    - **Debug serial port**: see the debug serial port chapter under "Hardware Usage" in the product documentation
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="login-qcom">
+
+    - **HDMI monitor + mouse and keyboard**: log in to the desktop and open a terminal for development
+    - **Debug serial port**: available on all products, log in to the command line directly
+    - **ADB**: available on some products (mostly via the Type-C port); see the product specification
+    - For the exact locations of these debug interfaces, see the debug / adb chapters under "Hardware Usage" in the product documentation
+
+    **SSH Remote Login (Optional)**: SSH is a common way to log in over the network. The device uses a dynamic IP by default, so first log in via one of the methods above, configure a static IP for the device, and then connect with SSH:
+
+    ```bash
+    ssh firefly@<device static IP>
+    ```
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="login-nvidia">
+
+    - **HDMI monitor + mouse and keyboard**: log in to the desktop and open a terminal for development
+    - **Debug serial port**: available on all products, log in to the command line directly
+    - For the exact locations of these debug interfaces, see the debug chapters under "Hardware Usage" in the product documentation
+
+    **SSH Remote Login (Optional)**: SSH is a common way to log in over the network. The device uses a dynamic IP by default, so first log in via one of the methods above, configure a static IP for the device, and then connect with SSH:
+
+    ```bash
+    ssh nvidia@<device static IP>
+    ```
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="login-spacemit">
+
+    - **HDMI monitor + mouse and keyboard**: log in to the desktop and open a terminal for development
+    - **Debug serial port**: available on all products, log in to the command line directly
+    - **ADB**: available on some products (mostly via the Type-C port); see the product specification
+    - For the exact locations of these debug interfaces, see the debug / adb chapters under "Hardware Usage" in the product documentation
+
+    **SSH Remote Login (Optional)**: SSH is a common way to log in over the network. The device uses a dynamic IP by default, so first log in via one of the methods above, configure a static IP for the device, and then connect with SSH:
+
+    ```bash
+    ssh firefly@<device static IP>
+    ```
+
+  </CodeBlockTab>
+</CodeBlockTabs>
+
+### 3. Getting Started with Application Development
 
 For an introduction to Linux application development, see the community documentation [Ubuntu/Debian Development Guide](https://community.t-firefly.com/en/docs/software/os-guide/Ubuntu-Debian/ubuntu-login).
 
-<Callout title="Do not run a full system upgrade" type="warn">Do not run `sudo apt-get upgrade`. These are embedded products with highly customized kernels and operating systems; running upgrade is very likely to break system dependencies and cause system malfunctions.</Callout>
+<Callout title="Do not run a full system upgrade" type="warn">Do not run `sudo apt-get upgrade`, `sudo apt full-upgrade`, or `sudo do-release-upgrade`. These are embedded products with highly customized kernels and operating systems; running upgrade is very likely to break system dependencies and cause system malfunctions.</Callout>
 
 </CodeBlockTab>
 <CodeBlockTab value="android">
+
+<Callout title="Note" type="warn">Products based on the SpacemiT (K3), NVIDIA, or Sophgo platforms do not provide an Android system. This section applies only to products that ship with an Android system.</Callout>
 
 The image below shows the Android 12 desktop of a 3588-series product as an example. For other platforms, refer to your actual display:
 

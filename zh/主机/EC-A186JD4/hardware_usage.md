@@ -381,7 +381,7 @@ $ aplay -D hw:CARD=cv186xdac,DEV=1  test.wav # 播放录制好的音频
 有可能是电源电流不够，请使用电压为 12V，电流为 5A 以上的电源。
 
 
-## 远程桌面 X11VNC
+## 远程桌面 X11VNC [step]
 
 x11vnc 是一个可以让管理员直接通过 VNC Viewer 来连接服务器的真实 X 桌面的工具。
 

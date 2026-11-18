@@ -1,9 +1,8 @@
 # 产品简介
-- [简介](started.md)
+- [简介](product_introduction/index.md)
 # 上手指南
-- [SD卡升级固件](fw_upgrade.md)
-- [FAQ](upgrade_faq.md)
+- [上手指南](getting_started/index.md)
 # 开发指南
-- [硬件功能使用](hardware_usage.md)
+- [开发指南](software_development/index.md)
 # AI
-- [部署例程](deployment_routines.md)
+- [AI](ai/index.md)

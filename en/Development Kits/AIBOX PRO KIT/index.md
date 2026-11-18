@@ -1,15 +1,10 @@
-# AIBOX PRO KIT
-- [Introduction](started.md)
-# User Manual
-- [Hardware Interface Introduction](interface_definition.md)
-- [Hardware Function Usage](hardware_usage.md)
-- [Linux Development](linux_dev.md)
+# Product Introduction
+- [Introduction](product_introduction/index.md)
 # Getting Started
-- [Boot mode description](upgrade_bootmode_rockchip.md)
-- [Upgrade the firmware via USB cable](upgrade_firmware.md)
-- [Upgrade the firmware via SD card](upgrade_firmware_sd_rockchip.md)
+- [Getting Started](getting_started/index.md)
+# Development Guide
+- [Development Guide](software_development/index.md)
 # AI
-- [Host Platform](ai.md)
-- [RK1820/RK1828 Platform](ai_rk182x.md)
-# Accessories
+- [AI](ai/index.md)
+# Accessories & Modules
 - [Communication Module](module_wireless.md)

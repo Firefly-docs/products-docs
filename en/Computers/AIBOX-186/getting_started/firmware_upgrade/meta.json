@@ -1,0 +1,7 @@
+{
+  "title": "Firmware Upgrade",
+  "pages": [
+    "fw_upgrade.md",
+    "upgrade_faq.md"
+  ]
+}

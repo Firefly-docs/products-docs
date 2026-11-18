@@ -2,7 +2,7 @@
 
 EC-A186JD4 uses a TF card to upgrade the firmware, and users must strictly follow the steps below.
 
-## Preparation
+## Preparation [step]
 
 - EC-A186JD4
 - PC
@@ -10,7 +10,7 @@ EC-A186JD4 uses a TF card to upgrade the firmware, and users must strictly follo
 - TF card, recommended Class 10 or higher, and choose 8/16/32 GB capacity based on firmware size
 - Firmware to be upgraded
 
-## Upgrade Steps
+## Upgrade Steps [step]
 
 (1) The TF card needs to use MBR partition and be formatted to FAT32;
 

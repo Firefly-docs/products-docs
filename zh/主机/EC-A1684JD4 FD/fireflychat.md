@@ -7,7 +7,7 @@ FireflyChat 是由 Firefly 开源团队开发的图形化大模型应用平台�
 <img alt="" src="../../../bm1684_img/fireflychat.png" width="800">
 </center>
 
-## 软件安装
+## 软件安装 [step]
 
 安装 FireflyChat 需要先从[下载中心]获取所需的安装包。共两个安装包，分别为 `fireflychat*.deb` 和 `libfirefly-ai*.deb`。
 
@@ -25,7 +25,7 @@ sudo dpkg -i fireflychat*.deb
 
 在安装完 FireflyChat 后，还需将所需的模型文件导入进 FireflyChat 中，才能够正常使用。
 
-## 模型导入
+## 模型导入 [step]
 
 ### 大模型
 
@@ -57,7 +57,7 @@ sudo mv <model_path> /models/embedding/
 sudo systemctl restart FireflyChat
 ```
 
-## 软件使用
+## 软件使用 [step]
 
 ### WebUI 使用（主要使用方法）
 

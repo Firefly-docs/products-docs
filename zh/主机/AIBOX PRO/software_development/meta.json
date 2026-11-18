@@ -1,0 +1,7 @@
+{
+  "title": "开发指南",
+  "pages": [
+    "linux_dev.md",
+    "board_usage.md"
+  ]
+}

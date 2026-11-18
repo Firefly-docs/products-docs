@@ -1,13 +1,8 @@
 # 产品简介
-- [简介](started.md)
+- [简介](product_introduction/index.md)
 # 上手指南
-- [USB升级固件](upgrade_firmware.md)
-- [SD卡升级固件](upgrade_firmware_sd_rockchip.md)
-- [FAQ](upgrade_faq.md)
+- [上手指南](getting_started/index.md)
 # 开发指南
-- [Android 开发](https://community.t-firefly.com/docs/software/os-guide/Android)
-- [Ubuntu-Debian 开发](https://community.t-firefly.com/docs/software/os-guide/Ubuntu-Debian)
-- [硬件功能使用](hardware_usage.md)
+- [开发指南](software_development/index.md)
 # AI
-- [NPU 使用](usage_npu_rockchip.md)
-- [大模型部署](usage_llm_rockchip.md)
+- [AI](ai/index.md)

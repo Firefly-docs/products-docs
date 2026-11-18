@@ -1,12 +1,17 @@
 # FAQ
 
-## Q：TF 卡升级固件对 TF 卡有什么要求？
+
+<Accordions>
+
+<Accordion title="Q：TF 卡升级固件对 TF 卡有什么要求？" type="single" id="bm1688_upgrade_faq_1">
 
 **A：** TF 卡需使用 MBR 分区，并格式化成 FAT32 格式。建议选择 Class10 或更高规格，并根据固件大小选择 8/16/32 GB 容量。
 
 注意：TF 卡如果超过 32GB，可能因 Windows 系统的限制而无法格式化成 FAT32 格式，故最好选择 32GB 以下大小的 TF 卡。
 
-## Q：TF 卡升级的具体步骤是什么？如何判断升级成功？
+</Accordion>
+
+<Accordion title="Q：TF 卡升级的具体步骤是什么？如何判断升级成功？" type="single" id="bm1688_upgrade_faq_2">
 
 **A：** 步骤如下：
 
@@ -17,4 +22,8 @@
 5. 如果升级失败，所有 LED 灯都会灭掉
 
 详细说明请参阅[固件升级](fw_upgrade.md)。
+
+</Accordion>
+
+</Accordions>
 
