@@ -1,4 +1,4 @@
 # AI
 
-- [LLM](usage_llm_rockchip.md)
-- [NPU Usage](usage_npu_rockchip.md)
+- [Host Platform AI](ai.md)
+- [Coprocessor AI](ai_rk182x.md)

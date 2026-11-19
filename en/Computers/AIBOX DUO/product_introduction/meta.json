@@ -1,4 +1,6 @@
 {
   "title": "Product Introduction",
-  "pages": []
+  "pages": [
+    "started.md"
+  ]
 }

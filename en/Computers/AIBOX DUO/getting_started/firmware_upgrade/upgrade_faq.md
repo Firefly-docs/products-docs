@@ -142,7 +142,16 @@ If the board cannot enter Loader mode, you can try to force entry into MaskRom m
 
 **Please read carefully and operate with caution!**
 
+**Enter MaskRom mode**
 
+Press and hold the MaskRom button on the AIBOX DUO chassis and keep it held, then connect the power
+
+<center>
+
+<img alt="" src="../../../../../aibox_img/AIBOX-3588S/AIBOX_maskrom.png" width="600">
+</center>
+
+At this point, the device enters MaskRom mode.
 </Accordion>
 
 </Accordions>

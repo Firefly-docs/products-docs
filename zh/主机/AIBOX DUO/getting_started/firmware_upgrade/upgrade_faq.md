@@ -143,7 +143,16 @@ sudo fastboot reboot # 烧写成功后,重启
 
 **请小心阅读，并谨慎操作！**
 
+**进入 MaskRom 模式**
 
+按住 AIBOX DUO 机身上的 MaskRom 按键并保持，然后接通电源上电
+
+<center>
+
+<img alt="" src="../../../../../aibox_img/AIBOX-3588S/AIBOX_maskrom.png" width="600">
+</center>
+
+此时设备就会进入 MaskRom 模式。
 </Accordion>
 
 </Accordions>

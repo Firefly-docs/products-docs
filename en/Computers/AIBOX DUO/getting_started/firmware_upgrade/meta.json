@@ -1,6 +1,7 @@
 {
   "title": "Firmware Upgrade",
   "pages": [
+    "upgrade_firmware.md",
     "upgrade_firmware_sd.md",
     "upgrade_faq.md"
   ]
