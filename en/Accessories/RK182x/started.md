@@ -39,7 +39,7 @@ Please contact `sales@t-firefly.com` to get the **RK182X SDK** download link.
 
 <font color=red>
 
-**Notice:**
+**Notice:**<br>
 **1. The SDK uses cross-compilation, so use the SDK on an x86_64 PC. Do not download the SDK to the device**<br>
 **2. Use Ubuntu 20.04 or Ubuntu 22.04 (real PC or docker) as the build environment. Other OS versions may cause build failures**<br>
 **3. Do not place or decompress the SDK archive in a virtual machine shared folder or a non-English directory**<br>
