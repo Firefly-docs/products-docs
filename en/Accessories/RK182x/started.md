@@ -218,7 +218,7 @@ RKNN3 Toolkit is a development kit that provides users with model transformation
 #### Obtaining Models
 Users can download pre-converted RKNN models from the [RKNN3_SDK cloud drive](https://console.box.lenovo.com/l/H1fig1) (access code: `rknn`) without converting them by themselves. The models for the current release (V1.2.0) are available under the `RKNN3_SDK/rknn3_models/v1.2.0` directory.
 Models are also recommended from ModelScope:
-[Rockchip official model library](https://www.modelscope.cn/models/RKNNAI/)
+[Rockchip official model library](https://www.modelscope.cn/profile/RKNNAI)
 [Firefly official model library](https://www.modelscope.cn/organization/t-firefly)
 
 

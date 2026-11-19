@@ -218,7 +218,7 @@ RKNN3 Toolkit 是为用户提供在 PC 平台上进行模型转换、推理和�
 #### 模型获取
 用户可以从 [RKNN3_SDK 网盘](https://console.box.lenovo.com/l/H1fig1) 下载预先转换好的 RKNN 模型（提取码：`rknn`），无需自行转换。当前版本（V1.2.0）发布的模型位于 `RKNN3_SDK/rknn3_models/v1.2.0` 目录。
 此外，还推荐从 ModelScope 获取：
-[Rockchip 官方模型库](https://www.modelscope.cn/models/RKNNAI/)
+[Rockchip 官方模型库](https://www.modelscope.cn/profile/RKNNAI)
 [Firefly 官方模型库](https://www.modelscope.cn/organization/t-firefly)
 
 
