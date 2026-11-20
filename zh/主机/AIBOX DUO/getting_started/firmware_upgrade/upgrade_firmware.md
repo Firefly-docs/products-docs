@@ -1,4 +1,4 @@
-# 使用USB线缆升级固件
+# USB升级固件
 
 ## 前言
 
@@ -157,7 +157,7 @@
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX-3588S/AIBOX_maskrom.png" width="600">
+    <img alt="" src="../../../../../aibox_img/AIBOX DUO/AIBOX-DUO-maskrom.png" width="600">
     </center>
 
     此时设备就会进入 MaskRom 模式。

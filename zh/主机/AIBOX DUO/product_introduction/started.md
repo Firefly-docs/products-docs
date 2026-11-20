@@ -1,6 +1,6 @@
 # 简介
 
-[规格书](https://download.t-firefly.com/Spec/Computers/AIBOX-3576_AIBOX-3588_AIBOX-3588S_Specification_CN.pdf) | [购买链接](https://item.taobao.com/item.htm?id=854739043033) | [下载资料](https://community.t-firefly.com/doc/download/440)
+[规格书]() | [购买链接]() | [下载资料](https://community.t-firefly.com/doc/download/440)
 
 **AIBOX DUO** 采用“主控 + 双 AI 协处理器”的异构架构。主控核心板 CORE-3588L 采用 Rockchip 八核 64 位处理器 RK3588，先进工艺制程，高性能低功耗，内置 ARM Mali-G610 MP4 四核 GPU，集成 6 TOPS 算力 NPU，支持主流深度学习框架；板载 2 颗 RK1828 AI 协处理器，作为专用 AI 计算加速单元，专注于高性能神经网络推理任务，支持本地部署 Qwen3.5-9B、google/gemma-4-12B-it 等大模型，多路视频识别、目标检测跟踪等 AI 任务可并发执行。大模型完全运行在本地，无需依赖云端算力，数据不出盒子，一个盒子就能满足个性化的本地 AI 部署。
 

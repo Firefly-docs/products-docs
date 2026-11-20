@@ -1,4 +1,4 @@
-# Upgrade the Firmware via USB Cable
+# USB Firmware Upgrade
 
 ## Introduction
 
@@ -157,7 +157,7 @@ There are usually two modes for upgrading firmware: Loader mode and MaskRom mode
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX-3588S/AIBOX_maskrom.png" width="600">
+    <img alt="" src="../../../../../aibox_img/AIBOX DUO/AIBOX-DUO-maskrom.png" width="600">
     </center>
 
     At this point, the device enters MaskRom mode.

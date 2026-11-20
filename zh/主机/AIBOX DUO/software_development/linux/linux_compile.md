@@ -160,7 +160,7 @@ unzip device-tree-compiler ncurses-dev p7zip-full
 mkdir ./SDK/prebuilt_rootfs/
 mv Ubuntu24.04-xxxx.img ./SDK/prebuilt_rootfs/
 cd ./SDK/prebuilt_rootfs/
-ln -sf Ubuntu22.04-xxxx.img rk3588_ubuntu_rootfs.img
+ln -sf Ubuntu24.04-xxxx.img rk3588_ubuntu_rootfs.img
 cd ..
 ```
 

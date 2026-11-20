@@ -38,14 +38,14 @@ Normally, there is no need to enter `MaskRom mode`. Only when the bootloader ver
 The AndroidTool tool will show the message `Found One LOADER Device` at the bottom:
 <center>
 
-<img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_androidtool_zh.png" width="800">
+<img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 If the flashing tool still does not show LOADER, you can check whether the Windows host prompts that new hardware is found and the driver is configured. Open Device Manager and you will see a new device `Rockusb Device` appear, as shown in the figure below.
 
 <center>
 
-<img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_new_equipment.jpg" width="800">
+<img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 **Linux**
@@ -78,7 +78,7 @@ The steps to flash partition images are as follows:
 
 <center>
 
-![AndroidTool flashing tool interface](../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_androidtool_zh.png)
+![AndroidTool flashing tool interface](../../../../../aibox_img/AIBOX DUO/upgrade_firmware_androidtool_zh.png)
 </center>
 
 **Linux**
@@ -123,7 +123,7 @@ If Download Boot Fail occurs during flashing, or an error occurs during the flas
 
 <center>
 
-![Flashing failure message](../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_download_fail.png)
+![Flashing failure message](../../../../../aibox_img/AIBOX DUO/upgrade_firmware_download_fail.png)
 </center>
 
 **Device Not Recognized / Abnormal Driver**
@@ -148,7 +148,7 @@ Press and hold the MaskRom button on the AIBOX DUO chassis and keep it held, the
 
 <center>
 
-<img alt="" src="../../../../../aibox_img/AIBOX-3588S/AIBOX_maskrom.png" width="600">
+<img alt="" src="../../../../../aibox_img/AIBOX DUO/AIBOX-DUO-maskrom.png" width="600">
 </center>
 
 At this point, the device enters MaskRom mode.

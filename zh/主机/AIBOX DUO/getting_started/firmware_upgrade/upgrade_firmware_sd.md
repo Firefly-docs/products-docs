@@ -22,5 +22,5 @@
 
 <center>
 
-![](../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_sd_tool_zh.png)
+![](../../../../../aibox_img/AIBOX DUO/upgrade_firmware_sd_tool_zh.png)
 </center>
