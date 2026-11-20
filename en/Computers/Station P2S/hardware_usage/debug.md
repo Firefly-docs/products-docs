@@ -2,23 +2,6 @@
 
 If you are doing U-Boot or kernel development, the USB serial adapter (short for USB to serial TTL adapter) is very useful for checking the system startup log, especially when there is no graphical desktop display.
 
-## Buy Adapter [step]
-
-There are many USB adapter to serial port on the shop, divided by chip, there are the following:
-
-
-| Serial port  | Maximum baud rate | Is it recommended | Evaluation | Purchase link |
-| :--------: | :-------: | :-------: | :-------: | :-------: |
-| [CP2104](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) | 2 Mbps | Yes | Support high baud rate communication, good stability and durability | [点击购买](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700) |
-| CH340 | 2 Mbps | No | Firefly and many customers have found in actual use that the actual baud rate of many CH340s on the market cannot reach 1.5 Mbps, which causes a lot of trouble in the development process |  |
-| PL2303 | 1.2 Mbps | No | The maximum baud rate is less than 1.5 Mbps |  |
-
-<Callout title="Note" type="warn">
-
-The default baud rate of ROC-RK3568-PC-SE is 1500000, some USB to serial chip baud rate can not reach 1500000. The same chip may have different series, so be sure to confirm whether to support before purchasing.
-
-</Callout>
-
 ## Hardware Connection [step]
 
 Serial port to USB adapter, there are four pins:
@@ -34,6 +17,13 @@ If you encounter the problem that TX and RX cannot input and output when using o
 
 </Callout>
 
+<Callout title="Note" type="warn">
+
+ROC-RK3568-PC-SE is an integrated host computer. The debug serial port is not directly exposed; you need to open the case to access the debug serial port on the internal motherboard (ROC-RK3568-PC-SE).
+
+</Callout>
+
+
 ROC-RK3568-PC-SE serial port connection diagram:
 
 <center>
@@ -42,7 +32,7 @@ ROC-RK3568-PC-SE serial port connection diagram:
 
 </center>
 
-## Parameter Setting [step]
+## Serial Parameters [step]
 
 ROC-RK3568-PC-SE uses the following serial parameters:
 
@@ -52,138 +42,105 @@ ROC-RK3568-PC-SE uses the following serial parameters:
 - Parity check: none
 - Flow control: none
 
-## Use serial on Windows [step]
+## Using Serial Debug [step]
 
-### Install Driver
+<CodeBlockTabs defaultValue="Windows">
+  <CodeBlockTabsList>
+    <CodeBlockTabsTrigger value="Windows">Windows</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="Ubuntu">Ubuntu</CodeBlockTabsTrigger>
+  </CodeBlockTabsList>
 
-Download driver and install:
+  <CodeBlockTab value="Windows">
 
-- [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
-- [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
-- [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
+    ### Install Driver
 
-After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
+    Download driver and install:
 
-<center>
+    - [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+    - [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+    - [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
-<img alt="" src="../../../../rk356x_img/debug_find_com.png" width="800">
-</center>
+    After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
-### Install Software
+    <center>
 
-Putty or SecureCRT is generally used on Windows; the free version of MobaXterm is recommended. It is a powerful terminal software, and its usage is similar to the tools above.
+    <img alt="" src="../../../../rk356x_img/debug_find_com.png" width="800">
+    </center>
 
-[Download MobaXterm](https://mobaxterm.mobatek.net/):
+    ### Install Software
 
-1. Select `session` as `Serial`.
-2. Modify `Serial port` to the COM port found in the device manager.
-3. Set `Speed (bsp)` to 1500000.
-4. Click `OK` button.
+    Putty or SecureCRT is generally used on Windows; the free version of MobaXterm is recommended. It is a powerful terminal software, and its usage is similar to the tools above.
 
-<center>
+    [Download MobaXterm](https://mobaxterm.mobatek.net/):
 
-<img alt="" src="../../../../rk356x_img/debug_set_MobaXterm1.PNG" width="800">
+    1. Select `session` as `Serial`.
+    2. Modify `Serial port` to the COM port found in the device manager.
+    3. Set `Speed (bsp)` to 1500000.
+    4. Click `OK` button.
 
-</center>
+    <center>
 
-<center>
+    <img alt="" src="../../../../rk356x_img/debug_set_MobaXterm1.PNG" width="800">
+    </center>
 
-<img alt="" src="../../../../rk356x_img/debug_set_MobaXterm2.PNG" width="800">
-</center>
+    <center>
 
-## Use serial debug on Ubuntu [step]
+    <img alt="" src="../../../../rk356x_img/debug_set_MobaXterm2.PNG" width="800">
+    </center>
 
-There are many options available on Ubuntu:
+  </CodeBlockTab>
 
-- minicom
-- picocom
-- kermit
+  <CodeBlockTab value="Ubuntu">
 
-The following shows how to use minicom.
+    There are many options available on Ubuntu:
 
-### Install minicom
+    - minicom
+    - picocom
+    - kermit
 
-```bash
-sudo apt-get install minicom
-```
+    The following shows how to use minicom.
 
-After connecting the serial port line, check the serial port device file. The following example is `/dev/ttyUSB0`:
+    ### Install minicom
 
-```console
-$ ls /dev/ttyUSB*
-/dev/ttyUSB0
-```
+    ```bash
+    sudo apt-get install minicom
+    ```
 
-Run:
+    After connecting the serial port line, check the serial port device file. The following example is `/dev/ttyUSB0`:
 
-```console
-$ sudo minicom
-Welcome to minicom 2.7
-OPTIONS: I18n
-Compiled on Jan  1 2014, 17:13:19.
-Port /dev/ttyUSB0, 15:57:00
-Press CTRL-A Z for help on special keys
-```
+    ```console
+    $ ls /dev/ttyUSB*
+    /dev/ttyUSB0
+    ```
 
-Based on the above tips: Press `Ctrl-a` and then press `Z` again to bring up the help menu.
+    Run:
 
-```text
-+-------------------------------------------------------------------+
-|                      Minicom Command Summary                      |
-|                                                                   |
-|              Commands can be called by CTRL-A                     |
-|                                                                   |
-|               Main Functions                  Other Functions     |
-|                                                                   |
-| Dialing directory..D  run script (Go)....G | Clear Screen.......C |
-| Send files.........S  Receive files......R | cOnfigure Minicom..O |
-| comm Parameters....P  Add linefeed.......A | Suspend minicom....J |
-| Capture on/off.....L  Hangup.............H | eXit and reset.....X |
-| send break.........F  initialize Modem...M | Quit with no reset.Q |
-| Terminal settings..T  run Kermit.........K | Cursor key mode....I |
-| lineWrap on/off....W  local Echo on/off..E | Help screen........Z |
-| Paste file.........Y  Timestamp toggle...N | scroll Back........B |
-| Add Carriage Ret...U                                              |
-|                                                                   |
-|             Select function or press Enter for none.              |
-+-------------------------------------------------------------------+
-```
+    ```console
+    $ sudo minicom
+    Welcome to minicom 2.7
+    OPTIONS: I18n
+    Compiled on Jan  1 2014, 17:13:19.
+    Port /dev/ttyUSB0, 15:57:00
+    Press CTRL-A Z for help on special keys
+    ```
 
-Press `O` to enter the setting interface, as follows:
+    Based on the above tips: Press `Ctrl-a` and then press `Z` again to bring up the help menu.
 
-```text
-           +-----[configuration]------+
-           | Filenames and paths      |
-           | File transfer protocols  |
-           | Serial port setup        |
-           | Modem and dialing        |
-           | Screen and keyboard      |
-           | Save setup as dfl        |
-           | Save setup as..          |
-           | Exit                     |
-           +--------------------------+
-```
+    Press `O` to enter the setting interface, select `Serial port setup`, then enter the letter prompted earlier, and set it as follows:
 
-Move the cursor to `Serial port setup`, press enter to enter the Serial port setup interface, then enter the letter prompted earlier, select the corresponding option, and set it as follows:
+    ```text
+       E -    Bps/Par/Bits       : 1500000 8N1
+       F - Hardware Flow Control : No
+       G - Software Flow Control : No
+    ```
 
-```text
-  +-----------------------------------------------------------------------+
-   | A -    Serial Device      : /dev/ttyUSB0                              |
-   | B - Lockfile Location     : /var/lock                                 |
-   | C -   Callin Program      :                                           |
-   | D -  Callout Program      :                                           |
-   | E -    Bps/Par/Bits       : 1500000 8N1                               |
-   | F - Hardware Flow Control : No                                        |
-   | G - Software Flow Control : No                                        |
-   |                                                                       |
-   |    Change which setting?                                              |
-   +-----------------------------------------------------------------------+
-```
+    <Callout title="Note" type="warn">
 
-<Callout title="Note" type="warn">
+    `Hardware Flow Control` and `Software Flow Control` should be set to `No`, otherwise you may not be able to input.
 
-`Hardware Flow Control` and `Software Flow Control` should be set to `No`, otherwise you may not be able to input.
+    </Callout>
 
-</Callout>
+    After finishing the setting, go back to the previous menu and select `Save setup as dfl` to save as the default configuration, which will be used by default later.
 
-After finishing the setting, go back to the previous menu and select `Save setup as dfl` to save as the default configuration, which will be used by default later.
+  </CodeBlockTab>
+</CodeBlockTabs>
