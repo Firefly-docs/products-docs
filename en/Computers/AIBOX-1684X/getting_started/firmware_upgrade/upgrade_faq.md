@@ -36,4 +36,26 @@ For EC series computers, see [Firmware upgrade](../../fw_upgrade.md); for AIBOX 
 
 </Accordion>
 
+<Accordion title="Q: How do I upgrade or downgrade between the new and old system firmware?" type="single" id="bm1684_upgrade_faq_5">
+
+**A:** Only BM1684X machines involve an MCU firmware update: SOC firmware 20230501 and 20230301/20221201 are two different generations. Before upgrading or downgrading between them, the MCU firmware must be upgraded or downgraded first. Obtain firmware packages from the [Download Center](https://community.t-firefly.com/en/doc/download/248).
+
+1. Check whether the MCU firmware is old or new: run the following command on the device. If the result is `"board type": "0x20"`, it is the old firmware:
+
+```
+cat /sys/bus/i2c/devices/1-0017/information | grep "board type"
+```
+
+2. Upgrade the MCU firmware (required when upgrading to the 20230501 firmware): download `sophgo-bsp-mcu-se7_20230906_arm64.deb`, upload it to the device, and run:
+
+```
+sudo dpkg -i sophgo-bsp-mcu-se7_20230906_arm64.deb
+```
+3. Downgrade the MCU firmware (required when downgrading to the 20230301/20221201 firmware), choose either method:
+   * Method 1: download `sophgo-bsp-mcu-sm7mini_20221111_arm64.deb`, upload it to the device, and run `sudo dpkg -i sophgo-bsp-mcu-sm7mini_20221111_arm64.deb`;
+   * Method 2 (for BSP developers): flash `STM32L071C8-mcu-v5-2022-11-11-10-24-11.bin` with a dedicated programmer.
+4. Upgrade or downgrade the SOC firmware: follow [Upgrading System Firmware with a TF Card](fw-upgrade-by-sdcard.md) to prepare a TF upgrade card.
+
+</Accordion>
+
 </Accordions>

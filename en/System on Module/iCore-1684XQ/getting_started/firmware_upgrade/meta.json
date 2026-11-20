@@ -1,0 +1,7 @@
+{
+  "title": "Firmware Upgrade",
+  "pages": [
+    "fw-upgrade-by-sdcard.md",
+    "upgrade_faq.md"
+  ]
+}

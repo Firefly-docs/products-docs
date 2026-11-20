@@ -1,18 +1,9 @@
 {
   "pages": [
-    "started.md",
-    "debug.md",
-    "fw-upgrade-by-sdcard.md",
-    "sophon-sdk.md",
-    "driver_gpio.md",
-    "driver_led.md",
-    "driver_rtc.md",
-    "driver_uart.md",
-    "module_serial.md",
-    "module_12V_5A_adapter.md",
-    "faqs.md",
-    "interface_definition.md",
-    "hardware_doc.md"
-  ],
-  "pagesIndex": "started.md"
+    "product_introduction",
+    "getting_started",
+    "software_development",
+    "hardware_usage",
+    "ai"
+  ]
 }

@@ -36,4 +36,26 @@ EC 系列整机详细步骤请参阅[《固件升级》](../../fw_upgrade.md)，
 
 </Accordion>
 
+<Accordion title="Q：如何在新旧系统固件之间升级与降级？" type="single" id="bm1684_upgrade_faq_5">
+
+**A：** 仅 BM1684X 机器涉及 MCU 固件更新：SOC 固件 20230501 与 20230301/20221201 互为新旧两代，两者互相升/降级前必须先升/降级 MCU 固件。固件包请到[下载中心](https://community.t-firefly.com/doc/download/248)获取。
+
+1. 判断 MCU 固件新旧：在设备上运行以下命令，若结果为 `"board type": "0x20"` 则为旧固件：
+
+```
+cat /sys/bus/i2c/devices/1-0017/information | grep "board type"
+```
+
+2. 升级 MCU 固件（升级到 20230501 新固件必做）：下载 `sophgo-bsp-mcu-se7_20230906_arm64.deb` 上传到设备，执行：
+
+```
+sudo dpkg -i sophgo-bsp-mcu-se7_20230906_arm64.deb
+```
+3. 降级 MCU 固件（降级到 20230301/20221201 旧固件必做），两种方法任选：
+   * 方法一：下载 `sophgo-bsp-mcu-sm7mini_20221111_arm64.deb` 上传到设备，执行 `sudo dpkg -i sophgo-bsp-mcu-sm7mini_20221111_arm64.deb`；
+   * 方法二（BSP 开发人员）：使用专用烧录器烧录 `STM32L071C8-mcu-v5-2022-11-11-10-24-11.bin`。
+4. 升/降级 SOC 固件：按照[使用 TF 卡升级系统固件](fw-upgrade-by-sdcard.md)制作 TF 升级卡完成升/降级。
+
+</Accordion>
+
 </Accordions>

@@ -1,6 +1,18 @@
-# Serial port debugging
+# Debug Usage
 
-## Using Type-C for serial port debugging
+AIBOX-1688 provides one serial port with two connection methods, corresponding to the same debug serial port: via the Type-C serial port or via the DEBUG port (TTL level):
+
+| Debug Interface | Level | Connection | Windows Tool | Linux Tool | Serial Parameters |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Type-C serial port | Direct USB | Type-C data cable | MobaXterm (recommended)/PuTTY/SecureCRT | minicom/picocom/kermit | 115200 8N1, no flow control |
+| DEBUG port | TTL level | USB-to-TTL serial adapter | Same as above (driver required) | Same as above (driver-free) | 115200 |
+
+<CodeBlockTabs defaultValue="typec">
+<CodeBlockTabsList>
+<CodeBlockTabsTrigger value="typec">Type-C</CodeBlockTabsTrigger>
+<CodeBlockTabsTrigger value="ttl">TTL</CodeBlockTabsTrigger>
+</CodeBlockTabsList>
+<CodeBlockTab value="typec">
 
 The AIO-1688JD4 can be connected to a PC using a Type-C cable for serial port debugging:
 
@@ -10,7 +22,7 @@ The AIO-1688JD4 can be connected to a PC using a Type-C cable for serial port de
 </center>
 
 
-### Serial port parameter configuration
+### Serial Port Parameter Configuration
 
 The AIBOX-1688 uses the following serial port parameters:
 
@@ -20,16 +32,22 @@ The AIBOX-1688 uses the following serial port parameters:
 * Parity: None
 * Flow control: None
 
-### Using serial port debugging on Windows
+### Using Serial Port Debugging
 
-On Windows, PuTTY or SecureCRT software is generally used. We recommend using the free version of MobaXterm. This is a powerful terminal software, and here we introduce it; the usage methods of other software are similar.
+<CodeBlockTabs defaultValue="windows">
+<CodeBlockTabsList>
+<CodeBlockTabsTrigger value="windows">Windows</CodeBlockTabsTrigger>
+<CodeBlockTabsTrigger value="linux">Linux</CodeBlockTabsTrigger>
+</CodeBlockTabsList>
+<CodeBlockTab value="windows">
 
-To here[Download MobaXterm](https://mobaxterm.mobatek.net/):
+On Windows, PuTTY or SecureCRT are commonly used. We recommend the free MobaXterm terminal software:
 
-1. Select `session` For `Serial`.
-2. Will `Serial port` Change to the COM port found in the Device Manager.
-3. Set `Speed (bsp)` For `115200`.
-4. Click `OK` Button.
+1. Download the free version of MobaXterm from the [official website](https://mobaxterm.mobatek.net/).
+2. Select `Serial` as the session.
+3. Change the Serial port to the COM port found in Device Manager.
+4. Set `Speed (bsp)` to `115200`.
+5. Click the `OK` button.
 
 <center>
 
@@ -40,104 +58,29 @@ To here[Download MobaXterm](https://mobaxterm.mobatek.net/):
 <img alt="" src="../../../bm1688_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
-### Using Serial Port Debugging on Linux
+</CodeBlockTab>
+<CodeBlockTab value="linux">
 
-There are various options on Linux:
+On Linux there are several options: minicom, picocom and kermit. The following uses minicom as an example:
 
-* minicom
-* picocom
-* kermit
+1. Install minicom: `sudo apt-get install minicom`.
+2. After connecting the serial cable, check the serial device file (`/dev/ttyUSB0` in the example below): `ls /dev/ttyUSB*`.
+3. Run `sudo minicom`, press `Ctrl-A Z` then `O` to open `Serial port setup`.
+4. Set `Serial Device` to `/dev/ttyUSB0` and `Bps/Par/Bits` to `115200 8N1`.
+5. Set both `Hardware Flow Control` and `Software Flow Control` to `No`.
+6. Select `Save setup as dfl` to save it as the default configuration.
 
-Due to space constraints, we will introduce the use of minicom.
+<Callout title="Note" type="warn">The `Hardware Flow Control` and `Software Flow Control` of minicom must both be set to No, otherwise it may result in failure to input.</Callout>
 
-Install minicom:
+</CodeBlockTab>
+</CodeBlockTabs>
 
-```
-sudo apt-get install minicom
-```
-
-After connecting the serial cable, check what the serial device file is (**Note, if using a Type-C interface, the device file in the Linux system is: /dev/ttyACMx**), the following example is `/dev/ttyUSB0`:
-
-```
-$ ls /dev/ttyUSB*
-/dev/ttyUSB0
-```
-
-Run:
-
-```
-$ sudo minicom
-Welcome to minicom 2.7
-OPTIONS: I18n
-Compiled on Jan  1 2014, 17:13:19.
-Port /dev/ttyUSB0, 15:57:00
-Press CTRL-A Z for help on special keys
-```
-
-The above prompt `CTRL-A Z` is an escape key, press `Ctrl-a` then press again `z` to bring up the menu:
-
-```
-   +-------------------------------------------------------------------+
-                          Minicom Command Summary                      |
-  |                                                                    |
-  |              Commands can be called by CTRL-A <key>                |
-  |                                                                    |
-  |               Main Functions                  Other Functions      |
-  |                                                                    |
-  | Dialing directory..D  run script (Go)....G | Clear Screen.......C  |
-  | Send files.........S  Receive files......R | cOnfigure Minicom..O  |
-  | comm Parameters....P  Add linefeed.......A | Suspend minicom....J  |
-  | Capture on/off.....L  Hangup.............H | eXit and reset.....X  |
-  | send break.........F  initialize Modem...M | Quit with no reset.Q  |
-  | Terminal settings..T  run Kermit.........K | Cursor key mode....I  |
-  | lineWrap on/off....W  local Echo on/off..E | Help screen........Z  |
-  | Paste file.........Y  Timestamp toggle...N | scroll Back........B  |
-  | Add Carriage Ret...U                                               |
-  |                                                                    |
-  |             Select function or press Enter for none.               |
-  +--------------------------------------------------------------------+
-```
-
-Press according to the prompt `O` to enter the settings interface, as follows:
-
-```
-           +-----[configuration]------+
-           | Filenames and paths      |
-           | File transfer protocols  |
-           | Serial port setup        |
-           | Modem and dialing        |
-           | Screen and keyboard      |
-           | Save setup as dfl        |
-           | Save setup as..          |
-           | Exit                     |
-           +--------------------------+
-```
-
-Move the cursor to 'Serial port setup', press enter to enter the serial port settings interface, then input the letters prompted earlier, select the corresponding options, and set them as follows:
-
-```
-   +-----------------------------------------------------------------------+
-   | A -    Serial Device      : /dev/ttyUSB0                              |
-   | B - Lockfile Location     : /var/lock                                 |
-   | C -   Callin Program      :                                           |
-   | D -  Callout Program      :                                           |
-   | E -    Bps/Par/Bits       : 115200 8N1                                |
-   | F - Hardware Flow Control : No                                        |
-   | G - Software Flow Control : No                                        |
-   |                                                                       |
-   |    Change which setting?                                              |
-   +-----------------------------------------------------------------------+
-```
-
-**Note:**`Hardware Flow Control` and `Software Flow Control` must both be set to No, otherwise it may lead to input issues.
-
-After completing the settings, return to the previous menu and select `Save setup as dfl` to save as the default configuration, which will be used by default in the future.
-
-## Using the DEBUG port for debugging
+</CodeBlockTab>
+<CodeBlockTab value="ttl">
 
 If you want to perform U-Boot or kernel development, you need to use the DEBUG port for debugging. The operation is consistent with Type-C debugging, but attention should be paid to the adapter and its driver issues.
 
-### Choosing an adapter
+### Choosing an Adapter
 
 There are many USB to serial port adapters available online, categorized by chip type as follows:
 
@@ -149,9 +92,9 @@ There are many USB to serial port adapters available online, categorized by chip
 
 Generally speaking, adapters using the CH340 chip have relatively stable performance, but are a bit more expensive.
 
-**Note:** The default baud rate for AIBOX-1688 is 115200.
+<Callout title="Note" type="info">The default baud rate for AIBOX-1688 is 115200.</Callout>
 
-### Hardware connection
+### Hardware Connection
 
 USB to Serial Adapter, with four pins.
 
@@ -160,7 +103,7 @@ USB to Serial Adapter, with four pins.
 * TXD, the output line of the serial port, connect to the TX pin of the serial port of the development board
 * RXD, the input line of the serial port, connect to the RX pin of the serial port of the development board
 
-**Note:** If you encounter the problem that TX and RX cannot be input and output when using other serial adapters, you can try to swap the TX and RX connections.
+<Callout title="Note" type="warn">If you encounter the problem that TX and RX cannot be input and output when using other serial adapters, you can try to swap the TX and RX connections.</Callout>
 
 AIO-1688JD4 DEBUG port:
 
@@ -186,3 +129,6 @@ After plugging in the adapter, the system will prompt that new hardware is found
 
 ![](../../../bm1688_img/debug_find_com.jpg)
 </center>
+
+</CodeBlockTab>
+</CodeBlockTabs>

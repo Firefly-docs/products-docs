@@ -10,6 +10,8 @@
 
 <center><img alt="auto_pwr 拨码开关正确位置示例" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
+<Callout title="开机异常并循环重启？" type="warn">若出现开机异常并循环重启，有可能是电源电流不够，请使用电压、电流符合产品规格的电源适配器（详见产品规格书）。</Callout>
+
 AIBOX-1688 接通电源后即开机，上电过程会看到开机 logo：
 
 <Callout title="提示" type="info">NVIDIA 平台产品显示 NVIDIA logo；部分平台可能无开机 logo，以实际显示为准。</Callout>

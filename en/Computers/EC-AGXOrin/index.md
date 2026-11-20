@@ -1,9 +1,8 @@
 # Product Introduction
-- [Introduction](started.md)
+- [Introduction](product_introduction/index.md)
 # Getting Started
-- [USB Upgrade Firmware](upgrade_firmware.md)
-- [FAQ](upgrade_faq.md)
+- [Getting Started](getting_started/index.md)
 # Development Guide
-- [Hardware Function Usage](hardware_usage.md)
+- [Development Guide](software_development/index.md)
 # AI
-- [JetPack](ai.md)
+- [AI](ai/index.md)

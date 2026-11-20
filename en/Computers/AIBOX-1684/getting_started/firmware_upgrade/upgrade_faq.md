@@ -36,4 +36,5 @@ For EC series computers, see [Firmware upgrade](../../fw_upgrade.md); for AIBOX 
 
 </Accordion>
 
+
 </Accordions>

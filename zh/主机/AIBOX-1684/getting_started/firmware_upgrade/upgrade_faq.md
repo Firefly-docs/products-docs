@@ -36,4 +36,5 @@ EC 系列整机详细步骤请参阅[《固件升级》](../../fw_upgrade.md)，
 
 </Accordion>
 
+
 </Accordions>

@@ -23,12 +23,6 @@ The AIBOX-1684 is a high-computing-power AI box equipped with the SOPHON AI comp
 
 ![](../../../../bm1684_img/AIBOX-1684/interface_all_en.png)
 </center>
-## 结构尺寸
-
-<center>
-
-<img alt="" src="../../../../bm1684_img/AIBOX-1684/size.png" width="800">
-</center>
 
 ## Resources and Support
 

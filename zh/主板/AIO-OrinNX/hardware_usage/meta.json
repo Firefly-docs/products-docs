@@ -1,0 +1,12 @@
+{
+  "title": "硬件功能使用",
+  "pages": [
+    "usage_wifi.md",
+    "usage_4g.md",
+    "usage_rs232_rs485.md",
+    "usage_can.md",
+    "usage_audio.md",
+    "usage_watchdog.md",
+    "usage_rtc.md"
+  ]
+}

@@ -1,29 +1,10 @@
 # Product Introduction
-- [First Use](started.md)
-- [Serial port debugging](debug.md)
+- [Introduction](product_introduction/index.md)
 # Getting Started
-- [Upgrade System Firmware Using TF Card](fw-upgrade-by-sdcard.md)
-# Linux Development 
-- [Sophon SDK Development](sophon-sdk.md)
-# Interface Usage
-- [ADC Usage](driver_adc.md)
-- [GPIO Usage](driver_gpio.md)
-- [DISPLAY usage](driver_display.md)
-- [LED Usage](driver_led.md)
-- [STORAGE Usage](driver_storage.md)
-- [CAMERA Usage](driver_camera.md)
-- [RTC Usage](driver_rtc.md)
-- [PWM Usage](driver_pwm.md)
-- [UART Usage](driver_uart.md)
-- [CAN Usage](driver_can.md)
-- [NETWORK Usage](driver_network.md)
-# Accessorie
-- [Serial Port Module](module_serial.md)
-- [Wireless Modules](module_wireless.md)
-- [Display Module](module_display.md)
-- [12V Power Adapter](module_12V_5A_adapter.md)
-# FQA
-- [FAQs](faqs.md)
-# Hardware Doc
-- [Interface Definition](interface_definition.md)
-- [Hardware Documentation](hardware_doc.md)
+- [Getting Started](getting_started/index.md)
+# Software Development
+- [Software Development](software_development/index.md)
+# Hardware Function Usage
+- [Hardware Function Usage](hardware_usage/index.md)
+# AI
+- [AI](ai/index.md)

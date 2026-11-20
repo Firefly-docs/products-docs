@@ -10,6 +10,7 @@ The image below shows the power connector of EC-A3576C. Connect the power adapte
 
 <center><img alt="Correct auto_pwr DIP switch position" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
+
 EC-A3576C boots up as soon as it is connected to power. During boot, the following logo is displayed:
 
 <Callout title="Note" type="info">NVIDIA-based products show the NVIDIA logo; some platforms may have no boot logo — refer to your actual device.</Callout>

@@ -23,12 +23,6 @@ AIBOX-1684 是一款高算力 AI 计算盒，采用 SOPHON 算能 AI 处理器 B
 
 ![](../../../../bm1684_img/AIBOX-1684/interface_all.png)
 </center>
-## 结构尺寸
-
-<center>
-
-<img alt="" src="../../../../bm1684_img/AIBOX-1684/size.png" width="800">
-</center>
 
 ## 资源与技术支持
 

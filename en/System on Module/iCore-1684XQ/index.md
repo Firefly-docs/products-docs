@@ -1,23 +1,10 @@
 # Product Introduction
-- [First use](started.md)
-- [Serial debug](debug.md)
+- [Introduction](product_introduction/index.md)
 # Getting Started
-- [Use TF card to upgrade firmware](fw-upgrade-by-sdcard.md)
-- [Upgrade and downgrade between old and new firmware](fw-upgrade-and-downgrade.md)
-# Linux
-- [Sophon SDK development](sophon-sdk.md)
-# Driver
-- [GPIO](driver_gpio.md)
-- [LED](driver_led.md)
-- [RELAY](driver_relay.md)
-- [SATA ](driver_sata.md)
-- [RTC](driver_rtc.md)
-- [UART](driver_uart.md)
-# Accessories
-- [Serial port module](module_serial.md)
-- [12V power adapter](module_12V_5A_adapter.md)
-# Questions and answers
-- [FAQs](faqs.md)
-# Hardware resources
-- [Interface definition](interface_definition.md)
-- [Hardware documents](hardware_doc.md)
+- [Getting Started](getting_started/index.md)
+# Software Development
+- [Software Development](software_development/index.md)
+# Hardware Function Usage
+- [Hardware Function Usage](hardware_usage/index.md)
+# AI
+- [AI](ai/index.md)

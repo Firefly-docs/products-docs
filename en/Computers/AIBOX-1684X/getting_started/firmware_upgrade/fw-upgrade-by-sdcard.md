@@ -28,3 +28,4 @@ Precautions:
 
 
 [Download Center]: https://community.t-firefly.com/en/doc/download/248
+For how to upgrade or downgrade between the new and old system firmware, see the [Firmware Upgrade FAQ](upgrade_faq.md).

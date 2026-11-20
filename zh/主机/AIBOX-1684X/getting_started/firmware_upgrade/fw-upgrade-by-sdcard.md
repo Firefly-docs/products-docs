@@ -28,3 +28,4 @@
 
 
 [下载中心]: https://community.t-firefly.com/doc/download/248
+新旧系统固件之间的升级与降级方法，请参阅[升级固件 FAQ](upgrade_faq.md)。

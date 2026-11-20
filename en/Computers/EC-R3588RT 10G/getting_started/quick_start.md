@@ -10,6 +10,7 @@ The image below shows the power connector of EC-R3588RT_10G. Connect the power a
 
 <center><img alt="Correct auto_pwr DIP switch position" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
+
 EC-R3588RT_10G boots up as soon as it is connected to power. During boot, the following logo is displayed:
 
 <Callout title="Note" type="info">NVIDIA-based products show the NVIDIA logo; some platforms may have no boot logo — refer to your actual device.</Callout>

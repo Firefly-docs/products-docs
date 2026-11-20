@@ -1,6 +1,18 @@
-# 串口调试
+# Debug 使用
 
-## 使用 Type-C 串口调试
+AIBOX-186 的调试串口提供两种连接方式，对应同一个调试串口：一种通过 Type-C 串口连接，另一种通过 DEBUG 口连接（TTL 电平）：
+
+| 调试接口 | 电平 | 连接方式 | Windows 工具 | Linux 工具 | 串口参数 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Type-C 串口 | USB 直连 | Type-C 数据线 | MobaXterm（推荐）/PuTTY/SecureCRT | minicom/picocom/kermit | 115200 8N1，无流控 |
+| DEBUG 口 | TTL 电平 | USB 转 TTL 串口适配器 | 同上（需安装驱动） | 同上（免驱动） | 115200 |
+
+<CodeBlockTabs defaultValue="typec">
+<CodeBlockTabsList>
+<CodeBlockTabsTrigger value="typec">Type-C</CodeBlockTabsTrigger>
+<CodeBlockTabsTrigger value="ttl">TTL</CodeBlockTabsTrigger>
+</CodeBlockTabsList>
+<CodeBlockTab value="typec">
 
 AIO-186JD4 可以使用 Type-C 线连接到 PC 机进行串口调试：
 
@@ -20,16 +32,22 @@ AIBOX-186 使用以下串口参数：
 * 奇偶校验：无
 * 流控：无
 
-### Windows 上使用串口调试
+### 使用串口调试
 
-Windows 上一般用 putty 或 SecureCRT 软件。其中我们推荐使用 MobaXterm 免费版本。这是一款功能强大的终端软件，在这里介绍一下，其他软件的使用方法与之类似。
+<CodeBlockTabs defaultValue="windows">
+<CodeBlockTabsList>
+<CodeBlockTabsTrigger value="windows">Windows</CodeBlockTabsTrigger>
+<CodeBlockTabsTrigger value="linux">Linux</CodeBlockTabsTrigger>
+</CodeBlockTabsList>
+<CodeBlockTab value="windows">
 
-到这里[下载 MobaXterm](https://mobaxterm.mobatek.net/)：
+Windows 上一般用 putty 或 SecureCRT 软件，推荐使用免费的 MobaXterm 终端软件：
 
-1. 选择 `session` 为 `Serial`。
-2. 将 `Serial port` 修改为在设备管理器中找到的 COM 端口。
-3. 设置 `Speed (bsp)` 为 `115200`。
-4. 点击 `OK` 按钮。
+1. 到[官网](https://mobaxterm.mobatek.net/)下载 MobaXterm 免费版。
+2. 选择 session 为 `Serial`。
+3. 将 Serial port 修改为在设备管理器中找到的 COM 端口。
+4. 设置 Speed (bsp) 为 `115200`。
+5. 点击 `OK` 按钮。
 
 <center>
 
@@ -40,100 +58,25 @@ Windows 上一般用 putty 或 SecureCRT 软件。其中我们推荐使用 MobaX
 <img alt="" src="../../../bm1688_img/debug_set_MobaXterm2.PNG" width="800">
 </center>
 
-### Linux 上使用串口调试
+</CodeBlockTab>
+<CodeBlockTab value="linux">
 
-在 Linux 上可以有多种选择：
+Linux 上可以有多种选择：minicom、picocom、kermit，以下介绍 minicom 的使用：
 
-* minicom
-* picocom
-* kermit
+1. 安装 minicom：`sudo apt-get install minicom`。
+2. 连接好串口线后，查看串口设备文件（下面示例为 `/dev/ttyUSB0`）：`ls /dev/ttyUSB*`。
+3. 运行 `sudo minicom`，按 `Ctrl-A Z` 再按 `O` 进入 `Serial port setup`。
+4. 将 `Serial Device` 设为 `/dev/ttyUSB0`，`Bps/Par/Bits` 设为 `115200 8N1`。
+5. 将 `Hardware Flow Control` 和 `Software Flow Control` 都设为 `No`。
+6. 选择 `Save setup as dfl` 保存为默认配置，以后将默认使用该配置。
 
-篇幅关系，以下就介绍 minicom 的使用。
+<Callout title="注意" type="warn">minicom 的 `Hardware Flow Control` 和 `Software Flow Control` 都要设成 No，否则可能导致无法输入。</Callout>
 
-安装 minicom：
+</CodeBlockTab>
+</CodeBlockTabs>
 
-```
-sudo apt-get install minicom
-```
-
-连接好串口线的，看一下串口设备文件是什么（**注意，如果 Type-C 接口，在 Linux 系统的设备文件为：/dev/ttyACMx**），下面示例是 `/dev/ttyUSB0`：
-
-```
-$ ls /dev/ttyUSB*
-/dev/ttyUSB0
-```
-
-运行：
-
-```
-$ sudo minicom
-Welcome to minicom 2.7
-OPTIONS: I18n
-Compiled on Jan  1 2014, 17:13:19.
-Port /dev/ttyUSB0, 15:57:00
-Press CTRL-A Z for help on special keys
-```
-
-以上提示 `CTRL-A Z` 是转义键，按 `Ctrl-a` 然后再按 `z` 就可以调出菜单：
-
-```
-   +-------------------------------------------------------------------+
-                          Minicom Command Summary                      |
-  |                                                                    |
-  |              Commands can be called by CTRL-A <key>                |
-  |                                                                    |
-  |               Main Functions                  Other Functions      |
-  |                                                                    |
-  | Dialing directory..D  run script (Go)....G | Clear Screen.......C  |
-  | Send files.........S  Receive files......R | cOnfigure Minicom..O  |
-  | comm Parameters....P  Add linefeed.......A | Suspend minicom....J  |
-  | Capture on/off.....L  Hangup.............H | eXit and reset.....X  |
-  | send break.........F  initialize Modem...M | Quit with no reset.Q  |
-  | Terminal settings..T  run Kermit.........K | Cursor key mode....I  |
-  | lineWrap on/off....W  local Echo on/off..E | Help screen........Z  |
-  | Paste file.........Y  Timestamp toggle...N | scroll Back........B  |
-  | Add Carriage Ret...U                                               |
-  |                                                                    |
-  |             Select function or press Enter for none.               |
-  +--------------------------------------------------------------------+
-```
-
-根据提示按 `O` 进入设置界面，如下：
-
-```
-           +-----[configuration]------+
-           | Filenames and paths      |
-           | File transfer protocols  |
-           | Serial port setup        |
-           | Modem and dialing        |
-           | Screen and keyboard      |
-           | Save setup as dfl        |
-           | Save setup as..          |
-           | Exit                     |
-           +--------------------------+
-```
-
-把光标移动到“Serial port setup”，按enter进入串口设置界面，再输入前面提示的字母，选择对应的选项，设置成如下：
-
-```
-   +-----------------------------------------------------------------------+
-   | A -    Serial Device      : /dev/ttyUSB0                              |
-   | B - Lockfile Location     : /var/lock                                 |
-   | C -   Callin Program      :                                           |
-   | D -  Callout Program      :                                           |
-   | E -    Bps/Par/Bits       : 115200 8N1                                |
-   | F - Hardware Flow Control : No                                        |
-   | G - Software Flow Control : No                                        |
-   |                                                                       |
-   |    Change which setting?                                              |
-   +-----------------------------------------------------------------------+
-```
-
-**注意：**`Hardware Flow Control` 和 `Software Flow Control` 都要设成 No，否则可能导致无法输入。
-
-设置完成后回到上一菜单，选择 `Save setup as dfl` 即可保存为默认配置，以后将默认使用该配置。
-
-## 使用 DEBUG 口调试
+</CodeBlockTab>
+<CodeBlockTab value="ttl">
 
 如果要进行 U-Boot 或内核开发，需要使用 DEBUG 口进行调试，操作与 Type-C 调试是一致的，需要注意的是适配器及其驱动问题。
 
@@ -149,7 +92,7 @@ Press CTRL-A Z for help on special keys
 
 一般来说，采用 CH340 芯片的适配器，性能比较稳定，价格上贵一些。
 
-**注意：** AIBOX-186 默认的波特率是 115200。
+<Callout title="提示" type="info">AIBOX-186 默认的波特率是 115200。</Callout>
 
 ### 硬件连接
 
@@ -160,7 +103,7 @@ USB 转串口适配器，有四个引脚：
 * TXD，串口的输出线，接开发板串口的 TX 针
 * RXD，串口的输入线，接开发板串口的 RX 针
 
-**注意：** 如使用其它串口适配器遇到 TX 和 RX 不能输入和输出的问题，可以尝试对调 TX 和 RX 的连接。
+<Callout title="注意" type="warn">如使用其它串口适配器遇到 TX 和 RX 不能输入和输出的问题，可以尝试对调 TX 和 RX 的连接。</Callout>
 
 AIO-186JD4 DEBUG 口：
 
@@ -186,3 +129,6 @@ Windows 系统需要安装适配器驱动（Linux 则不需要）：
 
 ![](../../../bm1688_img/debug_find_com.jpg)
 </center>
+
+</CodeBlockTab>
+</CodeBlockTabs>

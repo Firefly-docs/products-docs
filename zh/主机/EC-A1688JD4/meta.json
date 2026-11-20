@@ -1,10 +1,8 @@
 {
   "pages": [
-    "started.md",
-    "fw_upgrade.md",
-    "upgrade_faq.md",
-    "hardware_usage.md",
-    "deployment_routines.md"
-  ],
-  "pagesIndex": "started.md"
+    "product_introduction",
+    "getting_started",
+    "software_development",
+    "ai"
+  ]
 }

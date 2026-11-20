@@ -10,6 +10,7 @@
 
 <center><img alt="auto_pwr 拨码开关正确位置示例" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
+
 Core-3588SJD4 接通电源后即开机，上电过程会看到开机 logo：
 
 <Callout title="提示" type="info">NVIDIA 平台产品显示 NVIDIA logo；部分平台可能无开机 logo，以实际显示为准。</Callout>

@@ -1,11 +1,8 @@
 # Product Introduction
-- [Introduction](started.md)
+- [Introduction](product_introduction/index.md)
 # Getting Started
-- [SD Card Upgrade Firmware](fw_upgrade.md)
-- [FAQ](upgrade_faq.md)
+- [Getting Started](getting_started/index.md)
 # Development Guide
-- [Hardware Function Usage](hardware_usage.md)
-- [Application Development](app_development.md)
+- [Development Guide](software_development/index.md)
 # AI
-- [Demo Applications](demo_apps.md)
-- [Deployment Routines](deployment_routines.md)
+- [AI](ai/index.md)

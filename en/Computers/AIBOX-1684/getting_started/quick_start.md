@@ -10,6 +10,8 @@ The image below shows the power connector of AIBOX-1684. Connect the power adapt
 
 <center><img alt="Correct auto_pwr DIP switch position" src="../../../../common_img/quick_start/auto_pwr.png" width="1018"></center>
 
+<Callout title="Boots abnormally and reboots in a loop?" type="warn">If the device boots abnormally and reboots repeatedly, the power supply current may be insufficient. Please use a power adapter whose voltage and current meet the product specification (see the product specification).</Callout>
+
 AIBOX-1684 boots up as soon as it is connected to power. During boot, the following logo is displayed:
 
 <Callout title="Note" type="info">NVIDIA-based products show the NVIDIA logo; some platforms may have no boot logo — refer to your actual device.</Callout>
