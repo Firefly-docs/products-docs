@@ -39,14 +39,14 @@ MaskRom 模式用于 bootloader 损坏时的系统修复。
 通过AndroidTool工具可以看到下方提示`Found One LOADER Device`
 <center>
 
-<img alt="" src="../../../../../aibox_img/AIBOX PRO/upgrade_firmware_androidtool_zh.png" width="800">
+<img alt="" src="../../../../../aibox_img/AIBOX-PRO/upgrade_firmware_androidtool_zh.png" width="800">
 </center>
 
 如果仍旧没有看到烧写工具提示LOADER，此时可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。
 
 <center>
 
-<img alt="" src="../../../../../aibox_img/AIBOX PRO/upgrade_firmware_new_equipment.jpg" width="800">
+<img alt="" src="../../../../../aibox_img/AIBOX-PRO/upgrade_firmware_new_equipment.jpg" width="800">
 </center>
 
 **Linux操作系统**
@@ -79,7 +79,7 @@ Found 1 rockusb,Select input DevNo,Rescan press <R>,Quit press <Q>:q
 
 <center>
 
-![AndroidTool 烧写工具界面](../../../../../aibox_img/AIBOX PRO/upgrade_firmware_androidtool_zh.png)
+![AndroidTool 烧写工具界面](../../../../../aibox_img/AIBOX-PRO/upgrade_firmware_androidtool_zh.png)
 </center>
 
 **Linux 操作系统**
@@ -124,7 +124,7 @@ sudo fastboot reboot # 烧写成功后,重启
 
 <center>
 
-![烧写失败提示](../../../../../aibox_img/AIBOX PRO/upgrade_firmware_download_fail.png)
+![烧写失败提示](../../../../../aibox_img/AIBOX-PRO/upgrade_firmware_download_fail.png)
 </center>
 
 **无法识别设备 / 驱动异常**

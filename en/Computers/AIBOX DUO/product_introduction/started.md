@@ -6,7 +6,7 @@
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO.png" width="480">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO.png" width="480">
 </center>
 
 ## Interface Description
@@ -28,14 +28,14 @@ As shown in the figure below:
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-interface_en.png" width="800">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-interface_en.png" width="800">
 </center>
 
 ## Structure and Dimensions
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-size.png" width="800">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-size.png" width="800">
 </center>
 
 ## Resources and Support

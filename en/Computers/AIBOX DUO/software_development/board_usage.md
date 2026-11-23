@@ -16,7 +16,7 @@ Connect the AIBOX DUO to the computer with a Type-C data cable. The login accoun
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-console.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-console.png" width="450">
 </center>
 
 #### Serial Debugging on Windows
@@ -69,7 +69,7 @@ When logging in via the display, the system automatically logs in as the user `f
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-desktop.png" width="800">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-desktop.png" width="800">
 </center>
 
 ## Watchdog [step]
@@ -162,7 +162,7 @@ The debug serial port of the AIBOX DUO uses an onboard TTL serial solution — t
 
 ### Debugging
 
-The serial port parameters are `1500000-8-N-1` (baud rate 1500000, 8 data bits, 1 stop bit, no parity, no flow control). For the configuration of serial tools and terminal login, see the [Login → Console Login (Debug Serial)](#console-login-debug-serial) section above.
+The serial port parameters are `1500000-8-N-1` (baud rate 1500000, 8 data bits, 1 stop bit, no parity, no flow control). For the configuration of serial tools and terminal login, see the [Console Login (Debug Serial)](#console-login-debug-serial) section above.
 
 ## Type-C Interface [step]
 
@@ -170,7 +170,7 @@ The Type-C interface of the AIBOX DUO is a full-function interface, supporting U
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-TypeC.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-TypeC.png" width="450">
 </center>
 
 ### USB 3.0 Data Transfer
@@ -212,7 +212,7 @@ The DP display shows as follows:
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-dp-display.png" width="800">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-dp-display.png" width="800">
 </center>
 
 ### ADB Debugging
@@ -276,16 +276,16 @@ root@firefly:/# sudo fio --name=read --filename=testfile --rw=read --bs=1M --siz
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-TF-CARD.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-TF-CARD.png" width="450">
 </center>
 
 ## HDMI Interface [step]
 
-The AIBOX DUO provides 1 HDMI output interface. Connect a display with an HDMI cable, and the display outputs after boot; the desktop logs in automatically as the `firefly` user (password also `firefly`). See [Login → HDMI Login](#hdmi-login) above.
+The AIBOX DUO provides 1 HDMI output interface. Connect a display with an HDMI cable, and the display outputs after boot; the desktop logs in automatically as the `firefly` user (password also `firefly`). See [HDMI Login](#hdmi-login) above.
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-HDMI.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-HDMI.png" width="450">
 </center>
 
 ## Type-A (USB3.0) Interface [step]
@@ -294,7 +294,7 @@ The AIBOX DUO provides 2 USB 3.0 Type-A interfaces for USB drives, mobile hard d
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-TypeA.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-TypeA.png" width="450">
 </center>
 
 ## Ethernet Interface [step]
@@ -303,7 +303,7 @@ The AIBOX DUO has 2 onboard RJ45 gigabit ports (1000Mbps). After connecting a ne
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-Ethernet.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-Ethernet.png" width="450">
 </center>
 
 The two ports support different network segments for multi-network access. Being able to ping devices in the LAN means LAN communication works; with a switch connecting the network, network connection and testing can be carried out. Steps:

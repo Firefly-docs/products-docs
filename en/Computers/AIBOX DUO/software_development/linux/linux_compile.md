@@ -22,6 +22,8 @@ Please contact sales@t-firefly.com to get SDK download link and read the readme 
 
 **4. Please use the regular user to get/compile the SDK, use root privilege may cause building failure**
 
+
+
 </Callout>
 **SDK Introduction**
 
@@ -42,7 +44,7 @@ $ tree -L 1
 ├── external                                                                  # some components
 ├── firefly-build.sh -> device/rockchip/common/scripts/firefly-build.sh       # Firefly building script
 ├── kernel -> kernel-6.12                                                     # kernel 6.12 (symlink)
-├── kernel-6.12								      # kernel 6.12 (real directory)
+├── kernel-6.12								                               # kernel 6.12 (real directory)
 ├── Makefile -> device/rockchip/common/Makefile
 ├── output
 ├── prebuilt_rootfs                                                           # used to place externally pre-built rootfs images
@@ -149,7 +151,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-Download rootfs here [Ubuntu rootfs(64-bit) Kernel6.12](https://community.t-firefly.com/en/doc/download/290), please use rootfs under kernel-6.12 folder.
+Download rootfs here [Ubuntu24.04 rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/290), please use rootfs under kernel-6.12 folder.
 
 After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/, then create a symbolic link.
 
@@ -248,7 +250,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-Download rootfs here [Debian Rootfs](https://community.t-firefly.com/en/doc/download/161), please use rootfs under kernel-6.12 folder.
+Download rootfs here [Debian13 Rootfs](https://community.t-firefly.com/en/doc/download/161), please use rootfs under kernel-6.12 folder.
 
 After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/, then create a symbolic link.
 ```bash

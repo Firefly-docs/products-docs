@@ -42,7 +42,7 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_install_rk_usb.jpg" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_install_rk_usb.jpg" width="800">
     </center>
 
     * Run RKDevTool.exe of AndroidTool
@@ -53,7 +53,7 @@ The firmware can be obtained by compiling the SDK, or you can download the publi
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_androidtool_zh.png" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_androidtool_zh.png" width="800">
     </center>
   </CodeBlockTab>
 
@@ -124,14 +124,14 @@ There are usually two modes for upgrading firmware: Loader mode and MaskRom mode
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_androidtool_zh.png" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_androidtool_zh.png" width="800">
     </center>
 
     If the tool still does not show LOADER after entering Loader mode, check whether the Windows host prompts that new hardware is found and the driver is configured. Open Device Manager and you will see the new device `Rockusb Device`, as shown below. If not, go back to the previous step and [install the driver](upgrade_firmware.md#windows-cao-zuo-xi-tong) again.
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_new_equipment.jpg" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_new_equipment.jpg" width="800">
     </center>
 
     **Linux**
@@ -157,14 +157,14 @@ There are usually two modes for upgrading firmware: Loader mode and MaskRom mode
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/AIBOX-DUO-maskrom.png" width="600">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-maskrom.png" width="600">
     </center>
 
     At this point, the device enters MaskRom mode.
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_maskrom_zh.png" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_maskrom_zh.png" width="800">
     </center>
   </CodeBlockTab>
 </CodeBlockTabs>
@@ -191,7 +191,7 @@ There are usually two modes for upgrading firmware: Loader mode and MaskRom mode
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_erase_flash_zh.png" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_erase_flash_zh.png" width="800">
     </center>
   </CodeBlockTab>
 

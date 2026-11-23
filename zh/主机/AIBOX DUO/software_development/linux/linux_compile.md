@@ -42,7 +42,7 @@ $ tree -L 1
 ├── external                                                                  # 开发组件
 ├── firefly-build.sh -> device/rockchip/common/scripts/firefly-build.sh       # firefly的构建脚本
 ├── kernel -> kernel-6.12                                                     # kernel 6.12 (软链接)
-├── kernel-6.12								      # kernel 6.12 (实体)
+├── kernel-6.12								                                 # kernel 6.12
 ├── Makefile -> device/rockchip/common/Makefile                              
 ├── output
 ├── prebuilt_rootfs                                                           # 存放外部构建完成的根文件系统镜像
@@ -150,7 +150,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-下载根文件系统：[Ubuntu 根文件系统(64位) Kernel6.12](https://community.t-firefly.com/doc/download/440)，请使用网盘中 Kernel-6.12 目录下的文件系统。
+下载根文件系统：[Ubuntu24.04 根文件系统(64位)](https://community.t-firefly.com/doc/download/440)，请使用网盘中 Kernel-6.12 目录下的文件系统。
 
 下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 
@@ -249,7 +249,7 @@ qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib 
 unzip device-tree-compiler ncurses-dev p7zip-full
 ```
 
-下载根文件系统：[Debian 根文件系统(64位)](https://community.t-firefly.com/doc/download/440)，请使用网盘中 Kernel-6.12 目录下的文件系统。
+下载根文件系统：[Debian13 根文件系统(64位)](https://community.t-firefly.com/doc/download/440)，请使用网盘中 Kernel-6.12 目录下的文件系统。
 
 下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 

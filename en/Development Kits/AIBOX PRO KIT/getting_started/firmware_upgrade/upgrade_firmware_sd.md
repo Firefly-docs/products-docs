@@ -22,7 +22,7 @@ This article mainly introduced how to upgrade the firmware on the host to the SD
 
 <center>
 
-![](../../../../../aibox_img/AIBOX PRO KIT/upgrade_firmware_sd_tool_zh.png)
+![](../../../../../aibox_img/AIBOX-PRO-KIT/upgrade_firmware_sd_tool_zh.png)
 
 </center>
 

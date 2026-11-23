@@ -16,7 +16,7 @@ AIBOX DUO 登录方式有两种：一种是通过 Console（调试串口）进�
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-console.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-console.png" width="450">
 </center>
 
 #### Windows 下使用串口调试
@@ -69,7 +69,7 @@ sudo apt-get install minicom
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-desktop.png" width="800">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-desktop.png" width="800">
 </center>
 
 ## 看门狗 [step]
@@ -161,7 +161,7 @@ AIBOX DUO 的 Debug 调试串口采用板载 TTL 串口方案，TTL 芯片已板
 
 ### 调试
 
-串口参数为 `1500000-8-N-1`（波特率 1500000，数据位 8，停止位 1，无奇偶校验，无流控），串口工具的配置与终端登录方法请参见[上文「登录 → Console 登录（调试串口）」章节](#console-登录调试串口)。
+串口参数为 `1500000-8-N-1`（波特率 1500000，数据位 8，停止位 1，无奇偶校验，无流控），串口工具的配置与终端登录方法请参见[Console 登录（调试串口)](#console-登录调试串口)。
 
 ## Type-C 接口 [step]
 
@@ -169,7 +169,7 @@ AIBOX DUO 的 Type-C 接口属于全功能接口,支持USB 3.0 数据传输、DP
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-TypeC.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-TypeC.png" width="450">
 </center>
 
 ### USB3.0 数据传输
@@ -210,7 +210,7 @@ DP 屏幕显示如下:
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-dp-display.png" width="800">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-dp-display.png" width="800">
 </center>
 
 ### ADB 调试
@@ -273,16 +273,16 @@ root@firefly:/# sudo fio --name=read --filename=testfile --rw=read --bs=1M --siz
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-TF-CARD.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-TF-CARD.png" width="450">
 </center>
 
 ## HDMI 接口 [step]
 
-AIBOX DUO 提供 1 路 HDMI 输出接口。使用 HDMI 线缆连接显示器，开机后即可输出画面；桌面默认自动登录 `firefly` 用户（密码同为 `firefly`），详见[上文「登录 → HDMI 登录」](#hdmi-登录)。
+AIBOX DUO 提供 1 路 HDMI 输出接口。使用 HDMI 线缆连接显示器，开机后即可输出画面；桌面默认自动登录 `firefly` 用户（密码同为 `firefly`），详见[HDMI 登录](#hdmi-登录)。
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-HDMI.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-HDMI.png" width="450">
 </center>
 
 ## Type-A(USB3.0) 接口 [step]
@@ -291,7 +291,7 @@ AIBOX DUO 提供 2 个 USB 3.0 Type-A 接口，可外接 U 盘、移动硬盘、
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-TypeA.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-TypeA.png" width="450">
 </center>
 
 
@@ -302,7 +302,7 @@ AIBOX DUO 板载 2 个 RJ45 千兆网口（1000Mbps），接入网线后系统�
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-Ethernet.png" width="450">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-Ethernet.png" width="450">
 </center>
 
 两个网口可支持接入不同网段，满足多网络接入的应用需求。能 ping 局域网内的设备即可局域网内通信,交换机连接网路的条件下,即可实现网络连接与测试,步骤如下:

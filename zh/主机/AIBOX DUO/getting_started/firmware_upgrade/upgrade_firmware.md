@@ -42,7 +42,7 @@
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_install_rk_usb.jpg" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_install_rk_usb.jpg" width="800">
     </center>
 
     * 运行AndroidTool的RKDevTool.exe
@@ -53,7 +53,7 @@
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_androidtool_zh.png" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_androidtool_zh.png" width="800">
     </center>
   </CodeBlockTab>
 
@@ -124,14 +124,14 @@
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_androidtool_zh.png" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_androidtool_zh.png" width="800">
     </center>
 
     如果有进行"进入Loader模式"的操作，仍旧没有看到烧写工具提示LOADER，此时可以看一下Windows主机是否有提示发现新硬件并配置驱动。打开设备管理器，会见到新设备 `Rockusb Device` 出现，如下图。如果没有，可返回上一步重新[安装驱动](upgrade_firmware.md#windows-cao-zuo-xi-tong)。
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_new_equipment.jpg" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_new_equipment.jpg" width="800">
     </center>
 
     **Linux操作系统**
@@ -157,14 +157,14 @@
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/AIBOX-DUO-maskrom.png" width="600">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-maskrom.png" width="600">
     </center>
 
     此时设备就会进入 MaskRom 模式。
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_maskrom_zh.png" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_maskrom_zh.png" width="800">
     </center>
   </CodeBlockTab>
 </CodeBlockTabs>
@@ -191,7 +191,7 @@
 
     <center>
 
-    <img alt="" src="../../../../../aibox_img/AIBOX DUO/upgrade_firmware_erase_flash_zh.png" width="800">
+    <img alt="" src="../../../../../aibox_img/AIBOX-DUO/upgrade_firmware_erase_flash_zh.png" width="800">
     </center>
   </CodeBlockTab>
 

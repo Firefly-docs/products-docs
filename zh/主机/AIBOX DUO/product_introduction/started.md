@@ -6,7 +6,7 @@
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO.png" width="480">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO.png" width="480">
 </center>
 
 ## 接口描述
@@ -28,14 +28,14 @@
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-interface.png" width="800">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-interface.png" width="800">
 </center>
 
 ## 结构尺寸
 
 <center>
 
-<img alt="" src="../../../../aibox_img/AIBOX DUO/AIBOX-DUO-size.png" width="800">
+<img alt="" src="../../../../aibox_img/AIBOX-DUO/AIBOX-DUO-size.png" width="800">
 </center>
 
 ## 资源与技术支持
