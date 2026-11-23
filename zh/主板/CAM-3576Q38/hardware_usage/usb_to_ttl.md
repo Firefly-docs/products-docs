@@ -22,7 +22,7 @@ EXT-iCore-3576Q38 串口连接图：
 
 <center>
 
-<img alt="" src="../../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_AIO-3576Q.png" width="800">
+<img alt="" src="../../../../modules_img/USB-TO-TTL-Serial/usb-to-ttl-serial_CAM-3576Q38.png" width="800">
 
 </center>
 
