@@ -1,31 +1,12 @@
 # Product Introduction
-- [Introduction](started.md)
-- [Serial Debug](usb_to_ttl.md)
+- [Introduction](product_introduction/index.md)
 # Getting Started
-- [Boot mode description](upgrade_bootmode.md)
-- [Upgrade the firmware via USB cable](upgrade_firmware.md)
-- [Upgrade the firmware via SD card](upgrade_firmware_sd.md)
-# Linux
-- [Compile Linux firmware](linux_compile.md)
-# Port Usage
-- [ADC](usage_adc.md)
-- [Camera](usage_camera.md)
-- [Display](usage_display.md)
-- [Ethernet](usage_ethernet.md)
-- [GPIO](usage_gpio.md)
-- [LED](usage_led.md)
-- [RTC](usage_rtc.md)
-- [UART](usage_uart.md)
-- [Watchdog](usage_watchdog.md)
-- [Sound Card](usage_sound_card.md)
-- [POE](usage_poe.md)
-# Accessories
-- [Camera module](module_camera.md)
-- [Screen module](module_display.md)
-- [Wireless module](module_wireless.md)
-# Other
-- [NPU](usage_npu.md)
-# Questions and answers
-- [Linux Device Tree (DTS) Manual](linux_dts_manual.md)
-# Hardware resources
-- [Interface Definition](interface_definition.md)
+- [Getting Started](getting_started/index.md)
+# Software Development
+- [Development Guide](software_development/index.md)
+# Hardware Usage
+- [Hardware Usage](hardware_usage/index.md)
+# AI
+- [AI](ai/index.md)
+# Accessories & Modules
+- [Accessories & Modules](module_overview.md)

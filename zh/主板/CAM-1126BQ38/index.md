@@ -1,25 +1,10 @@
 # 产品简介
-- [介绍](started.md)
-- [串口调试](usb_to_ttl.md)
+- [简介](product_introduction/index.md)
 # 上手指南
-- [介绍](upgrade_bootmode.md)
-- [使用USB线缆升级固件](upgrade_firmware.md)
-- [使用SD卡升级固件](upgrade_firmware_sd.md)
-# Linux开发
-- [编译 Linux 固件](linux_compile.md)
-# 接口使用
-- [ADC 使用](usage_adc.md)
-- [Camera 使用](usage_camera.md)
-- [Ethernet 使用](usage_ethernet.md)
-- [GPIO 使用](usage_gpio.md)
-- [LED 使用](usage_led.md)
-- [RTC 使用](usage_rtc.md)
-- [UART 使用](usage_uart.md)
-- [Watchdog 使用](usage_watchdog.md)
-# 配件
-# 其他
-- [NPU使用](usage_npu.md)
-# 常见问题解答
-- [Linux 设备树 (DTS) 指南](linux_dts_manual.md)
-# 参考资料
-- [接口定义](interface_definition.md)
+- [上手指南](getting_started/index.md)
+# 软件开发使用
+- [开发指南](software_development/index.md)
+# 硬件功能使用
+- [硬件功能使用](hardware_usage/index.md)
+# AI
+- [AI](ai/index.md)

@@ -1,0 +1,8 @@
+{
+  "title": "固件升级",
+  "pages": [
+    "upgrade_firmware.md",
+    "upgrade_firmware_sd.md",
+    "upgrade_faq.md"
+  ]
+}

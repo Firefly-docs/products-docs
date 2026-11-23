@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "product_introduction",
+    "getting_started",
+    "software_development",
+    "hardware_usage",
+    "ai",
+    "module_overview.md"
+  ]
+}
