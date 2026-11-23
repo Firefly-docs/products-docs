@@ -1,7 +1,7 @@
 # Product Introduction
 - [core-1808-jd4](core-1808-jd4.md)
 - [User manual](started.md)
-- [Serial debuge  ](debug.md)
+- [Debug Usage](debug.md)
 # Getting Started
 - [Boot mode description](bootmode.md)
 - [Upgrade the firmware](upgrade_firmware.md)

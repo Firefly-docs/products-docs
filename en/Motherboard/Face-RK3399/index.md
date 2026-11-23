@@ -1,6 +1,6 @@
 # Product Introduction
 - [User manual](started.md)
-- [Serial debug](debug.md)
+- [Debug Usage](debug.md)
 # Getting Started
 - [Boot mode description](bootmode.md)
 - [Upgrade firmware](upgrade_firmware.md)

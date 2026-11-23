@@ -3,7 +3,7 @@
 - [Boot Mode description](bootmode.md)
 # Product Introduction
 - [User manual](started.md)
-- [Serial port debugging](debug.md)
+- [Debug Usage](debug.md)
 # Android
 - [ADB Usage](adb_use.md)
 - [Compile the Android firmware](compile_android.md)

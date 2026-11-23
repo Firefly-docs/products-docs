@@ -1,141 +1,139 @@
-# Serial debuge  
-## Purchase the adapter
+# Debug Usage
 
-There are many USB adapter to serial port on the shop, divided by chip, there are the following:
-* [CP2104](https://www.firefly.store/products/usb-to-uart-module-cp2104)
-* PL2303  
-* CH340   
+If you are doing U-Boot or kernel development, the USB serial adapter (short for USB to serial TTL adapter) is very useful for checking the system startup log, especially when there is no graphical desktop display.
 
-<font color=#ff0000>Note: the default baud rate of RK3399 is 1500000, some USB to serial chip baud rate can not reach 1500000, the same chip may have different series, so be sure to confirm whether to support before purchasing.</font>
+## Hardware Connection [step]
 
-## Hardware connection
-Serial port to USB adapter, there are four different colors of the cable:
-* **Red**:  3.3v power supply, no connection required
-* **Black**: GND, ground wire for serial port, GND needle for serial port of development board
-* **White**: TXD, output line of serial port, TX needle of serial port of development board
-* **Green**: RXD, input line of serial port, RX needle of serial port of development board
+Serial port to USB adapter, there are four pins:
 
-Note: if you encounter problems that TX and RX cannot input and output when using other serial port adapters, you can try to adjust the connection between TX and RX.
+- 3.3V Power, no need to connect.
+- GND, Ground, connect to GND pin of the board.
+- TXD, Transmit, connect to TX pin of the board.
+- RXD, Receive, connect to RX pin of the board.
 
-AIO-1808-JD4 Serial port connection diagram:
+<Callout title="Note" type="warn">
+
+If you encounter the problem that TX and RX cannot input and output when using other serial adapters, you can try to exchange TX and RX connections.
+
+</Callout>
+
+AIO-1808-JD4 serial port connection diagram:
 
 <center>
 
 <img alt="" src="../../../rk1808_img/debug1.jpg" width="800">
-</center>
-## Connection parameters
 
-AIO-1808-JD4 uses the following serial port parameters:
-* Baud rate: 1500000
-* Data bit: 8
-* Stop bit: 1
-* Parity check: none
-* Flow control: none
-
-## Use serial debuge on Windows
-### Install the driver
-Download driver and install:
-* [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
-* [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
-* [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
-
-
-After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
-
-<center>
-
-![](../../../rk1808_img/debug2.png)
 </center>
 
-### Install software
+## Serial Parameters [step]
 
-Putty or SecureCRT are commonly used for Windows. Putty is open source software and SecureCRT is used in a similar way.
-Here to [Download putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)(Recommended download ` putty.zip `, it contains other useful tools.)
+AIO-1808-JD4 uses the following serial parameters:
 
-Extract and run `PUTTY.exe`.
-  * Select "Connection type" to "Serial".
-  * Modify "Serial line" to the COM port found in the device manager.
-  * Set "Speed" to 1500000.
-  * Click "Open" button.
+- Baud rate: 1500000
+- Data bit: 8
+- Stop bit: 1
+- Parity check: none
+- Flow control: none
 
-<center>
+## Using Serial Debug [step]
 
-![](../../../rk1808_img/debug3.png)
-</center>
+<CodeBlockTabs defaultValue="Windows">
+  <CodeBlockTabsList>
+    <CodeBlockTabsTrigger value="Windows">Windows</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="Ubuntu">Ubuntu</CodeBlockTabsTrigger>
+  </CodeBlockTabsList>
 
-## Use serial debuge on Ubuntu
+  <CodeBlockTab value="Windows">
 
-There are many options available on Ubuntu:
-* minicom
+    ### Install Driver
 
-Here's how minicom works.
-### Install
-```
-sudo apt-get install minicom
-```
-To connect the serial port line, see what the serial port device file is. The following example is */dev/ttyusb0*
-```
-$ ls /dev/ttyUSB*
-/dev/ttyUSB0
-```
-Run:
-```
-$ sudo minicom
-Welcome to minicom 2.7                                       
-OPTIONS: I18n       
-Compiled on Jan  1 2014, 17:13:19.     
-Port /dev/ttyUSB0, 15:57:00                                 
-Press CTRL-A Z for help on special keys
-```
-Based on the above tips：Press `Ctrl-a` and then press Z again to bring up the Help menu.
-```
-   +-------------------------------------------------------------------+
-                          Minicom Command Summary                      |
-  |                                                                    |
-  |              Commands can be called by CTRL-A <key>                |
-  |                                                                    |
-  |               Main Functions                  Other Functions      |
-  |                                                                    |
-  | Dialing directory..D  run script (Go)....G | Clear Screen.......C  |
-  | Send files.........S  Receive files......R | cOnfigure Minicom..O  |
-  | comm Parameters....P  Add linefeed.......A | Suspend minicom....J  |
-  | Capture on/off.....L  Hangup.............H | eXit and reset.....X  |
-  | send break.........F  initialize Modem...M | Quit with no reset.Q  |
-  | Terminal settings..T  run Kermit.........K | Cursor key mode....I  |
-  | lineWrap on/off....W  local Echo on/off..E | Help screen........Z  |
-  | Paste file.........Y  Timestamp toggle...N | scroll Back........B  |
-  | Add Carriage Ret...U                                               |
-  |                                                                    |
-  |             Select function or press Enter for none.               |
-  +--------------------------------------------------------------------+
-```
-Press O to enter the setting interface, as follows:
-```
-           +-----[configuration]------+  
-           | Filenames and paths      |   
-           | File transfer protocols  |   
-           | Serial port setup        |  
-           | Modem and dialing        |  
-           | Screen and keyboard      | 
-           | Save setup as dfl        | 
-           | Save setup as..          |                 
-           | Exit                     |                 
-           +--------------------------+
-```
-Move the cursor to ***Serial port setup***, press ***enter*** to enter the Serial port setup interface, then enter the letter prompted earlier, select the corresponding option, and set it as follows:
-```
-   +-----------------------------------------------------------------------+                                          
-   | A -    Serial Device      : /dev/ttyUSB0                              |                                          
-   | B - Lockfile Location     : /var/lock                                 |                                          
-   | C -   Callin Program      :                                           |                                          
-   | D -  Callout Program      :                                           |                                          
-   | E -    Bps/Par/Bits       : 1500000 8N1                               |                                          
-   | F - Hardware Flow Control : No                                        |                                          
-   | G - Software Flow Control : No                                        |                                          
-   |                                                                       |                                          
-   |    Change which setting?                                              |                                          
-   +-----------------------------------------------------------------------+
-   ```
-* Note: ***Hardware Flow Control*** and ***Software Flow Control*** should be set to No, otherwise it may be impossible to input.
+    Download driver and install:
 
-Go back to the previous menu and select ***Save setup as DFL*** to Save as the default configuration, which will be used by default later.
+    - [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+    - [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+    - [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
+
+    After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
+
+    <center>
+
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png" width="800">
+    </center>
+
+    ### Install Software
+
+    Putty or SecureCRT is generally used on Windows; the free version of MobaXterm is recommended. It is a powerful terminal software, and its usage is similar to the tools above.
+
+    [Download MobaXterm](https://mobaxterm.mobatek.net/):
+
+    1. Select `session` as `Serial`.
+    2. Modify `Serial port` to the COM port found in the device manager.
+    3. Set `Speed (bsp)` to 1500000.
+    4. Click `OK` button.
+
+    <center>
+
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png" width="800">
+    </center>
+
+    <center>
+
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png" width="800">
+    </center>
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="Ubuntu">
+
+    There are many options available on Ubuntu:
+
+    - minicom
+    - picocom
+    - kermit
+
+    The following shows how to use minicom.
+
+    ### Install minicom
+
+    ```bash
+    sudo apt-get install minicom
+    ```
+
+    After connecting the serial port line, check the serial port device file. The following example is `/dev/ttyUSB0`:
+
+    ```console
+    $ ls /dev/ttyUSB*
+    /dev/ttyUSB0
+    ```
+
+    Run:
+
+    ```console
+    $ sudo minicom
+    Welcome to minicom 2.7
+    OPTIONS: I18n
+    Compiled on Jan  1 2014, 17:13:19.
+    Port /dev/ttyUSB0, 15:57:00
+    Press CTRL-A Z for help on special keys
+    ```
+
+    Based on the above tips: Press `Ctrl-a` and then press `Z` again to bring up the help menu.
+
+    Press `O` to enter the setting interface, select `Serial port setup`, then enter the letter prompted earlier, and set it as follows:
+
+    ```text
+       E -    Bps/Par/Bits       : 1500000 8N1
+       F - Hardware Flow Control : No
+       G - Software Flow Control : No
+    ```
+
+    <Callout title="Note" type="warn">
+
+    `Hardware Flow Control` and `Software Flow Control` should be set to `No`, otherwise you may not be able to input.
+
+    </Callout>
+
+    After finishing the setting, go back to the previous menu and select `Save setup as dfl` to save as the default configuration, which will be used by default later.
+
+  </CodeBlockTab>
+</CodeBlockTabs>

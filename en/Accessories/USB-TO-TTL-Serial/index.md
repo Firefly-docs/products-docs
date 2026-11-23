@@ -1,2 +1,2 @@
 # Quick Start
-- [USB-TO-TTL-Serial](started.md)
+- [Debug Usage](started.md)

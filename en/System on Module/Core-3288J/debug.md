@@ -1,170 +1,140 @@
-# Serial debug
+# Debug Usage
 
 If you are doing U-Boot or kernel development, the USB serial adapter (short for USB to serial TTL adapter) is very useful for checking the system startup log, especially when there is no graphical desktop display.
 
-## Buy Adapter
-
-There are many USB adapter to serial port on the shop, divided by chip, there are the following:
-
-* [CP2104](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-12605442688.14.aa5e1e8srwECg&id=546045713700)
-* PL2303
-* CH340
-
-## Hardware Connection
+## Hardware Connection [step]
 
 Serial port to USB adapter, there are four pins:
 
-* 3.3V Power, no need to connect.
-* GND，Ground, connect to GND pin of the board.
-* TXD，Transmit，connect to TX pin of the board.
-* RXD，Receive, connect to RX pin of the board.
+- 3.3V Power, no need to connect.
+- GND, Ground, connect to GND pin of the board.
+- TXD, Transmit, connect to TX pin of the board.
+- RXD, Receive, connect to RX pin of the board.
 
-**Note:** If you encounter the problem that TX and RX cannot input and output when using other serial adapters, you can try to exchange TX and RX connections.
+<Callout title="Note" type="warn">
+
+If you encounter the problem that TX and RX cannot input and output when using other serial adapters, you can try to exchange TX and RX connections.
+
+</Callout>
 
 AIO-3288J serial port connection diagram:
 
 <center>
 
 <img alt="" src="../../../rk3288_img/AIO-3288J/debug_connection.jpg" width="800">
+
 </center>
 
 
-## Parameter Setting
+## Serial Parameters [step]
 
-AIO-3288J use the following serial parameters:
+AIO-3288J uses the following serial parameters:
 
-* Baud rate: 115200
-* Data bit: 8
-* Stop bit: 1
-* Parity check: none
-* Flow control: none
+- Baud rate: 115200
+- Data bit: 8
+- Stop bit: 1
+- Parity check: none
+- Flow control: none
 
-## Use serial on Windows
+## Using Serial Debug [step]
 
-### Install Driver
+<CodeBlockTabs defaultValue="Windows">
+  <CodeBlockTabsList>
+    <CodeBlockTabsTrigger value="Windows">Windows</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="Ubuntu">Ubuntu</CodeBlockTabsTrigger>
+  </CodeBlockTabsList>
 
-Download driver and install:
+  <CodeBlockTab value="Windows">
 
-* [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
-* [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
-* [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
+    ### Install Driver
 
+    Download driver and install:
 
-After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
+    - [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+    - [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+    - [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
-<center>
+    After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
-![](../../../rk3288_img/debug_find_com.jpg)
-</center>
+    <center>
 
-### Install Software
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png" width="800">
+    </center>
 
-Putty or SecureCRT is generally used on Windows. Among them, we recommend using the free version of MobaXterm. This is a powerful terminal software. Here we will introduce how to use MobaXterm.
+    ### Install Software
 
-[Download MobaXterm](https://mobaxterm.mobatek.net/):
+    Putty or SecureCRT is generally used on Windows; the free version of MobaXterm is recommended. It is a powerful terminal software, and its usage is similar to the tools above.
 
-* Select `session` to `Serial`.
-* Modify `Serial port` to the COM port found in the device manager.
-* Set `Speed (bsp)` to 115200.
-* Click `OK` button.
+    [Download MobaXterm](https://mobaxterm.mobatek.net/):
 
-<center>
+    1. Select `session` as `Serial`.
+    2. Modify `Serial port` to the COM port found in the device manager.
+    3. Set `Speed (bsp)` to 115200.
+    4. Click `OK` button.
 
-<img alt="" src="../../../rk3288_img/debug_set_MobaXterm1.PNG" width="800">
-</center>
-<center>
+    <center>
 
-<img alt="" src="../../../rk3288_img/debug_set_MobaXterm2.PNG" width="800">
-</center>
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png" width="800">
+    </center>
 
-## Use serial debug on Ubuntu
+    <center>
 
-There are many options available on Ubuntu:
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png" width="800">
+    </center>
 
-* minicom
-* picocom
-* kermit
+  </CodeBlockTab>
 
-The following shows how to use minicom.
+  <CodeBlockTab value="Ubuntu">
 
-### Install minicom
+    There are many options available on Ubuntu:
 
-```
-sudo apt-get install minicom
-```
+    - minicom
+    - picocom
+    - kermit
 
-To connect the serial port line, see what the serial port device file is. The following example is `/dev/ttyUSB0`:
+    The following shows how to use minicom.
 
-```
-$ ls /dev/ttyUSB*
-/dev/ttyUSB0
-```
+    ### Install minicom
 
-Run:
+    ```bash
+    sudo apt-get install minicom
+    ```
 
-```
-$ sudo minicom
-Welcome to minicom 2.7
-OPTIONS: I18n
-Compiled on Jan  1 2014, 17:13:19.
-Port /dev/ttyUSB0, 15:57:00
-Press CTRL-A Z for help on special keys
-```
+    After connecting the serial port line, check the serial port device file. The following example is `/dev/ttyUSB0`:
 
-Based on the above tips: Press `Ctrl-a` and then press `Z` again to bring up the help menu.
-```
-+-------------------------------------------------------------------+
-|                      Minicom Command Summary                      |
-|                                                                   |
-|              Commands can be called by CTRL-A                     |
-|                                                                   |
-|               Main Functions                  Other Functions     |
-|                                                                   |
-| Dialing directory..D  run script (Go)....G | Clear Screen.......C |
-| Send files.........S  Receive files......R | cOnfigure Minicom..O |
-| comm Parameters....P  Add linefeed.......A | Suspend minicom....J |
-| Capture on/off.....L  Hangup.............H | eXit and reset.....X |
-| send break.........F  initialize Modem...M | Quit with no reset.Q |
-| Terminal settings..T  run Kermit.........K | Cursor key mode....I |
-| lineWrap on/off....W  local Echo on/off..E | Help screen........Z |
-| Paste file.........Y  Timestamp toggle...N | scroll Back........B |
-| Add Carriage Ret...U                                              |
-|                                                                   |
-|             Select function or press Enter for none.              |
-+-------------------------------------------------------------------+
-```
+    ```console
+    $ ls /dev/ttyUSB*
+    /dev/ttyUSB0
+    ```
 
-Press O to enter the setting interface, as follows:
+    Run:
 
-```
-           +-----[configuration]------+
-           | Filenames and paths      |
-           | File transfer protocols  |
-           | Serial port setup        |
-           | Modem and dialing        |
-           | Screen and keyboard      |
-           | Save setup as dfl        |
-           | Save setup as..          |
-           | Exit                     |
-           +--------------------------+
-```
+    ```console
+    $ sudo minicom
+    Welcome to minicom 2.7
+    OPTIONS: I18n
+    Compiled on Jan  1 2014, 17:13:19.
+    Port /dev/ttyUSB0, 15:57:00
+    Press CTRL-A Z for help on special keys
+    ```
 
-Move the cursor to `Serial port setup`, press enter to enter the Serial port setup interface, then enter the letter prompted earlier, select the corresponding option, and set it as follows:
+    Based on the above tips: Press `Ctrl-a` and then press `Z` again to bring up the help menu.
 
-```
-  +-----------------------------------------------------------------------+
-   | A -    Serial Device      : /dev/ttyUSB0                              |
-   | B - Lockfile Location     : /var/lock                                 |
-   | C -   Callin Program      :                                           |
-   | D -  Callout Program      :                                           |
-   | E -    Bps/Par/Bits       : 115200 8N1                                |
-   | F - Hardware Flow Control : No                                        |
-   | G - Software Flow Control : No                                        |
-   |                                                                       |
-   |    Change which setting?                                              |
-   +-----------------------------------------------------------------------+
-```
+    Press `O` to enter the setting interface, select `Serial port setup`, then enter the letter prompted earlier, and set it as follows:
 
-<font color=#ff0000>**Note:** `Hardware Flow Control` and `Software Flow Control` should be set to `No`, otherwise it may not be impossible to input.</font>
+    ```text
+       E -    Bps/Par/Bits       : 115200 8N1
+       F - Hardware Flow Control : No
+       G - Software Flow Control : No
+    ```
 
-After finishing the setting, go back to the previous menu and select `Save setup as dfl` to save as the default configuration, which will be used by default later.
+    <Callout title="Note" type="warn">
+
+    `Hardware Flow Control` and `Software Flow Control` should be set to `No`, otherwise you may not be able to input.
+
+    </Callout>
+
+    After finishing the setting, go back to the previous menu and select `Save setup as dfl` to save as the default configuration, which will be used by default later.
+
+  </CodeBlockTab>
+</CodeBlockTabs>

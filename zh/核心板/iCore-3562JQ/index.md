@@ -1,6 +1,6 @@
 # iCore-3562JQ
 - [介绍](started.md)
-- [串口调试](debug.md)
+- [Debug 使用](debug.md)
 # 上手指南
 - [更新固件介绍](01-bootmode.md)
 - [使用USB线缆升级固件](03-upgrade_firmware.md)

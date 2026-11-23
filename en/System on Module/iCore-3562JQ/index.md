@@ -1,6 +1,6 @@
 # iCore-3562JQ
 - [Introduction](started.md)
-- [Senial debug](debug.md)
+- [Debug Usage](debug.md)
 # Getting Started
 - [Introduction to updating firmware](01-bootmode.md)
 - [02-upgrade_table](02-upgrade_table.md)

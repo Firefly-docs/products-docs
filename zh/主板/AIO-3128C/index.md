@@ -3,7 +3,7 @@
 - [启动模式说明](bootmode.md)
 # 产品简介
 - [入手指南  ](started.md)
-- [串口调试](debug.md)
+- [Debug 使用](debug.md)
 # Android 开发
 - [ADB 使用](adb_use.md)
 - [编译 Android 固件](compile_android.md)

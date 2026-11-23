@@ -1,6 +1,6 @@
 # Product Introduction
 - [Introduction](started.md)
-- [Senial debug](debug.md)
+- [Debug Usage](debug.md)
 - [ADB use](adb_use.md)
 # Getting Started
 - [Boot mode description](01-bootmode.md)

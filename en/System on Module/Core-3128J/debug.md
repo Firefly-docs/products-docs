@@ -1,124 +1,145 @@
-# Serial port debugging
+# Debug Usage
 
-## Caution
+If you are doing U-Boot or kernel development, the USB serial adapter (short for USB to serial TTL adapter) is very useful for checking the system startup log, especially when there is no graphical desktop display.
 
-In Firefly-RK3128 development board, <font color=#ff0000 size=3>pins of the debug uart2 port are multiplexed with TF card interface, making them mutual exclusive.</font> That is to say, if uart2 port is in used, TF card must be plugin out, and if TF card is in use, the uart2 port cannot be connected.
+## Hardware Connection [step]
 
-## Purchase the adapter
+<Callout title="Note" type="warn">
 
-There are many USB-to-serial adapters on the online store, and they have the following types according to the chips:
+On the Firefly-RK3128 development board, the debug UART2 port pins are multiplexed with the TF card interface, so the two cannot be used at the same time. That is, the TF card must be removed when using the debug serial port, and the debug serial port must be disconnected when using the TF card.
 
-* [CP2104](https://www.firefly.store/products/usb-to-uart-module-cp2104)
-* PL2303
-* CH340
+</Callout>
 
-In general, the adapter with CH340 has stable performance and is more expensive.
+Serial port to USB adapter, there are four pins:
 
-## Hardware Connection
+- 3.3V Power, no need to connect.
+- GND, Ground, connect to GND pin of the board.
+- TXD, Transmit, connect to TX pin of the board.
+- RXD, Receive, connect to RX pin of the board.
 
-There are four different color of connection line for the serial-to-USB adapter:
+<Callout title="Note" type="warn">
 
-* Red: 3.3V Power, no need to connect.
-* Black: GND，Ground, connect to GND pin of the board.
-* White: TXD，Transmit，connect to TX pin of the board.
-* Green: RXD，Receive, connect to RX pin of the board.
+If you encounter the problem that TX and RX cannot input and output when using other serial adapters, you can try to exchange TX and RX connections.
 
-## Connection parameters
+</Callout>
 
-The following serial port parameters are used by the Firefly-RK3128:
-
-* Baud rate: 115200
-* Data bit: 8
-* Stop bit: 1
-* Parity check: none
-* Flow control: none
-
-## Serial port debugging is used on Windows
-
-### Install the driver
-
-Download the driver and install it:
-
-* [CP2104](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
-* CH340 [[1]](https://www.wch.cn/downloads/CH341SER_EXE.html)
-* PL2303 [[2]](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
-
-Once the adapter is plugged in, you are prompted to discover the new hardware and initialize it, then you can find the corresponding COM port in the device manager: 
-<center>
-
-<img alt="" src="../../../rk3128_img/Core-3128J/win_com.png" width="700">
-</center>
-
-### Install software
-
-Under Windows, the common softwares with serial port support are putty and SecureCRT. Putty is open source software. We give a brief introduction here. The use of SecureCRT is similar.  
-Download putty from [[3]](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) .We recommend to download putty.zip, which contains other useful utilities.  
-Extract and run <font color=#ff0000 size=3>`PUTTY.exe`</font>. 
-
-* Select "Connection type" to "Serial".
-* Modify "Serial line" to the COM port found in the device manager.
-* Set "Speed" to 115200.
-* Click "Open" button.
+Core-3128J serial port connection diagram:
 
 <center>
 
-![](../../../rk3128_img/Core-3128J/win_putty.png)
+<img alt="" src="../../../rk3128_img/Core-3128J/module_serial3.jpg" width="800">
+
 </center>
 
-## Serial port debugging is used on Ubuntu
+## Serial Parameters [step]
 
-There are several options available on Ubuntu:
+Core-3128J uses the following serial parameters:
 
-* picocom
-* minicom
-* kermit
+- Baud rate: 115200
+- Data bit: 8
+- Stop bit: 1
+- Parity check: none
+- Flow control: none
 
-It is relatively simple to use the picocom, and next we will introduce the picocom, and other software is similar. 
+## Using Serial Debug [step]
 
-Install：
+<CodeBlockTabs defaultValue="Windows">
+  <CodeBlockTabsList>
+    <CodeBlockTabsTrigger value="Windows">Windows</CodeBlockTabsTrigger>
+    <CodeBlockTabsTrigger value="Ubuntu">Ubuntu</CodeBlockTabsTrigger>
+  </CodeBlockTabsList>
 
-```
-sudo apt-get install picocom
-```
+  <CodeBlockTab value="Windows">
 
-If the serial line is connected, you can see what the serial device file is, and the following example is <font color=#ff0000 size=2>/dev/ttyUSB0</font>
+    ### Install Driver
 
-```
-$ ls /dev/ttyUSB*
-/dev/ttyUSB0
-```
+    Download driver and install:
 
-Run:
+    - [CH340](https://www.wch.cn/downloads/CH341SER_EXE.html)
+    - [PL2303](https://www.prolific.com.tw/en/portfolio-item/pl2303gl/)
+    - [CP210X](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
-```
-$ picocom -b 115200 /dev/ttyUSB0
-picocom v1.7
+    After the adapter is inserted, the system will prompt for the discovery of new hardware and initialization, and then the corresponding COM port can be found in the device manager:
 
-port is        : /dev/ttyUSB0
-flowcontrol    : none
-baudrate is    : 115200
-parity is      : none
-databits are   : 8
-escape is      : C-a
-local echo is  : no
-noinit is      : no
-noreset is     : no
-nolock is      : no
-send_cmd is    : sz -vv
-receive_cmd is : rz -vv
-imap is        : 
-omap is        : 
-emap is        : crcrlf,delbs,
+    <center>
 
-Terminal ready
-```
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_find_com.png" width="800">
+    </center>
 
-Messages above say that <font color=#ff0000 size=3>`Ctrl-a`</font> is the escape key. Pressing <font color=#ff0000 size=3>`Ctrl-a Ctrl-q`</font> can quit the terminal. Besides <font color=#ff0000 size=3>`Ctrl-q`</font>, there are several control commands frequently used:
+    ### Install Software
 
-* Ctrl-u : increase baud rate
-* Ctrl-d : decrease baud rate
-* Ctrl-f : cycle through flow controls (RTS/CTS, XON/XOFF,  and none).
-* Ctrl-y : cycle through parity check (even, odd and none).
-* Ctrl-b : cycle throught data bit (5, 6, 7, 8).
-* Ctrl-c : toggle local echo.
-* Ctrl-v : show program options (like baud rate, data bits, etc).
+    Putty or SecureCRT is generally used on Windows; the free version of MobaXterm is recommended. It is a powerful terminal software, and its usage is similar to the tools above.
+
+    [Download MobaXterm](https://mobaxterm.mobatek.net/):
+
+    1. Select `session` as `Serial`.
+    2. Modify `Serial port` to the COM port found in the device manager.
+    3. Set `Speed (bsp)` to 115200.
+    4. Click `OK` button.
+
+    <center>
+
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm1.png" width="800">
+    </center>
+
+    <center>
+
+    <img alt="" src="../../../modules_img/USB-TO-TTL-Serial/debug_set_MobaXterm2.png" width="800">
+    </center>
+
+  </CodeBlockTab>
+
+  <CodeBlockTab value="Ubuntu">
+
+    There are many options available on Ubuntu:
+
+    - minicom
+    - picocom
+    - kermit
+
+    The following shows how to use minicom.
+
+    ### Install minicom
+
+    ```bash
+    sudo apt-get install minicom
+    ```
+
+    After connecting the serial port line, check the serial port device file. The following example is `/dev/ttyUSB0`:
+
+    ```console
+    $ ls /dev/ttyUSB*
+    /dev/ttyUSB0
+    ```
+
+    Run:
+
+    ```console
+    $ sudo minicom
+    Welcome to minicom 2.7
+    OPTIONS: I18n
+    Compiled on Jan  1 2014, 17:13:19.
+    Port /dev/ttyUSB0, 15:57:00
+    Press CTRL-A Z for help on special keys
+    ```
+
+    Based on the above tips: Press `Ctrl-a` and then press `Z` again to bring up the help menu.
+
+    Press `O` to enter the setting interface, select `Serial port setup`, then enter the letter prompted earlier, and set it as follows:
+
+    ```text
+       E -    Bps/Par/Bits       : 115200 8N1
+       F - Hardware Flow Control : No
+       G - Software Flow Control : No
+    ```
+
+    <Callout title="Note" type="warn">
+
+    `Hardware Flow Control` and `Software Flow Control` should be set to `No`, otherwise you may not be able to input.
+
+    </Callout>
+
+    After finishing the setting, go back to the previous menu and select `Save setup as dfl` to save as the default configuration, which will be used by default later.
+
+  </CodeBlockTab>
+</CodeBlockTabs>

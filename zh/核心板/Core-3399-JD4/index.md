@@ -1,6 +1,6 @@
 # 产品简介
 - [产品概述](started.md)
-- [串口调试](debug.md)
+- [Debug 使用](debug.md)
 # 上手指南
 - [介绍](01-bootmode.md)
 - [使用USB线缆升级固件](loader_mode.md)
