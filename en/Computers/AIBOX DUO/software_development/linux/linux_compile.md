@@ -66,27 +66,25 @@ There are many config files (xxxx_defconfig) under `device/rockchip/rk3588/`, th
 
 And their names will be like:
 ```
-<vendor>_<chip>_<model>-<extra>_<OS>_defconfig
+<vendor>_<chip>_<model>-<extra>_defconfig
 vendor: vendor of the product
 chip: soc the product used
 model: product model, means this config file is for that specific product.
 extra: some extra features, could be empty
-OS: the operating system that will be running in product
 ```
 
-About config file contents, take firefly_rk3588_lga-3588l-mini-duo_rk182x_ubuntu_defconfig as an example:
+About config file contents, take firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig as an example:
 ```bash
-RK_KERNEL_CFG_FRAGMENTS+="firefly.config firefly-rk182x.config firefly-net.config"   # set the config fragments to be used during kernel compilation
-RK_KERNEL_DTS_NAME="rk3588-firefly-lga-3588l-mini-duo-rk182x"                        # set the dts to be used during kernel compilation
-RK_PRODUCT_MODEL="LGA-3588L-MINI-DUO-RK182X"                                         # product name/model
-RK_ROOTFS_PREBUILT_PATH="prebuilt_rootfs/rk3588_ubuntu_rootfs.img"                   # set the prebuilt rootfs to be used
-RK_EXTRA_PARTITION_NUM=1                                                             # number of extra partitions
-RK_EXTRA_PARTITION_1_DEV="oem"                                                       # oem partition
-RK_EXTRA_PARTITION_1_NAME="oem"                                                      # partition name
-RK_EXTRA_PARTITION_1_FSTYPE="ext4"                                                   # partition filesystem type
-RK_EXTRA_PARTITION_1_SRC="rk1828-policy"                                             # directory location
-RK_EXTRA_PARTITION_1_SIZE="128M"                                                     # partition size
-RK_PARAMETER="parameter-firefly.txt"                                                 # set the partition parameter
+#include "firefly.config"                                             # include the common config
+RK_KERNEL_DTS_NAME="rk3588-firefly-lga-3588l-mini-duo-rk182x"         # set the dts to be used during kernel compilation
+RK_PRODUCT_MODEL="LGA-3588L-MINI-DUO-RK182X"                          # product name/model
+RK_KERNEL_CFG_FRAGMENTS+="firefly-rk182x.config firefly-net.config"   # set the config fragments to be used during kernel compilation
+RK_EXTRA_PARTITION_NUM=1                                              # number of extra partitions
+RK_EXTRA_PARTITION_1_DEV="oem"                                        # oem partition
+RK_EXTRA_PARTITION_1_NAME="oem"                                       # partition name
+RK_EXTRA_PARTITION_1_FSTYPE="ext4"                                    # partition filesystem type
+RK_EXTRA_PARTITION_1_SRC="rk1828-policy"                              # directory location
+RK_EXTRA_PARTITION_1_SIZE="128M"                                      # partition size
 ```
 
 </Accordion>
@@ -153,53 +151,58 @@ unzip device-tree-compiler ncurses-dev p7zip-full
 
 Download rootfs here [Ubuntu24.04 rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/290), please use rootfs under kernel-6.12 folder.
 
-After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/, then create a symbolic link.
+After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/. The symbolic link is created in the "Select rootfs" step below.
 
 ```bash
 # Decompress
 7z x Ubuntu24.04-xxxx.7z
 mkdir ./SDK/prebuilt_rootfs/
 mv Ubuntu24.04-xxxx.img ./SDK/prebuilt_rootfs/
-cd ./SDK/prebuilt_rootfs/
-ln -sf Ubuntu24.04-xxxx.img rk3588_ubuntu_rootfs.img
-cd ..
 ```
 
 ### Configurations [step]
 
-Run `./build.sh lunch` to list all available configs, enter a number to select. Please choose one with "ubuntu" keyword:
+Run `./build.sh lunch` to list all available configs, then enter the number of the config for your board:
 ```bash
 ./build.sh lunch
 \n############### Rockchip Linux SDK ###############\n
 Manifest: common_linux6.12_next.xml
-GIT commit: "c5b718df fix: oem add 1828 sodimm deb and set default"
+GIT commit: "aa3794d3 fix: del lga-3588l-mini-duo"
 Log colors: message notice warning error fatal
-Log saved at /home4/lhj/arm64/rockchip/rk3588_6.12.69_sdk/output/sessions/2026-11-17_17-48-59
+Log saved at /home2/zhangyw/linux_612/output/sessions/2026-11-24_17-40-42
 Pick a defconfig:\n
 1. rockchip_defconfig
-2. firefly_rk3588_aio-3588jd4_ubuntu_defconfig
-3. firefly_rk3588_aio-3588l-qua_rk182x_debian_defconfig
-4. firefly_rk3588_aio-3588l-qua_rk182x_ubuntu_defconfig
-5. firefly_rk3588_aio-3588l_ubuntu_defconfig
-6. firefly_rk3588_aio-3588q_defconfig
-7. firefly_rk3588_aio-3588sg_ubuntu_defconfig
-8. firefly_rk3588_aio-3588sjd4_defconfig
-9. firefly_rk3588_itx-3588j_ubuntu_defconfig
-10. firefly_rk3588_lga-3588l-mini-duo_rk182x_debian_defconfig
-11. firefly_rk3588_lga-3588l-mini-duo_rk182x_ubuntu_defconfig
-12. firefly_rk3588_roc-rk3588-rt_defconfig
-13. firefly_rk3588_roc-rk3588s-pc_defconfig
-14. rockchip_rk3588_evb10_v10_defconfig
-15. rockchip_rk3588_evb1_lp4_v10_amp_defconfig
-16. rockchip_rk3588_evb1_lp4_v10_defconfig
-17. rockchip_rk3588_evb1_lp4_v10_mcu_defconfig
-18. rockchip_rk3588_evb7_v11_defconfig
-19. rockchip_rk3588_ipc_evb1_v10_defconfig
-20. rockchip_rk3588_ipc_evb7_lp4_v11_defconfig
-21. rockchip_rk3588_multi_ipc_evb1_v10_defconfig
-22. rockchip_rk3588_thunderboot_evb7_v11_defconfig
-23. rockchip_rk3588s_evb1_lp4x_v10_defconfig
+2. firefly_rk3588_aio-3588jd4_defconfig
+3. firefly_rk3588_aio-3588l-qua_rk182x_defconfig
+4. firefly_rk3588_aio-3588l_defconfig
+5. firefly_rk3588_aio-3588q_defconfig
+6. firefly_rk3588_aio-3588sg_defconfig
+7. firefly_rk3588_aio-3588sjd4_defconfig
+8. firefly_rk3588_itx-3588j_defconfig
+9. firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig
+10. firefly_rk3588_roc-rk3588-rt_defconfig
+11. firefly_rk3588_roc-rk3588s-pc_defconfig
+12. rockchip_rk3588_evb10_v10_defconfig
+13. rockchip_rk3588_evb1_lp4_v10_amp_defconfig
+14. rockchip_rk3588_evb1_lp4_v10_defconfig
+15. rockchip_rk3588_evb1_lp4_v10_mcu_defconfig
+16. rockchip_rk3588_evb7_v11_defconfig
+17. rockchip_rk3588_ipc_evb1_v10_defconfig
+18. rockchip_rk3588_ipc_evb7_lp4_v11_defconfig
+19. rockchip_rk3588_multi_ipc_evb1_v10_defconfig
+20. rockchip_rk3588_thunderboot_evb7_v11_defconfig
+21. rockchip_rk3588s_evb1_lp4x_v10_defconfig
 Which would you like? [1]:
+```
+
+### Select rootfs [step]
+
+Create the `rootfs.img` symlink under `prebuilt_rootfs/`, pointing to the downloaded rootfs image:
+
+```bash
+cd ./SDK/prebuilt_rootfs/
+ln -sf Ubuntu24.04-xxxx.img rootfs.img
+cd ..
 ```
 
 ### Compilation [step]
@@ -252,53 +255,58 @@ unzip device-tree-compiler ncurses-dev p7zip-full
 
 Download rootfs here [Debian13 Rootfs](https://community.t-firefly.com/en/doc/download/161), please use rootfs under kernel-6.12 folder.
 
-After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/, then create a symbolic link.
+After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/. The symbolic link is created in the "Select rootfs" step below.
 ```bash
 # Decompress
 7z x debian13_xxxx_rootfs_xxxx.7z
-# Move the decompressed rootfs image to sdk and then create a symbolic link.
+# Move the decompressed rootfs image to sdk.
 mkdir ./SDK/prebuilt_rootfs/
 mv debian13_xxxx_rootfs_xxxx.img ./SDK/prebuilt_rootfs/
-cd ./SDK/prebuilt_rootfs/
-ln -sf debian13_xxxx_rtoofs_xxxx.img rk3588_debian_rootfs.img
-cd ..
 ```
 
 ### Configurations [step]
 
-Run `./build.sh lunch` to list all available configs, enter a number to select. Please choose one with "debian" keyword:
+Run `./build.sh lunch` to list all available configs, then enter the number of the config for your board:
 ```bash
 ./build.sh lunch
 \n############### Rockchip Linux SDK ###############\n
 Manifest: common_linux6.12_next.xml
-GIT commit: "c5b718df fix: oem add 1828 sodimm deb and set default"
+GIT commit: "aa3794d3 fix: del lga-3588l-mini-duo"
 Log colors: message notice warning error fatal
-Log saved at /home4/lhj/arm64/rockchip/rk3588_6.12.69_sdk/output/sessions/2026-11-17_17-48-59
+Log saved at /home2/zhangyw/linux_612/output/sessions/2026-11-24_17-40-42
 Pick a defconfig:\n
 1. rockchip_defconfig
-2. firefly_rk3588_aio-3588jd4_ubuntu_defconfig
-3. firefly_rk3588_aio-3588l-qua_rk182x_debian_defconfig
-4. firefly_rk3588_aio-3588l-qua_rk182x_ubuntu_defconfig
-5. firefly_rk3588_aio-3588l_ubuntu_defconfig
-6. firefly_rk3588_aio-3588q_defconfig
-7. firefly_rk3588_aio-3588sg_ubuntu_defconfig
-8. firefly_rk3588_aio-3588sjd4_defconfig
-9. firefly_rk3588_itx-3588j_ubuntu_defconfig
-10. firefly_rk3588_lga-3588l-mini-duo_rk182x_debian_defconfig
-11. firefly_rk3588_lga-3588l-mini-duo_rk182x_ubuntu_defconfig
-12. firefly_rk3588_roc-rk3588-rt_defconfig
-13. firefly_rk3588_roc-rk3588s-pc_defconfig
-14. rockchip_rk3588_evb10_v10_defconfig
-15. rockchip_rk3588_evb1_lp4_v10_amp_defconfig
-16. rockchip_rk3588_evb1_lp4_v10_defconfig
-17. rockchip_rk3588_evb1_lp4_v10_mcu_defconfig
-18. rockchip_rk3588_evb7_v11_defconfig
-19. rockchip_rk3588_ipc_evb1_v10_defconfig
-20. rockchip_rk3588_ipc_evb7_lp4_v11_defconfig
-21. rockchip_rk3588_multi_ipc_evb1_v10_defconfig
-22. rockchip_rk3588_thunderboot_evb7_v11_defconfig
-23. rockchip_rk3588s_evb1_lp4x_v10_defconfig
+2. firefly_rk3588_aio-3588jd4_defconfig
+3. firefly_rk3588_aio-3588l-qua_rk182x_defconfig
+4. firefly_rk3588_aio-3588l_defconfig
+5. firefly_rk3588_aio-3588q_defconfig
+6. firefly_rk3588_aio-3588sg_defconfig
+7. firefly_rk3588_aio-3588sjd4_defconfig
+8. firefly_rk3588_itx-3588j_defconfig
+9. firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig
+10. firefly_rk3588_roc-rk3588-rt_defconfig
+11. firefly_rk3588_roc-rk3588s-pc_defconfig
+12. rockchip_rk3588_evb10_v10_defconfig
+13. rockchip_rk3588_evb1_lp4_v10_amp_defconfig
+14. rockchip_rk3588_evb1_lp4_v10_defconfig
+15. rockchip_rk3588_evb1_lp4_v10_mcu_defconfig
+16. rockchip_rk3588_evb7_v11_defconfig
+17. rockchip_rk3588_ipc_evb1_v10_defconfig
+18. rockchip_rk3588_ipc_evb7_lp4_v11_defconfig
+19. rockchip_rk3588_multi_ipc_evb1_v10_defconfig
+20. rockchip_rk3588_thunderboot_evb7_v11_defconfig
+21. rockchip_rk3588s_evb1_lp4x_v10_defconfig
 Which would you like? [1]:
+```
+
+### Select rootfs [step]
+
+Create the `rootfs.img` symlink under `prebuilt_rootfs/`, pointing to the downloaded rootfs image:
+
+```bash
+cd ./SDK/prebuilt_rootfs/
+ln -sf debian13_xxxx_rootfs_xxxx.img rootfs.img
+cd ..
 ```
 
 ### Compilation [step]
