@@ -4,7 +4,7 @@
 
 下图即 CQ38W-3576 的电源接口，请对照实物将电源适配器接入该接口（以产品附带的电源适配器为准）：
 
-<center><img alt="CQ38W-3576 电源接口" src="../../../../common_img/quick_start/dc_12v_bare_board.png" width="202"></center>
+<center><img alt="CQ38W-3576 电源接口" src="../../../../common_img/quick_start/dc_12v_q38.png" width="673"></center>
 
 <Callout title="无法上电开机？" type="warn">若设备带有 auto_pwr 拨码开关，需将其拨到 ON 一侧方可上电开机；若发现无法上电开机，请先检查该开关是否打在 ON 侧。下图开关位置即为正确状态：</Callout>
 

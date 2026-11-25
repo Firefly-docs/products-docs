@@ -4,7 +4,7 @@
 
 The image below shows the power connector of iCore-3576Q38. Connect the power adapter to this connector (use the power adapter bundled with the product):
 
-<center><img alt="iCore-3576Q38 power connector" src="../../../../common_img/quick_start/dc_12v_bare_board.png" width="202"></center>
+<center><img alt="iCore-3576Q38 power connector" src="../../../../common_img/quick_start/dc_12v_q38.png" width="673"></center>
 
 <Callout title="Cannot power on?" type="warn">If the device has an auto_pwr DIP switch, it must be set to the ON side to power on. If the device fails to power on, check this switch first. The switch position in the image below is correct:</Callout>
 
