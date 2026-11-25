@@ -45,12 +45,12 @@ Detailed Interface Definition Reference:
 
 | CPU |  Board |
 | ---- | ---- |
-|RK3566|[AIO-3566JD4](../../Motherboard/AIO-3566JD4/interface_definition.md), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/interface_definition.md)| 
-|RK3568|[AIO-3568J](../../Motherboard/AIO-3568J/interface_definition.md), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/interface_definition.md), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC-SE/interface_definition.md), [ITX-3568JQ](../../Motherboard/ITX-3568JQ/interface_definition.md) |
-|RK3588|[ITX-3588J](../../Motherboard/ITX-3588J/interface_definition.md), [AIO-3588Q](../../Motherboard/AIO-3588Q/interface_definition.md), [AIO-3588L](../../Motherboard/AIO-3588L/interface_definition.md) |
-|RK3588S|[ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/interface_definition.md),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/interface_definition.md),[AIO-3588SG](../../Motherboard/AIO-3588SG/interface_definition.md) |
-| RK3576|[ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/interface_definition.md), [AIO-3576Q](../../Motherboard/AIO-3576Q/interface_definition.md), [AIO-3576C](../../Motherboard/AIO-3576C/interface_definition.md)|
-| RK3399|[AIO-3399C](../../Motherboard/AIO-3399C/interface_definition.md), [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/started.md)| 
+|RK3566|[AIO-3566JD4](../../Motherboard/AIO-3566JD4/product_introduction/started.md#interface-description), [ROC-RK3566-PC](../../Motherboard/ROC-RK3566-PC/product_introduction/started.md#interface-description)| 
+|RK3568|[AIO-3568J](../../Motherboard/AIO-3568J/product_introduction/started.md#interface-description), [ROC-RK3568-PC](../../Motherboard/ROC-RK3568-PC/product_introduction/started.md#interface-description), [ROC-RK3568-PC SE](../../Motherboard/ROC-RK3568-PC%20SE/product_introduction/started.md#interface-description), [ITX-3568JQ](../../Motherboard/ITX-3568JQ/product_introduction/started.md#interface-description) |
+|RK3588|[ITX-3588J](../../Motherboard/ITX-3588J/product_introduction/started.md#interface-description), [AIO-3588Q](../../Motherboard/AIO-3588Q/product_introduction/started.md#interface-description), [AIO-3588L](../../Motherboard/AIO-3588L/product_introduction/started.md#interface-description) |
+|RK3588S|[ROC-RK3588S-PC](../../Motherboard/ROC-RK3588S-PC/product_introduction/started.md#interface-description),[AIO-3588SJD4](../../Motherboard/AIO-3588SJD4/product_introduction/started.md#interface-description),[AIO-3588SG](../../Motherboard/AIO-3588SG/product_introduction/started.md#interface-description) |
+| RK3576|[ROC-RK3576-PC](../../Motherboard/ROC-RK3576-PC/product_introduction/started.md#interface-description), [AIO-3576Q](../../Motherboard/AIO-3576Q/product_introduction/started.md#interface-description), [AIO-3576C](../../Motherboard/AIO-3576C/product_introduction/started.md#interface-description)|
+| RK3399|[AIO-3399C](../../Motherboard/AIO-3399C/started.md), [ROC-RK3399-PC-PLUS](../../Motherboard/ROC-RK3399-PC-PLUS/started.md)| 
 
 
 # 3. Firmware and Resource download

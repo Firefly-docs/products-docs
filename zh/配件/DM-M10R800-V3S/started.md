@@ -56,12 +56,12 @@
 
 | 主控 |  板卡型号 |
 | ---- | ---- |
-|RK3566|[AIO-3566JD4](../../主板/AIO-3566JD4/interface_definition.md), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/interface_definition.md)| 
-|RK3568|[AIO-3568J](../../主板/AIO-3568J/interface_definition.md), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/interface_definition.md), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC-SE/interface_definition.md), [ITX-3568JQ](../../主板/ITX-3568JQ/interface_definition.md) |
-|RK3588|[ITX-3588J](../../主板/ITX-3588J/interface_definition.md), [AIO-3588Q](../../主板/AIO-3588Q/interface_definition.md), [AIO-3588L](../../主板/AIO-3588L/interface_definition.md) |
-|RK3588S|[ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/interface_definition.md),[AIO-3588SJD4](../../主板/AIO-3588SJD4/interface_definition.md),[AIO-3588SG](../../主板/AIO-3588SG/interface_definition.md) |
-| RK3576|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/interface_definition.md),[AIO-3576Q](../../主板/AIO-3576Q/interface_definition.md), [AIO-3576C](../../主板/AIO-3576C/interface_definition.md)|
-|RK3399|[AIO-3399C](../../主板/AIO-3399C/interface_definition.md), [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/started.md)| 
+|RK3566|[AIO-3566JD4](../../主板/AIO-3566JD4/product_introduction/started.md#接口描述), [ROC-RK3566-PC](../../主板/ROC-RK3566-PC/product_introduction/started.md#接口描述)| 
+|RK3568|[AIO-3568J](../../主板/AIO-3568J/product_introduction/started.md#接口描述), [ROC-RK3568-PC](../../主板/ROC-RK3568-PC/product_introduction/started.md#接口描述), [ROC-RK3568-PC SE](../../主板/ROC-RK3568-PC%20SE/product_introduction/started.md#接口描述), [ITX-3568JQ](../../主板/ITX-3568JQ/product_introduction/started.md#接口描述) |
+|RK3588|[ITX-3588J](../../主板/ITX-3588J/product_introduction/started.md#接口描述), [AIO-3588Q](../../主板/AIO-3588Q/product_introduction/started.md#接口描述), [AIO-3588L](../../主板/AIO-3588L/product_introduction/started.md#接口描述) |
+|RK3588S|[ROC-RK3588S-PC](../../主板/ROC-RK3588S-PC/product_introduction/started.md#接口描述),[AIO-3588SJD4](../../主板/AIO-3588SJD4/product_introduction/started.md#接口描述),[AIO-3588SG](../../主板/AIO-3588SG/product_introduction/started.md#接口描述) |
+| RK3576|[ROC-RK3576-PC](../../主板/ROC-RK3576-PC/product_introduction/started.md#接口描述),[AIO-3576Q](../../主板/AIO-3576Q/product_introduction/started.md#接口描述), [AIO-3576C](../../主板/AIO-3576C/product_introduction/started.md#接口描述)|
+|RK3399|[AIO-3399C](../../主板/AIO-3399C/started.md), [ROC-RK3399-PC-PLUS](../../主板/ROC-RK3399-PC-PLUS/started.md)| 
 
 # 3. 固件与资料下载
 相关文档和固件下载，见官网的[资料下载](https://community.t-firefly.com/doc/download/291)。
