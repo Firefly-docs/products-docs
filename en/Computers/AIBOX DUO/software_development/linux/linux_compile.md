@@ -66,25 +66,27 @@ There are many config files (xxxx_defconfig) under `device/rockchip/rk3588/`, th
 
 And their names will be like:
 ```
-<vendor>_<chip>_<model>-<extra>_defconfig
+<vendor>_<chip>_<model>-<extra>_<OS>_defconfig
 vendor: vendor of the product
 chip: soc the product used
 model: product model, means this config file is for that specific product.
 extra: some extra features, could be empty
+OS: the operating system that will be running in product
 ```
 
 About config file contents, take firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig as an example:
 ```bash
-#include "firefly.config"                                             # include the common config
-RK_KERNEL_DTS_NAME="rk3588-firefly-lga-3588l-mini-duo-rk182x"         # set the dts to be used during kernel compilation
-RK_PRODUCT_MODEL="LGA-3588L-MINI-DUO-RK182X"                          # product name/model
-RK_KERNEL_CFG_FRAGMENTS+="firefly-rk182x.config firefly-net.config"   # set the config fragments to be used during kernel compilation
-RK_EXTRA_PARTITION_NUM=1                                              # number of extra partitions
-RK_EXTRA_PARTITION_1_DEV="oem"                                        # oem partition
-RK_EXTRA_PARTITION_1_NAME="oem"                                       # partition name
-RK_EXTRA_PARTITION_1_FSTYPE="ext4"                                    # partition filesystem type
-RK_EXTRA_PARTITION_1_SRC="rk1828-policy"                              # directory location
-RK_EXTRA_PARTITION_1_SIZE="128M"                                      # partition size
+RK_KERNEL_CFG_FRAGMENTS+="firefly.config firefly-rk182x.config firefly-net.config"   # set the config fragments to be used during kernel compilation
+RK_KERNEL_DTS_NAME="rk3588-firefly-lga-3588l-mini-duo-rk182x"                        # set the dts to be used during kernel compilation
+RK_PRODUCT_MODEL="LGA-3588L-MINI-DUO-RK182X"                                         # product name/model
+RK_ROOTFS_PREBUILT_PATH="prebuilt_rootfs/rootfs.img"                                 # rootfs
+RK_EXTRA_PARTITION_NUM=1                                                             # number of extra partitions
+RK_EXTRA_PARTITION_1_DEV="oem"                                                       # oem partition
+RK_EXTRA_PARTITION_1_NAME="oem"                                                      # partition name
+RK_EXTRA_PARTITION_1_FSTYPE="ext4"                                                   # partition filesystem type
+RK_EXTRA_PARTITION_1_SRC="rk1828-policy"                                             # directory location
+RK_EXTRA_PARTITION_1_SIZE="128M"                                                     # partition size
+RK_PARAMETER="parameter-firefly.txt"                                                 # set the partition parameter
 ```
 
 </Accordion>
@@ -140,102 +142,128 @@ Build Ubuntu Firmware
 
 ### Preparations [step]
 
-Run these two commands to install necessary tools
+Run the following command to initialize the build environment. You can either install the dependencies directly on your machine via apt, or use docker to set up the required build environment. Using docker is recommended. The environment setup requires Internet access.
 ```bash
-sudo apt update
-sudo apt install repo git ssh make gcc libssl-dev liblz4-tool \
-expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
-qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib \
-unzip device-tree-compiler ncurses-dev p7zip-full
+cd xxx_sdk_dir
+bash firefly-build.sh init -d
+
+# If you prefer to set up the environment on the host via apt, use the following command:
+cd xxx_sdk_dir
+bash firefly-build.sh init -a
 ```
+After running init, the environment is set up automatically; just wait for it to finish. `init -d` generates Dockerfile.firefly and docker-compose.yml in the SDK directory, and the build environment is installed through these two files.
 
-Download rootfs here [Ubuntu24.04 rootfs(64-bit)](https://community.t-firefly.com/en/doc/download/290), please use rootfs under kernel-6.12 folder.
+Download the rootfs here: [Ubuntu24.04 rootfs (64-bit)](https://community.t-firefly.com/en/doc/download/), please use the rootfs under the kernel-6.12 folder.
 
-After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/. The symbolic link is created in the "Select rootfs" step below.
+After downloading, decompress the rootfs into SDK/prebuilt_rootfs/ and create a symbolic link.
 
 ```bash
 # Decompress
-7z x Ubuntu24.04-xxxx.7z
+7z x ubuntu24.04_xxxx_rootfs_xxxx.7z
+# Move the decompressed rootfs image to the SDK and create a symbolic link
 mkdir ./SDK/prebuilt_rootfs/
-mv Ubuntu24.04-xxxx.img ./SDK/prebuilt_rootfs/
+mv ubuntu24.04_xxxx_rootfs_xxxx.img ./SDK/prebuilt_rootfs/
+cd ./SDK/prebuilt_rootfs/
+ln -sf ubuntu24.04_xxxx_rootfs_xxxx.img rootfs.img
+cd ..
 ```
 
 ### Configurations [step]
 
-Run `./build.sh lunch` to list all available configs, then enter the number of the config for your board:
+The configuration before compilation consists of the following steps:
+
 ```bash
-./build.sh lunch
-\n############### Rockchip Linux SDK ###############\n
-Manifest: common_linux6.12_next.xml
-GIT commit: "aa3794d3 fix: del lga-3588l-mini-duo"
-Log colors: message notice warning error fatal
-Log saved at /home2/zhangyw/linux_612/output/sessions/2026-11-24_17-40-42
-Pick a defconfig:\n
-1. rockchip_defconfig
-2. firefly_rk3588_aio-3588jd4_defconfig
-3. firefly_rk3588_aio-3588l-qua_rk182x_defconfig
-4. firefly_rk3588_aio-3588l_defconfig
-5. firefly_rk3588_aio-3588q_defconfig
-6. firefly_rk3588_aio-3588sg_defconfig
-7. firefly_rk3588_aio-3588sjd4_defconfig
-8. firefly_rk3588_itx-3588j_defconfig
-9. firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig
-10. firefly_rk3588_roc-rk3588-rt_defconfig
-11. firefly_rk3588_roc-rk3588s-pc_defconfig
-12. rockchip_rk3588_evb10_v10_defconfig
-13. rockchip_rk3588_evb1_lp4_v10_amp_defconfig
-14. rockchip_rk3588_evb1_lp4_v10_defconfig
-15. rockchip_rk3588_evb1_lp4_v10_mcu_defconfig
-16. rockchip_rk3588_evb7_v11_defconfig
-17. rockchip_rk3588_ipc_evb1_v10_defconfig
-18. rockchip_rk3588_ipc_evb7_lp4_v11_defconfig
-19. rockchip_rk3588_multi_ipc_evb1_v10_defconfig
-20. rockchip_rk3588_thunderboot_evb7_v11_defconfig
-21. rockchip_rk3588s_evb1_lp4x_v10_defconfig
+# 1. Enter the docker bash (skip this step if you set up the environment on the host via apt):
+docker compose -f docker-compose.yml exec firefly-sdk bash
+
+# 2. Select the config. It lists all Firefly products; pick the number matching your carrier board:
+bash firefly-build.sh config
+
+[firefly] Pick a product:
+  1) firefly_rk3572_aio-3572q38_defconfig                 (Firefly AIO-3572Q38)
+  2) firefly_rk3572_ext-icore-3572q38_defconfig           (Firefly EXT-iCore-3572Q38 Linux)
+  3) firefly_rk3572_r3572a_defconfig                      (Firefly-R3572A)
+  4) firefly_rk3572_r5a_defconfig
+  5) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
+  6) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
+  7) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
+  8) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
+  9) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIO-3588L-QUA-RK182X)
+  10) firefly_rk3588_aio-3588l_defconfig                  (AIO-3588L)
+  11) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
+  12) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
+  13) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
+  14) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
+  15) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (LGA-3588L-MINI-DUO-RK182X)
+  16) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  17) firefly_rk3588_roc-rk3588s-pc_defconfig             (ROC-RK3588S-PC)
 Which would you like? [1]:
-```
 
-### Select rootfs [step]
+# 3. Generate the .config file:
+Enter the corresponding number after `Which would you like? [1]: `. For example, if the board is `LGA-3588L-MINI-DUO-RK182X`, select 15
 
-Create the `rootfs.img` symlink under `prebuilt_rootfs/`, pointing to the downloaded rootfs image:
+# 4. Choose how the rootfs is built:
+After selecting the xxx_defconfig and pressing Enter, you need to choose how the root filesystem is built. Since a prebuilt rootfs image is used here, select prebuilt_rootfs, i.e. number 2
 
-```bash
-cd ./SDK/prebuilt_rootfs/
-ln -sf Ubuntu24.04-xxxx.img rootfs.img
-cd ..
+[firefly] Pick a rootfs system:
+  1) buildroot
+  2) prebuilt_rootfs
+Which would you like? [1]: 2
 ```
 
 ### Compilation [step]
 
 #### Full Compilation
 
-Run
+Run the following command:
 ```bash
-./build.sh all
+bash firefly-build.sh all
 ```
 
-The output firmware will be `output/update/update.img`
+After the build completes, the full firmware will be generated at `output/update/update.img`
 
 #### Partial Compilation
 
-After a full compilation, if you modified kernel or uboot, you can do partial compilation to save time.
+Custom development usually only involves the kernel and u-boot. So after a full build has been done once, if you later modify the kernel or u-boot, you can do a partial build to speed things up.
 
 * Only build u-boot, will generate u-boot/uboot.img
 
 ```bash
-./build.sh uboot
+bash firefly-build.sh uboot
 ```
 
-* Only build kernel, will generate kernel/extboot.img.
+* Only build kernel, will generate kernel/extboot.img
 
 ```bash
-./build.sh extboot
+bash firefly-build.sh kernel
+```
+
+* Only build recovery, will generate output/firmware/recovery.img
+
+```bash
+bash firefly-build.sh recovery
 ```
 
 * Pack all parts to update.img
 
 ```bash
 ./build.sh updateimg
+```
+
+### Exit and Re-enter Docker [step]
+
+```bash
+# 1. Exit the shell; docker keeps running in the background
+exit
+
+# 2. Re-enter docker
+docker compose -f docker-compose.yml exec firefly-sdk bash
+
+# 3. Exit and stop docker
+docker compose -f docker-compose.yml down
+
+# 4. Start docker again
+docker compose -f docker-compose.yml run --rm firefly-sdk bash
 ```
     </CodeBlockTab>
 
@@ -244,102 +272,128 @@ Build Debian Firmware
 
 ### Preparations [step]
 
-Run these two commands to install necessary tools
+Run the following command to initialize the build environment. You can either install the dependencies directly on your machine via apt, or use docker to set up the required build environment. Using docker is recommended. The environment setup requires Internet access.
 ```bash
-sudo apt update
-sudo apt install repo git ssh make gcc libssl-dev liblz4-tool \
-expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
-qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib \
-unzip device-tree-compiler ncurses-dev p7zip-full
+cd xxx_sdk_dir
+bash firefly-build.sh init -d
+
+# If you prefer to set up the environment on the host via apt, use the following command:
+cd xxx_sdk_dir
+bash firefly-build.sh init -a
 ```
+After running init, the environment is set up automatically; just wait for it to finish. `init -d` generates Dockerfile.firefly and docker-compose.yml in the SDK directory, and the build environment is installed through these two files.
 
-Download rootfs here [Debian13 Rootfs](https://community.t-firefly.com/en/doc/download/161), please use rootfs under kernel-6.12 folder.
+Download the rootfs here: [Debian13 rootfs (64-bit)](https://community.t-firefly.com/en/doc/download/), please use the rootfs under the kernel-6.12 folder.
 
-After download, decompress and move the rootfs image to SDK/prebuilt_rootfs/. The symbolic link is created in the "Select rootfs" step below.
+After downloading, decompress the rootfs into SDK/prebuilt_rootfs/ and create a symbolic link.
+
 ```bash
 # Decompress
 7z x debian13_xxxx_rootfs_xxxx.7z
-# Move the decompressed rootfs image to sdk.
+# Move the decompressed rootfs image to the SDK and create a symbolic link
 mkdir ./SDK/prebuilt_rootfs/
 mv debian13_xxxx_rootfs_xxxx.img ./SDK/prebuilt_rootfs/
+cd ./SDK/prebuilt_rootfs/
+ln -sf debian13_xxxx_rootfs_xxxx.img rootfs.img
+cd ..
 ```
 
 ### Configurations [step]
 
-Run `./build.sh lunch` to list all available configs, then enter the number of the config for your board:
+The configuration before compilation consists of the following steps:
+
 ```bash
-./build.sh lunch
-\n############### Rockchip Linux SDK ###############\n
-Manifest: common_linux6.12_next.xml
-GIT commit: "aa3794d3 fix: del lga-3588l-mini-duo"
-Log colors: message notice warning error fatal
-Log saved at /home2/zhangyw/linux_612/output/sessions/2026-11-24_17-40-42
-Pick a defconfig:\n
-1. rockchip_defconfig
-2. firefly_rk3588_aio-3588jd4_defconfig
-3. firefly_rk3588_aio-3588l-qua_rk182x_defconfig
-4. firefly_rk3588_aio-3588l_defconfig
-5. firefly_rk3588_aio-3588q_defconfig
-6. firefly_rk3588_aio-3588sg_defconfig
-7. firefly_rk3588_aio-3588sjd4_defconfig
-8. firefly_rk3588_itx-3588j_defconfig
-9. firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig
-10. firefly_rk3588_roc-rk3588-rt_defconfig
-11. firefly_rk3588_roc-rk3588s-pc_defconfig
-12. rockchip_rk3588_evb10_v10_defconfig
-13. rockchip_rk3588_evb1_lp4_v10_amp_defconfig
-14. rockchip_rk3588_evb1_lp4_v10_defconfig
-15. rockchip_rk3588_evb1_lp4_v10_mcu_defconfig
-16. rockchip_rk3588_evb7_v11_defconfig
-17. rockchip_rk3588_ipc_evb1_v10_defconfig
-18. rockchip_rk3588_ipc_evb7_lp4_v11_defconfig
-19. rockchip_rk3588_multi_ipc_evb1_v10_defconfig
-20. rockchip_rk3588_thunderboot_evb7_v11_defconfig
-21. rockchip_rk3588s_evb1_lp4x_v10_defconfig
+# 1. Enter the docker bash (skip this step if you set up the environment on the host via apt):
+docker compose -f docker-compose.yml exec firefly-sdk bash
+
+# 2. Select the config. It lists all Firefly products; pick the number matching your carrier board:
+bash firefly-build.sh config
+
+[firefly] Pick a product:
+  1) firefly_rk3572_aio-3572q38_defconfig                 (Firefly AIO-3572Q38)
+  2) firefly_rk3572_ext-icore-3572q38_defconfig           (Firefly EXT-iCore-3572Q38 Linux)
+  3) firefly_rk3572_r3572a_defconfig                      (Firefly-R3572A)
+  4) firefly_rk3572_r5a_defconfig
+  5) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
+  6) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
+  7) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
+  8) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
+  9) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIO-3588L-QUA-RK182X)
+  10) firefly_rk3588_aio-3588l_defconfig                  (AIO-3588L)
+  11) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
+  12) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
+  13) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
+  14) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
+  15) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (LGA-3588L-MINI-DUO-RK182X)
+  16) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  17) firefly_rk3588_roc-rk3588s-pc_defconfig             (ROC-RK3588S-PC)
 Which would you like? [1]:
-```
 
-### Select rootfs [step]
+# 3. Generate the .config file:
+Enter the corresponding number after `Which would you like? [1]: `. For example, if the board is `LGA-3588L-MINI-DUO-RK182X`, select 15
 
-Create the `rootfs.img` symlink under `prebuilt_rootfs/`, pointing to the downloaded rootfs image:
+# 4. Choose how the rootfs is built:
+After selecting the xxx_defconfig and pressing Enter, you need to choose how the root filesystem is built. Since a prebuilt rootfs image is used here, select prebuilt_rootfs, i.e. number 2
 
-```bash
-cd ./SDK/prebuilt_rootfs/
-ln -sf debian13_xxxx_rootfs_xxxx.img rootfs.img
-cd ..
+[firefly] Pick a rootfs system:
+  1) buildroot
+  2) prebuilt_rootfs
+Which would you like? [1]: 2
 ```
 
 ### Compilation [step]
 
 #### Full Compilation
 
-Run
+Run the following command:
 ```bash
-./build.sh all
+bash firefly-build.sh all
 ```
 
-The output firmware will be `output/update/update.img`
+After the build completes, the full firmware will be generated at `output/update/update.img`
 
 #### Partial Compilation
 
-After a full compilation, if you modified kernel or uboot, you can do partial compilation to save time.
+Custom development usually only involves the kernel and u-boot. So after a full build has been done once, if you later modify the kernel or u-boot, you can do a partial build to speed things up.
 
 * Only build u-boot, will generate u-boot/uboot.img
 
 ```bash
-./build.sh uboot
+bash firefly-build.sh uboot
 ```
 
 * Only build kernel, will generate kernel/extboot.img
 
 ```bash
-./build.sh extboot
+bash firefly-build.sh kernel
+```
+
+* Only build recovery, will generate output/firmware/recovery.img
+
+```bash
+bash firefly-build.sh recovery
 ```
 
 * Pack all parts to update.img
 
 ```bash
 ./build.sh updateimg
+```
+
+### Exit and Re-enter Docker [step]
+
+```bash
+# 1. Exit the shell; docker keeps running in the background
+exit
+
+# 2. Re-enter docker
+docker compose -f docker-compose.yml exec firefly-sdk bash
+
+# 3. Exit and stop docker
+docker compose -f docker-compose.yml down
+
+# 4. Start docker again
+docker compose -f docker-compose.yml run --rm firefly-sdk bash
 ```
     </CodeBlockTab>
   </CodeBlockTabs>

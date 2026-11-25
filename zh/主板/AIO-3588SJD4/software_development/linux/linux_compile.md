@@ -1160,26 +1160,28 @@ $ tree -L 1
 
 配置文件命名规则：
 ```
-<vendor>_<chip>_<model>-<extra>_defconfig
+<vendor>_<chip>_<model>-<extra>_<OS>_defconfig
 vendor: 产品供应商
 chip: 产品所用的芯片
 model: 产品型号，表示这个配置文件是用于该型号的产品
 extra: 额外属性，可以为空
+OS: 产品将会运行的操作系统
 ```
 
 配置文件内容介绍，比如 firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig :
 
 ```bash
-#include "firefly.config"                                             # 引入公共配置
-RK_KERNEL_DTS_NAME="rk3588-firefly-lga-3588l-mini-duo-rk182x"         # 指定编译内核所使用的设备树
-RK_PRODUCT_MODEL="LGA-3588L-MINI-DUO-RK182X"                          # 产品名称/型号
-RK_KERNEL_CFG_FRAGMENTS+="firefly-rk182x.config firefly-net.config"   # 指定编译内核所使用的配置片段
-RK_EXTRA_PARTITION_NUM=1                                              # 额外分区数量
-RK_EXTRA_PARTITION_1_DEV="oem"                                        # oem 分区
-RK_EXTRA_PARTITION_1_NAME="oem"                                       # 分区名
-RK_EXTRA_PARTITION_1_FSTYPE="ext4"                                    # oem 分区的文件系统类型
-RK_EXTRA_PARTITION_1_SRC="rk1828-policy"                              # 目录位置
-RK_EXTRA_PARTITION_1_SIZE="128M"                                      # 分区大小
+RK_KERNEL_CFG_FRAGMENTS+="firefly.config firefly-rk182x.config firefly-net.config"   # 指定编译内核所使用的设备树
+RK_KERNEL_DTS_NAME="rk3588-firefly-lga-3588l-mini-duo-rk182x"                        # 指定编译内核所使用的设备树
+RK_PRODUCT_MODEL="LGA-3588L-MINI-DUO-RK182X"                                         # 产品名称/型号
+RK_ROOTFS_PREBUILT_PATH="prebuilt_rootfs/rootfs.img"                                 # 根文件系统
+RK_EXTRA_PARTITION_NUM=1                                                             # 额外分区数量
+RK_EXTRA_PARTITION_1_DEV="oem"                                                       # oem 分区
+RK_EXTRA_PARTITION_1_NAME="oem"                                                      # 分区名
+RK_EXTRA_PARTITION_1_FSTYPE="ext4"                                                   # oem 分区的文件系统类型
+RK_EXTRA_PARTITION_1_SRC="rk1828-policy"                                             # 目录位置
+RK_EXTRA_PARTITION_1_SIZE="128M"                                                     # 分区大小
+RK_PARAMETER="parameter-firefly.txt"                                                 # 分区表
 ```
 
 </Accordion>
@@ -1235,69 +1237,73 @@ parameter 中数字的单位是 “块”，每块 512 字节。所以 uboot 分
 
 ### 准备工作 [step]
 
-执行下面两条命令来安装需要的工具
+执行下面命令来初始化编译的环境,可以选择 apt 方式在本机的环境下直接安装,也可以选择使用 docker 来安装编译需要的环境,这里推荐使用 docker 环境进行编译,需要在联网的环境下搭建安装环境
 ```bash
-sudo apt update
-sudo apt install repo git ssh make gcc libssl-dev liblz4-tool \
-expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
-qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib \
-unzip device-tree-compiler ncurses-dev p7zip-full
+cd xxx_sdk_dir
+bash firefly-build.sh init -d
+
+# 如果选择使用 apt 的方式搭建安装环境,则使用下面的命令:
+cd xxx_sdk_dir
+bash firefly-build.sh init -a
 ```
+执行 init 指令以后,会自动进行环境的搭建,等待环境搭建完成即可,init -d 构建环境会在 SDK 目录下生成 Dockerfile.firefly 和 docker-compose.yml 文件,编译环境都安装在生成的两个文件中
 
-下载根文件系统：[Ubuntu 根文件系统(64位) Kernel6.12](https://community.t-firefly.com/doc/download/)，请使用网盘中 kernel-6.12 目录下的文件系统。
+下载根文件系统：[Ubuntu24.04 根文件系统(64位)](https://community.t-firefly.com/doc/download/)，请使用网盘中 kernel-6.12 目录下的文件系统。
 
-下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，软链接在「选择 rootfs」步骤中创建。
+下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 
 ```bash
 # 解压
-7z x Ubuntu24.04-xxxx.7z
+7z x ubuntu24.04_xxxx_rootfs_xxxx.7z
+# 将解压后的 rootfs 镜像移动到 sdk 并创建一个符号链接
 mkdir ./SDK/prebuilt_rootfs/
-mv Ubuntu24.04-xxxx.img ./SDK/prebuilt_rootfs/
+mv ubuntu24.04_xxxx_rootfs_xxxx.img ./SDK/prebuilt_rootfs/
+cd ./SDK/prebuilt_rootfs/
+ln -sf ubuntu24.04_xxxx_rootfs_xxxx.img rootfs.img
+cd ..
 ```
 
 ### 编译前配置 [step]
 
-执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应板型的配置文件：
-```bash
-./build.sh lunch
-\n############### Rockchip Linux SDK ###############\n
-Manifest: common_linux6.12_next.xml
-GIT commit: "aa3794d3 fix: del lga-3588l-mini-duo"
-Log colors: message notice warning error fatal
-Log saved at /home2/zhangyw/linux_612/output/sessions/2026-11-24_17-40-42
-Pick a defconfig:\n
-1. rockchip_defconfig
-2. firefly_rk3588_aio-3588jd4_defconfig
-3. firefly_rk3588_aio-3588l-qua_rk182x_defconfig
-4. firefly_rk3588_aio-3588l_defconfig
-5. firefly_rk3588_aio-3588q_defconfig
-6. firefly_rk3588_aio-3588sg_defconfig
-7. firefly_rk3588_aio-3588sjd4_defconfig
-8. firefly_rk3588_itx-3588j_defconfig
-9. firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig
-10. firefly_rk3588_roc-rk3588-rt_defconfig
-11. firefly_rk3588_roc-rk3588s-pc_defconfig
-12. rockchip_rk3588_evb10_v10_defconfig
-13. rockchip_rk3588_evb1_lp4_v10_amp_defconfig
-14. rockchip_rk3588_evb1_lp4_v10_defconfig
-15. rockchip_rk3588_evb1_lp4_v10_mcu_defconfig
-16. rockchip_rk3588_evb7_v11_defconfig
-17. rockchip_rk3588_ipc_evb1_v10_defconfig
-18. rockchip_rk3588_ipc_evb7_lp4_v11_defconfig
-19. rockchip_rk3588_multi_ipc_evb1_v10_defconfig
-20. rockchip_rk3588_thunderboot_evb7_v11_defconfig
-21. rockchip_rk3588s_evb1_lp4x_v10_defconfig
-Which would you like? [1]: 
-```
-
-### 选择 rootfs [step]
-
-在 `prebuilt_rootfs/` 下创建 `rootfs.img` 软链接，指向下载的根文件系统镜像：
+编译前的配置步骤分为如下步骤进行:
 
 ```bash
-cd ./SDK/prebuilt_rootfs/
-ln -sf Ubuntu24.04-xxxx.img rootfs.img
-cd ..
+# 1. 进入 docker bash(如果使用 apt 方式实体搭建,则不需要执行这个步骤):
+docker compose -f docker-compose.yml exec firefly-sdk bash
+
+# 2. 选配置,会列出 firefly 的所有产品,根据自己的底板选择对应编号的配置文件即可:
+bash firefly-build.sh config
+
+[firefly] Pick a product:
+  1) firefly_rk3572_aio-3572q38_defconfig                 (Firefly AIO-3572Q38)
+  2) firefly_rk3572_ext-icore-3572q38_defconfig           (Firefly EXT-iCore-3572Q38 Linux) 
+  3) firefly_rk3572_r3572a_defconfig                      (Firefly-R3572A)
+  4) firefly_rk3572_r5a_defconfig      
+  5) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
+  6) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
+  7) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
+  8) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
+  9) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIO-3588L-QUA-RK182X)
+  10) firefly_rk3588_aio-3588l_defconfig                  (AIO-3588L)
+  11) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
+  12) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
+  13) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
+  14) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
+  15) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (LGA-3588L-MINI-DUO-RK182X)
+  16) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  17) firefly_rk3588_roc-rk3588s-pc_defconfig             (ROC-RK3588S-PC)
+Which would you like? [1]:
+
+# 3. 生成 .config 文件:
+在 `Which would you like? [1]: `后面选择对应的编号,比如现在的板子是 `LGA-3588L-MINI-DUO-RK182X` ,则选择15
+
+# 4. 选择根文件系统的构建方式:
+在选择 xxx_defconfig 回车以后,需要继续选择根文件系统的构建方式,这里因为采用的是构建完成的根文件系统镜像,所以选择 prebuilt_rootfs 即可,编号为 2
+
+[firefly] Pick a rootfs system:
+  1) buildroot
+  2) prebuilt_rootfs
+Which would you like? [1]: 2
 ```
 
 ### 编译 [step]
@@ -1306,7 +1312,7 @@ cd ..
 
 执行如下命令即可
 ```bash
-./build.sh all
+bash firefly-build.sh all
 ```
 
 编译完成后会生成完整固件 `output/update/update.img`
@@ -1318,19 +1324,41 @@ cd ..
 * 单独编译 u-boot，生成 u-boot/uboot.img
 
 ```bash
-./build.sh uboot
+bash firefly-build.sh uboot
 ```
 
-* 单独编译 kernel，生成 kernel/extboot.img.
+* 单独编译 kernel，生成 kernel/extboot.img
 
 ```bash
-./build.sh extboot
+bash firefly-build.sh kernel
+```
+
+* 单独编译 recovery，生成 output/firmware/recovery.img
+
+```bash
+bash firefly-build.sh recovery
 ```
 
 * 将各部件打包成 update.img
 
 ```bash
 ./build.sh updateimg
+```
+
+### 退出与重入 docker [step]
+
+```bash
+# 1. 退出 shell,docker 在后台继续运行
+exit
+
+# 2. 重新进入 docker
+docker compose -f docker-compose.yml exec firefly-sdk bash
+
+# 3. 退出并关闭 docker 的运行
+docker compose -f docker-compose.yml down
+
+# 4. 重新开机 docker
+docker compose -f docker-compose.yml run --rm firefly-sdk bash
 ```
     </CodeBlockTab>
 
@@ -1339,70 +1367,73 @@ cd ..
 
 ### 准备工作 [step]
 
-执行下面两条命令来安装需要的工具
+执行下面命令来初始化编译的环境,可以选择 apt 方式在本机的环境下直接安装,也可以选择使用 docker 来安装编译需要的环境,这里推荐使用 docker 环境进行编译,需要在联网的环境下搭建安装环境
 ```bash
-sudo apt update
-sudo apt install repo git ssh make gcc libssl-dev liblz4-tool \
-expect g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support \
-qemu-user-static live-build bison flex fakeroot cmake gcc-multilib g++-multilib \
-unzip device-tree-compiler ncurses-dev p7zip-full
+cd xxx_sdk_dir
+bash firefly-build.sh init -d
+
+# 如果选择使用 apt 的方式搭建安装环境,则使用下面的命令:
+cd xxx_sdk_dir
+bash firefly-build.sh init -a
 ```
+执行 init 指令以后,会自动进行环境的搭建,等待环境搭建完成即可,init -d 构建环境会在 SDK 目录下生成 Dockerfile.firefly 和 docker-compose.yml 文件,编译环境都安装在生成的两个文件中
 
-下载根文件系统：[Debian 根文件系统(64位)](https://community.t-firefly.com/doc/download/)，请使用网盘中 kernel-6.12 目录下的文件系统。
+下载根文件系统：[Debian13 根文件系统(64位)](https://community.t-firefly.com/doc/download/)，请使用网盘中 kernel-6.12 目录下的文件系统。
 
-下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，软链接在「选择 rootfs」步骤中创建。
+下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 
 ```bash
 # 解压
 7z x debian13_xxxx_rootfs_xxxx.7z
-# 将解压后的 rootfs 镜像移动到 sdk
+# 将解压后的 rootfs 镜像移动到 sdk 并创建一个符号链接
 mkdir ./SDK/prebuilt_rootfs/
 mv debian13_xxxx_rootfs_xxxx.img ./SDK/prebuilt_rootfs/
+cd ./SDK/prebuilt_rootfs/
+ln -sf debian13_xxxx_rootfs_xxxx.img rootfs.img
+cd ..
 ```
 
 ### 编译前配置 [step]
 
-执行 `./build.sh lunch` 列出所有可用的配置文件，输入编号选择对应板型的配置文件：
-```bash
-./build.sh lunch
-\n############### Rockchip Linux SDK ###############\n
-Manifest: common_linux6.12_next.xml
-GIT commit: "aa3794d3 fix: del lga-3588l-mini-duo"
-Log colors: message notice warning error fatal
-Log saved at /home2/zhangyw/linux_612/output/sessions/2026-11-24_17-40-42
-Pick a defconfig:\n
-1. rockchip_defconfig
-2. firefly_rk3588_aio-3588jd4_defconfig
-3. firefly_rk3588_aio-3588l-qua_rk182x_defconfig
-4. firefly_rk3588_aio-3588l_defconfig
-5. firefly_rk3588_aio-3588q_defconfig
-6. firefly_rk3588_aio-3588sg_defconfig
-7. firefly_rk3588_aio-3588sjd4_defconfig
-8. firefly_rk3588_itx-3588j_defconfig
-9. firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig
-10. firefly_rk3588_roc-rk3588-rt_defconfig
-11. firefly_rk3588_roc-rk3588s-pc_defconfig
-12. rockchip_rk3588_evb10_v10_defconfig
-13. rockchip_rk3588_evb1_lp4_v10_amp_defconfig
-14. rockchip_rk3588_evb1_lp4_v10_defconfig
-15. rockchip_rk3588_evb1_lp4_v10_mcu_defconfig
-16. rockchip_rk3588_evb7_v11_defconfig
-17. rockchip_rk3588_ipc_evb1_v10_defconfig
-18. rockchip_rk3588_ipc_evb7_lp4_v11_defconfig
-19. rockchip_rk3588_multi_ipc_evb1_v10_defconfig
-20. rockchip_rk3588_thunderboot_evb7_v11_defconfig
-21. rockchip_rk3588s_evb1_lp4x_v10_defconfig
-Which would you like? [1]: 
-```
-
-### 选择 rootfs [step]
-
-在 `prebuilt_rootfs/` 下创建 `rootfs.img` 软链接，指向下载的根文件系统镜像：
+编译前的配置步骤分为如下步骤进行:
 
 ```bash
-cd ./SDK/prebuilt_rootfs/
-ln -sf debian13_xxxx_rootfs_xxxx.img rootfs.img
-cd ..
+# 1. 进入 docker bash(如果使用 apt 方式实体搭建,则不需要执行这个步骤):
+docker compose -f docker-compose.yml exec firefly-sdk bash
+
+# 2. 选配置,会列出 firefly 的所有产品,根据自己的底板选择对应编号的配置文件即可:
+bash firefly-build.sh config
+
+[firefly] Pick a product:
+  1) firefly_rk3572_aio-3572q38_defconfig                 (Firefly AIO-3572Q38)
+  2) firefly_rk3572_ext-icore-3572q38_defconfig           (Firefly EXT-iCore-3572Q38 Linux) 
+  3) firefly_rk3572_r3572a_defconfig                      (Firefly-R3572A)
+  4) firefly_rk3572_r5a_defconfig      
+  5) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
+  6) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
+  7) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
+  8) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
+  9) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIO-3588L-QUA-RK182X)
+  10) firefly_rk3588_aio-3588l_defconfig                  (AIO-3588L)
+  11) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
+  12) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
+  13) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
+  14) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
+  15) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (LGA-3588L-MINI-DUO-RK182X)
+  16) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  17) firefly_rk3588_roc-rk3588s-pc_defconfig             (ROC-RK3588S-PC)
+Which would you like? [1]:
+
+# 3. 生成 .config 文件:
+在 `Which would you like? [1]: `后面选择对应的编号,比如我现在的底板是 `LGA-3588L-MINI-DUO-RK182X` ,我就选择15
+
+# 4. 选择根文件系统的构建方式:
+在选择 xxx_defconfig 回车以后,需要继续选择根文件系统的构建方式,这里因为采用的是构建完成的根文件系统镜像,所以选择 prebuilt_rootfs 即可,编号为 2
+
+[firefly] Pick a rootfs system:
+  1) buildroot
+  2) prebuilt_rootfs
+Which would you like? [1]: 2
 ```
 
 ### 编译 [step]
@@ -1411,7 +1442,7 @@ cd ..
 
 执行如下命令即可
 ```bash
-./build.sh all
+bash firefly-build.sh all
 ```
 
 编译完成后会生成完整固件 `output/update/update.img`
@@ -1423,19 +1454,41 @@ cd ..
 * 单独编译 u-boot，生成 u-boot/uboot.img
 
 ```bash
-./build.sh uboot
+bash firefly-build.sh uboot
 ```
 
 * 单独编译 kernel，生成 kernel/extboot.img
 
 ```bash
-./build.sh extboot
+bash firefly-build.sh kernel
+```
+
+* 单独编译 recovery，生成 output/firmware/recovery.img
+
+```bash
+bash firefly-build.sh recovery
 ```
 
 * 将各部件打包成 update.img
 
 ```bash
 ./build.sh updateimg
+```
+
+### 退出与重入 docker [step]
+
+```bash
+# 1. 退出 shell,docker 在后台继续运行
+exit
+
+# 2. 重新进入 docker
+docker compose -f docker-compose.yml exec firefly-sdk bash
+
+# 3. 退出并关闭 docker 的运行
+docker compose -f docker-compose.yml down
+
+# 4. 重新开机 docker
+docker compose -f docker-compose.yml run --rm firefly-sdk bash
 ```
     </CodeBlockTab>
   </CodeBlockTabs>
