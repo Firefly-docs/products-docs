@@ -1231,7 +1231,7 @@ bash firefly-build.sh init -a
 ```
 After running init, the environment is set up automatically; just wait for it to finish. `init -d` generates Dockerfile.firefly and docker-compose.yml in the SDK directory, and the build environment is installed through these two files.
 
-Download the rootfs here: [Ubuntu24.04 rootfs (64-bit)](https://community.t-firefly.com/en/doc/download/), please use the rootfs under the kernel-6.12 folder.
+Download the rootfs here: [Ubuntu24.04 rootfs (64-bit)](https://community.t-firefly.com/en/doc/download/), please use the rootfs under the Kernel-6.12 folder.
 
 After downloading, decompress the rootfs into SDK/prebuilt_rootfs/ and create a symbolic link.
 
@@ -1254,31 +1254,34 @@ The configuration before compilation consists of the following steps:
 # 1. Enter the docker bash (skip this step if you set up the environment on the host via apt):
 docker compose -f docker-compose.yml exec firefly-sdk bash
 
+# If Docker does not start and you are unable to enter bash, run the commands below to start Docker and get into the container.
+docker compose -f docker-compose.yml run --rm firefly-sdk bash
+
 # 2. Select the config. It lists all Firefly products; pick the number matching your carrier board:
 bash firefly-build.sh config
 
 [firefly] Pick a product:
-  1) firefly_rk3572_aio-3572q38_defconfig                 (Firefly AIO-3572Q38)
-  2) firefly_rk3572_ext-icore-3572q38_defconfig           (Firefly EXT-iCore-3572Q38 Linux)
+  1) firefly_rk3572_aio-3572q38_defconfig                 (AIO-3572Q38)
+  2) firefly_rk3572_ext-icore-3572q38_defconfig           (FlyCamera-RK3572)
   3) firefly_rk3572_r3572a_defconfig                      (Firefly-R3572A)
-  4) firefly_rk3572_r5a_defconfig
-  5) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
-  6) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
-  7) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
-  8) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
-  9) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIO-3588L-QUA-RK182X)
-  10) firefly_rk3588_aio-3588l_defconfig                  (AIO-3588L)
-  11) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
-  12) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
-  13) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
-  14) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
-  15) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (LGA-3588L-MINI-DUO-RK182X)
-  16) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  4) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
+  5) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
+  6) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
+  7) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
+  8) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIBOX-QUA)
+  9) firefly_rk3588_aio-3588l_defconfig                   (AIO-3588L)
+  10) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
+  11) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
+  12) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
+  13) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
+  14) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (AIBOX-DUO)
+  15) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  16) firefly_rk3588_roc-rk3588s-pc-ext_defconfig         (ROC-RK3588S-PC-EXT)
   17) firefly_rk3588_roc-rk3588s-pc_defconfig             (ROC-RK3588S-PC)
 Which would you like? [1]:
 
 # 3. Generate the .config file:
-Enter the corresponding number after `Which would you like? [1]: `. For example, if the board is `LGA-3588L-MINI-DUO-RK182X`, select 15
+Enter the corresponding number after `Which would you like? [1]: `. For example, if the board is `ITX-3588J`, select 13
 
 # 4. Choose how the rootfs is built:
 After selecting the xxx_defconfig and pressing Enter, you need to choose how the root filesystem is built. Since a prebuilt rootfs image is used here, select prebuilt_rootfs, i.e. number 2
@@ -1361,7 +1364,7 @@ bash firefly-build.sh init -a
 ```
 After running init, the environment is set up automatically; just wait for it to finish. `init -d` generates Dockerfile.firefly and docker-compose.yml in the SDK directory, and the build environment is installed through these two files.
 
-Download the rootfs here: [Debian13 rootfs (64-bit)](https://community.t-firefly.com/en/doc/download/), please use the rootfs under the kernel-6.12 folder.
+Download the rootfs here: [Debian13 rootfs (64-bit)](https://community.t-firefly.com/en/doc/download/), please use the rootfs under the Kernel-6.12 folder.
 
 After downloading, decompress the rootfs into SDK/prebuilt_rootfs/ and create a symbolic link.
 
@@ -1384,31 +1387,34 @@ The configuration before compilation consists of the following steps:
 # 1. Enter the docker bash (skip this step if you set up the environment on the host via apt):
 docker compose -f docker-compose.yml exec firefly-sdk bash
 
+# If Docker does not start and you are unable to enter bash, run the commands below to start Docker and get into the container.
+docker compose -f docker-compose.yml run --rm firefly-sdk bash
+
 # 2. Select the config. It lists all Firefly products; pick the number matching your carrier board:
 bash firefly-build.sh config
 
 [firefly] Pick a product:
-  1) firefly_rk3572_aio-3572q38_defconfig                 (Firefly AIO-3572Q38)
-  2) firefly_rk3572_ext-icore-3572q38_defconfig           (Firefly EXT-iCore-3572Q38 Linux)
+  1) firefly_rk3572_aio-3572q38_defconfig                 (AIO-3572Q38)
+  2) firefly_rk3572_ext-icore-3572q38_defconfig           (FlyCamera-RK3572)
   3) firefly_rk3572_r3572a_defconfig                      (Firefly-R3572A)
-  4) firefly_rk3572_r5a_defconfig
-  5) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
-  6) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
-  7) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
-  8) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
-  9) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIO-3588L-QUA-RK182X)
-  10) firefly_rk3588_aio-3588l_defconfig                  (AIO-3588L)
-  11) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
-  12) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
-  13) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
-  14) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
-  15) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (LGA-3588L-MINI-DUO-RK182X)
-  16) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  4) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
+  5) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
+  6) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
+  7) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
+  8) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIBOX-QUA)
+  9) firefly_rk3588_aio-3588l_defconfig                   (AIO-3588L)
+  10) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
+  11) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
+  12) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
+  13) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
+  14) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (AIBOX-DUO)
+  15) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  16) firefly_rk3588_roc-rk3588s-pc-ext_defconfig         (ROC-RK3588S-PC-EXT)
   17) firefly_rk3588_roc-rk3588s-pc_defconfig             (ROC-RK3588S-PC)
 Which would you like? [1]:
 
 # 3. Generate the .config file:
-Enter the corresponding number after `Which would you like? [1]: `. For example, if the board is `LGA-3588L-MINI-DUO-RK182X`, select 15
+Enter the corresponding number after `Which would you like? [1]: `. For example, if the board is `ITX-3588J`, select 13
 
 # 4. Choose how the rootfs is built:
 After selecting the xxx_defconfig and pressing Enter, you need to choose how the root filesystem is built. Since a prebuilt rootfs image is used here, select prebuilt_rootfs, i.e. number 2

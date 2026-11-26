@@ -1450,7 +1450,7 @@ bash firefly-build.sh init -a
 ```
 执行 init 指令以后,会自动进行环境的搭建,等待环境搭建完成即可,init -d 构建环境会在 SDK 目录下生成 Dockerfile.firefly 和 docker-compose.yml 文件,编译环境都安装在生成的两个文件中
 
-下载根文件系统：[Ubuntu24.04 根文件系统(64位)](https://community.t-firefly.com/doc/download/)，请使用网盘中 kernel-6.12 目录下的文件系统。
+下载根文件系统：[Ubuntu24.04 根文件系统(64位)](https://community.t-firefly.com/doc/download/)，请使用网盘中 Kernel-6.12 目录下的文件系统。
 
 下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 
@@ -1473,31 +1473,34 @@ cd ..
 # 1. 进入 docker bash(如果使用 apt 方式实体搭建,则不需要执行这个步骤):
 docker compose -f docker-compose.yml exec firefly-sdk bash
 
+# 如果 docker 没有启动无法进入 bash,则使用下面的指令启动 docker 并进入即可
+docker compose -f docker-compose.yml run --rm firefly-sdk bash
+
 # 2. 选配置,会列出 firefly 的所有产品,根据自己的底板选择对应编号的配置文件即可:
 bash firefly-build.sh config
 
 [firefly] Pick a product:
-  1) firefly_rk3572_aio-3572q38_defconfig                 (Firefly AIO-3572Q38)
-  2) firefly_rk3572_ext-icore-3572q38_defconfig           (Firefly EXT-iCore-3572Q38 Linux) 
+  1) firefly_rk3572_aio-3572q38_defconfig                 (AIO-3572Q38)
+  2) firefly_rk3572_ext-icore-3572q38_defconfig           (FlyCamera-RK3572)
   3) firefly_rk3572_r3572a_defconfig                      (Firefly-R3572A)
-  4) firefly_rk3572_r5a_defconfig      
-  5) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
-  6) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
-  7) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
-  8) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
-  9) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIO-3588L-QUA-RK182X)
-  10) firefly_rk3588_aio-3588l_defconfig                  (AIO-3588L)
-  11) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
-  12) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
-  13) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
-  14) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
-  15) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (LGA-3588L-MINI-DUO-RK182X)
-  16) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  4) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
+  5) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
+  6) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
+  7) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
+  8) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIBOX-QUA)
+  9) firefly_rk3588_aio-3588l_defconfig                   (AIO-3588L)
+  10) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
+  11) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
+  12) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
+  13) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
+  14) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (AIBOX-DUO)
+  15) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  16) firefly_rk3588_roc-rk3588s-pc-ext_defconfig         (ROC-RK3588S-PC-EXT)
   17) firefly_rk3588_roc-rk3588s-pc_defconfig             (ROC-RK3588S-PC)
 Which would you like? [1]:
 
 # 3. 生成 .config 文件:
-在 `Which would you like? [1]: `后面选择对应的编号,比如现在的板子是 `LGA-3588L-MINI-DUO-RK182X` ,则选择15
+在 `Which would you like? [1]: `后面选择对应的编号,比如现在的板子是 `ITX-3588J` ,则选择13
 
 # 4. 选择根文件系统的构建方式:
 在选择 xxx_defconfig 回车以后,需要继续选择根文件系统的构建方式,这里因为采用的是构建完成的根文件系统镜像,所以选择 prebuilt_rootfs 即可,编号为 2
@@ -1580,7 +1583,7 @@ bash firefly-build.sh init -a
 ```
 执行 init 指令以后,会自动进行环境的搭建,等待环境搭建完成即可,init -d 构建环境会在 SDK 目录下生成 Dockerfile.firefly 和 docker-compose.yml 文件,编译环境都安装在生成的两个文件中
 
-下载根文件系统：[Debian13 根文件系统(64位)](https://community.t-firefly.com/doc/download/)，请使用网盘中 kernel-6.12 目录下的文件系统。
+下载根文件系统：[Debian13 根文件系统(64位)](https://community.t-firefly.com/doc/download/)，请使用网盘中 Kernel-6.12 目录下的文件系统。
 
 下载后将文件系统解压到 SDK/prebuilt_rootfs/ 下，并创建链接
 
@@ -1603,31 +1606,34 @@ cd ..
 # 1. 进入 docker bash(如果使用 apt 方式实体搭建,则不需要执行这个步骤):
 docker compose -f docker-compose.yml exec firefly-sdk bash
 
+# 如果 docker 没有启动无法进入 bash,则使用下面的指令启动 docker 并进入即可
+docker compose -f docker-compose.yml run --rm firefly-sdk bash
+
 # 2. 选配置,会列出 firefly 的所有产品,根据自己的底板选择对应编号的配置文件即可:
 bash firefly-build.sh config
 
 [firefly] Pick a product:
-  1) firefly_rk3572_aio-3572q38_defconfig                 (Firefly AIO-3572Q38)
-  2) firefly_rk3572_ext-icore-3572q38_defconfig           (Firefly EXT-iCore-3572Q38 Linux) 
+  1) firefly_rk3572_aio-3572q38_defconfig                 (AIO-3572Q38)
+  2) firefly_rk3572_ext-icore-3572q38_defconfig           (FlyCamera-RK3572)
   3) firefly_rk3572_r3572a_defconfig                      (Firefly-R3572A)
-  4) firefly_rk3572_r5a_defconfig      
-  5) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
-  6) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
-  7) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
-  8) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
-  9) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIO-3588L-QUA-RK182X)
-  10) firefly_rk3588_aio-3588l_defconfig                  (AIO-3588L)
-  11) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
-  12) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
-  13) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
-  14) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
-  15) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (LGA-3588L-MINI-DUO-RK182X)
-  16) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  4) firefly_rk3576_aio-3576q38_defconfig                 (AIO-3576Q38)
+  5) firefly_rk3576_aio-3576q_defconfig                   (AIO-3576Q)
+  6) firefly_rk3576_roc-rk3576-pc_defconfig               (ROC-RK3576-PC)
+  7) firefly_rk3588_aio-3588jd4_defconfig                 (AIO-3588JD4)
+  8) firefly_rk3588_aio-3588l-qua_rk182x_defconfig        (AIBOX-QUA)
+  9) firefly_rk3588_aio-3588l_defconfig                   (AIO-3588L)
+  10) firefly_rk3588_aio-3588q_defconfig                  (AIO-3588Q)
+  11) firefly_rk3588_aio-3588sg_defconfig                 (AIO-3588SG)
+  12) firefly_rk3588_aio-3588sjd4_defconfig               (AIO-3588SJD4)
+  13) firefly_rk3588_itx-3588j_defconfig                  (ITX-3588J)
+  14) firefly_rk3588_lga-3588l-mini-duo_rk182x_defconfig  (AIBOX-DUO)
+  15) firefly_rk3588_roc-rk3588-rt_defconfig              (ROC-RK3588-RT)
+  16) firefly_rk3588_roc-rk3588s-pc-ext_defconfig         (ROC-RK3588S-PC-EXT)
   17) firefly_rk3588_roc-rk3588s-pc_defconfig             (ROC-RK3588S-PC)
 Which would you like? [1]:
 
 # 3. 生成 .config 文件:
-在 `Which would you like? [1]: `后面选择对应的编号,比如我现在的底板是 `LGA-3588L-MINI-DUO-RK182X` ,我就选择15
+在 `Which would you like? [1]: `后面选择对应的编号,比如我现在的底板是 `ITX-3588J` ,则选择13
 
 # 4. 选择根文件系统的构建方式:
 在选择 xxx_defconfig 回车以后,需要继续选择根文件系统的构建方式,这里因为采用的是构建完成的根文件系统镜像,所以选择 prebuilt_rootfs 即可,编号为 2
