@@ -85,7 +85,7 @@ The AIBOX-9075 provides 6 IO input channels (IO in) and 6 IO output channels (IO
 
 ### IN 
 #### Hardware
-<img alt="" src="../../../qcom_img/AIBOX-9075/io_in.png" width="900">
+<img alt="" src="../../../qcom_img/AIBOX-9075/io_in.png" width="360">
 INx, where x is the 1, 2, 3, 4, 5, 6 of IO-IN; IN_COMx, where x is the C1, C2, C3, C4, C5, C6 of IO-IN.
 INx can be driven by an external power supply with a current limiting resistor, or by an external GPIO driver. Pay attention to the magnitude of the current.
 
@@ -110,7 +110,7 @@ cat value
 
 ### OUT
 #### Hardware 
-<img alt="" src="../../../qcom_img/AIBOX-9075/io_out.png" width="900">
+<img alt="" src="../../../qcom_img/AIBOX-9075/io_out.png" width="360">
 OUTx, where x is the 1, 2, 3, 4, 5, 6 of IO-OUT; OUT_COMx, where x is the C1, C2, C3, C4, C5, C6 of IO-OUT.
 
 #### Software

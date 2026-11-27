@@ -86,7 +86,7 @@ AIBOX-9075 引出 6 路 IO 输入（IO in）与 6 路 IO 输出（IO out）。
 
 ### IN 
 #### 硬件接法
-<img alt="" src="../../../qcom_img/AIBOX-9075/io_in.png" width="900">
+<img alt="" src="../../../qcom_img/AIBOX-9075/io_in.png" width="360">
 INx 其中 x 是 IO_IN 的 1, 2, 3, 4, 5, 6; IN_COMx 其中 x 是 IO_IN 的 C1, C2, C3, C4, C5, C6。
 INx 可以使用外部电源加限流电阻驱动该引脚，也可以使用外部GPIO驱动。注意电流大小。
 
@@ -111,7 +111,7 @@ cat value
 
 ### OUT
 #### 硬件接法
-<img alt="" src="../../../qcom_img/AIBOX-9075/io_out.png" width="900">
+<img alt="" src="../../../qcom_img/AIBOX-9075/io_out.png" width="360">
 OUTx 其中 x 是 IO_OUT 的 1, 2, 3, 4, 5, 6; OUT_COMx 其中 x 是 IO_OUT 的 C1, C2, C3, C4, C5, C6。
 
 #### 软件使用
